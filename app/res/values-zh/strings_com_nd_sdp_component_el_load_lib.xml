@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="esv_loading_text">正在加载中，请稍候…</string>
+    <string name="esv_load_fail_text1">加载失败啦!</string>
+    <string name="esv_load_fail_text2">好像掉到了奇怪的地方!</string>
+    <string name="esv_load_empty_text1">暂无内容</string>
+    <string name="esv_load_empty_text2">偷懒君未添加相关内容哦!</string>
+    <string name="esv_load_fail_retry">重试</string>
+    <string name="esv_business_fail_text1">oh,出错了!</string>
+    <string name="esv_business_fail_text2">这里似乎发生了故障!</string>
+    <string name="esv_network_fail_text1">网络错误啦!</string>
+    <string name="esv_network_fail_text2">好像卡住了!</string>
+    <string name="esv_network_fail_text3">网络连接错误</string>
+    <string name="esv_fail_argument_error">参数错误</string>
+    <string name="esv_fail_not_login">未登录</string>
+    <string name="esv_fail_access_denied">无权限</string>
+    <string name="esv_fail_not_found">对象不存在</string>
+    <string name="esv_fail_internal_error">服务器内部错误</string>
+    <string name="esv_fail_unknown_error">未知错误</string>
+    <string name="esv_fail_data_error">数据解析失败</string>
+    <string name="esv_un_login_tip">账号未登录</string>
+    <string name="esv_un_login_retry_tip">请在登录后重试</string>
+    <string name="esv_params_error">参数错误</string>
+</resources>

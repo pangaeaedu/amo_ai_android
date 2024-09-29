@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ele_fr_career_planning">การวางแผนอาชีพ</string>
+    <string name="ele_fr_train_auth">การรับรองการอบรม</string>
+    <string name="ele_fr_public_course">คอร์สเปิดสาธารณะ</string>
+    <string name="ele_fr_empty_data">ไม่มีข้อมูล</string>
+    <string name="ele_fr_train_total_hour">%s ชั่วโมงการเรียน</string>
+
+    <string name="ele_fr_train_user_count">%s คนเรียน</string>
+    <string name="ele_fr_course_num">หลักสูตร %s</string>
+    <string name="ele_fr_course_total_hour">รวม %s ชั่วโมงการเรียน</string>
+
+    <string name="ele_fr_more">เพิ่มเติม</string>
+    <string name="ele_fr_job_title">สถาปัตยกรรม</string>
+    <string name="ele_fr_job_description">ความเป็นเลิศของบริษัท</string>
+
+    <string name="ele_fr_load_fail">โหลดล้มเหลว โปรดลองลากลงเพื่อลองใหม่</string>
+
+    <string name="ele_fr_no_data">ไม่มีข้อมูล</string>
+    <string name="ele_fr_no_data_desc">ไม่มีเนื้อหาที่เกี่ยวข้องที่ถูกเพิ่มโดยนักเรียน!</string>
+
+    <string name="ele_fr_loading_wait">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="ele_fr_listview_loadfail">โหลดล้มเหลว กรุณาคลิกลองใหม่</string>
+</resources>

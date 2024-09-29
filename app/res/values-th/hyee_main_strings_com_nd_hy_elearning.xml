@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- measure-main -->
+    <string name="hyee_remain_time_with_day">%1$d วัน %2$d ชั่วโมง %3$d นาที %4$d วินาที</string>
+    <string name="hyee_remain_time_no_day">%1$d ชั่วโมง %2$d นาที %3$d วินาที</string>
+    <string name="hyee_remain_time_no_hour">%1$d นาที %2$d วินาที</string>
+    <string name="hyee_history_cost_time">ใช้เวลา: %s</string>
+    <string name="hyee_history_title">คะแนนประวัติ</string>
+    <string name="hyee_history_obj_score">คะแนนข้อสอบวัดทัศนคติ</string>
+    <string name="hyee_history_no_sub_score">คำถามอาจารย์รอการตรวจ</string>
+    <string name="hyee_listview_loadfail">โหลดล้มเหลว กรุณาลองอีกครั้ง</string>
+    <string name="hyee_listview_loading">กำลังโหลด...</string>
+    <string name="hyee_listview_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+    <string name="hyee_exam_rank_list_tab_rank">อันดับ</string>
+    <string name="hyee_exam_rank_list_tab_name">ชื่อ</string>
+    <string name="hyee_exam_rank_list_tab_score">คะแนน</string>
+    <string name="hyee_exam_rank_list_tab_time">ใช้เวลา</string>
+    <string name="hyee_rank_board_title">อันดับ</string>
+    <string name="hyee_exam_rank_max_score">คะแนนสูงสุด</string>
+    <string name="hyee_challenge_score">คะแนนครั้งนี้</string>
+    <string name="hyee_exam_rank_cost_time">ใช้เวลา</string>
+    <string name="hyee_exam_cost_time_second">″</string>
+    <string name="hyee_exam_cost_time_minute">′</string>
+    <string name="hyee_no_data">ไม่มีข้อมูล</string>
+    <string name="hyee_no_data_desc">ไม่มีเนื้อหาที่เกี่ยวข้อง!</string>
+    <string name="hyee_exam_rank_list_empty_tip1">รายการอันดับว่างเปล่า</string>
+    <string name="hyee_exam_rank_list_empty_tip2">มาเรียนรู้เพื่ออยู่อันดับหน้าไป!</string>
+    <string name="hyee_user_no_exist">ข้อมูลผู้ใช้ไม่มีอยู่</string>
+    <string name="hyee_challenge_ranking_description">นี่คืออันดับที่ดีที่สุดของคะแนนทางการ</string>
+    <string name="hyee_max_score_ranking">อันดับปัจจุบัน</string>
+    <string name="hyee_challenge_ranking">อันดับครั้งนี้</string>
+</resources>

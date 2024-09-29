@@ -1,0 +1,184 @@
+<resources>
+    <string name="xuser_app_name">国家中小学智慧教育平台</string>
+    <string name="xuser_test_text">这是一段测试文本，测试文本长度问题，但是他一定要够长。如果不够长，我再唠叨两句，今天天气很好，风和日丽，今年是2021年2月5号，马上就要春节了，还在上班。</string>
+    <string name="xuser_about_version">当前版本</string>
+    <string name="xuser_about_operation">主办：中华人民共和国教育部\n运维：教育部教育技术与资源发展中心（中央电化教育馆）\n客服电话：4001910910（工作日8:30&#8211; 17:00）</string>
+    <string name="xuser_about_title">关于软件</string>
+    <string name="xuser_homepagelogin">立即登录</string>
+    <string name="xuser_homepage_visitor">游客</string>
+    <string name="xuser_nickname_format">用户%1$s</string>
+
+    <string name="xuser_homepage_notice">通知公告</string>
+    <string name="xuser_notice">通知</string>
+    <string name="xuser_homepage_work_jobs">作业活动</string>
+    <string name="xuser_homepage_clock_in">打卡</string>
+    <string name="xuser_homepage_cls_timetable">课程表</string>
+    <string name="xuser_homepage_course_offline">离线课程</string>
+    <string name="xuser_homepage_class_live">班级直播</string>
+    <string name="xuser_homepage_study_report">学习报告</string>
+    <string name="xuser_homepage_research_activities">研修活动</string>
+    <string name="xuser_homepage_offline_teaching">课后服务</string>
+    <string name="xuser_homepage_app_center">应用中心</string>
+    <string name="xuser_homepage_research_online">在线教研</string>
+
+    <string name="xuser_homepage_identity_default">老师</string>
+    <string name="xuser_tools_homepage_school">福州第三中学</string>
+    <string name="xuser_tip_to_login">点击登录</string>
+    <string name="xuser_homepage_school_no_selected_label">请选择学校</string>
+    <string name="xuser_homepage_area_no_selected_label">请选择区域</string>
+
+    <string name="xuser_homepage_class_student_count">学生%1$d人</string>
+    <string name="xuser_homepage_class_teacher_count">老师%1$d人</string>
+
+    <string name="xuser_homepage_myclass_label_guardian">孩子班级</string>
+    <string name="xuser_homepage_mychild_label">我的孩子</string>
+    <string name="xuser_homepage_myclass_label">我的班级</string>
+    <string name="xuser_homepage_myclass_more_label">查看更多</string>
+    <string name="xuser_homepage_myclass_empty_label">您还未加入班级</string>
+    <string name="xuser_homepage_myclass_empty_label_1">快去创建/加入班级吧</string>
+    <string name="xuser_homepage_myclass_empty_label_2">快去加入班级吧~</string>
+
+    <string name="xuser_homepage_myclass_empty_btn_create">创建</string>
+    <string name="xuser_homepage_myclass_empty_btn_join">加入</string>
+
+    <string name="xuser_other_label_remark">备注</string>
+    <string name="xuser_other_label_user_info">TA的资料</string>
+    <string name="xuser_other_label_send_im_message">发消息</string>
+    <string name="xuser_other_label_delete_friend">删除好友</string>
+    <string name="xuser_other_label_add_friend">加好友</string>
+    <string name="xuser_other_label_user_qrcode">TA的二维码</string>
+    <string name="xuser_other_label_user_my_qrcode">我的二维码</string>
+    <string name="xuser_other_label_user_feedback">举报该用户</string>
+
+    <string name="xuser_homepage_children_empty_tip_1">您暂未关联孩子</string>
+    <string name="xuser_homepage_children_empty_tip_2">快点击去添加吧~</string>
+    <string name="xuser_homepage_items_my_family">我的家庭</string>
+    <string name="xuser_homepage_new_identity_tip_content">新增%1$s身份，在此处切换身\n份即可查看相关信息！</string>
+    <string name="xuser_homepage_guid_content_homepage">请进入此处添加孩子，随时接\n收老师发送的最新消息！</string>
+
+    <string name="xuser_identity_new_ok">去看看</string>
+    <string name="xuser_identity_new_cancel">知道了</string>
+    <string name="xuser_dialog_alert_button">我知道了</string>
+
+    <string name="xuser_identity_teacher">老师</string>
+    <string name="xuser_identity_student">学生</string>
+    <string name="xuser_identity_guardian">家长</string>
+    <string name="xuser_identity_academic_staff">教研员</string>
+    <string name="xuser_identity_electric_teacher">电教人员</string>
+    <string name="xuser_identity_edu_admin">管理人员</string>
+    <string name="xuser_identity_social_learner">社会学习者</string>
+
+    <string name="xuser_identity_switch_error_set_agent">关联失败，请点击刷新</string>
+    <string name="xuser_identity_switch_error_json">亲子代理响应数据json格式错误</string>
+
+    <string name="xuser_identity_guardian_waiting">暂未开启家长加入班级，敬请期待</string>
+
+    <string name="xuser_network_exception">网络连接异常，请检查网络</string>
+    <string name="xuser_network_error_wrong">哎呀，出错了</string>
+    <string name="xuser_network_error_try">下拉刷新试试看</string>
+    <string name="xst_user_bottom_tips">控制上网时间，保护视力，锻炼身体！</string>
+    <string name="xuser_homepage_items_favorite">我的收藏</string>
+    <string name="xuser_homepage_items_mst">浏览历史</string>
+    <string name="xuser_homepage_items_follow">我的关注</string>
+    <string name="xuser_homepage_items_offlinemanager">离线管理</string>
+    <string name="xuser_homepage_items_ks_doc">我的云文档</string>
+    <string name="xuser_homepage_items_training">我的培训</string>
+    <string name="xuser_homepage_items_class_hour">我的学时</string>
+    <string name="xuser_homepage_items_teacher_check_info">个人信息</string>
+    <string name="xuser_homepage_items_user_guide">应用场景</string>
+    <string name="xuser_modify_school_tip">请前往“个人信息”修改学校</string>
+    <string name="xuser_modify_institution_tip">请前往“个人信息”修改机构/学校</string>
+
+    <!-- 名师工作室 -->
+    <string name="xuser_famous_teacher">我的教研</string>
+    <string name="xuser_famous_teacher_more">查看更多</string>
+    <string name="xuser_famous_teacher_member_count">成员 %1$d</string>
+
+    <!--我->FAQ-->
+    <string name="xuser_menu_faq">帮助中心</string>
+
+    <!--积分-->
+    <string name="xuser_score_total">积分：%1$d</string>
+
+    <string name="xuser_my_favor">我的收藏</string>
+    <string name="xuser_my_follow">我的关注</string>
+
+    <string name="xuser_homepage_classlist_children_empty_tip_1">您暂未关联孩子</string>
+    <string name="xuser_homepage_classlist_children_empty_tip_2">快点击去添加吧～</string>
+
+    <string name="xuser_homepage_classlist_children_state_title_error">数据异常，请稍后再试～</string>
+    <string name="xuser_homepage_classlist_children_state_desc_error">刷新一下试试看~</string>
+    <string name="xuser_homepage_classlist_children_state_button_refresh">刷新</string>
+
+    <string name="xuser_homepage_classlist_children_state_title_empty">孩子还未加入班级~</string>
+    <string name="xuser_homepage_classlist_children_state_desc_empty">快去加入班级吧~</string>
+    <string name="xuser_homepage_classlist_children_state_join">去加入</string>
+    <string name="xuser_homepage_classlist_children__switch_error">切换失败</string>
+
+    <string name="xuser_homepage_classlist_class_type_normal">普通班</string>
+    <string name="xuser_homepage_classlist_class_type_admin">行政班</string>
+    <string name="xuser_favor_and_follow_count_default">—</string>
+    <string name="xuser_repeat_report_tip_title">温馨提示</string>
+    <string name="xuser_repeat_report_tip_content">感谢您对平台健康聊天环境的监督和守护，该用户因违反平台相关规定已被处理，您无需再次发起举报。</string>
+    <string name="xuser_homepage_add_children">添加孩子</string>
+    <string name="xuser_homepage_exception_tip">异常提示</string>
+    <string name="xuser_homepage_relate_exception_tip">孩子【%1$s】关联异常，是否重新关联？</string>
+    <string name="xuser_homepage_retry_relate">重新关联</string>
+
+    <string name="xuser_child_info_list_grade">成绩</string>
+    <string name="xuser_child_info_list_evaluate">评价</string>
+    <string name="xuser_child_info_list_class">班级</string>
+
+
+    <string name="xuser_child_grade_score_type_level">优/良/中/差</string>
+    <string name="xuser_child_grade_score_type_score_mul">满分%1$s</string>
+    <string name="xuser_child_grade_score_type_score_single">%1$s分制</string>
+    <string name="xuser_child_grade_score_type_level_excellent">优</string>
+    <string name="xuser_child_grade_score_type_level_good">良</string>
+    <string name="xuser_child_grade_score_type_level_normal">中</string>
+    <string name="xuser_child_grade_score_type_level_poor">差</string>
+    <string name="xuser_child_grade_exam_missing">缺考</string>
+    <string name="xuser_child_grade_score_all">总成绩</string>
+    <string name="xuser_child_grade_score">成绩</string>
+    <string name="xuser_child_info_show_more">查看更多</string>
+
+
+    <string name="xuser_child_info_grade_multi">多科</string>
+    <string name="xuser_child_info_grade_chinese">语文</string>
+    <string name="xuser_child_info_grade_math">数学</string>
+    <string name="xuser_child_info_grade_biology">生物</string>
+    <string name="xuser_child_info_grade_physics">物理</string>
+    <string name="xuser_child_info_grade_chemistry">化学</string>
+    <string name="xuser_child_info_grade_science">科学</string>
+    <string name="xuser_child_info_grade_tech">信息技术</string>
+    <string name="xuser_child_info_grade_english">英语</string>
+    <string name="xuser_child_info_grade_ideological">思想品德</string>
+    <string name="xuser_child_info_grade_physical">体育与健康</string>
+    <string name="xuser_child_info_grade_arts">美术</string>
+    <string name="xuser_child_info_grade_geography">地理</string>
+    <string name="xuser_child_info_grade_politics">政治</string>
+    <string name="xuser_child_info_grade_history">历史</string>
+    <string name="xuser_child_info_grade_history_society">历史与社会</string>
+    <string name="xuser_child_info_grade_music">音乐</string>
+    <string name="xuser_child_info_grade_labor">劳动与技术</string>
+
+    <string name="xuser_child_info_grade_exam_other">其他</string>
+    <string name="xuser_child_info_grade_exam_common">普通考试</string>
+    <string name="xuser_child_info_grade_exam_mid_term">期中考试</string>
+    <string name="xuser_child_info_grade_exam_final">期末考试</string>
+    <string name="xuser_child_info_grade_exam_unit">单元考</string>
+
+    <string name="xuser_child_info_class_state_title_empty">孩子还未加入任何班级哦~</string>
+    <string name="xuser_child_info_class_state_desc_empty">加入班级</string>
+    <string name="xuser_child_info_grade_state_title_empty">老师还没有发布任何成绩哦~</string>
+
+    <string name="xuser_assessment_title_title">评价</string>
+    <string name="xuser_assessment_empty_text">老师还没有发布任何评价哦~</string>
+
+    <string name="xuser_error_description">内容加载失败，请刷新</string>
+    <string name="xuser_error_button">刷新</string>
+
+    <string name="xuser_homepage_has_new_version">有更新</string>
+    <string name="xuser_homepage_error_content_load_failed">内容加载失败，请刷新</string>
+    <string name="xuser_homepage_setting">设置</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_mf_compulsory_open_class">Public Course Two</string>
+    <string name="ele_mf_compulsory_exam_center">Exam Center</string>
+
+    <string name="ele_mf_compulsory_dropdown_search">Search</string>
+    <string name="ele_mf_compulsory_dropdown_problem">Q&amp;A</string>
+    <string name="ele_mf_compulsory_dropdown_message">Messages</string>
+    <string name="ele_mf_compulsory_dropdown_download">Download</string>
+    <string name="ele_mf_compulsory_dropdown_faq">Introductions</string>
+    <string name="ele_mf_compulsory_collection">Add to Favorites</string>
+	<string name="ele_mf_compulsory_mine">Me</string>
+    <!--待翻译-->
+    <string name="ele_mf_subscribe">Subscribe</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="texteffect_random">Random</string>
+    <string name="texteffect_normal">Normal</string>
+    <string name="texteffect_artillery">Artillery</string>
+    <string name="texteffect_shy">Shy</string>
+    <string name="texteffect_barrage">Barrage</string>
+    <string name="texteffect_pinyin">Phonetic</string>
+    <string name="texteffect_flashshake">Flashshake</string>
+    <string name="texteffect_lightning">Lightning</string>
+    <string name="texteffect_spell">Spell</string>
+    <string name="texteffect_parallet">Parallet</string>
+    <string name="texteffect_airplane">Airplane</string>
+    <string name="texteffect_knockwall">Knock wall</string>
+    <string name="texteffect_hacker">Hacker</string>
+    <string name="texteffect_wave">Wave</string>
+    <string name="texteffect_fireworks">Fireworks</string>
+</resources>

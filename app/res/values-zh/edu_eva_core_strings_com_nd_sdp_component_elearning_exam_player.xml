@@ -1,0 +1,6 @@
+<resources>
+    <string name="edu_eva_core_skip">跳过</string>
+    <string name="edu_eva_core_warn_network">您的网络连接不太稳定，请检查网络设置</string>
+    <string name="edu_eva_core_tip_paper_submit_error">交卷失败,请检查网络后重试或联系管理员</string>
+    <string name="edu_eva_core_tip_load_paper_error">试卷加载异常</string>
+</resources>

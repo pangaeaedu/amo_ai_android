@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="edu_eva_core_skip">Skip</string>
+    <string name="edu_eva_core_warn_network">Your internet connection seems unstable. Please check your network settings.</string>
+    <string name="edu_eva_core_tip_paper_submit_error">Submission failed. Please ensure a stable network connection and try again or contact the administrator for assistance.</string>
+    <string name="edu_eva_core_tip_load_paper_error">Exam paper loading error.</string>
+</resources>

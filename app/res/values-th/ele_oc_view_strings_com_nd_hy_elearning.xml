@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_oc_synthesize">รวม</string>
+    <string name="ele_oc_hottest">ยอดนิยม</string>
+    <string name="ele_oc_newest">ล่าสุด</string>
+    <string name="ele_oc_loading">กำลังโหลด...</string>
+    <string name="ele_oc_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+    <string name="ele_oc_study_num"> คนเรียน</string>
+    <string name="ele_oc_study_hours"> ชั่วโมงการเรียน</string>
+    <string name="ele_oc_list_empty">คุณยังไม่มีคอร์สการเรียน</string>
+
+    <string name="ele_oc_search">ค้นหา</string>
+    <string name="ele_oc_unit_task">งาน</string>
+    <string name="ele_oc_course_type">หมวดหมู่คอร์ส</string>
+    <string name="ele_oc_pr_train_question_discription">ทั้งหมด %1$s ข้อ ทำเสร็จแล้ว %2$s ข้อ</string>
+    <string name="ele_oc_pr_go_finished">ดูที่เสร็จสิ้นแล้ว</string>
+    <string name="ele_oc_pr_no_problems">%s ไม่มีคำถามที่ยังไม่เสร็จสำหรับการฝึก</string>
+
+    <string name="ele_oc_study_hours_unit"> ชั่วโมง</string>
+
+    <string-array name="ele_oc_status_type"><item>@string/ele_oc_status_type_all</item><item>@string/ele_oc_status_type_opening</item><item>@string/ele_oc_status_type_waiting</item><item>@string/ele_oc_status_type_finish</item></string-array>
+
+    <string name="ele_oc_status_type_all">ทั้งหมด</string>
+    <string name="ele_oc_status_type_opening">กำลังดำเนินการ</string>
+    <string name="ele_oc_status_type_waiting">ยังไม่เริ่ม</string>
+    <string name="ele_oc_status_type_finish">สิ้นสุดแล้ว</string>
+
+    <string name="ele_oc_free_experience">ทดลองใช้ฟรี</string>
+    <string name="ele_oc_cancel">ยกเลิก</string>
+
+</resources>

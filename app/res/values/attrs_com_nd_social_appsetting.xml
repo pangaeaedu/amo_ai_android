@@ -1,0 +1,13 @@
+<resources>
+    <attr name="SettingAttrs" format="reference" />
+
+
+    <!-- 圆角TextView -->
+    <declare-styleable name="SettingRoundTextView">
+        <attr name="setting_textStrokeColor" format="color"/>
+        <attr name="setting_textBackground" format="color"/>
+        <attr name="setting_textCornerSize" format="dimension" />
+        <attr name="setting_textStrokeSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_exp_ability_date_to_date">%1$s ถึง %2$s</string>
+    <string name="ele_exp_ability_duration">%1$d นาที</string>
+    <string name="ele_exp_ability_test_again">ทำข้อสอบใหม่</string>
+    <string name="ele_exp_ability_continue">ทำข้อสอบต่อ</string>
+    <string name="ele_exp_ability_start_immediate_chance">เล่นทันที (ทั้งหมด %d ครั้ง)</string>
+    <string name="ele_exp_ability_start_immediately">ทำข้อสอบทันที</string>
+    <string name="ele_exp_ability_chance_ran_out">ไม่มีโอกาสทำข้อสอบ</string>
+    <string name="ele_exp_ability_test_again_chance">ทำข้อสอบใหม่ (เหลือ %d ครั้ง)</string>
+    <string name="ele_exp_ability_finished">จบแล้ว</string>
+    <string name="ele_exp_ability_upcoming">เริ่มในไม่ช้า</string>
+    <string name="ele_exp_ability_statue_error">สถานะผิดปกติ</string>
+    <string name="ele_exp_ability_report">รายงานการประเมิน</string>
+    <string name="ele_exp_ability_exam_share_info">ฉันกำลังเข้าร่วมกิจกรรม "%s" มาร่วมท้าทายกันเถอะ</string>
+    <string name="ele_exp_ability_loading_more">กำลังโหลดเพิ่มเติม…</string>
+    <string name="ele_exp_ability_history_empty">ไม่มีประวัติคะแนน!</string>
+    <string name="ele_exp_ability_history_cost_time">ใช้เวลา: %s</string>
+    <string name="ele_exp_ability_un_sore">ยังไม่ได้ทำการประเมิน</string>
+    <string name="ele_exp_ability_warn1">โปรดตรวจสอบว่ามีการเชื่อมต่ออินเทอร์เน็ตที่ดี</string>
+    <string name="ele_exp_ability_warn2">หากมีเวลาทำข้อสอบที่กำหนด จะไม่สามารถหยุดชั่วคราวในระหว่างทำข้อสอบ หลังจากเวลาหมด ระบบจะส่งอัตโนมัติ กรุณาสังเกตเวลา</string>
+    <string name="ele_exp_ability_warn3">การตอบคำถามเสร็จสิ้น คลิกส่งเพื่อสิ้นสุดการทำข้อปัญหาปัจจุบัน</string>
+    <string name="ele_exp_ability_history_report">รายงานประวัติ</string>
+    <string name="ele_exp_ability_warn_title">ข้อควรระวัง</string>
+    <string name="ele_exp_ability_none">ไม่มี</string>
+    <string name="ele_exp_ability_exam_time">เวลาที่กำหนด</string>
+    <string name="ele_exp_ability_ranking">ตารางอันดับ</string>
+    <string name="ele_exp_ability_duration_title">ระยะเวลาในการตอบข้อสอบ:</string>
+    <string name="ele_exp_ability_description_title">คำอธิบายการทำข้อสอบ:</string>
+    <string name="ele_exp_ability_accuracy_title">ความถูกต้อง</string>
+    <string name="ele_exp_ability_record_overview">ภาพรวมการประเมิน</string>
+    <string name="ele_exp_ability_record_overview_des">เสร็จสิ้นแล้ว %1$d จาก %2$d การประเมินบนแพลตฟอร์ม โดดเด่นด้วยลักษณะพิเศษต่อไปนี้</string>
+    <string name="ele_exp_ability_record_list">รายการการประเมิน</string>
+    <string name="ele_exp_ability_record_list_empty">ไม่มีบันทึกการประเมิน</string>
+    <string name="ele_exp_ability_done_exam">จำนวนครั้งที่ทำ： %d</string>
+    <string name="ele_exp_ability_latest_time">เวลาทำการสุดท้าย: %s</string>
+    <string name="ele_exp_ability_record_title">ประวัติการประเมินคุณภาพ</string>
+    <string name="ele_exp_ability_history">รายงานประวัติ</string>
+    <string name="ele_exp_ability_redo">ทดลองอีกครั้ง</string>
+    <string name="ele_exp_ability_share">แบ่งปัน</string>
+    <string name="ele_exp_ability_clean_search_history">ล้างบันทึกการค้นหา</string>
+    <string name="ele_exp_ability_recently_search">การค้นหาล่าสุด</string>
+    <string name="ele_exp_ability_confirm_cancel">ยกเลิก</string>
+    <string name="ele_exp_ability_search">ค้นหา</string>
+    <string name="ele_exp_ability_no_search_result">ไม่พบผลลัพธ์ที่เกี่ยวข้อง</string>
+    <string name="ele_exp_ability_history_times">ครั้งที่%d การประเมิน</string>
+
+    <string name="ele_exp_ability_chance_total">%d ครั้ง</string>
+    <string name="ele_exp_ability_chance_remain">เหลือ %d ครั้ง</string>
+</resources>

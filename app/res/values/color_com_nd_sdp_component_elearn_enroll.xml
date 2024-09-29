@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="e_enroll_text_color_primary">#666666</color>
+    <color name="e_enroll_color_primary_dark">#4179da</color>
+    <color name="e_enroll_color_accent">#4179da</color>
+    <color name="e_enroll_bg_loading_transparent">#55000000</color>
+    <color name="e_enroll_enroll_pre">#0090ff</color>
+    <color name="e_enroll_item_pre">#26000000</color>
+    <color name="e_enroll_dialog_btn_pre">#19000000</color>
+    <color name="e_enroll_dialog_btn_nor">#fff</color>
+    <color name="e_enroll_confirm_btn_press">#19000000</color>
+    <color name="e_enroll_confirm_btn_nor">#ffffff</color>
+    
+
+    <!-- 报名表单按钮不可用-->
+    <color name="e_enroll_common_button_disenable">@color/color4</color>
+    <!-- 报名表单按钮按下-->
+    <color name="e_enroll_common_button_pressed">@color/color3</color>
+    <!-- 报名表单按钮常态-->
+    <color name="e_enroll_common_button_color">@color/color14</color>
+    <!-- 报名表单背景-->
+    <color name="e_enroll_form_bg">@color/color23</color>
+    <!-- 报名表单背景-->
+    <color name="e_enroll_form_line_color">@color/color8</color>
+    <!-- 报名表单列表项颜色-->
+    <color name="e_enroll_form_name_color">@color/color4</color>
+    <!-- 报名表单输入文字颜色-->
+    <color name="e_enroll_form_edit_color">@color/color1</color>
+    <!-- 报名表单提示文字颜色&&提示颜色-->
+    <color name="e_enroll_form_edit_hint_color">@color/color4</color>
+
+</resources>

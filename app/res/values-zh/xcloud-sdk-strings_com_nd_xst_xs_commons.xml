@@ -1,0 +1,5 @@
+<resources>
+    <string name="xcloud_sdk_identity_get_current_user_role_fail">查询身份失败</string>
+    <string name="xbase_doc_center_not_enough">个人资源库容量不足</string>
+    <string name="xbase_doc_center_add_fail">添加资源库失败</string>
+</resources>

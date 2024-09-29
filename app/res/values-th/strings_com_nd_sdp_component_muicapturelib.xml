@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="nd_camera_flash_auto">อัตโนมัติ</string>
+    <string name="nd_camera_flash_on">เปิด</string>
+    <string name="nd_camera_flash_off">ปิด</string>
+    <string name="nd_camera_flash_normally_on">สว่าง</string>
+
+    <string name="nd_camera_space_error">พื้นที่หน่วยความจำไม่เพียงพอ โปรดลบพื้นที่</string>
+    <string name="nd_camera_permiss_error">โปรดเปิดสิทธิ์ที่เกี่ยวกับกล้อง</string>
+    <string name="nd_camera_permiss_error2">โปรดเปิดสิทธิ์เกี่ยวกับการจัดเก็บ</string>
+    <string name="nd_camera_permiss_disable">สิทธิ์ที่เกี่ยวกับกล้องถูกปิดใช้งานโดยผลิตภัณฑ์</string>
+    <string name="nd_camera_permiss_disable2">สิทธิ์การจัดเก็บถูกปิดใช้งานโดยผลิตภัณฑ์</string>
+    <string name="nd_camera_recoder_shot_time">เวลาถ่ายภาพสั้นเกินไป โปรดถ่ายใหม่</string>
+    <string name="nd_camera_tap_or_hold">แตะเบา ถ่ายรูป กดค้าง วีดีโอ</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ele_exp_ability_date_to_date">%1$s 至 %2$s</string>
+    <string name="ele_exp_ability_duration">%1$d分钟</string>
+    <string name="ele_exp_ability_test_again">重新答题</string>
+    <string name="ele_exp_ability_continue">继续答题</string>
+    <string name="ele_exp_ability_start_immediate_chance">立即答题(共%d次)</string>
+    <string name="ele_exp_ability_start_immediately">立即答题</string>
+    <string name="ele_exp_ability_chance_ran_out">无答题机会</string>
+    <string name="ele_exp_ability_test_again_chance">重新答题(剩%d次)</string>
+    <string name="ele_exp_ability_finished">已结束</string>
+    <string name="ele_exp_ability_upcoming">即将开始</string>
+    <string name="ele_exp_ability_statue_error">状态异常</string>
+    <string name="ele_exp_ability_report">测评报告</string>
+    <string name="ele_exp_ability_exam_share_info">我正在参加“%s”，快来一起挑战吧</string>
+    <string name="ele_exp_ability_loading_more">加载更多中&#8230;</string>
+    <string name="ele_exp_ability_history_empty">没有历史成绩记录！</string>
+    <string name="ele_exp_ability_history_cost_time">用时:%s</string>
+    <string name="ele_exp_ability_un_sore">未完成评分</string>
+    <string name="ele_exp_ability_warn1">请确保网络环境良好。</string>
+    <string name="ele_exp_ability_warn2">如有答题时间要求，则答题过程中不可暂停，时间到后自动提交，请注意时间。</string>
+    <string name="ele_exp_ability_warn3">答题结束，点击提交完成当前做题。</string>
+    <string name="ele_exp_ability_history_report">历史报告</string>
+    <string name="ele_exp_ability_warn_title">注意事项</string>
+    <string name="ele_exp_ability_none">无</string>
+    <string name="ele_exp_ability_exam_time">时间要求</string>
+    <string name="ele_exp_ability_ranking">排行榜</string>
+    <string name="ele_exp_ability_duration_title">答题时长:</string>
+    <string name="ele_exp_ability_description_title">答题说明：</string>
+    <string name="ele_exp_ability_accuracy_title">正确率</string>
+    <string name="ele_exp_ability_record_overview">测评概览</string>
+    <string name="ele_exp_ability_record_overview_des">已完成平台%1$d个测评中的%2$d个，突出表现了以下特性</string>
+    <string name="ele_exp_ability_record_list">测评列表</string>
+    <string name="ele_exp_ability_record_list_empty">暂无测评记录</string>
+    <string name="ele_exp_ability_done_exam">完成次数：%d</string>
+    <string name="ele_exp_ability_latest_time">最后完成时间：%s</string>
+    <string name="ele_exp_ability_record_title">素质测评档案</string>
+    <string name="ele_exp_ability_history">历史报告</string>
+    <string name="ele_exp_ability_redo">再测一次</string>
+    <string name="ele_exp_ability_share">分享</string>
+    <string name="ele_exp_ability_clean_search_history">清除搜索记录</string>
+    <string name="ele_exp_ability_recently_search">最近搜索</string>
+    <string name="ele_exp_ability_confirm_cancel">取消</string>
+    <string name="ele_exp_ability_search">搜索</string>
+    <string name="ele_exp_ability_no_search_result">无相关结果</string>
+    <string name="ele_exp_ability_history_times">第%d次测评</string>
+
+    <string name="ele_exp_ability_chance_total">共%d次</string>
+    <string name="ele_exp_ability_chance_remain">剩%d次</string>
+</resources>

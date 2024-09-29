@@ -1,0 +1,7 @@
+<resources>
+    <string name="ele_mf_elearning_header_all_study">全部学习</string>
+    <string name="ele_mf_elearning_all_study_recommend">精品推荐</string>
+    <string name="ele_mf_elearning_all_study_open_class">公开课</string>
+    <string name="ele_mf_elearning_all_study_train">培训认证</string>
+    <string name="ele_mf_elearning_all_study_planning">职业规划</string>
+</resources>

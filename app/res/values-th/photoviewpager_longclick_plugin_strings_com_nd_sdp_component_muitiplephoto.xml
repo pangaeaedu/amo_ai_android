@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="photo_viewpager_view_picture_in_browse">เปิดในเบราว์เซอร์</string>
+    <string name="photo_viewpager_save">บันทึก</string>
+    <string name="photo_viewpager_detect_qr_code">สแกนคิวอาร์โค้ด</string>
+    <string name="photo_viewpager_share">แชร์</string>
+    <string name="photo_viewpager_exception_toast_no_browse">ไม่ได้ติดตั้งเบราว์เซอร์!</string>
+</resources>

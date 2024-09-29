@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setting_label_new">NEW</string>
+    <string name="setting_select_language">语言选择</string>
+
+    <!-- 设置 -->
+    <string name="setting_version_resume">版本履历</string>
+    <string name="setting_applicationSetting">应用设置</string>
+    <string name="setting_helpupdate">检查更新</string>
+    <string name="setting_xy_setting">设置</string>
+    <string name="setting_upLoad_Log">上传日志</string>
+    <string name="setting_upLoading">正在上传日志，请稍候再试</string>
+    <string name="setting_upLoad_fail">日志上传失败</string>
+    <string name="setting_upLoad_sucess">日志上传成功</string>
+    <string name="setting_account_security">帐号安全</string>
+
+    <string name="setting_my_homepage">个人主页</string>
+    <string name="setting_my_app">我的设置</string>
+    <string name="setting_common_settings">通用设置</string>
+    <string name="setting_about_software">关于软件</string>
+    <string name="setting_menu_sys_exit">退出登录</string>
+    <string name="setting_more">更多</string>
+    <string name="setting_more_apply">更多应用</string>
+    <string name="setting_network_unavailable">网络连接断开，请检查网络</string>
+    <string name="setting_to_download">确定</string>
+    <string name="setting_cancel">取消</string>
+    <string name="setting_sure">确定</string>
+    <string name="setting_download_content">检测到新版本：%s</string>
+    <string name="setting_download_content_without_name">检测到新版本</string>
+    <string name="setting_not_wifi_download_tip">当前为非wifi网络，升级软件可能会被运营商收取流量费用。</string>
+    <string name="setting_upload_dialog_find_unfinish_log">发现未上传完成的日志</string>
+    <string name="setting_upload_dialog_only_latest_log">只上传最新日志</string>
+    <string name="setting_upload_dialog_continue_upload_log">继续上传</string>
+    <string name="setting_upload_dialog_find_cancel_upload_log">取消</string>
+    <string name="setting_tab_design">标签设置</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_cache_clearing">清理缓存中</string>
+    <string name="setting_clear_cache">清理缓存</string>
+    <string name="setting_clear_cache_success">缓存清理完成!</string>
+    <string name="setting_language_auto">跟随系统</string>
+    <string name="setting_arabo_lrm">‎</string>
+    <string name="setting_goScore_str">去评分</string>
+    <string name="setting_termsOfUse_str">使用条款和隐私政策</string>
+    <string name="setting_currentVersion_str">当前版本 </string>
+
+    <string name="setting_about_str">关于</string>
+    <string name="setting_version_name_format">版本号：%s</string>
+    <string name="setting_version_name_format_in_root_page">版本号%s</string>
+    <string name="setting_version_history_empty">暂无数据</string>
+    <string name="setting_version_history_no_more_data">没有更多数据了…</string>
+    <string name="setting_inviting_friends">推荐给好友</string>
+    <string name="setting_feedback">帮助与反馈</string>
+    <string name="setting_shortcut">快捷启动</string>
+    <string name="setting_common_loading">加载中…</string>
+    <string name="setting_page_account_security">帐号安全</string>
+    <string name="setting_page_app_management">应用管理</string>
+    <string name="setting_share_to_friends">分享给好友</string>
+    <string name="setting_copy_url">复制链接</string>
+    <string name="setting_save_image">保存图片</string>
+    <string name="setting_inviting_card_desc">扫扫上面的二维码，下载客户端</string>
+    <string name="setting_sharing_url_loading_failed">二维码加载失败</string>
+    <string name="setting_save_failed">保存失败</string>
+    <string name="setting_saved_to_gallery">已保存到系统相册</string>
+    <string name="setting_copy_succeed">复制成功</string>
+    <string name="setting_shortcut_loading_failed">快捷启动项加载失败</string>
+    <string name="setting_title_add_to_desktop">添加到桌面</string>
+    <string name="setting_add_shortcut_to_home_succeed">成功添加到桌面</string>
+    <string name="setting_shortcut_exists_on_home_screen">桌面快捷已存在</string>
+    <string name="setting_create_shortcut_failed_on_home_screen">添加失败，请检查手机设置</string>
+    <string name="setting_shortcut_launching_text">启动中...</string>
+    <string name="setting_invalid_shortcut_url">无效的快捷方式</string>
+    <string name="setting_empty_shortcut_url">快捷方式链接为空</string>
+    <string name="setting_page_loading_failed">页面不存在</string>
+    <string name="setting_bind_mobile">手机绑定</string>
+    <string name="setting_advices_and_feedback">意见反馈</string>
+    <string name="setting_font_size">字体大小</string>
+
+    <string name="setting_version_badge_new">new</string>
+    <!--设置项提示-->
+    <string name="setting_item_log_tip">应用闪退？点击上传日志帮助开发排查问题</string>
+    <string name="setting_item_shortcut_tip">桌面建立快捷方式，以便快速启用</string>
+    <string name="setting_log_uploading">正在上传...</string>
+    <!--跟随系统语言类型-->
+    <string name="setting_lang_description_default">跟随系统</string>
+    <string name="setting_lang_translate_default">跟随系统</string>
+    <!--普通语言类型-->
+    <string name="setting_lang_translate_zh_cn">简体中文</string>
+    <string name="setting_lang_translate_zh_hk">繁体中文</string>
+    <string name="setting_lang_translate_en">英文</string>
+    <string name="setting_lang_translate_ar">阿拉伯语</string>
+    <string name="setting_lang_translate_th">泰文</string>
+    <string name="setting_lang_translate_id">印尼语</string>
+
+    <string name="setting_has_new_msg">有新消息</string>
+    <string name="setting_icon_content_description">图标</string>
+    <string name="setting_cd_close_dialog">关闭窗口</string>
+    <string name="setting_privacy_settings">隐私设置</string>
+    <string name="setting_system_permission">系统权限</string>
+    <string name="setting_privacy_policy">隐私政策</string>
+
+    <string name="setting_title_autoplay_config">自动播放设置</string>
+    <string name="setting_title_autoplay_type_flow_or_wifi">移动流量及wifi</string>
+    <string name="setting_title_autoplay_type_wifi">仅wifi</string>
+    <string name="setting_title_autoplay_type_close">关闭</string>
+	
+	<string name="setting_download_manager">下载管理</string>
+</resources>

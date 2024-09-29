@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/nduc_agreement_button_enable" />
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/nduc_agreement_btn_disable_cover" />
+            <corners android:radius="@dimen/nduc_agreement_btn_radius" />
+        </shape>
+    </item>
+</layer-list>

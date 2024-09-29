@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--日事日清提醒设置页面-->
+    <!--标题-->
+    <string name="starapp_life_alert_setting_title">Daily task reminder set</string>
+    <string name="starapp_life_alert_setting_ok">Confirm</string>
+    <!--提示语-->
+    <string name="starapp_life_alert_setting_comment">Open daily task reminder to help you complete your daily affairs.</string>
+    <!--设置项:提醒开关-->
+    <string name="starapp_life_alert_setting_setting">Daily task reminder</string>
+    <!--设置项:提醒时间-->
+    <string name="starapp_life_alert_setting_time">Reminder time</string>
+    <!--设置项:周-->
+    <string name="starapp_life_alert_setting_weekday_1">Monday</string>
+    <string name="starapp_life_alert_setting_weekday_2">Tuesday</string>
+    <string name="starapp_life_alert_setting_weekday_3">Wednesday</string>
+    <string name="starapp_life_alert_setting_weekday_4">Thursday</string>
+    <string name="starapp_life_alert_setting_weekday_5">Friday</string>
+    <string name="starapp_life_alert_setting_weekday_6">Saturday</string>
+    <string name="starapp_life_alert_setting_weekday_7">Sunday</string>
+    <!--对话框:标题-->
+    <string name="starapp_life_alert_dialog_title">Daily task reminder</string>
+    <!--对话框:内容-->
+    <string name="starapp_life_alert_dialog_content">Thank you for your effort.\nDon\'t forget to draw your daily task complement rewards.</string>
+    <!--对话框:按钮-->
+    <string name="starapp_life_alert_dialog_close">Stop today</string>
+    <string name="starapp_life_alert_dialog_later">Remind in ten minutes</string>
+    <string name="starapp_life_alert_dialog_goto">Enter</string>
+    <!--设置:打开/关闭-->
+    <string name="starapp_life_alert_setting_value_open">On</string>
+    <string name="starapp_life_alert_setting_value_close">Closed</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="umeng_socialize_network_break_alert">Network error, please check.</string>
+    <string name="umeng_socialize_comment">Comment</string>
+    <string name="umeng_socialize_near_At">Recent\@Friend</string>
+    <string name="umeng_socialize_friends">Followed</string>
+    <string name="umeng_socialize_tip_blacklist">Sorry, you have been banned.</string>
+    <string name="umeng_socialize_text_comment_hint">Say something…</string>
+    <string name="umeng_socialize_text_waitting">Please wait...</string>
+    <string name="umeng_socialize_text_waitting_weixin">Going to Wechat…</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">Going to Moments…</string>
+    <string name="umeng_socialize_text_waitting_qq">Going to QQ…</string>
+    <string name="umeng_socialize_text_waitting_qzone">Going to Qzone…</string>
+    <string name="umeng_socialize_text_waitting_redirect">Go to</string>
+    <string name="umeng_socialize_text_waitting_message">please wait...</string>
+    <!-- 平台名称 -->
+    <string name="umeng_socialize_text_sina_key">Weibo</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">Qzone</string>
+    <string name="umeng_socialize_text_weixin_key">Wechat</string>
+    <string name="umeng_socialize_text_weixin_circle_key">Moments</string>
+    <string name="umeng_socialize_text_waitting_share">Sharing…</string>
+    <!-- 11.3 -->
+    <string name="umeng_authorization_failure">Authorization failed, please authorize again…</string>
+    <string name="umeng_share_content_repeat">Sharing content repeat…</string>
+    <string name="umeng_share_cancel">Sharing cancelled</string>
+    <string name="umeng_send_success">Send successfully</string>
+    <string name="umeng_send_failed">Send failed, please try again</string>
+    <string name="umeng_share_cannot_authorization">Do not support the authorization.</string>
+    <string name="umeng_oauth_error">Authorization failed, please try again!</string>
+    <string name="umeng_oauth_weibo_title">Weibo authorization</string>
+    <string name="umeng_share_failed">Sharing failed</string>
+    <string name="umeng_share_success">Shared</string>
+    <string name="umeng_share_finished">Succeeded</string>
+    <string name="umeng_weixin_compressed_image_tip">Images more than 32KB, being compressed</string>
+    <string name="umeng_weixin_no_install_WeChat">You haven\'t installed the WeChat</string>
+    <string name="umeng_weixin_version_too_low">Your WeChat version doesn\'t support API</string>
+    <string name="umeng_weixin_content_is_empty">Please set the sharing content</string>
+    <string name="umeng_edit_share_error">Error!</string>
+    <string name="umeng_edit_share_weibo">Share to SINA microblog</string>
+    <string name="umeng_edit_share_sending">Sending </string>
+    <string name="umeng_edit_share_content_empty">Input empty</string>
+    <string name="umeng_edit_share_content_more_than_limit">Input more than 140 characters</string>
+    <string name="umeng_edit_share_more_limit">Beyond the maximum limit of characters.</string>
+    <string name="umeng_edit_share_location_failed">Failed to get the geographical position, please retry later.</string>
+    <string name="umeng_edit_share_loading">Loading, please wait…</string>
+    <string name="umeng_edit_share_delete_image">Are you sure to delete pictures?</string>
+    <string name="umeng_edit_share_delete_location">Whether to delete the location information?</string>
+    <string name="umeng_edit_share_confirm">Confirm</string>
+    <string name="umeng_edit_share_cancel">Cancel</string>
+    <string name="umeng_share_qzone_titel">Sharing to QQ  Space</string>
+    <string name="umeng_share_qq_title">Sharing to QQ </string>
+    <string name="umeng_share_weixin_share_prefix">Sharing to</string>
+</resources>

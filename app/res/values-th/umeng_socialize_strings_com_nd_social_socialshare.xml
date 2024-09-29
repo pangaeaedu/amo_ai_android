@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="umeng_socialize_network_break_alert">โปรดเชื่อมต่อเครือข่ายก่อนลองอีกครั้ง!</string>
+    <string name="umeng_socialize_comment">ความคิดเห็น</string>
+    <string name="umeng_socialize_near_At">เพื่อน\@ ล่าสุด</string>
+    <string name="umeng_socialize_friends">เพื่อนที่คุณติดตาม</string>
+    <string name="umeng_socialize_tip_blacklist">ขอโทษ ท่านถูกห้ามพูด เนื่องจากละเมิดข้อตกลงของผู้ใช้</string>
+    <string name="umeng_socialize_text_comment_hint">พูดอะไรบ้าง...</string>
+    <string name="umeng_socialize_text_waitting">โปรดรอสักครู่...</string>
+    <string name="umeng_socialize_text_waitting_weixin">กำลังเปลี่ยนไป WeChat โปรดรอสักครู่...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">กำลังเปลี่ยนไปทวิตเตอร์ โปรดรอสักครู่...</string>
+    <string name="umeng_socialize_text_waitting_qq">กำลังเปลี่ยนไป QQ โปรดรอสักครู่...</string>
+    <string name="umeng_socialize_text_waitting_qzone">กำลังเปลี่ยนไป QZone โปรดรอสักครู่...</string>
+    <string name="umeng_socialize_text_waitting_redirect">กำลังเปลี่ยน...</string>
+    <string name="umeng_socialize_text_waitting_message">โปรดรอสักครู่...</string>
+    <!-- 平台名称 -->
+    <string name="umeng_socialize_text_sina_key">Weibo</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QZone</string>
+    <string name="umeng_socialize_text_weixin_key">WeChat</string>
+    <string name="umeng_socialize_text_weixin_circle_key">Moments</string>
+    <string name="umeng_socialize_text_waitting_share">กำลังแชร์...</string>
+    <!-- 11.3 -->
+    <string name="umeng_authorization_failure">การอนุญาตหมดอายุ โปรดอนุญาตใหม่...</string>
+    <string name="umeng_share_content_repeat">เนื้อหาการแชร์ซ้ำซ้อน...</string>
+    <string name="umeng_share_cancel">ยกเลิกการแชร์</string>
+    <string name="umeng_send_success">ส่งสำเร็จ</string>
+    <string name="umeng_send_failed">ส่งล้มเหลว โปรดลองใหม่...</string>
+    <string name="umeng_share_cannot_authorization">ไม่รองรับการอนุญาต</string>
+    <string name="umeng_oauth_error">การอนุญาตล้มเหลว โปรดลองใหม่!</string>
+    <string name="umeng_oauth_weibo_title">การอนุญาต Weibo</string>
+    <string name="umeng_share_failed">การแชร์ล้มเหลว</string>
+    <string name="umeng_share_success">การแชร์สำเร็จ</string>
+    <string name="umeng_share_finished">การแชร์เสร็จสิ้น</string>
+    <string name="umeng_weixin_compressed_image_tip">ขนาดรูปภาพเกิน 32KB กำลังบีบอัดรูปภาพ...</string>
+    <string name="umeng_weixin_no_install_WeChat">คุณยังไม่ได้ติดตั้ง WeChat</string>
+    <string name="umeng_weixin_version_too_low">เวอร์ชัน WeChat ที่คุณติดตั้งไม่รองรับ API ปัจจุบัน</string>
+    <string name="umeng_weixin_content_is_empty">โปรดตั้งค่าเนื้อหาการแชร์...</string>
+    <string name="umeng_edit_share_error">มีข้อผิดพลาด!</string>
+    <string name="umeng_edit_share_weibo">แชร์ไปทวิตเตอร์</string>
+    <string name="umeng_edit_share_sending">กำลังส่ง...</string>
+    <string name="umeng_edit_share_content_empty">เนื้อหาว่างเปล่า...</string>
+    <string name="umeng_edit_share_content_more_than_limit">เนื้อหาเกิน 140 ตัวอักษร</string>
+    <string name="umeng_edit_share_more_limit">เกินขีดจำกัดตัวอักษรสูงสุด</string>
+    <string name="umeng_edit_share_location_failed">ล้มเหลวในการรับตำแหน่งที่ตั้ง โปรดรอสักครู่...</string>
+    <string name="umeng_edit_share_loading">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="umeng_edit_share_delete_image">คุณแน่ใจหรือว่าต้องการลบรูปภาพ?</string>
+    <string name="umeng_edit_share_delete_location">ต้องการลบข้อมูลตำแหน่งที่ตั้งหรือไม่?</string>
+    <string name="umeng_edit_share_confirm">ยืนยัน</string>
+    <string name="umeng_edit_share_cancel">ยกเลิก</string>
+    <string name="umeng_share_qzone_titel">แชร์ไปทวิตเตอร์ Moments</string>
+    <string name="umeng_share_qq_title">แชร์ไปทวิตเตอร์</string>
+    <string name="umeng_share_weixin_share_prefix">แชร์ไป</string>
+</resources>

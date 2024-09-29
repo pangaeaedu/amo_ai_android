@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/nduc_agreement_btn_radius" />
+    <gradient
+        android:angle="0"
+        android:endColor="@color/nduc_agreement_btn_gradient_end_color"
+        android:startColor="@color/nduc_agreement_btn_gradient_start_color" />
+</shape>

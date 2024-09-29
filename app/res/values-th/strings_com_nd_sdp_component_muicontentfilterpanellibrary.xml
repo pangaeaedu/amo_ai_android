@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_sort_filter_btn_reset">รีเซ็ต</string>
+    <string name="ele_sort_filter_btn_ok">เสร็จสิ้น</string>
+    <string name="ele_sort_filter_btn_back">กลับ</string>
+    <string name="ele_sort_filter_text_sort">เรียงลำดับ</string>
+    <string name="ele_sort_filter_text_filter">กรอง</string>
+    <string name="ele_sort_filter_text_filter_isMulti">(เลือกซ้ำ)</string>
+    <string name="ele_sort_filter_text_filter_notMulti">(เลือกเดี่ยว)</string>
+    <string name="ele_sort_filter_text_min_hint">ตัวเลขขั้นต่ำ</string>
+    <string name="ele_sort_filter_text_max_hint">ตัวเลขสูงสุด</string>
+    <!-- %1$s 是标题，%2$s 是用户输入的值。例：价格区间：不能低于 20 -->
+    <string name="ele_sort_filter_text_min_toast"> %1$s : ต้องไม่น้อยกว่า %2$s</string>
+    <!-- %1$s 是标题，%2$s 是用户输入的值。例：价格区间：不能高于 20 -->
+    <string name="ele_sort_filter_text_max_toast"> %1$s : ต้องไม่มากกว่า %2$s</string>
+    <string name="ele_sort_filter_time_choose">เลือกวันที่</string>
+    <string name="ele_sort_filter_time_choose_start">เริ่ม</string>
+    <string name="ele_sort_filter_time_choose_end">จบ</string>
+    <string name="ele_sort_filter_time_choose_total">รวมเวลาทั้งหมด %s ชั่วโมง</string>
+    <string name="ele_sort_filter_panel_act_nodata">ไม่มีเนื้อหาในการกรอง</string>
+    <string name="ele_sort_filter_choose_date_tip">โปรดเลือกวันที่</string>
+    <string name="ele_sort_filter_choose_date_range_tip">โปรดเลือกช่วงวันที่</string>
+    <string name="ele_sort_filter_choose_time_tip">โปรดเลือกเวลา</string>
+    <string name="ele_sort_filter_choose_time_range_tip">โปรดเลือกช่วงเวลา</string>
+
+
+</resources>

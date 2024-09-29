@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--我的二维码-->
+
+    <!--重置二维码按钮-->
+    <string name="starapp_life_qr_code_reset_button1">รีเซ็ตรหัสคิวอาร์</string>
+    <string name="starapp_life_qr_code_reset_button2">รีเซ็ต</string>
+    <!--重置二维码对话框标题-->
+    <string name="starapp_life_qr_code_reset_dialog_title">คุณต้องการรีเซ็ตคิวอาร์โค้ดหรือไม่</string>
+    <!--重置二维码对话框内容-->
+    <string name="starapp_life_qr_code_reset_dialog_content">หลังรีเซ็ตคุณจะได้รับคิวอาร์โค้ดใหม่ คิวอาร์โค้ดก่อนหน้านี้ทั้งหมดจะไม่สามารถใช้งานได้</string>
+    <!--重置二维码loading-->
+    <string name="starapp_life_qr_code_loading_dialog_in_progress">กำลังดำเนินการ...</string>
+    <!--重置二维码error tip-->
+    <string name="starapp_life_qr_code_reset__error_tip">รีเซ็ตคิวอาร์โค้ดล้มเหลว โปรดลองอีกครั้ง</string>
+    <!--重置二维码转发-->
+    <string name="starapp_life_qr_code_forward">ส่งต่อ</string>
+    <!--重置二维码保存-->
+    <string name="starapp_life_qr_code_download">บันทึก</string>
+
+</resources>

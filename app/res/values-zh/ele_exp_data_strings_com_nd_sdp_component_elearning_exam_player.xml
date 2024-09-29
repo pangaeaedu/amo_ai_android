@@ -1,0 +1,7 @@
+<resources>
+    <string name="ele_exp_data_network_error">网络连接错误，请检查您的网络！</string>
+    <string name="ele_exp_data_json_convert_error">数据解析错误，请稍后重试</string>
+    <string name="ele_exp_data_get_data_error">数据获取错误，请稍后重试</string>
+    <string name="ele_exp_data_unknown_error">加载出错，请稍后重试！</string>
+    <string name="ele_exp_data_server_time_error">获取服务端时间失败</string>
+</resources>

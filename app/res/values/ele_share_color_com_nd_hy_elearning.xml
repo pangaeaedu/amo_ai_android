@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ele_share_transparent">#00000000</color>
+
+
+    <color name="ele_share_color_2">#666666</color>
+    <color name="ele_share_color_10">#f5f5f5</color>
+    <color name="ele_shrare_view_trans">#55000000</color>
+
+
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="webcomponent_popupmenu_width">150dip</dimen>
+    <dimen name="webcomponent_dip_size_10">10dip</dimen>
+    <dimen name="webcomponent_dip_size_20">20dip</dimen>
+
+    <dimen name="webcomponent_title_height">50dp</dimen>
+    <dimen name="webcomponent_btn_retry_width">100dp</dimen>
+    <dimen name="webcomponent_btn_retry_height">40dp</dimen>
+    <dimen name="webcomponent_progressbar_height">5dp</dimen>
+    <dimen name="webcomponent_progressbar_radius">1dp</dimen>
+    <dimen name="webcomponent_progressbar_bg_radius">1dp</dimen>
+    <dimen name="webcomponent_secondaryProgress_radius">1dp</dimen>
+
+
+    <dimen name="webcomponent_popupmenu_item_text_size">18sp</dimen>
+    <dimen name="webcomponent_text_size_14sp">14sp</dimen>
+    <dimen name="webcomponent_title_text_size">18sp</dimen>
+    <dimen name="webcomponent_btn_close_text_size">18sp</dimen>
+	
+	<dimen name="webcomponent_screen_shot_margin_28">28dp</dimen>
+    <dimen name="webcomponent_screen_shot_margin_30">30dp</dimen>
+    <dimen name="webcomponent_screen_shot_margin_20">20dp</dimen>
+    <dimen name="webcomponent_screen_shot_margin_16">16dp</dimen>
+    <dimen name="webcomponent_screen_shot_margin_48">48dp</dimen>
+    <dimen name="webcomponent_screen_shot_margin_40">-40dp</dimen>
+    <dimen name="webcomponent_screen_shot_width">300dp</dimen>
+    <dimen name="webcomponent_screen_shot_text_size">16sp</dimen>
+    <dimen name="webcomponent_screen_shot_text_size2">14sp</dimen>
+    <dimen name="webcomponent_screen_shot_icon">28dp</dimen>
+    <dimen name="webcomponent_screen_shot_radius">10dp</dimen>
+
+    <dimen name="skin_maincomponent_20sp">20sp</dimen>
+    <dimen name="skin_maincomponent_16sp">16sp</dimen>
+    <dimen name="skin_maincomponent_14sp">14sp</dimen>
+    <dimen name="skin_maincomponent_12sp">12sp</dimen>
+    <dimen name="skin_maincomponent_10sp">10sp</dimen>
+    <dimen name="skin_maincomponent_5sp">5sp</dimen>
+    <dimen name="skin_maincomponent_dp6">6dip</dimen>
+    <dimen name="skin_maincomponent_dp3">3dip</dimen>
+    <dimen name="skin_maincomponent_dp2">2dp</dimen>
+    <dimen name="skin_maincomponent_dp8">8dp</dimen>
+    <dimen name="skin_maincomponent_dp10">10dp</dimen>
+    <dimen name="skin_maincomponent_dp12">12dp</dimen>
+    <dimen name="skin_maincomponent_dp15">15dp</dimen>
+    <dimen name="skin_maincomponent_dp18">18dp</dimen>
+    <dimen name="skin_maincomponent_dp20">20dp</dimen>
+    <dimen name="skin_maincomponent_dp25">25dp</dimen>
+    <dimen name="skin_maincomponent_dp30">30dp</dimen>
+    <dimen name="skin_maincomponent_dp50">50dp</dimen>
+    <dimen name="skin_maincomponent_dp73">73dp</dimen>
+
+    <dimen name="webcomponent_dialog_90dp">90dp</dimen>
+    <dimen name="webcomponent_dialog_25dp">25dp</dimen>
+    <dimen name="webcomponent_dialog_48dp">48dp</dimen>
+
+    <dimen name="webcomponent_text_size_10sp">10sp</dimen>
+    <dimen name="webcomponent_18sp">18sp</dimen>
+    <dimen name="webcomponent_20dp">20dp</dimen>
+	<dimen name="webcomponent_5dp">5dp</dimen>
+    <dimen name="webcomponent_10dp">10dp</dimen>
+    <dimen name="webcomponent_feature_findinpage_query_text_size">16sp</dimen>
+    <dimen name="webcomponent_feature_findinpage_query_marginStart">16dp</dimen>
+    <dimen name="webcomponent_feature_findinpage_buttons_margin_end">16dp</dimen>
+    <dimen name="webcomponent_feature_findinpage_result_count_text_size">12sp</dimen>
+    <dimen name="webcomponent_feature_findinpage_result_count_margin_end">16dp</dimen>
+    <dimen name="webcomponent_feature_findinpage_result_count_margin_start">16dp</dimen>
+
+    <dimen name="new_common_update_16sp">16sp</dimen>
+    <dimen name="new_common_update_14sp">14sp</dimen>
+    <dimen name="new_common_update_10sp">10sp</dimen>
+</resources>

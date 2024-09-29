@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="social3_sensitive_error">ข้อความ​มี​เนื้อหา​ที่​ละเมิด, กรุณา​แก้​ไข​และ​ส่ง​ใหม่</string>
+    <string name="social3_sensitive_error_detail">ข้อความ​มี​เนื้อหา​ที่​ละเมิด【%1$s】, กรุณา​แก้​ไข​และ​ส่ง​ใหม่</string>
+</resources>

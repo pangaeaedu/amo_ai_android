@@ -1,0 +1,71 @@
+<resources>
+    <string name="etc_blank_char">\u3000</string>
+    <string name="etc_state_retry_text">刷新</string>
+    <string name="etc_state_empty_tips">暂无内容</string>
+    <string name="etc_state_empty_data">暂无数据</string>
+    <string name="etc_state_fault_tips">哎呀，出错了，刷新试试看</string>
+    <string name="etc_no">否</string>
+    <string name="etc_yes">是</string>
+    <string name="etc_all">全部</string>
+    <string name="etc_tips">提示</string>
+    <string name="etc_save">保存</string>
+    <string name="etc_cancel">取消</string>
+    <string name="etc_confirm">确定</string>
+    <string name="etc_save_success">保存成功</string>
+    <string name="etc_delete_success">删除成功</string>
+    <string name="etc_count_res">%d资源</string>
+    <string name="etc_count_like">%1$s点赞</string>
+    <string name="etc_fill_immediately">立即完善</string>
+    <string name="etc_mine_train">我的培训</string>
+    <string name="etc_mine_train_study">自选学习</string>
+    <string name="etc_mine_train_topic">专题培训</string>
+    <string name="etc_mine_train_over">已结束</string>
+    <string name="etc_mine_train_doing">进行中</string>
+    <string name="etc_mine_train_certificate">证书</string>
+    <string name="etc_mine_train_hours">我的学时</string>
+    <string name="etc_mine_train_hours_group">%1$s年度</string>
+    <string name="etc_mine_master_train_progress_ratio_check">
+        <![CDATA[已签到&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;/&nbsp;未签到&nbsp;<font color="#F53F3F">%2$s</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_have">
+        <![CDATA[&nbsp;/&nbsp;作业&nbsp;<font color="#1E62EC">已提交待批阅</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_none">
+        <![CDATA[&nbsp;/&nbsp;作业&nbsp;<font color="#F53F3F">未提交</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_pass">
+        <![CDATA[&nbsp;/&nbsp;作业&nbsp;<font color="#1E62EC">合格</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_fail">
+        <![CDATA[&nbsp;/&nbsp;作业&nbsp;<font color="#F53F3F">不合格</font>]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio">
+        <![CDATA[已学习&nbsp;<font color="#3461E3">%1$s</font>&nbsp;学时]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio_done_affirm">
+        <![CDATA[已认定&nbsp;<font color="#3461E3">%1$s</font>&nbsp;/&nbsp;认定&nbsp;%2$s&nbsp;学时]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio_wait_affirm">
+        <![CDATA[已认定&nbsp;<font color="#F53F3F">%1$s</font>&nbsp;/&nbsp;认定&nbsp;%2$s&nbsp;学时]]>
+    </string>
+    <string name="etc_mine_train_hours_group_value">
+        <![CDATA[已认定&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;学时&nbsp;/&nbsp;已学习&nbsp;<font color="#F53F3F">%2$s</font>&nbsp;学时]]>
+    </string>
+    <string name="etc_mine_train_hours_items_value">
+        <![CDATA[已学习&nbsp;<font color="#F53F3F">%1$s</font>&nbsp;学时]]>
+    </string>
+    <string name="etc_mine_train_hours_items_value_with_affirm">
+        <![CDATA[已认定&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;学时&nbsp;/&nbsp;已学习&nbsp;<font color="#F53F3F">%2$s</font>&nbsp;学时]]>
+    </string>
+    <string name="etc_tips_mine_train_fill_info">需完善个人信息后方能参与培训下的课程学习，否则无法进行学习进度记录和学时认证。</string>
+    <string name="etc_tips_teacher_train_need_login">培训课程需登录后方能学习，请先登录</string>
+    <string name="etc_tips_teacher_train_role_invalid">培训课程面向教师、教研员、电教人员、管理员开展，暂不支持其他用户参与学习</string>
+    <string name="etc_archive_check_fill_base_error">请完善基本信息</string>
+    <string name="etc_archive_check_fill_teach_error">请完善当前任教信息</string>
+    <string name="etc_archive_check_fill_learn_error">请完善师范类教育经历</string>
+    <string name="etc_archive_check_none_teach_error">请添加“当前任教信息”</string>
+    <string name="etc_archive_check_none_teach_or_learn_error">请添加“当前任教信息”或“师范类教育经历”</string>
+    <string name="etc_archive_check_base_edu_section">本平台为基础教育教师学习平台，职业教育、高等教育教师请到相应的学习平台学习</string>
+    <string name="etc_archive_check_base_edu_section_without_vocational">本平台为基础教育(不包括中职中专) 教师学习平台，职业教育、高等教育教师请到相应的学习平台学习</string>
+    <string name="etc_archive_check_master_position">本次培训针对书记、校长开放，暂不对其他用户开放学习</string>
+</resources>

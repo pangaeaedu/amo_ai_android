@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="hy_rd_doc_loading">กำลังโหลดเอกสาร</string>
+    <string name="hy_rd_doc_loading_failed">การโหลดเอกสารล้มเหลว</string>
+    <string name="hy_rd_doc_loading_progress">กำลังโหลดเอกสาร %s%%</string>
+    <string name="hy_rd_note">บันทึก</string>
+    <string name="hy_rd_page_loading">กำลังโหลด…</string>
+    <string name="hy_rd_page_reload">การโหลดล้มเหลว กรุณาคลิกเพื่อโหลดใหม่</string>
+</resources>

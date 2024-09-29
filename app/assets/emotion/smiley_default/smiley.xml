@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<smileys>
+    <!-- 发送格式[sys:1002] sys代表分组 -->
+    <!-- id 表情包标识ID  name 分组名称  img 分组标题图片 type 表情类型(PIC|TEXT_PIC|EMOJI) order 排序 -->
+    <group
+        id="sys"
+        name="默认表情"
+        smiley_ext="png"
+        thumb_ext="png"
+        normal_img="smiley_default_select"
+        selected_img="smiley_default_select"
+        type="TEXT_PIC"
+        order="1">
+        <!-- id 唯一编号(当是下载表情包的时候，这个ID直接用内容服务图片ID) -->
+        <!-- id 唯一编号(在表情包内唯一) filename="文件名" thumbnail="缩略图" shortcuts="快捷方式(预留)"  -->
+        <smiley filename="1001_stand_wx" id="1001" shortcuts="" thumbnail="1001_stand_wx">
+            <!-- 提示信息 -->
+            <tip>
+                <def>微笑2</def>
+				<th>ยิ้ม</th>
+                <cn>微笑2</cn>
+                <tw>微笑2</tw>
+                <en>Smile</en>
+                <ar>ابتسامة</ar>
+                <ID>Senyum</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1002_stand_pz" id="1002" shortcuts="" thumbnail="1002_stand_pz">
+            <!-- 提示信息 -->
+            <tip>
+                <def>撇嘴1</def>
+                <cn>撇嘴1</cn>
+                <tw>撇嘴1</tw>
+				<th>ยู่ปาก</th>
+                <en>Confounded</en>
+                <ar>مرتبك</ar>
+                <ID>MeliukanBibir</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1003_stand_s" id="1003" shortcuts="" thumbnail="1003_stand_s">
+            <!-- 提示信息 -->
+            <tip>
+                <def>色4</def>
+                <cn>色4</cn>
+                <tw>色4</tw>
+				<th>เจ้าชู้</th>
+                <en>Drool</en>
+                <ar>سيل اللعاب</ar>
+                <ID>Kegasangan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1004_stand_fd" id="1004" shortcuts="" thumbnail="1004_stand_fd">
+            <!-- 提示信息 -->
+            <tip>
+                <def>发呆2</def>
+                <cn>发呆2</cn>
+                <tw>發呆2</tw>
+				<th>เหม่อลอย</th>
+                <en>Dazed</en>
+                <ar>مذهول</ar>
+                <ID>Bengong</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1005_stand_dy" id="1005" shortcuts="" thumbnail="1005_stand_dy">
+            <!-- 提示信息 -->
+            <tip>
+                <def>得意1</def>
+                <cn>得意1</cn>
+                <tw>得意1</tw>
+				<th>ภูมิใจ</th>
+                <en>Proud</en>
+                <ar>فخور</ar>
+                <ID>Puas</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1006_stand_ll" id="1006" shortcuts="" thumbnail="1006_stand_ll">
+            <!-- 提示信息 -->
+            <tip>
+                <def>流泪2</def>
+                <cn>流泪2</cn>
+                <tw>流淚2</tw>
+				<th>น้ำตาไหล</th>
+                <en>Sob</en>
+                <ar>تنهد</ar>
+                <ID>Lakrimasi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1007_stand_hx" id="1007" shortcuts="" thumbnail="1007_stand_hx">
+            <!-- 提示信息 -->
+            <tip>
+                <def>害羞5</def>
+                <cn>害羞5</cn>
+                <tw>害羞5</tw>
+				<th>เขินอาย</th>
+                <en>Shy</en>
+                <ar>خجول</ar>
+                <ID>Malu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1008_stand_bz" id="1008" shortcuts="" thumbnail="1008_stand_bz">
+            <!-- 提示信息 -->
+            <tip>
+                <def>闭嘴1</def>
+                <cn>闭嘴1</cn>
+                <tw>閉嘴1</tw>
+				<th>เงียบ</th>
+                <en>Silent</en>
+                <ar>صامت</ar>
+                <ID>Diam</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1009_stand_shui" id="1009" shortcuts="" thumbnail="1009_stand_shui">
+            <!-- 提示信息 -->
+            <tip>
+                <def>睡</def>
+                <cn>睡</cn>
+                <tw>睡</tw>
+				<th>นอน</th>
+                <en>Sleep</en>
+                <ar>سكون</ar>
+                <ID>Tidur</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1010_stand_dk" id="1010" shortcuts="" thumbnail="1010_stand_dk">
+            <!-- 提示信息 -->
+            <tip>
+                <def>大哭7</def>
+                <cn>大哭7</cn>
+                <tw>大哭7</tw>
+				<th>ร้องไห้หนัก</th>
+                <en>Cry</en>
+                <ar>بكاء</ar>
+                <ID>Menangis</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1011_stand_gg" id="1011" shortcuts="" thumbnail="1011_stand_gg">
+            <!-- 提示信息 -->
+            <tip>
+                <def>尴尬1</def>
+                <cn>尴尬1</cn>
+                <tw>尷尬1</tw>
+				<th>อึดอัดใจ</th>
+                <en>Awkward</en>
+                <ar>حرج</ar>
+                <ID>Dipermalukan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1012_stand_fn" id="1012" shortcuts="" thumbnail="1012_stand_fn">
+            <!-- 提示信息 -->
+            <tip>
+                <def>发怒</def>
+                <cn>发怒</cn>
+                <tw>發怒</tw>
+				<th>โกรธ</th>
+                <en>Angry</en>
+                <ar>غاضب</ar>
+                <ID>Marah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1013_stand_tp" id="1013" shortcuts="" thumbnail="1013_stand_tp">
+            <!-- 提示信息 -->
+            <tip>
+                <def>调皮1</def>
+                <cn>调皮1</cn>
+                <tw>調皮1</tw>
+				<th>ซน</th>
+                <en>Grimace</en>
+                <ar>تكشيرة</ar>
+                <ID>Nakal</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1014_stand_cy" id="1014" shortcuts="" thumbnail="1014_stand_cy">
+            <!-- 提示信息 -->
+            <tip>
+                <def>呲牙</def>
+                <cn>呲牙</cn>
+                <tw>呲牙</tw>
+				<th>ยิ้มเห็นฟัน</th>
+                <en>Grin</en>
+                <ar>ابتسامة</ar>
+                <ID>YiTooth</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1015_stand_jy" id="1015" shortcuts="" thumbnail="1015_stand_jy">
+            <!-- 提示信息 -->
+            <tip>
+                <def>惊讶4</def>
+                <cn>惊讶4</cn>
+                <tw>驚訝4</tw>
+				<th>ประหลาดใจ</th>
+                <en>Surprised</en>
+                <ar>اندهاش</ar>
+                <ID>Kagum</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1016_stand_ng" id="1016" shortcuts="" thumbnail="1016_stand_ng">
+            <!-- 提示信息 -->
+            <tip>
+                <def>难过</def>
+                <cn>难过</cn>
+                <tw>難過</tw>
+				<th>เสียใจ</th>
+                <en>Frown</en>
+                <ar>عبوس</ar>
+                <ID>Berduka</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1017_stand_kuk" id="1017" shortcuts="" thumbnail="1017_stand_kuk">
+            <!-- 提示信息 -->
+            <tip>
+                <def>酷</def>
+                <cn>酷</cn>
+                <tw>酷</tw>
+				<th>เท่</th>
+                <en>Cool</en>
+                <ar>ابتسامة مثيرة</ar>
+                <ID>Keren</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1018_stand_lengh" id="1018" shortcuts="" thumbnail="1018_stand_lengh">
+            <!-- 提示信息 -->
+            <tip>
+                <def>冷汗</def>
+                <cn>冷汗</cn>
+                <tw>冷汗</tw>
+				<th>เหงื่อแตก</th>
+                <en>Oops</en>
+                <ar>اعتذار</ar>
+                <ID>KeringatDingin</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1019_stand_zk" id="1019" shortcuts="" thumbnail="1019_stand_zk">
+            <!-- 提示信息 -->
+            <tip>
+                <def>抓狂</def>
+                <cn>抓狂</cn>
+                <tw>抓狂</tw>
+				<th>คลั่ง</th>
+                <en>Scream</en>
+                <ar>صراخ</ar>
+                <ID>Menggila</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1020_stand_tu" id="1020" shortcuts="" thumbnail="1020_stand_tu">
+            <!-- 提示信息 -->
+            <tip>
+                <def>吐</def>
+                <cn>吐</cn>
+                <tw>吐</tw>
+				<th>อาเจียน</th>
+                <en>Puke</en>
+                <ar>تقيؤ</ar>
+                <ID>Meludah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1021_stand_tx" id="1021" shortcuts="" thumbnail="1021_stand_tx">
+            <!-- 提示信息 -->
+            <tip>
+                <def>偷笑2</def>
+                <cn>偷笑2</cn>
+                <tw>偷笑2</tw>
+				<th>แอบยิ้ม</th>
+                <en>Chuckle</en>
+                <ar>ضحك</ar>
+                <ID>Kikuk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1022_stand_ka" id="1022" shortcuts="" thumbnail="1022_stand_ka">
+            <!-- 提示信息 -->
+            <tip>
+                <def>可爱1</def>
+                <cn>可爱1</cn>
+                <tw>可愛1</tw>
+				<th>น่ารัก</th>
+                <en>Cute</en>
+                <ar>لطيف</ar>
+                <ID>Imut</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1023_stand_by" id="1023" shortcuts="" thumbnail="1023_stand_by">
+            <!-- 提示信息 -->
+            <tip>
+                <def>白眼1</def>
+                <cn>白眼1</cn>
+                <tw>白眼1</tw>
+				<th>กลอกตา</th>
+                <en>Slight</en>
+                <ar>طفيف</ar>
+                <ID>TatapanSuper</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1024_stand_am" id="1024" shortcuts="" thumbnail="1024_stand_am">
+            <!-- 提示信息 -->
+            <tip>
+                <def>傲慢</def>
+                <cn>傲慢</cn>
+                <tw>傲慢</tw>
+				<th>หยิ่งยโส</th>
+                <en>Smug</en>
+                <ar>نَظِيف</ar>
+                <ID>Arogan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1025_stand_jie" id="1025" shortcuts="" thumbnail="1025_stand_jie">
+            <!-- 提示信息 -->
+            <tip>
+                <def>饥饿2</def>
+                <cn>饥饿2</cn>
+                <tw>饑餓2</tw>
+				<th>หิว</th>
+                <en>Hungry</en>
+                <ar>جائع</ar>
+                <ID>Lapar</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1026_stand_kun" id="1026" shortcuts="" thumbnail="1026_stand_kun">
+            <!-- 提示信息 -->
+            <tip>
+                <def>困</def>
+                <cn>困</cn>
+                <tw>困</tw>
+				<th>ง่วง</th>
+                <en>Sleepy</en>
+                <ar>نعاس</ar>
+                <ID>Mengantuk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1027_stand_jk" id="1027" shortcuts="" thumbnail="1027_stand_jk">
+            <!-- 提示信息 -->
+            <tip>
+                <def>惊恐1</def>
+                <cn>惊恐1</cn>
+                <tw>驚恐1</tw>
+				<th>ตกใจกลัว</th>
+                <en>Panic</en>
+                <ar>ذُعْر</ar>
+                <ID>Ketakutan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1028_stand_lh" id="1028" shortcuts="" thumbnail="1028_stand_lh">
+            <!-- 提示信息 -->
+            <tip>
+                <def>流汗2</def>
+                <cn>流汗2</cn>
+                <tw>流汗2</tw>
+				<th>เหงื่อออก</th>
+                <en>Sweat</en>
+                <ar>عرق</ar>
+                <ID>Berkeringat</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1029_stand_hunx" id="1029" shortcuts="" thumbnail="1029_stand_hunx">
+            <!-- 提示信息 -->
+            <tip>
+                <def>憨笑</def>
+                <cn>憨笑</cn>
+                <tw>憨笑</tw>
+				<th></th>
+                <en>Laugh</en>
+                <ar>ضاحك</ar>
+                <ID>SenyumBodoh</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1030_stand_db" id="1030" shortcuts="" thumbnail="1030_stand_db">
+            <!-- 提示信息 -->
+            <tip>
+                <def>大兵</def>
+                <cn>大兵</cn>
+                <tw>大兵</tw>
+				<th>ทหาร</th>
+                <en>Relax</en>
+                <ar>الاسترخاء</ar>
+                <ID>Prajurit</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1031_stand_fendou" id="1031" shortcuts="" thumbnail="1031_stand_fendou">
+            <!-- 提示信息 -->
+            <tip>
+                <def>奋斗1</def>
+                <cn>奋斗1</cn>
+                <tw>奮鬥1</tw>
+				<th>ต่อสู้</th>
+                <en>Strive</en>
+                <ar>مجاهدة</ar>
+                <ID>Berjuang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1032_stand_zhm" id="1032" shortcuts="" thumbnail="1032_stand_zhm">
+            <!-- 提示信息 -->
+            <tip>
+                <def>咒骂</def>
+                <cn>咒骂</cn>
+                <tw>咒罵</tw>
+				<th>สาปแช่ง</th>
+                <en>Scold</en>
+                <ar>ساخر</ar>
+                <ID>SumpahSerapah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1033_stand_yiw" id="1033" shortcuts="" thumbnail="1033_stand_yiw">
+            <!-- 提示信息 -->
+            <tip>
+                <def>疑问2</def>
+                <cn>疑问2</cn>
+                <tw>疑問2</tw>
+				<th>สงสัย</th>
+                <en>Doubt</en>
+                <ar>شك</ar>
+                <ID>Pertanyaan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1034_stand_xu" id="1034" shortcuts="" thumbnail="1034_stand_xu">
+            <!-- 提示信息 -->
+            <tip>
+                <def>嘘</def>
+                <cn>嘘</cn>
+                <tw>嘘</tw>
+				<th>จุ๊ๆ</th>
+                <en>Shh</en>
+                <ar>تعبير لطلب الهدوء</ar>
+                <ID>hush</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1035_stand_yun" id="1035" shortcuts="" thumbnail="1035_stand_yun">
+            <!-- 提示信息 -->
+            <tip>
+                <def>晕3</def>
+                <cn>晕3</cn>
+                <tw>暈3</tw>
+				<th>เวียนหัว</th>
+                <en>Dizzy</en>
+                <ar>دوار</ar>
+                <ID>Pusing</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1036_stand_zhem" id="1036" shortcuts="" thumbnail="1036_stand_zhem">
+            <!-- 提示信息 -->
+            <tip>
+                <def>折磨1</def>
+                <cn>折磨1</cn>
+                <tw>折磨1</tw>
+				<th>ทรมาน</th>
+                <en>Torment</en>
+                <ar>بَائس</ar>
+                <ID>Siksaan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1037_stand_shuai" id="1037" shortcuts="" thumbnail="1037_stand_shuai">
+            <!-- 提示信息 -->
+            <tip>
+                <def>衰1</def>
+                <cn>衰1</cn>
+                <tw>衰1</tw>
+				<th>โชคร้าย</th>
+                <en>Toasted</en>
+                <ar>خبز محمص</ar>
+                <ID>TidakBeruntung</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1038_stand_kl" id="1038" shortcuts="" thumbnail="1038_stand_kl">
+            <!-- 提示信息 -->
+            <tip>
+                <def>骷髅</def>
+                <cn>骷髅</cn>
+                <tw>骷髏</tw>
+				<th>โครงกระดูก</th>
+                <en>Skull</en>
+                <ar>جمجمة</ar>
+                <ID>Tengkorak</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1039_stand_qiao" id="1039" shortcuts="" thumbnail="1039_stand_qiao">
+            <!-- 提示信息 -->
+            <tip>
+                <def>敲</def>
+                <cn>敲</cn>
+                <tw>敲</tw>
+				<th>เคาะ</th>
+                <en>Hammer</en>
+                <ar>مطرقة</ar>
+                <ID>Ketuk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1040_stand_zj" id="1040" shortcuts="" thumbnail="1040_stand_zj">
+            <!-- 提示信息 -->
+            <tip>
+                <def>再见</def>
+                <cn>再见</cn>
+                <tw>再見</tw>
+				<th>ลาก่อน</th>
+                <en>Bye</en>
+                <ar>إلى اللقاء</ar>
+                <ID>SampaiJumpa</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1041_stand_ch" id="1041" shortcuts="" thumbnail="1041_stand_ch">
+            <!-- 提示信息 -->
+            <tip>
+                <def>出汗</def>
+                <cn>出汗</cn>
+                <tw>出汗</tw>
+				<th>เหงื่อออก</th>
+                <en>Speechless</en>
+                <ar>عاجز عن الكلام</ar>
+                <ID>Keringat</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1042_stand_kb" id="1042" shortcuts="" thumbnail="1042_stand_kb">
+            <!-- 提示信息 -->
+            <tip>
+                <def>抠鼻</def>
+                <cn>抠鼻</cn>
+                <tw>摳鼻</tw>
+				<th>แคะจมูก</th>
+                <en>Nose-picking</en>
+                <ar>تنظيف الأنف</ar>
+                <ID>ColekHdung</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1043_stand_gz" id="1043" shortcuts="" thumbnail="1043_stand_gz">
+            <!-- 提示信息 -->
+            <tip>
+                <def>鼓掌1</def>
+                <cn>鼓掌1</cn>
+                <tw>鼓掌1</tw>
+				<th>ปรบมือ</th>
+                <en>Clap</en>
+                <ar>يصفق</ar>
+                <ID>TepukTangan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1044_stand_qd" id="1044" shortcuts="" thumbnail="1044_stand_qd">
+            <!-- 提示信息 -->
+            <tip>
+                <def>糗大了</def>
+                <cn>糗大了</cn>
+                <tw>糗大了</tw>
+				<th>อายมาก</th>
+                <en>Shame</en>
+                <ar>خَجِل</ar>
+                <ID>Dipermalukan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1045_stand_huaix" id="1045" shortcuts="" thumbnail="1045_stand_huaix">
+            <!-- 提示信息 -->
+            <tip>
+                <def>坏笑1</def>
+                <cn>坏笑1</cn>
+                <tw>壞笑1</tw>
+				<th>ยิ้มเจ้าเล่ห์</th>
+                <en>Smirk</en>
+                <ar>ابتسامة</ar>
+                <ID>SenyumJahat</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1046_stand_zhh" id="1046" shortcuts="" thumbnail="1046_stand_zhh">
+            <!-- 提示信息 -->
+            <tip>
+                <def>左哼哼</def>
+                <cn>左哼哼</cn>
+                <tw>左哼哼</tw>
+				<th>ฮึดฮัดทางซ้าย</th>
+                <en>Bah! Left</en>
+                <ar>تعجرف! يسار</ar>
+                <ID>HemKanan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1047_stand_yhh" id="1047" shortcuts="" thumbnail="1047_stand_yhh">
+            <!-- 提示信息 -->
+            <tip>
+                <def>右哼哼</def>
+                <cn>右哼哼</cn>
+                <tw>右哼哼</tw>
+				<th>ฮึดฮัดทางขวา</th>
+                <en>Bah! Right</en>
+                <ar>تعجرف! يمين</ar>
+                <ID>HemKiri</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1048_stand_hq" id="1048" shortcuts="" thumbnail="1048_stand_hq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>哈欠</def>
+                <cn>哈欠</cn>
+                <tw>哈欠</tw>
+				<th>หาว</th>
+                <en>Yawn</en>
+                <ar>تَثاؤب</ar>
+                <ID>Menguap</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1049_stand_bs" id="1049" shortcuts="" thumbnail="1049_stand_bs">
+            <!-- 提示信息 -->
+            <tip>
+                <def>鄙视2</def>
+                <cn>鄙视2</cn>
+                <tw>鄙視2</tw>
+				<th>ดูถูก</th>
+                <en>Disdain</en>
+                <ar>ازْدِرَاء</ar>
+                <ID>Penghinaan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1050_stand_wq" id="1050" shortcuts="" thumbnail="1050_stand_wq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>委屈1</def>
+                <cn>委屈1</cn>
+                <tw>委屈1</tw>
+				<th>น้อยใจ</th>
+                <en>Wronged</en>
+                <ar>مُضْطَهَد</ar>
+                <ID>MerasaDisalahkan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1051_stand_kk" id="1051" shortcuts="" thumbnail="1051_stand_kk">
+            <!-- 提示信息 -->
+            <tip>
+                <def>快哭了</def>
+                <cn>快哭了</cn>
+                <tw>快哭了</tw>
+				<th>ใกล้จะร้องไห้</th>
+                <en>Almost cry</en>
+                <ar>شبه البكاء</ar>
+                <ID>Menangis</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1052_stand_yx" id="1052" shortcuts="" thumbnail="1052_stand_yx">
+            <!-- 提示信息 -->
+            <tip>
+                <def>阴险</def>
+                <cn>阴险</cn>
+                <tw>陰險</tw>
+				<th>เจ้าเล่ห์</th>
+                <en>Sly</en>
+                <ar>مخادع</ar>
+                <ID>Menangis</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1053_stand_qq" id="1053" shortcuts="" thumbnail="1053_stand_qq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>亲亲</def>
+                <cn>亲亲</cn>
+                <tw>親親</tw>
+				<th></th>
+                <en>Kiss</en>
+                <ar>قبلة</ar>
+                <ID>cium</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1054_stand_xia" id="1054" shortcuts="" thumbnail="1054_stand_xia">
+            <!-- 提示信息 -->
+            <tip>
+                <def>吓</def>
+                <cn>吓</cn>
+                <tw>嚇</tw>
+				<th>ตกใจ</th>
+                <en>Frightened</en>
+                <ar>مرتعب</ar>
+                <ID>Takut</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1055_stand_kel" id="1055" shortcuts="" thumbnail="1055_stand_kel">
+            <!-- 提示信息 -->
+            <tip>
+                <def>可怜2</def>
+                <cn>可怜2</cn>
+                <tw>可憐2</tw>
+				<th>น่าสงสาร</th>
+                <en>Whimper</en>
+                <ar>تَنَهّد بِأنْفاس سَرِيعَة</ar>
+                <ID>Kasihan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1056_stand_cd" id="1056" shortcuts="" thumbnail="1056_stand_cd">
+            <!-- 提示信息 -->
+            <tip>
+                <def>菜刀</def>
+                <cn>菜刀</cn>
+                <tw>菜刀</tw>
+				<th>มีดทำครัว	</th>
+                <en>Cleaver</en>
+                <ar>ساطور</ar>
+                <ID>PisauDapur</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1057_stand_xig" id="1057" shortcuts="" thumbnail="1057_stand_xig">
+            <!-- 提示信息 -->
+            <tip>
+                <def>西瓜</def>
+                <cn>西瓜</cn>
+                <tw>西瓜</tw>
+				<th>แตงโม</th>
+                <en>Watermelon</en>
+                <ar>بطيخ</ar>
+                <ID>Semangka</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1058_stand_pj" id="1058" shortcuts="" thumbnail="1058_stand_pj">
+            <!-- 提示信息 -->
+            <tip>
+                <def>啤酒</def>
+                <cn>啤酒</cn>
+                <tw>啤酒</tw>
+				<th>เบียร์</th>
+                <en>Beer</en>
+                <ar>بيرة</ar>
+                <ID>bir</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1059_stand_lq" id="1059" shortcuts="" thumbnail="1059_stand_lq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>篮球</def>
+                <cn>篮球</cn>
+                <tw>籃球</tw>
+				<th>บาสเกตบอล</th>
+                <en>Basketball</en>
+                <ar>كرة السلة</ar>
+                <ID>BolaBAsket</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1060_stand_pp" id="1060" shortcuts="" thumbnail="1060_stand_pp">
+            <!-- 提示信息 -->
+            <tip>
+                <def>乒乓</def>
+                <cn>乒乓</cn>
+                <tw>乒乓</tw>
+				<th>ปิงปอง</th>
+                <en>Ping-pong</en>
+                <ar>تنس الطاولة</ar>
+                <ID>ping-pong</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1061_stand_kf" id="1061" shortcuts="" thumbnail="1061_stand_kf">
+            <!-- 提示信息 -->
+            <tip>
+                <def>咖啡</def>
+                <cn>咖啡</cn>
+                <tw>咖啡</tw>
+				<th>กาแฟ</th>
+                <en>Coffee</en>
+                <ar>قَهْوَة</ar>
+                <ID>Kopi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1062_stand_fan" id="1062" shortcuts="" thumbnail="1062_stand_fan">
+            <!-- 提示信息 -->
+            <tip>
+                <def>饭</def>
+                <cn>饭</cn>
+                <tw>飯</tw>
+				<th>ข้าว</th>
+                <en>Rice</en>
+                <ar>أرز</ar>
+                <ID>Makanan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1063_stand_zt" id="1063" shortcuts="" thumbnail="1063_stand_zt">
+            <!-- 提示信息 -->
+            <tip>
+                <def>猪头</def>
+                <cn>猪头</cn>
+                <tw>豬頭</tw>
+				<th>หัวหมู</th>
+                <en>Pig</en>
+                <ar>خنزير</ar>
+                <ID>KepalaBabi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1064_stand_mg" id="1064" shortcuts="" thumbnail="1064_stand_mg">
+            <!-- 提示信息 -->
+            <tip>
+                <def>玫瑰</def>
+                <cn>玫瑰</cn>
+                <tw>玫瑰</tw>
+				<th>กุหลาบ</th>
+                <en>Rose</en>
+                <ar>وردي</ar>
+                <ID>Mawar</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1065_stand_dx" id="1065" shortcuts="" thumbnail="1065_stand_dx">
+            <!-- 提示信息 -->
+            <tip>
+                <def>凋谢</def>
+                <cn>凋谢</cn>
+                <tw>雕謝</tw>
+				<th>เหี่ยวเฉา</th>
+                <en>Wilt</en>
+                <ar>ذابِل</ar>
+                <ID>WitherAway</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1066_stand_sa" id="1066" shortcuts="" thumbnail="1066_stand_sa">
+            <!-- 提示信息 -->
+            <tip>
+                <def>示愛</def>
+                <cn>示爱</cn>
+                <tw>示愛</tw>
+				<th>แสดงความรัก</th>
+                <en>Lips</en>
+                <ar>شفاه</ar>
+                <ID>PamerPacaran</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1067_stand_xin" id="1067" shortcuts="" thumbnail="1067_stand_xin">
+            <!-- 提示信息 -->
+            <tip>
+                <def>爱心</def>
+                <cn>爱心</cn>
+                <tw>愛心</tw>
+				<th>หัวใจรัก</th>
+                <en>Heart</en>
+                <ar>قلب</ar>
+                <ID>Hati</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1068_stand_xs" id="1068" shortcuts="" thumbnail="1068_stand_xs">
+            <!-- 提示信息 -->
+            <tip>
+                <def>心碎</def>
+                <cn>心碎</cn>
+                <tw>心碎</tw>
+				<th>อกหัก</th>
+                <en>Broken heart</en>
+                <ar>مكسور الخاطر</ar>
+                <ID>PatahHati</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1069_stand_dg" id="1069" shortcuts="" thumbnail="1069_stand_dg">
+            <!-- 提示信息 -->
+            <tip>
+                <def>蛋糕</def>
+                <cn>蛋糕</cn>
+                <tw>蛋糕</tw>
+				<th>เค้ก</th>
+                <en>Cake</en>
+                <ar>كعك</ar>
+                <ID>Kue</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1070_stand_shd" id="1070" shortcuts="" thumbnail="1070_stand_shd">
+            <!-- 提示信息 -->
+            <tip>
+                <def>闪电</def>
+                <cn>闪电</cn>
+                <tw>閃電</tw>
+				<th>สายฟ้า</th>
+                <en>Lightning</en>
+                <ar>برق</ar>
+                <ID>Petir</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1071_stand_zhd" id="1071" shortcuts="" thumbnail="1071_stand_zhd">
+            <!-- 提示信息 -->
+            <tip>
+                <def>炸弹</def>
+                <cn>炸弹</cn>
+                <tw>炸彈</tw>
+				<th>ระเบิด</th>
+                <en>Bomb</en>
+                <ar>قنبلة</ar>
+                <ID>Bom Waktu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1072_stand_dao" id="1072" shortcuts="" thumbnail="1072_stand_dao">
+            <!-- 提示信息 -->
+            <tip>
+                <def>刀</def>
+                <cn>刀</cn>
+                <tw>刀</tw>
+				<th>มีด</th>
+                <en>Dagger</en>
+                <ar>خنجر</ar>
+                <ID>Pisau</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1073_stand_zq" id="1073" shortcuts="" thumbnail="1073_stand_zq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>足球</def>
+                <cn>足球</cn>
+                <tw>足球</tw>
+				<th>ฟุตบอล</th>
+                <en>Football</en>
+                <ar>كرة القدم</ar>
+                <ID>Bola</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1074_stand_pch" id="1074" shortcuts="" thumbnail="1074_stand_pch">
+            <!-- 提示信息 -->
+            <tip>
+                <def>瓢虫</def>
+                <cn>瓢虫</cn>
+                <tw>瓢蟲</tw>
+				<th>เต่าทอง</th>
+                <en>Ladybug</en>
+                <ar>خنفساء</ar>
+                <ID>Kumbang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1075_stand_bb" id="1075" shortcuts="" thumbnail="1075_stand_bb">
+            <!-- 提示信息 -->
+            <tip>
+                <def>便便</def>
+                <cn>便便</cn>
+                <tw>便便</tw>
+				<th>อึ</th>
+                <en>Poop</en>
+                <ar>براز</ar>
+                <ID>PerutPot</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1076_stand_yl" id="1076" shortcuts="" thumbnail="1076_stand_yl">
+            <!-- 提示信息 -->
+            <tip>
+                <def>月亮</def>
+                <cn>月亮</cn>
+                <tw>月亮</tw>
+				<th>พระจันทร์</th>
+                <en>Moon</en>
+                <ar>قمر</ar>
+                <ID>Bulan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1077_stand_ty" id="1077" shortcuts="" thumbnail="1077_stand_ty">
+            <!-- 提示信息 -->
+            <tip>
+                <def>太阳</def>
+                <cn>太阳</cn>
+                <tw>太陽</tw>
+				<th>พระอาทิตย์</th>
+                <en>Sun</en>
+                <ar>شمس</ar>
+                <ID>Matahari</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1078_stand_lw" id="1078" shortcuts="" thumbnail="1078_stand_lw">
+            <!-- 提示信息 -->
+            <tip>
+                <def>礼物</def>
+                <cn>礼物</cn>
+                <tw>禮物</tw>
+				<th>ของขวัญ</th>
+                <en>Gift</en>
+                <ar>هدية</ar>
+                <ID>Hadiah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1079_stand_yb" id="1079" shortcuts="" thumbnail="1079_stand_yb">
+            <!-- 提示信息 -->
+            <tip>
+                <def>拥抱</def>
+                <cn>拥抱</cn>
+                <tw>擁抱</tw>
+				<th>กอด</th>
+                <en>Hug</en>
+                <ar>مُعَانَقَة</ar>
+                <ID>Peluk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1080_stand_qiang" id="1080" shortcuts="" thumbnail="1080_stand_qiang">
+            <!-- 提示信息 -->
+            <tip>
+                <def>强</def>
+                <cn>强</cn>
+                <tw>強</tw>
+				<th>แข็งแรง</th>
+                <en>Great</en>
+                <ar>رائع</ar>
+                <ID>Kuat</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1081_stand_ruo" id="1081" shortcuts="" thumbnail="1081_stand_ruo">
+            <!-- 提示信息 -->
+            <tip>
+                <def>弱</def>
+                <cn>弱</cn>
+                <tw>弱</tw>
+				<th>อ่อนแอ</th>
+                <en>Weak</en>
+                <ar>ضعيف</ar>
+                <ID>Lemah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1082_stand_ws" id="1082" shortcuts="" thumbnail="1082_stand_ws">
+            <!-- 提示信息 -->
+            <tip>
+                <def>握手</def>
+                <cn>握手</cn>
+                <tw>握手</tw>
+				<th>จับมือ</th>
+                <en>Handshake</en>
+                <ar>مصافحة باليد</ar>
+                <ID>Salaman</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1083_stand_shl" id="1083" shortcuts="" thumbnail="1083_stand_shl">
+            <!-- 提示信息 -->
+            <tip>
+                <def>胜利</def>
+                <cn>胜利</cn>
+                <tw>勝利</tw>
+				<th>ชัยชนะ</th>
+                <en>Victory</en>
+                <ar>نصر</ar>
+                <ID>Menang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1084_stand_bq" id="1084" shortcuts="" thumbnail="1084_stand_bq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>抱拳</def>
+                <cn>抱拳</cn>
+                <tw>抱拳</tw>
+				<th>กำหมัดคำนับ</th>
+                <en>Salute</en>
+                <ar>تحية</ar>
+                <ID>Bensin</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1085_stand_gy" id="1085" shortcuts="" thumbnail="1085_stand_gy">
+            <!-- 提示信息 -->
+            <tip>
+                <def>勾引</def>
+                <cn>勾引</cn>
+                <tw>勾引</tw>
+				<th>ล่อลวง</th>
+                <en>Beckon</en>
+                <ar>إيماءة</ar>
+                <ID>Goda</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1086_stand_qt" id="1086" shortcuts="" thumbnail="1086_stand_qt">
+            <!-- 提示信息 -->
+            <tip>
+                <def>拳头</def>
+                <cn>拳头</cn>
+                <tw>拳頭</tw>
+				<th>กำปั้น</th>
+                <en>Fist</en>
+                <ar>قبضة يد</ar>
+                <ID>Tinju</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1087_stand_cj" id="1087" shortcuts="" thumbnail="1087_stand_cj">
+            <!-- 提示信息 -->
+            <tip>
+                <def>差劲</def>
+                <cn>差劲</cn>
+                <tw>差勁</tw>
+				<th>แย่</th>
+                <en>Pinky</en>
+                <ar>خنصر</ar>
+                <ID>Kecewa</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1088_stand_aini" id="1088" shortcuts="" thumbnail="1088_stand_aini">
+            <!-- 提示信息 -->
+            <tip>
+                <def>爱你</def>
+                <cn>爱你</cn>
+                <tw>愛妳</tw>
+				<th>รักคุณ</th>
+                <en>Love</en>
+                <ar>حب</ar>
+                <ID>SayangKamu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1089_stand_bu" id="1089" shortcuts="" thumbnail="1089_stand_bu">
+            <!-- 提示信息 -->
+            <tip>
+                <def>NO</def>
+                <cn>NO</cn>
+                <tw>NO</tw>
+				<th>NO</th>
+                <en>NO</en>
+                <ar>لا</ar>
+                <ID>Tidak</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1090_stand_hd" id="1090" shortcuts="" thumbnail="1090_stand_hd">
+            <!-- 提示信息 -->
+            <tip>
+                <def>OK</def>
+                <cn>OK</cn>
+                <tw>OK</tw>
+				<th>OK</th>
+                <en>OK</en>
+                <ar>موافق</ar>
+                <ID>OK</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1091_stand_aiq" id="1091" shortcuts="" thumbnail="1091_stand_aiq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>爱情</def>
+                <cn>爱情</cn>
+                <tw>愛情</tw>
+				<th>ความรัก</th>
+                <en>In love</en>
+                <ar>مغرم</ar>
+                <ID>Sayang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1092_stand_fw" id="1092" shortcuts="" thumbnail="1092_stand_fw">
+            <!-- 提示信息 -->
+            <tip>
+                <def>飞吻1</def>
+                <cn>飞吻1</cn>
+                <tw>飛吻1</tw>
+				<th>ส่งจูบ</th>
+                <en>Blow kiss</en>
+                <ar>قبلة على الهواء</ar>
+                <ID>CiumJauh</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1093_stand_tiao" id="1093" shortcuts="" thumbnail="1093_stand_tiao">
+            <!-- 提示信息 -->
+            <tip>
+                <def>跳跳</def>
+                <cn>跳跳</cn>
+                <tw>跳跳</tw>
+				<th>กระโดด</th>
+                <en>Waddle</en>
+                <ar>تهادي</ar>
+                <ID>AtasBawah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1094_stand_fad" id="1094" shortcuts="" thumbnail="1094_stand_fad">
+            <!-- 提示信息 -->
+            <tip>
+                <def>发抖</def>
+                <cn>发抖</cn>
+                <tw>發抖</tw>
+				<th>สั่น</th>
+                <en>Tremble</en>
+                <ar>رجفة</ar>
+                <ID>Gemetar</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1095_stand_oh" id="1095" shortcuts="" thumbnail="1095_stand_oh">
+            <!-- 提示信息 -->
+            <tip>
+                <def>怄火</def>
+                <cn>怄火</cn>
+                <tw>慪火</tw>
+				<th>โกรธเคือง</th>
+                <en>Fury</en>
+                <ar>انْفِعال</ar>
+                <ID>TadiBerapi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1096_stand_zhq" id="1096" shortcuts="" thumbnail="1096_stand_zhq">
+            <!-- 提示信息 -->
+            <tip>
+                <def>转圈</def>
+                <cn>转圈</cn>
+                <tw>轉圈</tw>
+				<th>หมุนเป็นวงกลม</th>
+                <en>Twirl</en>
+                <ar>دوران</ar>
+                <ID>Berputar-putar</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1097_stand_kt" id="1097" shortcuts="" thumbnail="1097_stand_kt">
+            <!-- 提示信息 -->
+            <tip>
+                <def>磕头</def>
+                <cn>磕头</cn>
+                <tw>磕頭</tw>
+				<th>กราบ</th>
+                <en>Kowtow</en>
+                <ar>تَمَلَّقَ</ar>
+                <ID>kowtow</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1098_stand_ht" id="1098" shortcuts="" thumbnail="1098_stand_ht">
+            <!-- 提示信息 -->
+            <tip>
+                <def>回头</def>
+                <cn>回头</cn>
+                <tw>回頭</tw>
+				<th>หันหลังกลับ</th>
+                <en>Turn around</en>
+                <ar>اسْتَدَار</ar>
+                <ID>KasihUang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1099_stand_tsh" id="1099" shortcuts="" thumbnail="1099_stand_tsh">
+            <!-- 提示信息 -->
+            <tip>
+                <def>跳绳</def>
+                <cn>跳绳</cn>
+                <tw>跳繩</tw>
+				<th>กระโดดเชือก</th>
+                <en>Jump rope</en>
+                <ar>نط الحبل</ar>
+                <ID>LompatTali</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1100_stand_hsh" id="1100" shortcuts="" thumbnail="1100_stand_hsh">
+            <!-- 提示信息 -->
+            <tip>
+                <def>挥手</def>
+                <cn>挥手</cn>
+                <tw>揮手</tw>
+				<th>โบกมือ</th>
+                <en>Wave</en>
+                <ar>تلويح</ar>
+                <ID>Melambai</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1101_stand_jd" id="1101" shortcuts="" thumbnail="1101_stand_jd">
+            <!-- 提示信息 -->
+            <tip>
+                <def>激动3</def>
+                <cn>激动3</cn>
+                <tw>激動3</tw>
+				<th>ตื่นเต้น</th>
+                <en>Excited</en>
+                <ar>إثارة</ar>
+                <ID>Tertarik</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1102_stand_jw" id="1102" shortcuts="" thumbnail="1102_stand_jw">
+            <!-- 提示信息 -->
+            <tip>
+                <def>街舞</def>
+                <cn>街舞</cn>
+                <tw>街舞</tw>
+				<th>เต้นบีบอย</th>
+                <en>Dance</en>
+                <ar>رَقْص</ar>
+                <ID>StreetDancing</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1103_stand_xw" id="1103" shortcuts="" thumbnail="1103_stand_xw">
+            <!-- 提示信息 -->
+            <tip>
+                <def>献吻</def>
+                <cn>献吻</cn>
+                <tw>獻吻</tw>
+				<th>ส่งจูบ</th>
+                <en>Throw kiss</en>
+                <ar>قبلة على الهواء</ar>
+                <ID>Cium</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1104_stand_zoutj" id="1104" shortcuts="" thumbnail="1104_stand_zoutj">
+            <!-- 提示信息 -->
+            <tip>
+                <def>左太极</def>
+                <cn>左太极</cn>
+                <tw>左太極</tw>
+				<th>ไทเก็กซ้าย</th>
+                <en>Wave left hand</en>
+                <ar>التلويح باليد اليسرى</ar>
+                <ID>ZuoTaiJi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="1105_stand_youtj" id="1105" shortcuts="" thumbnail="1105_stand_youtj">
+            <!-- 提示信息 -->
+            <tip>
+                <def>右太极</def>
+                <cn>右太极</cn>
+                <tw>右太極</tw>
+				<th>ไทเก็กขวา</th>
+                <en>Wave right hand</en>
+                <ar>التلويح باليد اليمنى</ar>
+                <ID>YouTaiJi</ID>
+            </tip>
+        </smiley>
+    </group>
+
+</smileys>

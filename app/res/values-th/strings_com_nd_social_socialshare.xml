@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="share_network_unavailable">เอ๊ะ ดูเหมือนว่ามีปัญหากับเน็ต</string>
+    <string name="share_share">แชร์</string>
+    <string name="share_cancel">ยกเลิก</string>
+    <string name="share_dialog_hint">พูดอะไรดี?</string>
+    <string name="share_message">ข้อความ</string>
+    <string name="share_copy">คัดลอกลิงก์</string>
+    <string name="share_copy_successd">คัดลอกสำเร็จ</string>
+    <string name="share_message_hint">การส่งข้อความอาจมีค่าใช้จ่าย ผลิตภัณฑ์ไม่คิดค่าบริการ ค่าข้อความทั่วไปคือ 0.1 บาทต่อข้อความ ซึ่งถูกเรียกเก็บโดยผู้ให้บริการ</string>
+    <string name="share_text_facebook_key">Facebook</string>
+    <string name="share_text_message_key">Messenger</string>
+    <string name="share_text_twitter_key">Twitter</string>
+    <string name="share_text_line_key">Line</string>
+    <string name="share_text_whatsapp_key">WhatsApp</string>
+    <!--20.6.0-->
+    <string name="share_read_close">ปิดหน้าต่าง</string>
+    <string name="share_read_share">แชร์</string>
+    <string name="share_whatsapp_fail_tip">ยังไม่ได้ติดตั้ง WhatsApp โปรดติดตั้งก่อนลองใหม่</string>
+    <!--26.1.10-->
+    <string name="share_sina_no_support_img_tip">ยังไม่ได้ติดตั้ง Sina Weibo โปรดติดตั้งก่อนลองใหม่</string>
+</resources>

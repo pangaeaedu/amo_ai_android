@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="xst_fav_title" translatable="false">我的收藏</string>
+    <string name="xst_fav_sedu" translatable="false">德育</string>
+    <string name="xst_fav_school_sevice" translatable="false">课后服务</string>
+    <string name="xst_fav_edu_reform" translatable="false">教改经验</string>
+    <string name="xst_fav_family_edu" translatable="false">家庭教育</string>
+    <string name="xst_x_course" translatable="false">课程教学</string>
+    <string name="xst_t_course" translatable="false">教师研修</string>
+    <string name="xst_fav_sport" translatable="false">体育</string>
+    <string name="xst_fav_art" translatable="false">美育</string>
+    <string name="xst_fav_labor" translatable="false">劳动教育</string>
+    <string name="xst_fav_edit" translatable="false">编辑</string>
+    <string name="xst_fav_cancel" translatable="false">取消</string>
+    <string name="xst_fav_select_all">全选</string>
+    <string name="xst_fav_select_all_cancel" tools:ignore="ExtraTranslation">取消全选</string>
+    <string name="xst_fav_select_del">删除(%d)</string>
+    <string name="xst_fav_select_del_action">删除</string>
+    <string name="xst_fav_confirm_delete">确认删除</string>
+    <string name="xst_fav_confirm_delete_fav">确认删除当前选中的收藏？</string>
+    <string name="xst_fav_content_tip">快去收藏感兴趣的内容吧</string>
+    <string name="xst_fav_course_textbook">课本</string>
+    <string name="xst_fav_course_hour">课程</string>
+
+    <string name="xst_fav_sort_by_favorites" translatable="false">按收藏夹</string>
+    <string name="xst_fav_sort_by_content" translatable="false">按内容</string>
+    <string name="xst_collection_count" translatable="false">%d个收藏夹</string>
+    <string name="xst_content_count" translatable="false">%s条内容</string>
+
+
+
+    <string name="xst_my_follow_title" translatable="false">我的关注</string>
+    <string name="xst_my_follow_member_resource_count" translatable="false">成员 %d丨资源 %d</string>
+    <string name="xst_my_follow_member_count" translatable="false">%d人关注</string>
+    <string name="xst_my_follow_resource_num" translatable="false">资源数</string>
+    <string name="xst_my_follow_no_content" translatable="false">暂无内容</string>
+    <string name="xst_my_follow_follow" translatable="false">关注</string>
+    <string name="xst_my_follow_followed" translatable="false">已关注</string>
+    <string name="xst_my_follow_unfollowed" translatable="false">已取消</string>
+    <string name="xst_my_follow_follow_failed" translatable="false">操作失败，请重试...</string>
+    <string name="xst_my_follow_empty_tip" translatable="false">快去关注感兴趣的内容吧</string>
+    <string name="xst_my_follow_studio_no_exist" translatable="false">该工作室已不存在</string>
+    <string name="xst_my_follow_space_no_exist" translatable="false">该空间已不存在</string>
+    <string name="xst_my_follow_resource_number_no_exist" translatable="false">该资源号已不存在</string>
+    <string name="xst_my_follow_fetch_failed" translatable="false">数据加载失败</string>
+    <string name="xst_my_follow_studio_tab_title" translatable="false">名师工作室</string>
+    <string name="xst_my_follow_resource_number_tab_title" translatable="false">资源号</string>
+    <string name="xst_my_follow_expert_studio_title" translatable="false">专家团队工作室</string>
+    <string name="xst_my_follow_school_space" translatable="false">学校空间</string>
+
+    <string name="xst_my_follow_unfollow_tip" translatable="false">是否确认取消关注？</string>
+    <string name="xst_my_follow_unfollow_confirm" translatable="false">确定</string>
+
+    <string name="xst_my_follow_loading_tip" translatable="false">请求中,请稍候...</string>
+    <string name="xst_my_follow_load_more_tip" translatable="false">正在加载更多数据...</string>
+    <string name="xst_my_follow_has_load_all" translatable="false">已加载全部数据</string>
+
+
+    <string name="xst_load_fail">哎呀，出错了</string>
+    <string name="xst_interact_try_refresh">试试刷新</string>
+
+    <string name="xst_fav_level_department">部优</string>
+    <string name="xst_fav_level_province">省优</string>
+
+
+</resources>

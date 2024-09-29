@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_dynamic_net_error_tips">Network connection error. Please try again.</string>
+    <string name="el_dynamic_data_error_tips">Parse error. Please try again.</string>
+    <string name="el_dynamic_load_fail_retry">Failed to load. Please pull down to try again.</string>
+    <string name="el_dynamic_has_no_dynamic">No activity</string>
+    <string name="el_dynamic_time_format">MM-dd</string>
+
+    <string name="el_dynamic_album_dynamic_content">上传%s张照片到相册</string>
+    <string name="el_dynamic_publish_notice">Posted the notice: </string>
+    <string name="el_dynamic_publis_acitivity">Publish the activity</string>
+    <string name="el_dynamic_publish_new_vote">Start a vote</string>
+    <string name="el_dynamic_publish_voting">Posted the selection: </string>
+    <string name="el_dynamic_publish_class_schedule">发布课表</string>
+    <string name="el_dynamic_publish_topic">Publish</string>
+    <string name="el_dynamic_join_community">Join community</string>
+    <string name="el_dynamic_pulish_punch_card">Post punch</string>
+    <string name="el_dynamic_pulish_quetionnaire">Release Questionnaire</string>
+    <string name="el_dynamic_pulish_news">Posted the news: </string>
+    <string name="el_dynamic_join">%1$s加入了%2$s</string>
+    <string name="el_dynamic_dynamic_from">来自%s</string>
+    <string name="el_dynamic_punch_card_time">活动时间：%1$s-%2$s</string>
+    <string name="el_dynamic_class_dynamic">Posts</string>
+    <string name="el_dynamic_dynamic">Posts</string>
+    <string name="el_dynamic_more">More</string>
+
+    <string name="el_dynamic_ten_loading">载入中...</string>
+
+    <string name="el_dynamic_listview_no_more_data">No more data</string>
+    <string name="el_dynamic_listview_loadfail">Failed to load. Try again</string>
+</resources>

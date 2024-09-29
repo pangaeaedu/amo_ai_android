@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--通用统一配置-->
+    <!--主要文字大小-->
+    <dimen name="starapp_life_text_1_bold">18sp</dimen>
+    <dimen name="starapp_life_text_2_bold">17sp</dimen>
+    <dimen name="starapp_life_text_11_bold">14sp</dimen>
+    <dimen name="starapp_life_text_12_bold">12sp</dimen>
+
+    <dimen name="starapp_life_text_10">30sp</dimen>
+    <dimen name="starapp_life_text_9">24sp</dimen>
+    <dimen name="starapp_life_text_3">18sp</dimen>
+    <dimen name="starapp_life_text_4">17sp</dimen>
+    <dimen name="starapp_life_text_13">16sp</dimen>
+    <dimen name="starapp_life_text_14">15sp</dimen>
+    <dimen name="starapp_life_text_5">14sp</dimen>
+    <dimen name="starapp_life_text_6">12sp</dimen>
+    <dimen name="starapp_life_text_7">11sp</dimen>
+    <dimen name="starapp_life_text_8">10sp</dimen>
+
+    <!-- 主要色彩 -->
+    <color name="starapp_life_color_14">#38adff</color>
+    <color name="starapp_life_color_22">#2a82bf</color>
+    <color name="starapp_life_color_6">#9bd6ff</color>
+    <color name="starapp_life_color_15">#d4eeff</color>
+    <color name="starapp_life_color_13">#f43531</color>
+    <color name="starapp_life_color_26">#b54352</color>
+    <!-- 辅助色彩 -->
+    <color name="starapp_life_color_16">#ff6f6f</color>
+    <color name="starapp_life_color_17">#ffb822</color>
+    <color name="starapp_life_color_18">#2dd2d0</color>
+    <color name="starapp_life_color_19">#ff9518</color>
+    <color name="starapp_life_color_20">#7ed728</color>
+    <color name="starapp_life_color_21">#c166d8</color>
+    <!-- 文字颜色 -->
+    <color name="starapp_life_color_1">#333333</color>
+    <color name="starapp_life_color_2">#666666</color>
+    <color name="starapp_life_color_3">#0090ff</color>
+    <color name="starapp_life_color_4">#999999</color>
+    <color name="starapp_life_color_5">#cccccc</color>
+    <color name="starapp_life_color_7">#ffffff</color>
+    <color name="starapp_life_color_12">#7fedff</color>
+    <color name="starapp_life_color_27">#8fbfdf</color>
+    <!-- 线条颜色 -->
+    <!--<color name="starapp_life_color_5">#cccccc</color>-->
+    <color name="starapp_life_color_8">#dddddd</color>
+    <color name="starapp_life_color_9">#eeeeee</color>
+    <color name="starapp_life_color_25">#e5e1bf</color>
+    <!-- 背景颜色 -->
+    <color name="starapp_life_color_10">#f5f5f5</color>
+    <color name="starapp_life_color_11">#ebeced</color>
+    <!--<color name="starapp_life_color_7">#ffffff</color>-->
+    <color name="starapp_life_color_23">#f0f0f0</color>
+    <color name="starapp_life_color_24">#fefbd5</color>
+
+    <!-- 分割线宽度 -->
+    <dimen name="starapp_life_line_width">0.5dp</dimen>
+    <!--黑色7%(用于阴影)-->
+    <color name="starapp_life_black_7_percent">#11000000</color>
+
+    <!--通用标题颜色-->
+    <color name="starapp_life_title_text_color">#de000000</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ele_sl_qr_code">คิวอาร์โค้ด</string>
+
+    <string name="ele_sl_analysis_fail">การวิเคราะห์คิวอาร์โค้ดล้มเหลว โปรดลองอีกครั้ง</string>
+    <string name="ele_sl_analysis_expired">คิวอาร์โค้ดหมดอายุ</string>
+    <string name="ele_sl_param_empty_tip">พารามิเตอร์ %s ต้องไม่ว่างเปล่า</string>
+
+    <string name="ele_sl_qr_code_request_fail">ขอโทษ ไม่สามารถรับคิวอาร์โค้ดได้!</string>
+
+    <string name="ele_sl_click_retry">กรุณาคลิกลองใหม่</string>
+
+    <string name="ele_sl_save_to">บันทึกไว้ที่</string>
+
+    <string name="ele_sl_permission_tip">คุณไม่ได้รับอนุญาตให้เข้าถึงสิทธิการเก็บข้อมูล โปรดเปิดการอนุญาตในการตั้งค่า</string>
+
+    <string name="ele_sl_code_save_fail">การบันทึกล้มเหลว โปรดลองอีกครั้ง: </string>
+
+
+</resources>

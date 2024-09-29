@@ -1,0 +1,19 @@
+<resources>
+    <string name="ele_exp_com_time_with_day">%1$d天%2$d小时%3$d分%4$d秒</string>
+    <string name="ele_exp_com_time_no_day">%1$d小时%2$d分%3$d秒</string>
+    <string name="ele_exp_com_time_no_hour">%1$d分%2$d秒</string>
+    <string name="ele_exp_com_no_more_data">没有更多数据了</string>
+    <string name="ele_exp_com_loading">正在加载中，请稍后&#8230;</string>
+    <string name="ele_exp_com_loadfail">加载失败，点击重试</string>
+    <string name="ele_exp_com_time_no_hour_min">%1$d秒</string>
+    <string name="ele_exp_com_no_support">功能未开放</string>
+    <string name="ele_exp_com_back">返回</string>
+    <string name="ele_exp_com_share">分享</string>
+    <string name="ele_exp_com_prepare_activity">准备页</string>
+    <string name="ele_exp_com_score_activity">成绩页</string>
+    <string name="ele_exp_com_result_activity">结果页</string>
+    <string name="ele_exp_com_history_score_activity">历史成绩列表</string>
+    <string name="ele_exp_com_retry">重试</string>
+    <string name="ele_exp_com_analyse">查看解析</string>
+    <string name="ele_exp_com_redo_exercise">重新练习</string>
+</resources>

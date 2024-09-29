@@ -1,0 +1,31 @@
+<resources>
+    <!-- measure-main -->
+    <string name="hyee_remain_time_with_day">%1$d天%2$d小时%3$d分%4$d秒</string>
+    <string name="hyee_remain_time_no_day">%1$d小时%2$d分%3$d秒</string>
+    <string name="hyee_remain_time_no_hour">%1$d分%2$d秒</string>
+    <string name="hyee_history_cost_time">用时:%s</string>
+    <string name="hyee_history_title">历史成绩</string>
+    <string name="hyee_history_obj_score">客观题成绩</string>
+    <string name="hyee_history_no_sub_score">主观题等待批改</string>
+    <string name="hyee_listview_loadfail">加载失败，点击重试</string>
+    <string name="hyee_listview_loading">加载中...</string>
+    <string name="hyee_listview_no_more_data">没有更多数据啦</string>
+    <string name="hyee_exam_rank_list_tab_rank">排名</string>
+    <string name="hyee_exam_rank_list_tab_name">姓名</string>
+    <string name="hyee_exam_rank_list_tab_score">分数</string>
+    <string name="hyee_exam_rank_list_tab_time">用时</string>
+    <string name="hyee_rank_board_title">排行榜</string>
+    <string name="hyee_exam_rank_max_score">最高分数</string>
+    <string name="hyee_challenge_score">本次分数</string>
+    <string name="hyee_exam_rank_cost_time">用时</string>
+    <string name="hyee_exam_cost_time_second">″</string>
+    <string name="hyee_exam_cost_time_minute">′</string>
+    <string name="hyee_no_data">没有数据</string>
+    <string name="hyee_no_data_desc">偷懒君未添加相关内容哦！</string>
+    <string name="hyee_exam_rank_list_empty_tip1">排行榜列表是空的</string>
+    <string name="hyee_exam_rank_list_empty_tip2">快参加，冲上榜单吧！</string>
+    <string name="hyee_user_no_exist">该用户信息不存在</string>
+    <string name="hyee_challenge_ranking_description">以下是最优成绩的正式排名</string>
+    <string name="hyee_max_score_ranking">目前排名</string>
+    <string name="hyee_challenge_ranking">本次排名</string>
+</resources>

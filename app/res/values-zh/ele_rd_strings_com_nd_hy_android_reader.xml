@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hy_rd_doc_loading">正在加载文档.</string>
+    <string name="hy_rd_doc_loading_failed">文档加载失败</string>
+    <string name="hy_rd_doc_loading_progress">正在加载文档 %s%%</string>
+    <string name="hy_rd_note">笔记</string>
+    <string name="hy_rd_page_loading">正在加载…</string>
+    <string name="hy_rd_page_reload">加载失败,点击重新加载</string>
+</resources>

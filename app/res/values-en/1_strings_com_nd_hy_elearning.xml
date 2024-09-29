@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_mf_net_error_and_retry">Network error. Please check and try again.</string>
+    <string name="ele_mf_my_study">My Study</string>
+    <string name="ele_mf_find_course">Discover</string>
+    <string name="ele_mf_no_data">No data.</string>
+    <string name="ele_mf_no_data_desc">No data yet. Please come back later.</string>
+    <string name="ele_mf_load_fail">Failed to load. Please pull down to try again.</string>
+    <string name="ele_mf_loading_wait">Loading...Please wait.</string>
+    <string name="ele_mf_confirm_cancel">Cancel</string>
+    <string name="ele_mf_study_all">All Courses</string>
+    <string name="ele_mf_login_validate_title">Please log in</string>
+    <string name="ele_mf_login_use_alert">Please log in first.</string>
+    <string name="ele_mf_login_validate_right_text">Login</string>
+    <string name="ele_mf_confirm_sure">Confirm</string>
+    <string name="ele_confirm_cancel">Cancel</string>
+    <string name="ele_listview_loadfail">Failed to load. Tap to try again.</string>
+    <string name="ele_get_ucorganizations_fail">Failed to get projects. Please tap to try again.</string>
+    <!-- 待翻译 -->
+    <string name="ele_mf_my_interest">Interest</string>
+	<string name="ele_mf_menu_shopping_cart">Shopping Cart</string>
+    <string name="ele_mf_menu_my_order">My Orders</string>
+    <string name="ele_mf_no_access">Access denied </string>
+	<!--无障碍支持-->
+    <string name="ele_mf_barrier_help_search">Search</string>
+    <string name="ele_mf_barrier_help_more">Menu</string>
+
+
+     <!--社区本校课程-->
+    <string name="ele_mf_community_school_courses">Curriculum</string>
+    <string name="ele_mf_community_all_course">Public</string>
+    <string name="ele_mf_community_my_study">My Learning</string>
+    <string name="ele_mf_community_error">Network error.</string>
+
+    <string name="ele_mf_default_tab">Learning</string>
+
+</resources>

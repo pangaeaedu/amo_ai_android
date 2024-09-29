@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<smileys>
+    <!-- 发送格式[表情包ID:表情ID] 如：[sys:1022] -->
+    <!-- id 表情包唯一标识ID -->
+    <!-- name 分组名称 -->
+    <!-- 正常态图片 -->
+    <!-- 选中态图片 -->
+    <!-- 类型 PIC|TEXT_PIC|EMOJI-->
+    <!-- 表情文件扩展名 -->
+    <!-- 缩略图扩展名 -->
+    <!-- 表情包是否可见(比如：有的表情PC端有，手机端为了展示需要集成) -->
+    <!-- 版本号-->
+    <!-- 分组排序 -->
+    <group
+        name="emoji"
+        id="e"
+        normal_img="smiley_emoji_select"
+        order="2"
+        selected_img="smiley_emoji_select"
+        smiley_ext="png"
+        thumb_ext="png"
+        type="EMOJI"
+        version="1"
+        visable="1">
+        <!-- id 唯一编号(当是下载表情包的时候，这个ID直接用内容服务图片ID) -->
+        <!-- id 唯一编号(在表情包内唯一) filename="文件名" thumbnail="缩略图" shortcuts="快捷方式(预留)"  -->
+
+        <smiley filename="emoji_111_e415" id="128516" shortcuts="" thumbnail="emoji_111_e415">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e高兴</def>
+                <cn>e高兴</cn>
+                <tw>e高興</tw>
+                <en>Happy</en>
+                <ar>سعادة</ar>
+                <ID>Senang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_112_e057" id="128515" shortcuts="" thumbnail="emoji_112_e057">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e笑脸</def>
+                <cn>e笑脸</cn>
+                <tw>e笑臉</tw>
+                <en>smiling</en>
+                <ar>ابتسامة</ar>
+                <ID>MukaSenang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_113_e056" id="128522" shortcuts="" thumbnail="emoji_113_e056">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e可爱</def>
+                <cn>e可爱</cn>
+                <tw>e可愛</tw>
+                <en>Cute</en>
+                <ar>لطيف</ar>
+                <ID>Imut</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_114_e414" id="9786" shortcuts="" thumbnail="emoji_114_e414">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e害羞</def>
+                <cn>e害羞</cn>
+                <tw>e害羞</tw>
+                <en>Shy</en>
+                <ar>خجول</ar>
+                <ID>Malu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_115_e405" id="128521" shortcuts="" thumbnail="emoji_115_e405">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e眨眼</def>
+                <cn>e眨眼</cn>
+                <tw>e眨眼</tw>
+                <en>Blink</en>
+                <ar>غمز باختلاج</ar>
+                <ID>Kedip</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_116_e106" id="128525" shortcuts="" thumbnail="emoji_116_e106">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e花心</def>
+                <cn>e花心</cn>
+                <tw>e花心</tw>
+                <en>FickleInLove</en>
+                <ar>متقلب في الحب</ar>
+                <ID>FickleInLove</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_117_e418" id="128536" shortcuts="" thumbnail="emoji_117_e418">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e飞吻</def>
+                <cn>e飞吻</cn>
+                <tw>e飛吻</tw>
+                <en>ThrowSomeoneAKiss</en>
+                <ar>إهداء شخص ما قبلة على الهواء</ar>
+                <ID>LemparkanCiuman</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_121_e417" id="128538" shortcuts="" thumbnail="emoji_121_e417">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e吹口哨</def>
+                <cn>e吹口哨</cn>
+                <tw>e吹口哨</tw>
+                <en>Whistle</en>
+                <ar>صفارة</ar>
+                <ID>Bersiul</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_122_e40d" id="128563" shortcuts="" thumbnail="emoji_122_e40d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e瞪眼</def>
+                <cn>e瞪眼</cn>
+                <tw>e瞪眼</tw>
+                <en>glare</en>
+                <ar>وهج</ar>
+                <ID>menatap</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_123_e40a" id="128524" shortcuts="" thumbnail="emoji_123_e40a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e满足</def>
+                <cn>e满足</cn>
+                <tw>e滿足</tw>
+                <en>satisfy</en>
+                <ar>استرضاء</ar>
+                <ID>puas</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_124_e404" id="128513" shortcuts="" thumbnail="emoji_124_e404">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e大笑</def>
+                <cn>e大笑</cn>
+                <tw>e大笑</tw>
+                <en>risus</en>
+                <ar>تَكْشيرَة</ar>
+                <ID>ngakak</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_125_e105" id="128540" shortcuts="" thumbnail="emoji_125_e105">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e调皮</def>
+                <cn>e调皮</cn>
+                <tw>e調皮</tw>
+                <en>naughty</en>
+                <ar>غير مطيع</ar>
+                <ID>nakal</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_126_e409" id="128541" shortcuts="" thumbnail="emoji_126_e409">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e吐舌头</def>
+                <cn>e吐舌头</cn>
+                <tw>e吐舌頭</tw>
+                <en>StickingTongueOut</en>
+                <ar>التصاق اللسان</ar>
+                <ID>StickingTongueOut</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_127_e40e" id="128530" shortcuts="" thumbnail="emoji_127_e40e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e斜眼</def>
+                <cn>e斜眼</cn>
+                <tw>e斜眼</tw>
+                <en>tropia</en>
+                <ar>حَوَل</ar>
+                <ID>tropia</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_131_e402" id="128527" shortcuts="" thumbnail="emoji_131_e402">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e得意</def>
+                <cn>e得意</cn>
+                <tw>e得意</tw>
+                <tw>e得意</tw>
+                <ar></ar>
+                <ID>proud</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_132_e40f" id="128560" shortcuts="" thumbnail="emoji_132_e40f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e紧张</def>
+                <cn>e紧张</cn>
+                <tw>e緊張</tw>
+                <en>nervous</en>
+                <ar>عَصَبِيّ</ar>
+                <ID>gugup</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_133_e411" id="128557" shortcuts="" thumbnail="emoji_133_e411">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e哭</def>
+                <cn>e哭</cn>
+                <tw>e哭</tw>
+                <en>cry</en>
+                <ar>بكاء</ar>
+                <ID>menangis</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_134_e412" id="128514" shortcuts="" thumbnail="emoji_134_e412">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e喜极而泣</def>
+                <cn>e喜极而泣</cn>
+                <tw>e喜極而泣</tw>
+                <en>CryWithJoy</en>
+                <ar>بكاء بفرح</ar>
+                <ID>TangisBahagia</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_135_e107" id="128561" shortcuts="" thumbnail="emoji_135_e107">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e惊悚</def>
+                <cn>e惊悚</cn>
+                <tw>e驚悚</tw>
+                <en>terrified</en>
+                <ar>مذعور</ar>
+                <ID>ketakutan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_136_e407" id="128534" shortcuts="" thumbnail="emoji_136_e407">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e抓狂</def>
+                <cn>e抓狂</cn>
+                <tw>e抓狂</tw>
+                <en>GoCrazy</en>
+                <ar>جنون</ar>
+                <ID>Menggila</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_211_e108" id="128531" shortcuts="" thumbnail="emoji_211_e108">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e汗</def>
+                <cn>e汗</cn>
+                <tw>e汗</tw>
+                <en>perspiration</en>
+                <ar>تَعَرُّق</ar>
+                <ID>keringat</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_212_e40b" id="128552" shortcuts="" thumbnail="emoji_212_e40b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e吃惊</def>
+                <cn>e吃惊</cn>
+                <tw>e吃驚</tw>
+                <en>surprise</en>
+                <ar>اندهاش</ar>
+                <ID>kejutan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_213_e406" id="128547" shortcuts="" thumbnail="emoji_213_e406">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e难受</def>
+                <cn>e难受</cn>
+                <tw>e難受</tw>
+                <en>FeelIll</en>
+                <ar>شعور بالمرض</ar>
+                <ID>Sakit</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_214_e413" id="128546" shortcuts="" thumbnail="emoji_214_e413">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e难过</def>
+                <cn>e难过</cn>
+                <tw>e難過</tw>
+                <en>grieve</en>
+                <ar>حَزِن</ar>
+                <ID>sedih</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_215_e401" id="128549" shortcuts="" thumbnail="emoji_215_e401">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e尴尬</def>
+                <cn>e尴尬</cn>
+                <tw>e尷尬</tw>
+                <en>e尷尬</en>
+                <ar></ar>
+                <ID>malu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_216_e403" id="128532" shortcuts="" thumbnail="emoji_216_e403">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e忧郁</def>
+                <cn>e忧郁</cn>
+                <tw>e憂郁</tw>
+                <en>melancholy</en>
+                <ar>كآبة</ar>
+                <ID>melankolis</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_217_e058" id="128542" shortcuts="" thumbnail="emoji_217_e058">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e失落</def>
+                <cn>e失落</cn>
+                <tw>e失落</tw>
+                <en>lose</en>
+                <ar>خسارة</ar>
+                <ID>kalah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_221_e410" id="128562" shortcuts="" thumbnail="emoji_221_e410">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e刺瞎</def>
+                <cn>e刺瞎</cn>
+                <tw>e刺瞎</tw>
+                <en>ThornBlind</en>
+                <ar>أسلة مكفوفين</ar>
+                <ID>ThornBlind</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_222_e059" id="128544" shortcuts="" thumbnail="emoji_222_e059">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e生气</def>
+                <cn>e生气</cn>
+                <tw>e生氣</tw>
+                <en>anger</en>
+                <ar>غضب</ar>
+                <ID>marah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_223_e416" id="128545" shortcuts="" thumbnail="emoji_223_e416">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e非常生气</def>
+                <cn>e非常生气</cn>
+                <tw>e非常生氣</tw>
+                <en>AsMadAsAWetHen</en>
+                <ar>مجنون كالدجاجة المبللة</ar>
+                <ID>semarahayambasah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_224_e408" id="128554" shortcuts="" thumbnail="emoji_224_e408">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e困</def>
+                <cn>e困</cn>
+                <tw>e困</tw>
+                <en>sleepy</en>
+                <ar>نعاس</ar>
+                <ID>mengantuk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_225_e40c" id="128567" shortcuts="" thumbnail="emoji_225_e40c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e戴口罩</def>
+                <cn>e戴口罩</cn>
+                <tw>e戴口罩</tw>
+                <en>WearingAMask</en>
+                <ar>ارتداء قناع</ar>
+                <ID>memakaitopeng</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_226_e11a" id="128127" shortcuts="" thumbnail="emoji_226_e11a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e魔鬼</def>
+                <cn>e魔鬼</cn>
+                <tw>e魔鬼</tw>
+                <en>demon</en>
+                <ar>شيطان</ar>
+                <ID>setan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_227_e10c" id="128125" shortcuts="" thumbnail="emoji_227_e10c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e外星人</def>
+                <cn>e外星人</cn>
+                <tw>e外星人</tw>
+                <en>extra-terrestrial</en>
+                <ar>فضائي</ar>
+                <ID>alien</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_231_e11b" id="128123" shortcuts="" thumbnail="emoji_231_e11b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e幽灵</def>
+                <cn>e幽灵</cn>
+                <tw>e幽靈</tw>
+                <en>ghost</en>
+                <ar>شَبَح</ar>
+                <ID>hantu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_232_e11c" id="128128" shortcuts="" thumbnail="emoji_232_e11c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e骷髅</def>
+                <cn>e骷髅</cn>
+                <tw>e骷髏</tw>
+                <en>HumanSkeleton</en>
+                <ar>هيكل عظمي بشري</ar>
+                <ID>TengkorangManusia</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_233_e04e" id="128124" shortcuts="" thumbnail="emoji_233_e04e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e天使</def>
+                <cn>e天使</cn>
+                <tw>e天使</tw>
+                <en>angel</en>
+                <ar>مَلَك</ar>
+                <ID>angel</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_234_e448" id="127877" shortcuts="" thumbnail="emoji_234_e448">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e圣诞老人</def>
+                <cn>e圣诞老人</cn>
+                <tw>e聖誕老人</tw>
+                <en>SantaClaus</en>
+                <ar>بابا نويل</ar>
+                <ID>SantaClaus</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_235_e05a" id="128169" shortcuts="" thumbnail="emoji_235_e05a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e大便</def>
+                <cn>e大便</cn>
+                <tw>e大便</tw>
+                <en>excrement</en>
+                <ar>بِراز غائط مواد برازية</ar>
+                <ID>kotoran</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_236_e425" id="128145" shortcuts="" thumbnail="emoji_236_e425">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e爱情</def>
+                <cn>e爱情</cn>
+                <tw>e愛情</tw>
+                <en>love</en>
+                <ar>حب</ar>
+                <ID>cinta</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_311_e14c" id="128170" shortcuts="" thumbnail="emoji_311_e14c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e肌肉</def>
+                <cn>e肌肉</cn>
+                <tw>e肌肉</tw>
+                <en>muscle</en>
+                <ar>عضلات</ar>
+                <ID>otot</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_312_e00d" id="128074" shortcuts="" thumbnail="emoji_312_e00d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e拳头</def>
+                <cn>e拳头</cn>
+                <tw>e拳頭</tw>
+                <en>fist</en>
+                <ar>قبضة</ar>
+                <ID>tinju</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_313_e00f" id="9757" shortcuts="" thumbnail="emoji_313_e00f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e食指</def>
+                <cn>e食指</cn>
+                <tw>e食指</tw>
+                <en>IndexFinger</en>
+                <ar>السبابة</ar>
+                <ID>jaritelunjuk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_314_e41f" id="128079" shortcuts="" thumbnail="emoji_314_e41f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e鼓掌</def>
+                <cn>e鼓掌</cn>
+                <tw>e鼓掌</tw>
+                <en>handclap</en>
+                <ar>تصفيق</ar>
+                <ID>tepuktangan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_315_e010" id="9994" shortcuts="" thumbnail="emoji_315_e010">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e石头</def>
+                <cn>e石头</cn>
+                <tw>e石頭</tw>
+                <en>stone</en>
+                <ar>حَجَر</ar>
+                <ID>batu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_316_e011" id="9996" shortcuts="" thumbnail="emoji_316_e011">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e剪刀</def>
+                <cn>e剪刀</cn>
+                <tw>e剪刀</tw>
+                <en>scissor</en>
+                <ar>مقص</ar>
+                <ID>gunting</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_317_e012" id="9995" shortcuts="" thumbnail="emoji_317_e012">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e布</def>
+                <cn>e布</cn>
+                <tw>e布</tw>
+                <en>cloth</en>
+                <ar>قطعة قماش</ar>
+                <ID>kain</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_321_e22e" id="128070" shortcuts="" thumbnail="emoji_321_e22e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e上</def>
+                <cn>e上</cn>
+                <tw>e上</tw>
+                <en>up</en>
+                <ar>أعلى</ar>
+                <ID>atas</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_322_e22f" id="128071" shortcuts="" thumbnail="emoji_322_e22f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e下</def>
+                <cn>e下</cn>
+                <tw>e下</tw>
+                <en>down</en>
+                <ar>أسفل</ar>
+                <ID>bawah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_323_e230" id="128072" shortcuts="" thumbnail="emoji_323_e230">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e左</def>
+                <cn>e左</cn>
+                <tw>e左</tw>
+                <en>left</en>
+                <ar>يسار</ar>
+                <ID>kiri</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_324_e231" id="128073" shortcuts="" thumbnail="emoji_324_e231">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e右</def>
+                <cn>e右</cn>
+                <tw>e右</tw>
+                <en>right</en>
+                <ar>يمين</ar>
+                <ID>kanan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_325_e00e" id="128077" shortcuts="" thumbnail="emoji_325_e00e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e厉害</def>
+                <cn>e厉害</cn>
+                <tw>e厲害</tw>
+                <en>fierce</en>
+                <ar>عنيف</ar>
+                <ID>galak</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_326_e421" id="128078" shortcuts="" thumbnail="emoji_326_e421">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e差劲</def>
+                <cn>e差劲</cn>
+                <tw>e差勁</tw>
+                <en>badly</en>
+                <ar>سيء</ar>
+                <ID>denganburuk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_327_e420" id="128076" shortcuts="" thumbnail="emoji_327_e420">
+            <!-- 提示信息 -->
+            <tip>
+                <def>eOkay</def>
+                <cn>eOkay</cn>
+                <tw>eOkay</tw>
+                <en>Okay</en>
+                <ar>على ما يرام</ar>
+                <ID>Okay</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_331_e419" id="128064" shortcuts="" thumbnail="emoji_331_e419">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e眼睛</def>
+                <cn>e眼睛</cn>
+                <tw>e眼睛</tw>
+                <en>eye</en>
+                <ar>عين</ar>
+                <ID>mata</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_332_e41a" id="128067" shortcuts="" thumbnail="emoji_332_e41a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e鼻子</def>
+                <cn>e鼻子</cn>
+                <tw>e鼻子</tw>
+                <en>nose</en>
+                <ar>أَنْف</ar>
+                <ID>hidung</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_333_e003" id="128139" shortcuts="" thumbnail="emoji_333_e003">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e唇印</def>
+                <cn>e唇印</cn>
+                <tw>e唇印</tw>
+                <en>LipPrint</en>
+                <ar>صورة شفاه</ar>
+                <ID>CapBibir</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_334_e41b" id="128066" shortcuts="" thumbnail="emoji_334_e41b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e耳朵</def>
+                <cn>e耳朵</cn>
+                <tw>e耳朵</tw>
+                <en>ear</en>
+                <ar>أُذُن</ar>
+                <ID>telinga</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_335_e41d" id="128591" shortcuts="" thumbnail="emoji_335_e41d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e保佑</def>
+                <cn>e保佑</cn>
+                <tw>e保佑</tw>
+                <en>bless</en>
+                <ar>تحية بالكف</ar>
+                <ID>berkat</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_336_e30c" id="127867" shortcuts="" thumbnail="emoji_336_e30c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e啤酒</def>
+                <cn>e啤酒</cn>
+                <tw>e啤酒</tw>
+                <en>beer</en>
+                <ar>بِيرَة</ar>
+                <ID>bir</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_411_e33e" id="127834" shortcuts="" thumbnail="emoji_411_e33e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e米饭</def>
+                <cn>e米饭</cn>
+                <tw>e米飯</tw>
+                <en>rice</en>
+                <ar>أرز</ar>
+                <ID>nasi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_412_e34d" id="127858" shortcuts="" thumbnail="emoji_412_e34d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e汤</def>
+                <cn>e汤</cn>
+                <tw>e湯</tw>
+                <en>soup</en>
+                <ar>حساء</ar>
+                <ID>sup</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_413_e340" id="127836" shortcuts="" thumbnail="emoji_413_e340">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e面条</def>
+                <cn>e面条</cn>
+                <tw>e面條</tw>
+                <en>noodle</en>
+                <ar>معكرونة</ar>
+                <ID>mie</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_414_e342" id="127833" shortcuts="" thumbnail="emoji_414_e342">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e饭团</def>
+                <cn>e饭团</cn>
+                <tw>e飯團</tw>
+                <en>RiceAndVegetableRoll</en>
+                <ar>لفة أرز وخضراوات</ar>
+                <ID>NasidanSayuran</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_415_e34c" id="127857" shortcuts="" thumbnail="emoji_415_e34c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e盒饭</def>
+                <cn>e盒饭</cn>
+                <tw>e盒飯</tw>
+                <en>BoxLunch</en>
+                <ar>صندوق طعام الغداء</ar>
+                <ID>Bento</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_416_e344" id="127843" shortcuts="" thumbnail="emoji_416_e344">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e寿司</def>
+                <cn>e寿司</cn>
+                <tw>e壽司</tw>
+                <en>Sushi</en>
+                <ar>سوشي</ar>
+                <ID>Sushi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_417_e343" id="127842" shortcuts="" thumbnail="emoji_417_e343">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e关东煮</def>
+                <cn>e关东煮</cn>
+                <tw>e關東煮</tw>
+                <en>Oden</en>
+                <ar>أودن</ar>
+                <ID>Oden</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_421_e34b" id="127874" shortcuts="" thumbnail="emoji_421_e34b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e蛋糕</def>
+                <cn>e蛋糕</cn>
+                <tw>e蛋糕</tw>
+                <en>cake</en>
+                <ar>كعك</ar>
+                <ID>kue</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_422_e339" id="127838" shortcuts="" thumbnail="emoji_422_e339">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e面包</def>
+                <cn>e面包</cn>
+                <tw>e面包</tw>
+                <en>bread</en>
+                <ar>خُبْز</ar>
+                <ID>roti</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_423_e43f" id="127847" shortcuts="" thumbnail="emoji_423_e43f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e刨冰</def>
+                <cn>e刨冰</cn>
+                <tw>e刨冰</tw>
+                <en>WaterIce</en>
+                <ar>ماء مُثلج</ar>
+                <ID>WaterIce</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_424_e045" id="9749" shortcuts="" thumbnail="emoji_424_e045">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e咖啡</def>
+                <cn>e咖啡</cn>
+                <tw>e咖啡</tw>
+                <en>coffee</en>
+                <ar>قَهْوَة</ar>
+                <ID>kopi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_425_e120" id="127828" shortcuts="" thumbnail="emoji_425_e120">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e汉堡</def>
+                <cn>e汉堡</cn>
+                <tw>e漢堡</tw>
+                <en>hamburger</en>
+                <ar>هامبرغر</ar>
+                <ID>hamburger</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_426_e33b" id="127839" shortcuts="" thumbnail="emoji_426_e33b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e薯条</def>
+                <cn>e薯条</cn>
+                <tw>e薯條</tw>
+                <en>chips</en>
+                <ar>رقائق</ar>
+                <ID>chips</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_427_e33a" id="127846" shortcuts="" thumbnail="emoji_427_e33a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e冰淇淋</def>
+                <cn>e冰淇淋</cn>
+                <tw>e冰泣淋</tw>
+                <en>IceCream</en>
+                <ar>مثلجات</ar>
+                <ID>EsKrim</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_431_e345" id="127822" shortcuts="" thumbnail="emoji_431_e345">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e苹果</def>
+                <cn>e苹果</cn>
+                <tw>e蘋果</tw>
+                <en>apple</en>
+                <ar>تفاح</ar>
+                <ID>apel</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_432_e347" id="127827" shortcuts="" thumbnail="emoji_432_e347">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e草莓</def>
+                <cn>e草莓</cn>
+                <tw>e草莓</tw>
+                <en>strawberry</en>
+                <ar>فراولة</ar>
+                <ID>stroberi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_433_e346" id="127818" shortcuts="" thumbnail="emoji_433_e346">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e橙子</def>
+                <cn>e橙子</cn>
+                <tw>e橙子</tw>
+                <en>orange</en>
+                <ar>بُرْتُقال</ar>
+                <ID>jeruk</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_434_e348" id="127817" shortcuts="" thumbnail="emoji_434_e348">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e西瓜</def>
+                <cn>e西瓜</cn>
+                <tw>e西瓜</tw>
+                <en>watermelon</en>
+                <ar>بطيخ</ar>
+                <ID>semangka</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_435_e34a" id="127814" shortcuts="" thumbnail="emoji_435_e34a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e茄子</def>
+                <cn>e茄子</cn>
+                <tw>e茄子</tw>
+                <en>eggplant</en>
+                <ar>باذِنْجان</ar>
+                <ID>eggplant</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_436_e30f" id="128138" shortcuts="" thumbnail="emoji_436_e30f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e药丸</def>
+                <cn>e药丸</cn>
+                <tw>e藥丸</tw>
+                <en>pills</en>
+                <ar>حبوب الدواء</ar>
+                <ID>pil</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_511_e01a" id="128052" shortcuts="" thumbnail="emoji_511_e01a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e马</def>
+                <cn>e马</cn>
+                <tw>e馬</tw>
+                <en>horse</en>
+                <ar>حصان</ar>
+                <ID>kuda</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_512_e04f" id="128049" shortcuts="" thumbnail="emoji_512_e04f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e猫</def>
+                <cn>e猫</cn>
+                <tw>e貓</tw>
+                <en>cat</en>
+                <ar>قطة</ar>
+                <ID>kucing</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_513_e10a" id="128025" shortcuts="" thumbnail="emoji_513_e10a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e八爪鱼</def>
+                <cn>e八爪鱼</cn>
+                <tw>e八爪魚</tw>
+                <en>octopus</en>
+                <ar>أخطبوط</ar>
+                <ID>gurita</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_514_e10b" id="128055" shortcuts="" thumbnail="emoji_514_e10b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e猪</def>
+                <cn>e猪</cn>
+                <tw>e豬</tw>
+                <en>pig</en>
+                <ar>خنزير</ar>
+                <ID>babi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_515_e050" id="128047" shortcuts="" thumbnail="emoji_515_e050">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e老虎</def>
+                <cn>e老虎</cn>
+                <tw>e老虎</tw>
+                <en>tiger</en>
+                <ar>نمر</ar>
+                <ID>harimau</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_516_e051" id="128059" shortcuts="" thumbnail="emoji_516_e051">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e熊</def>
+                <cn>e熊</cn>
+                <tw>e熊</tw>
+                <en>bear</en>
+                <ar>دب</ar>
+                <ID>beruang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_517_e052" id="128054" shortcuts="" thumbnail="emoji_517_e052">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e狗</def>
+                <cn>e狗</cn>
+                <tw>e狗</tw>
+                <en>dog</en>
+                <ar>كلب</ar>
+                <ID>anjing</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_521_e52b" id="128046" shortcuts="" thumbnail="emoji_521_e52b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e牛</def>
+                <cn>e牛</cn>
+                <tw>e牛</tw>
+                <en>cow</en>
+                <ar>بقرة</ar>
+                <ID>sapi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_522_e52c" id="128048" shortcuts="" thumbnail="emoji_522_e52c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e兔子</def>
+                <cn>e兔子</cn>
+                <tw>e兔子</tw>
+                <en>rabbit</en>
+                <ar>أرنب</ar>
+                <ID>kelilnci</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_523_e52d" id="128013" shortcuts="" thumbnail="emoji_523_e52d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e蛇</def>
+                <cn>e蛇</cn>
+                <tw>e蛇</tw>
+                <en>snake</en>
+                <ar>حَيَّة</ar>
+                <ID>ular</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_524_e053" id="128045" shortcuts="" thumbnail="emoji_524_e053">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e老鼠</def>
+                <cn>e老鼠</cn>
+                <tw>e老鼠</tw>
+                <en>mouse</en>
+                <ar>فأر</ar>
+                <ID>tikus</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_525_e054" id="128051" shortcuts="" thumbnail="emoji_525_e054">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e鲸鱼</def>
+                <cn>e鲸鱼</cn>
+                <tw>e鯨魚</tw>
+                <en>whale</en>
+                <ar>حُوْت</ar>
+                <ID>paus</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_526_e055" id="128039" shortcuts="" thumbnail="emoji_526_e055">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e企鹅</def>
+                <cn>e企鹅</cn>
+                <tw>e企鵝</tw>
+                <en>penguin</en>
+                <ar>طائر البطريق</ar>
+                <ID>pinguin</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_527_e109" id="128053" shortcuts="" thumbnail="emoji_527_e109">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e猴子</def>
+                <cn>e猴子</cn>
+                <tw>e猴子</tw>
+                <en>monkey</en>
+                <ar>نِسْناس</ar>
+                <ID>monyet</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_531_e520" id="128044" shortcuts="" thumbnail="emoji_531_e520">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e海豚</def>
+                <cn>e海豚</cn>
+                <tw>e海豚</tw>
+                <en>dolphin</en>
+                <ar>دلفين</ar>
+                <ID>lumba-lumba</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_532_e522" id="128032" shortcuts="" thumbnail="emoji_532_e522">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e鱼</def>
+                <cn>e鱼</cn>
+                <tw>e魚</tw>
+                <en>fish</en>
+                <ar>سمكة</ar>
+                <ID>ikan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_533_e523" id="128036" shortcuts="" thumbnail="emoji_533_e523">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e小鸡</def>
+                <cn>e小鸡</cn>
+                <tw>e小雞</tw>
+                <en>chicken</en>
+                <ar>دجاجة</ar>
+                <ID>ayam</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_534_e527" id="128040" shortcuts="" thumbnail="emoji_534_e527">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e考拉</def>
+                <cn>e考拉</cn>
+                <tw>e考拉</tw>
+                <en>koala</en>
+                <ar>كوالا</ar>
+                <ID>koala</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_535_e529" id="128017" shortcuts="" thumbnail="emoji_535_e529">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e绵羊</def>
+                <cn>e绵羊</cn>
+                <tw>e綿羊</tw>
+                <en>sheep</en>
+                <ar>خروف</ar>
+                <ID>domba</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_536_e531" id="128056" shortcuts="" thumbnail="emoji_536_e531">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e青蛙</def>
+                <cn>e青蛙</cn>
+                <tw>e青蛙</tw>
+                <en>frog</en>
+                <ar>ضِفْدَع</ar>
+                <ID>kodok</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_611_e03c" id="127908" shortcuts="" thumbnail="emoji_611_e03c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e唱K</def>
+                <cn>e唱K</cn>
+                <tw>e唱K</tw>
+                <en>sing</en>
+                <ar>لعبة غني</ar>
+                <ID>bernyanyi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_612_e12d" id="126980" shortcuts="" thumbnail="emoji_612_e12d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e麻将</def>
+                <cn>e麻将</cn>
+                <tw>e麻將</tw>
+                <en>mahjong</en>
+                <ar>ماجونغ</ar>
+                <ID>mahyong</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_613_e20e" id="9824" shortcuts="" thumbnail="emoji_613_e20e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e扑克</def>
+                <cn>e扑克</cn>
+                <tw>e撲克</tw>
+                <en>poker</en>
+                <ar>بوكر</ar>
+                <ID>poker</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_614_e014" id="9971" shortcuts="" thumbnail="emoji_614_e014">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e高尔夫</def>
+                <cn>e高尔夫</cn>
+                <tw>e高爾夫</tw>
+                <en>golf</en>
+                <ar>جولف</ar>
+                <ID>golf</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_615_e015" id="127934" shortcuts="" thumbnail="emoji_615_e015">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e网球</def>
+                <cn>e网球</cn>
+                <tw>e網球</tw>
+                <en>tennis</en>
+                <ar>تنس</ar>
+                <ID>tennis</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_616_e016" id="9918" shortcuts="" thumbnail="emoji_616_e016">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e棒球</def>
+                <cn>e棒球</cn>
+                <tw>e棒球</tw>
+                <en>baseball</en>
+                <ar>بيسبول</ar>
+                <ID>baseball</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_617_e018" id="9917" shortcuts="" thumbnail="emoji_617_e018">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e足球</def>
+                <cn>e足球</cn>
+                <tw>e足球</tw>
+                <en>football</en>
+                <ar>كرة القدم</ar>
+                <ID>sepakbola</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_621_e42a" id="127936" shortcuts="" thumbnail="emoji_621_e42a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e篮球</def>
+                <cn>e篮球</cn>
+                <tw>e籃球</tw>
+                <en>basketball</en>
+                <ar>كرة السلة</ar>
+                <ID>basket</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_622_e42b" id="127944" shortcuts="" thumbnail="emoji_622_e42b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e橄榄球</def>
+                <cn>e橄榄球</cn>
+                <tw>e橄欖球</tw>
+                <en>rugby</en>
+                <ar>رُكْبِي</ar>
+                <ID>rugby</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_623_e42c" id="127921" shortcuts="" thumbnail="emoji_623_e42c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e台球</def>
+                <cn>e台球</cn>
+                <tw>e臺球</tw>
+                <en>billiards</en>
+                <ar>بلياردو</ar>
+                <ID>billiard</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_624_e42d" id="127946" shortcuts="" thumbnail="emoji_624_e42d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e游泳</def>
+                <cn>e游泳</cn>
+                <tw>e遊泳</tw>
+                <en>swimming</en>
+                <ar>سِبَاحَةٌ</ar>
+                <ID>berenang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_625_e429" id="128111" shortcuts="" thumbnail="emoji_625_e429">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e跳舞</def>
+                <cn>e跳舞</cn>
+                <tw>e跳舞</tw>
+                <en>dance</en>
+                <ar>رَقْص</ar>
+                <ID>menari</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_626_e01b" id="128663" shortcuts="" thumbnail="emoji_626_e01b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e小车</def>
+                <cn>e小车</cn>
+                <tw>e小車</tw>
+                <en>TheSmallCar</en>
+                <ar>السيارة الصغيرة</ar>
+                <ID>MobilKecil</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_627_e01d" id="9992" shortcuts="" thumbnail="emoji_627_e01d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e飞机</def>
+                <cn>e飞机</cn>
+                <tw>e飛機</tw>
+                <en>airplane</en>
+                <ar>طائرة</ar>
+                <ID>PesawatTerbang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_631_e039" id="128649" shortcuts="" thumbnail="emoji_631_e039">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e火车</def>
+                <cn>e火车</cn>
+                <tw>e火車</tw>
+                <en>train</en>
+                <ar>قطار</ar>
+                <ID>KeretaApi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_632_e01c" id="9973" shortcuts="" thumbnail="emoji_632_e01c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e船</def>
+                <cn>e船</cn>
+                <tw>e船</tw>
+                <en>boat</en>
+                <ar>قارِب</ar>
+                <ID>perahu</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_633_e435" id="128645" shortcuts="" thumbnail="emoji_633_e435">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e地铁</def>
+                <cn>e地铁</cn>
+                <tw>e地鐵</tw>
+                <en>metro</en>
+                <ar>مِتْرُو</ar>
+                <ID>metro</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_634_e15a" id="128661" shortcuts="" thumbnail="emoji_634_e15a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e出租车</def>
+                <cn>e出租车</cn>
+                <tw>e出租車</tw>
+                <en>taxi</en>
+                <ar>سيارة أجرة</ar>
+                <ID>taksi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_635_e136" id="128690" shortcuts="" thumbnail="emoji_635_e136">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e自行车</def>
+                <cn>e自行车</cn>
+                <tw>e自行車</tw>
+                <en>bicycle</en>
+                <ar>دراجة</ar>
+                <ID>sepeda</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_636_e10d" id="128640" shortcuts="" thumbnail="emoji_636_e10d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e火箭</def>
+                <cn>e火箭</cn>
+                <tw>e火箭</tw>
+                <en>rockets</en>
+                <ar>صاروخ</ar>
+                <ID>rockets</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_711_e023" id="128148" shortcuts="" thumbnail="emoji_711_e023">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e心碎</def>
+                <cn>e心碎</cn>
+                <tw>e心碎</tw>
+                <en>heart-broken</en>
+                <ar>مكسور الخاطر</ar>
+                <ID>PatahHati</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_712_e32f" id="11088" shortcuts="" thumbnail="emoji_712_e32f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e星星</def>
+                <cn>e星星</cn>
+                <tw>e星星</tw>
+                <en>star</en>
+                <ar>نجمة</ar>
+                <ID>bintang</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_713_e04a" id="9728" shortcuts="" thumbnail="emoji_713_e04a">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e太阳</def>
+                <cn>e太阳</cn>
+                <tw>e太陽</tw>
+                <en>sun</en>
+                <ar>شمس</ar>
+                <ID>matahari</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_714_e04c" id="127769" shortcuts="" thumbnail="emoji_714_e04c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e月亮</def>
+                <cn>e月亮</cn>
+                <tw>e月亮</tw>
+                <en>moon</en>
+                <ar>قمر</ar>
+                <ID>bulan</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_715_e10f" id="128161" shortcuts="" thumbnail="emoji_715_e10f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e灯泡</def>
+                <cn>e灯泡</cn>
+                <tw>e燈泡</tw>
+                <en>LampBulL</en>
+                <ar>لمبة المصباح</ar>
+                <ID>LampBulL</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_716_e11d" id="128293" shortcuts="" thumbnail="emoji_716_e11d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e火焰</def>
+                <cn>e火焰</cn>
+                <tw>e火焰</tw>
+                <en>flame</en>
+                <ar>يُلْهِب</ar>
+                <ID>api</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_717_e12f" id="128176" shortcuts="" thumbnail="emoji_717_e12f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e钱袋</def>
+                <cn>e钱袋</cn>
+                <tw>e錢袋</tw>
+                <en>wallet</en>
+                <ar>کیف پول مجازی</ar>
+                <ID>dompet</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_721_e13b" id="128137" shortcuts="" thumbnail="emoji_721_e13b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e打针</def>
+                <cn>e打针</cn>
+                <tw>e打針</tw>
+                <en>TakeAnInjection</en>
+                <ar>أخذ حقنة</ar>
+                <ID>Disuntik</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_722_e13c" id="128164" shortcuts="" thumbnail="emoji_722_e13c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e睡觉</def>
+                <cn>e睡觉</cn>
+                <tw>e睡觉</tw>
+                <en>sleep</en>
+                <ar>نوم</ar>
+                <ID>tidur</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_723_e13d" id="9889" shortcuts="" thumbnail="emoji_723_e13d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e闪电</def>
+                <cn>e闪电</cn>
+                <tw>e閃電</tw>
+                <en>lightning</en>
+                <ar>بَرْق</ar>
+                <ID>petir</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_724_e330" id="128168" shortcuts="" thumbnail="emoji_724_e330">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e风</def>
+                <cn>e风</cn>
+                <tw>e風</tw>
+                <en>wind</en>
+                <ar>ريح</ar>
+                <ID>angin</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_725_e331" id="128166" shortcuts="" thumbnail="emoji_725_e331">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e水滴</def>
+                <cn>e水滴</cn>
+                <tw>e水滴</tw>
+                <en>WaterDrop</en>
+                <ar>مطر</ar>
+                <ID>ButiranAir</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_726_e30e" id="128684" shortcuts="" thumbnail="emoji_726_e30e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e香烟</def>
+                <cn>e香烟</cn>
+                <tw>e香煙</tw>
+                <en>cigarette</en>
+                <ar>سِيجَارَة</ar>
+                <ID>rokok</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_727_e112" id="127873" shortcuts="" thumbnail="emoji_727_e112">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e礼物</def>
+                <cn>e礼物</cn>
+                <tw>e禮物</tw>
+                <en>gift</en>
+                <ar>هدية</ar>
+                <ID>hadiah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_731_e04b" id="9748" shortcuts="" thumbnail="emoji_731_e04b">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e雨伞</def>
+                <cn>e雨伞</cn>
+                <tw>e雨傘</tw>
+                <en>umbrella</en>
+                <ar>مظلة</ar>
+                <ID>payung</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_732_e113" id="128299" shortcuts="" thumbnail="emoji_732_e113">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e手枪</def>
+                <cn>e手枪</cn>
+                <tw>e手槍</tw>
+                <en>handgun</en>
+                <ar>مسدس</ar>
+                <ID>pistol</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_733_e140" id="128701" shortcuts="" thumbnail="emoji_733_e140">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e马桶</def>
+                <cn>e马桶</cn>
+                <tw>e馬桶</tw>
+                <en>closestool</en>
+                <ar>كرسي المرحاض</ar>
+                <ID>kloset</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_734_e14e" id="128677" shortcuts="" thumbnail="emoji_734_e14e">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e红绿灯</def>
+                <cn>e红绿灯</cn>
+                <tw>e紅綠燈</tw>
+                <en>TrafficLight</en>
+                <ar>إشارة المرور</ar>
+                <ID>LampuMerah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_735_e322" id="128089" shortcuts="" thumbnail="emoji_735_e322">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e内衣</def>
+                <cn>e内衣</cn>
+                <tw>e內衣</tw>
+                <en>underwear</en>
+                <ar>ملابس داخلية</ar>
+                <ID>celanadalam</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_736_e02c" id="128344" shortcuts="" thumbnail="emoji_736_e02c">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e时钟</def>
+                <cn>e时钟</cn>
+                <tw>e時鐘</tw>
+                <en>clock</en>
+                <ar>ساعَة</ar>
+                <ID>jam</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_811_e13f" id="128704" shortcuts="" thumbnail="emoji_811_e13f">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e沐浴</def>
+                <cn>e沐浴</cn>
+                <tw>e沐浴</tw>
+                <en>TakeAShower</en>
+                <ar>أخذ حمام</ar>
+                <ID>mandi</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_812_e308" id="127797" shortcuts="" thumbnail="emoji_812_e308">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e仙人掌</def>
+                <cn>e仙人掌</cn>
+                <tw>e仙人掌</tw>
+                <en>cactus</en>
+                <ar>الصبار</ar>
+                <ID>kaktus</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_813_e305" id="127803" shortcuts="" thumbnail="emoji_813_e305">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e向日葵</def>
+                <cn>e向日葵</cn>
+                <tw>e向日葵</tw>
+                <en>sunflower</en>
+                <ar>زهرةعباد الشمس</ar>
+                <ID>BungaMatahari</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_814_e307" id="127796" shortcuts="" thumbnail="emoji_814_e307">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e椰树</def>
+                <cn>e椰树</cn>
+                <tw>e椰樹</tw>
+                <en>CoconutTree</en>
+                <ar>شجرة جوز الهند</ar>
+                <ID>PohonKelapa</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_815_e154" id="127975" shortcuts="" thumbnail="emoji_815_e154">
+            <!-- 提示信息 -->
+            <tip>
+                <def>eaTM</def>
+                <cn>eaTM</cn>
+                <tw>eaTM</tw>
+                <en>aTM</en>
+                <ar>جهاز الصرف الآلي</ar>
+                <ID>ATM</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_816_e309" id="128702" shortcuts="" thumbnail="emoji_816_e309">
+            <!-- 提示信息 -->
+            <tip>
+                <def>eWc</def>
+                <cn>eWc</cn>
+                <tw>eWc</tw>
+                <en>Wc</en>
+                <ar>المرحاض</ar>
+                <ID>WC</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_817_e332" id="11093" shortcuts="" thumbnail="emoji_817_e332">
+            <!-- 提示信息 -->
+            <tip>
+                <def>eO</def>
+                <cn>eO</cn>
+                <tw>eO</tw>
+                <en>O</en>
+                <ar>O</ar>
+                <ID>O</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_821_e333" id="10060" shortcuts="" thumbnail="emoji_821_e333">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e×</def>
+                <cn>e×</cn>
+                <tw>e×</tw>
+                <en>×</en>
+                <ar>×</ar>
+                <ID>×</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_822_e334" id="128162" shortcuts="" thumbnail="emoji_822_e334">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e皱眉</def>
+                <cn>e皱眉</cn>
+                <tw>e皺眉</tw>
+                <en>frown</en>
+                <ar>عبوس</ar>
+                <ID>bete</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_823_e336" id="10068" shortcuts="" thumbnail="emoji_823_e336">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e？</def>
+                <cn>e？</cn>
+                <tw>e？</tw>
+                <en>？</en>
+                <ar>؟</ar>
+                <ID>？</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_824_e337" id="10069" shortcuts="" thumbnail="emoji_824_e337">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e！</def>
+                <cn>e！</cn>
+                <tw>e！</tw>
+                <en>！</en>
+                <ar>!</ar>
+                <ID>！</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_825_e443" id="127744" shortcuts="" thumbnail="emoji_825_e443">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e螺线圈</def>
+                <cn>e螺线圈</cn>
+                <tw>e螺線圈</tw>
+                <en>SolenoidCoil</en>
+                <ar>لفائف الملف الكهربائي</ar>
+                <ID>SolenoidCoil</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_826_e14d" id="127974" shortcuts="" thumbnail="emoji_826_e14d">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e银行</def>
+                <cn>e银行</cn>
+                <tw>e銀行</tw>
+                <en>bank</en>
+                <ar>بنك</ar>
+                <ID>bank</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_827_e036" id="127968" shortcuts="" thumbnail="emoji_827_e036">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e房子</def>
+                <cn>e房子</cn>
+                <tw>e房子</tw>
+                <en>house</en>
+                <ar>مَنْزِل</ar>
+                <ID>rumah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_831_e037" id="9962" shortcuts="" thumbnail="emoji_831_e037">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e教堂</def>
+                <cn>e教堂</cn>
+                <tw>e教堂</tw>
+                <en>church</en>
+                <ar>كَنِيسَة</ar>
+                <ID>gereja</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_832_e155" id="127973" shortcuts="" thumbnail="emoji_832_e155">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e医院</def>
+                <cn>e医院</cn>
+                <tw>e醫院</tw>
+                <en>hospital</en>
+                <ar>سْتَشْفَى</ar>
+                <ID>rumahsakit</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_833_e156" id="127978" shortcuts="" thumbnail="emoji_833_e156">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e便利店</def>
+                <cn>e便利店</cn>
+                <tw>e便利店</tw>
+                <en>ConvenienceStore</en>
+                <ar>محل بقالة</ar>
+                <ID>SuperMarket</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_834_e157" id="127979" shortcuts="" thumbnail="emoji_834_e157">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e学校</def>
+                <cn>e学校</cn>
+                <tw>e學校</tw>
+                <en>school</en>
+                <ar>مدرسة</ar>
+                <ID>sekolah</ID>
+            </tip>
+        </smiley>
+        <smiley filename="emoji_835_e501" id="127977" shortcuts="" thumbnail="emoji_835_e501">
+            <!-- 提示信息 -->
+            <tip>
+                <def>e酒店</def>
+                <cn>e酒店</cn>
+                <tw>e酒店</tw>
+                <en>grogshop</en>
+                <ar>خمارة</ar>
+                <ID>hotel</ID>
+            </tip>
+        </smiley>
+    </group>
+
+</smileys>

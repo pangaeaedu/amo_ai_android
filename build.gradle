@@ -1,0 +1,190 @@
+buildscript {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def allowProtocolStr = properties.getProperty('allowInsecureProtocol')
+    def isAllow = allowProtocolStr != null && !allowProtocolStr.trim().isEmpty() && allowProtocolStr.toBoolean()
+
+    println ' -------------------------isAllow------------------------------------ is ' + isAllow
+
+    repositories {
+
+        maven {
+            if (isAllow) {
+                allowInsecureProtocol = true
+            }
+            url 'http://nexus.sdp.nd/nexus/content/groups/android-public/'
+        }
+        maven {  url "https://storage.flutter-io.cn/download.flutter.io"}
+        google()
+
+        mavenCentral()
+        gradlePluginPortal()
+
+    }
+    dependencies {
+        classpath 'com.github.znyang:gradle-tools:0.1-rc02'
+        classpath 'com.github.znyang:library-analysis:0.3.0-rc01'
+        classpath 'com.nd.sdp.android:apf-android-plugin-tool:2.0.6-master.1'
+        classpath 'com.nd.xst.android:gradle-intercept:1.2.3'
+        classpath 'com.github.znyang:gradle-tools:0.1-rc02'
+        classpath 'com.nd.sdp.android:gradle-dynamic-access-interceptor:1.0.3-rc01'
+        classpath 'com.sensorsdata.analytics.android:android-gradle-plugin2:3.4.9'
+        classpath 'com.sensorsdata.analytics.android:android-gradle-plugin2:4.0.3'
+
+        def gradle_plugin_version = properties.getProperty('gradle_plugin_version')
+        if(gradle_plugin_version == null || gradle_plugin_version.trim().isEmpty()){
+            gradle_plugin_version = "3.6.4"
+        }
+        println ' -------------------------gradle_plugin_version ------------------------------------ is ' + gradle_plugin_version
+        classpath "com.android.tools.build:gradle:${gradle_plugin_version}"
+
+        def kotlin_plugin_version = properties.getProperty('kotlin_plugin_version')
+        if(kotlin_plugin_version == null || kotlin_plugin_version.trim().isEmpty()){
+            kotlin_plugin_version = "1.3.40"
+        }
+        println ' -------------------------kotlin_plugin_version ------------------------------------ is ' + kotlin_plugin_version
+
+        /**flutter-native-modify-kotlin-version-begin**/
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlin_plugin_version}"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:${kotlin_plugin_version}"
+        /**flutter-native-modify-kotlin-version-end**/
+
+
+    }
+}
+
+allprojects {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def allowProtocolStr = properties.getProperty('allowInsecureProtocol')
+    def isAllow = allowProtocolStr != null && !allowProtocolStr.trim().isEmpty() && allowProtocolStr.toBoolean()
+
+    repositories {
+        maven {
+            if (isAllow) {
+                allowInsecureProtocol = true
+            }
+            url 'http://nexus.sdp.nd/nexus/content/groups/android-public/'
+        }
+        maven {  url "https://storage.flutter-io.cn/download.flutter.io"}
+        google()
+
+        mavenCentral()
+    }
+}
+
+
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+//import groovy.json.JsonSlurper;
+
+def bundleEnabled() {
+    // 是否支持android app bundles
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def androidAppBundle = properties.getProperty('android_app_bundles')
+    if (androidAppBundle != null && androidAppBundle.toBoolean()) {
+        println ' ----------------------------isBundleEnabled---------------------------------------------- is ' + true
+        return true
+    }
+    println ' ----------------------------isBundleEnabled---------------------------------------------- is ' + false
+    return false
+}
+
+def getMinSdkVersion() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    // 默认最低版本为26
+    def defaultMinSdkVersion = 26
+    // 应用编辑器中设置的最低版本
+    def setMinSdkVersion = properties.getProperty('versionMinSdk')
+    println ' ------setMinSdkVersion local.properties old value------- is ' + setMinSdkVersion
+    if (setMinSdkVersion == null || setMinSdkVersion.toString().trim() == "" || !setMinSdkVersion.toString().isInteger()) {
+        println ' ------setMinSdkVersion 不能转换成数字 使用默认值：' + defaultMinSdkVersion
+        setMinSdkVersion = defaultMinSdkVersion
+    }
+    setMinSdkVersion = setMinSdkVersion.toInteger()
+
+    def versionMinSdk = Math.max(setMinSdkVersion, defaultMinSdkVersion)
+    println ' ------getMinSdkVersion last minSdkVersion------- is ' + versionMinSdk
+    return versionMinSdk
+}
+
+def getTargetSdkVersion() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    // 默认目标版本为30
+    def defaultTargetSdkVersion = 30
+    // 应用编辑器中设置的目标版本
+    def setTargetSdkVersion = properties.getProperty('targetSdkVersion')
+    println ' ------setTargetSdkVersion local.properties old value------- is ' + setTargetSdkVersion
+    if (setTargetSdkVersion == null || setTargetSdkVersion.toString().trim() == "" || !setTargetSdkVersion.toString().isInteger()) {
+        println ' ------setTargetSdkVersion 不能转换成数字 使用默认值：' + defaultTargetSdkVersion
+        setTargetSdkVersion = defaultTargetSdkVersion
+    }
+    setTargetSdkVersion = setTargetSdkVersion.toInteger()
+
+    def versionTargetSdk = Math.max(setTargetSdkVersion, defaultTargetSdkVersion)
+
+    def minSdkVersion = getMinSdkVersion()
+    if (minSdkVersion > versionTargetSdk) {
+        versionTargetSdk = minSdkVersion
+    }
+
+    println ' ------getTargetSdkVersion last targetSdkVersion------- is ' + versionTargetSdk
+    return versionTargetSdk
+}
+
+def getBuildToolsVersion() {
+    def compileSdkVersion = getTargetSdkVersion()
+    def buildToolVersion = '30.0.3'
+    if (compileSdkVersion == 28) {
+        buildToolVersion = '28.0.3'
+    } else if (compileSdkVersion == 29) {
+        buildToolVersion = '29.0.3'
+    } else if (compileSdkVersion == 30) {
+        buildToolVersion = '30.0.3'
+    } else if (compileSdkVersion == 31) {
+        buildToolVersion = '31.0.0'
+    } else if (compileSdkVersion == 33) {
+        buildToolVersion = '33.0.2'
+    }
+
+    println "当前buildToolVersion: " + buildToolVersion
+    return buildToolVersion
+}
+
+import groovy.json.JsonSlurper;
+def getIsClassScan() {
+    try {
+        //判断组件是工程测试，集成测试还是应用，如果是应用返回false，否则返回true
+        def file = project.rootProject.file("app/assets/app_factory/app/app.json");
+        if (!file.exists()) {
+            return;
+        }
+        def text = file.getText();
+        def slurper = new JsonSlurper();
+        def app = slurper.parseText(text);
+        assert app instanceof Map;
+        return (0 == "component_function".compareTo(app.scope) || 0 == "component_integration".compareTo(app.scope));
+    } catch (java.lang.Exception e) {
+        println "判断组件是工程测试，集成测试还是应用: " + e.getMessage()
+        return true
+    }
+}
+
+ext {
+    isBundleEnabled = bundleEnabled()
+    minSdkVersion = getMinSdkVersion()
+
+    // 原则上这三者版本尽量保持一致，以获得最好的外观和行为
+    targetSdkVersion = getTargetSdkVersion()
+    compileSdkVersion = targetSdkVersion
+    buildToolsVersion = getBuildToolsVersion()
+
+    isComponentTest = getIsClassScan() //除了模板工程本身，公共脚本也会用到，请勿随意删除或变更
+}

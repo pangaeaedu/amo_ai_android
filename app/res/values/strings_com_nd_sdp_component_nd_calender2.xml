@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 仅适用中文情况，英文情况是  December 2018 -->
+    <string name="com_nd_calendar2_picker_yearmonth">yyyy-MM</string>
+
+    <string-array name="com_nd_calendar2_lunar_first_of_month"><item>Spring Festival </item><item>February </item><item>March </item><item>April </item><item>May </item><item>June </item><item>July </item><item>August </item><item>September </item><item>October </item><item>November </item><item>December</item></string-array>
+
+    <string-array name="com_nd_calendar2_tradition_festival"><item>New Year\'s Eve </item><item>0101Spring Festival </item><item>0115 Lantern Festival </item><item>0212 Flower Festival </item><item>0303 Shangsi Festival </item><item>0505 Dragon Boat Festival </item><item>0707 Qixi Festival </item><item>0715 Hungry Ghost Festival </item><item>0815 Mid-Autumn Festival </item><item>0909 Double Ninth Festival </item><item>1001 Winter Clothing Festival </item><item>1015 Spirit Festival </item><item>1208 Laba Festival</item></string-array>
+
+    <string-array name="com_nd_calendar2_lunar_str"><item>1st Day </item><item>2nd Day  </item><item>3rd Day </item><item>4th Day </item><item>5th Day </item><item>6th Day </item><item>7th Day </item><item>8th Day </item><item>9th Day </item><item>10th Day </item><item>11th Day </item><item>12th Day </item><item>13th Day </item><item>14th Day </item><item>15th Day </item><item>16th Day </item><item>17th Day </item><item>18th Day </item><item>19th Day </item><item>20th Day </item><item>21st Day </item><item>22nd Day </item><item>23rd Day </item><item>24th Day </item><item>25th Day </item><item>26th Day </item><item>27th Day </item><item>28th Day </item><item>29th Day </item><item>30th Day</item></string-array>
+
+    <string-array name="com_nd_calendar2_solar_festival" tools:ignore="InconsistentArrays"><item>0101 New Year </item><item>0214 Valentine\'s Day </item><item>0308 Women\'s Day </item><item>0312 Arbor Day </item><item>0315 Consumer Rights Day </item><item>0401 April Fools\' Day </item><item>0501 May Day </item><item>0504 Youth Day </item><item>0601 Children\'s Day </item><item>0801 Army Day </item><item>0910 Teachers\' Day </item><item>1001 National Day </item><item>1225 Christmas</item></string-array>
+
+    <string-array name="com_nd_calendar2_solar_term"><item>Spring Equinox </item><item>Pure Brightness </item><item>Grain Rain </item><item>Start of Summer </item><item>Grain Buds </item><item>Grain in Ear </item><item>Summer Solstice </item><item>Minor Heat </item><item>Major Heat </item><item>Start of Autumn </item><item>End of Heat </item><item>White Dew </item><item>Autumn Equinox </item><item>Cold Dew </item><item>Frost\'s Descent </item><item>Start of Winter </item><item>Minor Snow </item><item>Major Snow </item><item>Winter Solstice </item><item>Minor Cold </item><item>Major Cold </item><item>Start of Spring </item><item>Rain Water </item><item>Awakening of Insects</item></string-array>
+
+    <string-array name="com_nd_calendar2_special_festivals"><item>Mother\'s Day </item><item>Father\'s Day </item><item>Thanksgiving Day</item></string-array>
+
+    <string name="com_nd_calendar2_sun">Sun</string>
+    <string name="com_nd_calendar2_mon">Mon</string>
+    <string name="com_nd_calendar2_tue">Tue</string>
+    <string name="com_nd_calendar2_wed">Wed</string>
+    <string name="com_nd_calendar2_thu">Thu</string>
+    <string name="com_nd_calendar2_fri">Fri</string>
+    <string name="com_nd_calendar2_sat">Sat</string>
+
+    <string-array name="com_nd_calendar2_week_string_array"><item>SUN </item><item>MON </item><item>TUE </item><item>WED </item><item>THUR </item><item>FRI </item><item>SAT</item></string-array>
+
+    <string-array name="com_nd_calendar2_month_string_array"><item>Jan </item><item>Feb </item><item>Mar </item><item>Apr </item><item>May </item><item>Jun </item><item>Jul </item><item>Aug </item><item>Sep </item><item>Oct </item><item>Nov </item><item>Dec</item></string-array>
+</resources>

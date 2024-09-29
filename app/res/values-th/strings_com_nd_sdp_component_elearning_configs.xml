@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_frame_default_toast">ฟังก์ชันไม่เปิด</string>
+    <string name="ele_frame_user_no_access">ผู้ใช้ปัจจุบันไม่มีสิทธิการเข้าถึง</string>
+</resources>

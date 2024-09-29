@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xst_ebook_download_file_deleted">下列文件已被删除，请重新下载: %s</string>
+    <string name="xst_ebook_downloading">正在下载中，请稍候…</string>
+    <string name="xst_ebook_pause">暂停下载，请点击继续</string>
+    <string name="xst_ebook_prepare">准备中，请稍候…</string>
+    <string name="xst_elec_ebook">电子教材</string>
+    <string name="xst_ebook_refresh">重试</string>
+
+    <string name="xst_ebook_tip">打开后会默认下载到本地哦，可以前往“我-离线课程”查看~</string>
+    <string name="xplayer_url_is_empty">获取播放地址失败</string>
+</resources>

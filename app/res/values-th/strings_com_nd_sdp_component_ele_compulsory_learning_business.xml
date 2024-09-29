@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_task_net_error_tips">ข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดลองอีกครั้ง</string>
+    <string name="el_task_data_error_tips">การแยกวิเคราะห์ข้อมูลผิดพลาด โปรดลองอีกครั้ง</string>
+
+    <string name="el_task_loading_wait">กำลังโหลด โปรดรอสักครู่...</string>
+
+    <string name="el_task_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+    <string name="el_task_more">เพิ่มเติม</string>
+
+    <string name="el_task_wait_for_loading">กำลังพยายามโหลด...</string>
+    <string name="el_task_retry">ลองใหม่</string>
+    <string name="el_task_no_task">ไม่มีข้อมูล</string>
+
+    <string name="el_task_net_work_err">ข้อผิดพลาดของเครือข่าย!</string>
+    <string name="el_task_net_work_err1">ข้อผิดพลาดของเครือข่าย</string>
+    <string name="el_task_load_fail">โหลดล้มเหลวแล้ว!</string>
+
+    <string name="el_task_seems_to_be_in_strange_place">ดูเหมือนจะตกอยู่ในที่แปลก ๆ!</string>
+    <string name="el_task_network_error_2">ดูเหมือนว่าติดขัด!</string>
+
+    <string name="el_task_doing">งานที่กำลังดำเนินการ</string>
+    <string name="el_task_end">งานย่อยเสร็จสิ้นแล้ว</string>
+    <string name="el_task_detail">รายละเอียดงาน</string>
+    <string name="el_task_require">ข้อกำหนดงาน:</string>
+    <string name="el_task_content">ชื่องาน:</string>
+
+    <string name="el_task_new">งานใหม่</string>
+    <string name="el_task_timeout">เลยกำหนด</string>
+    <string name="el_task_time_require">ความต้องการเวลา:</string>
+
+    <string name="el_task_time_description">คำอธิบายงาน</string>
+
+    <string name="el_task_learn_tasks">งานการเรียนรู้</string>
+
+    <string name="el_task_reward">รางวัลงาน</string>
+    <string name="el_task_reward_condition">(หลังจากที่งานสิ้นสุดระยะเวลาที่กำหนด จะไม่มีรางวัล กรุณาเสร็จสิ้นงานตรงตามเวลาที่กำหนด)</string>
+
+    <string name="el_task_period_once">ครั้งเดียว</string>
+    <string name="el_task_period_daily">รายวัน</string>
+    <string name="el_task_period_weekly">รายสัปดาห์</string>
+    <string name="el_task_period_workday">ทุกวันทำงาน</string>
+
+    <string name="el_task_unqualified">ไม่ผ่าน</string>
+    <string name="el_task_abort">ถูกยุติแล้ว</string>
+    <string name="el_task_completed">เสร็จสิ้น</string>
+    <string name="el_task_wait_completed">รอทำ</string>
+    <string name="el_task_has_end">หยุด</string>
+    <string name="el_task_wait_examine">รอการตรวจสอบ</string>
+    <string name="el_task_delay">ยังไม่เสร็จสิ้น</string>
+    <string name="el_task_receive_rewards">รับรางวัล</string>
+    <string name="el_task_received_rewards">ได้รับแล้ว</string>
+    <string name="el_task_to_work">ไปทำงาน</string>
+    <string name="el_task_view_task">ดูงาน</string>
+
+    <!-- 改版后新增字符资源（20180110）-->
+    <string name="el_task_my_task">งานของฉัน</string>
+    <string name="el_task_tab_underway">กำลังดำเนินการ (%s)</string>
+    <string name="el_task_tab_completed">เสร็จสิ้นแล้ว (%s)</string>
+    <string name="el_task_require_sub_task">ข้อกำหนด: เสร็จสิ้น%sงานย่อย</string>
+    <string name="el_task_detail_require_sub_task">ความต้องการของงาน: เสร็จสิ้นงานย่อย %s งาน</string>
+    <string name="el_task_time_require_format">ข้อกำหนดเวลา: %s</string>
+    <string name="el_task_time_end_time">เวลาสิ้นสุด: %s</string>
+    <string name="el_task_loading">กำลังโหลด...</string>
+    <string name="el_task_detail_title">รายละเอียดงาน</string>
+    <string name="el_task_intro">คำอธิบายงาน</string>
+    <string name="el_task_detail_tab_underway">กำลังดำเนินการ</string>
+    <string name="el_task_detail_tab_completed">เสร็จสิ้นแล้ว</string>
+    <string name="el_task_end_time">เวลาสิ้นสุด:%s</string>
+    <string name="el_task_per_day">รอบการเรียน: เรียนทุกวัน</string>
+    <string name="el_task_per_week_day">รอบการเรียน: เรียนทุกวัน (วันทำงาน)</string>
+    <string name="el_task_per_week">รอบการเรียนรู้: รายสัปดาห์การเรียนรู้</string>
+    <string name="el_task_per_moth">รอบการเรียน: เรียนทุกเดือน</string>
+    <string name="el_task_order_sub_tips">งานปัจจุบันต้องเรียนตามลำดับ ก็คือ งานย่อยถัดไปจะถูกปลดล็อกโดยอัตโนมัติหลังจากที่งานย่อยก่อนหน้าเสร็จสิ้น</string>
+    <string name="el_task_ended_status_tip">งานปัจจุบันถูกยุติแล้ว ไม่สามารถดูได้</string>
+    <string name="el_task_sub_ended_tip">งานย่อยปัจจุบันจบลงแล้ว ไม่สามารถเข้าเรียนได้</string>
+    <string name="el_task_sub_locked_tip">งานย่อยปัจจุบันยังไม่ได้ถูกล็อก ไม่สามารถเข้าไปเรียนได้~</string>
+    <string name="el_task_progress_calculate_rule">กฎการคำนวณความคืบหน้า</string>
+    <string name="el_task_has_finish_count">เสร็จสิ้นแล้ว%1$d/%2$d\nงานย่อย</string>
+    <string name="el_task_ask_content">ข้อกำหนดงาน:</string>
+    <string name="el_task_progress_way">วิธีคำนวณความคืบหน้าของงาน:</string>
+    <string name="el_task_progress_way_detail">1. สัดส่วนของงานย่อยแต่ละงานเท่ากัน กล่าวคือ ถ้ามีงานย่อย 5 งาน แล้วสัดส่่มของงานย่อยแต่ละงานก็จะเท่ากัน 20%;\n2. ถ้าเป็นงานย่อยที่เป็นรอบ ๆ แล้ว สัดส่วนของแต่ละรอบคือ สัดส่วนของงานย่อยคูณด้วยจำนวนรอบ</string>
+    <string name="el_task_example">ตัวอย่าง:</string>
+    <string name="el_task_example_detail">สมมติว่ามีงานหลัก 2 งานย่อย คือ เรียนการเรียน A (งานครั้งเดียว) และทดสอบ B 3 คำถามต่อวัน (งานที่มีรอบ 4 รอบ) ดังนั้นหากผู้ใช้ยังไม่เรียนการเรียน A และทดสอบ B เสร็จไปรอบแรก ความคืบหน้าของงาน = (0% + 25%)/ 2</string>
+</resources>

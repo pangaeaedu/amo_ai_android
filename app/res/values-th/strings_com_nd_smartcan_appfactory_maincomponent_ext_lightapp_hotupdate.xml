@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="light_update_service_notify">กำลังอัปเดตคอมโพเนนต์ของแอป</string>
+    <string name="lite_load_error">ดาวน์โหลดล้มเหลว</string>
+    <string name="lite_load_error_not_exist">แอปเบาไม่มีอยู่</string>
+</resources>

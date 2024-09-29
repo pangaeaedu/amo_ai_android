@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="uc_component_email_cant_be_use">ที่อยู่อีเมลไม่สามารถใช้งานได้</string>
+    <string name="uc_component_mobile_cant_be_use">ไม่สามารถใช้งานโทรศัพท์</string>
+    <string name="uc_component_email_format_invalid">รูปแบบอีเมลไม่ถูกต้อง</string>
+    <string name="uc_component_email_has_register">อีเมลถูกลงทะเบียนแล้ว</string>
+    <string name="uc_component_register_over_sum">การลงทะเบียนอุปกรณ์เกินจำนวนที่กำหนด</string>
+    <string name="uc_component_email_over_sum">เกินจำนวนครั้งที่อนุญาต โปรดลองอีกครั้งในวันถัดไป</string>
+    <string name="uc_component_email_over_frequent">ส่งอีเมลล์บ่อยเกินไป อนุญาตให้ส่งเพียงครั้งเดียวภายในหนึ่งนาที</string>
+    <string name="uc_component_email_has_bind">อีเมลผู้ใช้ถูกผูกแล้ว โปรดยกเลิกการผูกก่อน</string>
+    <string name="uc_component_email_is_sole_login">อีเมลล์เป็นตัวบ่งชี้การเข้าสู่ระบบเพียงอย่างเดียว ไม่สามารถยกเลิกการผูกได้</string>
+    <string name="uc_component_email_not_exist">อีเมลนี้ยังไม่ได้ลงทะเบียน</string>
+    <string name="uc_component_sms_over_sum">เกินจำนวนครั้งที่สามารถส่งได้ต่อวัน โปรดลองใหม่ในวันถัดไป</string>
+    <string name="uc_component_smscode_error_over_sum">เกินจำนวนครั้งที่กรอกรหัสยืนยันทาง SMS ผิด</string>
+    <string name="uc_component_sms_over_frequent">การส่งข้อความทาง SMS บ่อยเกินไป โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="uc_component_passport_exist_mobile">มือถือนี้ผูกไว้กับบัญชีอื่นแล้ว โปรดกรอกหมายเลขโทรศัพท์มือถือใหม่</string>
+    <string name="uc_component_loginname_not_exist">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="uc_component_no_permission_send_isms">ยังไม่มีความสามารถในการส่งข้อความในพื้นที่นี้</string>
+    <string name="uc_component_phone_has_register">หมายเลขโทรศัพท์นี้ได้ลงทะเบียนไว้แล้ว</string>
+    <string name="uc_component_phone_number_format_invalid">@string/uc_component_mobile_incorrect</string>
+
+    <!-- UC1.1 -->
+    <string name="uc_component_identify_code_required">ต้องการรูปภาพยืนยัน</string>
+    <string name="uc_component_invalid_identify_code">รหัสยืนยันภาพไม่ถูกต้อง</string>
+    <string name="uc_component_invalid_country_code">รูปแบบโซนรหัสไม่ถูกต้อง ต้องขึ้นต้นด้วย + เท่านั้น รวมถึง + และตัวเลข สูงสุด 16 ตัวอักษร</string>
+    <string name="uc_component_invalid_mobile_number">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+    <string name="uc_component_invalid_login_name">รูปแบบชื่อเข้าสู่ระบบไม่ถูกต้อง เพียงอนุญาตตัวอักษร ตัวเลข _ . @ ความยาวสูงสุด 128 ตัวอักษรเท่านั้น</string>
+    <string name="uc_component_account_un_enable">บัญชียังไม่ได้เปิดใช้</string>
+    <string name="uc_component_login_failure">เข้าสู่ระบบไม่สำเร็จ</string>
+    <string name="uc_component_account_locked">จำนวนครั้งที่เข้าสู่ระบบผิดพลาดมากเกินไป ถูกล็อค! โปรดลองเข้าสู่ระบบอีกครั้งหลังจาก 5 นาที!</string>
+    <string name="uc_component_invalid_sms">รหัสยืนยันไม่ถูกต้อง โปรดใส่ใหม่อีกครั้ง</string>
+    <string name="uc_component_sms_code_error_over_sum">ใส่รหัสยืนยันทาง SMS ผิดเกินขีดจำกัดในหนึ่งวัน</string>
+    <string name="uc_component_third_part_login_failure">การล็อกอินผู้ใช้จากบุคคลที่สามล้มเหลว</string>
+    <string name="uc_component_third_plat_auth_failure">ข้อผิดพลาดในการพิสูจน์</string>
+    <string name="uc_component_invalid_username">รูปแบบชื่อผู้ใช้ไม่ถูกต้อง ต้องขึ้นต้นด้วยตัวอักษร สามารถประกอบด้วยตัวอักษร ตัวเลข _ สูงสุด 20 ตัวอักษร</string>
+    <string name="uc_component_invalid_nick_name">ความยาวของชื่อเล่นไม่เกิน 100 ไบต์ และไม่ควรมีคำหยาบ</string>
+    <string name="uc_component_invalid_email_code">รหัสยืนยันทางอีเมลไม่ถูกต้อง</string>
+    <string name="uc_component_invalid_email">ที่อยู่อีเมลไม่ถูกต้อง</string>
+    <string name="uc_component_email_code_expired">ยังไม่ได้ส่งรหัสยืนยันทางอีเมล หรือรหัสหมดอายุ</string>
+    <string name="uc_component_email_code_error_over_sum">รหัสยืนยันทางอีเมลที่ป้อนผิดเกินจำนวนที่อนุญาตภายในหนึ่งวัน</string>
+    <string name="uc_component_password_same">รหัสผ่านใหม่เหมือนกับรหัสผ่านเดิม</string>
+    <string name="uc_component_invalid_account_id">รหัสบัญชีไม่ถูกต้อง</string>
+    <string name="uc_component_invalid_passport">หมายเลขพาสปอร์ตไม่ถูกต้อง</string>
+    <string name="uc_component_invalid_id_card">หมายเลขบัตรประชาชนไม่ถูกต้อง</string>
+    <string name="uc_component_invalid_ext_info_length">ระยะเวลาของข้อมูลเพิ่มเติมเกินกว่า 65535 ตัวอักษร</string>
+    <string name="uc_component_need_bind_mobile_or_email">บัญชีนี้ต้องผูกโทรศัพท์หรืออีเมล์</string>
+    <string name="uc_component_phone_not_binding">ผู้ใช้นี้ไม่ได้ผูกมือถือ</string>
+    <string name="uc_component_email_is_only_login_credentials">อีเมลเป็นเครื่องหมายเข้าสู่ระบบที่ไม่สามารถถอดการผูก</string>
+    <string name="uc_component_mobile_registed">หมายเลขโทรศัพท์นี้ได้ลงทะเบียนแล้ว</string>
+    <string name="uc_component_user_person_account_can_not_auto_join_org">ไม่อนุญาตให้สร้างบัญชีใหม่ โปรดผูกมัดบัญชีที่มีอยู่</string>
+    <string name="uc_component_join_join_org_apply_submitted">คำขอเข้าร่วมองค์กรถูกส่งไปแล้ว</string>
+    <string name="uc_component_join_org_apply_failed">การส่งคำขอเข้าร่วมองค์กรล้มเหลว</string>
+    <string name="uc_component_has_binged_org_accounts">บัญชีองค์กรที่ผูกกับบัญชีส่วนบุคคลนี้มีอยู่แล้วในองค์กรนี้</string>
+    <string name="uc_component_mobile_not_exist">ไม่พบการลงทะเบียนของหมายเลขโทรศัพท์</string>
+    <string name="uc_component_not_match_user">หมายเลขโทรศัพท์ไม่ตรงกับบัญชีองค์กร ไม่อนุญาตให้ใช้หมายเลขโทรศัพท์นี้เปลี่ยนรหัสผ่านบัญชีองค์กร</string>
+    <string name="uc_component_user_had_bind_account">บัญชีองค์กรนี้ถูกผูกกับบัญชีส่วนบุคคลแล้ว</string>
+    <string name="uc_component_third_user_binded_by_person">บัญชีบนแพลตฟอร์มบุคคลเดียวสามารถผูกได้เพียงคนเดียว</string>
+    <string name="uc_component_only_bind_one_third_user">คนเดียวกันสามารถผูกไว้กับบัญชีบุคคลที่สามได้เพียงหนึ่งบัญชี</string>
+    <string name="uc_component_check_bind_info_error_over_sum">เกิดข้อผิดพลาดในการตรวจสอบความถูกต้องของความสัมพันธ์ไม่สามารถเกินขีดจำกัด(5 ครั้ง) ภายในหนึ่งวัน!</string>
+    <string name="uc_component_user_bind_relation_not_found">ไม่มีความสัมพันธ์การผูกข้อมูลของบัญชี</string>
+    <string name="uc_component_credential_not_exist">โปรดใส่บัญชีที่ถูกต้อง</string>
+
+    <string name="uc_component_waiting_join_org_apply_exist">คุณได้ส่งคำขอเข้าร่วมองค์กรนี้ไปแล้ว</string>
+    <string name="uc_component_has_bound_in_org">องค์กรที่ระบุภายในมีบัญชีองค์กรที่ผูกมัดอยู่แล้ว</string>
+    <string name="uc_component_has_bound_under_node">องค์กรที่ระบุมีบัญชีองค์กรที่ผูกอยู่แล้ว</string>
+    <string name="uc_component_has_bound_under_org">บัญชีองค์กรที่ระบุมีการผูกพันองค์กรอื่นไว้แล้ว</string>
+    <string name="uc_component_api_access_limit">การดำเนินการบ่อยเกินไป โปรดลองอีกครั้งในภายหลัง</string>  
+    <string name="uc_component_weak_pwd_exist">ความแข็งแรงของรหัสผ่านต่ำ ทำให้ง่ายต่อการถูกบุกรุก</string>
+    <string name="uc_component_password_error_account_will_be_locked">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="uc_component_invalid_encrypt_data">ข้อมูลผู้ใช้ผิดปกติ โปรดติดต่อผู้ดูแลระบบ</string>
+    <string name="uc_component_require_guardians_mobile">หมายเลขโทรศัพท์ซึ่งเป็นความสัมพันธ์ไม่สามารถเป็นหมายเลขโทรศัพท์ของผู้ใช้ปัจจุบัน</string>
+</resources>

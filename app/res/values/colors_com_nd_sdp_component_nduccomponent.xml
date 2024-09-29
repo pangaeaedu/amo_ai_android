@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="skin_nd_uc_bg_snackbar_warning">#FEFBD5</color>
+    <color name="skin_nd_uc_bg_snackbar_error">#FFF0F0</color>
+    <color name="skin_nd_uc_bg_snackbar_tip">#EAF8FE</color>
+    <color name="skin_nd_uc_bg_snackbar_success">#F3FAF0</color>
+
+    <color name="nduc_dialog_bg_shadow">#65000000</color>
+	<color name="nduc_dialog_line">#f9f9f9</color>
+
+
+    <color name="nduc_invitation">#fff3d6</color>
+
+    <!--  EditText下划线颜色，独立色值，不随主色。默认蓝色  -->
+    <color name="nduc_edittext_underline_focused">@color/nduc_base_main</color>
+    <color name="nduc_edittext_underline_unfocused">@color/nduc_base_divider_normal</color>
+    <!--  EditText光标颜色，默认和下划线颜色一致  -->
+    <color name="nduc_edittext_cursor">@color/nduc_edittext_underline_focused</color>
+
+    <!--  协议颜色，默认主色  -->
+    <color name="nduc_agreement_name">@color/nduc_base_main</color>
+
+    <!--  按钮相关色值  -->
+    <!--  按钮支持设置渐变色，起始颜色。默认主色  -->
+    <color name="nduc_button_gradient_start_color">@color/nduc_base_main</color>
+    <!--  按钮支持设置渐变色，结束颜色。默认主色  -->
+    <color name="nduc_button_gradient_end_color">@color/nduc_base_main</color>
+    <!--  按钮不可点击状态遮罩色值：不可点击颜色 = 可点击颜色 + 该遮罩  -->
+    <color name="nduc_button_disable_cover">#99ffffff</color>
+    <!--  按钮点击状态遮罩色值： 点击状态颜色 = 可点击色值 + 该遮罩  -->
+    <color name="nduc_button_pressed_cover">#66000000</color>
+    <!--  按钮文字颜色  -->
+    <color name="nduc_button_text_color">@color/nduc_base_text_reverse</color>
+
+    <!--  次要按钮支持设置渐变色，起始颜色。默认主色  -->
+    <color name="nduc_button_secondary_gradient_start_color">@color/nduc_base_bg_normal</color>
+    <!--  次要按钮支持设置渐变色，结束颜色。默认主色  -->
+    <color name="nduc_button_secondary_gradient_end_color">@color/nduc_base_bg_normal</color>
+    <!--  次要按钮边框颜色  -->
+    <color name="nduc_button_secondary_stroke_color">@color/nduc_base_divider_normal</color>
+    <!--  次要按钮不可点击状态遮罩色值：不可点击颜色 = 可点击颜色 + 该遮罩  -->
+    <color name="nduc_button_secondary_disable_cover">@color/nduc_button_disable_cover</color>
+    <!--  次要按钮点击状态遮罩色值： 点击状态颜色 = 可点击色值 + 该遮罩  -->
+    <color name="nduc_button_secondary_pressed_cover">@color/nduc_button_pressed_cover</color>
+    <!--  次要按钮文字颜色  -->
+    <color name="nduc_button_secondary_text_color">@color/nduc_base_text_title</color>
+	<!--  客服电话提示颜色  -->
+    <color name="nduc_text_customs_text_color">@color/color4</color>
+	
+	<color name="nduc_reset_help_title_color">#3d3d3d</color>
+    <color name="nduc_reset_help_content_color">#666666</color>
+    <color name="nduc_reset_pwd_list_title_color">#999999</color>
+	
+	<!--  用户隐私协议组件独立颜色值 start  -->
+	
+	<color name="nduc_agreement_ripple_color">#ebeced</color>
+    <color name="nduc_agreement_divider_normal">#dddddd</color>
+
+    
+    <!--  按钮支持设置渐变色，起始颜色。默认主色  -->
+    <color name="nduc_agreement_btn_gradient_start_color">#0090ff</color>
+    <!--  按钮支持设置渐变色，结束颜色。默认主色  -->
+    <color name="nduc_agreement_btn_gradient_end_color">#0090ff</color>
+    <!--  按钮不可点击状态遮罩色值：不可点击颜色 = 可点击颜色 + 该遮罩  -->
+    <color name="nduc_agreement_btn_disable_cover">#99ffffff</color>
+    <!--  按钮点击状态遮罩色值： 点击状态颜色 = 可点击色值 + 该遮罩  -->
+    <color name="nduc_agreement_btn_pressed_cover">#66000000</color>
+    <!--  按钮文字颜色  -->
+    <color name="nduc_agreement_btn_text_color">@color/nduc_agreement_text_reverse</color>
+
+    <!--  次要按钮支持设置渐变色，起始颜色。默认主色  -->
+    <color name="nduc_agreement_btn_secondary_gradient_start_color">#FFFFFF</color>
+    <!--  次要按钮支持设置渐变色，结束颜色。默认主色  -->
+    <color name="nduc_agreement_btn_secondary_gradient_end_color">#FFFFFF</color>
+    <!--  次要按钮边框颜色  -->
+    <color name="nduc_agreement_btn_secondary_stroke_color">#dddddd</color>
+    <!--  次要按钮不可点击状态遮罩色值：不可点击颜色 = 可点击颜色 + 该遮罩  -->
+    <color name="nduc_agreement_btn_secondary_disable_cover">@color/nduc_agreement_btn_disable_cover</color>
+    <!--  次要按钮点击状态遮罩色值： 点击状态颜色 = 可点击色值 + 该遮罩  -->
+    <color name="nduc_agreement_btn_secondary_pressed_cover">@color/nduc_agreement_btn_pressed_cover</color>
+    <!--  次要按钮文字颜色  -->
+    <color name="nduc_agreement_btn_secondary_text_color">@color/nduc_agreement_text_title</color>
+
+
+    <color name="nduc_agreement_text_title">#333333</color>
+    <color name="nduc_agreement_text_secondary">#999999</color>
+    <color name="nduc_agreement_text_reverse">#ffffff</color>
+
+    <color name="nduc_agreement_bg_normal">#FFFFFF</color>
+    <color name="nduc_agreement_transparent">#00FFFFFF</color>
+
+    <!--  协议颜色，默认主色  -->
+    <color name="nduc_agreement_name_color">#0090ff</color>
+    <color name="nduc_agreement_progress_color">#0090ff</color>
+
+    <color name="nduc_agree_base_main">#0090ff</color>
+	
+	<!--  用户隐私协议组件独立颜色值 end  -->
+
+
+</resources>

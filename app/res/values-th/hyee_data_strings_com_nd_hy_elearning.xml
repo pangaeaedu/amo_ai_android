@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--measure-data-->
+    <string name="hyee_network_error">เกิดข้อผิดพลาดในการเชื่อมต่อ โปรดตรวจสอบการเชื่อมต่อของคุณ!</string>
+    <string name="hyee_network_low">สถานะเครือข่ายไม่ดี โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="hyee_data_error">การวิเคราะห์ข้อมูลผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="hyee_server_time_error">เวลาจากเซิร์ฟเวอร์ล้มเหลว</string>
+    <string name="hyee_get_data_error">การรับข้อมูลล้มเหลว โปรดลองอีกครั้ง</string>
+</resources>

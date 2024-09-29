@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="el_baseryview_load_footer">没有更多数据啦</string>
+    <string name="el_baseryview_more">更多</string>
+    <string name="el_baseryview_listview_loading">加载中...</string>
+</resources>

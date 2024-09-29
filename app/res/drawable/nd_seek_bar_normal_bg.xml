@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@android:id/background">
+    <shape >
+        <solid android:color="@color/nd_camera_video_color5" />
+        <corners android:topLeftRadius="@dimen/nd_camera_video_seek_bar_radius"
+            android:topRightRadius="@dimen/nd_camera_video_seek_bar_radius"
+            android:bottomRightRadius="@dimen/nd_camera_video_seek_bar_radius"
+            android:bottomLeftRadius="@dimen/nd_camera_video_seek_bar_radius"/>
+    </shape>
+</item>
+<item android:id="@android:id/secondaryProgress">
+    <clip>
+        <shape>
+            <solid android:color="@color/nd_camera_video_color5" />
+
+        </shape>
+    </clip>
+</item>
+<item android:id="@android:id/progress">
+    <clip>
+        <shape>
+            <solid android:color="@color/nd_camera_video_color7" />
+            <corners android:topLeftRadius="@dimen/nd_camera_video_seek_bar_radius"
+                android:bottomLeftRadius="@dimen/nd_camera_video_seek_bar_radius"/>
+        </shape>
+    </clip>
+</item>
+</layer-list>

@@ -1,0 +1,29 @@
+<resources>
+
+    <dimen name="nd_timerpicker_fontsize1">@dimen/fontsize1</dimen>
+    <dimen name="nd_timerpicker_fontsize4">@dimen/fontsize4</dimen>
+    <dimen name="nd_timerpicker_fontsize6">@dimen/fontsize6</dimen>
+    <dimen name="nd_timerpicker_fontsize13">@dimen/fontsize13</dimen>
+
+    <dimen name="nd_timerpicker_item_height">44dp</dimen>
+    <dimen name="nd_timerpicker_step_height">56dp</dimen>
+    <dimen name="nd_timerpicker_lable_margin">30dp</dimen>
+    <dimen name="nd_timerpicker_content_margin">25dp</dimen>
+    <dimen name="nd_timerpicker_step_margin">20dp</dimen>
+    <dimen name="nd_timerpicker_dur_width">45dp</dimen>
+    <dimen name="nd_timerpicker_dur_pad">3dp</dimen>
+    <dimen name="nd_timerpicker_tip_padding">5dp</dimen>
+    <dimen name="nd_timerpicker_time_margin_top">8dp</dimen>
+
+    <dimen name="nd_timerpicker_head_margin">10dp</dimen>
+    <dimen name="nd_timerpicker_time_margin">2dp</dimen>
+    <dimen name="nd_timerpicker_line_height">1px</dimen>
+
+    <dimen name="nd_datepicker_step_height">44dp</dimen>
+    <dimen name="nd_datepicker_title_height">60dp</dimen>
+    <dimen name="nd_datepicker_margin">10dp</dimen>
+    <dimen name="nd_datepicker_image_wh">20dp</dimen>
+    <dimen name="nd_datepicker_height">320dp</dimen>
+    <dimen name="nd_datepicker_view_height">380dp</dimen>
+    <dimen name="nd_datepicker_image_margin">20dp</dimen>
+</resources>

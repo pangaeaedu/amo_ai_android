@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 1.1版策划案通用属性 -->
+    <style name="NducTextCommon" parent="NdUcBaseText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 子标题 -->
+    <style name="NducSubtitle" parent="NdUcBaseText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/nd_uc_margin_large</item>
+        <item name="android:textColor">@color/nduc_base_text_title</item>
+        <item name="android:textSize">@dimen/nduc_title_text_size</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <!-- 提示信息 -->
+    <style name="NducTip" parent="NdUcBaseText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:textColor">@color/nduc_base_text_secondary</item>
+        <item name="android:layout_marginTop">@dimen/nduc_base_margin_little_small</item>
+        <item name="android:textSize">@dimen/nduc_base_text_size_small</item>
+    </style>
+
+    <!--  按钮控件的基础属性  -->
+    <style name="NdUcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/nduc_button_bg</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/nduc_button_text_color</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:elevation">@dimen/nduc_button_shadow</item>
+    </style>
+
+    <style name="NdUcButtonSecondary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/nduc_button_secondary_bg</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/nduc_button_secondary_text_color</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:elevation">@dimen/nduc_button_secondary_shadow</item>
+    </style>
+
+    <!--  使用TextView作为按钮的基础属性  -->
+    <style name="NdUcButtonText" parent="NdUcBaseText">
+        <item name="android:background">@drawable/nduc_textview_bg</item>
+    </style>
+
+    <style name="Nduc_Input_Item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/nduc_text_size_large</item>
+        <item name="android:textColor">@color/common_text_color_primary</item>
+        <item name="android:layout_marginStart">@dimen/nduc_layout_padding_horizon</item>
+        <item name="android:layout_marginLeft">@dimen/nduc_layout_padding_horizon</item>
+        <item name="android:layout_marginRight">@dimen/nduc_layout_padding_horizon</item>
+        <item name="android:layout_marginEnd">@dimen/nduc_layout_padding_horizon</item>
+    </style>
+
+    <style name="Nduc_Item_Check_Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textSize">@dimen/nduc_text_size_large</item>
+        <item name="android:layout_marginStart">@dimen/nduc_text_size_small</item>
+        <item name="android:paddingStart">@dimen/nduc_text_size_small</item>
+        <item name="android:paddingEnd">@dimen/nduc_text_size_small</item>
+        <item name="android:paddingTop">@dimen/nduc_text_size_small</item>
+        <item name="android:paddingBottom">@dimen/nduc_text_size_small</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="NducEditText" parent="@style/CommonBase.Style.Widget.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColorHint">#CCCCCC</item>
+        <item name="android:textSize">@dimen/nduc_base_text_size_middle_large</item>
+        <item name="android:textColor">@color/nduc_base_text_title</item>
+        <item name="android:background">@drawable/nduc_edittext_bg</item>
+    </style>
+
+    <style name="nduc_fill_screen_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/nduc_base_bg_normal</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="NdUc_Activity_Dialog_Style" parent="@style/CommonBase.Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@color/nduc_dialog_bg_shadow</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="NducInputVerificationCodeText" parent="NdUcBaseText">
+        <item name="android:textColor">@color/nduc_base_text_title</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textCursorDrawable">@drawable/nduc_edittext_cursor</item>
+        <item name="android:paddingBottom">@dimen/nduc_base_margin_little_small</item>
+    </style>
+
+    <style name="NducInputVerificationCodeLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+	<!--  以下为隐私协议组件的样式start  -->
+	 
+    <style name="NdUcAgreementButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/nduc_agreement_button_bg</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/nduc_agreement_btn_text_color</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:elevation">@dimen/nduc_agreement_btn_shadow</item>
+    </style>
+
+    <style name="NdUcAgreementButtonSecondary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/nduc_agreement_button_secondary_bg</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/nduc_agreement_btn_secondary_text_color</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:elevation">@dimen/nduc_agreement_btn_secondary_shadow</item>
+    </style>
+
+    <style name="nduc_agreement_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="nduc_agreement_activity_style" >
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- 背景色透明度 -->
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->
+        <item name="android:windowIsTranslucent">true</item><!-- 半透明,设置为false无透明效果 -->
+        <item name="android:backgroundDimEnabled">true</item><!-- 模糊 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item> <!-- 窗口样式Dialog -->
+    </style>
+
+
+    <style name="nduc_agreement_progress_style" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/nduc_agreement_progress_color</item>
+    </style>
+
+	 <!--  隐私协议组件的样式end  -->
+	
+	
+	
+</resources>

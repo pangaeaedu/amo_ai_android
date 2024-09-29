@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  按钮渐变色的渐变角度，默认从左往右  -->
+    <integer name="nduc_button_gradient_angle">0</integer>
+    <!--  次要按钮渐变色的渐变角度，默认从左往右  -->
+    <integer name="nduc_button_secondary_gradient_angle">@integer/nduc_button_gradient_angle</integer>
+</resources>

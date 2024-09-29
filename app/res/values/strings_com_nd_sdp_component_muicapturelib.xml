@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="nd_camera_flash_auto">Auto</string>
+    <string name="nd_camera_flash_on">Open</string>
+    <string name="nd_camera_flash_off">Close</string>
+    <string name="nd_camera_flash_normally_on">Always on</string>
+
+    <string name="nd_camera_space_error">Insufficient memory, please free up space.</string>
+    <string name="nd_camera_permiss_error">Please allow the App to access your camera.</string>
+    <string name="nd_camera_permiss_error2">Please enable storage permissions</string>
+    <string name="nd_camera_permiss_disable">Camera-related permissions have been disabled by the product</string>
+    <string name="nd_camera_permiss_disable2">Storage permissions have been disabled by the product.</string>
+    <string name="nd_camera_recoder_shot_time">Shooting time is too short, please re-shoot.</string>
+    <string name="nd_camera_tap_or_hold">Tap to take photo and hold to record video.</string>
+</resources>

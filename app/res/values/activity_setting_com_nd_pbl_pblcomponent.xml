@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--字符过滤正则表达式:索花宣言-->
+    <string name="starapp_life_setting_text_activity_text_filter_claim_flower">[\\x00-\\x20\\x7F-\\xA0]+</string>
+    <!--字符过滤正则表达式:昵称-->
+    <string name="starapp_life_setting_text_activity_text_filter_nick_name">[\\x00-\\x20\\x7F-\\xA0\\u263A\\uD800\\uDC00-\\uDBFF\\uDFFF]+</string>
+    <!--字符过滤正则表达式:签名-->
+    <string name="starapp_life_setting_text_activity_text_filter_signature">[\\x00-\\x19\\x7F-\\xA0]+</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_ui_gallery_plugin_detect_qr_code">识别二维码</string>
+    <string name="common_ui_gallery_plugin_exception_toast_no_browse">未安装浏览器！</string>
+    <string name="common_ui_gallery_plugin_save">保存</string>
+    <string name="common_ui_gallery_plugin_save_completed">保存成功！</string>
+    <string name="common_ui_gallery_plugin_save_failed">文件保存失败</string>
+    <string name="common_ui_gallery_plugin_share">分享</string>
+    <string name="common_ui_gallery_plugin_view_picture_in_browse">浏览器打开</string>
+</resources>

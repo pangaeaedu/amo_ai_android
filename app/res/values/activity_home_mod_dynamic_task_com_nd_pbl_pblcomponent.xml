@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--个人主页动态模块(任务类型)配置-->
+    <!--模块背景图-->
+    <drawable name="starapp_life_home_dynamic_fragment_task_bg">#ffffff</drawable>
+    <!--分割线-顶部-->
+    <drawable name="starapp_life_home_dynamic_fragment_task_line_top">@color/starapp_life_color_8</drawable>
+    <!--分割线-中间-->
+    <drawable name="starapp_life_home_dynamic_fragment_task_line">@color/starapp_life_color_8</drawable>
+    <!--分割线-底部-->
+    <drawable name="starapp_life_home_dynamic_fragment_task_line_bottom">@color/starapp_life_color_8</drawable>
+    <!--1.任务左边图标-->
+    <drawable name="starapp_life_home_dynamic_fragment_task_left_img_0">@color/starapp_life_color_14</drawable>
+    <drawable name="starapp_life_home_dynamic_fragment_task_left_img_1">@color/starapp_life_color_17</drawable>
+    <drawable name="starapp_life_home_dynamic_fragment_task_left_img_2">@color/starapp_life_color_18</drawable>
+    <drawable name="starapp_life_home_dynamic_fragment_task_left_img_3">@color/starapp_life_color_20</drawable>
+    <!--
+      任务左边图标类型
+      1=循环设置:img_0,img_1,img_2,img_3,img_0,img_1,...
+      2=链状设置:只有一个任务img_0, 多个任务img_1,img_2,img_2,...img_2,img_3
+    -->
+    <integer name="starapp_life_home_dynamic_fragment_task_left_img_type">1</integer>
+    <!--主体部分最小高度-->
+    <dimen name="starapp_life_home_dynamic_fragment_task_body_min_height">60dp</dimen>
+    <!--主体部分内容边距-->
+    <dimen name="starapp_life_home_dynamic_fragment_task_body_padding_left">14dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_task_body_padding_top">13dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_task_body_padding_right">10dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_task_body_padding_bottom">13dp</dimen>
+    <!--2.标题文字大小,颜色,左边距-->
+    <dimen name="starapp_life_home_dynamic_fragment_task_title_size">@dimen/starapp_life_text_5</dimen>
+    <color name="starapp_life_home_dynamic_fragment_task_title_color">@color/starapp_life_color_1</color>
+    <dimen name="starapp_life_home_dynamic_fragment_task_title_margin_left">0dp</dimen>
+    <!--3.描述文字大小,颜色,左边距,上边距-->
+    <dimen name="starapp_life_home_dynamic_fragment_task_desc_size">@dimen/starapp_life_text_6</dimen>
+    <color name="starapp_life_home_dynamic_fragment_task_desc_color">@color/starapp_life_color_4</color>
+    <dimen name="starapp_life_home_dynamic_fragment_task_desc_margin_left">0dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_task_desc_margin_top">3dp</dimen>
+    <!--4.奖励文字大小,颜色,左边距,最大宽度-->
+    <dimen name="starapp_life_home_dynamic_fragment_task_reward_size">@dimen/starapp_life_text_7</dimen>
+    <color name="starapp_life_home_dynamic_fragment_task_reward_color">@color/starapp_life_color_3</color>
+    <dimen name="starapp_life_home_dynamic_fragment_task_reward_margin_left">8dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_task_reward_max_width">200dp</dimen>
+    <!--任务后面的向右箭头图标左边距-->
+    <dimen name="starapp_life_home_dynamic_fragment_task_right_icon_margin_left">8dp</dimen>
+</resources>

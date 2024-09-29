@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--1.领取按钮图(语言包-常态):res\drawable-xhdpi\starapp_life_mine_task_icon_right_receive_normal.png-->
+    <!--1.领取按钮图(语言包-按下):res\drawable-xhdpi\starapp_life_mine_task_icon_right_receive_pressed.png-->
+    <!--2.已领取按钮图(语言包):res\drawable-xhdpi\starapp_life_mine_task_icon_right_receive_complete.png-->
+    <!--3.失效按钮图(语言包):res\drawable-xhdpi\starapp_life_mine_task_icon_right_receive_fail.png-->
+</resources>

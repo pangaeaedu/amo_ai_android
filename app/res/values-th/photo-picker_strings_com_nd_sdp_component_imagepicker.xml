@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="picker_done">ส่ง</string>
+    <string name="picker_preview">ดูตัวอย่าง</string>
+    <string name="picker_done_with_count">%1$s(%2$d/%3$d)</string>
+    <string name="picker_image_index">%1$d/%2$d</string>
+    <string name="picker_yes">ตกลง</string>
+    <string name="picker_video_image">วิดีโอและรูปภาพ</string>
+    <string name="picker_all_image">รูปภาพทั้งหมด</string>
+    <string name="picker_all_video">วิดีโอทั้งหมด</string>
+    <string name="picker_over_max_count_tips">คุณสามารถเลือกได้สูงสุด %1$d ไฟล์</string>
+    <string name="picker_video_over_max_count_tips">คุณสามารถเลือกได้สูงสุด %1$d วิดีโอ</string>
+    <string name="picker_picture_over_max_count_tips">คุณสามารถเลือกรูปภาพได้สูงสุด %1$d รูป</string>
+    <string name="picker_multi_over_max_count_tips">คุณสามารถเลือกภาพได้มากสุด %1$d รูปภาพและ %2$d วิดีโอ</string>
+	<string name="picker_video_length_error">การคืนค่าระยะเวลาวิดีโอล้มเหลว โปรดเลือกใหม่</string>
+    <string name="picker_file_too_big">ไฟล์ใหญ่เกินไป!</string>
+    <string name="picker_file_not_exist">ไฟล์ไม่มีอยู่!</string>
+    <string name="picker_image_count">%1$d รูป</string>
+    <string name="picker_original_picture">รูปภาพต้นฉบับ</string>
+    <string name="picker_error_compress">การบีบอัดผิดพลาด</string>
+    <string name="picker_cache_path_error">เส้นทางของไฟล์ผิดพลาด</string>
+    <string name="picker_error_io">ข้อผิดพลาดในการอ่านไฟล์</string>
+
+    <string name="picker_finish_text">เสร็จสิ้น</string>
+    <string name="picker_getimage_failed">ไม่สามารถดึงรูปภาพ โปรดลองอีกครั้ง</string>
+    <string name="picker_storage_disable">การอนุญาตเก็บข้อมูลถูกปิดใช้งานโดยผลิตภัณฑ์</string>
+    <string name="picker_no_camera_disable">สิทธิ์การเข้าถึงกล้องถูกปิดใช้งานโดยผลิตภัณฑ์แล้ว</string>
+    <string name="picker_no_camera_permission">ไม่มีสิทธิ์การเข้าถึงกล้อง คุณสามารถเปิดสิทธิ์การเข้าถึงกล้องในการตั้งค่าแอป</string>
+    <string name="picker_sort_image">ปรับลำดับ</string>
+    <string name="picker_long_click_to_sort">กดค้างเพื่อลากเพื่อจัดลำดับ</string>
+    <string name="picker_video_size">ขนาดวิดีโอ: %s</string>
+    <string name="picker_remove">ลบ</string>
+    <string name="picker_video">วิดีโอ</string>
+    <string name="picker_empty"/>
+    <string name="picker_back">กลับ</string>
+    <string name="picker_directory_cover">ปกโฟลเดอร์</string>
+    <string name="picker_video_too_long_exception">วิดีโอยาวเกินไป (ไม่เกิน %s วินาที)</string>
+
+    <string name="picker_click_diff_file_image">รูปภาพที่คลิกอยู่ในโฟลเดอร์อื่น</string>
+
+    <!--历史遗留，勿删-->
+    <string name="picker_images">รูปภาพ</string>
+    <string name="picker_delete">ไม่สามารถเข้าถึงอัลบั้มภาพ โปรดตรวจสอบใน \'การตั้งค่า-&gt;บริการตำแหน่ง\' และเปิดใช้งานแอพพลิเคชั่นนี้</string>
+    <string name="picker_yes_with_count">ตกลง(%1$d/%2$d)</string>
+    <string name="picker_undo">ยกเลิก</string>
+    <string name="picker_deleted_a_photo">ลบรูปภาพแล้ว</string>
+    <string name="picker_confirm_to_delete">ยืนยันการลบ?</string>
+    <string name="picker_cancel">ยกเลิก</string>
+    <string name="picker_out_of_memory_error">พื้นที่จัดเก็บไม่เพียงพอ โหลดล้มเหลว</string>
+    <string name="picker_choose">เลือก</string>
+    <string name="picker_saving_image">กำลังบันทึกรูปภาพ...</string>
+    <string name="picker_preparing_card">กำลังเตรียมการบันทึกในการ์ด...</string>
+    <string name="picker_no_storage_card">ไม่มีการ์ดหน่วยความจำ</string>
+    <string name="picker_not_enough_space">พื้นที่ไม่เพียงพอ</string>
+    <string name="picker_cancel_text">ยกเลิก</string>
+    <string name="picker_please_wait">กรุณารอสักครู่...</string>
+    <string name="picker_crop">ครอบตัด</string>
+    <string name="picker_no_camera_app">ไม่มีแอปกล้อง</string>
+    <string name="picker_content_description_picture">รูปภาพ</string>
+</resources>

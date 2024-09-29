@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_layout">
+
+
+    <LinearLayout
+            android:id="@+id/main_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/main_foot_layout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#FCFCFC">
+            
+            
+            <!--Don't remove this tag.Cells may be inserted here at compile time by searching this tag.-->
+            <!--<include/>-->
+    </LinearLayout>
+
+</LinearLayout>

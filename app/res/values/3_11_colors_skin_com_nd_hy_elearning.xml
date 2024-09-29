@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--这里是已经统计抽取出来可以做换肤的色值-->
+
+    <!--工具栏文字色值-->
+    <color name="ele_include_toolbar_title_color">#000000</color>
+    <!--下拉菜单分割线色值-->
+    <color name="ele_popup_home_page_list_divider">#f0f0f0</color>
+    <!--下拉菜单选中态色值-->
+    <color name="ele_popup_home_page_list_selector">#f0f0f0</color>
+    <!--下拉菜单文字色值-->
+    <color name="ele_popup_home_page_item_text_color">#505050</color>
+    <!--通用tab色值-普通态-->
+    <color name="ele_color_1">#ff333333</color>
+    <!--通用tab色值-选中态-->
+    <color name="ele_color_3">#0090ff</color>
+    <!--通用分割线色值-->
+    <color name="ele_color_8">#dddddd</color>
+    <!--公开课列表内容色值-->
+    <color name="ele_color_2">#666666</color>
+    <!--公开课列表数量色值-->
+    <color name="ele_color_4">#999999</color>
+    <!--公开课选择选中态色值(筛选背景色)-->
+    <color name="ele_color_7">#ffffff</color>
+    <!--筛选选中态背景色-->
+    <color name="ele_drop_down_selected">#38adff</color>
+    <!--培训介绍页tab背景色值-->
+    <color name="ele_tab_bg">#ffffff</color>
+    <!--培训介绍页tab普通态色值-->
+    <color name="ele_tab_textcolor">#000000</color>
+    <!--培训介绍页tab选中态色值-->
+    <color name="ele_text_selected">#38acff</color>
+    <!--培训介绍页tab分割线色值-->
+    <color name="ele_tab_culline">#5d6267</color>
+    <!--课程学习页tab背景色值-->
+    <color name="pltCourseTabBackground">#ffffff</color>
+    <!--课程学习页tab文字色值普通态-->
+    <color name="pltCourseTabText">#191919</color>
+    <!--课程学习页tab文字色值选中态-->
+    <color name="pltCourseTabTextSelected">#3fabff</color>
+    <!--课程学习页tab滑块色值-->
+    <color name="pltCourseTabIndicator">@color/pltCourseTabTextSelected</color>
+    <!--课程学习页目录章背景色值-->
+    <color name="pltCourseStudyListBackground">#f5f5f5</color>
+    <!--课程学习页目录节背景色值-->
+    <color name="pltCourseStudyPartBackground">#ffffff</color>
+    <!--课程学习页目录资源背景色值-->
+    <color name="pltCourseStudyResBackground">#ffffff</color>
+    <!--课程学习页下载进度背景色值-->
+    <color name="pltCourseResDownloadBg">#f0f0f0</color>
+    <!--课程学习页下载进度色值-->
+    <color name="pltCourseResDownloadFg">#38adff</color>
+    <!--课程学习页资源时间色值-->
+    <color name="ele_res_time_text">#777777</color>
+    <!--课程学习页目录章文字色值-->
+    <color name="pltCourseStudyListText">#191919</color>
+    <!--课程学习页目录节文字色值-->
+    <color name="StudyCoursePartTitleText">#777777</color>
+    <!--课程学习页资源标题文字色值-->
+    <color name="StudyCourseResourceTitleText">#191919</color>
+    <!--课程学习页节位置文字色值-->
+    <color name="ele_part_index_text">#fefefe</color>
+    <!--通用绿色按钮背景色普通态-->
+    <color name="ele_bg_common_btn_nor">#0099ff</color>
+    <!--通用绿色按钮背景色按下态-->
+    <color name="ele_bg_common_btn_pre">#666666</color>
+    <!--首页tab文字色值普通态-->
+    <color name="ele_rb_header_textcolor_nor">@color/ele_color_14</color>
+    <!--首页tab文字色值按下态-->
+    <color name="ele_rb_header_textcolor_pre">@color/ele_color_7</color>
+    <!--工具栏编辑文字色值-->
+    <color name="ele_include_toolbar_editer_color">@color/ele_color_2</color>
+
+    <!--2016-03-18增加的可换肤的色值-->
+    <!--通用 View 分割线的色值-->
+    <color name="ele_color_common_view_divider">#cccccc</color>
+    <!--首页 “全部学习” 下 Program Category Tab (包括 “精品推荐”、“公开课”、“培训认证” 和 “职业规划”) 分割线的色值-->
+    <color name="ele_color_program_category_tab_divider">#00000000</color>
+    <!--首页 “全部学习” 下 Program Category 内容页 (包括 “精品推荐”、“公开课”、“培训认证” 和 “职业规划”) 背景的色值-->
+    <color name="ele_color_program_category_content_background">@color/white</color>
+    <!-- “精品推荐” 页面下各个频道 title 背景的色值-->
+    <color name="ele_color_recommend_channel_title_background">@color/white</color>
+    <!-- “精品推荐” 和 “公开课” 页面下课程项背景闲置态的色值-->
+    <color name="ele_color_program_category_course_item_background_normal">#00000000</color>
+    <!-- “精品推荐” 和 “公开课” 页面下课程项背景点击态的色值-->
+    <color name="ele_color_program_category_course_item_background_pressed">#e4e4e4</color>
+    <!-- “公开课” 和 “培训认证” 页面下筛选控件背景色值-->
+    <color name="ele_color_program_category_filter_widget_background">@color/white</color>
+    <!-- “公开课” 和 “培训认证” 页面下筛选控件字体色值-->
+    <color name="ele_color_program_category_filter_widget_text_color">#7a7f83</color>
+    <!-- “公开课” 和 “培训认证” 页面筛选面板背景色值 -->
+    <color name="ele_color_program_category_filter_panel_background">@color/white</color>
+    <!-- “公开课” 和 “培训认证” 页面筛选面板显示更多分类字体色值 -->
+    <color name="ele_color_program_category_filter_panel_show_more_category_widget_text_color">#7a7f83</color>
+    <!-- “公开课” 和 “培训认证” 页面筛选面板分割线色值 -->
+    <color name="ele_color_program_category_filter_panel_divider_color">@color/ele_color_11</color>
+    <!-- “公开课” 和 “培训认证” 页面筛选面板字体正常态色值 -->
+    <color name="ele_color_program_category_filter_panel_text_normal">#282b2e</color>
+    <!-- “公开课” 和 “培训认证” 页面筛选面板字体选中态色值 -->
+    <color name="ele_color_program_category_filter_panel_text_selected">#0099ff</color>
+    <!-- “公开课” 和 “培训认证” 页面弹出式筛选面板背景色值-->
+    <color name="ele_color_program_category_popup_filter_panel_background">#dfffffff</color>
+    <!-- 通用底部继续学习 SnackBar 字体色值-->
+    <color name="ele_color_common_continue_study_snackbar_text">@color/ele_color_7</color>
+    <!-- 通用底部继续学习 SnackBar 背景色值-->
+    <color name="ele_color_common_continue_study_snackbar_background">#e0000000</color>
+    <!-- “我的学习” 页面背景色值 -->
+    <color name="ele_color_my_study_background">#f5f5f5</color>
+    <!-- “我的学习” 页面 “排名” 视图群背景色值 -->
+    <color name="ele_color_my_study_rank_viewgroup_background">@color/white</color>
+    <!-- “我的学习” 页面 “答疑”、“消息”、“下载” 视图群背景 -->
+    <color name="ele_color_my_study_qa_msg_dl_viewgroup_background">@color/white</color>
+    <!-- “我的学习” 页面 “排名” 视图群分割线色值 -->
+    <color name="ele_color_my_study_rank_viewgroup_divider">@color/ele_color_9</color>
+    <!-- “我的学习” 页面学习进程状态 TabLayout 的背景 -->
+    <color name="ele_color_my_study_progress_status_tablayout_background">@color/white</color>
+    <!-- “我的学习” 页面待审核 Tab 下列表项中 “待审核” 的字体色值 -->
+    <color name="ele_color_my_study_list_item_to_be_audit_tag">#ff9518</color>
+    <!-- 线上考试准备页头部背景色值 -->
+    <color name="ele_color_online_exam_prep_page_header_background">#38adff</color>
+    <!-- 线上考试准备页头部标题字体色值 -->
+    <color name="ele_color_online_exam_prep_page_header_title_text">@color/white</color>
+    <!-- 线上考试准备页头部剩余考试次数字体色值 -->
+    <color name="ele_color_online_exam_prep_page_header_remaining_chance_text">@color/white</color>
+    <!-- 线上考试准备页背景色值 -->
+    <color name="ele_color_online_exam_prep_page_background">@color/white</color>
+    <!-- 线上考试准备页最佳分数色值 -->
+    <color name="ele_color_online_exam_prep_page_best_score_value">@color/white</color>
+    <!-- 线上考试准备页最佳分数标识色值 -->
+    <color name="ele_color_online_exam_prep_page_best_score_label">@color/white</color>
+    <!-- 线上考试准备页上次成绩描述色值 -->
+    <color name="ele_color_online_exam_prep_page_last_time_score_desc">@color/white</color>
+    <!-- 线上考试准备页“无成绩”描述色值 -->
+    <color name="ele_color_online_exam_prep_page_no_score_desc">@color/white</color>
+    <!-- 线上考试准备页考试时间限制字体色值 -->
+    <color name="ele_color_online_exam_prep_page_time_limit">@color/white</color>
+    <!-- 线上考试准备页考试时间分割线色值 -->
+    <color name="ele_color_online_exam_prep_page_time_limit_divider">#38ffffff</color>
+    <!-- 线上考试准备页通过条件字体色值 -->
+    <color name="ele_color_online_exam_prep_page_pass_condition">@color/white</color>
+    <!-- 线上考试准备页通过条件分割线色值 -->
+    <color name="ele_color_online_exam_prep_page_pass_condition_divider">#38ffffff</color>
+    <!-- 线上考试准备页 “进入考试” 按钮字体色值 -->
+    <color name="ele_color_online_exam_prep_page_enter_exam_text">@color/white</color>
+    <!-- 线上考试准备页考试说明字体色值 -->
+    <color name="ele_color_online_exam_prep_page_announcement_text">@color/gray_99</color>
+    <!-- 线上考试结果页标题栏背景色值 -->
+    <color name="ele_color_online_exam_result_page_title_bar_background">@color/ele_header_primary</color>
+    <!-- 线上考试结果页标题栏字体色值 -->
+    <color name="ele_color_online_exam_result_page_title_bar_text">@color/white</color>
+    <!-- 线上考试结果页重新考试按钮字体色值 -->
+    <color name="ele_color_online_exam_result_page_exam_again_text">@color/white</color>
+    <!-- 线上考试结果页内容视图背景 -->
+    <color name="ele_color_online_exam_result_page_content_view_background">@color/white</color>
+    <!-- 下载管理页面右侧编辑/取消按钮色值 -->
+    <color name="ele_color_download_manager_right_button">#39a5ec</color>
+
+    <!--2016-04-18增加的可换肤的色值-->
+    <!--顶部一级切换标题正常态色值-->
+    <color name="ele_navigation_title_first_color">@color/transparent</color>
+    <!--顶部一级切换标题点击态色值-->
+    <color name="ele_navigation_title_first_pressed_color">#39a5ec</color>
+    <!--一级切换标题边框色值-->
+    <color name="ele_navigation_title_frame_color">#39a5ec</color>
+    <!--二级切换标题正常，即首页 “全部学习” 下 Program Category Tab (包括 “精品推荐”、“公开课”、“培训认证” 和 “职业规划”) 正常态文字的色值-->
+    <color name="ele_navigation_title_second_color">@color/ele_color_1</color>
+    <!--二级切换标题点击，即首页 “全部学习” 下 Program Category Tab (包括 “精品推荐”、“公开课”、“培训认证” 和 “职业规划”) 选中态文字的色值-->
+    <color name="ele_navigation_title_second_pressed_color">#38adff</color>
+    <!--二级切换标题下划线色值-->
+    <color name="ele_navigation_title_second_line_color">#38acff</color>
+    <!--二级切换标题背景，即首页 “全部学习” 下 Program Category TabWidget (包括 “精品推荐”、“公开课”、“培训认证” 和 “职业规划”) 背景的色值-->
+    <color name="ele_navigation_title_second_bg_color">@color/white</color>
+    <!--二级切换标题底部分隔线，目前所见为一像素灰色线条-->
+    <color name="ele_navigation_title_second_separate_color">#cccccc</color>
+    <!--『我的学习』排行版中容纳7天排行、月排行、总排行 TabWidget 的背景-->
+    <color name="ele_color_study_rankboard_tabwidget_background">@color/white</color>
+    <!--『我的学习』排行版中7天排行、月排行、总排行的字体正常态色值-->
+    <color name="ele_color_study_rankboard_tab_text_normal">@color/ele_color_1</color>
+    <!--『我的学习』排行版中7天排行、月排行、总排行的字体选中态色值-->
+    <color name="ele_color_study_rankboard_tab_text_selected">@color/ele_color_14</color>
+    <!--『我的学习』排行版中头部我的排名背景-->
+    <color name="ele_color_study_rankboard_my_rank_background">@color/ele_color_14</color>
+    <!--『我的学习』排行版中头部我的排名字体色值-->
+    <color name="ele_color_study_rankboard_my_rank_text">@color/ele_color_7</color>
+    <!--『我的学习』排行版中头部我的排名垂直分隔线色值-->
+    <color name="ele_color_study_rankboard_my_rank_vertical_divider">@color/ele_30alpha_color_7</color>
+</resources>

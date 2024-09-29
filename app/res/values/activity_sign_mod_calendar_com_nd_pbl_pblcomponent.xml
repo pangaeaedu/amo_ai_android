@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--日历背景图-->
+    <drawable name="starapp_life_sign_calendar_background">#ffffff</drawable>
+    <!--1.年月背景图-->
+    <drawable name="starapp_life_sign_calendar_year_month_background">@color/starapp_life_color_14</drawable>
+    <!--1.年月文字颜色-->
+    <color name="starapp_life_sign_calendar_year_month_text">@color/starapp_life_color_7</color>
+    <!--日历中间部分内边距-->
+    <dimen name="starapp_life_sign_calendar_body_margin_left">8dp</dimen>
+    <dimen name="starapp_life_sign_calendar_body_margin_top">19dp</dimen>
+    <dimen name="starapp_life_sign_calendar_body_margin_right">8dp</dimen>
+    <dimen name="starapp_life_sign_calendar_body_margin_bottom">21dp</dimen>
+    <!--日历中间星期和第一行间距-->
+    <dimen name="starapp_life_sign_calendar_body_padding_week">10dp</dimen>
+    <!--2.星期排列工作日颜色-->
+    <color name="starapp_life_sign_calendar_week_days_week_color">@color/starapp_life_color_2</color>
+    <!--3.星期排列非工作日颜色-->
+    <color name="starapp_life_sign_calendar_week_days_weekend_color">@color/starapp_life_color_13</color>
+    <!--星期排列起始值:0=星期日,1=星期一-->
+    <integer name="starapp_life_sign_calendar_week_days_start">1</integer>
+    <!--4.不是本月公历颜色-->
+    <color name="starapp_life_sign_calendar_day_no_this_month">@color/starapp_life_color_5</color>
+    <!--4.不是本月农历颜色-->
+    <color name="starapp_life_sign_calendar_day_no_this_month_lunar">@color/starapp_life_color_5</color>
+    <!--5.本月工作日颜色-->
+    <color name="starapp_life_sign_calendar_day_this_month_weekday">@color/starapp_life_color_2</color>
+    <!--5.本月工作日农历颜色-->
+    <color name="starapp_life_sign_calendar_day_this_month_weekday_lunar">@color/starapp_life_color_4</color>
+    <!--6.本月非工作日颜色-->
+    <color name="starapp_life_sign_calendar_day_this_month_weekend">@color/starapp_life_color_2</color>
+    <!--6.本月非工作日农历颜色-->
+    <color name="starapp_life_sign_calendar_day_this_month_weekend_lunar">@color/starapp_life_color_4</color>
+    <!--7.本月公历-指定日期状态颜色(signed)-->
+    <color name="starapp_life_sign_calendar_day_this_month_status_signed">@color/starapp_life_color_7</color>
+</resources>

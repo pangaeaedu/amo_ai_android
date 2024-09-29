@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="censor_word">ข้อความมีคำที่ไม่เหมาะสำหรับการส่ง</string>
+    <string name="censor_word_omit">【นี่เพียง...%s ตัวอักษร】</string>
+    <string name="censor_word_stage">【นี่เพียง...บางส่วน】</string>
+    <string name="censor_lib_download_fail">การอัปเดตคำที่ไม่เหมาะสำหรับการใช้ล้มเหลว</string>
+
+    <!--接入敏感词sdk-->
+    <string name="censor_toast">ข้อความมีเนื้อหาที่ไม่เหมาะสำหรับการส่ง โปรดปรับปรุงก่อนส่ง!</string>
+    <string name="censor_dialog_content">ข้อความมีเนื้อหาที่ไม่เหมาะสำหรับการส่ง อาจกระทบกับกฎหมายที่เกี่ยวข้อง!</string>
+    <string name="censor_dialog_tip">คำเตือน</string>
+    <string name="censor_dialog_continue">ดำเนินการต่อ</string>
+    <string name="censor_dialog_cancel">ยกเลิก</string>
+    <string name="censor_toast_words">ข้อความมีเนื้อหาที่ไม่เหมาะสำหรับการส่ง【%s】, โปรดปรับปรุงก่อนส่ง!</string>
+</resources>

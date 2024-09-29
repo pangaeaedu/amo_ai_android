@@ -1,0 +1,68 @@
+<resources>
+    <string name="apfpermissioncomponent_permission_item_title">允许%1$s访问%2$s权限</string>
+    <string name="apfpermissioncomponent_permission_detail_question1">为什么需要获取我的%1$s？</string>
+    <string name="apfpermissioncomponent_permission_detail_question2">如何进行权限设置？能否停止授权？</string>
+    <string name="apfpermissioncomponent_permission_detail_question3">如何保证我的信息安全？</string>
+    <string name="apfpermissioncomponent_permission_detail_go_setting">去设置</string>
+    <string name="apfpermissioncomponent_read_privacy_policy">阅读隐私政策</string>
+    <string name="apfpermissioncomponent_info">%1$s信息</string>
+    <string name="apfpermissioncomponent_get_privacy_policy_fail">获取隐私政策失败!</string>
+    <string name="apfpermissioncomponent_system_permission">系统权限</string>
+    <string name="apfpermissioncomponent_permission_allowed">已允许</string>
+    <string name="apfpermissioncomponent_permission_explain">为向您提供更好的用户体验，%1$s在特定场景可能需要向您申请以下手机系统权限。因设备差异权限设置可能存在误差，您也可以在手机设置中，进行权限设置。</string>
+    <string name="apfpermissioncomponent_permission_dialog_title">权限设置</string>
+    <string name="apfpermissioncomponent_permission_name">权限</string>
+	
+	<string name="apf_permission_check_dialog_title">%s 应用需要您以下权限</string>
+    <string name="apf_permission_check_dialog_allow_tip">&#8226; 授权允许后才会使用上述权限</string>
+    <string name="apf_permission_check_dialog_setting_tip">&#8226; 前往应用权限设置打开权限后才会使用上述权限;\n&#8226; 您还可以选择在APP设置->隐私权限设置打开权限</string>
+    <string name="apf_permission_check_dialog_unknow_tip">&#8226; 以上均为未知权限，请确保应用权限配置无误</string>
+    <string name="apf_permission_check_dialog_go_setting_title">未能获取以下权限</string>
+    <string name="apf_permission_check_dialog_go_setting">您可以选择：\n1.点击"设置"\n2.在APP设置->隐私权限设置打开权限 \n3.应用管理->对应应用->权限管理中打开权限</string>
+    <string name="apf_permission_check_dialog_cancel">取消</string>
+    <string name="apf_permission_check_dialog_allow">允许</string>
+    <string name="apf_permission_check_dialog_setting">设置</string>
+    <string name="apf_permission_check_dialog_iknow">我知道了</string>
+    <string name="apf_permission_check_dialog_exit">退出</string>
+    <string name="apf_permission_check_permission_requested">权限已申请</string>
+
+    <string name="apf_permission_unkonw">未知权限</string>
+    <string name="apf_permission_unkonw_message">应用打包未配置以下权限:\n%s\n请检查应用权限配置是否正确！</string>
+    <string name="apf_permission_disable_error">产品打包已开启禁用权限，请检查配置是否正确！</string>
+    <string name="apf_permission_disable_error2">产品打包已开启禁部分用权限，请检查配置是否正确！</string>
+    <string name="apf_permission_init_error_message">请检查参数是否按标准传入，并检查是否有传入初始化数据！</string>
+    <string name="apf_permission_pre_condition_error">前置条件不满足，无法执行权限请求</string>
+    <string name="apf_permission_specail_error_message">当前传入的权限包含一个或多个特殊权限，请检查数据是否有误！</string>
+    <string name="apf_permission_specail_error_message2">当前传入的权限非特殊权限，请检查数据是否有误！</string>
+    <string name="apf_permission_specail_init_error">当前权限需要带参数，请检查参数是否为空！</string>
+    <string name="apf_permission_error_message">权限申请失败，您已拒绝申请权限！</string>
+    <string name="apf_permission_error_unknown">权限申请失败，都为未知权限，请检查权限是否配置！</string>
+    <string name="apf_permission_error">权限申请失败！</string>
+    <string name="apf_permission_error_disable">存在被产品禁用的权限，请检查打包配置是否正确！</string>
+    <string name="apf_permission_disable">（已禁用）</string>
+
+    <string name="apf_permission_calendar">日历权限</string>
+    <string name="apf_permission_camera">相机权限</string>
+    <string name="apf_permission_contacts">联系人权限</string>
+    <string name="apf_permission_location">位置权限</string>
+    <string name="apf_permission_location_background">后台定位权限</string>
+    <string name="apf_permission_microphone">麦克风权限</string>
+    <string name="apf_permission_phone">电话权限</string>
+    <string name="apf_permission_sensors">传感器权限</string>
+    <string name="apf_permission_sms">短信权限</string>
+    <string name="apf_permission_storage">存储权限</string>
+    <string name="apf_permission_call_log">通话记录权限</string>
+    <string name="apf_permission_activity_recognition">身体活动权限</string>
+    <string name="apf_permission_alter_window">悬浮窗权限</string>
+    <string name="apf_permission_accessibility">辅助功能权限</string>
+    <string name="apf_permission_device">设备管理器权限</string>
+    <string name="apf_permission_notify_listener">监听通知栏权限</string>
+    <string name="apf_permission_usage">读取应用使用情况权限</string>
+    <string name="apf_permission_boot">开机启动权限</string>
+    <string name="apf_permission_wallpaper">设置壁纸权限</string>
+    <string name="apf_permission_bluetooth">蓝牙权限</string>
+    <string name="apf_permission_notification">通知权限</string>
+    <string name="apf_permission_nearby_devices">附近的设备权限</string>
+
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setting_label_new">ใหม่</string>
+    <string name="setting_select_language">การเลือกภาษา</string>
+
+    <!-- 设置 -->
+    <string name="setting_version_resume">ประวัติเวอร์ชัน</string>
+    <string name="setting_applicationSetting">การตั้งค่าแอป</string>
+    <string name="setting_helpupdate">ตรวจสอบการอัปเดต</string>
+    <string name="setting_xy_setting">การตั้งค่า</string>
+    <string name="setting_upLoad_Log">อัปโหลดบันทึก</string>
+    <string name="setting_upLoading">กำลังอัปโหลดบันทึก โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="setting_upLoad_fail">การอัปโหลดบันทึกล้มเหลว</string>
+    <string name="setting_upLoad_sucess">อัปโหลดบันทึกเรียบร้อย</string>
+    <string name="setting_account_security">ความปลอดภัยของบัญชี</string>
+
+    <string name="setting_my_homepage">หน้าโปรไฟล์ส่วนตัว</string>
+    <string name="setting_my_app">การตั้งค่าของฉัน</string>
+    <string name="setting_common_settings">การตั้งค่าทั่วไป</string>
+    <string name="setting_about_software">เกี่ยวกับซอฟต์แวร์</string>
+    <string name="setting_menu_sys_exit">ออกจากระบบ</string>
+    <string name="setting_more">เพิ่มเติม</string>
+    <string name="setting_more_apply">แอปเพิ่มเติม</string>
+    <string name="setting_network_unavailable">การต่อการเชื่อมต่อของเครือข่ายถูกตัด โปรดตรวจสอบการเชื่อมต่อเครือข่าย</string>
+    <string name="setting_to_download">ตกลง</string>
+    <string name="setting_cancel">ยกเลิก</string>
+    <string name="setting_sure">ตกลง</string>
+    <string name="setting_download_content">ตรวจพบเวอร์ชันใหม่: %s</string>
+    <string name="setting_download_content_without_name">ตรวจพบเวอร์ชันใหม่</string>
+    <string name="setting_not_wifi_download_tip">กำลังใช้เครือข่ายที่ไม่ใช่ wifi การอัพเกรดซอฟต์แวร์อาจมีค่าใช้จ่ายในการส่งข้อมูลโดยผู้ให้บริการโทรศัพท์</string>
+    <string name="setting_upload_dialog_find_unfinish_log">พบบันทึกที่ยังไม่ได้อัปโหลดเสร็จสิ้น</string>
+    <string name="setting_upload_dialog_only_latest_log">อัปโหลดเฉพาะบันทึกล่าสุด</string>
+    <string name="setting_upload_dialog_continue_upload_log">ดำเนินการอัปโหลดต่อ</string>
+    <string name="setting_upload_dialog_find_cancel_upload_log">ยกเลิก</string>
+    <string name="setting_tab_design">การตั้งค่าแท็ก</string>
+    <string name="setting_change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="setting_cache_clearing">กำลังล้างแคช</string>
+    <string name="setting_clear_cache">ล้างแคช</string>
+    <string name="setting_clear_cache_success">การล้างแคชเสร็จสิ้น!</string>
+    <string name="setting_language_auto">ตามระบบ</string>
+    <string name="setting_arabo_lrm">‎</string>
+    <string name="setting_goScore_str">ไปให้คะแนน</string>
+    <string name="setting_termsOfUse_str">ข้อตกลงการใช้และนโยบายความเป็นส่วนตัว</string>
+    <string name="setting_currentVersion_str">เวอร์ชันปัจจุบัน </string>
+
+    <string name="setting_about_str">เกี่ยวกับ</string>
+    <string name="setting_version_name_format">หมายเลขเวอร์ชัน: %s</string>
+    <string name="setting_version_name_format_in_root_page">เลขเวอร์ชัน %s</string>
+    <string name="setting_version_history_empty">ไม่มีข้อมูล</string>
+    <string name="setting_version_history_no_more_data">ไม่มีข้อมูลเพิ่มเติม...</string>
+    <string name="setting_inviting_friends">แนะนำให้เพื่อน</string>
+    <string name="setting_feedback">ช่วยเหลือและข้อเสนอแนะ</string>
+    <string name="setting_shortcut">เริ่มต้นอย่างรวดเร็ว</string>
+    <string name="setting_common_loading">กำลังโหลด...</string>
+    <string name="setting_page_account_security">ความปลอดภัยของบัญชี</string>
+    <string name="setting_page_app_management">การจัดการแอปพลิเคชัน</string>
+    <string name="setting_share_to_friends">แชร์กับเพื่อน</string>
+    <string name="setting_copy_url">คัดลอกลิงก์</string>
+    <string name="setting_save_image">บันทึกรูปภาพ</string>
+    <string name="setting_inviting_card_desc">สแกนคิวอาร์โค้ดด้านบนเพื่อดาวน์โหลดไคลเอ็นต์</string>
+    <string name="setting_sharing_url_loading_failed">การโหลดคิวอาร์โค้ดล้มเหลว</string>
+    <string name="setting_save_failed">บันทึกล้มเหลว</string>
+    <string name="setting_saved_to_gallery">บันทึกลงอัลบั้มรูปภาพของระบบแล้ว</string>
+    <string name="setting_copy_succeed">คัดลอกสำเร็จ</string>
+    <string name="setting_shortcut_loading_failed">การโหลดไอคอนเร็วล้มเหลว</string>
+    <string name="setting_title_add_to_desktop">เพิ่มไปยังหน้าจอหลัก</string>
+    <string name="setting_add_shortcut_to_home_succeed">เพิ่มลงไปที่หน้าจอหลักเรียบร้อย</string>
+    <string name="setting_shortcut_exists_on_home_screen">ไอคอนด่วนบนหน้าจอหลักมีอยู่แล้ว</string>
+    <string name="setting_create_shortcut_failed_on_home_screen">การเพิ่มล้มเหลว โปรดตรวจสอบการตั้งค่าโทรศัพท์</string>
+    <string name="setting_shortcut_launching_text">กำลังเริ่มต้น...</string>
+    <string name="setting_invalid_shortcut_url">ทางลัดไม่ถูกต้อง</string>
+    <string name="setting_empty_shortcut_url">ทางลัดว่างเปล่า</string>
+    <string name="setting_page_loading_failed">ไม่พบหน้า</string>
+    <string name="setting_bind_mobile">ผูกโทรศัพท์</string>
+    <string name="setting_advices_and_feedback">ข้อเสนอแนะ</string>
+    <string name="setting_font_size">ขนาดตัวอักษร</string>
+
+    <string name="setting_version_badge_new">ใหม่</string>
+    <!--设置项提示-->
+    <string name="setting_item_log_tip">แอปขัดจังหรือปิดตัวเอง? คลิกเพื่ออัปโหลดบันทึกเพื่อช่วยในการตรวจสอบปัญหาที่เกิดขึ้น</string>
+    <string name="setting_item_shortcut_tip">สร้างทางลัดบนหน้าจอหลักเพื่อเรียกใช้ง่าย</string>
+    <string name="setting_log_uploading">กำลังอัปโหลด...</string>
+    <!--跟随系统语言类型-->
+    <string name="setting_lang_description_default">ปฏิบัติตามระบบ</string>
+    <string name="setting_lang_translate_default">ตามระบบ</string>
+    <!--普通语言类型-->
+    <string name="setting_lang_translate_zh_cn">จีนตัวย่อ</string>
+    <string name="setting_lang_translate_zh_hk">จีนตัวเดิม</string>
+    <string name="setting_lang_translate_en">อังกฤษ</string>
+    <string name="setting_lang_translate_ar">ภาษาอาหรับ</string>
+    <string name="setting_lang_translate_th">ภาษาไทย</string>
+    <string name="setting_lang_translate_id">ภาษาอินโดนีเซีย</string>
+
+    <string name="setting_has_new_msg">มีข้อความใหม่</string>
+    <string name="setting_icon_content_description">ไอคอน</string>
+    <string name="setting_cd_close_dialog">ปิดหน้าต่าง</string>
+    <string name="setting_privacy_settings">การตั้งค่าความเป็นส่วนตัว</string>
+    <string name="setting_system_permission">สิทธิ์ของระบบ</string>
+    <string name="setting_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+
+    <string name="setting_title_autoplay_config">ตั้งค่าการเล่นอัตโนมัติ</string>
+    <string name="setting_title_autoplay_type_flow_or_wifi">การใช้งานข้อมูลเคลื่อนที่และ wifi</string>
+    <string name="setting_title_autoplay_type_wifi">เฉพาะ WiFi</string>
+    <string name="setting_title_autoplay_type_close">ปิด</string>
+	
+	<string name="setting_download_manager">การจัดการดาวน์โหลด</string>
+</resources>

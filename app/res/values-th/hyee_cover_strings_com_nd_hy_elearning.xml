@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!--problem-extras-->
+	<string name="hy_pbm_loading">กำลังโหลด…</string>
+    <string name="hy_pbm_confirm">ตกลง</string>
+    <string name="hy_pbm_cancel">ยกเลิก</string>
+    <string name="hy_pbm_answer_card_cancel">ยกเลิก</string>
+    <string name="hy_pbm_answer_card_title">บัตรคำ</string>
+    <string name="hy_pbm_answer_card_commit">ส่ง</string>
+	
+    <!--problem-patterns-->
+    <string name="hy_pbm_patterns_loading">กำลังโหลด...</string>
+    <string name="hy_pbm_get_quiz_fail">เกิดข้อผิดพลาดในการเรียน</string>
+    <string name="hy_pbm_no_support_quiz_type">ประเภทข้อสอบนี้ยังไม่ได้รับการสนับสนุน</string>
+    <string name="hy_pbm_all_quiz_right">คุณตอบคำถามทั้งหมดถูกต้อง ไม่มีคำถามที่ตอบผิด!</string>
+    <string name="hy_pbm_quiz_type_total_count_separate">"/%d"</string>
+    <string name="hy_pbm_quiz_type_quiz_index">"%1$d.%2$d"</string>
+    <string name="hy_pbm_quiz_type_single">คำถามสำหรับการเลือก</string>
+    <string name="hy_pbm_quiz_type_multi">คำถามทางเลือก</string>
+    <string name="hy_pbm_quiz_type_indeterminate">คำถามที่เลือกไม่แน่นอน</string>
+    <string name="hy_pbm_quiz_type_judge">คำถามประเมิน</string>
+    <string name="hy_pbm_quiz_type_blank">คำตอบแบบช่องว่าง</string>
+    <string name="hy_pbm_quiz_type_brief">คำถามสั้น</string>
+    <string name="hy_pbm_quiz_type_group">ชุดข้อสอบ</string>
+    <string name="hy_pbm_blank_standard_answer_order">(%1$d) </string>
+    <string name="hy_pbm_subject_input_hint">โปรดป้อนข้อความ</string>
+    <string name="hy_pbm_quiz_input_confirm">ตกลง</string>
+    <string name="hy_pbm_explain_title">ข้อสอบแนะนำ:</string>
+    <string name="hy_pbm_explain_none">ไม่มี</string>
+    <string name="hy_pbm_explain_standard_answer_format">คำตอบที่ถูกต้อง: %1$s      </string>
+    <string name="hy_pbm_explain_user_answer_right">คุณตอบถูก</string>
+    <string name="hy_pbm_explain_user_answer_error">คำตอบของคุณคือ: %1$s</string>
+    <string name="hy_pbm_explain_user_answer_undo">คุณยังไม่ได้ตอบ</string>
+	
+	<!--e-exam-media-->
+	<string name="ele_exam_media_network_error">ข้อผิดพลาดในการเชื่อมต่อ โปรดตรวจสอบเครือข่ายของคุณ!</string>
+    <string name="ele_exam_media_loading">กำลังโหลดเสียง/วิดีโอ...</string>
+    <string name="ele_exam_media_loading_fail">โหลดเสียง/วิดีโอล้มเหลว โปรดคลิกลองอีกครั้ง</string>
+	<string name="ele_exam_media_release">กำลังปลดล็อคทรัพยากรก่อนหน้า โปรดคลิกในภายหลัง</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- measure-main -->
+    <string name="hyee_remain_time_with_day">%1$dd%2$dh%3$dm%4$ds</string>
+    <string name="hyee_remain_time_no_day">%1$dh%2$dm%3$ds</string>
+    <string name="hyee_remain_time_no_hour">%1$dm%2$ds</string>
+    <string name="hyee_history_cost_time">Time cost: %s</string>
+    <string name="hyee_history_title">Previous Scores</string>
+    <string name="hyee_history_obj_score">Score for Objective Questions</string>
+    <string name="hyee_history_no_sub_score">Subjective questions to be marked</string>
+    <string name="hyee_listview_loadfail">Failed to load. Tap to try again.</string>
+    <string name="hyee_listview_loading">Loading...</string>
+    <string name="hyee_listview_no_more_data">No more data</string>
+    <string name="hyee_exam_rank_list_tab_rank">Ranking</string>
+    <string name="hyee_exam_rank_list_tab_name">Name</string>
+    <string name="hyee_exam_rank_list_tab_score">Score</string>
+    <string name="hyee_exam_rank_list_tab_time">Time cost</string>
+    <string name="hyee_rank_board_title">Ranking List</string>
+    <string name="hyee_exam_rank_max_score">Highest score</string>
+    <string name="hyee_challenge_score">Current score</string>
+    <string name="hyee_exam_rank_cost_time">Time cost</string>
+    <string name="hyee_exam_cost_time_second">″</string>
+    <string name="hyee_exam_cost_time_minute">′</string>
+    <string name="hyee_no_data">No data.</string>
+    <string name="hyee_no_data_desc">No data.</string>
+    <string name="hyee_exam_rank_list_empty_tip1">Raking List is empty.</string>
+    <string name="hyee_exam_rank_list_empty_tip2">Join the exam and be the first one on the list.</string>
+    <string name="hyee_user_no_exist">User not exists</string>
+    <string name="hyee_challenge_ranking_description">The following is the official ranking of the best scores</string>
+    <string name="hyee_max_score_ranking">Current Ranking</string>
+    <string name="hyee_challenge_ranking">Ranking</string>
+</resources>

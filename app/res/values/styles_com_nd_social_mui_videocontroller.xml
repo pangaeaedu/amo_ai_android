@@ -1,0 +1,22 @@
+<resources>
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="SocialRecorder"/>
+
+    <style name="SocialRecorder.Style"/>
+
+    <style name="SocialRecorder.Style.BtnCircle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/recorder_btn_circle</item>
+        <item name="android:layout_width">62dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:textSize">@dimen/fontsize13</item>
+        <item name="android:textColor">@color/color1</item>
+    </style>
+
+</resources>

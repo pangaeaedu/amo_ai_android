@@ -1,0 +1,473 @@
+<resources>
+    <string name="x_cloud_common_error">请求失败</string>
+    <string name="x_cloud_common_error_1">请求失败，请稍后再试</string>
+    <string name="x_cloud_error_get_group_fail">获取群信息异常</string>
+    <string name="x_cloud_error_get_classinfo_error">获取班级信息异常</string>
+
+    <string name="x_cloud_dialog_alert_button">我知道了</string>
+    <string name="x_cloud_dialog_alert_title">获取班级码</string>
+
+    <string name="x_cloud_section_primary">小学</string>
+    <string name="x_cloud_section_middle">初中</string>
+    <string name="x_cloud_section_high">高中</string>
+
+    <string name="x_cloud_assemble_chat_fragment_item_menu_title">班级管理</string>
+    <string name="x_cloud_assemble_chat_fragment_item_menu_title_research">教研群管理</string>
+    <string name="x_cloud_assemble_chat_fragment_student_appraise">学生评价</string>
+    <string name="x_cloud_assemble_chat_fragment_teacher_message">老师消息</string>
+    <string name="x_cloud_assemble_chat_fragment_notice">通知</string>
+    <string name="x_cloud_assemble_chat_fragment_research">研修活动</string>
+    <string name="x_cloud_assemble_chat_fragment_work_jobs">作业活动</string>
+    <string name="x_cloud_assemble_chat_fragment_clock_in">打卡</string>
+    <string name="x_cloud_assemble_chat_fragment_questionnaire">问卷调查</string>
+    <string name="x_cloud_assemble_chat_fragment_class_live">班级直播</string>
+    <string name="xc_im_chatroom_title_filter_msg">老师消息</string>
+    <string name="x_cloud_assemble_chat_fragment_information_statistics">信息统计</string>
+    <string name="x_cloud_assemble_chat_fragment_information_solitaire">接龙</string>
+    <string name="x_cloud_assemble_chat_fragment_famous_send">发布</string>
+    <string name="x_cloud_assemble_chat_fragment_cls_timetable">课程表</string>
+    <string name="x_cloud_assemble_chat_fragment_research_live">视频教研</string>
+    <string name="x_cloud_assemble_chat_fragment_offline_teaching_service">课后服务</string>
+    <string name="x_cloud_assemble_chat_fragment_research_live_no">仅主持人及管理员才可发起视频教研哦~</string>
+
+    <string name="x_cloud_assemble_menu_create_group">创建群组</string>
+    <string name="x_cloud_assemble_menu_join_group">加入群组</string>
+    <string name="x_cloud_assemble_menu_create_group_class">创建班级群</string>
+    <string name="x_cloud_assemble_menu_create_group_normal">创建普通群</string>
+
+    <string name="x_cloud_assemble_menu_join_group_class">加入班级群</string>
+    <string name="x_cloud_assemble_menu_join_group_normal">加入普通群</string>
+    <string name="x_cloud_assemble_menu_join_group_qrcode">扫码入群</string>
+
+    <string name="x_cloud_top_menu_teacher_class">创建/加入班级</string>
+    <string name="x_cloud_bottom_menu_join_class">加入班级</string>
+    <string name="x_cloud_bottom_menu_create_class">创建班级</string>
+    <string name="x_cloud_top_menu_teacher_group">创建/加入群组</string>
+    <string name="x_cloud_top_menu_student_guardian_class">加入班级</string>
+    <string name="x_cloud_top_menu_student_guardian_group">加入群组</string>
+
+    <string name="x_cloud_bottom_menu_create_im_group">创建普通群</string>
+    <string name="x_cloud_bottom_menu_join_im_group">加入普通群</string>
+    <string name="x_cloud_bottom_menu_create_research_group">创建教研群</string>
+    <string name="x_cloud_bottom_menu_join_research_group">加入教研群</string>
+    <string name="x_cloud_bottom_menu_join_qrcode_im_group">扫码入群</string>
+
+    <string name="x_cloud_assemble_label_head_teacher">班主任</string>
+    <string name="x_cloud_assemble_label_teacher">老师</string>
+    <string name="x_cloud_assemble_label_teacher_duty">%1$s老师</string>
+    <string name="x_cloud_assemble_label_student">学生</string>
+
+    <string name="i_am_teacher">我是老师</string>
+    <string name="i_am_student">我是学生</string>
+    <string name="x_cloud_perfect_info">完善信息</string>
+    <string name="x_cloud_create_class_group">创建班级群</string>
+    <string name="x_cloud_select_at_school">选择所在的学校</string>
+    <string name="x_cloud_please_perfect_info">为了您更好使用APP，请完善信息</string>
+    <string name="x_cloud_please_select_school">请选择学校</string>
+    <string name="x_cloud_select_school">选择学校</string>
+    <string name="x_cloud_select_institution">选择机构/学校</string>
+    <string name="x_cloud_please_select_area">请选择区域</string>
+
+    <string name="x_cloud_add_successful">添加成功</string>
+    <string name="x_cloud_add_failed">添加失败</string>
+    <string name="x_cloud_back">返回</string>
+    <string name="x_cloud_complete">完成</string>
+    <string name="x_cloud_search">搜索</string>
+    <string name="x_cloud_jump_over">跳过</string>
+    <string name="x_cloud_current_location">当前位置：</string>
+    <string name="x_cloud_re_location">重新定位</string>
+    <string name="x_cloud_wrong_manual_select">位置不对？手动选择</string>
+    <string name="x_cloud_nearby_school">附近的学校</string>
+    <string name="x_cloud_nearby_institution">附近的机构/学校</string>
+    <string name="x_cloud_no_find_school_manual_add">没找到学校？手动添加</string>
+    <string name="x_cloud_no_find_institution_manual_add">没找到机构/学校？手动添加</string>
+    <string name="x_cloud_cancel">取消</string>
+    <string name="x_cloud_confirm">确定</string>
+    <string name="x_cloud_save">保存</string>
+    <string name="x_cloud_search_hint">搜索</string>
+    <string name="x_cloud_search_tip">搜索结果</string>
+    <string name="x_cloud_search_result">暂无匹配的搜索结果</string>
+    <string name="x_cloud_manual_add_school">手动添加学校</string>
+    <string name="x_cloud_manual_add_institution">手动添加机构/学校</string>
+    <string name="x_cloud_more_school_updating">更多学校持续更新中</string>
+    <string name="x_cloud_more_institution_updating">&#160;&#160;&#160;&#160;若您找不到所在机构/学校，请联系学校所属教育管理部门增加学校信息后再完善个人信息。</string>
+    <string name="x_cloud_please_feedback_by_phone">&#160;&#160;&#160;&#160;请您致电客服反馈</string>
+    <string name="x_cloud_phone">&#160;&#160;&#160;&#160;电话：</string>
+    <string name="x_cloud_network_exception">网络连接异常，请检查网络</string>
+    <string name="x_cloud_select_my_area">所在地区</string>
+    <string name="x_cloud_location_failed">定位失败</string>
+    <string name="x_cloud_add_member_successful">添加成功</string>
+
+    <string name="x_cloud_group_shortcut_clock_in_webview_title">打卡</string>
+    <string name="x_cloud_join_class_group">加入班级群</string>
+    <string name="x_cloud_class_group_contact">班级群通讯录</string>
+    <string name="x_cloud_look_over">查看</string>
+    <string name="x_cloud_class_not_found">未找到班级</string>
+    <string name="x_cloud_has_been_disbanded">班级已被解散</string>
+
+    <!--完善信息 - 编辑用户名 -->
+    <string name="x_cloud_perfect_information_userinfo_tip1">欢迎来到\n国家中小学智慧教育平台</string>
+    <string name="x_cloud_perfect_information_userinfo_tip2">请修改姓名，在学习交流中更方便沟通</string>
+    <string name="x_cloud_perfect_information_userinfo_tip3">您的姓名是？</string>
+    <string name="x_cloud_perfect_information_userinfo_next_step">下一步</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_format">用户%1$s</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_hint">默认姓名：用户1234</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_update_error_sensitive_word">名字中有敏感词，请重新输入</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_update_error">更新失败</string>
+
+    <!-- 加入班级反馈页 -->
+    <string name="x_cloud_join_class_feedback_title">加入班级</string>
+
+    <string name="x_cloud_join_class_feedback_success">加入成功</string>
+    <string name="x_cloud_join_class_feedback_success_tip">可以立即进入班级群，和老师进行家校沟通</string>
+
+    <string name="x_cloud_join_class_feedback_audit">入班申请成功</string>
+    <string name="x_cloud_join_class_feedback_fail">申请失败</string>
+    <string name="x_cloud_join_class_feedback_fail_reason">失败原因：%1$s</string>
+    <string name="x_cloud_join_class_feedback_audit_tip">班主任审核通过即可加入班级</string>
+    <string name="x_cloud_join_class_feedback_bottom_button_audit">完成</string>
+
+    <!-- 创建班级群 -->
+    <string name="x_cloud_create_class_title">创建班级</string>
+    <string name="x_cloud_create_class_tip">填写班级群信息</string>
+    <string name="x_cloud_create_class_tip_1">创建后可在班级群设置中完善信息</string>
+    <string name="x_cloud_common_btn_confirm">确定(%1$d)</string>
+    <string name="x_cloud_create_class_label_class_name">班级名称</string>
+    <string name="x_cloud_create_class_label_class_name_hint">请输入名称，最多50个字</string>
+    <string name="x_cloud_create_class_label_subject">任教学科</string>
+    <string name="x_cloud_create_class_label_grade">所在年级</string>
+    <string name="x_cloud_create_class_label_grade_begin_year">入学年份</string>
+    <string name="x_cloud_create_class_label_school">所属学校</string>
+    <string name="x_cloud_create_class_label_btn_create">创建班级群</string>
+
+    <string name="x_cloud_create_class_select">请选择</string>
+    <string name="x_cloud_create_class_select_subject">请选择任教学科</string>
+    <string name="x_cloud_create_class_select_grade">请选择所在年级</string>
+    <string name="x_cloud_create_class_select_grade_begin_year">请选择入学年份</string>
+    <string name="x_cloud_create_class_item_name">%1$s-%2$s</string>
+    <string name="x_cloud_create_class_fail">创建失败</string>
+    <string name="x_cloud_dialog_subject_clear">清空</string>
+
+    <string name="x_cloud_create_class_step_1">填写班级信息</string>
+    <string name="x_cloud_create_class_step_2">激活群聊</string>
+    <string name="x_cloud_create_class_label_next_step">下一步</string>
+    <string name="x_cloud_create_class_label_create">立即创建</string>
+
+    <string name="x_cloud_create_class_label_group_1">师生群（老师+学生）</string>
+    <string name="x_cloud_create_class_label_group_2">家校群（老师+家长）</string>
+
+    <string name="x_cloud_subject_space">、</string>
+
+    <string name="x_cloud_create_class_please_select_school">请先选择学校</string>
+
+
+    <!-- 班级码加群 -->
+    <string name="x_cloud_join_class_code_tip_title">输入班级码</string>
+    <string name="x_cloud_join_class_code_tip_1">加入班级后即可进入群聊</string>
+
+    <string name="x_cloud_join_class_code_btn_search">查找</string>
+    <string name="x_cloud_join_class_code_input_hint">请输入6位班级码</string>
+    <string name="x_cloud_join_class_code_get_code_guid">如何获得班级码？</string>
+    <string name="x_cloud_join_class_code_join">加入班级</string>
+
+    <string name="x_cloud_join_class_code_dialog_content">班级码是老师创建班级时系统生成的编号，如不知道班级码，请联系老师获取</string>
+    <string name="x_cloud_join_class_code_dialog_way_1">方式一：</string>
+    <string name="x_cloud_join_class_code_dialog_way_1_desc">复制老师发送的邀请信息，直接黏贴即可</string>
+
+    <string name="x_cloud_join_class_code_search_error">暂无此班级，请检查并输入正确班级码</string>
+
+    <string name="x_cloud_join_class_code_dialog_way_2">方式二：</string>
+    <string name="x_cloud_join_class_code_dialog_way_2_desc">向老师或已加入的家长询问获取</string>
+
+    <string name="x_cloud_join_class_forbidden">您被拒绝加入</string>
+    <string name="x_cloud_join_class_joined">已加入</string>
+    <string name="x_cloud_join_class_forbidden_join">禁止加入</string>
+    <string name="x_cloud_join_policy_forbidden">已被设置为禁止加入</string>
+
+    <string name="x_cloud_join_class_head_teacher">班主任：</string>
+    <string name="x_cloud_join_class_code_status_join">加入班级</string>
+    <string name="x_cloud_join_class_code_status_audit">审核中</string>
+    <string name="x_cloud_join_class_code_status_joined">进入班级</string>
+
+    <string name="x_cloud_join_class_verify_input_hint">请输入提示中**部分</string>
+    <string name="x_cloud_join_class_verify_input_tip">提示：该班级群班主任的名字</string>
+    <string name="x_cloud_join_class_verify_submit">身份验证</string>
+
+    <string name="x_cloud_join_class_identity_select">切换身份</string>
+    <string name="x_cloud_join_class_identity_label_select">请选择</string>
+    <string name="x_cloud_join_class_identity_label_guardian_child_select">请选择要加入班级的孩子</string>
+    <string name="x_cloud_join_class_identity_add">添加更多身份</string>
+
+    <string name="x_cloud_join_class_dialog_title_select_identity">请选择加入班级的身份</string>
+    <string name="x_cloud_join_class_dialog_title_select_children">请选择要加入班级的孩子</string>
+    <string name="x_cloud_join_class_children_add">添加更多孩子</string>
+
+    <string name="x_cloud_join_class_identity_tip_title">选择您的身份</string>
+    <string name="x_cloud_join_class_identity_tip_1">选择后需要补充相关信息即可加入</string>
+    <string name="x_cloud_join_class_identity_verify_name_guid">请进行身份验证后加入班级</string>
+    <string name="x_cloud_join_class_identity_select_label">请选择正确的身份，加入后不能修改</string>
+    <string name="x_cloud_join_class_identity_label_subjects">任教学科</string>
+    <string name="x_cloud_join_class_identity_label_seat_number">座位号</string>
+    <string name="x_cloud_join_class_identity_label_edit_info">填写个人信息:</string>
+    <string name="x_cloud_join_class_identity_extinfo_real_name_hint">真实姓名</string>
+    <string name="x_cloud_join_class_identity_extinfo_subject_hint">请选择</string>
+    <string name="x_cloud_join_class_identity_submit">加入</string>
+    <string name="x_cloud_join_class_identity_name_format">我是%1$s</string>
+    <string name="x_cloud_join_class_identity_submit_to_verify">前往验证</string>
+    <string name="x_cloud_join_class_submit_error">加入班级失败</string>
+    <string name="x_cloud_join_class_tip1">将要加入</string>
+    <string name="x_cloud_join_class_tip2">「%1$s</string>
+    <string name="x_cloud_join_class_tip3">」</string>
+    <string name="x_cloud_join_class_identity_label_select_student">选择学生</string>
+    <string name="x_cloud_join_class_identity_label_student_name">学生姓名</string>
+    <string name="x_cloud_join_class_identity_label_child_relation">我是孩子的</string>
+    <string name="x_cloud_join_class_identity_hint_child_relation">请选择家庭关系</string>
+    <string name="x_cloud_join_class_identity_add_child">添加学生</string>
+    <string name="x_cloud_join_class_identity_hint_child_name">请输入姓名</string>
+    <string name="x_cloud_join_class_identity_hint_real_name">请输入真实姓名</string>
+    <string name="x_cloud_join_class_identity_hint_seat_number">请输入数字，例如10</string>
+    <string name="x_cloud_join_class_error_1">您已加入班级，请勿重复加入</string>
+    <string name="x_cloud_join_class_error_2">该班级当前禁止加入</string>
+
+    <string name="x_cloud_join_class_identity_description">请选择正确的身份，加入后不能修改</string>
+
+    <!-- 加入教研群 start -->
+    <string name="xc_join_research_tip_title">选择您的身份</string>
+    <string name="xc_join_research_tip_1">加入群组后即可进入群聊</string>
+    <string name="xc_join_dialog_title_research">邀请您加入以下教研群</string>
+    <string name="xc_join_research_not_found">教研群不存在</string>
+    <string name="xc_join_research_error_1">您已加入教研群，请勿重复加入</string>
+    <string name="xc_join_research_error_2">该教研群禁止加入</string>
+    <string name="xc_join_research_error">加入教研群失败</string>
+
+    <string name="xc_join_research_feedback_title">加入教研群</string>
+    <string name="xc_join_error_get_group_error">获取教研群信息异常</string>
+    <string name="xc_join_research_dialog_forbidden_content">当前身份不允许加入教研群，仅允许教师、管理人员、电教人员、教研员身份加入。</string>
+    <string name="xc_join_research_dialog_forbidden_content_student">暂不支持学生加入</string>
+    <string name="xc_join_research_dialog_forbidden_content_guardian">暂不支持家长加入，请切换其他身份</string>
+    <string name="x_cloud_research_feedback_bottom_button_success">返回</string>
+
+    <!-- 加入教研群 end -->
+
+    <string name="x_cloud_identity_teacher">老师</string>
+    <string name="x_cloud_identity_student">学生</string>
+    <string name="x_cloud_identity_guardian">家长</string>
+    <string name="x_cloud_identity_academic_staff">教研员</string>
+    <string name="x_cloud_identity_electric_teacher">电教人员</string>
+    <string name="x_cloud_identity_edu_admin">管理人员</string>
+    <string name="x_cloud_identity_social_learner">社会学习者</string>
+
+    <string name="x_cloud_catalog_more">…</string>
+    <string name="x_cloud_course_infos">%1$d课程</string>
+    <string name="x_cloud_course_period">%1$.0f课时</string>
+    <string name="x_cloud_no_more_data">没有更多数据啦</string>
+
+    <!-- 切换身份 -->
+    <string name="x_cloud_identity_switch_dialog_title">添加新身份</string>
+    <string name="x_cloud_identity_switch_current_tag">当前身份</string>
+    <string name="x_cloud_identity_switch_set_school">设置学校/机构</string>
+    <string name="x_cloud_identity_switch_set_school_tip">请先补齐学校/机构信息，是否前往补充？</string>
+    <string name="x_cloud_identity_switch_set_area">设置所在区域</string>
+    <string name="x_cloud_identity_switch_set_area_tip">请先补齐所在区域信息，是否前往补充？</string>
+    <string name="x_cloud_identity_title">身份切换</string>
+    <string name="x_cloud_identity_switch_add_identity_format">%1$s(已有)</string>
+    <string name="x_cloud_identity_switch_dialog_delete_title">删除身份</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_teacher">请先退出或解散班级，删除后无法撤销，并清空全部相关数据，是否删除 %1$s 身份 ？</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_guardian">请先退出或解散家庭，删除后无法撤销，并清空全部相关数据，是否删除 %1$s 身份 ？</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_student">请先退出或解散家庭，删除后无法撤销，并清空全部相关数据，是否删除 %1$s 身份 ？</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_default">删除后无法撤销，并清空全部相关数据，是否删除 %1$s 身份？</string>
+    <string name="x_cloud_identity_switch_dialog_delete_one_of_staff_identity">请先在身份切换处删除 %1$s 身份，再进行身份创建，您仅可选择教研员、电教人员、管理人员中的一个身份角色。</string>
+    <string name="x_cloud_identity_switch_dialog_button_cancel">取消</string>
+    <string name="x_cloud_identity_switch_dialog_button_close">关闭</string>
+    <string name="x_cloud_identity_switch_dialog_button_delete">删除</string>
+    <string name="x_cloud_identity_switch_add_identity_success">创建身份成功</string>
+    <string name="x_cloud_identity_switch_guardian_children_empty">暂未关联孩子</string>
+    <string name="x_cloud_identity_switch_guardian_my_children">我的孩子</string>
+
+    <string name="x_cloud_identity_switch_delete_has_family">请退出或解散家庭</string>
+    <string name="x_cloud_identity_switch_delete_has_class">请退出或解散班级</string>
+    <string name="x_cloud_identity_switch_delete_success">删除成功</string>
+    <string name="x_cloud_identity_switch_delete_fail">删除失败</string>
+    <string name="x_cloud_identity_switch_auto_fail">切换失败，请手动切换身份</string>
+    <string name="x_cloud_identity_switch_error_json">亲子代理响应数据json格式错误</string>
+    <string name="x_cloud_identity_switch_error_child_null">设置亲子</string>
+    <string name="x_cloud_identity_switch_error_set_agent">关联失败，请点击刷新</string>
+    <string name="x_cloud_identity_switch_error">切换失败</string>
+    <string name="x_cloud_identity_switch_modify_tip_1">身份有误？我是%1$s</string>
+    <string name="x_cloud_identity_switch_modify_tip_1_identity1">学生</string>
+    <string name="x_cloud_identity_switch_modify_tip_1_identity2">其他身份</string>
+    <string name="x_cloud_identity_switch_modify_tip_2">前往修改</string>
+
+
+    <string name="x_cloud_imshared_dialog_receivers">发送给：</string>
+    <string name="x_cloud_imshared_dialog_remark">说点儿什么</string>
+
+    <string name="x_cloud_imshared_group_type_class">班级群</string>
+
+    <string name="x_cloud_modify_identity_tip1">修改身份将删除您当前拥有的身份，并清空相关数据，请谨慎操作。</string>
+    <string name="x_cloud_modify_identity_tip2">请确认您已进行如下操作</string>
+    <string name="x_cloud_modify_identity_quit_class">已退出全部班级</string>
+    <string name="x_cloud_modify_identity_quit_family">已退出我的家庭</string>
+    <string name="x_cloud_modify_identity_title">身份修改</string>
+    <string name="x_cloud_modify_identity_btn">修改身份</string>
+    <string name="x_cloud_choose_identity_title">身份确认</string>
+    <string name="x_cloud_choose_identity_tip">为了给您提供更优质的体验和服务，我们进行了全新的改造：系统不再支持【学生】和【老师/家长/教研员/电教人员/管理人员】使用同一个账号登录。</string>
+    <string name="x_cloud_choose_identity_my_identity">请选择您要保留的身份</string>
+    <string name="x_cloud_choose_identity_my_identity_message">&#160;&#160;&#160;&#160;&#160;&#160;&#160;确认身份后，将删除您其他身份的相关数据（如班级、家庭信息），其他身份如果有需要使用，请注册新账号，给您带来不便敬请谅解。</string>
+    <string name="x_cloud_choose_identity_teacher_confirm">确认</string>
+    <string name="x_cloud_choose_identity_teacher_patriarch">老师/家长/教研员/电教人员/管理人员</string>
+    <string name="x_cloud_choose_identity_operate_success">操作成功</string>
+    <string name="x_cloud_choose_identity_operate_fail">操作失败</string>
+    <string name="x_cloud_choose_identity_student">学生</string>
+    <string name="x_cloud_dialog_class_info_title">邀请您加入以下班级</string>
+    <string name="x_cloud_dialog_class_info_cancel">取消</string>
+    <string name="x_cloud_dialog_class_info_join">加入</string>
+    <string name="x_cloud_dialog_class_info_not_found">班级不存在</string>
+    <string name="x_cloud_group_type_0">普通群</string>
+    <string name="x_cloud_group_type_4">部门群</string>
+    <string name="x_cloud_group_type_5">兴趣群</string>
+    <string name="x_cloud_group_type_6">课程群</string>
+    <string name="x_cloud_group_type_8">师生群</string>
+    <string name="x_cloud_group_type_9">家校群</string>
+    <string name="x_cloud_group_type_10">名师工作室</string>
+    <string name="x_cloud_group_type_11">教研群</string>
+    <string name="x_cloud_group_type_12">专家工作室</string>
+
+    <string name="x_cloud_im_chat_menu_item_title_agent_filter">代理号筛选</string>
+    <string name="x_cloud_im_chat_agent_new_dialog_title_study">选择需要筛选的学习应用</string>
+    <string name="x_cloud_im_chat_agent_new_dialog_title_manage">选择需要筛选的管理应用</string>
+
+    <string name="x_cloud_im_chat_agent_new_message_title">欢迎使用国家中小学智慧教育平台！</string>
+    <string name="x_cloud_im_chat_agent_new_message_desc">查看平台介绍</string>
+
+    <string name="xc_assistant_info_tip">Hi~ 欢迎进入\n%1$s资料界面</string>
+    <string name="xc_assistant_info_title">%1$s资料</string>
+    <string name="xc_assistant_in_class">上课中</string>
+    <string name="xc_assistant_in_research">进行中</string>
+    <string name="x_cloud_login_dialog_content">登录/注册账号，同步学习记录</string>
+    <string name="x_cloud_login_dialog_positive_button_label">登录/注册</string>
+    <string name="x_cloud_login_dialog_neutral_button_label">暂不需要</string>
+
+    <string name="x_cloud_lecturer_subject_all">全部</string>
+    <string name="x_cloud_lecturer_course_path_1">%1$s%2$s · %3$s · %4$s</string>
+    <string name="x_cloud_lecturer_course_path_space">&#160;&#160;·&#160;&#160;</string>
+
+    <string name="x_cloud_group_tip"><![CDATA[已加入班级<font color="#1E62EC">%1$d</font>个丨家庭<font color="#1E62EC">%2$d</font>个]]></string>
+
+    <string name="xcloud_install_vlab_first">请先安装央馆虚拟实验app</string>
+    <string name="xcloud_no_allow">功能建设中，暂不支持该操作</string>
+    <string name="xcloud_main_study_search_tip">输入关键词搜索</string>
+
+    <string name="xcloud_famous_teacher_tag_master">主持人</string>
+    <string name="xcloud_famous_teacher_tag_manager">管理员</string>
+
+    <string name="xcloud_research_tag_master">主持人</string>
+    <string name="xcloud_research_tag_manager">管理员</string>
+
+    <string name="x_cloud_study_home_tips">温馨提示：控制上网时间，保护视力，锻炼身体！</string>
+
+    <string name="x_cloud_channel">频道</string>
+    <string name="x_cloud_channel_edit">编辑</string>
+    <string name="x_cloud_channel_edit_tip">长按拖拽可以排序</string>
+    <string name="x_cloud_special">专题</string>
+    <string name="x_cloud_channel_data_error">加载频道失败，请检查网络！</string>
+    <string name="x_cloud_perfect_auth_info">完善认证信息</string>
+    <string name="x_cloud_perfect_auth_info_current_school">当前学校：%1$s</string>
+    <string name="x_cloud_perfect_auth_info_tips">完善认证信息后有助于学校管理员更好管理，同时也方便认证教师培训学时</string>
+    <string name="x_cloud_perfect_auth_info_only_choose_school">仅选择学校</string>
+    <string name="x_cloud_perfect_auth_info_go_to_auth">前往认证</string>
+    <string name="x_cloud_select_school_direct_school">直属学校</string>
+    <string name="x_cloud_select_school_direct_institution">直属机构/学校</string>
+    <string name="x_cloud_select_school_all_school">全部</string>
+    <string name="x_cloud_analytics_guest">游客</string>
+    <string name="x_cloud_search_area_tips">%1$s</string>
+
+    <string name="x_cloud_join_class_dialog_forbidden_title">加入失败</string>
+    <string name="x_cloud_join_class_dialog_forbidden_content">当前身份不允许加入班级，仅允许教师、家长、学生身份加入班级。</string>
+    <string name="x_cloud_join_class_dialog_forbidden_button">返回</string>
+
+    <string name="x_cloud_tip_input_real_info">请确保填写的信息真实有效，以下信息的收集将严格遵守国家安全合规要求，请放心填写。</string>
+    <string name="x_cloud_user_name">姓名</string>
+    <string name="x_cloud_phone_number">手机号</string>
+    <string name="x_cloud_institution">所属机构/学校</string>
+    <string name="x_cloud_no_input">未填写</string>
+    <string name="x_cloud_please_input">请输入</string>
+    <string name="x_cloud_please_input_username">请输入姓名</string>
+    <string name="x_cloud_no_select">未选择</string>
+    <string name="x_cloud_please_select">请选择</string>
+    <string name="x_cloud_please_select_institution">请选择所属机构/学校</string>
+    <string name="x_cloud_modify">修改</string>
+    <string name="x_cloud_personal_info">个人信息</string>
+    <string name="x_cloud_complete_info_success">已成功完善个人信息</string>
+    <string name="x_cloud_error_username_contain_asterisk">姓名中不能带有*号</string>
+    <string name="x_cloud_helper_phone">4008980910</string>
+    <string name="x_cloud_load_fail_and_retry">加载失败，点击重试</string>
+    <string name="x_cloud_tip_select_school_privacy">我们会根据您的位置帮您更好更快地选到学校。\n我们会遵循安全合规要求，保证您的信息安全。请您放心填写。</string>
+    <string name="x_cloud_tip_select_school_privacy_student">我们会根据您填写的学校帮助您后续更方便的加入班级。\n我们会遵循安全合规要求，保证您的信息安全。请您放心填写。</string>
+    <string name="x_cloud_tip_select_school_privacy_teacher">我们收集您的信息，是为了帮助您能更方便地加入学校。\n我们会遵循安全合规要求，保证您的信息安全。请您放心填写。</string>
+
+    <string name="x_cloud_create_class_no_teacher">非教师身份，暂不允许创建班级。</string>
+    <string name="x_cloud_create_class_disabled">暂不允许创建班级。</string>
+
+    <string name="x_cloud_banned_to_post_forever">对不起，您已被平台永久禁言，暂时无法发送消息。</string>
+    <string name="x_cloud_banned_to_post_to_time">对不起，您已被平台禁言至%1$s，暂时无法发送消息。</string>
+    <string name="x_cloud_appeal">申诉＞</string>
+    <string name="x_cloud_class_edit_class_nick_name_tip">仅用于该班级，不会对外泄露，方便家长加入班级绑定关系</string>
+    <string name="x_cloud_must_input_sign">*&#160;</string>
+    <string name="x_cloud_select_platform_title">请选择平台</string>
+    <string name="x_cloud_select_platform">平台切换</string>
+
+    <string name="x_cloud_complete_userinfo_title">完善信息</string>
+    <string name="x_cloud_complete_userinfo_tip_1">尊敬的用户：</string>
+    <string name="x_cloud_complete_userinfo_tip_2">为了更好地提供周到、精准的服务，邀请你补充个人信息。以下信息的收集将严格遵守国家安全合规要求，请放心填写。</string>
+    <string name="x_cloud_complete_userinfo_edu_stage">教育阶段：</string>
+    <string name="x_cloud_complete_userinfo_edu_stage_hint">请选择教育阶段</string>
+    <string name="x_cloud_complete_userinfo_user_identity">用户身份：</string>
+    <string name="x_cloud_complete_userinfo_user_identity_hint">请选择用户身份</string>
+    <string name="x_cloud_complete_userinfo_nickname">昵称：</string>
+    <string name="x_cloud_complete_userinfo_nickname_hint">请输入昵称</string>
+    <string name="x_cloud_complete_userinfo_realname">真实姓名：</string>
+    <string name="x_cloud_complete_userinfo_realname_hint">请输入姓名</string>
+    <string name="x_cloud_complete_userinfo_cert_type">证件类型：</string>
+    <string name="x_cloud_complete_userinfo_cert_type_hint">请选择证件类型</string>
+    <string name="x_cloud_complete_userinfo_cert_number">证件号码：</string>
+    <string name="x_cloud_complete_userinfo_cert_number_hint">请输入证件号</string>
+    <string name="x_cloud_complete_userinfo_cert_number_illegal_tip">请输入正确的居民身份证</string>
+    <string name="x_cloud_complete_userinfo_school">学校：</string>
+    <string name="x_cloud_complete_userinfo_institution">机构：</string>
+    <string name="x_cloud_complete_userinfo_institution_hint">请选择机构</string>
+    <string name="x_cloud_complete_userinfo_area">所属区域：</string>
+    <string name="x_cloud_complete_userinfo_area_hint">请选择区域</string>
+    <string name="x_cloud_complete_userinfo_sensitive_nickname_tip">昵称中有敏感词，请重新输入</string>
+    <string name="x_cloud_complete_userinfo_sensitive_realname_tip">真实姓名中有敏感词，请重新输入</string>
+    <string name="x_cloud_complete_userinfo_user_get_config_identities_failed">获取身份列表失败</string>
+
+    <string name="x_cloud_edu_stage_basic">基础教育</string>
+    <string name="x_cloud_edu_stage_vocational">职业教育</string>
+    <string name="x_cloud_edu_stage_higher">高等教育</string>
+
+    <string name="x_cloud_cert_type_1">居民身份证</string>
+    <string name="x_cloud_cert_type_2">军官证</string>
+    <string name="x_cloud_cert_type_3">士兵证</string>
+    <string name="x_cloud_cert_type_4">文职干部证</string>
+    <string name="x_cloud_cert_type_5">部队离退休证</string>
+    <string name="x_cloud_cert_type_6">香港特区护照/身份证明</string>
+    <string name="x_cloud_cert_type_7">澳门特区护照/身份证明</string>
+    <string name="x_cloud_cert_type_8">台湾居民来往大陆通行证</string>
+    <string name="x_cloud_cert_type_9">境外永久居住证</string>
+    <string name="x_cloud_cert_type_A">护照</string>
+    <string name="x_cloud_cert_type_B">户口簿</string>
+    <string name="x_cloud_cert_type_C">港澳居民来往内地通行证</string>
+    <string name="x_cloud_cert_type_D">港澳台居民居住证</string>
+
+    <string name="x_cloud_identity_switch_modify_school_tip">请前往“个人信息”修改学校</string>
+    <string name="x_cloud_identity_switch_modify_institution_tip">请前往“个人信息”修改机构/学校</string>
+    <string name="x_cloud_conversation_up_chat">置顶聊天</string>
+    <string name="x_cloud_clear_history">清空历史记录</string>
+    <string name="x_cloud_find_history">查看历史记录</string>
+    <string name="x_cloud_no_disturb">消息免打扰</string>
+
+    <string name="x_cloud_101ppt_not_supported_identity">手机授课仅支持老师用户使用，请切换角色后重新扫码</string>
+    <string name="x_cloud_101ppt_not_integration">请使用智慧中小学APP扫码登录</string>
+    <string name="x_cloud_local_channel">地方频道</string>
+</resources>

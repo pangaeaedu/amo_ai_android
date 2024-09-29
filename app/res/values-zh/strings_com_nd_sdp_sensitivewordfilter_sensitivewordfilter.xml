@@ -1,0 +1,14 @@
+<resources>
+    <string name="censor_word">信息中包含敏感词，发送失败</string>
+    <string name="censor_word_omit">【此处省略...%s个字】</string>
+    <string name="censor_word_stage">【此处省略...一段话】</string>
+    <string name="censor_lib_download_fail">敏感词库更新失败</string>
+
+    <!--接入敏感词sdk-->
+    <string name="censor_toast">信息中包含敏感内容，请修改后再发送!</string>
+    <string name="censor_dialog_content">信息中包含敏感内容，可能触及相关法律!</string>
+    <string name="censor_dialog_tip">提示</string>
+    <string name="censor_dialog_continue">继续</string>
+    <string name="censor_dialog_cancel">取消</string>
+    <string name="censor_toast_words">信息中包含敏感内容【%s】,请修改后再发送!</string>
+</resources>

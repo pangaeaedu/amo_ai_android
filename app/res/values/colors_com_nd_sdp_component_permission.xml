@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="apf_permission_check_dialog_bg_color">#ffffff</color>
+    <color name="apf_permission_check_dialog_title_color">#000000</color>
+    <color name="apf_permission_check_dialog_content_title_color">#000000</color>
+    <color name="apf_permission_check_dialog_content_color">#666666</color>
+    <color name="apf_permission_check_dialog_tip_color">#999999</color>
+    <color name="apf_permission_check_dialog_disable_color">#FFEC3C3C</color>
+    <color name="apf_permission_check_dialog_cancel_text_color">#666666</color>
+    <color name="apf_permission_check_dialog_comfirm_text_color">#ffffff</color>
+    <color name="apf_permission_check_dialog_cancel_bg_color">#ffffff</color>
+    <color name="apf_permission_check_dialog_comfirm_bg_color">#38adff</color>
+    <color name="apf_permission_check_dialog_line_color">#999999</color>
+    <color name="apf_permission_check_dialog_listview_color">#00000000</color>
+	
+	<color name="skin_apfpermissioncomponent_black">#000000</color>
+    <color name ="skin_apfpermissioncomponent_grey_bg">#e9e9e9</color>
+    <color name="skin_apfpermissioncomponent_update_dialog_tip">#999999</color>
+    <color name="skin_apfpermissioncomponent_white">#FFFFFF</color>
+    <color name="skin_apfpermissioncomponent_gray">#BFBFBF</color>
+
+    <!-- 底部标题-正常 -->
+    <color name="skin_apfpermission_bottom_normal_color">#666666</color>
+    <!-- 底部标题-点击 -->
+    <color name="skin_apfpermission_bottom_pressed_color">#38adff</color>
+
+</resources>

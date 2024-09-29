@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--签到(持续签到奖励) 奖励对话框 领取按钮-->
+    <string name="starapp_life_sign_star_dialog_button_receive">领取</string>
+    <!--签到(持续签到奖励) 奖励对话框 关闭按钮-->
+    <string name="starapp_life_sign_star_dialog_button_ok">知道了</string>
+</resources>

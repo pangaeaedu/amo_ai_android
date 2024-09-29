@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--measure-data-->
+    <string name="hyee_network_error">Connection error. Please check your network.</string>
+    <string name="hyee_network_low">Poor network. Try again later.</string>
+    <string name="hyee_data_error">Parse error. Try again later.</string>
+    <string name="hyee_server_time_error">Failed to get server time.</string>
+    <string name="hyee_get_data_error">Failed to request data. Try again later.</string>
+</resources>

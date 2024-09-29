@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setting_label_new">New</string>
+    <string name="setting_select_language">Language</string>
+
+    <!-- 设置 -->
+    <string name="setting_version_resume">Version List</string>
+    <string name="setting_applicationSetting">Settings</string>
+    <string name="setting_helpupdate">Check Update</string>
+    <string name="setting_xy_setting">Setting</string>
+    <string name="setting_upLoad_Log">Upload Log</string>
+    <string name="setting_upLoading">Uploading...Please wait.</string>
+    <string name="setting_upLoad_fail">Failed to upload log</string>
+    <string name="setting_upLoad_sucess">Successfully</string>
+    <string name="setting_account_security">Account Security</string>
+
+    <string name="setting_my_homepage">Homepage</string>
+    <string name="setting_my_app">My settings</string>
+    <string name="setting_common_settings">General</string>
+    <string name="setting_about_software">About</string>
+    <string name="setting_menu_sys_exit">Sign Out</string>
+    <string name="setting_more">More</string>
+    <string name="setting_more_apply">More Apps</string>
+    <string name="setting_network_unavailable">Network disconnected, please check</string>
+    <string name="setting_to_download">Confirm</string>
+    <string name="setting_cancel">Cancel</string>
+    <string name="setting_sure">Confirm</string>
+    <string name="setting_download_content">New version: %s</string>
+    <string name="setting_download_content_without_name">Update</string>
+    <string name="setting_not_wifi_download_tip">You are not in WiFi network, continue?</string>
+    <string name="setting_upload_dialog_find_unfinish_log">Unfinished uploading log was found</string>
+    <string name="setting_upload_dialog_only_latest_log">Upload the latest logs only</string>
+    <string name="setting_upload_dialog_continue_upload_log">Continue</string>
+    <string name="setting_upload_dialog_find_cancel_upload_log">Cancel</string>
+    <string name="setting_tab_design">Tag Settings</string>
+    <string name="setting_change_password">Forgot password</string>
+    <string name="setting_cache_clearing">Clearing cache</string>
+    <string name="setting_clear_cache">Clear Cache</string>
+    <string name="setting_clear_cache_success">Done</string>
+    <string name="setting_language_auto">Follow the System</string>
+    <string name="setting_arabo_lrm">‎</string>
+    <string name="setting_goScore_str">To Score</string>
+    <string name="setting_termsOfUse_str">User Items and Privacy Policy</string>
+    <string name="setting_currentVersion_str">Current Version</string>
+
+    <string name="setting_about_str">About</string>
+    <string name="setting_version_name_format">Version：%s</string>
+    <string name="setting_version_name_format_in_root_page">Version%s</string>
+    <string name="setting_version_history_empty">No data</string>
+    <string name="setting_version_history_no_more_data">No more data…</string>
+    <string name="setting_inviting_friends">Invite Friends</string>
+    <string name="setting_feedback">Help and Feedback</string>
+    <string name="setting_shortcut">Shortcut</string>
+    <string name="setting_common_loading">Loading…</string>
+    <string name="setting_page_account_security">Account Security</string>
+    <string name="setting_page_app_management">App Management</string>
+    <string name="setting_share_to_friends">Share to your friend.</string>
+    <string name="setting_copy_url">Copy link</string>
+    <string name="setting_save_image">Save images</string>
+    <string name="setting_inviting_card_desc">Scan the QR Code to donwload this app</string>
+    <string name="setting_sharing_url_loading_failed">Failed to load the QR Code</string>
+    <string name="setting_save_failed">Failed to save</string>
+    <string name="setting_saved_to_gallery">Saved to gallery</string>
+    <string name="setting_copy_succeed">Copied</string>
+    <string name="setting_shortcut_loading_failed">Failed to load shortcut</string>
+    <string name="setting_title_add_to_desktop">Add to Desktop</string>
+    <string name="setting_add_shortcut_to_home_succeed">Added to the Desktop</string>
+    <string name="setting_shortcut_exists_on_home_screen">Shortcut already exits</string>
+    <string name="setting_create_shortcut_failed_on_home_screen">Failed to add, please check your phone setting.</string>
+    <string name="setting_shortcut_launching_text">Launching...</string>
+    <string name="setting_invalid_shortcut_url">Invalid shortcut url</string>
+    <string name="setting_empty_shortcut_url">Shortcut url is empty</string>
+    <string name="setting_page_loading_failed">Page not found.</string>
+    <string name="setting_bind_mobile">Binding mobile phone </string>
+    <string name="setting_advices_and_feedback">Advice and Feedback</string>
+    <string name="setting_font_size">Font Size</string>
+
+    <string name="setting_version_badge_new">new</string>
+    <!--设置项提示-->
+    <string name="setting_item_log_tip">Flashback? Please upload your log and help developer to solve this problem.</string>
+    <string name="setting_item_shortcut_tip">Add shortcut to Desktop and launch this app quickly.</string>
+    <string name="setting_log_uploading">Uploading...</string>
+    <!--跟随系统语言类型-->
+    <string name="setting_lang_description_default">Follow the System</string>
+    <string name="setting_lang_translate_default">Follow the System</string>
+    <!--普通语言类型-->
+    <string name="setting_lang_translate_zh_cn">Simplified Chinese</string>
+    <string name="setting_lang_translate_zh_hk">Traditional Chinese</string>
+    <string name="setting_lang_translate_en">English</string>
+    <string name="setting_lang_translate_ar">Arabic</string>
+    <string name="setting_lang_translate_th">Thai</string>
+    <string name="setting_lang_translate_id">Indonesian</string>
+
+    <string name="setting_has_new_msg">New messages</string>
+    <string name="setting_icon_content_description">Icon</string>
+    <string name="setting_cd_close_dialog">Close</string>
+    <string name="setting_privacy_settings">Privacy setting</string>
+    <string name="setting_system_permission">Permission</string>
+    <string name="setting_privacy_policy">Privacy Policy</string>
+
+    <string name="setting_title_autoplay_config">Automatic playback settings</string>
+    <string name="setting_title_autoplay_type_flow_or_wifi">Mobile data and wifi</string>
+    <string name="setting_title_autoplay_type_wifi">Wifi only</string>
+    <string name="setting_title_autoplay_type_close">Close</string>
+	
+	<string name="setting_download_manager">Download Manager</string>
+</resources>

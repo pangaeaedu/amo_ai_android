@@ -1,0 +1,84 @@
+<resources>
+    <string name="el_task_net_error_tips">网络连接错误，请重试</string>
+    <string name="el_task_data_error_tips">数据解析错误，请重试</string>
+
+    <string name="el_task_loading_wait">正在加载中，请稍候...</string>
+
+    <string name="el_task_no_more_data">没有更多数据啦</string>
+    <string name="el_task_more">更多</string>
+
+    <string name="el_task_wait_for_loading">正在努力加载...</string>
+    <string name="el_task_retry">重试</string>
+    <string name="el_task_no_task">暂无数据</string>
+
+    <string name="el_task_net_work_err">网络错误啦!</string>
+    <string name="el_task_net_work_err1">网络错误</string>
+    <string name="el_task_load_fail">加载失败啦！</string>
+
+    <string name="el_task_seems_to_be_in_strange_place">好像掉到奇怪的地方!</string>
+    <string name="el_task_network_error_2">好像卡住了！</string>
+
+    <string name="el_task_doing">进行中任务</string>
+    <string name="el_task_end">已完结任务</string>
+    <string name="el_task_detail">任务详情</string>
+    <string name="el_task_require">任务要求:</string>
+    <string name="el_task_content">任务名称:</string>
+
+    <string name="el_task_new">新任务</string>
+    <string name="el_task_timeout">已超期</string>
+    <string name="el_task_time_require">时间要求:</string>
+
+    <string name="el_task_time_description">任务说明</string>
+
+    <string name="el_task_learn_tasks">学习任务</string>
+
+    <string name="el_task_reward">任务奖励</string>
+    <string name="el_task_reward_condition">(任务超期后没有奖励，请按时完成任务)</string>
+
+    <string name="el_task_period_once">一次性</string>
+    <string name="el_task_period_daily">每天</string>
+    <string name="el_task_period_weekly">每周</string>
+    <string name="el_task_period_workday">每工作日</string>
+
+    <string name="el_task_unqualified">不合格</string>
+    <string name="el_task_abort">已终止</string>
+    <string name="el_task_completed">已完成</string>
+    <string name="el_task_wait_completed">待完成</string>
+    <string name="el_task_has_end">已终止</string>
+    <string name="el_task_wait_examine">待审核</string>
+    <string name="el_task_delay">延期中</string>
+    <string name="el_task_receive_rewards">领取奖励</string>
+    <string name="el_task_received_rewards">已领取</string>
+    <string name="el_task_to_work">去做任务</string>
+    <string name="el_task_view_task">查看任务</string>
+
+    <!-- 改版后新增字符资源（20180110）-->
+    <string name="el_task_my_task">我的任务</string>
+    <string name="el_task_tab_underway">进行中（%s）</string>
+    <string name="el_task_tab_completed">已完结（%s）</string>
+    <string name="el_task_require_sub_task">要求：完成%s个子任务</string>
+    <string name="el_task_detail_require_sub_task">任务要求：完成%s个子任务</string>
+    <string name="el_task_time_require_format">时间要求：%s</string>
+    <string name="el_task_time_end_time">截止时间：%s</string>
+    <string name="el_task_loading">加载中...</string>
+    <string name="el_task_detail_title">任务详情</string>
+    <string name="el_task_intro">任务说明</string>
+    <string name="el_task_detail_tab_underway">进行中</string>
+    <string name="el_task_detail_tab_completed">已结束</string>
+    <string name="el_task_end_time">截止时间:%s</string>
+    <string name="el_task_per_day">学习周期：每天学习</string>
+    <string name="el_task_per_week_day">学习周期：每天(工作日)学习</string>
+    <string name="el_task_per_week">学习周期：每周学习</string>
+    <string name="el_task_per_moth">学习周期：每月学习</string>
+    <string name="el_task_order_sub_tips">当前任务需按顺序学习，即下一个子任务需要在前一个任务完成后才自动解锁。</string>
+    <string name="el_task_ended_status_tip">当前任务已被终止，无法查看哦~</string>
+    <string name="el_task_sub_ended_tip">当前子任务已结束，无法进入学习哦~</string>
+    <string name="el_task_sub_locked_tip">当前子任务还未解锁，无法进入学习哦~</string>
+    <string name="el_task_progress_calculate_rule">进度计算规则</string>
+    <string name="el_task_has_finish_count">已完成%1$d/%2$d\n个子任务</string>
+    <string name="el_task_ask_content">任务要求内容：</string>
+    <string name="el_task_progress_way">任务进度的计算方式：</string>
+    <string name="el_task_progress_way_detail">1、每个子任务的占比等分，即假设共一个任务中5个子任务，那么每个子任务的占比就各为20%；\n2、若是周期性子任务，则每一个周期的占比为子任务占比下再进行周期数的等比分。</string>
+    <string name="el_task_example">举个例子：</string>
+    <string name="el_task_example_detail">假设一个任务里共有两个子任务，一个是完成课程A的学习（一次性任务），另一个是一日三题考试B（周期性任务，共4个周期），那么若用户课程A未学完，考试B已完成了一个周期，其任务完成进度=（0% + 25%）/ 2</string>
+</resources>

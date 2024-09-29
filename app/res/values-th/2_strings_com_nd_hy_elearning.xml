@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.video/video/1.1.2-rc7/res/values/values.xml -->
+
+
+    <string name="plt_str_ideo_cannot_choice">ไม่สามารถเลือก</string>
+
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/auc-auth/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="account_or_error_password_error">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="answer_card_loading_fail">โหลดบัตรคำตอบล้มเหลว</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.video.exercise/video-exercise/1.1.2-rc7/res/values/values.xml -->
+
+    <string name="best_accuracy">คะแนนถูกต้องที่สุด</string>
+
+    <string name="confirm_cancel">ยกเลิก</string>
+    <string name="confirm_exit">ออก</string>
+    <string name="confirm_submit">ส่งข้อฝึก</string>
+    <string name="confirm_submit_content_doned">คุณได้ทำคำถามทั้งหมดแล้ว คุณแน่ใจหรือว่าต้องการส่งคำตอบ</string>
+    <string name="confirm_submit_content_nodoned">คุณยังไม่ได้ทำคำตอบ ไม่สามารถส่งคำตอบได้</string>
+    <string name="confirm_submit_content_undoned">คุณยังมี &lt;font color ="#ff0000"&gt;%s&lt;/font&gt; คำถามที่ยังไม่ได้ทำ ยืนยันที่จะส่งคำตอบหรือไม่?</string>
+    <string name="confirm_submit_title">ส่งคำตอบ</string>
+    <string name="confirm_sure">ตกลง</string>
+    <string name="confirm_undone_exit_content">คุณแน่ใจหรือว่าต้องการออก? หลังจากออกแล้วระบบจะบันทึกบันทึกคำตอบโดยอัตโนมัติ และครั้งถัดไปคุณสามารถทำการตอบต่อได้</string>
+
+    <string name="dialog_download_always_allowed_mobile">เสมอให้ใช้งานดาวน์โหลดหรือเล่นผ่านเครือข่าย 2G/3G</string>
+    <string name="dialog_download_network_mobile">ไม่มี Wi-Fi ในเครือข่ายปัจจุบัน การใช้งานต่อจะใช้ข้อมูลเครือข่าย 2G/3G อย่างมาก;\nแนะนำให้คุณดาวน์โหลดหรือเล่นบน Wi-Fi เท่านั้น</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.component.download/download-core/1.2.2-rc1/res/values/values.xml -->
+
+    <string name="dl_exception_file_incomplete">ไฟล์ไม่สมบูรณ์</string>
+    <string name="dl_exception_file_size_error">การวิเคราะห์ขนาดไฟล์ล้มเหลว</string>
+    <string name="dl_exception_network_error">ข้อผิดพลาดในเครือข่าย</string>
+    <string name="dl_exception_network_state_error">ไม่สามารถดาวน์โหลดได้เนื่องจากไม่สนับสนุนเครือข่ายที่ไม่ใช่ WIFI โปรดตรวจสอบการตั้งค่าเครือข่าย</string>
+    <string name="dl_exception_repository_error">การเข้าถึงคลังทรัพยากรล้มเหลว</string>
+    <string name="dl_exception_resource_cannot_reach">การรับข้อมูลทรัพยากรล้มเหลว</string>
+    <string name="dl_exception_server_error">เซิร์ฟเวอร์เป้าหมายผิดปกติ</string>
+    <string name="dl_exception_storage_not_enough">พื้นที่จัดเก็บไม่เพียงพอ</string>
+
+    <string name="doc_loading_progress">กำลังโหลดเอกสาร %s%%</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.platform/course-study/0.1.6-sdp-rc20/res/values/values.xml -->
+
+    <string name="document_next">คุณดูเอกสารนี้แล้ว คลิกเพื่อเล่นเอกสารถัดไป</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="downloader_button_continue">ดำเนินการต่อ</string>
+
+    <string name="ele_area_loading_hint">ต้องใช้เวลาสักครู่ในการโหลดข้อมูลพื้นที่ครั้งแรก โปรดรอสักครู่</string>
+    <string name="ele_btn_know">ฉันเข้าใจแล้ว</string>
+    <string name="ele_btn_train_2_course_apply_cancel">ยกเลิก</string>
+    <string name="ele_career_planning">การวางแผนอาชีพ</string>
+    <string name="ele_career_planning_list">รายการตำแหน่งงาน</string>
+    <string name="ele_catalog_title">บทที่ %1$s\u0020%2$s</string>
+    <string name="ele_confirm_exit">ออก</string>
+    <string name="ele_confirm_sure">ตกลง</string>
+    <string name="ele_continue_learning">ดำเนินการเรียนรู้ต่อ</string>
+    <string name="ele_continue_to_study">ดำเนินการเรียน</string>
+    <string name="ele_course">คอร์สเรียน</string>
+    <string name="ele_course_apply_confirm">ตกลง(%1$d)</string>
+    <string name="ele_course_apply_hours_require">เลือกไปแล้ว  &lt;font color ="#38adff"&gt;%1$s&lt;/font&gt;  ชั่วโมง/คำขอ  &lt;font color ="#38adff"&gt;%2$s&lt;/font&gt;  ชั่วโมง</string>
+    <string name="ele_course_doc_count">เอกสาร %s</string>
+    <string name="ele_course_excise_count">%s การฝึกฝน</string>
+    <string name="ele_course_filter">คัดเลือก</string>
+    <string name="ele_course_filter_all">ทั้งหมด</string>
+    <string name="ele_course_info">รายละเอียดคอร์ส</string>
+    <string name="ele_course_intro_detail_tab">โปรดชี้แนะคอร์ส</string>
+    <string name="ele_course_intro_empty">ไม่มีข้อมูลนำเสนอคอร์สเรียน</string>
+    <string name="ele_course_intro_total_hour">ต้องการ %1$s เวลาการเรียน/%2$s ต้องการสอบ</string>
+    <string name="ele_course_list_empty">ไม่มีข้อมูลรายวิชา</string>
+    <string name="ele_course_num">คอร์ส %s</string>
+    <string name="ele_course_sign_up_this_course">ลงทะเบียนเรียนคอร์สนี้</string>
+    <string name="ele_course_study">การเรียนรู้หลักสูตร</string>
+    <string name="ele_course_total_hour">รวม %s ชั่วโมงการเรียน</string>
+    <string name="ele_course_item_period_total">รวม %1$.1f ชั่วโมงเรียน</string>
+    <string name="ele_course_item_period_progress">ได้เรียน %1$.1f / %2$.1f ชั่วโมง</string>
+    <string name="ele_course_video_count">วิดีโอ %s</string>
+    <string name="ele_current_planning">เป้าหมายอาชีพของฉัน%1$s</string>
+    <string name="ele_data_binding">การผูกข้อมูลกำลังดำเนินการ โปรดรอสักครู่...</string>
+    <string name="ele_data_error">ข้อมูลผิดพลาด</string>
+    <string name="ele_degree_of_education_doctor">ด็อกเตอร์</string>
+    <string name="ele_degree_of_education_junior_college">ปริญญาวิชาชีพ</string>
+    <string name="ele_degree_of_education_junior_middle_school">มัธยมต้น</string>
+    <string name="ele_degree_of_education_master">ปริญญาโท</string>
+    <string name="ele_degree_of_education_other">อื่นๆ</string>
+    <string name="ele_degree_of_education_polytechnic_school">มัธยม</string>
+    <string name="ele_degree_of_education_primary_school">ประถม</string>
+    <string name="ele_degree_of_education_secondary_technical_school">ช่างฝีมือ</string>
+    <string name="ele_degree_of_education_senior_high">ระดับชั้นมัธยม</string>
+    <string name="ele_degree_of_education_technical_school">โรงเรียนวิชาช่าง</string>
+    <string name="ele_degree_of_education_undergraduate">ปริญญาตรี</string>
+    <string name="ele_disabuse">คำถามของฉัน</string>
+    <string name="ele_download">การดาวน์โหลดของฉัน</string>
+    <string name="ele_empty_data">ไม่มีข้อมูล</string>
+    <string name="ele_exam">การสอบ</string>
+    <string name="ele_exam_cur_has_end">สอบครั้งนี้เสร็จแล้ว</string>
+    <string name="ele_exam_net_error_tips1">เกิดข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดลองใหม่ภายหลัง</string>
+    <string name="ele_exam_net_error_tips2"> ข้อผิดพลาดในการเชื่อมต่ออินเทอร์เน็ต โปรดตรวจสอบการตั้งค่าและส่งให้ด้วยตนเอง.</string>
+    <string name="ele_exam_online_exam_pass_line">ผ่านด้วย %s คะแนน</string>
+    <string name="ele_exam_paper_submit">ส่งข้อสอบ</string>
+    <string name="ele_exam_time_day01">%2d วัน</string>
+    <string name="ele_exam_time_day02">%2.1f วัน</string>
+    <string name="ele_exam_time_hour01">%2d ชั่วโมง</string>
+    <string name="ele_exam_time_hour02">%2.1f ชั่วโมง</string>
+    <string name="ele_exam_true">การเชื่อมต่อเครือข่ายผิดพลาด โปรดลองอีกครั้งหลังจากตรวจสอบ</string>
+    <string name="ele_exercise_prepare_info">ฝึกฝนนี้มีทั้งหมด %d ข้อ</string>
+    <string name="ele_gender_female">หญิง</string>
+    <string name="ele_gender_male">ชาย</string>
+    <string name="ele_guide_ok">ฉันรู้แล้ว</string>
+    <string name="ele_industry_edu_app_init_fail">การเชื่อมต่อเครือข่ายผิดปกติ โปรดเชื่อมต่ออินเทอร์เน็ตและกดรีเฟรชหน้าเพจ</string>
+    <string name="ele_job_course_count">%s ชั่วโมงเรียน</string>
+    <string name="ele_job_course_detail">ทั้งหมด%1$sวิชา/%2$sการสอบ/%3$sชั่วโมง</string>
+    <string name="ele_job_description">บริษัทของเรามีบุคคลเอกชนมากมาย</string>
+    <string name="ele_job_exam_count">%s การสอบ</string>
+    <string name="ele_job_intro_course_content">วิดีโอ %1$s ชิ้น / เอกสาร %2$s ชิ้น / แบบฝึกหัด %3$s ชิ้น</string>
+    <string name="ele_job_intro_course_total_hour">รวม%1$s ชั่วโมง</string>
+    <string name="ele_job_intro_detail">บริษัทชั้นนำ</string>
+    <string name="ele_job_intro_detail_tab">รายละเอียด</string>
+    <string name="ele_job_intro_empty">ไม่มีข้อมูลโพสต์งาน</string>
+    <string name="ele_job_intro_include_content">มี: วิดีโอ %1$s รายการ / เอกสาร %2$s รายการ / การฝึก %3$s รายการ</string>
+    <string name="ele_job_intro_include_learn">รวม %1$s รายวิชา/ %2$s การสอบ/ %3$s ชั่วโมงเรียน</string>
+    <string name="ele_job_intro_last_learn">เรียนครั้งล่าสุดที่ %1$s</string>
+    <string name="ele_job_intro_learn_condition">สถานการเรียน</string>
+    <string name="ele_job_intro_no_last_learn">ยังไม่ได้เรียน</string>
+    <string name="ele_job_intro_pass_way">ต้องเรียน%1$s ชั่วโมงที่เป็นวิชาบังคับ/ %2$s ชั่วโมงที่เป็นวิชาเลือก/ %3$s ต้องสอบ</string>
+    <string name="ele_job_intro_pass_way_tab">ทางที่ผ่าน</string>
+    <string name="ele_job_intro_user_count">มีผู้เรียน %1$s คน</string>
+    <string name="ele_job_learner">รวม%1$s...%2$s คนกำลังพยายามทำเป้าหมายนี้</string>
+    <string name="ele_job_list_empty">การวางแผนอาชีพว่างเปล่า</string>
+    <string name="ele_job_title">สถาปนากร</string>
+    <string name="ele_job_total_hour">%s ชั่วโมงการเรียน</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-data/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="ele_learning_type_job">การวางแผนอาชีพ</string>
+    <string name="ele_learning_type_other">คอร์สสาธารณะ</string>
+    <string name="ele_learning_type_recommend">แนะนำ</string>
+    <string name="ele_learning_type_synthetical">รวม</string>
+    <string name="ele_learning_type_train">การรับรองการฝึกอบรม</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+    <string name="ele_listview_loading">กำลังโหลด...</string>
+    <string name="ele_listview_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+    <string name="ele_load_empty">ไม่มีข้อมูล โปรดลองรีเฟรช</string>
+    <string name="ele_load_fail">โหลดล้มเหลว โปรดลอยลงเพื่อลองใหม่</string>
+    <string name="ele_load_page">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="ele_loaded_fail">ล้มเหลว แตะเพื่อลองใหม่</string>
+    <string name="ele_loading">กำลังโหลด</string>
+    <string name="ele_loading_wait">กำลังโหลด โปรดรอสักครู่...</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/auc-auth/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="ele_login_error_with_code">เข้าสู่ระบบล้มเหลว รหัสข้อผิดพลาด: %d</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="ele_login_use_alert">โปรดเข้าสู่ระบบก่อนใช้งาน</string>
+    <string name="ele_login_wait">กำลังเริ่มต้น โปรดรอสักครู่...</string>
+    <string name="ele_marital_status_divorce">หย่า</string>
+    <string name="ele_marital_status_married">แต่งงานแล้ว</string>
+    <string name="ele_marital_status_unmarried">โสด</string>
+    <string name="ele_mine">การเรียนของฉัน</string>
+
+    <string name="ele_my">ของฉัน</string>
+    <string name="ele_my_study_empty">การเรียนของฉันว่างเปล่า</string>
+    <string name="ele_net_common_info_interrupt">การอัพเดตล้มเหลว โปรดตรวจสอบเครือข่ายแล้วลองอีกครั้ง</string>
+    <string name="ele_net_download_slow_tip">กรุณาดาวน์โหลดในเครือข่ายที่เร็วขึ้น</string>
+    <string name="ele_net_err">เครือข่ายผิดปกติ กรุณาได้รับอีกครั้ง</string>
+    <string name="ele_net_error">ข้อผิดพลาดในการร้องขอเครือข่าย โปรดรีเฟรชลองอีกครั้ง</string>
+    <string name="ele_net_none_tip">ไม่มีเครือข่าย โปรดตรวจสอบการเชื่อมต่อเครือข่ายของคุณ</string>
+    <string name="ele_net_note_tip1">ข้อผิดพลาดในการเชื่อมต่ออินเทอร์เน็ต โปรดลองอีกครั้งหลังตรวจสอบ</string>
+    <string name="ele_net_request_fail">การรับข้อมูลล้มเหลว โปรดลองอีกครั้ง</string>
+    <string name="ele_net_video_slow_tip">โปรดเล่นวิดีโอออนไลน์ในเครือข่ายที่เร็วขึ้น</string>
+    <string name="ele_no_data">ไม่มีข้อมูล</string>
+    <string name="ele_no_data_desc">ผู้ที่ขี้เกียจยังไม่ได้เพิ่มเนื้อหาที่เกี่ยวข้อง</string>
+    <string name="ele_no_planning">เลือกเป้าหมายอาชีพ เริ่มการเดินทางใหม่</string>
+    <string name="ele_note">บันทึกของฉัน</string>
+    <string name="ele_page_init_loading">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="ele_political_status_democratic_party">พรรคประชาธิปไตย</string>
+    <string name="ele_political_status_league_member">สมาชิก</string>
+    <string name="ele_political_status_masses">มวลชน</string>
+    <string name="ele_political_status_other">อื่น ๆ</string>
+    <string name="ele_political_status_party_member">สมาชิกพรรค</string>
+    <string name="ele_public_course">คอร์สสาธิต</string>
+    <string name="ele_quality_recommend">แนะนำคุณภาพ</string>
+    <string name="ele_reset">รีเซ็ต</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-data/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="ele_resource_type_doc">เอกสาร</string>
+    <string name="ele_resource_type_exercise">ฝึก</string>
+    <string name="ele_resource_type_paper">กระดาษทดสอบ</string>
+    <string name="ele_resource_type_video">วิดีโอ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="ele_search">ค้นหา</string>
+    <string name="ele_search_condition_filter">คัดกรอง</string>
+    <string name="ele_search_condition_hot">ยอดนิยม</string>
+    <string name="ele_search_condition_new">ล่าสุด</string>
+    <string name="ele_some_test">หน้าทดสอบ</string>
+    <string name="ele_str_course_category">เนื้อหา</string>
+    <string name="ele_str_course_introduce">แนะนำ</string>
+    <string name="ele_str_dataerror_tips1">ข้อผิดพลาดในการวิเคราะห์ข้อมูล โปรดลองใหม่</string>
+    <string name="ele_str_exer_all_parse">คำอธิบายทั้งหมด</string>
+    <string name="ele_str_exer_checkanswer">ฉันจะเลือกตอบข้อนี้</string>
+    <string name="ele_str_exer_lookanswer">ฉันไม่รู้เรื่องข้อนี้ ดูคำตอบ</string>
+    <string name="ele_str_item_unit">ข้อ</string>
+    <string name="ele_str_job_continue_btn">ดำเนินการเรียนต่อ</string>
+    <string name="ele_str_job_course_tab_title">สารบัญหลักสูตร</string>
+    <string name="ele_str_job_exam_tab_title">สอบ</string>
+    <string name="ele_str_job_intro_tab_title">คำอธิบาย</string>
+    <string name="ele_str_job_position_intro">คำอธิบายตำแหน่งงาน</string>
+    <string name="ele_str_job_set_current_job">กำหนดเป็นเป้าหมายของตนเอง</string>
+    <string name="ele_str_job_set_dialog_tips">เป้าหมายอาชีพเดิมของคุณคือ %s ยืนยันการเปลี่ยน?</string>
+    <string name="ele_str_job_set_suc">ตั้งเป้าหมายอาชีพ: %s สำเร็จ!</string>
+    <string name="ele_str_job_start_btn">เริ่มเรียน</string>
+    <string name="ele_str_last_learn">เรียนครั้งล่าสุดที่ </string>
+    <string name="ele_str_my_job_is_null">เป้าหมายอาชีพของฉันยังไม่แน่นอน</string>
+    <string name="ele_str_my_job_tips">เป้าหมายอาชีพของฉัน%s</string>
+    <string name="ele_str_neterror_tips1">ข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดลองใหม่</string>
+    <string name="ele_str_page_unit">หน้า</string>
+    <string name="ele_str_pager_first_tips">นี่คือคำถามแรก</string>
+    <string name="ele_str_pager_last_tips">นี่คือคำถามสุดท้าย</string>
+    <string name="ele_str_post_study_progress_fail">การรายงานความคืบหน้าล้มเหลว</string>
+    <string name="ele_str_right">ถูกต้อง</string>
+    <string name="ele_str_set_job_btn">กำหนดเป้าหมายให้ตัวเอง</string>
+    <string name="ele_str_worng">ผิด</string>
+    <string name="ele_study_mine_answer">คำถามและคำตอบ</string>
+    <string name="ele_study_mine_download">ดาวน์โหลด</string>
+    <string name="ele_study_mine_empty">แผนการเรียนของคุณว่างเปล่า  เราได้เตรียมไว้สำหรับคุณ</string>
+    <string name="ele_study_mine_learn">การเรียน</string>
+    <string name="ele_study_mine_note">บันทึก</string>
+    <string name="ele_study_mine_person_signature">คนต้องเรียนรู้ตลอดเวลา ตายไปแล้ว คือ เวลาที่จบ —— โชว์ จู่ เหนียง</string>
+    <string name="ele_study_mine_resource_unit">%s รายการ</string>
+    <string name="ele_study_mine_total_hour">รวม %s ชั่วโมง</string>
+    <string name="ele_train_2_course_apply">เลือกหลักสูตร</string>
+    <string name="ele_train_2_course_apply_detail">เลือก%1$d คอร์ส ทั้งหมด%2$s ชั่วโมง</string>
+    <string name="ele_train_2_course_apply_explain">คำอธิบายการลงทะเบียน</string>
+    <string name="ele_train_2_course_apply_faild">ลงทะเบียนคอร์สล้มเหลว</string>
+    <string name="ele_train_2_course_apply_go">ไปที่การเลือกคอร์ส</string>
+    <string name="ele_train_2_course_apply_hint">การฝึกฝน "%1$s" คำสั่งต้องการเวลา %2$s\nโปรดเลือกคอร์สก่อนเริ่มเรียน</string>
+    <string name="ele_train_2_course_apply_select_all">เลือกทั้งหมด</string>
+    <string name="ele_train_2_course_apply_success">เลือกวิชาสำเร็จ</string>
+    <string name="ele_train_2_course_apply_tip">เรียกความสนใจ</string>
+    <string name="ele_train_2_course_apply_warn">หากยกเลิกการเรียนวิชาเลือก\n คอร์สที่เรียนเสร็จจะไม่ถูกคิดเข้าสู่ความคืบหน้าในการเรียนของคุณ</string>
+    <string name="ele_train_auth">การรับรองการฝึกอบรม</string>
+    <string name="ele_train_course_count">%s ชั่วโมง</string>
+    <string name="ele_train_enroll_hint_area_info_doing_update">การอัพเดตข้อมูลพื้นที่ โปรดรอสักครู่...</string>
+    <string name="ele_train_enroll_hint_area_info_doing_update_failed">การอัพเดตข้อมูลพื้นที่ล้มเหลว</string>
+    <string name="ele_train_enroll_hint_choice">โปรดเลือก</string>
+    <string name="ele_train_enroll_hint_choice_city">โปรดเลือกจังหวัดก่อน</string>
+    <string name="ele_train_enroll_hint_choice_enroll">โปรดลงทะเบียนเรียนหลักสูตรนี้ก่อน</string>
+    <string name="ele_train_enroll_hint_choice_prov">โปรดเลือกจังหวัดก่อน</string>
+    <string name="ele_train_enroll_hint_commit_fail_no_audit">ลงทะเบียนล้มเหลว</string>
+    <string name="ele_train_enroll_hint_commit_success">ข้อมูลการลงทะเบียนได้ถูกส่งไปแล้ว โปรดรอการตรวจสอบ</string>
+    <string name="ele_train_enroll_hint_commit_success_no_audit">ลงทะเบียนสำเร็จ</string>
+    <string name="ele_train_enroll_hint_commit_success_title">ส่งข้อมูลสำเร็จ</string>
+    <string name="ele_train_enroll_hint_commit_waitting_title">กำลังส่งข้อมูลการลงทะเบียน...</string>
+    <string name="ele_train_enroll_hint_dept_data_is_null">ไม่พบข้อมูลแผนกที่สามารถเลือกได้!</string>
+    <string name="ele_train_enroll_hint_input">โปรดป้อน</string>
+    <string name="ele_train_enroll_hint_optional">เลือกกรอก</string>
+    <string name="ele_train_enroll_hint_require">ต้องระบุ</string>
+    <string name="ele_train_enroll_hint_require_unfilled">คุณยังมีรายการที่ต้องกรอกที่ไม่ได้กรอก, ไม่สามารถส่ง</string>
+    <string name="ele_train_enroll_input_area">ที่ตั้ง</string>
+    <string name="ele_train_enroll_input_dept">หน่วย</string>
+    <string name="ele_train_enroll_input_error_mobile">รูปแบบหมายเลขโทรศัพท์ที่คุณป้อนไม่ถูกต้อง</string>
+    <string name="ele_train_enroll_input_error_qq">รูปแบบ QQ ที่คุณป้อนไม่ถูกต้อง</string>
+    <string name="ele_train_enroll_input_error_tel">รูปแบบหมายเลขโทรศัพท์ที่คุณป้อนไม่ถูกต้อง (เช่น: 059123658985)</string>
+    <string name="ele_train_enroll_input_field_get_error">การอัพเดตแบบฟอร์มการลงทะเบียนล้มเหลว โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="ele_train_enroll_input_get_user_info_error">ไม่สามารถรับข้อมูลการลงทะเบียนของผู้ใช้ได้!</string>
+    <string name="ele_train_enroll_no_data">ไม่มีรายการที่สามารถกรอก</string>
+    <string name="ele_train_enroll_submit">ส่ง</string>
+    <string name="ele_train_enroll_submit_success">ส่งข้อมูลสำเร็จ</string>
+    <string name="ele_train_enroll_title">ข้อมูลการลงทะเบียน</string>
+    <string name="ele_train_enroll_title_modify">ล้มเหลวในการเริ่มทำข้อสอบ! คุณต้องการลองอีกครั้งหรือไม่?\n</string>
+    <string name="ele_train_exam_count">%s ชั่วโมง</string>
+    <string name="ele_train_intro_choose_first">โปรดเลือกคอร์สก่อน</string>
+    <string name="ele_train_intro_choose_manager">การจัดการเลือกหลักสูตร</string>
+    <string name="ele_train_intro_empty">ไม่มีข้อมูลการแนะนำการฝึกอบรม</string>
+    <string name="ele_train_intro_optional_course_require">จำเป็นต้องเรียน %s ชั่วโมงในรายวิชาเลือก</string>
+    <string name="ele_train_list_empty">การฝึกอบรมว่างเปล่า</string>
+    <string name="ele_train_resource">%1$s หลักสูตร/%2$s การสอบ/%3$s ชั่วโมงการเรียนทั้งหมด</string>
+    <string name="ele_train_sign_up_check_pending">ข้อมูลการลงทะเบียนรอการตรวจสอบ</string>
+    <string name="ele_train_sign_up_choosing_course">เลือกคอร์ส</string>
+    <string name="ele_train_sign_up_deny">การตรวจสอบการสมัครถูกปฏิเสธ โปรดลงทะเบียนอีกครั้ง</string>
+    <string name="ele_train_sign_up_learning">ดำเนินการเรียน</string>
+    <string name="ele_train_sign_up_pass">การตรวจสอบการลงทะเบียนผ่าน จะเริ่มเรียน</string>
+    <string name="ele_train_sign_up_this_train">ลงทะเบียนเรียนหลักสูตรนี้</string>
+    <string name="ele_train_sign_up_train">ลงทะเบียนการฝึกอบรม</string>
+    <string name="ele_train_total_hour">%s ชั่วโมงการเรียน</string>
+    <string name="ele_train_user_count">%s คนกำลังเรียน</string>
+    <string name="ele_upload_video_error">แจ้งปัญหา</string>
+    <string name="ele_upload_video_error_fail">การส่งคำตอบล้มเหลว โปรดลองอีกครั้ง</string>
+    <string name="ele_upload_video_error_success">ได้รับคำตอบแล้ว</string>
+
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.video/error-log/1.1.2-rc7/res/values/values.xml -->
+
+    <string name="error_desc_adderss_not_exit">ที่อยู่ไม่มีอยู่จริง</string>
+    <string name="error_desc_connect_fail">การเชื่อมต่อกับเซิร์ฟเวอร์ล้มเหลว</string>
+    <string name="error_desc_file_no_found">ไม่มีไฟล์</string>
+    <string name="error_desc_other">อื่นๆ</string>
+    <string name="error_desc_play_fial">เล่นล้มเหลว</string>
+
+    <string name="exam_best_score">คะแนนที่ดีที่สุด</string>
+    <string name="exam_best_score_not_connected">กรุณาเชื่อมต่อเครือข่าย</string>
+    <string name="exam_count_down">เวลาที่เหลือจนถึงการสอบ：&lt;font color="#e23e2b"&gt;%s &lt;/font&gt;</string>
+    <string name="exam_current_score">คะแนนครั้งนี้</string>
+    <string name="exam_detail_title">รายละเอียดของการสอบ</string>
+    <string name="exam_enter_exam">เข้าสอบ</string>
+    <string name="exam_failed">น่าเสียดาย ไม่ผ่านการสอบครั้งนี้</string>
+    <string name="exam_go_on_examing">การสอบเริ่มแล้ว ไปทำการสอบต่อ</string>
+    <string name="exam_has_begin">การสอบเริ่มต้นแล้ว</string>
+    <string name="exam_has_begin_enter_exam">การสอบเริ่มแล้ว ไปทำการสอบ</string>
+    <string name="exam_has_end">การสอบเสร็จสิ้นแล้ว</string>
+    <string name="exam_head_count_run_out">จำนวนผู้สอบเต็มแล้ว</string>
+    <string name="exam_has_no_times">จำนวนครั้งสอบที่เหลือ 0 ครั้ง</string>
+    <string name="exam_hour_no_enough">ขาดเวลาการเรียน</string>
+    <string name="exam_info_hours_item_deail">&lt;font color="#39a5ec"&gt;%1$s&lt;/font&gt;  %2$s</string>
+    <string name="exam_info_hours_require_detail">(%1$s/%2$s ชั่วโมงการเรียน)</string>
+    <string name="exam_info_hours_require_type_course">การเรียนตามที่กำหนดให้เสร็จสิ้น</string>
+    <string name="exam_info_hours_require_type_optional">เสร็จครบรายการเรียนที่เลือกต้องการชั่วโมง</string>
+    <string name="exam_info_hours_require_type_required">ทำครบชั่วโมงการเรียนที่จำเป็น</string>
+    <string name="exam_last_score">คะแนนครั้งล่าสุด: &lt;font color="#e23e2b"&gt;%1$s &lt;/font&gt; คะแนน</string>
+    <string name="exam_load_fail">การโหลดรายละเอียดข้อสอบล้มเหลว\nคลิกเพื่อลองใหม่</string>
+    <string name="exam_no_info_1">ไม่มีการจัดตารางสอบ\n</string>
+    <string name="exam_no_info_2">การสอบเร็ว ๆ นี้จะเปิด โปรดรอการแจ้ง</string>
+    <string name="exam_not_score">ยังไม่มีคะแนน</string>
+    <string name="exam_not_start">ยังไม่ถึงเวลาสอบ</string>
+    <string name="exam_online_exam_intro_1">โปรดตรวจสอบสภาพแวดล้อมเครือข่ายให้ดี แนะนำให้ปิดแอพพลิเคชั่นอื่น ๆ ที่สามารถทำให้มีการรบกวน ไม่ควรออกจากการสอบในระหว่างทาง</string>
+    <string name="exam_online_exam_intro_2">เริ่มทำข้อสอบแล้วไม่สามารถหยุดชะงัก หลังจากเวลาสิ้นสุด ระบบจะส่งข้อสอบโดยอัตโนมัติ โปรดทำการวางแผนเวลาของท่าน</string>
+    <string name="exam_online_exam_intro_3">การทำคำถามเสร็จสิ้น คลิก \'ส่งข้อสอบ\' เพื่อสำเร็จการสอบปัจจุบัน</string>
+    <string name="exam_online_exam_last">คะแนนล่าสุด:%1$s คะแนน</string>
+    <string name="exam_online_exam_last_and_left">คะแนนครั้งที่แล้ว: %1$s คะแนน โอกาสสอบคงเหลือ: %2$s ครั้ง</string>
+    <string name="exam_online_exam_no_score_and_left">ครั้งที่สามารถสอบเพิ่มเติม: %1$s ครั้ง</string>
+    <string name="exam_online_exam_pass_line">%1$s</string>
+    <string name="exam_online_exam_subjective">คะแนนครั้งที่แล้ว: รอการตรวจ โอกาสสอบที่เหลือ: %1$s ครั้ง</string>
+    <string name="exam_online_exam_time_hour">%1$s ชั่วโมง</string>
+    <string name="exam_online_exam_time_minute">%1$s นาที</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="exam_paper_summary">คำชี้แจงการสอบ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="exam_pass">ยินดีด้วย คุณสอบผ่านครั้งนี้</string>
+    <string name="exam_remain">จำนวนครั้งสอบที่เหลือ: &lt;font color="#e23e2b"&gt;%1$d&lt;/font&gt; ครั้ง</string>
+    <string name="exam_remain_score">จำนวนครั้งการสอบที่เหลือ：&lt;font color="#e23e2b"&gt;%1$d&lt;/font&gt;ครั้ง    คะแนนครั้งล่าสุด：&lt;font
+        color="#e23e2b"&gt;%2$s&lt;/font&gt;คะแนน
+    </string>
+    <string name="exam_result">คะแนน</string>
+    <string name="exam_retry">ทำการสอบใหม่</string>
+    <string name="exam_score">คะแนน</string>
+    <string name="exam_score_str">คะแนน</string>
+    <string name="exam_score_threshold">เส้นผ่าน: %1$s คะแนน</string>
+    <string name="exam_subjective_info">คะแนนข้อสอบวัตถุ</string>
+    <string name="exam_time_count_down">เหลือเวลาจนถึงสิ้นสุดการสอบ</string>
+    <string name="exam_time_has_pass">สอบเสร็จแล้ว</string>
+    <string name="exam_time_no_reach">ยังไม่ถึงเวลาสอบ</string>
+    <string name="exam_time_no_reach_hour_no_enough">ยังไม่ถึงเวลาสอบ ต้องการเวลาการเรียนไม่เพียงพอ</string>
+    <string name="exam_time_str_hour">ชั่วโมง</string>
+    <string name="exam_time_str_minute">นาที</string>
+    <string name="exam_times_remained">จำนวนครั้งที่สอบที่เหลือ %1$d ครั้ง</string>
+    <string name="exam_wait_4_mark">รอการตรวจข้อสอบคำถามอาจสำหรับ</string>
+    <string name="exam_wait_4_mark_1">รอการตรวจ</string>
+    <string name="exam_wait_4_mark_2">คะแนนข้อสอบที่เป็นกันเอง</string>
+    <string name="exam_wait_for_server_time">กำลังรับเวลาสอบ โปรดรอหรือลองใหม่</string>
+    <string name="exam_waiting_4_mark">โปรดรอการตรวจคำตอบของคำถามสมมติ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="exercise_card_button">ส่งคำตอบ</string>
+    <string name="exercise_card_close">ปิด</string>
+    <string name="exercise_card_title">บัตรคำ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="exercise_check_answer_answer_right">คำตอบที่ถูกต้อง：</string>
+    <string name="exercise_check_answer_answer_empty">     คุณไม่ได้ทำคำตอบ</string>
+    <string name="exercise_check_answer_answer_right_yes">     คุณตอบถูก</string>
+<string name="exercise_check_answer_answer_wrong">     คำตอบของคุณคือ:</string>
+<string name="exercise_check_answer_hint_right">คุณทำข้อนี้แล้ว กรุณาตรวจสอบคำตอบของคุณ</string>
+<string name="exercise_check_answer_hint_undo">คุณยังไม่ได้ตอบคำถามนี้</string>
+<string name="exercise_check_answer_hint_wrong">คุณยังไม่เข้าใจข้อนี้ ดูคำตอบ</string>
+<string name="exercise_commit">ส่งการฝึก</string>
+<string name="exercise_failed">ไม่สามารถรับข้อฝึกหัดได้ โปรดลองอีกครั้งในภายหลัง</string>
+<string name="exercise_footer_card">บัตรคำ</string>
+<string name="exercise_footer_explain">คำอธิบาย</string>
+<string name="exercise_footer_submit">ส่งการฝึกหัด</string>
+<string name="exercise_header_ask">ถาม</string>
+<string name="exercise_header_note">บันทึก</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+<string name="exercise_init_invalid">การเริ่มต้นการฝึกทั่วไปไม่ถูกต้อง</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+<string name="exercise_load_fail">รับชุดข้อสอบล้มเหลว!</string>
+<string name="exercise_no_error_question">ไม่มีข้อผิดพลาด</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+<string name="exercise_paper_summary">คำอธิบายการฝึก</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+<string name="exercise_prepare_info">แบบฝึกหัดนี้มีทั้งหมด %d ข้อ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="exercise_submit_fail">การร้องขอล้มเหลว ข้อมูลของคุณถูกบันทึกไว้ในเครื่อง โปรดซิงค์หลังเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="fetch_paper_fail">ไม่สามารถรับกระดาษทดสอบ โปรดลองอีกครั้ง!</string>
+    <string name="fetch_question_fail">ล้มเหลวในการรับคำถาม โปรดลองอีกครั้ง!</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.video/video/1.1.2-rc7/res/values/values.xml -->
+
+    <string name="gesture_change_video_position">เลื่อนซ้าย-ขวาเพื่อปรับความเร็วการเล่น</string>
+
+    <string name="id_star_solution_error">ประเภทของบัญชี IdStar ไม่ถูกต้อง ข้อความผิดพลาดที่แท้จริงจะถูกกำหนดโดย IdStar</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.android.sdp.im.common/library/0.4.7/res/values/values.xml -->
+
+
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="input_length_hint1">&lt;font color="#1E98FB"&gt;%1$d&lt;/font&gt;&lt;font color="#333333"&gt; / %2$d&lt;/font&gt;</string>
+    <string name="input_length_hint2">&lt;font color="#cd0000"&gt;%1$d&lt;/font&gt;&lt;font color="#333333"&gt; / %2$d&lt;/font&gt;</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/auc-auth/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="invalid_verify_code">รหัสยืนยันไม่ถูกต้อง</string>
+
+    <string name="my_exam_info">การสอบของฉัน</string>
+    <string name="my_exam_info_failed">ไม่ผ่าน</string>
+    <string name="my_exam_info_list_empty">ไม่มีข้อมูลการสอบ</string>
+    <string name="my_exam_info_list_failed">โหลดรายการสอบล้มเหลว\n</string>
+    <string name="my_exam_info_waiting">รอการตรวจ</string>
+
+    <string name="no_connection">เกิดข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดตรวจสอบและลองอีกครั้ง</string>
+
+    <string name="offline_exam_info">การสอบนอกเครื่อง</string>
+    <string name="offline_exam_info_failed">การโหลดข้อมูลการสอบนอกเส้นทางล้มเหลว\n</string>
+    <string name="online_exam_info">สอบออนไลน์</string>
+    <string name="online_exam_info_failed">โหลดข้อมูลการสอบออนไลน์ล้มเหลว\n</string>
+
+    <string name="paper_close">ปิด</string>
+    <string name="paper_grade_result_btn_go_on">ดำเนินการท้ายครั้งก่อน</string>
+    <string name="paper_grade_result_btn_reading_answer">ดูการแยกวิเคราะห์</string>
+    <string name="paper_grade_result_btn_redo">ตอบใหม่</string>
+    <string name="paper_grade_result_btn_redowrong">ทำข้อผิด</string>
+    <string name="paper_grade_result_btn_restart">ฝึกซ้อมใหม่</string>
+    <string name="paper_grade_result_btn_start">เริ่มทำแบบฝึกหัด</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="paper_summary">คำอธิบายข้อสอบ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="paper_this_score">คะแนนครั้งนี้</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/auc-auth/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="password_encrypt_error">ขั้นตอนการเข้ารหัสรหัสผ่านไม่สอดคล้องกับเซิร์ฟเวอร์</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.reader.sdk/sdk-pdf/1.1.0-sdp7/res/values/values.xml -->
+
+    <string name="pdf_cannot_open_buffer">ไม่สามารถเปิดบัฟเฟอร์</string>
+    <string name="pdf_cannot_open_file">ไม่สามารถเปิดไฟล์: %1$s</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="pick_from_album">เลือกรูปภาพจากอัลบั้มภาพของโทรศัพท์</string>
+    <string name="pick_from_camera">ถ่ายรูป</string>
+
+    <string name="please_use_web">โปรดเข้าสู่ระบบทางคอมพิวเตอร์เพื่อทำการสอบ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.platform/course-study/0.1.6-sdp-rc20/res/values/values.xml -->
+
+    <string name="plt_course_study">การเรียน</string>
+
+    <string name="question_addanswer_hint">เพิ่มคำตอบ</string>
+    <string name="question_analyze_hint">การแยกวิเคราะห์：</string>
+    <string name="question_editanswer_hint">แก้ไขคำตอบ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="question_load_fail">ไม่สามารถรับคำถามได้!</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="question_myanswer_hint">คำตอบของฉัน：</string>
+    <string name="question_right_result">คำตอบที่ถูกต้อง</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/elearning-library/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="quiz_explanation">การวิเคราะห์：</string>
+    <string name="quiz_footer_card">แผ่นคำตอบ</string>
+    <string name="quiz_footer_remark">คำอธิบาย</string>
+    <string name="quiz_stat_noalldone">ทำเสร็จแล้ว%1$dคำถาม ยังมี%2$dคำถาม ยืนยันที่จะส่งคำตอบหรือไม่?</string>
+    <string name="quiz_stat_result_accuracy">ความถูกต้อง</string>
+    <string name="quiz_stat_result_error">จำนวนคำตอบผิด</string>
+    <string name="quiz_stat_result_right">จำนวนข้อที่ตอบถูก</string>
+    <string name="quiz_stat_result_undo">จำนวนคำถามที่ยังไม่ได้ตอบ</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.reader/reader-frame/1.1.1-rc2/res/values/values.xml -->
+    <string name="reader_page_loading">กำลังโหลด...</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.reader/reader-image/1.1.1-rc2/res/values/values.xml -->
+    <string name="reader_page_reload">โหลดล้มเหลว แตะเพื่อโหลดใหม่</string>
+    <string name="request_fail_retry">คำขอล้มเหลว กรุณาลองอีกครั้ง!</string>
+    <string name="review_last_exercise">ตรวจสอบการฝึกท้ายครั้งก่อน</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+    <string name="score_check_all">วิเคราะห์ทั้งหมด</string>
+    <string name="score_check_wrong">การวิเคราะห์คำถามที่ตอบผิด</string>
+    <string name="score_close">ปิด</string>
+    <string name="score_redo">ฝึกฝนใหม่</string>
+    <string name="score_result_right_count">ถูกต้อง</string>
+    <string name="score_result_undo_count">ยังไม่ได้ตอบ</string>
+    <string name="score_result_wrong_count">ข้อผิดพลาด</string>
+    <string name="score_title">คะแนนปัจจุบัน</string>
+    <string name="score_total_count">รวม%d ข้อ</string>
+
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.exercise/module_exercise/3.5.3-rc6-sdp-04/res/values/values.xml -->
+
+    <string name="str_exam_timeup">เวลาสอบถึงแล้ว</string>
+    <string name="str_exam_timeup_content">หมดเวลาสอบ ระบบจะส่งข้อสอบโดยอัตโนมัติ</string>
+    <string name="subject_input_cancel">ยกเลิก</string>
+    <string name="subject_input_content_hint">พิมพ์คำตอบของคุณที่นี่...</string>
+    <string name="subject_input_retract">ยุบ</string>
+    <string name="subject_input_spread">ขยาย</string>
+    <string name="subject_input_submit">ส่ง</string>
+
+    <string name="train_no_study">คุณยังไม่ได้เลือกการฝึกอบรม โปรดเริ่มเรียนการฝึกอบรมหลังเลือก</string>
+    <string name="train_no_study_website">คุณยังไม่ได้เลือกการฝึกอบรม โปรดเลือกก่อนเริ่มเรียน\nหากคุณยังไม่ได้ลงทะเบียน โปรดเข้าสู่ระบบ</string>
+    <string name="train_sign_up">ลงทะเบียน</string>
+    <string name="trains_list_refresh">แตะหน้าจอเพื่อโหลดใหม่</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/auc-auth/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.platform/course-study/0.1.6-sdp-rc20/res/values/values.xml -->
+
+    <string name="unknown_resource_player">วิธีเปิดทรัพยากรผิดพลาด</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/auc-auth/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="unvalid_password_solution">แบบแผนบัญชีที่ไม่ใช่รหัสผ่าน</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.video/video/1.1.2-rc7/res/values/values.xml -->
+
+    <string name="upload_video_error">แจ้งปัญหา</string>
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.elearning/auc-auth/1.0.1-rc5-20-d2/res/values/values.xml -->
+
+    <string name="user_disable">บัญชีนี้ถูกห้ามเข้าสู่ระบบ โปรดติดต่อฝ่ายบริการลูกค้า</string>
+    <string name="user_frozen">บัญชีนี้ถูกแช่แข็งการเข้าสู่ระบบ กรุณาติดต่อฝ่ายบริการลูกค้า</string>
+
+    <string name="video_next">เล่นต่อไป</string>
+    <string name="video_next_replay">เล่นซ้ำ</string>
+    <string name="video_next_title">วิดีโอปัจจุบันจบแล้ว</string>
+    <string name="video_back">ย้อนกลับ</string>
+
+    <!-- From: file:/J:/hy/git_repo/branch/elearning-plus-i18n/app/build/intermediates/exploded-aar/com.nd.hy.android.platform/course-study/0.1.6-sdp-rc20/res/values/values.xml -->
+    <string name="plt_course_study_alert">คำแนะนำ</string>
+    <string name="plt_course_study_no_wifi_warn">ไม่มีการเชื่อมต่อ Wi-Fi ในขณะนี้ การใช้งานต่อไปจะใช้ปริมาณข้อมูล 2G/3G อย่างมาก;\nแนะนำให้ดาวน์โหลดหรือเล่นผ่านเครือข่าย Wi-Fi</string>
+    <string name="plt_course_study_allow_mobile_network">เปิดให้ใช้งานเสมอในการดาวน์โหลดหรือเล่นผ่านเครือข่ายเคลื่อนที่</string>
+    <string name="plt_course_study_cancel">ยกเลิก</string>
+    <string name="plt_course_study_continue">ดำเนินการต่อ</string>
+
+
+    <!-- 2015-11-25 add-->
+    <string name="wait_for_loading">@string/ele_loading_wait</string>
+    <string name="ele_exam_title_remain_time">เวลาที่เหลือ</string>
+    <string name="ele_grid_item_options">ตัวเลือก</string>
+    <string name="ele_train_course_last_learn">@string/ele_str_last_learn</string>
+
+    <!-- 2015-11-27 add-->
+    <string name="ele_job_current_job_different">โปรดตั้งค่าตำแหน่งนี้เป็นเป้าหมายอาชีพของคุณก่อน</string>
+    <string name="ele_train_offline">การอบรมถูกเอาออกไปแล้ว</string>
+    <string name="ele_train_course_hour_status">ได้เรียน %1$s/%2$s ชั่วโมง</string>
+    <string name="ele_train_2_course_apply_save_hint">คุณแน่ใจหรือว่าต้องการบันทึกการเรียน?</string>
+
+    <!--2015-12-2-->
+    <string name="ele_public_course_unenroll_hint">โปรดเข้าร่วมคอร์สสาธารณะก่อน</string>
+    <string name="ele_public_course_enroll_success">เข้าร่วมสำเร็จ</string>
+
+    <!--2015-12-3-->
+    <string name="ele_download_manager">การจัดการการดาวน์โหลด</string>
+    <string name="ele_download_delete">ลบ (%1$d)</string>
+    <string name="ele_edit">แก้ไข</string>
+    <string name="ele_delet">ลบ</string>
+    <string name="dl_task_list_empty">ไม่มีข้อมูล</string>
+    <string name="ele_size_unknown">ขนาดที่ไม่ทราบ</string>
+    <string name="ele_download_status_waiting">รอ</string>
+    <string name="ele_download_status_preparing">กำลังเตรียม</string>
+    <string name="ele_download_status_downloading">กำลังดาวน์โหลด</string>
+    <string name="ele_download_status_pause">หยุดชั่วคราว</string>
+    <string name="ele_download_status_network_change">หยุด</string>
+    <string name="ele_download_status_pause_for_network">พักชั่วคราว</string>
+    <string name="ele_download_status_error">ล้มเหลว</string>
+    <string name="ele_download_status_completed">เสร็จสิ้น</string>
+    <string name="ele_download_status_undefined">ไม่ทราบ</string>
+
+    <!--2015-12-4-->
+    <string name="plt_course_study_error_network">การเชื่อมต่อเครือข่ายผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="plt_course_study_error_conversion">การวิเคราะห์ข้อมูลผิดพลาด โปรดลองอีกครั้ง</string>
+
+    <string name="ele_study_qa">คำถาม</string>
+    <string name="ele_study_qa_mine">คำถามที่ฉันตอบ</string>
+    <string name="ele_study_qa_all">คำถามทั้งหมด</string>
+    <string name="ele_study_qa_faq">คำถามที่พบบ่อย</string>
+
+    <string name="dl_action_delete">ลบ</string>
+    <string name="dl_actionbar_title">การจัดการการดาวน์โหลด</string>
+    <string name="dl_confirm_delete_task">ยืนยันการลบงานที่เลือก</string>
+    <string name="dl_delete_task_empty">โปรดเลือกงานดาวน์โหลดที่ต้องการลบ</string>
+    <string name="dl_dialog_cancel">ยกเลิก</string>
+    <string name="dl_dialog_confirm">ยืนยัน</string>
+    <string name="dl_download_bottom_hit">พื้นที่ว่างที่ใช้ได้ %1$s</string>
+
+    <!--2015-12-9-->
+    <string name="ele_init_fail">กรุณาคลิกเพื่อเริ่มต้นใหม่</string>
+    <string name="ele_auc_login_fail">กรุณาคลิกเพื่อเข้าสู่ระบบอีกครั้ง</string>
+    <string name="ele_auc_login_waiting">กำลังเข้าสู่ระบบ...</string>
+    
+    
+    
+    <!--2015-12-14-->
+    <string name="ele_share">แชร์</string>
+    <string name="ele_share_course_content">ฉันกำลังเรียน【%s】 คอร์สที่น่าสนใจ มาเรียนด้วยกันเถอะ!</string>
+    <string name="ele_share_train_content">แนะนำ【%1$s】ใน【%2$s】 มาเรียนรู้พร้อมกัน!</string>
+
+    <!--2015-12-18-->
+    <string name="ele_download_delet_title">ดาวน์โหลดลบ</string>
+    <string name="ele_download_delet_content">คุณได้เลือก %1$d รายการดาวน์โหลด แน่ใจหรือว่าต้องการลบ?</string>
+
+
+    <string name="ele_str_netbad_tips1">สถานะเครือข่ายไม่ดี โปรดลองอีกครั้งในภายหลัง</string>
+    <!--2015-12-16 评价-->
+    <string name="ele_rating_count">%d รีวิว</string>
+    <string name="ele_rating_see_all">ดูคะแนนทั้งหมด</string>
+    <string name="ele_rating_avg_score">%s นาที</string>
+    <string name="ele_training_rating_full_list_activity_header_title">ประเมิน</string>
+    <string name="ele_training_rating_add_rating_great">ดีมาก</string>
+    <string name="ele_training_rating_add_rating_very_good">ดีมาก</string>
+    <string name="ele_training_rating_add_rating_good">ดีขึ้น</string>
+    <string name="ele_training_rating_add_rating_ok">ปานกลาง</string>
+    <string name="ele_training_rating_add_rating_no_good">แย่</string>
+    <string name="ele_training_rating_add_rating_entrance_label">ฉันต้องการเขียนคะแนน...</string>
+    <string name="ele_training_rating_add_rating_commit_label">ตกลง</string>
+    <string name="ele_training_rating_add_rating_cancel_label">ยกเลิก</string>
+    <string name="ele_training_rating_fetch_rating_list_failed">ล้มเหลวในการดึงรายการประเมิน</string>
+    <string name="ele_training_rating_rating_succeed_toast">ประเมินสำเร็จ</string>
+    <string name="ele_training_rating_rating_failed_toast">การประเมินล้มเหลว</string>
+    <string name="ele_rating_list_unknown_user_name">ผู้ใช้ที่ไม่ระบุชื่อ</string>
+
+
+
+    <!--已完成、2：未完成、3：合格、4：不合格,5:学习中，6：待审核，7：审核拒绝，8：待付款-->
+    <!--&lt;!&ndash;已完成、2：未完成、3：合格、4：不合格,5:学习中，6：待审核，7：审核拒绝，8：待付款&ndash;&gt;-->
+
+    <!--报名：enroll-->
+
+    <!--取消报名：-->
+
+    <!--待审核：Comfirm required-->
+
+    <!--待付款：waiting to pay-->
+
+    <!--已合格：Passed-->
+
+    <!--未合格：Failed-->
+
+    <!--已完成：Completed-->
+
+    <!--已结束：Ended-->
+
+
+    <!--2015-12-16  我的学习模块-->
+    <string name="ele_study_mine_learning">กำลังเรียน</string>
+    <string name="ele_study_mine_review">รอการตรวจสอบ</string>
+    <string name="ele_study_mine_complete">เสร็จสิ้นแล้ว</string>
+    <string name="ele_study_mine_status_pass">ผ่าน</string>
+    <string name="ele_study_mine_status_fail">ไม่ผ่าน</string>
+    <string name="ele_study_mine_status_study">กำลังเรียน</string>
+    <string name="ele_study_mine_status_comfirm">รอการตรวจสอบ</string>
+    <string name="ele_study_mine_status_comfirm_reject">การตรวจสอบไม่ผ่าน</string>
+    <string name="ele_study_mine_status_pay">รอการชำระเงิน</string>
+    <string name="ele_study_mine_status_completed">เสร็จแล้ว</string>
+    <string name="ele_study_mine_status_finish">เสร็จสิ้น</string>
+    <string name="ele_study_registration_cancelled">ยกเลิกการลงทะเบียน</string>
+    <string name="ele_study_mine_learning_nodata">ไม่มีรายวิชาที่กำลังเรียน</string>
+    <string name="ele_study_mine_complete_nodata">ยังไม่มีคอร์สที่จบ</string>
+    <string name="ele_study_mine_cancele_dialog_content">แน่ใจหรือว่าต้องการยกเลิกการสมัคร?</string>
+    <string name="ele_study_mine_cancle_signup_success">ยกเลิกสำเร็จ</string>
+
+
+
+    <!--2015-12-23 -->
+    <!-- 对应下载管理里的异常 -->
+    <string name="dl_exception_unknown_error">การดาวน์โหลดล้มเหลว</string>
+
+
+    <!--2015-12-24-->
+    <string name="ele_course_join_this_course">เข้าร่วมคอร์ส</string>
+
+    <!--2015-12-23-->
+    <string name="ele_show_more_classify">แสดงหมวดหมู่เพิ่มเติม</string>
+
+    <!--2015-12-25-->
+    <string name="ele_study_mine_message">ข่าวสาร</string>
+    <string name="ele_study_mine_learning_continue">ดำเนินการต่อ</string>
+    <string name="ele_study_mine_learning_start">เริ่ม</string>
+
+
+    <!--2015-12-28-->
+    <string name="ele_train_2_course_apply_select_all_cannal">ยกเลิกการเลือกทั้งหมด</string>
+
+    <!--2016-1-7-->
+    <string name="ele_more">เพิ่มเติม</string>
+    <string name="ele_study_all">เรียนทั้งหมด</string>
+
+
+
+    <!--2016-1-6-->
+    <string name="ele_job_intro_include_learn_content">รวม</string>
+    <string name="ele_job_intro_include_learn_exam"> %s สอบ/</string>
+    <string name="ele_job_intro_include_learn_course"> %s รายวิชา/</string>
+    <string name="ele_job_intro_include_learn_period"> %s ชั่วโมง/</string>
+
+    <string name="ele_course_intro_include_learn_content">รวม: </string>
+    <string name="ele_course_intro_include_learn_video"> วิดีโอ %s คลิป/</string>
+    <string name="ele_course_intro_include_learn_doc"> เอกสาร %s รายการ/</string>
+    <string name="ele_course_intro_include_learn_exercise">  ฝึกฝน %s คำ/</string>
+
+    <!-- 2016-1-7 -->
+    <string name="ele_search_more">ดูเพิ่มเติม</string>
+    <string name="ele_recently_search">การค้นหาล่าสุด</string>
+    <string name="ele_clean_search_history">ล้างประวัติการค้นหา</string>
+
+    <!-- 2016-1-7 -->
+    <string name="ele_login_validate_title">กรุณาเข้าสู่ระบบ</string>
+    <string name="ele_login_validate_right_text">เข้าสู่ระบบ</string>
+
+
+    <string name="ele_qa_filter_course_title">โปรดเลือกหลักสูตร</string>
+    <string name="ele_qa_filter_course_all">คอร์สทั้งหมด</string>
+    <string name="ele_study_qa_answer">ตอบ</string>
+
+
+
+    <!-- BEGIN: String literials for Q&A Section in Study Module -->
+    <string name="ele_qa">คำถามและคำตอบ</string>
+    <string name="ele_qa_mine">คำถามของฉัน</string>
+    <string name="ele_qa_faq">คำถามที่พบบ่อย</string>
+    <string name="ele_qa_activity_question_detail_header_title">รายละเอียดข้อสงสัย</string>
+    <string name="ele_qa_activity_question_detail_owner_indicator">ฉัน</string>
+    <string name="ele_qa_ask_question_button_text">ถามคำถาม</string>
+    <string name="ele_qa_list_no_data_hint">ไม่มีปัญหาที่ต้องการคำตอบ</string>
+    <string name="ele_qa_encourage_asking_question">ถามคำถามทุกเมื่อที่พบปัญหาในการเรียน</string>
+    <string name="ele_qa_fragment_course_study_tab_title">คำถามและคำตอบ</string>
+    <string name="ele_qa_activity_ask_question_edittext_hint">พิมพ์คำถามของคุณที่นี่</string>
+    <string name="ele_qa_activity_ask_question_header_title">คำถามของฉัน</string>
+    <string name="ele_qa_activity_ask_question_cancel_label">ยกเลิก</string>
+    <string name="ele_qa_activity_ask_question_commit_label">ส่ง</string>
+    <string name="ele_qa_activity_ask_question_enter_description_before_commit_toast">โปรดส่งหลังจากอธิบายปัญหา</string>
+    <string name="ele_qa_activity_ask_question_failed_toast">การส่งคำถามล้มเหลว</string>
+    <string name="ele_qa_activity_ask_question_succeeded_toast">ส่งคำถามสำเร็จ</string>
+    <string name="ele_qa_activity_question_detail_add_reply_button_label">ฉันมาตอบ</string>
+    <string name="ele_qa_activity_reply_question_edittext_hint">พิมพ์คำตอบของคุณที่นี่</string>
+    <string name="ele_qa_activity_reply_question_failed_toast">ล้มเหลวในการส่งคำตอบ</string>
+    <string name="ele_qa_activity_reply_question_succeeded_toast">ส่งคำตอบสำเร็จ</string>
+    <string name="ele_qa_activity_reply_question_header_title">คำตอบของฉัน</string>
+    <string name="ele_qa_activity_reply_question_cancel_label">ยกเลิก</string>
+    <string name="ele_qa_activity_reply_question_commit_label">ส่ง</string>
+    <string name="ele_qa_activity_reply_question_enter_description_before_commit_toast">โปรดส่งคำตอบหลังจากคำอธิบาย</string>
+    <string name="ele_qa_activity_revise_question_header_title">คำถามของฉัน</string>
+    <string name="ele_qa_activity_revise_question_cancel_label">ยกเลิก</string>
+    <string name="ele_qa_activity_revise_question_commit_label">ส่ง</string>
+    <string name="ele_qa_activity_revise_question_enter_description_before_commit_toast">โปรดส่งหลังจากได้ทำการอธิบายปัญหา</string>
+    <string name="ele_qa_activity_revise_question_failed_toast">การแก้ไขปัญหาล้มเหลว</string>
+    <string name="ele_qa_activity_revise_question_succeeded_toast">การแก้ไขปัญหาสำเร็จ</string>
+    <string name="ele_qa_dialog_fragment_confirm_delete_confirm">ยืนยัน</string>
+    <string name="ele_qa_dialog_fragment_confirm_delete_cancel">ยก เลิก</string>
+    <string name="ele_qa_confirm_delete_question_hint">คุณแน่ใจหรือว่าต้องการลบคำถามนี้?</string>
+    <string name="ele_qa_confirm_delete_reply_hint">แน่ใจหรือว่าต้องการลบคำตอบนี้?</string>
+    <string name="ele_qa_confirm_delete_question_delete">ลบ</string>
+    <string name="ele_qa_activity_delete_question_succeeded_toast">ลบคำถามสำเร็จ</string>
+    <string name="ele_qa_activity_delete_question_failed_toast">ลบคำถามล้มเหลว</string>
+    <string name="ele_qa_activity_revise_reply_failed_toast">การแก้ไขคำตอบล้มเหลว</string>
+    <string name="ele_qa_activity_revise_reply_succeeded_toast">การแก้ไขคำตอบสำเร็จ</string>
+    <string name="ele_qa_activity_revise_reply_header_title">คำตอบของฉัน</string>
+    <string name="ele_qa_activity_revise_reply_cancel_label">ยกเลิก</string>
+    <string name="ele_qa_activity_revise_reply_commit_label">ส่ง</string>
+    <string name="ele_qa_activity_delete_reply_succeeded_toast">ลบคำตอบสำเร็จ</string>
+    <string name="ele_qa_activity_delete_reply_failed_toast">ลบคำตอบไม่สำเร็จ</string>
+    <string name="ele_qa_confirm_delete_reply_delete">ลบ</string>
+    <string name="ele_qa_detail_list_item_expand">ขยาย</string>
+    <string name="ele_qa_detail_list_item_collapse">ยุบ</string>
+
+    <string name="ele_qa_edit_length_hint_1">&lt;font color="#1E98FB"&gt;%1$d&lt;/font&gt;&lt;font color="#333333"&gt; / %2$d&lt;/font&gt;</string>
+    <string name="ele_qa_edit_length_hint_2">&lt;font color="#cd0000"&gt;%1$d&lt;/font&gt;&lt;font color="#333333"&gt; / %2$d&lt;/font&gt;</string>
+    <!-- END: String literials for Q&A Section in Study Module -->
+
+    <!--2016年1月13日-->
+    <string name="ele_public_course_no_resource">ไม่มีเอกสารเรียน</string>
+
+    <!-- 2016-01-12 -->
+    <!--BEGIN: String literal for ranking training learning period feature -->
+    <string name="ele_train_intro_tab_enroll_amount_unit">%d คนเรียน</string>
+    <string name="ele_train_intro_tab_rank_board">อันดับ</string>
+    <string name="ele_fragment_train_rank_header_title">อันดับเรียนเฉพาะ 7 วัน</string>
+    <string name="ele_fragment_train_learners_header_title">เพื่อนร่วมคอร์ส</string>
+    <string name="ele_fragment_train_rank_load_data_fail_tap_to_retry_hint">ไม่มีข้อมูล กดเพื่อโหลดใหม่</string>
+    <string name="ele_fragment_train_rank_content_header_rank_title">อันดับ</string>
+    <string name="ele_fragment_train_rank_content_header_study_length_title">การเรียน</string>
+    <string name="ele_fragment_train_rank_position_unit">ตำแหน่ง</string>
+    <string name="ele_fragment_train_rank_list_footer_foreword">อันดับการจัดอันดับถูกอัพเดตที่</string>
+
+    <string name="ele_study_mine_rank">อันดับของฉัน：%s</string>
+    <string name="ele_study_mine_dec">เรียนมาแล้ว %1$d วัน %2$s เสร็จสิ้น %3$d รายวิชา</string>
+    <string name="ele_study_rank_header_title">อันดับนักเรียนเก่ง</string>
+    <string name="ele_study_rank_seven_title">อันดับ 7 วัน</string>
+    <string name="ele_study_rank_month_title">อันดับรายเดือน</string>
+    <string name="ele_study_rank_all_title">อันดับทั้งหมด</string>
+    <string name="ele_study_rank_title">อันดับ</string>
+    <string name="ele_study_rank_exceed">เกิน</string>
+    <string name="ele_study_my_rank_minute">นาที</string>
+    <string name="ele_study_my_rank_hour">ชั่วโมง</string>
+    <string name="ele_study_rank_empty_tip">ไม่มีข้อมูลการจัดอันดับในขณะนี้</string>
+    <string name="ele_study_rank_update_time_tip">ตารางอันดับจะถูกอัพเดทข้อมูลการเรียนรู้ของเมื่อวันก่อนหน้าทุกวัน เวลา 4:00 น.</string>
+    <!--END: -->
+
+    <string name="ele_rank_class_hour">%s ชั่วโมง</string>
+    <string name="ele_rank_minutes">%s นาที</string>
+    <string name="ele_rank_hour_minutes">%1$s ชั่วโมง %2$s นาที</string>
+
+    <!-- 2016年1月19日-->
+    <string name="ele_train_intro_expand">เพิ่มเติม</string>
+    <string name="ele_train_intro_collapse">ยุบ</string>
+    <string name="ele_train_intro_enroll_duration_prefix">ระยะเวลาการลงทะเบียน:</string>
+    <string name="ele_train_intro_study_duration_prefix">ระยะเวลาการเรียน: </string>
+    <string name="ele_train_intro_study_length_prefix">ระยะเวลาการเรียน: </string>
+    <string name="ele_train_intro_to">ถึง</string>
+    <string name="ele_train_intro_start">เริ่ม</string>
+    <string name="ele_train_intro_end">สิ้นสุด</string>
+    <string name="ele_train_intro_study_length_day">วัน</string>
+    <string name="ele_train_intro_study_length_days">วัน</string>
+
+    <!--2016-1-21-->
+    <string name="ele_train_exam_cost_time_second">"</string>
+    <string name="ele_train_exam_cost_time_minute">′</string>
+
+    <!--2016-1-22-->
+    <string name="ele_train_exam_rank_list_tab_rank">อันดับ</string>
+    <string name="ele_train_exam_rank_list_tab_name">ชื่อ</string>
+    <string name="ele_train_exam_rank_list_tab_score">คะแนน</string>
+    <string name="ele_train_exam_rank_list_tab_time">ใช้เวลา</string>
+    <string name="ele_exam_list_item_course_item_finished">&lt;font color ="#666666"&gt;【&lt;/font&gt;%1$s&lt;font color ="#666666"&gt;】&lt;/font&gt;&lt;font color ="#999999"&gt;เสร็จสิ้น&lt;/font&gt;</string>
+    <string name="ele_exam_list_item_course_item">&lt;font color ="#666666"&gt;【&lt;/font&gt;%1$s&lt;font color ="#666666"&gt;】&lt;/font&gt;&lt;font color ="#999999"&gt;%2$s/%3$s ชั่วโมงเรียน&lt;/font&gt;</string>
+    <string name="ele_exam_list_item_deadline">วันที่สิ้นสุด: %s</string>
+    <string name="ele_exam_rank_max_score">คะแนนสูงสุด</string>
+    <string name="ele_exam_list_item_passed">ผ่านแล้ว</string>
+    <string name="ele_exam_rank_cost_time">ใช้เวลา</string>
+    <string name="ele_exam_list_item_un_join">ไม่ได้เข้าร่วม</string>
+    <string name="ele_exam_rank_list_empty_tip1">รายการอันดับว่างเปล่า</string>
+    <string name="ele_exam_rank_list_empty_tip2">เร่งรัดในการทำข้อสอบ เพื่อเข้าอันดับ!</string>
+
+    <!--2016-1-25-->
+    <string name="ele_study_rank_list_empty_tip2">รีบมาเรียน เข้าสู่อันดับดีๆ ไป!</string>
+
+    <string name="ele_online_exam_last_with_sub">คะแนนครั้งก่อน：รอการตรวจ</string>
+    <string name="ele_exam_paste_disable_hint">ห้ามวาง</string>
+
+    <string name="ele_str_exam_seek_start">ลากซ้าย-ขวาเพื่อเปลี่ยนคำถาม</string>
+    <string name="ele_str_exam_prepare_title">กำลังเตรียมตัวสอบ</string>
+
+    <!--2016-2-19-->
+    <string name="ele_exam_score_solution">เคล็ดลับการผ่านเกม</string>
+
+    <!--2016-02-17-->
+    <string name="ele_ask_a_question">ถาม</string>
+    <!--2016-02-17-->
+
+    <!--2016-02-24-->
+    <string name="ele_progress_desc_prefix">เรียนเสร็จ:</string>
+    <string name="ele_progress_desc_unit">ชั่วโมงเรียน</string>
+    <!--2016-02-24-->
+
+    <!--2016-2-25-->
+    <string name="ele_exercise_explain_no_content">ข้อนี้ยังไม่มีคำอธิบาย</string>
+
+    <!--2016-3-1-->
+    <string name="ele_single_res_down_hint">เริ่มดาวน์โหลดทรัพยากร</string>
+
+    <!--2016-4-6-->
+    <string name="ele_exam_score_loadfail">ส่งข้อสอบไม่สำเร็จ โปรดลองอีกครั้ง</string>
+
+</resources>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qrcode_title">扫一扫</string>
+    <string name="qrcode_scan_tip">将取景框对准二维码，即可自动扫描</string>
+    <string name="qrcode_scan_result">扫描结果</string>
+    <string name="qrcode_scan_permission_deny">没有相机权限</string>
+    <string name="qrcode_scan_rbac_check">检查权限</string>
+    <string name="qrcode_scan_rbac_error">无权限</string>
+    <string name="qrcode_scan_album">相册</string>
+    <string name="qrcode_select">选择</string>
+
+    <string name="qrcode_permission_toast">您没有授权该权限，请在设置中打开权限</string>
+    <string name="qrcode_scan_album_faile_tips">未在图片中发现二维码</string>
+    <string name="qrcode_transform_album_faile_tips">识别图片失败</string>
+    <string name="qrcode_please_scan_the_qrcode_through_dedicated_client">请通过专用客户端扫描二维码</string>
+    <string name="qrcode_qrcode_bitmap_invalidate">该二维码已失效</string>
+    <string name="qrcode_qrcode_bitmap_err">获取动态二维码错误</string>
+
+</resources>

@@ -1,0 +1,620 @@
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+def want_replace_id = properties.getProperty('want.reset.package.name')
+def versionCodeStr = properties.getProperty('version.code.str')
+def versionNameStr = properties.getProperty('version.name.str')
+def isOpenDebug = properties.getProperty('isOpenDebug')
+boolean isApfDebuggable = false;
+if (isOpenDebug != null && isOpenDebug.toBoolean()) {
+    isApfDebuggable = isOpenDebug.toBoolean();
+}
+println ' ----------------------------isApfDebuggable---------------------------------------------- is ' + isApfDebuggable
+
+def isUseFixRtl = properties.getProperty('isUseFixRtl')
+boolean isApfFixRtl = false
+if (isUseFixRtl != null && isUseFixRtl.toBoolean()) {
+    isApfFixRtl = isUseFixRtl.toBoolean()
+}
+println ' ----------------------------isApfFixRtl---------------------------------------------- is ' + isApfFixRtl
+
+
+//def over21sdk = false
+//if (rootProject.minSdkVersion.toInteger() >= 21.intValue()) {
+//    over21sdk = true
+//}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+//apf_want_add_plugin
+
+//if(!over21sdk) {
+//    apply plugin: 'dexfix';
+//}
+
+//构建环境
+//严格模式相关
+def strictMode = properties.getProperty('strictModel');
+def open_strictmode_CleartextNetwork = properties.getProperty('strictMode.open_strictmode_CleartextNetwork');
+def open_strictmode_ActivityLeaks = properties.getProperty('strictMode.open_strictmode_ActivityLeaks');
+def open_strictmode_penaltyFlashScreen = properties.getProperty('strictMode.open_strictmode_penaltyFlashScreen');
+def open_strictmode_penaltyDropBox = properties.getProperty('strictMode.open_strictmode_penaltyDropBox');
+def open_strictmode_LeakedSqlLiteObjects = properties.getProperty('strictMode.open_strictmode_LeakedSqlLiteObjects');
+def open_strictmode_network = properties.getProperty('strictMode.open_strictmode_network');
+def open_strictmode_LeakedClosableObjects = properties.getProperty('strictMode.open_strictmode_LeakedClosableObjects');
+def open_strictmode_ResourceMismatches = properties.getProperty('strictMode.open_strictmode_ResourceMismatches');
+def open_strictmode_CustomSlowCalls = properties.getProperty('strictMode.open_strictmode_CustomSlowCalls');
+def open_strictmode_FileUriExposure = properties.getProperty('strictMode.open_strictmode_FileUriExposure');
+def open_strictmode_disk_write = properties.getProperty('strictMode.open_strictmode_disk_write');
+def open_strictmode_penaltyDialog = properties.getProperty('strictMode.open_strictmode_penaltyDialog');
+def open_strictmode_LeakedRegistrationObjects = properties.getProperty('strictMode.open_strictmode_LeakedRegistrationObjects');
+def open_strictmode_disk_read = properties.getProperty('strictMode.open_strictmode_disk_read');
+def open_strictmode_ContentUriWithoutPermission = properties.getProperty('strictMode.open_strictmode_ContentUriWithoutPermission');
+def open_strictmode_detectNonSdkApiUsage = properties.getProperty('strictMode.open_strictmode_detectNonSdkApiUsage')
+
+def isOpenBundle = String.valueOf(rootProject.isBundleEnabled);
+
+String[] arrStrictMode = [isOpenBundle, strictMode, open_strictmode_CleartextNetwork, open_strictmode_ActivityLeaks, open_strictmode_penaltyFlashScreen,
+                          open_strictmode_penaltyDropBox, open_strictmode_LeakedSqlLiteObjects, open_strictmode_network,
+                          open_strictmode_LeakedClosableObjects, open_strictmode_ResourceMismatches, open_strictmode_CustomSlowCalls,
+                          open_strictmode_FileUriExposure, open_strictmode_disk_write, open_strictmode_penaltyDialog,
+                          open_strictmode_LeakedRegistrationObjects, open_strictmode_disk_read, open_strictmode_ContentUriWithoutPermission,
+                          open_strictmode_detectNonSdkApiUsage]
+
+int size_arrStrictMode = arrStrictMode.length;
+for (int i = 0; i < size_arrStrictMode; ++i) {
+    if (arrStrictMode[i] != null && arrStrictMode[i].toString().trim().equals("true")) {
+        arrStrictMode[i] = "true";
+    } else {
+        arrStrictMode[i] = "false";
+    }
+}
+println ' ------strictMode local.propertier value------- is ' + strictMode
+
+android {
+    println ' the want.reset.package.name value is ' + want_replace_id
+    println ' the want reset versionCode value is ' + versionCodeStr
+    println ' the want reset versionName value is ' + versionNameStr
+//    println ' ------current versionMinSdk------- is ' + rootProject.minSdkVersion + '-------targetSdkVersion is ' + rootProject.targetSdkVersion + "-------over21sdk is " + over21sdk
+/**scj-native-remove-begin**/
+    def release_store_file_str = properties["RELEASE_STORE_FILE"] ?: RELEASE_NEW_STORE_FILE
+    def release_store_password_str = properties["RELEASE_STORE_PASSWORD"] ?: RELEASE_NEW_STORE_PASSWORD
+    def release_key_alias_str = properties["RELEASE_KEY_ALIAS"] ?: RELEASE_NEW_KEY_ALIAS
+    def release_key_password_str = properties["RELEASE_KEY_PASSWORD"] ?: RELEASE_NEW_KEY_PASSWORD
+    def release_store_public_key_str = properties["RELEASE_STORE_PUBLIC_KEY"] ?: RELEASE_NEW_STORE_PUBLIC_KEY
+
+    def debug_store_file_str = properties["DEBUG_STORE_FILE"] ?: DEBUG_STORE_FILE
+    def debug_store_password_str = properties["DEBUG_STORE_PASSWORD"] ?: DEBUG_STORE_PASSWORD
+    def debug_key_alias_str = properties["DEBUG_KEY_ALIAS"] ?: DEBUG_KEY_ALIAS
+    def debug_key_password_str = properties["DEBUG_KEY_PASSWORD"] ?: DEBUG_KEY_PASSWORD
+    def debug_store_public_key_str = properties["DEBUG_STORE_PUBLIC_KEY"] ?: DEBUG_STORE_PUBLIC_KEY
+
+    println ' the debug key store file is ' + debug_store_file_str
+    println ' the debug key store password is ' + debug_store_password_str
+    println ' the debug key alias is ' + debug_key_alias_str
+    println ' the debug key password is ' + debug_key_password_str
+    println ' the debug key store public key is ' + debug_store_public_key_str
+
+    println ' the release key store file is ' + release_store_file_str
+    println ' the release key store password is ' + release_store_password_str
+    println ' the release key alias is ' + release_key_alias_str
+    println ' the release key password is ' + release_key_password_str
+    println ' the release key store public key is ' + release_store_public_key_str
+
+    // ======================================= Write signature config for apk guard =======================================
+    // ApkGuard.properties format see:
+    //  http://git.sdp.nd/android-security/ApkGuardScript/tree/master#%E8%87%AA%E5%AE%9A%E4%B9%89%E7%AD%BE%E5%90%8D%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F
+    def signConfigFile = new File(project.rootDir.absolutePath + "/ApkGuard.properties")
+    if (!signConfigFile.exists()) {
+        println 'Create signature config:' + signConfigFile.createNewFile()
+    }
+    def signConfig = new Properties()
+    signConfigFile.withReader { signConfig.load(it) }
+    // for debug
+    signConfig.setProperty("DEBUG_STORE_FILE", debug_store_file_str)
+    signConfig.setProperty("DEBUG_STORE_PASSWORD", debug_store_password_str)
+    signConfig.setProperty("DEBUG_KEY_ALIAS", debug_key_alias_str)
+    signConfig.setProperty("DEBUG_KEY_PASSWORD", debug_key_password_str)
+    signConfig.setProperty("DEBUG_STORE_PUBLIC_KEY", debug_store_public_key_str)
+    // for release
+    signConfig.setProperty("RELEASE_STORE_FILE", release_store_file_str)
+    signConfig.setProperty("RELEASE_STORE_PASSWORD", release_store_password_str)
+    signConfig.setProperty("RELEASE_KEY_ALIAS", release_key_alias_str)
+    signConfig.setProperty("RELEASE_KEY_PASSWORD", release_key_password_str)
+    signConfig.setProperty("RELEASE_STORE_PUBLIC_KEY", release_store_public_key_str)
+    signConfigFile.withWriter { signConfig.store(it, "Signature config for apk guard") }
+
+/**scj-native-remove-end**/
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            resources.srcDirs = ['src/main/java']
+            aidl.srcDirs = ['src/main/java']
+            renderscript.srcDirs = ['src/main/java']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    // dexOptions 配置已经过时，并且在 Android Gradle 插件的 8.0 版本中将被移除。在现有的 Android Gradle 插件版本中，使用 dexOptions 配置没有任何效果，因为 Android Gradle 插件会自动优化 Dex（Dalvik Executable）操作。
+    // 所以这里可以删除
+//    dexOptions {
+//        //配置是否预执行dex libraries 库工程，开启后可以提高增量构建速度
+//        //默认是是开启的，但是，当使用dx的--multi-dex选项生成多个dex,
+//        //会导致和库工程冲突，应关闭
+//        preDexLibraries = false
+//        // WARNING:DSL element 'DexOptions.incremental' is obsolete and will be removed at the end of 2018.
+//        // incremental true意味着Gradle将使用以前的Dex文件并将新的更改附加到它们(而不是每次都重新构建它们),已弃用
+//        //incremental true
+//        // 配置最大堆内存
+//        javaMaxHeapSize "8g"
+//        //如果需要生成一个最小的主包 可以启用这一行    build tools 24生成的主包是最小状态
+//        //additionalParameters += '--minimal-main-dex'
+//        //如果去掉annotation 必须开启imapp_fix进行插桩
+//        //把所有带有运行时注解的类保留在主dex中，默认开启，这里关闭
+//        //keepRuntimeAnnotatedClasses false
+//
+//    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'org/apache/commons/codec/language/bm/*.txt'
+        exclude 'META-INF/com.nd.sdp.android.support.kotlin_module'
+    }
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+
+    signingConfigs {
+/**scj-native-remove-begin**/
+        debug {
+            storeFile file(debug_store_file_str)
+            storePassword debug_store_password_str
+            keyAlias debug_key_alias_str
+            keyPassword debug_key_password_str
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        release {
+            storeFile file(release_store_file_str)
+            storePassword release_store_password_str
+            keyAlias release_key_alias_str
+            keyPassword release_key_password_str
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+/**scj-native-remove-end**/
+    }
+
+    defaultConfig {
+        applicationId want_replace_id.toString()
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode versionCodeStr.toInteger()
+        versionName versionNameStr.toString()
+        multiDexEnabled true
+        def scheme = "";
+        task getScheme {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < applicationId.length(); ++i) {
+                char c = applicationId.charAt(i);
+                if ((c >= '0' && c <= '9') || (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+                    sb.append(c);
+                }
+            }
+            scheme = sb.toString();
+        }
+
+        if (rootProject.isComponentTest) {
+            // 功能测试和集成测试下 ，友盟渠道名CHANNEL_NAME 设置为 default
+            manifestPlaceholders = [CHANNEL_NAME: "default", _scheme: scheme]
+        } else {
+            manifestPlaceholders = [_scheme: scheme]
+        }
+
+//        javaCompileOptions {
+//            // 显式声明支持注解
+//            annotationProcessorOptions {
+//                includeCompileClasspath false
+//            }
+//        }
+
+
+        //testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+    buildTypes {
+        debug {
+            println("-------buildTypes-------debug-------------debuggable =true-------");
+            debuggable true
+            //关闭混淆
+            minifyEnabled false
+            // 禁止使用 PNG crunching
+            crunchPngs false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules-custom.pro'
+/**scj-native-remove-begin**/
+            signingConfig signingConfigs.debug
+            buildConfigField("String", "signPublicKey", '\"' + debug_store_public_key_str + '\"')
+/**scj-native-remove-end**/
+            buildConfigField("Boolean", "ANDROID_APP_BUNDLES", isOpenBundle)
+            buildConfigField("Boolean", "StrictMode", strictMode)
+            buildConfigField("Boolean", "StrictMode_CleartextNetwork", open_strictmode_CleartextNetwork)
+            buildConfigField("Boolean", "StrictMode_ActivityLeaks", open_strictmode_ActivityLeaks)
+            buildConfigField("Boolean", "StrictMode_PenaltyFlashScreen", open_strictmode_penaltyFlashScreen)
+            buildConfigField("Boolean", "StrictMode_PenaltyDropBox", open_strictmode_penaltyDropBox)
+            buildConfigField("Boolean", "StrictMode_LeakedSqlLiteObjects", open_strictmode_LeakedSqlLiteObjects)
+            buildConfigField("Boolean", "StrictMode_Network", open_strictmode_network)
+            buildConfigField("Boolean", "StrictMode_LeakedClosableObjects", open_strictmode_LeakedClosableObjects)
+            buildConfigField("Boolean", "StrictMode_ResourceMismatches", open_strictmode_ResourceMismatches)
+            buildConfigField("Boolean", "StrictMode_CustomSlowCalls", open_strictmode_CustomSlowCalls)
+            buildConfigField("Boolean", "StrictMode_FileUriExposure", open_strictmode_FileUriExposure)
+            buildConfigField("Boolean", "StrictMode_DiskWrite", open_strictmode_disk_write)
+            buildConfigField("Boolean", "StrictMode_PenaltyDialog", open_strictmode_penaltyDialog)
+            buildConfigField("Boolean", "StrictMode_LeakedRegistrationObjects", open_strictmode_LeakedRegistrationObjects)
+            buildConfigField("Boolean", "StrictMode_DiskRead", open_strictmode_disk_read)
+            buildConfigField("Boolean", "StrictMode_ContentUriWithoutPermission", open_strictmode_ContentUriWithoutPermission)
+            buildConfigField("Boolean", "StrictMode_DetectNonSdkApiUsage", open_strictmode_detectNonSdkApiUsage)
+
+            def GRADLE_PROPERTIES_JSON = '{'
+            project.properties.each {
+                if (it.key.toLowerCase().startsWith("gradle_property")) {
+                    if (it.value.toString().equalsIgnoreCase("true") || it.value.toString().equalsIgnoreCase("false")) {
+                        GRADLE_PROPERTIES_JSON += "\\\"" + it.key + "\\\"" + ":" + it.value
+                    } else {
+                        GRADLE_PROPERTIES_JSON += "\\\"" + it.key + "\\\"" + ":" + "\\\"${it.value}\\\""
+                    }
+                    GRADLE_PROPERTIES_JSON += ","
+                }
+            }
+            if (GRADLE_PROPERTIES_JSON.endsWith(",")) {
+                GRADLE_PROPERTIES_JSON = GRADLE_PROPERTIES_JSON.substring(0, GRADLE_PROPERTIES_JSON.length() - 1)
+            }
+            GRADLE_PROPERTIES_JSON += "}"
+            GRADLE_PROPERTIES_JSON = new String(GRADLE_PROPERTIES_JSON.getBytes("iso8859-1"), "UTF-8")
+            println("GRADLE_PROPERTIES_JSON = " + GRADLE_PROPERTIES_JSON)
+            buildConfigField("String", "GRADLE_PROPERTIES", "\"" + GRADLE_PROPERTIES_JSON + "\"")
+        }
+        release {
+            println("--------buildTypes------release--------------------isApfDebuggable " + isApfDebuggable);
+            //if(!isPostprocessing) {
+            //关闭混淆
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules-custom.pro'
+            //}
+            //不知道为啥 直接设置有问题
+            if (isApfDebuggable) {
+                println("--------buildTypes------release-----------isApfDebuggable-- set-------debuggable true");
+                debuggable true
+            }
+/**scj-native-remove-begin**/
+            signingConfig signingConfigs.release
+            buildConfigField("String", "signPublicKey", '\"' + release_store_public_key_str + '\"')
+/**scj-native-remove-end**/
+            buildConfigField("Boolean", "ANDROID_APP_BUNDLES", isOpenBundle)
+            buildConfigField("Boolean", "StrictMode", strictMode)
+            buildConfigField("Boolean", "StrictMode_CleartextNetwork", open_strictmode_CleartextNetwork)
+            buildConfigField("Boolean", "StrictMode_ActivityLeaks", open_strictmode_ActivityLeaks)
+            buildConfigField("Boolean", "StrictMode_PenaltyFlashScreen", open_strictmode_penaltyFlashScreen)
+            buildConfigField("Boolean", "StrictMode_PenaltyDropBox", open_strictmode_penaltyDropBox)
+            buildConfigField("Boolean", "StrictMode_LeakedSqlLiteObjects", open_strictmode_LeakedSqlLiteObjects)
+            buildConfigField("Boolean", "StrictMode_Network", open_strictmode_network)
+            buildConfigField("Boolean", "StrictMode_LeakedClosableObjects", open_strictmode_LeakedClosableObjects)
+            buildConfigField("Boolean", "StrictMode_ResourceMismatches", open_strictmode_ResourceMismatches)
+            buildConfigField("Boolean", "StrictMode_CustomSlowCalls", open_strictmode_CustomSlowCalls)
+            buildConfigField("Boolean", "StrictMode_FileUriExposure", open_strictmode_FileUriExposure)
+            buildConfigField("Boolean", "StrictMode_DiskWrite", open_strictmode_disk_write)
+            buildConfigField("Boolean", "StrictMode_PenaltyDialog", open_strictmode_penaltyDialog)
+            buildConfigField("Boolean", "StrictMode_LeakedRegistrationObjects", open_strictmode_LeakedRegistrationObjects)
+            buildConfigField("Boolean", "StrictMode_DiskRead", open_strictmode_disk_read)
+            buildConfigField("Boolean", "StrictMode_ContentUriWithoutPermission", open_strictmode_ContentUriWithoutPermission)
+            buildConfigField("Boolean", "StrictMode_DetectNonSdkApiUsage", open_strictmode_detectNonSdkApiUsage)
+
+            def GRADLE_PROPERTIES_JSON = '{'
+            project.properties.each {
+                if (it.key.toLowerCase().startsWith("gradle_property")) {
+                    if (it.value.toString().equalsIgnoreCase("true") || it.value.toString().equalsIgnoreCase("false")) {
+                        GRADLE_PROPERTIES_JSON += "\\\"" + it.key + "\\\"" + ":" + it.value
+                    } else {
+                        GRADLE_PROPERTIES_JSON += "\\\"" + it.key + "\\\"" + ":" + "\\\"${it.value}\\\""
+                    }
+                    GRADLE_PROPERTIES_JSON += ","
+                }
+            }
+            if (GRADLE_PROPERTIES_JSON.endsWith(",")) {
+                GRADLE_PROPERTIES_JSON = GRADLE_PROPERTIES_JSON.substring(0, GRADLE_PROPERTIES_JSON.length() - 1)
+            }
+            GRADLE_PROPERTIES_JSON += "}"
+            GRADLE_PROPERTIES_JSON = new String(GRADLE_PROPERTIES_JSON.getBytes("iso8859-1"), "UTF-8")
+            println("GRADLE_PROPERTIES_JSON = " + GRADLE_PROPERTIES_JSON)
+            buildConfigField("String", "GRADLE_PROPERTIES", "\"" + GRADLE_PROPERTIES_JSON + "\"")
+        }
+    }
+/**scj-native-remove-begin**/
+    applicationVariants.all { variant ->
+        // 这里修改的原因是： 因为 plugin3.0.0 + 生成apk的路径与2.3.3有所变化 ，
+        // 服务端上传apk 是沿用的 plugin2.3.3生成apk的路径 ， 因此这里需要改成原来的路径
+        // 修改name的原因是 ： 服务端上传apk的默认apk名是 app-nd-**.apk , 是默认开启了nd渠道的
+        // 但是在集成测试功能测试中是关闭了多渠道打包， 为了适应服务端的策略， 这里修改apk name
+        try {
+            // 修改apk 名称
+            variant.outputs.all { output ->
+                String flavorname = rootProject.isComponentTest ? "nd" : variant.flavorName
+                String newApkFileName = "app-" + flavorname + "-" + variant.buildType.name + ".apk"
+                output.outputFileName = newApkFileName
+            }
+            // 修改apk 保存路径，复制outputs/apk/debug 文件夹下的文件至 outputs/apk
+            // 原先的方式在高版本gradle上无法兼容，所以修改对应的方法
+            def outputFileDir = "${project.projectDir.absolutePath}/build/outputs/apk"
+
+            variant.assemble.doLast {
+                variant.outputs.all { output ->
+                    // output.outputFile = outputs/apk/nd/debug/xxx.apk
+                    File newOutputDir = new File(outputFileDir)
+                    if (!newOutputDir.exists()) {
+                        newOutputDir.mkdirs()
+                    }
+                    println("=====修改apk路径 newOutputDir======"+ newOutputDir)
+                    // outputs/apk/nd/debug
+                    // outputs/apk/oppo/debug
+                    // outputs/apk/nd/debug
+                    String parent = output.outputFile.getParent()
+                    String delParent = output.outputFile.parentFile.getParent()
+                    File parentFile = new File(parent)
+                    println("=====修改apk路径 parentFile======"+ parentFile)
+                    println("=====修改apk路径 output.outputFile======"+ output.outputFile)
+                    if (parentFile.exists()) {
+                        copy {
+                            from fileTree(parent)
+                            into newOutputDir
+                        }
+                        File deleteFile;
+                        if (delParent.endsWith("apk")){
+                            // outputs/apk/debug
+                            deleteFile = parentFile
+                        }else {
+                            // outputs/apk/nd/debug
+                            deleteFile = new File(delParent)
+                        }
+                        println("=====修改apk路径 deleteFile======"+ deleteFile)
+                        delete deleteFile
+
+                    } else {
+                        copy {
+                            from output.outputFile
+                            into newOutputDir
+                        }
+                        delete output.outputFile
+                    }
+
+                }
+            }
+        } catch (Exception e) {
+            println("修改 生成apk的路径 和 name 时出错" + e.getMessage())
+        }
+    }
+/**scj-native-remove-end**/
+
+    // Specifies dynamic feature modules that have a dependency on this base module.
+    // dynamicFeatures = [] 占位符声明只允许在同一行，CI会整行替换真实的数据
+    //wantReplace_dynamicFeatures = []
+}
+
+
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+
+//apf_before_dependency_want_add_gradle
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //minSdkVersion 为 21 或更高的值，则默认情况下会启用 MultiDex，并且您不需要 MultiDex 支持库
+    //implementation 'com.android.support:multidex:1.0.1'
+    implementation('org.jetbrains.kotlin:kotlin-stdlib:1.5.20') {
+        transitive = true
+        changing = true
+    }
+    implementation('com.nd.sdp.android:processcheck:1.0.1@aar') {
+        transitive = true
+        changing = true
+    }
+    implementation('androidx.appcompat:appcompat:1.0.0@aar') {
+        transitive = true
+        changing = true
+    }
+    implementation('com.nd.sdp.uc:nduc_agreement:3.0.3-release.1') {
+        transitive = true
+        changing = true
+    }
+    implementation('com.nd.android.smartcan:smartcan-appfactory:3.3.2.0.0.smartcan.release@aar') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+
+    implementation('com.nd.sdp.android:apf-assemble:3.0.0.8.release@aar') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+
+    implementation('com.nd.uc:thirdlogin:1.0.0.9') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+
+//    //不包含react，就不要把我加入
+//    if (react == null || !react.equals('true')){
+//        println("-------not contain react---------------------------");
+//        configurations {
+//            all*.exclude group:'com.nd.sdp.android', module: 'react-wrapper'
+//        }
+//    }
+/**scj-native-add-dependencies-begin**/
+    //通过脚本可以在这边加依赖
+/**scj-native-add-dependencies-end**/
+    implementation 'com.google.android.play:core:1.5.0'
+}
+
+ext {
+    globalApplicationId = android.defaultConfig.applicationId
+}
+
+def hasAppFactory = file('app-factory-component.gradle').exists()
+if (hasAppFactory) {
+    apply from: 'app-factory-component.gradle'
+}
+
+// 在应用中,并且不是bundle构建
+//if (!isComponentTest && !rootProject.isBundleEnabled) {
+if (!rootProject.isComponentTest) {
+    //目的是为了多渠道打包。
+    android {
+        // 多渠道打包必须声明 flavorDimendions
+        flavorDimensions "default"
+    }
+    def hasProduct = file('app-factory-product.gradle').exists()
+    if (hasProduct) {
+        apply from: 'app-factory-product.gradle'
+    }
+}
+
+////显示所有的依赖 4.1 不支持<<
+//task showAllDependencies(dependsOn: configurations.compile) << {
+//    println "classpath = ${configurations.compile.collect {File file -> file.name}}"
+//}
+
+
+def getScreenOrientation() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('android_dic.properties').newDataInputStream())
+    def screenOrientation = properties.getProperty('screenOrientation')
+    println("--android_dic.properties-----screenOrientation--------- " + screenOrientation)
+    if (screenOrientation != null) {
+        screenOrientation = screenOrientation.trim()
+    }
+
+    return screenOrientation
+}
+
+def getfilterActivity() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('android_dic.properties').newDataInputStream())
+    def filterActivity = properties.getProperty('filterActivity')
+    println("--android_dic.properties-----filterActivity--------- " + filterActivity)
+    if (filterActivity != null && filterActivity.trim().length() > 0) {
+        List<String> wantChange = new ArrayList<>()
+        String[] activitys = filterActivity.split(";")
+        if (activitys != null && activitys.length > 0) {
+            wantChange.addAll(activitys)
+            return wantChange;
+        }
+
+    }
+    return null
+}
+/**
+ * 处理横竖屏。
+ */
+def dealWithdic(String content, String screenOrientation, List<String> wantChange) {
+
+    if (screenOrientation == null || screenOrientation.trim().length() == 0) {
+        println "要替换的---screenOrientation---没有设置or为空，不做任何替换---"
+        return content
+    }
+
+    if (wantChange == null || wantChange.size() == 0) {
+        println "要替换的---白名单列表---为空，不做任何替换---"
+        return content
+    } else {
+        println "要替换的---白名单列表---为空，长度是" + wantChange.size();
+        for (String element : wantChange) {
+            println "要替换的---白名单列表---是" + element
+        }
+    }
+
+    StringBuffer dataBuffer = new StringBuffer();
+    String[] lines = content.split(System.lineSeparator())
+    boolean find = false
+    String temp = null
+
+    println "要替换的---清单文件split以后长度是" + lines.length
+    for (int i = 0; i < lines.length; i++) {
+
+        try {
+            temp = lines[i]
+            if (temp == null || temp.trim().length() == 0) {
+                continue
+            }
+            if (find) {
+                if (temp.contains("android:screenOrientation")) {
+                    println("发现一个要替换的---------android:screenOrientation---------配置（工厂提供）")
+                    println(temp)
+                    if (temp.contains("android:screenOrientation=\"unspecified\"")) {
+                        temp = temp.replace("android:screenOrientation=\"unspecified\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"behind\"")) {
+                        temp = temp.replace("android:screenOrientation=\"behind\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"landscape\"")) {
+                        temp = temp.replace("android:screenOrientation=\"landscape\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"portrait\"")) {
+                        temp = temp.replace("android:screenOrientation=\"portrait\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"reverseLandscape\"")) {
+                        temp = temp.replace("android:screenOrientation=\"reverseLandscape\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"reversePortrait\"")) {
+                        temp = temp.replace("android:screenOrientation=\"reversePortrait\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"sensor\"")) {
+                        temp = temp.replace("android:screenOrientation=\"sensor\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"fullSensor\"")) {
+                        temp = temp.replace("android:screenOrientation=\"fullSensor\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"nosensor\"")) {
+                        temp = temp.replace("android:screenOrientation=\"nosensor\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    } else if (temp.contains("android:screenOrientation=\"user\"")) {
+                        temp = temp.replace("android:screenOrientation=\"user\"", "android:screenOrientation=\"" + screenOrientation + "\"")
+                    }
+                } else {
+                    //println(temp)
+                }
+            }
+
+            //查找到开始要替换的界面
+            for (String key : wantChange) {
+                if (temp.contains(key)) {
+                    find = true
+                    println("发现一个匹配的 " + lines[i])
+                    break
+                }
+            }
+
+            //这个界面Activity 替换结束位置。
+            if (temp.contains(">")) {
+                find = false
+            }
+
+        } catch (Exception e) {
+            println("替换的---------android:screenOrientation----过程发现异常 " + e.printStackTrace())
+            e.printStackTrace()
+        }
+
+        dataBuffer.append(temp + System.lineSeparator())
+    }
+    return dataBuffer.toString()
+}
+
+//apf_want_add_gradle

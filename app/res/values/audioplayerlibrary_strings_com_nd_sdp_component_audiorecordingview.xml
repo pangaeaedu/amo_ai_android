@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="audioplayer_using_incall_mode">Speaker Mode Off</string>
+    <string name="audioplayer_using_speaker_mode">Speaker Mode On</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="el_channel_net_error_tips">网络连接错误，请重试</string>
+    <string name="el_channel_data_error_tips">数据解析错误，请重试</string>
+    <string name="el_channel_load_fail_retry">加载失败，请下拉重试</string>
+    <string name="el_channel_no_data">没有数据</string>
+    <string name="el_channel_loading_wait">正在加载中，请稍候...</string>
+    <string name="el_channel_retry">重试</string>
+
+    <string name="el_channel_share">分享文章</string>
+    <string name="el_channel_del_article">删除文章</string>
+    <string name="el_channel_cancel">取消</string>
+    <string name="el_channel_title">文章</string>
+    <string name="el_channel_detail_title">文章详情</string>
+    <string name="el_channel_free">免费</string>
+    <string name="el_channel_see_more">查看更多</string>
+    <string name="el_channel_app_more">更多</string>
+    <string name="el_channel_app_main_value">首页</string>
+
+    <string name="el_channel_newest">最新</string>
+    <string name="el_channel_hottest">最热</string>
+    <string name="el_channel_recommend">综合</string>
+    <string name="el_channel_filter_complex_name">综合</string>
+
+    <string name="el_channel_all">全部</string>
+    <string name="el_channel_waiting">未开始</string>
+    <string name="el_channel_doing">进行中</string>
+    <string name="el_channel_end">已结束</string>
+
+    <string name="el_channel_price">价格</string>
+    <string name="el_channel_pay">付费</string>
+    <string name="el_channel_payFree">免费</string>
+    <string name="el_channel_time_format">%s学时</string>
+    <string name="el_channel_people_format">%s人</string>
+    <string name="el_channel_course_format">%s课程</string>
+    <string name="el_channel_filter_name">筛选</string>
+
+    <string name="el_channel_filter_reset">重置</string>
+
+    <string name="el_channel_filter_complete">完成</string>
+    <string name="el_channel_second_back">返回</string>
+    <string name="el_channel_no_courses">暂无课程</string>
+    <string name="el_channel_title_multiple_choice">%s(多选)</string>
+    <string name="el_channel_tag_no_datatip">偷懒君未添加相关内容哦</string>
+	
+	<string name="el_channel_learning_plaza">学习广场</string>
+    <string name="el_channel_network_lost">哎呀，网络丢了</string>
+    <string name="el_channel_nothing_date">哎呀，啥也没有，一片空白</string>
+
+    <string name="el_channel_net_error">网络异常</string>
+    <string name="el_channel_net_error_msg">检查看看手机是否开启\n移动网络或WIFI</string>
+    <string name="el_channel_check_set">检查设置</string>
+    <string name="el_channel_try_refresh">试试刷新</string>
+    <string name="el_channel_service_lost">哎呀，出错了</string>
+</resources>

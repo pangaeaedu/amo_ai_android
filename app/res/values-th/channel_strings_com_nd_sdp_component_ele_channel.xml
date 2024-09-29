@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_channel_net_error_tips">เกิดข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดลองใหม่</string>
+    <string name="el_channel_data_error_tips">การวิเคราะห์ข้อมูลผิดพลาด โปรดลองใหม่</string>
+    <string name="el_channel_load_fail_retry">โหลดล้มเหลว โปรดลองลากลงเพื่อลองใหม่</string>
+    <string name="el_channel_no_data">ไม่มีข้อมูล</string>
+    <string name="el_channel_loading_wait">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="el_channel_retry">ลองใหม่</string>
+
+    <string name="el_channel_share">แชร์บทความ</string>
+    <string name="el_channel_del_article">ลบบทความ</string>
+    <string name="el_channel_cancel">ยกเลิก</string>
+    <string name="el_channel_title">บทความ</string>
+    <string name="el_channel_detail_title">รายละเอียดบทความ</string>
+    <string name="el_channel_free">ฟรี</string>
+    <string name="el_channel_see_more">ดูเพิ่มเติม</string>
+    <string name="el_channel_app_more">มากกว่านี้</string>
+    <string name="el_channel_app_main_value">หน้าแรก</string>
+
+    <string name="el_channel_newest">ล่าสุด</string>
+    <string name="el_channel_hottest">ยอดนิยม</string>
+    <string name="el_channel_recommend">รวม</string>
+    <string name="el_channel_filter_complex_name">รวม</string>
+
+    <string name="el_channel_all">ทั้งหมด</string>
+    <string name="el_channel_waiting">ยังไม่เริ่ม</string>
+    <string name="el_channel_doing">กำลังดำเนินการ</string>
+    <string name="el_channel_end">เสร็จสิ้น</string>
+
+    <string name="el_channel_price">ราคา</string>
+    <string name="el_channel_pay">เสียค่าใช้จ่าย</string>
+    <string name="el_channel_payFree">ฟรี</string>
+    <string name="el_channel_time_format">%s ชั่วโมง</string>
+    <string name="el_channel_people_format">%s คน</string>
+    <string name="el_channel_course_format">%s รายวิชา</string>
+    <string name="el_channel_filter_name">กรอง</string>
+
+    <string name="el_channel_filter_reset">รีเซ็ต</string>
+
+    <string name="el_channel_filter_complete">เสร็จสิ้น</string>
+    <string name="el_channel_second_back">ย้อนกลับ</string>
+    <string name="el_channel_no_courses">ไม่มีคอร์ส</string>
+    <string name="el_channel_title_multiple_choice">%s (เลือกหลายรายการ)</string>
+    <string name="el_channel_tag_no_datatip">ฉลาดมั่วยังไม่ได้เพิ่มเนื้อหาที่เกี่ยวข้องอ่อ</string>
+	
+	<string name="el_channel_learning_plaza">พื้นที่เรียน</string>
+    <string name="el_channel_network_lost">อ๊ะ ขาดการเชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="el_channel_nothing_date">อ๊ะ ไม่มีอะไรเลย ว่างเปล่าเปล่า</string>
+
+    <string name="el_channel_net_error">ข้อผิดพลาดของเครือข่าย</string>
+    <string name="el_channel_net_error_msg">ตรวจสอบว่ามือถือเปิด\nใช้งานเครือข่ายมือถือหรือ WIFI หรือไม่</string>
+    <string name="el_channel_check_set">ตรวจสอบการตั้งค่า</string>
+    <string name="el_channel_try_refresh">ลองรีเฟรช</string>
+    <string name="el_channel_service_lost">อุ๊ย มีบางอย่างผิดพลาด</string>
+</resources>

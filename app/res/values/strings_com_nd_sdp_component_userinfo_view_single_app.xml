@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="uivcs_vision_particle_avatar">Avatar</string>
+    <string name="uivcs_vision_particle_birthday">Birthday image</string>
+    <string name="uivcs_vision_particle_icon">Image</string>
+</resources>

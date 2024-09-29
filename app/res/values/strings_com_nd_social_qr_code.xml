@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qrcode_title">Scan</string>
+    <string name="qrcode_scan_tip">Scan QR code</string>
+    <string name="qrcode_scan_result">Result</string>
+    <string name="qrcode_scan_permission_deny">Camera Permission Denied</string>
+    <string name="qrcode_scan_rbac_check">Check permissions</string>
+    <string name="qrcode_scan_rbac_error">No permission</string>
+    <string name="qrcode_scan_album">Album</string>
+    <string name="qrcode_select">Select</string>
+
+    <string name="qrcode_permission_toast">You did not authorize this permission, please turn on the permissions in the settings</string>
+    <string name="qrcode_scan_album_faile_tips">No QR code found</string>
+    <string name="qrcode_transform_album_faile_tips">Image recognition failed</string>
+    <string name="qrcode_please_scan_the_qrcode_through_dedicated_client">Scan QR code through exclusive terminal</string>
+    <string name="qrcode_qrcode_bitmap_invalidate">Invalid QR code</string>
+    <string name="qrcode_qrcode_bitmap_err">Failed to access dynamic QR code</string>
+
+</resources>

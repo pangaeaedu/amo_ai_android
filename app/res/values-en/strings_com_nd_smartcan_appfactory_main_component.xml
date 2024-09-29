@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--mainComponent相关的资源-->
+    <string name="maincomponent_common_quit_hint">Tap again to exit.</string>
+    <string name="maincomponent_confirm" tools:ignore="UnusedResources">Confirm</string>
+    <string name="maincomponent_cancel">Cancel</string>
+    <string name="maincomponent_expired_tips">This is the demo vesion, which has expired. Please remove it.</string>
+
+    <string name="maincomponent_devtool_name">Developer Tool</string>
+    <string name="maincomponent_devtool_loglevel">Switch log output level</string>
+    <string name="maincomponent_devtool_open_log_console">Open the console log output</string>
+    <string name="maincomponent_devtool_close_log_console">Close the console log output</string>
+    <string name="maincomponent_devtool_zipdata">Compress the data directory and send it to yourself</string>
+    <string name="maincomponent_devtool_perform">Performance Testing</string>
+    <string name="maincomponent_devtool_show_component_version">View component version</string>
+    <string name="maincomponent_devtool_show_lightapp_update">View light app update process</string>
+    <string name="maincomponent_devtool_lightapp_update">Light app update process</string>
+    <string name="maincomponent_devtool_component_version">Component version</string>
+    <string name="maincomponent_devtool_lazy_com_tracker">Lazy loading component tracking switch</string>
+    <string name="maincomponent_devtool_lazy_com_tracker_viewer">Lazy loading component tracking view</string>
+    <string name="maincomponent_devtool_generate_scheme_url">生成scheme地址</string>
+    <string name="maincomponent_devtool_lazy_com_track_select">懒加载组件追踪</string>
+    <string name="maincomponent_devtool_performance_monitor">Performance monitoring</string>
+    <string name="maincomponent_devtool_webview_core">Configuring webview kernel</string>
+    <string name="maincomponent_devtool_webview_x5_version">View X5 kernel version</string>
+    <string name="maincomponent_devtool_webview_core_select">Please select webview kernel (invalid if restarted)</string>
+    <string name="maincomponent_devtool_webview_core_changed">Webview kernel has been switched to:</string>
+    <string name="maincomponent_devtool_net_monitor">Data monitoring</string>
+    <string name="maincomponent_devtool_UI_monitor">Main thread time-consuming monitoring</string>
+    <string name="maincomponent_devtool_UI_monitor_config">Configuration monitor</string>
+    <string name="maincomponent_devtool_UI_monitor_open">Turn on the monitor</string>
+    <string name="maincomponent_devtool_UI_monitor_close">Turn off the monitor</string>
+    <string name="maincomponent_devtool_UI_monitor_show">Display monitoring data</string>
+    <string name="maincomponent_devtool_UI_monitor_show_list">Monitoring data list</string>
+
+    <!--Toast-->
+    <string name="maincomponent_devtool_UI_monitor_open_toast">Monitor is ON</string>
+    <string name="maincomponent_devtool_UI_monitor_close_toast">Monitor is OFF</string>
+    <string name="maincomponent_devtool_UI_monitor_openfirst_toast">Please turn on the monitor first</string>
+    <string name="maincomponent_devtool_UI_monitor_loading">Loading...</string>
+
+    <string name="maincomponent_devtool_UI_monitor_openMonitorOnStartup">Whether to enable monitor when starting</string>
+    <string name="maincomponent_devtool_UI_monitor_isSendToSelf">Whether to send monitoring data to yourself</string>
+    <string name="maincomponent_devtool_UI_monitor_isUploadToServer">Whether to upload abnormal monitoring data</string>
+    <string name="maincomponent_devtool_UI_monitor_timeCostThreshold">Set time-consuming reporting threshold for main thread processing event</string>
+    <string name="maincomponent_devtool_UI_monitor_timeCostThreshold_content">The current reported threshold is %sms</string>
+
+    <string name="maincomponent_devtool_ShowWebviewLog">View webview console log</string>
+    <string name="maincomponent_devtool_webviewLog">Webview console log</string>
+    <string name="maincomponent_devtool_webviewLog_send2IM">Send webview console log to yourself?</string>
+    <string name="maincomponent_devtool_webviewLog_toast">Long press Item to send log file to yourself</string>
+    <string name="maincomponent_devtool_enable_upload_exception">Whether to enable abnormal reporting</string>
+    <string name="maincomponent_devtool_enable_upload_exception_toast">Whether abnormal reporting is available:</string>
+
+    <string name="maincomponent_start_time_patch_sendself">Send a JSON file to yourself</string>
+    <string name="maincomponent_start_time_patch_sendself_success">Send a JSON file to yourself successfully</string>
+    <string name="maincomponent_start_time_patch_sendself_fail">Sending a JSON file to yourself failed</string>
+    <string name="maincomponent_start_time_patch_generate">Generate files in bulk and send yourself (IM)</string>
+    <string name="maincomponent_start_time_patch_upload">Batch delivery provider</string>
+    <string name="maincomponent_start_time_upload_already">Local data has already been uploaded, it\'s no need to upload repeatedly.</string>
+    <string name="maincomponent_start_time_upload_success">Data uploaded</string>
+    <string name="maincomponent_start_time_upload_success_partially">Partial data uploaded…</string>
+    <string name="maincomponent_start_time_upload_fail">Data uploading failed (Server problem, or the client automatically filters too long startup data)</string>
+    <string name="maincomponent_start_time_init_upload_host_fail">Initializing uploadHost failed</string>
+    <string name="maincomponent_start_time_generate_fail">File generation failed</string>
+    <string name="maincomponent_start_time_generate_fail_no_record">No startup record, file generation failed</string>
+    <string name="maincomponent_start_time_generate_success">The file is generated. The path is:</string>
+    <string name="maincomponent_start_time_clear">Data clearing</string>
+    <string name="maincomponent_start_time_clear_success">Data clearing success</string>
+    <string name="maincomponent_start_time_clear_fail">Failed to clear data</string>
+
+    <string name="maincomponent_gopage_for_QA">Switch</string>
+    <string name="maincomponent_gopage_for_QA_hint">Please enter the page URL here</string>
+
+    <string name="maincomponent_devtool_menu_send_to_myself">Send to yourself</string>
+    <string name="maincomponent_devtool_menu_about">About…</string>
+    <string name="maincomponent_devtool_component_caller_name">Caller component name</string>
+    <string name="maincomponent_devtool_component_caller_classname">Caller class name</string>
+    <string name="maincomponent_devtool_component_track_result_list">Tracking results</string>
+    <string name="maincomponent_devtool_pref_category_lazy_track">Component in lazy loading</string>
+    <string name="maincomponent_devtool_pref_title_lazy_track">Monitor the loading of lazy components</string>
+    <string name="maincomponent_devtool_pref_summary_lazy_track">Lazy loading components may be loaded ahead of time when the app launches. This is a switch that controls whether the tracking module is enabled for lazy component loading monitoring, only in the debug version. The switch will only take effect once and will be reset later.</string>
+    <string name="maincomponent_devtool_lazy_track_result">Lazy-component-track-result</string>
+    <string name="maincomponent_devtool_menu_rm_result">Delete report file</string>
+    <string name="maincomponent_devtool_not_debuggable">Lazy loading module only takes effect in debug version</string>
+
+    <string name="maincomponent_devtool_generate_scheme_for_url">需要生成scheme的页面地址 : </string>
+    <string name="maincomponent_devtool_generate_scheme_transcoding">是否需要转码 </string>
+    <string name="maincomponent_devtool_generate_scheme_generate">生成 </string>
+    <string name="maincomponent_devtool_generate_scheme_generate_test_html">生成h5测试页面</string>
+
+    <string name="maincomponent_devtool_perform_category">性能监控开关</string>
+    <string name="maincomponent_devtool_perform_title">是否开启性能监控</string>
+    <string name="maincomponent_devtool_perform_summary">性能监控，包含UI主线程耗时监控、组件启动耗时监控等；开关只会在下次app启动时生效一次，之后会被重置为关闭状态。</string>
+
+    <string name="maincomponent_accessibility_bottom_navigation">bottom navigation </string>
+    <string name="maincomponent_accessibility_tag">tag</string>
+    <string name="maincomponent_accessibility_unread_msg">number of unread messages</string>
+    <string name="maincomponent_accessibility_unit">"Item"</string>
+    <string name="maincomponent_accessibility_among">in total, now </string>
+    <string name="maincomponent_accessibility_selected">selected</string>
+    <string name="maincomponent_accessibility_wait_update">have update </string>
+    <string name="maincomponent_accessibility_large_number">more than 99 </string>
+
+    <string name="maincomponent_resign_confirm_title">Warning</string>
+    <string name="maincomponent_resign_confirm_content">The application you are currently using may be modified by a third party. Please download the installation file from the official website and reinstall it.</string>
+    <string name="maincomponent_resign_confirm_ignore">Continue to use</string>
+    <string name="maincomponent_resign_confirm_exit">Exit</string>
+
+    <string name="maincomponent_please_contact_the_customer_service_for_processing">please contact the customer service for processing.</string>
+
+    <string name="maincomponent_permission_dialog_title">Permission Settings</string>
+    <string name="maincomponent_permission_dialog_content">Please go to Settings -&gt; Applications -&gt; %s is to grant permission, otherwise the app will not work properly</string>
+
+   
+	<string name="maincomponent_dynamictab_dialog_content">Incorrect tab configuration. Please make sure: \n1. The "hidden" of default configuration "pages.json" is not "true". \n2. The "hidden" of dynamic tab configuration is not "true". \n3. Data exists in items and at least one configured page for each tab. View details in log.</string>
+    <string name="maincomponent_maintenance_advance_notice">Notice of Service Interruption</string>
+    <string name="maincomponent_do_not_mention_again">Don\'t remind me again</string>
+	<string name="maincomponent_running_on_emulator">The application is detected to be running on the emulator!</string>
+    <string name="maincomponent_running_on_root_device">The application is detected to be running on a rooted device!</string>
+	<string name="maincomponent_in_maintenance">正在停服中</string>
+    <string name="maincomponent_flow_menu">悬浮窗菜单</string>
+	<string name="maincomponent_maintenance_tip">维护时间：%s ~ %s</string>
+    <string name="maincomponent_maintenance_finish">停服已结束，请您重新启动应用。</string>
+	
+    <!--appfactory相关的资源-->
+    <string name="appfactory_sure">Confirm</string>
+    <string name="appfactory_apk_changed">Inconsistent application signing</string>
+    <string name="appfactory_log_level_all">Log switche to   max level</string>
+    <string name="appfactory_log_level_info">Log return to   default settings</string>
+    <string name="appfactory_409_title">Compatible Version Update</string>
+    <string name="appfactory_409_cancel">Exit</string>
+    <string name="appfactory_409_ok">Update</string>
+
+    <string name="appfactory_webview_retry">Retry</string>
+    <string name="appfactory_webview_more">More</string>
+    <string name="appfactory_webview_copy_url">Copy link</string>
+    <string name="appfactory_webview_open_with_browser">Open with browser </string>
+    <string name="appfactory_webview_refresh">Reload url</string>
+	<string name="appfactory_webview_fontsize">Font Size</string>
+	<string name="appfactory_webview_screenshot">Long screenshot</string>
+    <string name="appfactory_webview_webpage_not_available">Webpage not available</string>
+    <string name="appfactory_webview_network_is_useless">Bad network connection!</string>
+    <string name="appfactory_webview_load_page_fail">Page load error!</string>
+    <string name="appfactory_webview_return">Back</string>
+    <string name="appfactory_webview_copy_to_clipboard">Copied to clipboard</string>
+    <string name="appfactory_webview_is_not_url">The url can not use the browser to open!</string>
+    <string name="appfactory_webview_ssl_error">Security certificate error</string>
+    <string name="appfactory_webview_file_not_exist">This file doesn\'t exist.</string>
+    <string name="appfactory_webview_not_support_file_type">Unsupported type of file</string>
+    <string name="appfactory_webview_downloading">Downloading...</string>
+    <string name="appfactory_webview_security_warning">Safety warning</string>
+    <string name="appfactory_webview_warning_content">There is a problem with the security certificate for this site.</string>
+    <string name="appfactory_webview_continue">Continue</string>
+    <string name="appfactory_webview_ok">Confirm</string>
+    <string name="appfactory_webview_view_certification">View certificate</string>
+    <string name="appfactory_webview_security_certificate">Safety certificate</string>
+    <string name="certificate_issued_to">Issued to:</string>
+    <string name="certificate_common_name">Common name:</string>
+    <string name="certificate_organization">Organization:</string>
+    <string name="certificate_organization_unit">Organizational Unit:</string>
+    <string name="certificate_issued_by">Issuer:</string>
+    <string name="certificate_serial_number">Serial number:</string>
+    <string name="certificate_validity">Validity period:</string>
+    <string name="certificate_issued_on">Issue time:</string>
+    <string name="certificate_expires_on">Deadline:</string>
+    <string name="certificate_fingerprints">Fingerprint:</string>
+    <string name="certificate_sha_256">SHA-256 fingerprint:</string>
+    <string name="certificate_sha_1">SHA-1 fingerprint:</string>
+    <string name="appfactory_webview_view_page_info">View website information</string>
+    <string name="appfactory_webview_page_info">Website information</string>
+    <string name="appfactory_webview_address">Website:</string>
+    <string name="appfactory_activity_covered">Your interface is overwritten, please confirm that the application environment is safe!</string>
+    <string name="appfactory_webview_not_allow_full_screen">The video cannot be played full screen in home page.</string>
+    <string name="appfactory_oncreate_currentEnv_toast">The current operating environment is 64-bit. Please check if the .so file supports 64-bit and ensure that the application works properly!</string>
+
+    <string name="android_template_boot_page_not_correct">The landing page configuration is incorrect. Please check.</string>
+    <string name="android_template_confirm">Confirm</string>
+
+    <string name="appfactory_unknown_error">Unknown Error</string>
+    <string name="appfactory_invalid_url">Illegal url</string>
+    <string name="appfactory_component_not_found">Component not exist</string>
+    <string name="appfactory_page_not_found">The page is not defined</string>
+    <string name="appfactory_invalid_param">Param illegal</string>
+    <string name="appfactory_empty_url">Url invalid</string>
+    <string name="appfactory_invalid_protocol">Illegal protocol</string>
+
+    <string name="appfactory_light_update_service_notify">H5 update notification</string>
+
+    <!--webviewwrapper相关的资源-->
+    <string name="appfactory_webview_dialog_sure">Confirm</string>
+    <string name="appfactory_webview_dialog_cancel">Cancel</string>
+    <string name="appfactory_webview_dialog_tips">Webpage Prompt</string>
+	 
+    <!-- apf-stand-alone-update 相关的资源 -->
+    <string name="new_common_update_storage_not_enough">Not enough storage, can not update</string>
+    <string name="new_common_update_check_update_error">Check for update errors</string>
+    <string name="new_common_update_check_update_error_latest_version">This is the latest version.</string>
+    <string name="new_common_update_check_update_error_request" tools:ignore="UnusedResources">Invalid Parameter</string>
+    <string name="new_common_update_check_update_error_network">Network error, update failed</string>
+    <string name="new_common_update_check_update_error_json">jsonAnalysis error</string>
+    <string name="new_common_update_check_update_error_others">Other error</string>
+    <string name="new_common_update_check_update_error_downloading">Is upgrading.</string>
+    <string name="new_common_update_check_update_error_patching">Merging incremental packages</string>
+    <string name="new_common_update_download_patch_failed">增量包下载失败，请点重试按钮下载全量包!</string>
+    <string name="new_common_update_download_apk_failed">全量包下载失败，请点重试按钮重新下载!</string>
+    <string name="new_common_update_turn_on_download_manager">Please make sure Download Manager is running.</string>
+    <string name="new_common_update_file_error">Download file error!</string>
+    <string name="new_common_update_apk_exist">APK file already exists.</string>
+    <string name="new_common_update_network_unavailable">Network error</string>
+    <string name="new_common_update_download_content_without_name">new version found.</string>
+    <string name="new_common_update_download_content">new version:%s</string>
+    <string name="new_common_update_SDCard_unavailable">SD card unavailable, download upgrade package failed.</string>
+    <string name="new_common_update_update_now">Update</string>
+    <string name="new_common_update_retry">Retry</string>
+    <string name="new_common_update_pause">暂停更新，请点击重试按钮继续下载！</string>
+    <string name="new_common_update_not_wifi_download_tip">Upgrading software under paid network may cause extra fees. \n</string>
+    <string name="new_common_update_not_wifi_download_tip_toast">Upgrade will consume%1$sMB%2$s</string>
+    <string name="new_common_update_download_suceess">(Upgrade package download is complete)</string>
+    <string name="new_common_update_exist_app">Exit</string>
+    <string name="new_common_update_cancel">Cancel</string>
+    <string name="new_common_update_detect_version_on_crash">Detecting a new version …</string>
+    <string name="new_common_update_upgraded_tip">If you have updated to the latest version, please skip.</string>
+    <string name="new_common_update_tip_on_cancel">There is no way to cancel the emergency upgrade.</string>
+    <string name="new_common_update_skip">Skip</string>
+    <string name="new_common_update_try_to_check_update">Checking for updates</string>
+    <string name="new_common_update_safe_mode_introduction">The application may exit abnormally in the startup process. Please select the following repair method accordingly.</string>
+
+    <string name="new_common_update_download_notify">Installation file download notification</string>
+    <string name="new_common_update_network_change">The network environment has changed. If the download is interrupted, please try to check for updates.</string>
+    <string name="new_common_update_downloading">Do not exit the app during the upgrade</string>
+    <string name="new_common_update_archive_patch_notify">Merging incremental packages</string>
+    <string name="new_common_update_merge_patch_failed">增量包合并失败，请点重试按钮下载全量包!</string>
+    <string name="new_common_update_exit_app_toast">Press the back key again to exit the application</string>
+    <string name="new_common_update_disagree_uc_permission">隐私政策未征得用户同意，无法提供应用升级服务！</string>
+    <string name="new_common_update_clear_data">delete data</string>
+    <string name="new_common_update_clear_data_dialog_title">Do you want to delete app data?</string>
+    <string name="new_common_update_clear_data_dialog_message">All data of the application cannot be restored after deletion, including all files, settings, accounts, databases, etc.</string>
+    <string name="new_common_update_clear_data_dialog_delete_button">Delete</string>
+    <string name="new_common_update_clear_data_toast">Restarting the application, please wait...</string>
+
+	
+	<!-- apf-assemble 相关的资源 -->
+	<string name="apfassemble_permission_dialog_title">Permission Settings</string>
+    <string name="apfassemble_permission_dialog_content">Please enable %2$s in Settings -&gt; Applications -&gt; %1$s. Otherwise, the App will not work properly.</string>
+    <string name="apfassemble_confirm">Confirm</string>
+    <string name="apfassemble_storage_permissiom">Storage Permission</string>
+	
+	<!--mafgradle 相关的资源 -->
+	<string name="smartcanframe_commondown_service_notify">Download Notice</string>
+	<!--h5-implement 相关的资源 -->
+	<string name="h5_implement_redirecting">Jumping...</string>
+	<string name="h5_implement_redirect_fail">Jumping failed</string>
+	<string name="h5_implement_ssl_error_url">Original webpage address:</string>
+    <string name="h5_implement_ssl_error_title">SSL error details:</string>
+	<string name="h5_implement_permission_dialog_title">Permission Settings</string>
+    <string name="h5_implement_permission_dialog_content">Please enable %2$s in Settings -&gt; Applications -&gt; %1$s. Otherwise, the App will not work properly.</string>
+    <string name="h5_implement_confirm">Confirm</string>
+    <string name="h5_implement_storage_permission">Storage Permission</string>
+	<string name="smartcanframe_network_service_busy">Servers are busy. Please try again later.</string>
+	<string name="h5_implement_auth_title">Need to verify identity</string>
+    <string name="h5_implement_request_auth">%1$s can be used after logging in, please enter the site authentication user name and password. \nPlease pay special attention to identifying website information, please do not directly enter the user name and password of this application to prevent the disclosure of account password information!</string>
+    <string name="h5_implement_username"> Username  </string>
+    <string name="h5_implement_password">Password</string>
+	<string name="h5_implement_font_standard">Medium</string>
+	<string name="h5_implement_font_tip1">After setting, changing the font size of the webpage will only take effect for this visit.</string>
+    <string name="h5_implement_font_tip2">Adjusting the font may cause some pages to be mistyped.</string>
+	<string name="webcomponent_feature_ssl_certificate_expire">The system time is incorrect, please check and update the system time</string>
+	<string name="h5_implement_screen_shot_error">The content is too long and the generation failed</string>
+    <string name="h5_implement_screen_shot_ing">Taking screenshot...</string>
+    <string name="h5_implement_screen_shot_cancel">Cancel</string>
+    <string name="h5_implement_screen_shot_error2">Screenshot failed</string>
+    <string name="h5_implement_screen_shot_save_fail">Failed to save Image</string>
+    <string name="h5_implement_screen_shot_save_succe">Saved to gallery</string>
+	<string name="webcomponent_feature_download_manager">Download Manager</string>
+	<string name="webcomponent_feature_provide_by">由 %1$s 提供</string>
+	
+	<!--Webview 页面内查找的资源 begin -->
+    <string name="webcomponent_feature_findindpage_input">Find in the page</string>
+    <string name="webcomponent_feature_findindpage_result">%1$d/%2$d</string>
+    <string name="webcomponent_feature_findindpage_accessibility_result" tools:ignore="PluralsCandidate">Item %1$d of %2$d</string>
+    <string name="webcomponent_feature_findindpage_next_result">Find the next result</string>
+    <string name="webcomponent_feature_findindpage_previous_result">Find the previous result</string>
+    <string name="webcomponent_feature_findindpage_dismiss">Close search on page</string>
+	<string name="webcomponent_feature_add_float">加入浮窗</string>
+    <string name="webcomponent_feature_remove_float">移出浮窗</string>
+	<!--Webview 页面内查找的资源 end -->
+	
+	<!-- 下载管理器 begin -->
+	<string name="ext_downloadmanager_download_tip">Download</string>
+    <string name="ext_downloadmanager_ok">Confirm</string>
+    <string name="ext_downloadmanager_cancle">Cancel</string>
+    <string name="ext_downloadmanager_check_question">Do you want to download %1$s?</string>
+    <string name="ext_downloadmanager_task_type_private">Non-publicise</string>
+    <string name="ext_downloadmanager_task_type_web">Browser</string>
+    <string name="ext_downloadmanager_task_type_other">Other</string>
+    <string name="ext_downloadmanager_activity_title">Download Manager</string>
+    <string name="ext_downloadmanager_empty_task">No downloaded files</string>
+    <string name="ext_downloadmanager_file_no_found">File not found!</string>
+    <string name="ext_downloadmanager_not_support_file_type">Cannot open this type of file!</string>
+    <string name="ext_downloadmanager_has_delete">%1$s has been deleted!</string>
+    <string name="ext_downloadmanager_fail">Fail to download</string>
+    <string name="ext_downloadmanager_del_download">Delete download</string>
+    <string name="ext_downloadmanager_open_file">Open a file</string>
+    <string name="ext_downloadmanager_pause_download">Pause</string>
+    <string name="ext_downloadmanager_goon_download">Continue</string>
+    <string name="ext_downloadmanager_not_finish_download">The download is not complete!</string>
+    <string name="ext_downloadmanager_is_pausing">Paused</string>
+    <string name="ext_downloadmanager_is_downloading">Downloading …</string>
+    <string name="ext_downloadmanager_is_finished">The download is complete!</string>
+	<!-- 下载管理器 end -->
+</resources>

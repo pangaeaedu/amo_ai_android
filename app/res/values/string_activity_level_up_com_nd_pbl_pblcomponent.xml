@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--等级升级页面(临时方案, 之后会按ui修改)-->
+    <string name="starapp_life_level_up_ok">OK</string>
+</resources>

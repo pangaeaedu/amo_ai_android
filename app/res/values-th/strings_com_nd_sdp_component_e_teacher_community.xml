@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="etc_blank_char">\u3000</string>
+    <string name="etc_state_retry_text">รีเฟรช</string>
+    <string name="etc_state_empty_tips">ไม่มีเนื้อหา</string>
+    <string name="etc_state_empty_data">ไม่มีข้อมูล</string>
+    <string name="etc_state_fault_tips">อ๋อ มีข้อผิดพลาด ลองรีเฟรชดู</string>
+    <string name="etc_no">ไม่ใช่</string>
+    <string name="etc_yes">ใช่</string>
+    <string name="etc_all">ทั้งหมด</string>
+    <string name="etc_tips">เตือน</string>
+    <string name="etc_save">บันทึก</string>
+    <string name="etc_cancel">ยกเลิก</string>
+    <string name="etc_confirm">ตกลง</string>
+    <string name="etc_save_success">บันทึกสำเร็จ</string>
+    <string name="etc_delete_success">ลบสำเร็จ</string>
+    <string name="etc_count_res">%d ทรัพยากร</string>
+    <string name="etc_count_like">%1$s ถูกใจ</string>
+    <string name="etc_fill_immediately">เสร็จสิ้นทันที</string>
+    <string name="etc_mine_train">การอบรมของฉัน</string>
+    <string name="etc_mine_train_study">การเรียนรู้ตามความสามารถของตนเอง</string>
+    <string name="etc_mine_train_topic">อบรมเฉพาะ</string>
+    <string name="etc_mine_train_over">เสร็จสิ้นแล้ว</string>
+    <string name="etc_mine_train_doing">กำลังดำเนิน</string>
+    <string name="etc_mine_train_certificate">ใบรับรอง</string>
+    <string name="etc_mine_train_hours">ชั่วโมงการเรียนของฉัน</string>
+    <string name="etc_mine_train_hours_group">ปี %1$s</string>
+    <string name="etc_mine_master_train_progress_ratio_check">
+        <![CDATA[ลงชื่อเข้าร่วม&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;/&nbsp;ยังไม่ลงชื่อเข้าร่วม&nbsp;<font color="#F53F3F">%2$s</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_have">
+        <![CDATA[&nbsp;/&nbsp;งาน&nbsp;<font color="#1E62EC">ส่งแล้วรอการตรวจสอบ</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_none">
+        <![CDATA[&nbsp;/&nbsp;งาน&nbsp;<font color="#F53F3F">ยังไม่ส่ง</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_pass">
+        <![CDATA[&nbsp;/&nbsp;งาน&nbsp;<font color="#1E62EC">ผ่าน</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_fail">
+        <![CDATA[&nbsp;/&nbsp;งาน&nbsp;<font color="#F53F3F">ไม่ผ่าน</font>]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio">
+        <![CDATA[เรียนแล้ว&nbsp;<font color="#3461E3">%1$s</font>&nbsp;ชั่วโมง]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio_done_affirm">
+        <![CDATA[ได้รับการรับรองแล้ว&nbsp;<font color="#3461E3">%1$s</font>&nbsp;/&nbsp;การรับรอง&nbsp;%2$s&nbsp;ชั่วโมง]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio_wait_affirm">
+        <![CDATA[ได้รับการรับรองแล้ว&nbsp;<font color="#F53F3F">%1$s</font>&nbsp;/&nbsp;การรับรอง&nbsp;%2$s&nbsp;ชั่วโมง]]>
+    </string>
+    <string name="etc_mine_train_hours_group_value">
+        <![CDATA[ได้รับการรับรองแล้ว&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;ชั่วโมง&nbsp;/&nbsp;เรียนแล้ว&nbsp;<font color="#F53F3F">%2$s</font>&nbsp;ชั่วโมง]]>
+    </string>
+    <string name="etc_mine_train_hours_items_value">
+        <![CDATA[เรียนแล้ว&nbsp;<font color="#F53F3F">%1$s</font>&nbsp;ชั่วโมง]]>
+    </string>
+    <string name="etc_mine_train_hours_items_value_with_affirm">
+        <![CDATA[ได้รับการรับรองแล้ว&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;ชั่วโมง&nbsp;/&nbsp;เรียนแล้ว&nbsp;<font color="#F53F3F">%2$s</font>&nbsp;ชั่วโมง]]>
+    </string>
+    <string name="etc_tips_mine_train_fill_info">ต้องกรอกข้อมูลส่วนตัวให้ครบถ้วนก่อนเข้าร่วมการเรียนของคอร์สอบรม ไม่งั้นจะไม่สามารถบันทึกความคืบหน้าในการเรียน และรับรองชั่วโมงได้</string>
+    <string name="etc_tips_teacher_train_need_login">คอร์สอบรมต้องเข้าสู่ระบบก่อนเรียน กรุณาเข้าสู่ระบบก่อน</string>
+    <string name="etc_tips_teacher_train_role_invalid">คอร์สอบรมเปิดให้ครู ผู้วิจัยการศึกษา ผู้ดูแลระบบไฟฟ้า และผู้ดูแลระบบ เท่านั้น ไม่รองรับผู้ใช้อื่นเข้าร่วมการเรียน</string>
+    <string name="etc_archive_check_fill_base_error">กรุณากรอกข้อมูลพื้นฐาน</string>
+    <string name="etc_archive_check_fill_teach_error">กรุณาเพิ่มข้อมูลการสอนปัจจุบัน</string>
+    <string name="etc_archive_check_fill_learn_error">กรุณาเพิ่มประสบการณ์การศึกษาสำหรับครู</string>
+    <string name="etc_archive_check_none_teach_error">กรุณาเพิ่ม “ข้อมูลการสอนปัจจุบัน”</string>
+    <string name="etc_archive_check_none_teach_or_learn_error">กรุณาเพิ่ม “ข้อมูลการสอนปัจจุบัน” หรือ “ประสบการณ์การศึกษาสำหรับครู”</string>
+    <string name="etc_archive_check_base_edu_section">แพลตฟอร์มนี้เป็นแพลตฟอร์มการเรียนรู้สำหรับครูในระดับการศึกษาพื้นฐาน โปรดเข้าไปเรียนรู้ที่แพลตฟอร์มการเรียนรู้ที่เกี่ยวข้องสำหรับครูในการศึกษาวิชาชีพ และการศึกษาสูง</string>
+    <string name="etc_archive_check_base_edu_section_without_vocational">แพลตฟอร์มนี้เป็นแพลตฟอร์มการเรียนรู้สำหรับครูในระดับการศึกษาพื้นฐาน (ไม่รวมการศึกษาวิชาชีพ) โปรดเข้าไปเรียนรู้ที่แพลตฟอร์มการเรียนรู้ที่เกี่ยวข้องสำหรับครูในการศึกษาวิชาชีพ และการศึกษาสูง</string>
+    <string name="etc_archive_check_master_position">คอร์สอบรมนี้เปิดให้เฉพาะเลขาสหรัฐ และผู้อำนวยการเท่านั้น ไม่เปิดให้ผู้ใช้อื่นเข้าร่วมการเรียน</string>
+</resources>

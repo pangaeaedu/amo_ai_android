@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 带进度的圆形按钮 -->
+    <declare-styleable name="RoundProgressButton">
+        <attr name="ar_roundColor" format="color"/>
+        <attr name="ar_roundProgressColor" format="color"/>
+        <attr name="ar_roundWidth" format="dimension"/>
+        <attr name="ar_rpb_max" format="integer"/>
+        <attr name="ar_buttonSrcNormal" format="reference|color"/>
+        <attr name="ar_buttonSrcPressed" format="reference|color"/>
+        <attr name="ar_style">
+            <enum name="AR_STROKE" value="0"/>
+            <enum name="AR_FILL" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--循环播放背景图实现动画-->
+    <declare-styleable name="AudioCirculateBackgroundView">
+        <attr name="ar_cbv_src" format="reference"/>
+    </declare-styleable>
+</resources>

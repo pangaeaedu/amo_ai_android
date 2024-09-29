@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--我的二维码-->
+
+    <!--重置二维码按钮-->
+    <string name="starapp_life_qr_code_reset_button1">Reset QR code</string>
+    <string name="starapp_life_qr_code_reset_button2">Reset</string>
+    <!--重置二维码对话框标题-->
+    <string name="starapp_life_qr_code_reset_dialog_title">Whether to reset the QR code</string>
+    <!--重置二维码对话框内容-->
+    <string name="starapp_life_qr_code_reset_dialog_content">After resetting, you will get a new QR code, and the previous one will be invalid.</string>
+    <!--重置二维码loading-->
+    <string name="starapp_life_qr_code_loading_dialog_in_progress">Processing…</string>
+    <!--重置二维码error tip-->
+    <string name="starapp_life_qr_code_reset__error_tip">Failed to reset QR code, please try again</string>
+    <!--重置二维码转发-->
+    <string name="starapp_life_qr_code_forward">Forward</string>
+    <!--重置二维码保存-->
+    <string name="starapp_life_qr_code_download">Save</string>
+
+</resources>

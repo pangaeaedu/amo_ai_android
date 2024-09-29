@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!--动态皮肤-->
+    <!--一级标签颜色默认-->
+    <color name="ele_mf_rb_header_text_color_normal">@color/navigation_title_first_color</color>
+    <!--一级标签颜色选中-->
+    <color name="ele_mf_rb_header_text_color_checked">@color/navigation_title_first_pressed_color
+    </color>
+    <!--一级标签填充颜色-->
+    <color name="ele_mf_navigation_title_first_color">@color/transparent</color>
+    <!--一级标签框架颜色-->
+    <color name="ele_mf_navigation_title_frame_color">@color/navigation_title_frame_color</color>
+    <!--分割线颜色-->
+    <color name="ele_mf_color_common_view_divider">#cccccc</color>
+    <!--二级标签指示器颜色-->
+    <color name="ele_mf_tab_indicator_color">@color/navigation_title_second_line_color</color>
+    <!--二级标签文字颜色-->
+    <color name="ele_mf_tab_text_color">@color/navigation_title_second_color</color>
+    <!--二级标签文字选中颜色-->
+    <color name="ele_mf_tab_selected_text_color">@color/navigation_title_second_pressed_color
+    </color>
+    <!--二级标签背景色-->
+    <color name="ele_mf_tab_bg_color">#fff</color>
+    <!--二级标签分割线颜色-->
+    <color name="ele_mf_navigation_title_second_separate_color">
+        @color/navigation_title_second_separate_color
+    </color>
+
+    <color name="ele_mf_xstudy_color_tab_default_text_color">#d9e6ff</color>
+
+</resources>

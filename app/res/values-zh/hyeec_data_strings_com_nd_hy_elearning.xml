@@ -1,0 +1,8 @@
+<resources>
+    <!-- e-exam-center-data -->
+    <string name="hyeec_network_error">连接错误，请检查您的网络！</string>
+    <string name="hyeec_network_low">网络状态不佳，请稍后重试</string>
+    <string name="hyeec_data_error">数据解析错误，请重试</string>
+    <string name="hyeec_get_data_error">数据获取失败，请重试</string>
+    <string name="hyeec_server_time_error">获取服务端时间失败，请重试</string>
+</resources>

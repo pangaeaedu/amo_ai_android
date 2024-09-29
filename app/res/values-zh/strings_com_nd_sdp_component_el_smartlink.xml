@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="ele_sl_qr_code">二维码</string>
+
+    <string name="ele_sl_analysis_fail">二维码解析失败，请重试</string>
+    <string name="ele_sl_analysis_expired">二维码已过期</string>
+    <string name="ele_sl_param_empty_tip">%s参数不可为空</string>
+
+    <string name="ele_sl_qr_code_request_fail">抱歉，获取二维码失败了！</string>
+
+    <string name="ele_sl_click_retry">请点击重试</string>
+
+    <string name="ele_sl_save_to">已保存到</string>
+
+    <string name="ele_sl_permission_tip">您没有授权存储权限，请在设置中打开授权</string>
+
+    <string name="ele_sl_code_save_fail">保存失败,请重试: </string>
+
+
+</resources>

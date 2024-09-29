@@ -1,0 +1,14 @@
+<resources>
+    <string name="ele_mf_compulsory_open_class">公开课2</string>
+    <string name="ele_mf_compulsory_exam_center">测评中心</string>
+
+    <string name="ele_mf_compulsory_dropdown_search">搜索</string>
+    <string name="ele_mf_compulsory_dropdown_problem">答疑</string>
+    <string name="ele_mf_compulsory_dropdown_message">消息</string>
+    <string name="ele_mf_compulsory_dropdown_download">下载</string>
+    <string name="ele_mf_compulsory_dropdown_faq">选课说明</string>
+    <string name="ele_mf_compulsory_collection">收藏</string>
+	<string name="ele_mf_compulsory_mine">我</string>
+    <!--待翻译-->
+    <string name="ele_mf_subscribe">订阅</string>
+</resources>

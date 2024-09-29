@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="com_nd_cmn_ui_picker_title">Location</string>
+    <string name="com_nd_cmn_ui_picker_cancel">Cancel</string>
+    <string name="com_nd_cmn_ui_picker_ok">Confirm</string>
+    <string name="com_nd_cmn_ui_picker_tab_hint">Please select</string>
+</resources>

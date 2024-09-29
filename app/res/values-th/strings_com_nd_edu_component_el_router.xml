@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_router_swith_secretkey_failed">การกู้คืนคีย์ล้มเหลว โปรดออกจากโปรแกรมแล้วเข้าสู่อีกครั้ง</string>
+    <string name="el_router_loading">กำลังโหลด...</string>
+    <string name="el_router_the_school_microblog">โพสต์ทางเว็บของโรงเรียน</string>
+    <string name="el_router_component_is_not_exist">ฟังก์ชั่นยังไม่เปิด</string>
+    <string name="el_router_net_error_tips">การเชื่อมต่อเครือข่ายผิดพลาด โปรดลองใหม่</string>
+    <string name="el_router_data_error_tips">การวิเคราะห์ข้อมูลผิดพลาด โปรดลองใหม่</string>
+    <string name="el_router_dialog_app_line_content">แอปนี้มาแรงมาก ทุกคนกำลังใช้ ระบบเรียบร้อยแล้ว โปรดรอสักครู่แล้วลองใหม่</string>
+    <string name="el_router_dialog_app_line_ok">ฉันเข้าใจแล้ว</string>
+</resources>

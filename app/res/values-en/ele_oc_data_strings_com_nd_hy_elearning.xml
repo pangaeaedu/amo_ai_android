@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_oc_network_error">Network error. Please check your network connection.</string>
+    <string name="ele_oc_network_low">Poor network. Please try again later.</string>
+    <string name="ele_oc_data_error">Parse error. Please try again.</string>
+    <string name="ele_oc_service_error">Server failure</string>
+</resources>

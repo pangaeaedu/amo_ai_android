@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 背景  gradient是渐变,corners定义的是圆角 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/webcomponent_progressbar_bg_radius" />
+            <solid android:color="@color/webcomponent_progressbar_bg_color" />
+        </shape>
+    </item>
+    <!-- 第二条进度条颜色 -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/webcomponent_secondaryProgress_radius" />
+                <gradient
+                    android:angle="90.0"
+                    android:centerColor="@color/webcomponent_secondaryprogress_centercolor"
+                    android:centerY="0.45"
+                    android:endColor="@color/webcomponent_secondaryprogress_endcolor"
+                    android:startColor="@color/webcomponent_secondaryprogress_startcolor" />
+            </shape>
+        </clip>
+    </item>
+    <!-- 进度条 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/webcomponent_progressbar_radius" />
+                <solid android:color="@color/webcomponent_progressbar_color" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

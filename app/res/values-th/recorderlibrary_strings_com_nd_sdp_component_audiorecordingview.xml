@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="audio_record_oper_cancel">ยกเลิกการบันทึกเสียง</string>
+    <string name="audio_record_finger_move_to_cancel">ลากนิ้วขึ้นเพื่อยกเลิกการส่ง</string>
+    <string name="audio_record_finger_release_to_cancell">ปล่อยนิ้วเพื่อยกเลิกการส่ง</string>
+    <string name="audio_record_too_long">เสียงบันทึกเกินไป</string>
+    <string name="audio_record_too_short">เสียงบันทึกสั้นเกินไป</string>
+    <string name="audio_record_file_null">ไฟล์เสียงบันทึกผิดปกติ</string>
+    <string name="audio_record_file_not_exist">ไม่พบไฟล์เสียงบันทึก</string>
+    <string name="audio_record_failed">การบันทึกเสียงล้มเหลว โปรดตรวจสอบสิทธิ์การบันทึกเสียง</string>
+
+    <string name="audio_record_no_record_permission">ไม่มีสิทธิ์การบันทึกเสียง คุณสามารถเปิดสิทธิ์การบันทึกเสียงในการตั้งค่าแอป</string>
+</resources>

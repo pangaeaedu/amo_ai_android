@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="skin_uc_component_main_background">@color/skin_uc_component_main_background</drawable>
+    <drawable name="skin_uc_component_reset_password_background">@color/skin_uc_component_bg_color</drawable>
+    <drawable name="skin_uc_component_bg_input_frame">@color/skin_uc_component_login_edit_layout_background_color</drawable>
+    <drawable name="skin_uc_component_ic_mobile">@color/skin_uc_component_white</drawable>
+    <drawable name="skin_uc_component_ic_avatar_stroke">@color/skin_uc_component_white</drawable>
+    <drawable name="skin_uc_component_background_migrate_announcement">@color/skin_uc_component_white</drawable>
+    <drawable name="skin_uc_component_background_migrate_sms_login">@color/skin_uc_component_white</drawable>
+    <drawable name="skin_uc_component_background_migrate_avatar">@color/skin_uc_component_white</drawable>
+    <drawable name="skin_uc_component_btn_hollow_normal">@color/skin_uc_component_white</drawable>
+    <drawable name="skin_uc_component_btn_hollow_pressed">@color/skin_uc_component_white</drawable>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="light_update_service_notify">应用组件更新中</string>
+    <string name="lite_load_error">下载失败</string>
+    <string name="lite_load_error_not_exist">轻应用不存在</string>
+</resources>

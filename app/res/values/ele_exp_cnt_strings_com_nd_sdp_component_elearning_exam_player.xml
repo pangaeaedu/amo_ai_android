@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_exp_cnt_exercise_finish">End practice</string>
+    <string name="ele_exp_cnt_exercise_exit_review_video">Exit and review\nprevious content</string>
+    <string name="ele_exp_cnt_exercise_continue">Continue practice</string>
+    <string name="ele_exp_cnt_exercise_restart">Retry answering</string>
+    <string name="ele_exp_cnt_exercise_undo_tip">You have %1$d unanswered question(s). Exiting the practice will prevent you from accessing the videos later on.</string>
+</resources>

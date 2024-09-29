@@ -1,0 +1,5 @@
+<resources>
+    <string name="uivcs_vision_particle_avatar">头像图片</string>
+    <string name="uivcs_vision_particle_birthday">生日图片</string>
+    <string name="uivcs_vision_particle_icon">图片</string>
+</resources>

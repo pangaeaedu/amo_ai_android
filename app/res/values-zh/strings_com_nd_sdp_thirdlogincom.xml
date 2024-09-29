@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ThirdLoginComponent相关的资源 -->
+    <string name="third_login_component_qq">QQ登录</string>
+    <string name="third_login_component_wechat">微信登录</string>
+    <string name="third_login_component_weibo">微博登录</string>
+    <string name="third_login_component_facebook">Facebook登录</string>
+    <string name="third_login_component_twitter">Twitter登录</string>
+	<string name="third_login_component_nd99">99登录</string>
+	<string name="third_login_component_google">Google登录</string>
+	<string name="third_login_component_dropbox">Dropbox登录</string>
+	<string name="third_login_component_line">Line登录</string>
+	<string name="third_login_component_unt">北德登录</string>
+	<string name="third_login_component_pearson">培生登录</string>
+	<string name="third_login_component_edmodo">Edmodo登录</string>
+	<string name="third_login_component_edmodo_logout_title">登出 | Edmodo</string>
+</resources>

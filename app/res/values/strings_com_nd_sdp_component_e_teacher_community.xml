@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="etc_blank_char">\u3000</string>
+    <string name="etc_state_retry_text">refresh</string>
+    <string name="etc_state_empty_tips">Empty</string>
+    <string name="etc_state_empty_data">No data</string>
+    <string name="etc_state_fault_tips">Oops, something went wrong. Please try refreshing.</string>
+    <string name="etc_no">No</string>
+    <string name="etc_yes">Yes</string>
+    <string name="etc_all">All</string>
+    <string name="etc_tips">Prompt</string>
+    <string name="etc_save">Save</string>
+    <string name="etc_cancel">Cancel</string>
+    <string name="etc_confirm">Confirm</string>
+    <string name="etc_save_success">Saved</string>
+    <string name="etc_delete_success">Deleted</string>
+    <string name="etc_count_res">%d resources</string>
+    <string name="etc_count_like">%1$s Likes</string>
+    <string name="etc_fill_immediately">Complete immediately</string>
+    <string name="etc_mine_train">My training</string>
+    <string name="etc_mine_train_study">Self-selected study</string>
+    <string name="etc_mine_train_topic">Special training</string>
+    <string name="etc_mine_train_over">Ended</string>
+    <string name="etc_mine_train_doing">Ongoing</string>
+    <string name="etc_mine_train_certificate">Certificate</string>
+    <string name="etc_mine_train_hours">My study hours</string>
+    <string name="etc_mine_train_hours_group">%1$s year</string>
+    <string name="etc_mine_master_train_progress_ratio_check">
+        <![CDATA[Signed in&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;/&nbsp;Not signed in&nbsp;<font color="#F53F3F">%2$s</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_have">
+        <![CDATA[&nbsp;/&nbsp;Assignment&nbsp;<font color="#1E62EC">Submitted and pending review</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_none">
+        <![CDATA[&nbsp;/&nbsp;Assignment&nbsp;<font color="#F53F3F">Not submitted</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_pass">
+        <![CDATA[&nbsp;/&nbsp;Homework&nbsp;<font color="#1E62EC">Qualified</font>]]>
+    </string>
+    <string name="etc_mine_master_train_progress_ratio_report_fail">
+        <![CDATA[&nbsp;/&nbsp;Homework&nbsp;<font color="#F53F3F">Unqualified</font>]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio">
+        <![CDATA[Learned&nbsp;<font color="#3461E3">%1$s</font>&nbsp;hours]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio_done_affirm">
+        <![CDATA[Recognized&nbsp;<font color="#3461E3">%1$s</font>&nbsp;/&nbsp;Recognized&nbsp;%2$s&nbsp;hours]]>
+    </string>
+    <string name="etc_mine_train_progress_ratio_wait_affirm">
+        <![CDATA[Already identified&nbsp;<font color="#F53F3F">%1$s</font>&nbsp;/&nbsp;Identified&nbsp;%2$s&nbsp;class hours]]>
+    </string>
+    <string name="etc_mine_train_hours_group_value">
+        <![CDATA[Already identified&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;class hours&nbsp;/&nbsp;Already studied&nbsp;<font color="#F53F3F">%2$s</font>&nbsp;class hours]]>
+    </string>
+    <string name="etc_mine_train_hours_items_value">
+        <![CDATA[Learned&nbsp;<font color="#F53F3F">%1$s</font>&nbsp;hours]]>
+    </string>
+    <string name="etc_mine_train_hours_items_value_with_affirm">
+        <![CDATA[Already identified&nbsp;<font color="#1E62EC">%1$s</font>&nbsp;class hours&nbsp;/&nbsp;Already studied&nbsp;<font color="#F53F3F">%2$s</font>&nbsp;class hours]]>
+    </string>
+    <string name="etc_tips_mine_train_fill_info">You need to complete your personal information before you can participate in the course learning under the training, otherwise you will not be able to record learning progress and obtain course certification.</string>
+    <string name="etc_tips_teacher_train_need_login">Training courses can only be accessed after logging in, please log in first</string>
+    <string name="etc_tips_teacher_train_role_invalid">The training course is open to teachers, researchers, multimedia personnel, and administrators, and does not support other users for learning at the moment.</string>
+    <string name="etc_archive_check_fill_base_error">Please complete the basic information</string>
+    <string name="etc_archive_check_fill_teach_error">Please complete the current teaching information</string>
+    <string name="etc_archive_check_fill_learn_error">Please complete the normal education experience</string>
+    <string name="etc_archive_check_none_teach_error">Please add "Current Teaching Information"</string>
+    <string name="etc_archive_check_none_teach_or_learn_error">Please add "Current Teaching Information" or "Normal Education Experience"</string>
+    <string name="etc_archive_check_base_edu_section">This platform is for basic education teachers, vocational education and higher education teachers please go to the corresponding learning platform for study</string>
+    <string name="etc_archive_check_base_edu_section_without_vocational">This platform is a learning platform for basic education (excluding secondary vocational education) teachers. Vocational education and higher education teachers please go to the corresponding learning platform for learning</string>
+    <string name="etc_archive_check_master_position">This training is open to secretaries and principals, and is not open to other users for learning at the moment</string>
+</resources>

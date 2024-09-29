@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ele_mystudy_net_error_tips">ข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดลองอีกครั้ง</string>
+    <string name="ele_mystudy_data_error_tips">การแยกวิเคราะห์ข้อมูลผิดพลาด โปรดลองใหม่</string>
+    <string name="ele_mystudy_load_fail">โหลดล้มเหลว โปรดลอยลงเพื่อลองใหม่</string>
+    <string name="ele_mystudy_loading_wait">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="ele_mystudy_no_data">ไม่มีข้อมูล</string>
+    <string name="ele_mystudy_listview_loadfail">โหลดล้มเหลว กรุณาลองใหม่</string>
+    <string name="ele_mystudy_listview_loading">กำลังโหลด...</string>
+    <string name="ele_mystudy_listview_no_more_data">ไม่มีข้อมูลเพิ่มเติม</string>
+    <string name="ele_mystudy_train_intro_tab_rank_board">อันดับ</string>
+    <string name="ele_mystudy_study_mine_answer">คำถาม</string>
+    <string name="ele_mystudy_study_mine_download">ดาวน์โหลด</string>
+    <string name="ele_mystudy_study_mine_voucher">คูปอง</string>
+    <string name="ele_mystudy_study_mine_evaluation">การประเมิน</string>
+    <string name="ele_mystudy_study_mine_message">ข่าวสาร</string>
+    <string name="ele_mystudy_study_mine_myevaluation">การประเมินของฉัน</string>
+    <string name="ele_mystudy_exercise_header_note">บันทึก</string>
+    <string name="ele_mystudy_mine_learning">กำลังดำเนินการ</string>
+    <string name="ele_mystudy_mine_review">รอการตรวจสอบ</string>
+    <string name="ele_mystudy_mine_complete">เสร็จสิ้น</string>
+    <string name="ele_mystudy_mine_status_pass">ผ่าน</string>
+    <string name="ele_mystudy_mine_status_fail">ไม่ผ่าน</string>
+    <string name="ele_mystudy_mine_status_study">กำลังเรียน</string>
+    <string name="ele_mystudy_mine_status_comfirm">รอการตรวจสอบ</string>
+    <string name="ele_mystudy_mine_status_comfirm_reject">การตรวจสอบไม่ผ่าน</string>
+    <string name="ele_mystudy_mine_status_pay">รอการชำระเงิน</string>
+    <string name="ele_mystudy_mine_status_completed">เรียนจบแล้ว</string>
+    <string name="ele_mystudy_registration_cancelled">ยกเลิกการลงทะเบียน</string>
+    <string name="ele_mystudy_mine_learning_nodata">ไม่มีรายวิชาที่กำลังเรียน</string>
+    <string name="ele_mystudy_mine_complete_nodata">ยังไม่มีคอร์สที่เสร็จสิ้น</string>
+    <string name="ele_mystudy_mine_cancele_dialog_content">คุณแน่ใจหรือว่าต้องการยกเลิกการลงทะเบียน?</string>
+    <string name="ele_mystudy_mine_cancle_signup_success">ยกเลิกการลงทะเบียนสำเร็จ</string>
+    <string name="ele_mystudy_train_auth">การรับรองการฝึกอบรม</string>
+    <string name="ele_mystudy_open_course">คอร์สสาธารณะ</string>
+    <string name="ele_mystudy_mine_total_hour">รวม %1$s ชั่วโมง</string>
+    <string name="ele_mystudy_rank_minutes">%s นาที</string>
+    <string name="ele_mystudy_rank_hour_minutes">%1$s ชั่วโมง %2$s นาที</string>
+    <string name="ele_mystudy_mine_rank">อันดับของฉัน: %s</string>
+    <string name="ele_mystudy_cumulative_learning">การเรียนรวม</string>
+    <string name="ele_mystudy_mine_statistics_dec">เรียนมาแล้ว %1$s วัน, %2$s, เสร็จสิ้น %3$s คอร์ส</string>
+    <string name="ele_mystudy_mine_dec_default">ทั้งหมด-% วัน,- นาที, เสร็จสิ้น - รายวิชา</string>
+    <string name="ele_mystudy_mine_learning_continue">ทำต่อ</string>
+    <string name="ele_mystudy_mine_learning_start">เริ่ม</string>
+    <string name="ele_mystudy_train_course_last_learn">เรียนไปครั้งล่าสุด:</string>
+    <string name="ele_mystudy_str_last_learn">เรียนไปครั้งสุดท้าย:</string>
+    <!-- 测评相关-->
+    <string name="ele_mystudy_exam_begin_time_prefix">เริ่มเมื่อ: %s</string>
+    <string name="ele_mystudy_exam_best_status_disable">ไม่สามารถใช้ข้อสอบ</string>
+    <string name="ele_mystudy_exam_best_status_joining">สอบใหม่</string>
+    <string name="ele_mystudy_exam_best_status_marked_has_chance">ทำข้อสอบต่อ</string>
+    <string name="ele_mystudy_exam_best_status_marked_no_chance">ไม่มีโอกาสสอบ</string>
+    <string name="ele_mystudy_exam_best_status_prepare">ทำข้อสอบต่อ</string>
+    <string name="ele_mystudy_exam_best_status_ready">เริ่มสอบ</string>
+    <string name="ele_mystudy_exam_best_status_submit">รอการตรวจคำตอบ</string>
+    <string name="ele_mystudy_exam_best_status_unjoinAndFinished">สิ้นสุดแล้ว</string>
+    <string name="ele_mystudy_exam_best_status_waiting">เร็ว ๆ นี้เริ่ม</string>
+    <string name="ele_mystudy_exam_duration">ระยะเวลา: %s นาที</string>
+    <string name="ele_mystudy_exam_end_time_prefix">เสร็จสิ้นเมื่อ: %s</string>
+    <string name="ele_mystudy_exam_has_not_passed">ไม่ผ่าน: %s คะแนน</string>
+    <string name="ele_mystudy_exam_has_passed">ผ่านแล้ว：%s คะแนน</string>
+    <string name="ele_mystudy_exam_list_status_be_about_to_begin">เร็วๆ นี้เริ่ม</string>
+    <string name="ele_mystudy_exam_list_status_doing">กำลังดำเนินการ</string>
+    <string name="ele_mystudy_exam_list_status_has_completed">เสร็จสิ้นแล้ว</string>
+    <string name="ele_mystudy_exam_participated_people">คน</string>
+    <string name="ele_mystudy_period_status">เรียนแล้ว %1$s/%2$s ชั่วโมง</string>
+    <string name="ele_mystudy_period_status_for_task">มี %1$s งาน, คะแนนเฉลี่ย %2$s คะแนน</string>
+    <string name="ele_mystudy_period_status_for_task_has_completed">ทำงานเสร็จ%1$sงาน, คะแนนเฉลี่ย %2$s คะแนน</string>
+    <string name="ele_mystudy_period_status_for_task_total">รวม %1$s งาน</string>
+    <string name="ele_mystudy_optional_course">คอร์สเรียนที่เลือกเอง</string>
+    <!--2016/7/18新增-->
+    <string name="ele_mystudy_confirm_cancel">ยกเลิก</string>
+    <string name="ele_mystudy_confirm_sure">ตกลง</string>
+    <string name="ele_mystudy_search">ค้นหา</string>
+    <string name="ele_mystudy_search_more">ดูเพิ่มเติม</string>
+    <string name="ele_mystudy_recently_search">การค้นหาล่าสุด</string>
+    <string name="ele_mystudy_search_result_title">ทั้งหมด %s รายวิชา</string>
+    <string name="ele_mystudy_clean_search_history">ล้างประวัติการค้นหา</string>
+    <string name="ele_mystudy_empty_data">ไม่มีข้อมูล</string>
+    <string name="ele_mystudy_total_hour">%s ชั่วโมงเรียน</string>
+    <string name="ele_mystudy_user_count">%s คนเรียน</string>
+    <string name="ele_mystudy_delet">ลบ</string>
+    <string name="ele_mystudy_course_num">%s คอร์ส</string>
+    <string name="ele_mystudy_task_num">จำนวนงาน: %s</string>
+    <string name="ele_mystudy_exam_auth">การรับรองการสอบ</string>
+
+    <!-- 继续学习提醒对话框-->
+    <string name="ele_mystudy_remind_days_prefix">คุณได้เรียนภาษานี้มาแล้ว %s วัน</string>
+    <string name="ele_mystudy_remind_study_status">เรียนจบ %1$s คอร์ส ได้รับ %2$s ดาว</string>
+    <string name="ele_mystudy_remind_study_title">สวัสดี~%s, ยินดีต้อนรับกลับมา!</string>
+    <string name="ele_mystudy_remind_leave_task_count">(เหลืองานอีก %s งาน)</string>
+    <string name="ele_mystudy_remind_start_percent">%1$s/%2$s</string>
+    <string name="ele_mystudy_remind_more_then_tip">คอร์สเหล่านี้กำลังจะจบลงเร็วๆ นี้ มาเข้ามันเถอะ!</string>
+    <string name="ele_mystudy_remind_less_then_tip">คุณได้เรียนรายวิชาเหล่านี้ไปแล้ว คุณต้องการที่จะดำเนินการเรียนต่อหรือไม่!</string>
+    <string name="ele_mystudy_remind_no_tip">คุณยังไม่มีคอร์สในขณะที่เรียน ลองเลือกดูสิ อาจจะเป็นของคุณ</string>
+    <string name="ele_mystudy_remind_go_study">ไปเรียน</string>
+    <string name="ele_mystudy_remind_go_look">ไปดู</string>
+
+    <!--我的报名 -->
+    <string name="ele_mystudy_my_enroll_hearder_title">การลงทะเบียนของฉัน</string>
+    <string name="ele_mystudy_my_enroll_underway__tab_title">กำลังดำเนินการ</string>
+    <string name="ele_mystudy_my_enroll_completed_tab_title">เสร็จแล้ว</string>
+    <string name="ele_mystudy_my_enroll_status_end">เสร็จสิ้นแล้ว</string>
+    <string name="ele_mystudy_my_enroll_status_has_enrolled">ลงทะเบียนแล้ว</string>
+    <string name="ele_mystudy_my_enroll_status_has_cancel">ยกเลิกแล้ว</string>
+    <string name="ele_mystudy_my_enroll_status_pending">กำลังตรวจสอบ</string>
+    <string name="ele_mystudy_my_enroll_status_go_pay">ไปชำระเงิน</string>
+    <string name="ele_mystudy_my_enroll_status_pending_failed">การตรวจสอบไม่ผ่าน</string>
+    <string name="ele_mystudy_my_enroll_price">￥%s</string>
+    <string name="ele_mystudy_enroll_time_horizon_fmt">%1$s ถึง %2$s </string>
+    <string name="ele_mystudy_enroll_begin_time_prefix">เริ่มต้นเมื่อ: %s </string>
+    <string name="ele_mystudy_enroll_end_time_prefix">จบเมื่อ：%s </string>
+    <string name="ele_mystudy_enroll_operation_dialog_check_my_enroll_info">ข้อมูลการลงทะเบียนของฉัน</string>
+    <string name="ele_mystudy_enroll_operation_dialog_check_my_enroll_evidence">ใบลงทะเบียนของฉัน</string>
+    <string name="ele_mystudy_enroll_operation_dialog_cancel_enroll">ยกเลิกการลงทะเบียน</string>
+    <string name="ele_mystudy_enroll_operation_dialog_cancel">ยกเลิก</string>
+    <string name="ele_mystudy_enroll_cancel_enroll_dialog_confirm">ตกลง</string>
+    <string name="ele_mystudy_enroll_cancel_enroll_dialog_cancel">ยกเลิก</string>
+
+    <!--报名中（V5.3.1版本新增特性）-->
+    <string name="ele_mystudy_mine_obligations">กำลังรับสมัคร</string>
+    <string name="ele_mystudy_enroll_underway_status_wait_pay">รอการชำระเงิน</string>
+    <string name="ele_mystudy_enroll_underway_status_review">รอการตรวจสอบ</string>
+    <string name="ele_mystudy_enroll_underway_status_review_refuse">ไม่ผ่านการตรวจสอบ</string>
+    <string name="ele_mystudy_enroll_underway_status_perfect_data">ปรับปรุงข้อมูล</string>
+    <string name="ele_mystudy_enroll_underway_unknow_type">ประเภทที่ไม่ทราบ</string>
+    <string name="ele_mystudy_enroll_underway_course_count">%d คอร์ส</string>
+    <string name="ele_mystudy_enroll_underway_course_hour">%s ชั่วโมงเรียน</string>
+    <string name="ele_mystudy_enroll_underway_course_score">%s หน่วยกิต</string>
+    <string name="ele_mystudy_main_title">การเรียนของฉัน</string>
+    <string name="ele_mystudy_mine_title">ฉัน</string>
+    <string name="ele_mystudy_mine_collect">รายการโปรด</string>
+    <string name="ele_mystudy_mine_subscrib">สมัครสมาชิก</string>
+    <string name="ele_mystudy_mine_require">คอร์สที่ต้องเรียน</string>
+    <string name="ele_mystudy_mine_task">งานของฉัน</string>
+
+    <!-- V6.0.1版本(20170526)新增-->
+    <string name="ele_mystudy_wrong_title">สมุดโจทย์</string>
+    <string name="ele_mystudy_certificate">ใบรับรอง</string>
+
+
+    <string name="ele_mystudy_coure_form">แหล่งที่มา: %s</string>
+    <string name="ele_mystudy_specialty">คอร์สวิชาชีพ</string>
+    <string name="ele_mystudy_course_required">วิชาที่ต้องเรียน</string>
+    <string name="ele_mystudy_offline_course">หลักสูตรแบบออฟไลน์</string>
+
+    <string name="ele_mystudy_business_type_teaching_course">คลาสการสอน</string>
+    <string name="ele_mystudy_business_type_exercise_course">คลาสฝึก</string>
+    <string name="ele_mystudy_business_type_offline_course">คอร์สออฟไลน์</string>
+
+    <string name="ele_mystudy_count">(%d)</string>
+    <string name="ele_mystudy_request">ความต้องการ:</string>
+    <string name="ele_mystudy_time_request">ระยะเวลาที่ต้องการ:</string>
+    <string name="ele_mystudy_accomplish_subtasks">เสร็จ%dงานย่อย</string>
+    <string name="ele_mystudy_main_center">ศูนย์การเรียนรู้</string>
+
+    <string name="el_mystudy_wait_completed">รอทำ</string>
+    <string name="el_mystudy_completed">เสร็จสิ้น</string>
+    <string name="el_mystudy_has_end">สิ้นสุดลงแล้ว</string>
+    <string name="el_mystudy_unqualified">ไม่ผ่าน</string>
+    <string name="el_mystudy_task_ended_status_tip">งานปัจจุบันถูกยุติแล้ว ไม่สามารถดูได้ค่ะ~</string>
+
+    <string name="ele_mystudy_message">ข้อความ</string>
+    <string name="ele_mystudy_download">ดาวน์โหลด</string>
+    <string name="ele_mystudy_offline_course2">หลักสูตรแบบออฟไลน์</string>
+    <string name="ele_mystudy_faq">คำอธิบายการเลือกบทเรียน</string>
+    <string name="ele_mystudy_collection">บุ๊คมาร์ก</string>
+    <string name="ele_mystudy_subscribe">สมัครสมาชิก</string>
+    <string name="ele_mystudy_my_interest">ความสนใจ</string>
+    <string name="ele_mystudy_shopping_cart">ตะกร้าสินค้า</string>
+    <string name="ele_mystudy_my_order">คำสั่งซื้อของฉัน</string>
+    <string name="ele_mystudy_live">ถ่ายทอดสด</string>
+    <string name="ele_mystudy_report">รายงาน</string>
+
+    <string name="ele_mystudy_no_study_task">ไม่มีงานเรียน</string>
+    <string name="ele_mystudy_no_study_courses">ไม่มีคอร์สการเรียน</string>
+    <string name="ele_mystudy_start_study">เริ่มเรียน</string>
+
+    <string name="ele_mystudy_filter_completed">เสร็จสิ้น</string>
+    <string name="ele_mystudy_filter_reset">รีเซ็ต</string>
+    <string name="ele_mystudy_filter_type_all">ทั้งหมด</string>
+    <string name="ele_mystudy_filter_type_teach_course">คอร์สการสอน</string>
+    <string name="ele_mystudy_filter_type_exercises_course">บทเรียนฝึก</string>
+    <string name="ele_mystudy_filter_type_live_course">บทเรียนสด</string>
+    <string name="ele_mystudy_filter_type_off_line_course">รายวิชาแบบออฟไลน์</string>
+    <string name="ele_mystudy_filter_type_open_course">เสร็จสิ้นแล้ว</string>
+    <string name="ele_mystudy_filter_type_train">การฝึกอบรม</string>
+    <string name="ele_mystudy_filter_type_train_plan">แผนการฝึกอบรม</string>
+    <string name="ele_mystudy_filter_type">ประเภท</string>
+    <string name="ele_mystudy_mine_not_start">ยังไม่เริ่ม</string>
+    <string name="ele_mystudy_mine_not_start_nodata">ไม่มีหลักสูตรที่ยังไม่เริ่ม</string>
+
+    <string name="ele_mystudy_mine_statistics_dec_new">เรียนมา %1$s วัน, เวลา %2$s, เสร็จ %3$s คอร์ส</string>
+	
+	
+	<string name="ele_mystudy_my_integral_tip">คะแนนของฉัน :</string>
+
+    <string name="ele_mystudy_ink_loading">กำลังโหลด......</string>
+
+    <string name="ele_mystudy_discover">ค้นหารายวิชา</string>
+
+    <string name="ele_mystudy_studies">การเรียน</string>
+
+    <string name="ele_mystudy_title_recent">เร็ว ๆ นี้</string>
+    <string name="ele_mystudy_title_all">ทั้งหมด</string>
+    <string name="ele_mystudy_empty_tip1">ไม่มีการเรียนการสอนที่กำหนด</string>
+    <string name="ele_mystudy_empty_tip2">ไปหาคอร์สที่น่าสนใจบ้างเถอะ!</string>
+    <string name="ele_mystudy_go_courses">ไปที่ศูนย์คอร์สดูดู</string>
+    <string name="ele_mystudy_cancel">ยกเลิก</string>
+    <string name="ele_mystudy_search_hint">ค้นหาคอร์ส</string>
+    <string name="ele_mystudy_clean_search_history_vod">ล้าง</string>
+    <string name="ele_mystudy_search_empty_tip1">ขออภัย ไม่พบเนื้อหาที่เกี่ยวข้อง</string>
+    <string name="ele_mystudy_search_empty_tip2">โปรดลองปรับลำดับการค้นหาหรือป้อนคำหลักใหม่</string>
+	
+	
+	
+	
+	
+	
+
+    <string name="ele_lc_tag_open_course">คอร์สสาธารณะ</string>
+    <string name="ele_lc_tag_auxo_train">การรับรองการฝึกอบรม</string>
+    <string name="ele_lc_tag_exam">การสอบ</string>
+    <string name="ele_lc_tag_auxo_specialty">คอร์สเชี่ยวชาญ</string>
+    <string name="ele_lc_tag_training_plan">แผนการศึกษา</string>
+
+    <string name="ele_lc_study_period">รวม %s ชั่วโมง</string>
+    <string name="ele_lc_study_period_2">รวมมี %s งาน</string>
+    <string name="ele_lc_study_period_3">รวม %s หน่วยกิต</string>
+    <string name="ele_lc_study_have_period">เรียนแล้ว %1$s/%2$s ชั่วโมง</string>
+    <string name="ele_lc_study_have_period_2">ทำเสร็จแล้ว %1$s งาน, คะแนนเฉลี่ย %2$s คะแนน</string>
+    <string name="ele_lc_study_have_period_3">เรียนแล้ว %1$s/%2$s หน่วยกิต</string>
+    <string name="ele_lc_last_study">เรียนไปถึงแล้ว: %1$s</string>
+    <string name="ele_lc_people">%s คน</string>
+    <string name="ele_lc_study_unit">%s ชั่วโมงการเรียน</string>
+    <string name="ele_lc_duration">ระยะเวลา: %d นาที</string>
+    <string name="ele_lc_begin_time">เริ่มต้นเมื่อ: %s</string>
+    <string name="ele_lc_end_time">จบเมื่อ: %s</string>
+
+    <string name="ele_lc_not_pass">ไม่ผ่าน</string>
+    <string name="ele_lc_wait_judge">รอการประเมิน</string>
+    <string name="ele_lc_pass">ผ่านแล้ว</string>
+
+    <string name="ele_lc_status_not_pass">ไม่ผ่าน</string>
+    <string name="ele_lc_status_pass">ผ่านแล้ว</string>
+    <string name="ele_lc_status_finished">เสร็จสิ้นแล้ว</string>
+    <string name="ele_lc_status_pending_audit">รอการตรวจสอบ</string>
+
+    <string name="ele_lc_continue">ดำเนินการต่อ</string>
+    <string name="ele_lc_start">เริ่ม</string>
+
+    <string-array name="ele_lc_pass_status"><item>@string/ele_lc_not_pass</item><item>@string/ele_lc_wait_judge</item><item>@string/ele_lc_pass</item></string-array>
+
+    <string name="ele_lc_op_peroid_not_enough">ไม่ได้รับเวลาเรียน</string>
+    <string name="ele_lc_op_exam_disable">ถูกปิด</string>
+    <string name="ele_lc_op_ready_to_start">เร็ว ๆ นี้</string>
+    <string name="ele_lc_op_learning">กำลังดำเนินการ</string>
+    <string name="ele_lc_op_exam_end">จบแล้ว</string>
+    <string name="ele_lc_op_run_out">ไม่มีโอกาสสอบ</string>
+    <string name="ele_lc_op_start_exam">เริ่มสอบ</string>
+    <string name="ele_lc_op_exam_again">สอบใหม่</string>
+    <string name="ele_lc_op_continue_exam">ทำข้อสอบต่อ</string>
+    <string name="ele_lc_op_to_judge">รอการตรวจ</string>
+
+    <string name="ele_lc_exam_pass_score">ผ่านแล้ว: %s คะแนน</string>
+    <string name="ele_lc_exam_not_pass_score">ไม่ผ่าน: %s คะแนน</string>
+
+    <string name="ele_lc_not_exam_score">ยังไม่มีผล</string>
+    <string name="ele_lc_mooc_exam_pass_score">ผ่าน: %s คะแนน</string>
+    <string name="ele_lc_mooc_exam_not_pass_score">ไม่ผ่าน: %s คะแนน</string>
+    <string name="ele_lc_mooc_exam_score_invisible">ไม่สามารถดูคะแนน</string>
+    <string name="ele_lc_mooc_exam_room">ห้องสอบ: %s</string>
+
+    <string name="ele_lc_mooc_exam_type_0">สอบปลายภาค</string>
+    <string name="ele_lc_mooc_exam_type_1">การสอบรับรองวุฒิวิชาชีพ</string>
+    <string name="ele_lc_mooc_exam_type_2">สอบปลายภาค</string>
+    <string name="ele_lc_mooc_exam_type_4">สอบแทน</string>
+    <string name="ele_lc_mooc_exam_type_5">สอบทบทวน</string>
+    <string name="ele_lc_mooc_exam_type_6">สอบกลางภาค</string>
+    <string name="ele_lc_mooc_exam_type_10">อื่น ๆ</string>
+    <string name="ele_lc_mooc_exam_type_12">การทดสอบประจำวัน</string>
+
+    <string name="ele_lc_mooc_grade_course_totle_course_score">หน่วยกิตรายวิชา: %s คะแนน</string>
+    <string name="ele_lc_mooc_grade_course_optional">วิชาเลือก</string>
+    <string name="ele_lc_mooc_grade_course_compulsory">ต้องเรียน</string>
+    <string name="ele_lc_mooc_grade_course_specname">สาขา: %s</string>
+    <string name="ele_lc_mooc_grade_course_grade">ระดับชั้น: %s</string>
+    <string name="ele_lc_percent_symbol_tip">เรียนแล้ว %d%%</string>
+    <string name="ele_lc_study_have_resource">เรียนแล้ว %1$s/%2$s แหล่งข้อมูล</string>
+    <string name="ele_lc_study_total_resources">รวมทั้งหมด %s รายการ</string>
+    <string name="ele_lc_percent_symbol">%d%%</string>
+    <string name="ele_lc_business_type_teaching_course">บทเรียน</string>
+    <string name="ele_lc_business_type_exercise_course">คลาสฝึก</string>
+    <string name="ele_lc_business_type_offline_course">คอร์สนอกเส้น</string>
+    <string name="ele_lc_business_type_live_course">บทเรียนสด</string>
+    <string name="ele_vt_experience">ทดลองฟรี</string>
+    <string name="ele_vt_unknown_type">ประเภทที่ไม่รู้จัก</string>
+    <string name="ele_vt_period">รอบ</string>
+
+    <string name="ele_mystudy_x_empty_tip1">เริ่มต้นการเรียนรู้ของคุณได้เลย</string>
+    <string name="ele_mystudy_x_empty_tip2">ทำให้ชีวิตของคุณเต็มไปด้วยความสุข</string>
+    <string name="ele_mystudy_x_user">ผู้ใช้</string>
+    <string name="ele_mystudy_x_filter_not_completed">ยังไม่เสร็จ</string>
+    <string name="ele_mystudy_x_study_history">บันทึกการเรียน</string>
+	
+	<string name="ele_mystudy_vod_study_nowadays">วันนี้</string>
+    <string name="ele_mystudy_vod_study_withina_week">ในอาทิตย์นี้</string>
+    <string name="ele_mystudy_vod_study_earlier">ก่อนหน้า</string>
+	
+	    <string name="ele_mystudy_mine_no_start_nodata">ไม่มีบทเรียนที่ยังไม่เริ่ม</string>
+    <string name="ele_mystudy_mine_compulsory_study_nodata">ไม่มีคอร์สที่ต้องเรียน</string>
+
+    <string name="ele_mystudy_all_course">หลักสูตรทั้งหมด</string>
+
+    <!--  以下为测试用  -->
+    <string name="test_x_study_plan_title">การเรียนของฉัน</string>
+    <string name="ele_mystudy_test_btn_x_embedded">หน้าต่างฝังภายในการเรียนของฉัน</string>
+    <string name="ele_mystudy_test_study_plan">แผนการเรียน</string>
+</resources>

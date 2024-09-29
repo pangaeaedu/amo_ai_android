@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--日事日清提醒设置页面-->
+    <!--标题-->
+    <string name="starapp_life_alert_setting_title">ตั้งค่าการแจ้งเตือนประจำวัน</string>
+    <string name="starapp_life_alert_setting_ok">ตกลง</string>
+    <!--提示语-->
+    <string name="starapp_life_alert_setting_comment">เปิดเตือนทำความสะอาดประจำวัน เพื่อช่วยคุณทำรายการทุกวัน</string>
+    <!--设置项:提醒开关-->
+    <string name="starapp_life_alert_setting_setting">เตือนทำความสะอาดประจำวัน</string>
+    <!--设置项:提醒时间-->
+    <string name="starapp_life_alert_setting_time">เวลาแจ้งเตือน</string>
+    <!--设置项:周-->
+    <string name="starapp_life_alert_setting_weekday_1">วันจันทร์</string>
+    <string name="starapp_life_alert_setting_weekday_2">วันอังคาร</string>
+    <string name="starapp_life_alert_setting_weekday_3">วันพุธ</string>
+    <string name="starapp_life_alert_setting_weekday_4">วันพฤหัสบดี</string>
+    <string name="starapp_life_alert_setting_weekday_5">วันศุกร์</string>
+    <string name="starapp_life_alert_setting_weekday_6">วันเสาร์</string>
+    <string name="starapp_life_alert_setting_weekday_7">วันอาทิตย์</string>
+    <!--对话框:标题-->
+    <string name="starapp_life_alert_dialog_title">การแจ้งเตือนทำความสะอาดประจำวัน</string>
+    <!--对话框:内容-->
+    <string name="starapp_life_alert_dialog_content">เหนื่อยมากO(∩_∩)O~~!\nอย่าลืมรับรางวัลการทำงานประจำวันนะyo~~</string>
+    <!--对话框:按钮-->
+    <string name="starapp_life_alert_dialog_close">ไม่ต้องเตือนอีกวันนี้</string>
+    <string name="starapp_life_alert_dialog_later">เตือนอีกครั้งหลังจากสิบนาที</string>
+    <string name="starapp_life_alert_dialog_goto">ไปยัง</string>
+    <!--设置:打开/关闭-->
+    <string name="starapp_life_alert_setting_value_open">เปิดแล้ว</string>
+    <string name="starapp_life_alert_setting_value_close">ปิดแล้ว</string>
+</resources>

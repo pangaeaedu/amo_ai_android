@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recorder_click_to_record">点击拍摄</string>
+    <string name="recorder_click_to_stop">点击停止</string>
+    <string name="recorder_click_to_play">点击播放</string>
+    <string name="recorder_cancel">取消</string>
+    <string name="recorder_redo">重录</string>
+    <string name="recorder_ok">确认</string>
+    <string name="recorder_picture">照片</string>
+    <string name="recorder_video">视频</string>
+    <string name="recorder_camera_preview_err">对不起，相机预览启动失败~</string>
+    <string name="recorder_confirm_give_up_video">确定放弃这条视频吗?</string>
+    <string name="recorder_min_time_limit">对不起，录制时间不能少于%ds</string>
+    <string name="recorder_camera_switch_fail">对不起，切换摄像头失败~</string>
+    <string name="recorder_create_video_thumb_error">对不起，缩略图生成失败~</string>
+    <string name="recorder_other_app_used_camera">无法打开相机，请检查是否授予摄像头使用权限和录音权限，或者检查摄像头是否当前被其他应用占用</string>
+    <string name="recorder_camera_unable">对不起，无可用摄像头</string>
+
+    <string name="recorder_access_cancel_to_record">取消录制视频</string>
+    <string name="recorder_access_switch_to_front">当前为后置摄像头，双击切换至前置摄像头</string>
+    <string name="recorder_access_switch_to_back">当前为前置摄像头，双击切换至后置摄像头</string>
+    <string name="recorder_access_begin_to_record">开始录制视频</string>
+    <string name="recorder_access_begin_to_play_record">停止录制视频成功，点击可播放录制的视频</string>
+    <string name="recorder_access_stop_to_record">停止录制视频</string>
+    <string name="recorder_access_flash_auto">当前闪光灯已打开，双击换至自动模式</string>
+    <string name="recorder_access_flash_close">当前闪光灯为自动模式，双击关闭闪光灯</string>
+    <string name="recorder_access_flash_open">当前闪光灯已关闭，双击打开闪光灯</string>
+    <string name="recorder_access_long_time_of_record">视频已录制%1$d秒</string>
+    <string name="recorder_access_record_activity">已进入录制视频界面</string>
+    <string name="recorder_access_redo">重新录制</string>
+    <string name="recorder_read_thumb_fail">读取缩略图失败</string>
+    <string name="recorder_share_microphone">有其他应用正在录音，录音可能存在异常</string>
+
+    <string name="recorder_max_duration_tip">点击拍摄视频，最长%1$s</string>
+    <string name="recorder_unit_min">分钟</string>
+    <string name="recorder_unit_second">秒</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_ui_gallery_plugin_detect_qr_code">สแกนคิวอาร์โค้ด</string>
+    <string name="common_ui_gallery_plugin_exception_toast_no_browse">ไม่ได้ติดตั้งเบราว์เซอร์!</string>
+    <string name="common_ui_gallery_plugin_save">บันทึก</string>
+    <string name="common_ui_gallery_plugin_save_completed">บันทึกสำเร็จ!</string>
+    <string name="common_ui_gallery_plugin_save_failed">การบันทึกไฟล์ล้มเหลว</string>
+    <string name="common_ui_gallery_plugin_share">แชร์</string>
+    <string name="common_ui_gallery_plugin_view_picture_in_browse">เปิดในเบราว์เซอร์</string>
+</resources>

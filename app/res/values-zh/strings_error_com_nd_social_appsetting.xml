@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--自定义错误码-->
+    <string name="SETTING_DEFAULT_ERROR">未知错误</string>
+    <string name="SETTING_FILE_NOT_EXIST">日志文件尚未生成</string>
+</resources>

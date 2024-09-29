@@ -1,0 +1,231 @@
+<resources>
+    <!--    所有语言包都放在这里，方便上传模板-->
+    <string name="e_course_v5_cancel">取消</string>
+    <string name="e_course_v5_course_detail">课程详情</string>
+    <string name="e_course_v5_course_intro">简介</string>
+    <string name="e_course_v5_course_catalog">目录</string>
+    <string name="e_course_v5_course_exam">考试</string>
+    <string name="e_course_v5_course_over">课程已结束</string>
+    <string name="e_course_v5_waiting_auditings">待审核</string>
+    <string name="e_course_v5_waiting_pay">待付款</string>
+    <string name="e_course_v5_guest">未报名</string>
+    <string name="e_course_v5_login_first">请先登录</string>
+    <string name="e_course_v5_offline_enroll">线下报名</string>
+    <string name="e_course_v5_will_begin">即将开课</string>
+    <string name="e_course_v5_start_study">开始学习</string>
+    <string name="e_course_v5_continue_study">继续学习</string>
+    <string name="e_course_v5_progress_total">已学%1$s/共%2$s学时</string>
+    <string name="e_course_v5_pass_way">通过方式</string>
+    <string name="e_course_v5_suit_user">适合人群</string>
+    <string name="e_course_v5_course_intro_detail">课程介绍</string>
+    <string name="e_course_v5_no_intro">暂无介绍</string>
+    <string name="e_course_v5_quit_learning">退出学习</string>
+    <string name="e_course_v5_course_share">分享</string>
+    <string name="e_course_v5_share_course_content">我正在学习【%s】,好课推荐,一起学习吧!</string>
+    <string name="e_course_v5_share_course_content_new">好课推荐,一起学习吧!</string>
+    <string name="e_course_v5_quit_study_tip">退出学习后，您将无法在学习中心查看到该课程。且针对报名课程，若要继续学习，需重新报名。确定退出学习吗？</string>
+    <string name="e_course_v5_quit_success">退出成功</string>
+    <string name="e_course_v5_course_alert">提示</string>
+    <string name="e_course_v5_confirm_sure">确定</string>
+    <string name="e_course_v5_enroll_first">请先报名</string>
+    <string name="e_course_v5_wait_course_start">未到开课时间</string>
+    <string name="e_course_v5_course_end">课程已结束</string>
+    <string name="e_course_v5_no_study_condition">不具备学习条件</string>
+    <string name="e_course_v5_rs_try">试学</string>
+    <string name="e_course_v5_rs_lock">顺序完成学习进行解锁</string>
+    <string name="i18n.page">页</string>
+    <string name="e_course_v5_main_free">免费</string>
+    <string name="e_course_v5_main_pass_way_note">注：通过状态更新可能存在延迟，最迟将在24h内更新。</string>
+    <string name="e_course_v5_course_available_time">学习有效期</string>
+    <string name="e_course_v5_view_video_introduction">观看课程视频简介</string>
+    <string name="e_course_v5_learning_avaliable_time">学习有效时间</string>
+    <string name="e_course_v5_course_time">%1$s - %2$s</string>
+    <string name="e_course_v5_enroll_avaliable_time">报名有效时间</string>
+    <string name="e_course_v5_main_car">购物车</string>
+    <string name="e_course_v5_listview_loadfail">加载失败，点击重试</string>
+    <string name="e_course_v5_listview_loading">加载中…</string>
+    <string name="e_course_v5_listview_no_more_data">没有更多数据啦</string>
+    <string name="e_course_v5_cs_course_user">在学人员</string>
+    <string name="e_course_v5_video_introduction">课程介绍视频</string>
+    <string name="e_course_v5_collection">收藏</string>
+    <string name="e_course_v5_cancel_collection">取消收藏</string>
+    <string name="e_course_v5_unavailable">哎呀，该内容被下架了</string>
+    <string name="e_course_v5_download_file_deleted">下列文件已被删除，请重新缓存: %s</string>
+    <string name="e_course_v5_next_res">继续下一个学习</string>
+    <string name="e_course_v5_activity_complete">恭喜完成本次学习</string>
+    <string name="e_course_v5_activity_next_countdown">%dS 后自动跳转进下一个学习任务</string>
+    <string name="e_course_v5_activity_all_complete">已完成本课学习</string>
+    <string name="e_course_v5_activity_replay">重播</string>
+    <string name="e_course_v5_offline_course">离线课本</string>
+    <string name="e_course_v5_doc_page">%1$d页</string>
+    <string name="e_course_v5_paper_question_count">共%1$d题</string>
+
+    <string name="e_course_v5_cha_loading">正在努力加载中…</string>
+    <string name="e_course_v5_cha_network_fail">哎呀，网络丢了</string>
+    <string name="e_course_v5_cha_try_refresh">试试刷新</string>
+    <string name="e_course_v5_cha_course_book">课本</string>
+    <string name="e_course_v5_cha_course_book_title">《%s》</string>
+    <string name="e_course_v5_cha_student_num">%d人在学</string>
+    <string name="e_course_v5_cha_resource">学习清单</string>
+    <string name="e_course_v5_cha_lecturer">讲师</string>
+    <string name="e_course_v5_cha_lecturer_greeting">感谢所有为资源建设提供资料的单位和个人</string>
+    <string name="e_course_v5_cha_load_fail">哎呀，出错了</string>
+    <string name="e_course_v5_cha_see_other">看看其它的</string>
+    <string name="e_course_v5_cha_course_lost">哎呀，课程找不到了</string>
+
+    <string name="e_course_v5_cha_network_error">网络异常</string>
+    <string name="e_course_v5_cha_check_network">检查看看手机是否开启\n移动网络或WIFI</string>
+    <string name="e_course_v5_cha_check_setting">检查设置</string>
+    <string name="e_course_v5_cha_unknown_resource">资源打开方式错误</string>
+    <string name="e_course_v5_cha_start_study">开始学习</string>
+    <string name="e_course_v5_cha_study_again">再学一遍</string>
+    <string name="e_course_v5_cha_last_study">上次看到</string>
+    <string name="e_course_v5_cha_rd_hang_up_tip">系统设置为不允许在多处同时学习</string>
+    <string name="e_course_v5_cha_login_dialog_tip">登录/注册账号，观看精彩课程</string>
+    <string name="e_course_v5_cha_no_need">暂不需要</string>
+    <string name="e_course_v5_cha_login_register">登录/注册</string>
+    <string name="e_course_v5_cha_network_check_tip">网络连接异常，请检查网络</string>
+
+    <string name="e_course_v5_cha_vd_play_finished">视频播放完毕</string>
+    <string name="e_course_v5_cha_vd_audio_playing">音频播放中</string>
+    <string name="e_course_v5_cha_vd_switch_to_video">切回视频</string>
+    <string name="e_course_v5_cha_vd_back_play_tip">锁屏和退到后台都可以继续收听声音</string>
+    <string name="e_course_v5_cha_vd_go_back">返回</string>
+    <string name="e_course_vd_cha_v5_close">关闭</string>
+    <string name="e_course_v5_cha_vd_play">播放</string>
+    <string name="e_course_v5_cha_vd_fullscreen">全屏</string>
+    <string name="e_course_v5_cha_vd_quit_tip">%ds后即将退出播放</string>
+    <string name="e_course_v5_cha_vd_cancel">取消</string>
+    <string name="e_course_v5_cha_vd_audio_only">只听音频</string>
+    <string name="e_course_v5_cha_vd_video_mode">视频模式</string>
+    <string name="e_course_v5_cha_vd_auto_play_next_res">自动播放下一资源</string>
+    <string name="e_course_v5_cha_vd_not_open">不开启</string>
+    <string name="e_course_v5_cha_vd_finish_current">播完当前</string>
+    <string name="e_course_v5_cha_vd_timing_10">10:00</string>
+    <string name="e_course_v5_cha_vd_timing_20">20:00</string>
+    <string name="e_course_v5_cha_vd_timing_30">30:00</string>
+    <string name="e_course_v5_cha_vd_timing_quit">定时退出播放</string>
+    <string name="e_course_v5_cha_vd_break_point_exercise">断点练习%d</string>
+    <string name="e_course_v5_cha_vd_redo">再做一次</string>
+    <string name="e_course_v5_cha_vd_replay">重新播放</string>
+    <string name="e_course_v5_cha_vd_experience_login_tip">可试学%s,查看完整内容请登录</string>
+    <string name="e_course_v5_cha_vd_experience_sign_tip">可试学%s,查看完整内容请报名</string>
+    <string name="e_course_v5_cha_vd_experience_finish_login_tip">试学已结束，请登录后查看完整内容</string>
+    <string name="e_course_v5_cha_vd_experience_finish_sign_tip">试学已结束，请报名后查看完整内容</string>
+    <string name="e_course_v5_cha_vd_remain_time_minute">%d分钟</string>
+    <string name="e_course_v5_cha_vd_remain_time_hour">%d小时</string>
+    <string name="e_course_v5_cha_vd_remain_time_second">%d秒</string>
+    <string name="e_course_v5_cha_vd_experience_min_second">%1$d分%2$d秒</string>
+    <string name="e_course_v5_cha_vd_play_rate_75X">0.75X</string>
+    <string name="e_course_v5_cha_vd_play_rate_200X">2.0X</string>
+    <string name="e_course_v5_cha_vd_play_rate_200X_new">2.0X</string>
+    <string name="e_course_v5_cha_vd_is_pause">暂停播放</string>
+    <string name="e_course_v5_cha_vd_remain_time_minute_second">%1$d分%2$d秒</string>
+    <string name="e_course_v5_cha_vd_remain_time_hour_minute">%1$d小时%2$d分</string>
+    <string name="e_course_v5_cha_vd_remain_time_day_hour">%1$d天%2$d小时</string>
+    <string name="e_course_v5_cha_vd_remain_time_hour_minute_second">%1$d小时%2$d分%3$d秒</string>
+    <string name="e_course_v5_cha_vd_remain_time_day_hour_minute">%1$d天%2$d小时%3$d分</string>
+    <string name="e_course_v5_cha_vd_remain_time_day_hour_minute_second">%1$d天%2$d小时%3$d分%4$d秒</string>
+    <string name="e_course_v5_cha_vd_hang_up_tip">系统设置为不允许在多处同时学习</string>
+
+    <string name="e_course_v5_cha_share">分享</string>
+    <string name="e_course_v5_cha_projection">投屏</string>
+    <string name="e_course_v5_cha_offline_course">离线课程</string>
+    <string name="e_course_v5_cha_share_resource_title">%1$s - %2$s</string>
+    <string name="e_course_v5_cha_share_video_title">视频 - %s</string>
+    <string name="e_course_v5_cha_share_doc_title">文档 - %s</string>
+    <string name="e_course_v5_cha_share_content">《%s》</string>
+    <string name="e_course_v5_cha_has_download">已缓存</string>
+    <string name="e_course_v5_cha_playing_download_video">正在播放已缓存的视频</string>
+    <string name="e_course_v5_cha_playing_download_document">正在播放已缓存的文档</string>
+
+    <string name="cha_consult">提问</string>
+    <string name="cha_login_before_consult">登录/注册账号后即可提问</string>
+
+    <string name="xst_course_teacher">授课教师</string>
+    <string name="xst_course_catalog">学习清单</string>
+    <string name="xst_teacher_course">教师研修</string>
+    <string name="xst_course_provider">提供</string>
+
+    <string name="tcourse_ex_course_intro">课程简介</string>
+    <string name="tcourse_ex_course_catalog">课程大纲</string>
+    <string name="tcourse_ex_course_recommend">推荐课程</string>
+    <string name="xst_course_recommend">相关推荐</string>
+
+    <string name="xst_ocourse_info_title">劳动教育</string>
+    <string name="xst_course_summary">课程简介</string>
+    <string name="tcourse_no_data_tip">暂无数据</string>
+    <string name="tcourse_course_count">%1$d 资源</string>
+    <string name="xst_course_access_check_fail">权限检测失败</string>
+
+    <string name="xst_course_access_login_content">您还未登录，请登录后使用</string>
+    <string name="xst_course_format_praise">%s点赞</string>
+
+    <string name="e_course_v5_cha_last_study_n">上次看到：%s</string>
+    <string name="e_course_v5_cha_last_listener_n">上次听到：%s</string>
+    <string name="e_course_v5_cha_study_finish">恭喜学习完本课程，你觉得这门课程怎么样？</string>
+    <string name="e_course_v5_cha_study_score">前往评分</string>
+
+    <string name="xst_course_teach_homework">课程作业</string>
+
+    <string name="xst_course_teacher_role">主讲人</string>
+    <string name="xst_course_advisor_role">指导教师</string>
+
+    <string name="xst_course_cha_resource_tag_city_excellent">市优</string>
+    <string name="xst_course_cha_resource_tag_province_excellent">省优</string>
+    <string name="xst_course_cha_resource_tag_unit_excellent">部优</string>
+
+    <string name="xst_course_lite_lesson_master">授课教师：</string>
+    <string name="xst_course_lite_lesson_lecture_space">&#160;&#160;&#160;&#160;</string>
+    <string name="xst_course_lite_lesson_assistant">指导教师：</string>
+
+    <string name="xst_experiment_course_speaker_teacher">主讲人</string>
+    <string name="xst_experiment_course_speaker_teacher_format">
+        <![CDATA[主讲人：<font color="#666666">%1$s</font>]]>
+    </string>
+    <string name="xst_experiment_course_publish_time">发布时间</string>
+    <string name="xst_experiment_course_school_text">所属学校</string>
+    <string name="xst_experiment_course_area_text">所属地区</string>
+    <string name="xst_experiment_course_catalog_collapse">收起</string>
+    <string name="xst_experiment_course_catalog_expand">查看更多</string>
+    <string name="xst_experiment_course_coauthor">共同作者</string>
+
+    <string name="xst_course_study_download">离线下载</string>
+    <string name="xst_course_recent_materials">常用教材</string>
+
+    <string name="xst_course_more_more_courses">更多课程</string>
+    <string name="xst_course_more_recommend_courses">相关推荐</string>
+
+    <string name="xst_course_teaching_material">电子教材</string>
+    <string name="xst_course_basic_homework">基础性作业</string>
+    <string name="xst_course_prepare_lesson_resources">备课资源</string>
+    <string name="xst_course_res_waiting">敬请期待</string>
+    <string name="xst_course_choose_res">请选择资源</string>
+    <string name="xst_course_choose_res_count">已选择%d个资源，共%d个资源</string>
+
+    <string name="xst_course_hour_res">课时资源</string>
+    <string name="xst_course_add_res">存到我的资源库</string>
+    <string name="xst_course_add_res_fail">存到资源库失败</string>
+    <string name="xst_course_add_res_success">已存到【我-我的资源库】</string>
+    <string name="xst_course_interact_download">下载</string>
+    <string name="xst_course_add_to_doc_center">存到资源库</string>
+    <string name="xst_course_add_library_not_support">该资源不支持存到资源库</string>
+    <string name="xst_course_print_exam">打印试卷</string>
+    <string name="xst_course_print">打印</string>
+
+    <string name="tcourse_live_watch">%1$d观看</string>
+    <string name="tcourse_train_kick_tip">你已在其他端进入学习，本端自动暂停学习。</string>
+    <string name="tcourse_hack_user_tip">你的学习记录被判定为异常，请重新学习课程。</string>
+    <string name="tcourse_discussion">课程讨论</string>
+
+    <string name="tcourse_sign_in">签到</string>
+    <string name="tcourse_signed_in">已签到</string>
+    <string name="tcourse_not_sign_in">未签到</string>
+    <string name="tcourse_invalid_sign_in">签到无效</string>
+    <string name="tcourse_sign_in_success">签到成功</string>
+    <string name="tcourse_tips_not_in_sign_in_time">当前不在可签到时间内</string>
+    <string name="tcourse_sign_in_time_period">可签到时间段：%1$s</string>
+    <string name="xst_course_click_view_doc">点击查看</string>
+    <string name="xst_course_doc_count">共%d页</string>
+
+</resources>

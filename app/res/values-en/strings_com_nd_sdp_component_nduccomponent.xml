@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="nduc_mobile_register">Sign up by mobile</string>
+    <string name="nduc_login">Login</string>
+    <string name="nduc_register">Register</string>
+
+    <string name="nduc_input_mobile_pwd">Please enter a password of 8~16 digits</string>
+    <string name="nduc_input_mobile_pwd_length_invalid">The password length should be between 8 and 16 digits in length, without spaces.</string>
+    <string name="nduc_input_mobile_pwd_compose_invalid">It should include at least three of uppercase letters, lowercase letters, numbers, and special characters.</string>
+
+    <string name="nduc_verification_code_tip">To protect your account, please complete the verification below</string>
+    <string name="nduc_registed_mobile_message">The phone number %s has registered. You can log in directly.</string>
+    <string name="nduc_reinput">Re-enter</string>
+    <string name="nduc_input_code">Please enter the OTP</string>
+    <string name="nduc_input_code_please">Please enter the OTP</string>
+    <string name="nduc_get_code_fail">Failed to get verification code</string>
+    <string name="nduc_input_code_tip">A verification code has been sent to %s via SMS. Please enter the code</string>
+    <string name="nduc_input_email_code_tip">A verification code has been sent to %s via Email, please enter the code</string>
+    <string name="nduc_count_down">Resend in %dss</string>
+    <string name="nduc_reget_code">regain captcha</string>
+    <string name="nduc_input_correct_account">please enter a valid account</string>
+    <string name="nduc_unregister_mobile_message">The phone number %s has not been registered.</string>
+    <string name="nduc_unregister_email_message">This email %s has not been registered. Please register first.</string>
+    <string name="nduc_important_tip">Important tips</string>
+    <string name="nduc_email_bind_mobile_tip">For the security of your account, please bind the phone number to help you better use the platform features.</string>
+    <string name="nduc_unbind_mobile_tip">Not bound yet</string>
+    <string name="nduc_bind_mobile_tip">Bind mobile</string>
+
+    <!-- 通用 -->
+    <string name="nduc_complete">Finish</string>
+    <string name="nduc_china_region_code">+86</string>
+    <string name="nduc_empty"> </string>
+    <string name="nduc_cancel">Cancel</string>
+    <string name="nduc_network_error_tip">Network error. Please check network settings or refresh the page</string>
+    <string name="nduc_refresh">refresh</string>
+
+    <!-- 登录 -->
+    <string name="nduc_login_fail">Failed</string>
+    <string name="nduc_login_success">Succeeded!</string>
+    <string name="nduc_please_input_password">Enter password</string>
+    <string name="nduc_customs_tip_text">Customer service: %s (Monday to Friday, 8:30 AM to 5:00 PM).</string>
+
+    <!-- 设置密码页面 -->
+    <string name="nduc_set_password">password</string>
+    <string name="nduc_register_completed">Complete registration</string>
+    <string name="nduc_register_fail">Failed to sign up</string>
+    <string name="nduc_modify">Modify</string>
+    <string name="nduc_bind_complete">Complete binding</string>
+    <string name="nduc_bind_fail">Failed to bind</string>
+    <string name="nduc_bind_success">Success</string>
+
+    <!-- 工号登录页面 -->
+    <string name="nduc_org_login">Job number</string>
+    <string name="nduc_choose_org">Select Organization</string>
+    <string name="nduc_please_select_org">Please choose the organization</string>
+    <string name="nduc_please_input_org_code">Please enter your User ID</string>
+    <string name="nduc_org_bind_success">Succeeded</string>
+    <string name="nduc_org_bind_fail">Failed</string>
+
+    <!-- 检测 -> 绑定手机 -->
+    <string name="nduc_title_bind_mobile">binding</string>
+    <string name="nduc_mobile_bound">The phone number is already bound. Please re-enter.</string>
+
+    <!-- 检测 -> 绑定邮箱 -->
+    <string name="nduc_title_bind_email">Bond the Email Address</string>
+    <string name="nduc_email_bound">This email address is already bound. Please re-enter.</string>
+
+    <!-- 检测 -> 绑定101帐户 -->
+    <string name="nduc_title_bind_person_account">Bind person account</string>
+
+    <!-- 检测 -> 修改强度弱密码 -->
+    <string name="nduc_title_modify_weak_password">Forgot password</string>
+    <string name="nduc_modify_password_success">Modified.</string>
+    <string name="nduc_modify_password_fail">Failed to modify.</string>
+    <string name="nduc_modify_weak_password_dialog_tip">Your current password strength is weak. In order to protect your account, please change the old password. Otherwise you will not be able to use the service normally.</string>
+
+    <!-- 检测 -> 绑定组织帐户 -->
+    <string name="nduc_applying">Under verification</string>
+    <string name="nduc_choose_org_account_fail">Failed</string>
+    <string name="nduc_choose_org_account_success">Succeeded</string>
+    <string name="nduc_choose_org_account_dialog_tip_auto_switch">The current personal account has been linked to the following organizational account and is being automatically switched ...</string>
+    <string name="nduc_choose_org_account_dialog_tip">The current personal account is associated with an organizational account, please log in with an organizational account</string>
+
+    <!-- 检测 -> 修改组织帐户原始密码 -->
+    <string name="nduc_title_modify_origin_password">Change Initial Password</string>
+    <string name="nduc_title_modify_origin_password_tip">In order to protect your account, it is recommended to change the initial password for better usage. Otherwise, you will not be able to use the service normally.</string>
+
+    <!-- 绑定组织帐户列表页面 -->
+    <string name="nduc_item_title_org_bound">Joined organizations</string>
+    <string name="nduc_item_title_user_bound">Bound organization accounts</string>
+
+    <!-- 找回密码-->
+    <string name="nduc_reset_password">Retrieve Password</string>
+    <string name="nduc_reset_org_password">Find organization account password</string>
+    <string name="nduc_reset_mobile_not_available">Phone number is not available?</string>
+    <string name="nduc_reset_change_verification_mode">Replace other verification methods</string>
+    <string name="nduc_reset_password_mobile_verification">Mobile verify</string>
+    <string name="nduc_reset_password_email_verification">Email verify</string>
+    <string name="nduc_reset_password_people_verification">Manual Verification</string>
+    <string name="nduc_reset_password_people_representations_tip">You haven\'t bound to any personal accounts. Please contact the Customer Service for verification: %s.</string>
+    <string name="nduc_reset_password_people_representations">Manual appeal</string>
+    <string name="nduc_reset_password_verification_account">Verify account</string>
+    <string name="nduc_reset_password_not_received_email">Email not received?</string>
+    <string name="nduc_reset_password_not_received_email_tip">1. Please check your junk mailbox. \n2.  If you still haven\'t received the verification code, please try again. \n3.  If you cannot receive the code, please change to another email address.</string>
+    <string name="nduc_input_email">Enter email address</string>
+    <string name="nduc_tip">Prompt</string>
+    <string name="nduc_reset_password_subtitle">Set new password</string>
+    <string name="nduc_reset_password_success">Find password successfully</string>
+    <string name="nduc_reset_password_fail">Failed to recover password</string>
+    <string name="nduc_job_number_not_register">The job number hasn\'t been registered. Please re-enter.</string>
+    <string name="nduc_reset_password_tip">Resetting password for account %s</string>
+    <string name="nduc_reset_password_tip_org">You are resetting the password for account  %2$s of the organization  %1$s .</string>
+    <string name="nduc_org_account_101">One Stop Learning account</string>
+    <string name="nduc_org_account_code">Job ID</string>
+    <string name="nduc_unbound_authentication_mode_tip">"You have not selected verification methods. Please contact the administrator. "</string>
+    <string name="nduc_reset_password_mix_account_input_hint">Phone/Email/Username</string>
+    <string name="nduc_reset_password_not_received_sms"/>
+
+    <!-- 申请加入组织结果页面 -->
+    <string name="nduc_application_result_tip">Application has been submitted, please wait</string>
+
+    <!-- 验证短信验证码 -->
+    <string name="nduc_valid_fail">Validation failed. Please re-enter</string>
+    <string name="nduc_valid_success">Verified</string>
+    <string name="nduc_error_over_sum">Error limit</string>
+    <string name="nduc_verification_code_error_over_sum">Too many failed verification attempts. Please try again after 00:00 a.m. tomorrow.</string>
+    <string name="nduc_confirm">Confirm</string>
+
+    <!-- 101帐户登录 -->
+    <string name="nduc_please_input_mobile_or_email">please enter mobile or email</string>
+    <string name="nduc_lock_account_tip">Maximum password attempts reached. You can try again after 5 minutes.</string>
+    <string name="nduc_lock_account_counter_down_time">Countdown %1$d minutes %2$d seconds</string>
+    <string name="nduc_lock_account">Lock account</string>
+    <string name="nduc_got_it">Got it</string>
+
+    <!-- 短信登录 -->
+    <string name="nduc_sms_login">SMS</string>
+    <string name="nduc_mobile_invalid">please enter a valid mobile</string>
+    <string name="nduc_mobile_unregister">Mobile number is not registered</string>
+
+    <!-- 获取验证码页面 -->
+    <string name="nduc_input_mobile_number">Enter mobile number</string>
+    <string name="nduc_get_code">Send OTP</string>
+
+    <!-- 第三方登录 -->
+    <string name="nduc_recently_used">Recently-used</string>
+    <string name="nduc_apk_not_installed">This application has not been installed</string>
+    <string name="nduc_third_login_user_cancel">Login canceled. Please log in again or restart the third-party application.</string>
+
+    <!-- 邮箱注册 -->
+    <string name="nduc_email_invalid">please enter your vaild email</string>
+    <string name="nduc_email_register">Register via Email</string>
+    <string name="nduc_registed_email_message">Email %s already registered.</string>
+    <string name="nduc_email_bind_tip">For your account security, please bind your mailbox to help you better use the platform features.</string>
+    <string name="nduc_bind_mobile_or_email">Please bind your phone or email for account security and a better experience.</string>
+
+    <!-- 输入账号 -->
+    <string name="nduc_input_mobile_tip">To ensure the security of your account, you need to perform security verification.</string>
+
+
+
+    <!-- 网教通账号登录 -->
+    <string name="nduc_101_account_login_subtitle">Login with 101 Account</string>
+    <string name="nduc_use_guest_mode_login">Guest mode</string>
+
+    <!-- 加入组织 -->
+    <string name="nduc_switch_org_account_dialog_Item_tip_recommended">Recommended</string>
+    <string name="nduc_add_new_account">Add New Account</string>
+    <string name="nduc_switch_org_account_dialog_Item_tip_used">Last Used</string>
+    <string name="nduc_switch_to_another_account">Switch to another account</string>
+    <string name="nduc_associated_org_account_title">Associated Accounts</string>
+    <string name="nduc_associated_org_account_action_name_add">Add</string>
+    <string name="nduc_associated_org_account_complete_button_text">Confirm</string>
+    <string name="nduc_associated_org_account_item_recall">Recall</string>
+    <string name="nduc_associated_org_account_item_recall_fail_tip">Your application is under review. Please wait...</string>
+    <string name="nduc_associated_org_account_item_recall_success_tip">Recalled</string>
+    <string name="nduc_add_new_org_account_tip">Application will be approved within 48 hours after submission.</string>
+    <string name="nduc_add_new_org_account_join_mode_hint">Select join mode</string>
+    <string name="nduc_add_new_org_account_join_mode_without_org_account">No organization account</string>
+    <string name="nduc_add_new_org_account_join_mode_with_org_account">Already have an organizational account</string>
+    <string name="nduc_add_new_org_account_title">Add new account</string>
+    <string name="nduc_add_new_org_account_complete_button_text">Submit</string>
+    <string name="nduc_add_new_org_account_forbidden_tip">This organization is not allowed to join</string>
+    <string name="nduc_add_new_org_account_item_empty_tip">Enter %s</string>
+    <string name="nduc_add_new_org_account_result_first_joined">Joined</string>
+    <string name="nduc_add_new_org_account_result_first_applied">Application submitted</string>
+    <string name="nduc_add_new_org_account_result_second_applied">You have submitted the application. Please wait.</string>
+    <string name="nduc_add_new_org_account_result_second_no_info_applied">You need to apply before using %s. The application has been submitted automatically and is under review. Please wait...</string>
+    <string name="nduc_add_new_org_account_result_complete_joined">Access Product</string>
+    <string name="nduc_add_new_org_account_result_complete_applied">Got it</string>
+    <string name="nduc_filling_auth_info_title">Apply for product</string>
+    <string name="nduc_switch_org_account_applying_msg_tip">Your application to use %s is under review. Please wait...</string>
+    <string name="nduc_switch_org_account_refused_msg_tip">Your application to use %1$s is rejected. The reason is: %2$s.</string>
+    <string name="nduc_switch_org_account_applying_button_text">Got it</string>
+    <string name="nduc_switch_org_account_refused_button_text">Apply again</string>
+    <string name="nduc_without_default_org_tip">Configuration failed due to missing default organization.</string>
+    <string name="nduc_default_org_need_auth_info_org_apply_tip">To enable the function, the verification and review of the default organization must be disabled.</string>
+    <string name="nduc_auth_info_nullable_false">Required</string>
+    <string name="nduc_auth_info_nullable_false_with_bracket">(Required)</string>
+    <string name="nduc_auth_info_limit_and_nullable">(Up to %1$d characters, %2$s)</string>
+
+    <!--  监护关系  -->
+    <string name="nduc_guardian_verify_subtitle">Guardianship confirmation</string>
+    <string name="nduc_guardian_verify_msg_error">The information is incorrect and needs to be corrected</string>
+    <string name="nduc_guardian_verify_complete_button">The information is correct. It is my guardian</string>
+    <string name="nduc_guardian_verify_tip_mobile">%1$s values the personal information security of minors and has developed a reliable protection system. The administrator has added the person (mobile: %2$s) as your guardian.</string>
+    <string name="nduc_guardian_verify_tip_email">%1$s values the personal information security of minors and has developed a reliable protection system. The administrator has added the person (Email: %2$s) as your guardian.</string>
+    <string name="nduc_guardian_ivcvm_bind_success">You have successfully bound the guardianship with %s.</string>
+    <string name="nduc_guardian_ivcvm_bind_fail">Binding failed, please try again!</string>
+    <string name="nduc_guardian_check_adult_state_subtitle">Authentication of minors</string>
+    <string name="nduc_guardian_check_adult_state_tip">%s values the personal information security of minors and has developed a reliable protection system. To better protect minors\' information, please fill out the following information correctly.</string>
+    <string name="nduc_guardian_check_adult_state_choose_age_group_hint">Please select an age group</string>
+    <string name="nduc_guardian_check_adult_state_is_adult">I\'m an adult, skip</string>
+    <string name="nduc_guardian_check_adult_state_complete_button">Next</string>
+    <string name="nduc_guardian_age_group_0_to_6">0-6 years old</string>
+    <string name="nduc_guardian_age_group_7_to_14">7-14 years old</string>
+    <string name="nduc_guardian_age_group_15_to_17">15-17 years old</string>
+    <string name="nduc_guardian_copy_title">Inheritance of guardianship</string>
+    <string name="nduc_guardian_copy_person_tip">Dear ~ You already have an organization account bound with guardianship. You can choose to inherit the guardianship directly or re-establish the guardianship ~</string>
+    <string name="nduc_guardian_copy_person_list_title">Personal Account</string>
+    <string name="nduc_guardian_copy_org_tip">You\'ve established a guardian relationship with the personal account. You can either save it or choose to establish a new relationship.</string>
+    <string name="nduc_guardian_copy_org_list_title">Organization</string>
+    <string name="nduc_guardian_copy_list_title_guardian">guardian</string>
+    <string name="nduc_guardian_copy_complete_button">I want to inherit the guardianship</string>
+    <string name="nduc_guardian_copy_rebind">Re-establish guardianship</string>
+    <string name="nduc_guardian_register_tip">If you are not an adult, please don\'t use your parents\' mobile phone number to register ~ you can register by other means ~</string>
+    <string name="nduc_guardian_bind">Establish guardianship relationship</string>
+    <string name="nduc_guardian_bind_mobile">Bind Guardian\'s Mobile</string>
+    <string name="nduc_guardian_bind_email">Bind Guardian Email</string>
+    <string name="nduc_guardian_mobile_hint">Guardian\'s phone number</string>
+    <string name="nduc_guardian_email_hint">Guardian\'s email address</string>
+
+    <!-- 通用 -->
+    <string name="nduc_request_fail_unknown_reason">Error occurred</string>
+    <string name="nduc_comma">,</string>
+
+    <!--  登录互踢  -->
+    <string name="nduc_logout_dialog_title">Prompt</string>
+    <string name="nduc_logout_dialog_msg">The current account is logged in another device, and this client has logged out.</string>
+    <string name="nduc_logout_dialog_positive_button_text">Got it</string>
+
+    <!--  加入节点  -->
+    <string name="nduc_select_org_or_node_item_hint">Please select organization or node</string>
+
+    <!--  实名认证  -->
+    <string name="nduc_real_name_auth_valid_person_mobile_fail">Verification failed</string>
+    <string name="nduc_real_name_auth_valid_person_mobile_success">Verified</string>
+    <string name="nduc_real_name_auth_title">Real-name authentication</string>
+    <string name="nduc_send_verification_code_show_subtitle">Verify account</string>
+    <string name="nduc_send_verification_code_show_mobile">Send SMS code to the mobile %s.</string>
+    <string name="nduc_send_verification_code_show_next">Send OTP</string>
+    <string name="nduc_send_verification_code_show_switch_tip">Phone number is not available?</string>
+
+    <!--  去除093代码  -->
+    <string name="nduc_choose_region">Select country and area code</string>
+    <string name="nduc_invalid_token_tip">Login is invalid, please login again!</string>
+    <string name="nduc_forget_password">Forgot password?</string>
+
+    <!--  密码强度修改  -->
+    <string name="nduc_input_mobile_pwd_length">The password length should be between 8 and 16 digits in length, without spaces.</string>
+    <string name="nduc_input_mobile_pwd_compose">It should include at least two of uppercase letters, lowercase letters, numbers and special characters.</string>
+    <string name="nduc_weak_pwd_check_allow_skip">Skip</string>
+    <string name="nduc_weak_pwd_check_allow_skip_days">Do not remind me within %d day(s).</string>
+    <string name="nduc_input_mobile_pwd_compose_strong">It should include at least three of uppercase letters, lowercase letters, numbers, and special characters.</string>
+    <string name="nduc_input_mobile_pwd_repeat">Avoid using consecutive or repeated sequences of three or more numbers or letters.</string>
+    <string name="nduc_input_mobile_pwd_same">Password cannot be part of the login name.</string>
+
+
+    <!--  登录时，发生服务端限流、异常提示  -->
+    <string name="nduc_service_error_tip_when_login">The server is busy. Please try again later.</string>
+
+    <!--  手机号登录  -->
+    <string name="nduc_mobile_login_subtitle">Phone Number Login</string>
+    <string name="nduc_email_login_subtitle">Email</string>
+
+    <!--  实名认证二期  -->
+    <string name="nduc_email_code_login">Mailbox authentication login</string>
+    <string name="nduc_email_unregister">Email not registered</string>
+    <string name="nduc_org_modify">Modify</string>
+
+    <!--  弱密码  -->
+    <string name="nduc_account_contain_psw">It cannot be the same as the account number character</string>
+
+    <!--  定期改密  -->
+    <string name="nduc_modify_psw_on_time_dialog_msg">You have not changed your password for a long time. Please change your password for your account security, otherwise, you will not be able to use the service normally.</string>
+    <string name="nduc_modify_psw_on_time_dialog_msg_allow_skip">Since you have not changed your password for a long time, please change your password for your account security.</string>
+    <string name="nduc_modify_psw_on_time_dialog_negative_text">Switch login method</string>
+    <string name="nduc_modify_psw_on_time_dialog_negative_text_allow_skip">Skip</string>
+    <string name="nduc_modify_psw_on_time_dialog_positive_text">Forgot password</string>
+    <string name="nduc_modify_psw_same_error">The old and new passwords cannot be the same.</string>
+    <string name="nduc_modify_psw_on_time_title">Forgot password</string>
+
+    <!--  个人帐户实名认证  -->
+    <string name="nduc_real_name_auth_mobile_bound_dialog_msg">This mobile phone number has been bound by other accounts. You can\'t log in with this mobile phone number under this real name. Please confirm whether you want to continue to use the current mobile phone number for real name authentication.</string>
+    <string name="nduc_real_name_auth_mobile_bound_dialog_title">Real-name authentication</string>
+    <string name="nduc_real_name_auth_mobile_bound_dialog_positive">Continue</string>
+    <string name="nduc_real_name_auth_mobile_bound_dialog_negative">Replace</string>
+
+    <!--  允许跳过 -->
+    <string name="nduc_bind_mobile_allow_skip">Skip</string>
+    <string name="nduc_bind_email_allow_skip">Skip</string>
+    <string name="nduc_update_original_psw_allow_skip">Skip</string>
+    <string name="nduc_bind_personal_account_allow_skip">Skip</string>
+    <string name="nduc_bind_personal_account_dialog_msg">For the normal use of your account, please complete the account binding as soon as possible. Thank you for your understanding!</string>
+    <string name="nduc_bind_personal_account_dialog_negative">Not bound yet</string>
+    <string name="nduc_bind_personal_account_dialog_positive">Bind</string>
+
+    <!--  实名认证  -->
+    <string name="nduc_real_name_auth_toast_success">Succeeded</string>
+    <string name="nduc_real_name_auth_skip">Skip certification for now</string>
+    <string name="nduc_real_name_auth_tip_send_code_page">As required by national laws, real-name accounts are required to use Internet services. To ensure the normal use of your account, please complete the real-name authentication as soon as possible. Thank you for your understanding and support!</string>
+    <string name="nduc_real_name_auth_tip_input_code_page">A verification code SMS has been sent to %s. Please enter the verification code.</string>
+
+    <!--  通过监护人手机、邮箱找回帐户密码  -->
+    <string name="nduc_reset_psw_guardian_mobile_verification">Guardian mobile phone verification</string>
+    <string name="nduc_reset_psw_guardian_mobile_bind_guardian_not_found">Invalid minor\'s account or guardian\'s phone.</string>
+    <string name="nduc_reset_psw_guardian_mobile_input_hint">Guardian\'s phone number</string>
+
+    <!--  弱密码不允许跳过  -->
+    <string name="nduc_bind_weak_psw_dialog_negative">Switch login method</string>
+
+    <!--  加入组织新增验证方式  -->
+    <string name="nduc_join_org_auth_type_pic_size_limit_tip">The file cannot be larger than %dKB!</string>
+    <string name="nduc_join_org_auth_type_pic_width_limit_tip">The image width cannot be greater than %dpx!</string>
+    <string name="nduc_join_org_auth_type_pic_height_limit_tip">The image height cannot be greater than %spx!</string>
+
+    <!--  找回密码改造  -->
+    <string name="nduc_reset_psw_title">Retrieve Password</string>
+    <string name="nduc_reset_psw_fill_account_subtitle">Fill in the account number</string>
+    <string name="nduc_reset_psw_fill_account_tip">Please provide the account used for login.</string>
+    <string name="nduc_reset_psw_fill_account_switch_action">Replacement method</string>
+    <string name="nduc_reset_psw_fill_account_complete_text">Next</string>
+    <string name="nduc_reset_psw_mode_mobile">Retrieve your phone number</string>
+    <string name="nduc_reset_psw_mode_email">Reset through email</string>
+    <string name="nduc_reset_psw_mode_org_user_code">Job number retrieval</string>
+    <string name="nduc_reset_psw_mode_account_101">One Stop Learning account recovery</string>
+    <string name="nduc_reset_psw_org_mismatch_mobile_tip">The phone number is incorrect, please re-enter</string>
+    <string name="nduc_reset_psw_org_mismatch_email_tip">The email is incorrect, please re-enter</string>
+
+    <!--  通用  -->
+    <string name="nduc_please_input_account_101">One Stop Learning account</string>
+
+    <!--  18277  -->
+    <string name="nduc_login_register_immediately">Sign up now</string>
+	<string name="nduc_login_tip_register_no_account">No account yet?</string>
+	<string name="nduc_login_mix_subtitle">Password login</string>
+	<string name="nduc_login_mix_account_input_hint">Phone/Email/Username</string>
+	<string name="nduc_login_tip_auto_register">Automatic login after verification for unregistered users</string>
+	<string name="nduc_agreement_dialog_title_login">User Agreement and Privacy Policy</string>
+	<string name="nduc_agreement_dialog_disagree">Disagree</string>
+	<string name="nduc_agreement_dialog_agree">Agree &amp; Continue</string>
+	<string name="nduc_agreement_dialog_agree_update">Agree</string>
+	<string name="nduc_agreement_dialog_msg_splash">Welcome to %1$s, in order to better protect your legal rights, please read and agree to the following agreement%2$s</string>
+	<string name="nduc_agreement_dialog_msg_normal">In order to better protect your legal rights, please read and agree to the following agreement%s</string>
+	<string name="nduc_agreement_dialog_msg_update">In order for you to use the service normally, you need to click Agree to sign the online agreement. Please read and fully understand the terms of %s. We will legally collect, use and share your personal information in accordance with the terms and conditions. You will not be able to use our service if you do not agree with the terms and conditions.</string>
+	<string name="nduc_agreement_dialog_tip">You need to agree to the terms before you start using our services.</string>
+	<string name="nduc_agreement_dialog_tip_update">If you agree to the Updates, please click "Agree" to continue.</string>
+	<string name="nduc_agreement_dialog_browse_msg">If you do not agree to our terms and conditions, certain app features will be unavailable. You can try the guest mode or exit the app directly.</string>
+
+	<string name="nduc_reset_psw_mode_mix">Account recovery</string>
+	<string name="nduc_reset_psw_mode_username_help">Help Instructions for Account Retrieval</string>
+    <string name="nduc_reset_psw_mode_username_cancel">Cancel</string>
+    <string name="nduc_reset_psw_mode_username_help_title">找回账号类型</string>
+    <string name="nduc_reset_psw_mode_username_help_content_title1">1. Ordinary account retrieval:</string>
+    <string name="nduc_reset_psw_mode_username_help_content1">A regular account is an account registered directly through a phone number.</string>
+    <string name="nduc_reset_psw_mode_username_help_content_title2">2. Student ID retrieval:</string>
+    <string name="nduc_reset_psw_mode_username_help_content2">学生号，针对未成年设定，专门用于学生没有手机号的情况下通过绑定监护人手机号来注册的账号。若您想找回学生号的密码，请通过该学生号绑定的监护人手机号来找回。</string>
+    <string name="nduc_login_history_switch_account">Use a different account</string>
+	<string name="nduc_login_bottom_sheet_dialog_title">Choose login method</string>
+	<string name="nduc_reset_psw_bottom_sheet_dialog_title">Choose how to retrieve</string>
+	<string name="nduc_reset_psw_org_bottom_sheet_dialog_title">Choose verification method</string>
+	<string name="nduc_agreement_dialog_title_update">Agreement update</string>
+	<string name="nduc_svcvm_title_input_mobile">Enter phone number</string>
+	<string name="nduc_svcvm_title_input_email">Enter email</string>
+	<string name="nduc_spvm_tip">Please set a new password</string>
+	<string name="nduc_blank"/>
+	<string name="nduc_reset_psw_switch_other_mode">Change to another verification mode</string>
+	<string name="nduc_reset_email_not_available">Mailbox unavailable?</string>
+	<string name="nduc_reset_guardian_mobile_not_available">The guardian\'s mobile phone number is unavailable?</string>
+	
+	<!-- 用户协议 -->
+	<string name="nduc_agreement_and">and</string>
+	<string name="nduc_agreement_comma">,</string>
+	<string name="nduc_agreement_unchecked">please read and agree to the relevant agreement</string>
+	<string name="nduc_agreement_tip">Prompt</string>
+	
+	<!-- 加载页 -->
+	<string name="nduc_loading">Loading…</string>
+	<string name="nduc_component_error_tip">Error</string>
+	<string name="nduc_component_error_agreement">Failed to load the agreement.</string>
+	<string name="nduc_component_error_agreement_retry">Try Again</string>
+
+    <!--  帐户列别增加101帐户选项  -->
+    <string name="nduc_account_list_page_tip">You have multiple accounts that can log in, please choose to log in</string>
+    <string name="nduc_account_list_page_add_new_account">Add new account</string>
+    <string name="nduc_account_list_page_item_last_used">Last used</string>
+
+    <!--  审核列表展示  -->
+    <string name="nduc_applying_list_decline_info">Hello, your application to join the %1$s organization, the review result is: Failed, the reason for not passing: %2$s</string>
+    <string name="nduc_applying_list_dialog_positive">Apply Again</string>
+    <!--  邀请函  -->
+    <string name="nduc_invitation_name">Invitation</string>
+    <string name="nduc_invitation_button_text_accept">Accept</string>
+    <string name="nduc_invitation_button_text_decline">Decline</string>
+    <string name="nduc_invitation_next_accept">Joined successfully. Check next one.</string>
+    <string name="nduc_invitation_next_decline">Rejected. Check next one.</string>
+    <string name="nduc_invitation_decline_dialog_title">Confirm</string>
+    <string name="nduc_invitation_decline_dialog_msg">Are you sure you want to decline this invitation?</string>
+    <string name="nduc_network_error">Network disconnected, please try again later</string>
+
+    <!--  修改注册开关的控制范围  -->
+    <string name="nduc_toast_account_unregister">Account is not registered</string>
+    <string name="nduc_toast_third_not_allow_register">Login failed. Product registration is currently unavailable.</string>
+
+    <!--  18277，3期  -->
+    <string name="nduc_show_produces_tip">We have detected that there are multiple passwords in your associated accounts below. To avoid you having to remember multiple passwords, please unify them into one.</string>
+    <string name="nduc_show_produces_tip_account">Linked account</string>
+    <string name="nduc_show_produces_complete_text">Continue settings</string>
+    <string name="nduc_set_psw_success_subtitle">Successful</string>
+    <string name="nduc_set_psw_success_tip">This password can be used to log in to the following products.</string>
+    <string name="nduc_show_produces_activate_products">Activate product: </string>
+    <string name="nduc_modify_psw_subtitle">Set new password</string>
+    <string name="nduc_unify_psw_complete_text">Got it</string>
+    <string name="nduc_modify_psw_title">Forgot password</string>
+
+    <!--  实名认证  -->
+    <string name="nduc_real_name_auth_third_svcvm_tip">Real-name authentication is required as per national laws and regulations. Please complete the process as soon as possible. Thank you for your understanding and support.</string>
+    <string name="nduc_real_name_auth_third_svcvm_mobile_bound">This phone number is already bound with another account.</string>
+    <string name="nduc_real_name_auth_svcvm_skip">Skip</string>
+    <string name="nduc_real_name_auth_svcvm_guardian">Not yet of legal age? Verify through a guardian\'s real name.</string>
+    <string name="nduc_guardian_title">Establish guardianship relationship</string>
+
+    <!--  设置默认切换组织帐户  -->
+    <string name="nduc_account_list_page_tip_show_only_first">The next time you log in, you will be logged in with the currently selected account by default</string>
+    <!--  18277，3.2期  -->
+    <string name="nduc_adding_org_account_tip_page_complete_text">Continue binding</string>
+    <string name="nduc_adding_org_account_tip_page_tip">To prevent you from remembering multiple passwords, the password of your newly added account will continue to use the password of the current login account.</string>
+    <string name="nduc_org_bind_person_by_mobile_page_title">Bind mobile</string>
+    <string name="nduc_org_bind_person_by_email_page_title">Bond the Email Address</string>
+    <string name="nduc_splvm_complete_current_psw">Unify the password of this account</string>
+    <string name="nduc_splvm_complete_reset_psw">Reset password</string>
+    <string name="nduc_splvm_complete_email_psw">Unified password for email account</string>
+    <string name="nduc_splvm_complete_mobile_psw">统一为手机帐户密码</string>
+    <string name="nduc_splvm_tip">您要绑定的手机号已经关联了其他帐户，其具有密码，而您当前登录的帐户也有一个密码。\n为减少您记录密码的负担，请进行以下操作。</string>
+    <string name="nduc_splvm_adding_org_account_complete">Set unified password</string>
+    <string name="nduc_unify_tip">您要绑定的手机号具有密码，而您当前登录的帐户也有一个密码。为减少您记录密码的负担，请进行下列操作。</string>
+    <string name="nduc_adding_org_account_switch_to_bind">No account? Click to apply for an account</string>
+    <string name="nduc_adding_org_account_switch_to_apply">I have an account, add it through account and secret binding</string>
+    <string name="nduc_adding_org_account_complete_text_bind">Go bind</string>
+    <string name="nduc_adding_org_account_complete_text_apply">Submit</string>
+
+    <!--  强制统一密码  -->
+    <string name="nduc_force_unify_title">Unify multiple passwords</string>
+    <string name="nduc_force_unify_psw_tip">我们检测到您关联的帐户中存在多个密码，为避免您要记住多个密码，请您统一为一个。</string>
+
+    <!--  生物识别认证  -->
+    <string name="nduc_biometric_close">Face/fingertip recognition disabled or not available on you device.</string>
+    <string name="nduc_biometric_title">Login</string>
+    <string name="nduc_biometric_subtitle">Please complete the verification before logging in.</string>
+    <string name="nduc_biometric_negative">Cancel</string>
+    <string name="nduc_biometric_dialog_title">Prompt</string>
+    <string name="nduc_biometric_dialog_msg">For faster and secure login, we recommend enabling fingerprint/face login. If you prefer not to enable it now, you can do so later in the account security center.</string>
+    <string name="nduc_biometric_dialog_negative">Later</string>
+    <string name="nduc_biometric_dialog_positive">Turn on</string>
+    <string name="nduc_biometric_verify_error">Verification failed</string>
+
+
+    <!--  强制统一密码  -->
+    <string name="nduc_one_key_complete_text">One-click login with phone</string>
+    <string name="nduc_mobile_login">Phone login</string>
+
+    <!--  一键登录  -->
+    <string name="nduc_one_key_login_title">One-click login</string>
+    <string name="nduc_one_key_login_btn_text">One-click login with phone</string>
+    <string name="nduc_one_key_other_login">Others</string>
+    <string name="nduc_one_key_agreement_text">I have read and agreed to the </string>
+
+    <!--  用户名/子账号/未成年账号  -->
+    <string name="nduc_username_register">Minor registration</string>
+    <string name="nduc_username_register_tip">Registration limited to minors. Guardian\'s phone number verification required.</string>
+    <string name="nduc_registed_username_message">Username "%s" is already registered. You can directly log in.</string>
+    <string name="nduc_please_input_username">Enter account</string>
+    <string name="nduc_bind_child_account_tip">未成年人需绑定监护人手机号后使用，建立监护关系后，平台对未成年人信息的收集、使用、转移、披露等相关操作行为都会通知给监护人，在获得监护人同意后才会继续</string>
+    <string name="nduc_username_register_tips_for_account_length">4-20 characters long.</string>
+    <string name="nduc_username_register_tips_for_prefix">The account number must start with a letter</string>
+    <string name="nduc_username_register_tips_for_charset">Only letters, numbers, and underscores allowed.</string>
+    <string name="nduc_username_reset_psw_tip_unbound">Account does not exist.</string>
+      <string name="nduc_username_reset_psw_tip_noaccount">The current mobile number does not have an account that can be retrieved, please check and try again.</string>
+    <string name="nduc_reset_psw_mode_sub">Minor account recovery</string>
+    <string name="nduc_sub_account_list_subtitle">请选择需要重置密码的帐号</string>
+    <string name="nduc_reset_password_subtitle_sub_account">Please set a password.</string>
+    <string name="nduc_spvm_tip_sub_account">Student ID or passport ID: </string>
+    <string name="nduc_reset_psw_fill_account_subtitle_sub_account">Fill in the account number</string>
+    <string name="nduc_reset_psw_fill_account_tip_sub_account">Please provide the account used for login.</string>
+    <string name="nduc_bind_sub_account_out_limit">The guardian\'s bound account has reached the upper limit</string>
+    <string name="nduc_sub_account_type_username">Please enter a minor account</string>
+    <string name="nduc_sub_account_type_normal">Ordinary account</string>
+    <string name="nduc_sub_account_type_username_normal">请设置普通账号【%s】的新密码</string>
+    <string name="nduc_sub_account_type_username_student">请设置学生号【%s】的新密码</string>
+	<string name="nduc_sub_account_type_username_passid">请设置通行证ID账号【%s】的新密码</string>
+    <string name="nduc_sub_account_type_username_list_normal">关联手机号注册的普通号</string>
+    <string name="nduc_sub_account_type_username_list_student">关联监护人手机号注册的学生号</string>
+    <string name="nduc_sub_account_type_user_login_no">Passport ID</string>
+
+
+    <!--  账号封禁与申诉  -->
+    <string name="nduc_appeal">Appeal</string>
+    <string name="nduc_permanent_ban">This account has been permanently banned for violating platform rules. To continue using it, click "Appeal" to request early unblocking.</string>
+    <string name="nduc_temporary_ban">This account has been temporarily banned for violating platform rules. Please log in again after %s. To continue using it, click "Appeal" to request early unblocking.</string>
+
+    <string name="nduc_passport_id_alert_title">Congratulations!\nYou have obtained the SmartEdu Passport.</string>
+    <string name="nduc_passport_id_alert_msg">Passport ID: </string>
+    <string name="nduc_passport_id_alert_desc">Note: Use the SmartEdu passport ID to log in and access the Smart Education of China platform.</string>
+    <string name="nduc_passport_id_alert_button_copy">Copy</string>
+    <string name="nduc_passport_id_alert_button_submit">Confirm</string>
+
+    <string name="nduc_user_login_dialog_copy">Copy ID</string>
+    <string name="nduc_user_login_dialog_copy_success">Copied</string>
+    <string name="nduc_unregister_account_message">帐号%s未注册，请先进行注册。</string>
+
+    <string name="nduc_reset_psw_fill_account_tip_mix">Enter account</string>
+
+    <string name="nduc_user_login_dialog_exist">Close</string>
+    <string name="nduc_user_login_dialog_continue">Auto Login</string>
+
+    <string name="nduc_user_name_is_register">账号已注册</string>
+
+    <string name="nduc_valid_captcha_title">Graphic verification</string>
+    <string name="nduc_load_captcha_fail">验证码加载失败</string>
+
+    <string name="nduc_login_fail_alert_title">Prompt</string>
+    <string name="nduc_login_fail_alert_content">该用户没有绑定手机，请前往安全中心使用账户（%s）登录后绑定手机</string>
+    <string name="nduc_login_fail_alert_commit">Switch</string>
+    <string name="nduc_login_fail_ticket_expire">登录状态已过期，请重新登录</string>
+</resources>

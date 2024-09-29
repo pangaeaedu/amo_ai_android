@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_oc_synthesize">General</string>
+    <string name="ele_oc_hottest">Hottest</string>
+    <string name="ele_oc_newest">Latest</string>
+    <string name="ele_oc_loading">Loading...</string>
+    <string name="ele_oc_no_more_data">No more data</string>
+    <string name="ele_oc_study_num"> learners</string>
+    <string name="ele_oc_study_hours"> learning hours</string>
+    <string name="ele_oc_list_empty">You learned no courses</string>
+
+    <string name="ele_oc_search">Search</string>
+    <string name="ele_oc_unit_task">tasks</string>
+    <string name="ele_oc_course_type">Course Types</string>
+    <string name="ele_oc_pr_train_question_discription">%1$s questions in total. You finished %2$s</string>
+    <string name="ele_oc_pr_go_finished">Check finished questions</string>
+    <string name="ele_oc_pr_no_problems">%s\'s questions have all been finished</string>
+
+    <string name="ele_oc_study_hours_unit"> learning hours</string>
+
+    <string-array name="ele_oc_status_type"><item>@string/ele_oc_status_type_all</item><item>@string/ele_oc_status_type_opening</item><item>@string/ele_oc_status_type_waiting</item><item>@string/ele_oc_status_type_finish</item></string-array>
+
+    <string name="ele_oc_status_type_all">All</string>
+    <string name="ele_oc_status_type_opening">Ongoing</string>
+    <string name="ele_oc_status_type_waiting">Not started</string>
+    <string name="ele_oc_status_type_finish">Ended</string>
+
+    <string name="ele_oc_free_experience">Free Trial</string>
+    <string name="ele_oc_cancel">Cancel</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="starapp_life_agree">ตกลง</string>
+    <string name="starapp_life_cancel">ยกเลิก</string>
+    <string name="starapp_life_input">โปรดป้อนเนื้อหา</string>
+    <string name="starapp_life_operation_success">ดำเนินการเสร็จสิ้น!</string>
+    <string name="starapp_life_operation_fail">การดำเนินการล้มเหลว!</string>
+    <string name="starapp_life_setting_logout">ออกจากระบบ</string>
+
+    <string name="starapp_life_http_no_network">การเชื่อมต่อเครือข่ายผิดปกติ โปรดตรวจสอบการตั้งค่าเครือข่าย</string>
+    <string name="starapp_life_http_parse_error">ข้อผิดพลาดในการแยกวิเคราะห์ json</string>
+    <string name="starapp_life_http_timeout">การเชื่อมต่อเครือข่ายผิดปกติ โปรดลองใหม่ในภายหลัง</string>
+    <string name="starapp_life_http_error">การเชื่อมต่อเครือข่ายผิดปกติ โปรดตรวจสอบการตั้งค่าเครือข่าย</string>
+</resources>

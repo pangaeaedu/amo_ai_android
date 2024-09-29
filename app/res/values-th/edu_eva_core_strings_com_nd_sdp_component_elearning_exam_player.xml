@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="edu_eva_core_skip">ข้าม</string>
+    <string name="edu_eva_core_warn_network">การเชื่อมต่อเครือข่ายของคุณไม่ค่อยแน่นอน โปรดตรวจสอบการตั้งค่าเครือข่าย</string>
+    <string name="edu_eva_core_tip_paper_submit_error">ส่งข้อสอบล้มเหลว โปรดตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง หรือติดต่อผู้ดูแลระบบ</string>
+    <string name="edu_eva_core_tip_load_paper_error">ข้อสอบโหลดผิดพลาด</string>
+</resources>

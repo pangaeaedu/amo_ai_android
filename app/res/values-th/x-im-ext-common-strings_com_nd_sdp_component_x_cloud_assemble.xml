@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="x_cloud_common_error">คำร้องขอล้มเหลว</string>
+    <string name="x_cloud_common_error_1">คำร้องขอล้มเหลว โปรดลองใหม่ในภายหลัง</string>
+    <string name="x_cloud_error_get_group_fail">การรับข้อมูลกลุ่มผิดปกติ</string>
+    <string name="x_cloud_error_get_classinfo_error">เกิดข้อผิดพลาดในการเข้าถึงข้อมูลชั้นเรียน</string>
+
+    <string name="x_cloud_dialog_alert_button">ฉันเข้าใจแล้ว</string>
+    <string name="x_cloud_dialog_alert_title">รับรหัสห้องเรียน</string>
+
+    <string name="x_cloud_section_primary">ประถม</string>
+    <string name="x_cloud_section_middle">มัธยม</string>
+    <string name="x_cloud_section_high">มัธยมศึกษา</string>
+
+    <string name="x_cloud_assemble_chat_fragment_item_menu_title">การจัดการชั้นเรียน</string>
+    <string name="x_cloud_assemble_chat_fragment_item_menu_title_research">การจัดการกลุ่มการศึกษา</string>
+    <string name="x_cloud_assemble_chat_fragment_student_appraise">ประเมินนักเรียน</string>
+    <string name="x_cloud_assemble_chat_fragment_teacher_message">ข้อความจากครู</string>
+    <string name="x_cloud_assemble_chat_fragment_notice">การแจ้งเตือน</string>
+    <string name="x_cloud_assemble_chat_fragment_research">กิจกรรมการศึกษา</string>
+    <string name="x_cloud_assemble_chat_fragment_work_jobs">กิจกรรมการบ้าน</string>
+    <string name="x_cloud_assemble_chat_fragment_clock_in">ลงเวลา</string>
+    <string name="x_cloud_assemble_chat_fragment_questionnaire">การสำรวจความคิดเห็น</string>
+    <string name="x_cloud_assemble_chat_fragment_class_live">ชั้นเรียนถ่ายทอดสด</string>
+    <string name="xc_im_chatroom_title_filter_msg">ข้อความจากครู</string>
+    <string name="x_cloud_assemble_chat_fragment_information_statistics">สถิติข้อมูล</string>
+    <string name="x_cloud_assemble_chat_fragment_information_solitaire">เกมส์จับคู่</string>
+    <string name="x_cloud_assemble_chat_fragment_famous_send">โพสต์</string>
+    <string name="x_cloud_assemble_chat_fragment_cls_timetable">ตารางเรียน</string>
+    <string name="x_cloud_assemble_chat_fragment_research_live">การสอนและวิจัยด้วยวิดีโอ</string>
+    <string name="x_cloud_assemble_chat_fragment_offline_teaching_service">บริการหลังเรียน</string>
+    <string name="x_cloud_assemble_chat_fragment_research_live_no">เฉพาะเจ้าภาพและผู้ดูแลเท่านั้นที่สามารถเริ่มการวิจัยการสอนวิดีโอได้นะ~</string>
+
+    <string name="x_cloud_assemble_menu_create_group">สร้างกลุ่ม</string>
+    <string name="x_cloud_assemble_menu_join_group">เข้าร่วมกลุ่ม</string>
+    <string name="x_cloud_assemble_menu_create_group_class">สร้างกลุ่มชั้นเรียน</string>
+    <string name="x_cloud_assemble_menu_create_group_normal">สร้างกลุ่มทั่วไป</string>
+
+    <string name="x_cloud_assemble_menu_join_group_class">เข้าร่วมกลุ่มห้องเรียน</string>
+    <string name="x_cloud_assemble_menu_join_group_normal">เข้าร่วมกลุ่มปกติ</string>
+    <string name="x_cloud_assemble_menu_join_group_qrcode">สแกนเข้ากลุ่ม</string>
+
+    <string name="x_cloud_top_menu_teacher_class">สร้าง/เข้าร่วมชั้นเรียน</string>
+    <string name="x_cloud_bottom_menu_join_class">เข้าร่วมชั้นเรียน</string>
+    <string name="x_cloud_bottom_menu_create_class">สร้างชั้นเรียน</string>
+    <string name="x_cloud_top_menu_teacher_group">สร้าง/เข้าร่วมกลุ่ม</string>
+    <string name="x_cloud_top_menu_student_guardian_class">เข้าร่วมชั้นเรียน</string>
+    <string name="x_cloud_top_menu_student_guardian_group">เข้าร่วมกลุ่ม</string>
+
+    <string name="x_cloud_bottom_menu_create_im_group">สร้างกลุ่มทั่วไป</string>
+    <string name="x_cloud_bottom_menu_join_im_group">เข้าร่วมกลุ่มทั่วไป</string>
+    <string name="x_cloud_bottom_menu_create_research_group">สร้างกลุ่มการศึกษาวิจัย</string>
+    <string name="x_cloud_bottom_menu_join_research_group">เข้าร่วมกลุ่มการศึกษาวิจัย</string>
+    <string name="x_cloud_bottom_menu_join_qrcode_im_group">สแกนเข้าร่วมกลุ่ม</string>
+
+    <string name="x_cloud_assemble_label_head_teacher">ครูประจำชั้น</string>
+    <string name="x_cloud_assemble_label_teacher">ครู</string>
+    <string name="x_cloud_assemble_label_teacher_duty">%1$s ครู</string>
+    <string name="x_cloud_assemble_label_student">นักเรียน</string>
+
+    <string name="i_am_teacher">ฉันเป็นครู</string>
+    <string name="i_am_student">ฉันเป็นนักเรียน</string>
+    <string name="x_cloud_perfect_info">กรอกข้อมูล</string>
+    <string name="x_cloud_create_class_group">สร้างกลุ่มชั้นเรียน</string>
+    <string name="x_cloud_select_at_school">เลือกโรงเรียนที่ต้องการ</string>
+    <string name="x_cloud_please_perfect_info">กรุณากรอกข้อมูลเพื่อการใช้แอปพลิเคชันของคุณอย่างเต็มประสิทธิภาพ</string>
+    <string name="x_cloud_please_select_school">กรุณาเลือกโรงเรียน</string>
+    <string name="x_cloud_select_school">เลือกโรงเรียน</string>
+    <string name="x_cloud_select_institution">เลือกสถาบัน/โรงเรียน</string>
+    <string name="x_cloud_please_select_area">โปรดเลือกพื้นที่</string>
+
+    <string name="x_cloud_add_successful">เพิ่มสำเร็จ</string>
+    <string name="x_cloud_add_failed">เพิ่มล้มเหลว</string>
+    <string name="x_cloud_back">กลับ</string>
+    <string name="x_cloud_complete">เสร็จสิ้น</string>
+    <string name="x_cloud_search">ค้นหา</string>
+    <string name="x_cloud_jump_over">ข้าม</string>
+    <string name="x_cloud_current_location">ตำแหน่งปัจจุบัน：</string>
+    <string name="x_cloud_re_location">ตำแหน่งใหม่</string>
+    <string name="x_cloud_wrong_manual_select">ตำแหน่งไม่ถูกต้องหรือ? เลือกด้วยตนเอง</string>
+    <string name="x_cloud_nearby_school">โรงเรียนใกล้เคียง</string>
+    <string name="x_cloud_nearby_institution">สถาบัน/โรงเรียนในพื้นที่</string>
+    <string name="x_cloud_no_find_school_manual_add">ไม่พบโรงเรียน? เพิ่มด้วยตนเอง</string>
+    <string name="x_cloud_no_find_institution_manual_add">ไม่พบสถาบัน/โรงเรียน? เพิ่มด้วยตนเอง</string>
+    <string name="x_cloud_cancel">ยกเลิก</string>
+    <string name="x_cloud_confirm">ตกลง</string>
+    <string name="x_cloud_save">บันทึก</string>
+    <string name="x_cloud_search_hint">ค้นหา</string>
+    <string name="x_cloud_search_tip">ผลการค้นหา</string>
+    <string name="x_cloud_search_result">ไม่พบผลการค้นหาที่ตรงกัน</string>
+    <string name="x_cloud_manual_add_school">เพิ่มโรงเรียนด้วยตนเอง</string>
+    <string name="x_cloud_manual_add_institution">เพิ่มองค์กร/โรงเรียนด้วยตนเอง</string>
+    <string name="x_cloud_more_school_updating">โรงเรียนเพิ่มเติมกำลังอัปเดต</string>
+    <string name="x_cloud_more_institution_updating">    หากคุณไม่พบองค์กร/โรงเรียนที่คุณต้องการ โปรดติดต่อสำนักงานการจัดการการศึกษาของโรงเรียนเพื่อเพิ่มข้อมูลโรงเรียนก่อนที่จะกรอกข้อมูลส่วนตัว</string>
+    <string name="x_cloud_please_feedback_by_phone">    โปรดโทรติดต่อฝ่ายบริการลูกค้า</string>
+    <string name="x_cloud_phone">    โทรศัพท์:</string>
+    <string name="x_cloud_network_exception">การเชื่อมต่อเครือข่ายผิดปกติ โปรดตรวจสอบเครือข่าย</string>
+    <string name="x_cloud_select_my_area">ที่อยู่ปัจจุบัน</string>
+    <string name="x_cloud_location_failed">การระบุตำแหน่งล้มเหลว</string>
+    <string name="x_cloud_add_member_successful">เพิ่มสำเร็จ</string>
+
+    <string name="x_cloud_group_shortcut_clock_in_webview_title">ตรวจเวลา</string>
+    <string name="x_cloud_join_class_group">เข้าร่วมกลุ่มชั้นเรียน</string>
+    <string name="x_cloud_class_group_contact">สมุดโทรศัพท์ห้องเรียน</string>
+    <string name="x_cloud_look_over">ดู</string>
+    <string name="x_cloud_class_not_found">ไม่พบชั้นเรียน</string>
+    <string name="x_cloud_has_been_disbanded">ห้องเรียนได้ถูกยุบ</string>
+
+    <!--完善信息 - 编辑用户名 -->
+    <string name="x_cloud_perfect_information_userinfo_tip1">ยินดีต้อนรับสู่\nแพลตฟอร์มการศึกษาอัจฉริยะของโรงเรียนประถมและมัธยม</string>
+    <string name="x_cloud_perfect_information_userinfo_tip2">โปรดแก้ไขชื่อเพื่อความสะดวกในการสื่อสารในการเรียน</string>
+    <string name="x_cloud_perfect_information_userinfo_tip3">ชื่อของคุณคือ？</string>
+    <string name="x_cloud_perfect_information_userinfo_next_step">ขั้นตอนต่อไป</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_format">ผู้ใช้ %1$s</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_hint">ชื่อเริ่มต้น: ผู้ใช้ 1234</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_update_error_sensitive_word">มีคำที่ไม่เหมาะสมในชื่อ โปรดใส่ใหม่</string>
+    <string name="x_cloud_perfect_information_userinfo_nickname_update_error">การอัปเดตล้มเหลว</string>
+
+    <!-- 加入班级反馈页 -->
+    <string name="x_cloud_join_class_feedback_title">เข้าร่วมห้องเรียน</string>
+
+    <string name="x_cloud_join_class_feedback_success">เข้าร่วมสำเร็จ</string>
+    <string name="x_cloud_join_class_feedback_success_tip">คุณสามารถเข้าห้องเรียนทันที และสื่อสารกับครูผู้ปกครอง</string>
+
+    <string name="x_cloud_join_class_feedback_audit">สมัครเข้าร่วมชั้นเรียนเรียบร้อย</string>
+    <string name="x_cloud_join_class_feedback_fail">การสมัครล้มเหลว</string>
+    <string name="x_cloud_join_class_feedback_fail_reason">เหตุผลที่ล้มเหลว:%1$s</string>
+    <string name="x_cloud_join_class_feedback_audit_tip">ตรวจสอบจากครูประจำชั้นว่าได้รับการอนุมัติแล้วหรือยัง เพื่อเข้าร่วมชั้นเรียน</string>
+    <string name="x_cloud_join_class_feedback_bottom_button_audit">เสร็จสิ้น</string>
+
+    <!-- 创建班级群 -->
+    <string name="x_cloud_create_class_title">สร้างชั้นเรียน</string>
+    <string name="x_cloud_create_class_tip">กรอกข้อมูลกลุ่มชั้นเรียน</string>
+    <string name="x_cloud_create_class_tip_1">หลังจากสร้างแล้วคุณสามารถกรอกข้อมูลเพิ่มเติมในการตั้งค่ากลุ่มชั้นเรียน</string>
+    <string name="x_cloud_common_btn_confirm">ยืนยัน(%1$d)</string>
+    <string name="x_cloud_create_class_label_class_name">ชื่อห้องเรียน</string>
+    <string name="x_cloud_create_class_label_class_name_hint">โปรดกรอกชื่อ สูงสุด 50 ตัวอักษร</string>
+    <string name="x_cloud_create_class_label_subject">วิชาที่สอน</string>
+    <string name="x_cloud_create_class_label_grade">ระดับชั้น</string>
+    <string name="x_cloud_create_class_label_grade_begin_year">ปีที่เข้าศึกษา</string>
+    <string name="x_cloud_create_class_label_school">โรงเรียนที่เป็นเจ้าของ</string>
+    <string name="x_cloud_create_class_label_btn_create">สร้างกลุ่มชั้นเรียน</string>
+
+    <string name="x_cloud_create_class_select">โปรดเลือก</string>
+    <string name="x_cloud_create_class_select_subject">โปรดเลือกวิชาการสอน</string>
+    <string name="x_cloud_create_class_select_grade">โปรดเลือกชั้นเรียนของคุณ</string>
+    <string name="x_cloud_create_class_select_grade_begin_year">โปรดเลือกปีการศึกษาที่เข้า</string>
+    <string name="x_cloud_create_class_item_name">%1$s-%2$s</string>
+    <string name="x_cloud_create_class_fail">การสร้างล้มเหลว</string>
+    <string name="x_cloud_dialog_subject_clear">ล้าง</string>
+
+    <string name="x_cloud_create_class_step_1">กรอกข้อมูลห้องเรียน</string>
+    <string name="x_cloud_create_class_step_2">เปิดใช้งานการสนทนากลุ่ม</string>
+    <string name="x_cloud_create_class_label_next_step">ขั้นตอนต่อไป</string>
+    <string name="x_cloud_create_class_label_create">สร้างทันที</string>
+
+    <string name="x_cloud_create_class_label_group_1">กลุ่มครู-นักเรียน (ครู+นักเรียน)</string>
+    <string name="x_cloud_create_class_label_group_2">กลุ่มบ้านเรียน (ครู+ผู้ปกครอง)</string>
+
+    <string name="x_cloud_subject_space">、</string>
+
+    <string name="x_cloud_create_class_please_select_school">โปรดเลือกโรงเรียนก่อน</string>
+
+
+    <!-- 班级码加群 -->
+    <string name="x_cloud_join_class_code_tip_title">ป้อนรหัสชั้นเรียน</string>
+    <string name="x_cloud_join_class_code_tip_1">เข้าร่วมชั้นเรียนแล้วสามารถเข้าสู่การสนทนากลุ่มได้</string>
+
+    <string name="x_cloud_join_class_code_btn_search">ค้นหา</string>
+    <string name="x_cloud_join_class_code_input_hint">โปรดป้อนรหัสชั้นเรียน 6 หลัก</string>
+    <string name="x_cloud_join_class_code_get_code_guid">วิธีการรับรหัสชั้นเรียน?</string>
+    <string name="x_cloud_join_class_code_join">เข้าร่วมชั้นเรียน</string>
+
+    <string name="x_cloud_join_class_code_dialog_content">รหัสชั้นเป็นตัวเลขที่ระบบสร้างขึ้นเมื่อครูสร้างชั้นเรียน หากไม่ทราบรหัสชั้นโปรดติดต่อครูเพื่อขอรหัส</string>
+    <string name="x_cloud_join_class_code_dialog_way_1">วิธีการที่หนึ่ง:</string>
+    <string name="x_cloud_join_class_code_dialog_way_1_desc">คัดลอกข้อความเชิญจากครู แล้ววางเพียงเท่านั้น</string>
+
+    <string name="x_cloud_join_class_code_search_error">ไม่พบชั้นเรียนนี้ โปรดตรวจสอบและใส่รหัสชั้นเรียนที่ถูกต้อง</string>
+
+    <string name="x_cloud_join_class_code_dialog_way_2">วิธีที่สอง：</string>
+    <string name="x_cloud_join_class_code_dialog_way_2_desc">สอบถามครูหรือผู้ปกครองที่เข้าร่วมแล้วเพื่อขอข้อมูล</string>
+
+    <string name="x_cloud_join_class_forbidden">คุณถูกปฏิเสธการเข้าร่วม</string>
+    <string name="x_cloud_join_class_joined">เข้าร่วมแล้ว</string>
+    <string name="x_cloud_join_class_forbidden_join">ห้ามเข้าร่วม</string>
+    <string name="x_cloud_join_policy_forbidden">ถูกตั้งค่าให้ห้ามเข้าร่วม</string>
+
+    <string name="x_cloud_join_class_head_teacher">ครูประจำชั้น:</string>
+    <string name="x_cloud_join_class_code_status_join">เข้าร่วมชั้นเรียน</string>
+    <string name="x_cloud_join_class_code_status_audit">กำลังตรวจสอบ</string>
+    <string name="x_cloud_join_class_code_status_joined">เข้าสู่ชั้นเรียน</string>
+
+    <string name="x_cloud_join_class_verify_input_hint">โปรดป้อนส่วนที่เป็น ** ในการเตือน</string>
+    <string name="x_cloud_join_class_verify_input_tip">เท็จ: ชื่อของครูผู้อำนวยการกลุ่มในชั้นเรียนนี้</string>
+    <string name="x_cloud_join_class_verify_submit">การรับรองตัวตน</string>
+
+    <string name="x_cloud_join_class_identity_select">สลับตัว</string>
+    <string name="x_cloud_join_class_identity_label_select">โปรดเลือก</string>
+    <string name="x_cloud_join_class_identity_label_guardian_child_select">โปรดเลือกเด็กที่ต้องการเข้าร่วมในชั้นเรียน</string>
+    <string name="x_cloud_join_class_identity_add">เพิ่มตัวตนเพิ่มเติม</string>
+
+    <string name="x_cloud_join_class_dialog_title_select_identity">โปรดเลือกตัวตนที่ต้องการเข้าร่วมในชั้นเรียน</string>
+    <string name="x_cloud_join_class_dialog_title_select_children">โปรดเลือกลูกน้องที่ต้องการเข้าร่วมชั้นเรียน</string>
+    <string name="x_cloud_join_class_children_add">เพิ่มลูกเพิ่มเติม</string>
+
+    <string name="x_cloud_join_class_identity_tip_title">เลือกตัวตนของคุณ</string>
+    <string name="x_cloud_join_class_identity_tip_1">หลังจากที่เลือกจะต้องเพิ่มข้อมูลที่เกี่ยวข้องเพื่อเข้าร่วม</string>
+    <string name="x_cloud_join_class_identity_verify_name_guid">โปรดทำการยืนยันตัวตนก่อนเข้าร่วมห้องเรียน</string>
+    <string name="x_cloud_join_class_identity_select_label">โปรดเลือกตัวตนที่ถูกต้อง หลังจากเข้าร่วมแล้วจะไม่สามารถแก้ไขได้</string>
+    <string name="x_cloud_join_class_identity_label_subjects">สาขาวิชาการสอน</string>
+    <string name="x_cloud_join_class_identity_label_seat_number">หมายเลขที่นั่ง</string>
+    <string name="x_cloud_join_class_identity_label_edit_info">กรอกข้อมูลส่วนตัว:</string>
+    <string name="x_cloud_join_class_identity_extinfo_real_name_hint">ชื่อจริง</string>
+    <string name="x_cloud_join_class_identity_extinfo_subject_hint">โปรดเลือก</string>
+    <string name="x_cloud_join_class_identity_submit">เข้าร่วม</string>
+    <string name="x_cloud_join_class_identity_name_format">ฉันคือ%1$s</string>
+    <string name="x_cloud_join_class_identity_submit_to_verify">ไปยังการตรวจสอบ</string>
+    <string name="x_cloud_join_class_submit_error">เข้าร่วมชั้นเรียนล้มเหลว</string>
+    <string name="x_cloud_join_class_tip1">กำลังจะเข้าร่วม</string>
+    <string name="x_cloud_join_class_tip2">"%1$s</string>
+    <string name="x_cloud_join_class_tip3">」</string>
+    <string name="x_cloud_join_class_identity_label_select_student">เลือกนักเรียน</string>
+    <string name="x_cloud_join_class_identity_label_student_name">ชื่อนักเรียน</string>
+    <string name="x_cloud_join_class_identity_label_child_relation">ฉันเป็นเด็กของ</string>
+    <string name="x_cloud_join_class_identity_hint_child_relation">โปรดเลือกความสัมพันธ์ในครอบครัว</string>
+    <string name="x_cloud_join_class_identity_add_child">เพิ่มนักเรียน</string>
+    <string name="x_cloud_join_class_identity_hint_child_name">โปรดป้อนชื่อ</string>
+    <string name="x_cloud_join_class_identity_hint_real_name">โปรดป้อนชื่อจริง</string>
+    <string name="x_cloud_join_class_identity_hint_seat_number">โปรดใส่ตัวเลข เช่น 10</string>
+    <string name="x_cloud_join_class_error_1">คุณได้เข้าร่วมชั้นเรียนแล้ว โปรดอย่าเข้าร่วมซ้ำ</string>
+    <string name="x_cloud_join_class_error_2">ชั้นเรียนนี้ไม่อนุญาตให้เข้าร่วมในปัจจุบัน</string>
+
+    <string name="x_cloud_join_class_identity_description">โปรดเลือกบทบาทที่ถูกต้อง หลังจากเข้าร่วมแล้วจะไม่สามารถแก้ไขได้</string>
+
+    <!-- 加入教研群 start -->
+    <string name="xc_join_research_tip_title">เลือกบทบาทของคุณ</string>
+    <string name="xc_join_research_tip_1">เข้าร่วมกลุ่มเพื่อเข้าสู่การสนทนากลุ่ม</string>
+    <string name="xc_join_dialog_title_research">เชิญคุณเข้าร่วมกลุ่มวิชาที่แสดงด้านล่าง</string>
+    <string name="xc_join_research_not_found">ไม่พบกลุ่มการวิจัย</string>
+    <string name="xc_join_research_error_1">คุณได้เข้าร่วมกลุ่มการศึกษาแล้ว โปรดอย่าเข้าร่วมซ้ำ</string>
+    <string name="xc_join_research_error_2">กลุ่มการศึกษาวิจัยนี้ห้ามการเข้าร่วม</string>
+    <string name="xc_join_research_error">การเข้าร่วมกลุ่มการวิจัยการสอนล้มเหลว</string>
+
+    <string name="xc_join_research_feedback_title">เข้าร่วมกลุ่มการศึกษาวิจัย</string>
+    <string name="xc_join_error_get_group_error">ข้อผิดพลาดในการรับข้อมูลกลุ่มการศึกษาวิจัย</string>
+    <string name="xc_join_research_dialog_forbidden_content">บทบาทปัจจุบันไม่อนุญาตให้เข้าร่วมกลุ่มการศึกษา อนุญาตเฉพาะบทบาทครู ผู้ดูแลระบบ ผู้ควบคุมการศึกษา หรือผู้จัดการเท่านั้น</string>
+    <string name="xc_join_research_dialog_forbidden_content_student">ไม่สนับสนุนให้นักเรียนเข้าร่วมชั่วคราว</string>
+    <string name="xc_join_research_dialog_forbidden_content_guardian">ไม่รองรับการเข้าร่วมในฐานะผู้ปกครอง โปรดเปลี่ยนตัวตนอื่น</string>
+    <string name="x_cloud_research_feedback_bottom_button_success">กลับ</string>
+
+    <!-- 加入教研群 end -->
+
+    <string name="x_cloud_identity_teacher">ครู</string>
+    <string name="x_cloud_identity_student">นักเรียน</string>
+    <string name="x_cloud_identity_guardian">ผู้ปกครอง</string>
+    <string name="x_cloud_identity_academic_staff">ผู้ช่วยการศึกษา</string>
+    <string name="x_cloud_identity_electric_teacher">ผู้ช่วยสอนคอมพิวเตอร์</string>
+    <string name="x_cloud_identity_edu_admin">เจ้าหน้าที่ดูแล</string>
+    <string name="x_cloud_identity_social_learner">ผู้เรียนรู้จากสังคม</string>
+
+    <string name="x_cloud_catalog_more">…</string>
+    <string name="x_cloud_course_infos">%1$d รายวิชา</string>
+    <string name="x_cloud_course_period">%1$.0f ชั่วโมง</string>
+    <string name="x_cloud_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+
+    <!-- 切换身份 -->
+    <string name="x_cloud_identity_switch_dialog_title">เพิ่มตัวตนใหม่</string>
+    <string name="x_cloud_identity_switch_current_tag">ตำแหน่งปัจจุบัน</string>
+    <string name="x_cloud_identity_switch_set_school">ตั้งค่าโรงเรียน/องค์กร</string>
+    <string name="x_cloud_identity_switch_set_school_tip">โปรดเพิ่มข้อมูลโรงเรียน/สถาบันก่อน คุณต้องการไปเพิ่มเติมหรือไม่？</string>
+    <string name="x_cloud_identity_switch_set_area">ตั้งค่าพื้นที่ที่ตั้ง</string>
+    <string name="x_cloud_identity_switch_set_area_tip">โปรดกรอกข้อมูลพื้นที่ของคุณก่อน คุณต้องการไปเพิ่มเติมหรือไม่?</string>
+    <string name="x_cloud_identity_title">เปลี่ยนบทบาท</string>
+    <string name="x_cloud_identity_switch_add_identity_format">%1$s(มีอยู่แล้ว)</string>
+    <string name="x_cloud_identity_switch_dialog_delete_title">ลบตัวตน</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_teacher">โปรดออกหรือยุติชั้นเรียนก่อน การลบไม่สามารถยกเลิกได้ และจะล้างข้อมูลทั้งหมดที่เกี่ยวข้อง คุณต้องการลบตัวตน %1$s หรือไม่?</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_guardian">โปรดออกหรือยุติครอบครัวก่อน ลบแล้วจะไม่สามารถเรียกคืน และจะลบข้อมูลทั้งหมดที่เกี่ยวข้อง คุณต้องการลบตัวตน %1$s หรือไม่?</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_student">โปรดออกหรือยุบครอบครัวก่อน การลบไม่สามารถยกเลิกได้ และจะล้างข้อมูลที่เกี่ยวข้องทั้งหมด คุณต้องการลบตัวตน %1$s หรือไม่?</string>
+    <string name="x_cloud_identity_switch_dialog_delete_content_default">หลังจากลบแล้วจะไม่สามารถยกเลิกได้ และจะล้างข้อมูลทั้งหมดที่เกี่ยวข้อง คุณต้องการลบตัวตน %1$s หรือไม่?</string>
+    <string name="x_cloud_identity_switch_dialog_delete_one_of_staff_identity">โปรดลบบทบาท%1$s ที่สวิตช์บนระบบก่อน แล้วค่อยสร้างบทบาท คุณสามารถเลือกบทบาทเพียงหนึ่งใน ผู้ช่วยการศึกษา ผู้ดูแล หรือผู้สอนคอมพิวเตอร์</string>
+    <string name="x_cloud_identity_switch_dialog_button_cancel">ยกเลิก</string>
+    <string name="x_cloud_identity_switch_dialog_button_close">ปิด</string>
+    <string name="x_cloud_identity_switch_dialog_button_delete">ลบ</string>
+    <string name="x_cloud_identity_switch_add_identity_success">สร้างตำแหน่งเรียบร้อย</string>
+    <string name="x_cloud_identity_switch_guardian_children_empty">ยังไม่ได้เชื่อมโยงกับเด็ก</string>
+    <string name="x_cloud_identity_switch_guardian_my_children">ลูกของฉัน</string>
+
+    <string name="x_cloud_identity_switch_delete_has_family">กรุณาออกหรือยุติครอบครัว</string>
+    <string name="x_cloud_identity_switch_delete_has_class">โปรดออกหรือยุบห้องเรียน</string>
+    <string name="x_cloud_identity_switch_delete_success">ลบสำเร็จ</string>
+    <string name="x_cloud_identity_switch_delete_fail">ลบไม่สำเร็จ</string>
+    <string name="x_cloud_identity_switch_auto_fail">เปลี่ยนไม่สำเร็จ กรุณาเปลี่ยนตัวเอง</string>
+    <string name="x_cloud_identity_switch_error_json">ข้อมูลการตอบสนองของตัวแทนครอบครัวผิดรูปแบบ</string>
+    <string name="x_cloud_identity_switch_error_child_null">ตั้งค่าความสัมพันธ์กับลูก</string>
+    <string name="x_cloud_identity_switch_error_set_agent">การเชื่อมโยงล้มเหลว โปรดคลิกเพื่อรีเฟรช</string>
+    <string name="x_cloud_identity_switch_error">เปลี่ยนตำแหน่งไม่สำเร็จ</string>
+    <string name="x_cloud_identity_switch_modify_tip_1">บทบาทผิดพลาดหรือไม่? ฉันคือ%1$s</string>
+    <string name="x_cloud_identity_switch_modify_tip_1_identity1">นักเรียน</string>
+    <string name="x_cloud_identity_switch_modify_tip_1_identity2">บทบาทอื่น</string>
+    <string name="x_cloud_identity_switch_modify_tip_2">ไปที่การแก้ไข</string>
+
+
+    <string name="x_cloud_imshared_dialog_receivers">ส่งถึง：</string>
+    <string name="x_cloud_imshared_dialog_remark">พูดอะไรสักอย่าง</string>
+
+    <string name="x_cloud_imshared_group_type_class">กลุ่มชั้นเรียน</string>
+
+    <string name="x_cloud_modify_identity_tip1">การเปลี่ยนแปลงสถานะจะลบสถานะปัจจุบันของคุณ และล้างข้อมูลที่เกี่ยวข้อง โปรดใช้การดำเนินการอย่างระมัดระวัง</string>
+    <string name="x_cloud_modify_identity_tip2">โปรดยืนยันว่าคุณได้ดำเนินการตามด้านล่าง</string>
+    <string name="x_cloud_modify_identity_quit_class">ได้ออกจากชั้นเรียนทั้งหมดแล้ว</string>
+    <string name="x_cloud_modify_identity_quit_family">ออกจากครอบครัวของฉันแล้ว</string>
+    <string name="x_cloud_modify_identity_title">การเปลี่ยนแปลงบทบาท</string>
+    <string name="x_cloud_modify_identity_btn">แก้ไขตัวตน</string>
+    <string name="x_cloud_choose_identity_title">ยืนยันตัวตน</string>
+    <string name="x_cloud_choose_identity_tip">เพื่อให้บริการและประสบการณ์ที่ดีขึ้น ทางเราได้ทำการปรับปรุงให้ระบบไม่สนับสนุนการเข้าสู่ระบบด้วยบัญชีที่เป็น【นักเรียน】และ【ครู/ผู้ปกครอง/ผู้สอน/ผู้ดูแลด้านการสอน/เจ้าหน้าที่บริหาร】ด้วยบัญชีเดียวกันอีกต่อไป</string>
+    <string name="x_cloud_choose_identity_my_identity">โปรดเลือกตัวตนที่คุณต้องการเก็บ</string>
+    <string name="x_cloud_choose_identity_my_identity_message">   หลังยืนยันบทบาท ข้อมูลที่เกี่ยวข้องกับบทบาทอื่นของคุณ (เช่น ชั้นเรียน ข้อมูลครอบครัว) จะถูกลบ หากต้องการใช้บทบาทอื่นๆ โปรดลงทะเบียนบัญชีใหม่ ขออภัยในความไม่สะดวก</string>
+    <string name="x_cloud_choose_identity_teacher_confirm">ยืนยัน</string>
+    <string name="x_cloud_choose_identity_teacher_patriarch">ครู/ผู้ปกครอง/ผู้สอนวิชา/ผู้ดูแลอุปกรณ์การเรียนการสอน</string>
+    <string name="x_cloud_choose_identity_operate_success">ดำเนินการสำเร็จ</string>
+    <string name="x_cloud_choose_identity_operate_fail">ดำเนินการล้มเหลว</string>
+    <string name="x_cloud_choose_identity_student">นักเรียน</string>
+    <string name="x_cloud_dialog_class_info_title">เชิญคุณเข้าร่วมชั้นเรียนต่อไป</string>
+    <string name="x_cloud_dialog_class_info_cancel">ยกเลิก</string>
+    <string name="x_cloud_dialog_class_info_join">เข้าร่วม</string>
+    <string name="x_cloud_dialog_class_info_not_found">ไม่พบชั้นเรียน</string>
+    <string name="x_cloud_group_type_0">กลุ่มทั่วไป</string>
+    <string name="x_cloud_group_type_4">กลุ่มฝ่าย</string>
+    <string name="x_cloud_group_type_5">กลุ่มสนใจ</string>
+    <string name="x_cloud_group_type_6">กลุ่มรายวิชา</string>
+    <string name="x_cloud_group_type_8">กลุ่มครู-นักเรียน</string>
+    <string name="x_cloud_group_type_9">กลุ่มบ้านเรียน</string>
+    <string name="x_cloud_group_type_10">สถานที่ทำงานของครูผู้เชี่ยวชาญ</string>
+    <string name="x_cloud_group_type_11">กลุ่มการศึกษาวิจัย</string>
+    <string name="x_cloud_group_type_12">สตูดิโอของผู้เชี่ยวชาญ</string>
+
+    <string name="x_cloud_im_chat_menu_item_title_agent_filter">กรองตามหมายเลขตัวแทน</string>
+    <string name="x_cloud_im_chat_agent_new_dialog_title_study">เลือกแอปการเรียนที่ต้องการคัดเลือก</string>
+    <string name="x_cloud_im_chat_agent_new_dialog_title_manage">เลือกแอปพลิเคชันการจัดการที่ต้องการคัดเลือก</string>
+
+    <string name="x_cloud_im_chat_agent_new_message_title">ยินดีต้อนรับสู่แพลตฟอร์มการศึกษาอัจฉริยะของโรงเรียนประถมและมัธยมของประเทศ</string>
+    <string name="x_cloud_im_chat_agent_new_message_desc">ดูคำอธิบายแพลตฟอร์ม</string>
+
+    <string name="xc_assistant_info_tip">สวัสดี~ ยินดีต้อนรับสู่\n%1$sหน้าข้อมูล</string>
+    <string name="xc_assistant_info_title">%1$s ข้อมูล</string>
+    <string name="xc_assistant_in_class">กำลังเรียน</string>
+    <string name="xc_assistant_in_research">กำลังดำเนินการ</string>
+    <string name="x_cloud_login_dialog_content">เข้าสู่ระบบ/ลงทะเบียนบัญชี เพื่อซิงค์บันทึกการเรียน</string>
+    <string name="x_cloud_login_dialog_positive_button_label">เข้าสู่ระบบ/ลงทะเบียน</string>
+    <string name="x_cloud_login_dialog_neutral_button_label">ไม่จำเป็นในขณะนี้</string>
+
+    <string name="x_cloud_lecturer_subject_all">ทั้งหมด</string>
+    <string name="x_cloud_lecturer_course_path_1">%1$s%2$s · %3$s · %4$s</string>
+    <string name="x_cloud_lecturer_course_path_space">  ·  </string>
+
+    <string name="x_cloud_group_tip"><![CDATA[เข้าร่วมห้องเรียนแล้ว <font color="#1E62EC">%1$d</font> ห้องเรียน โรงเรียน<font color="#1E62EC">%2$d</font> ครอบครัว]]></string>
+
+    <string name="xcloud_install_vlab_first">โปรดติดตั้งแอปพลิเคชันการทดลองทำทางวิทยาศาสตร์จากโรงเรียน</string>
+    <string name="xcloud_no_allow">ฟังก์ชันนี้กำลังอยู่ในขั้นตอนการพัฒนา ไม่รองรับการดำเนินการนี้ในขณะนี้</string>
+    <string name="xcloud_main_study_search_tip">ค้นหาด้วยคำหลัก</string>
+
+    <string name="xcloud_famous_teacher_tag_master">ผู้นำ</string>
+    <string name="xcloud_famous_teacher_tag_manager">ผู้ดูแล</string>
+
+    <string name="xcloud_research_tag_master">ผู้นำการประชุม</string>
+    <string name="xcloud_research_tag_manager">ผู้ดูแล</string>
+
+    <string name="x_cloud_study_home_tips">เคล็ดลับ: ควบคุมเวลาการเข้าถึงอินเทอร์เน็ต ป้องกันการทำลายสายตา และออกกำลังกาย!</string>
+
+    <string name="x_cloud_channel">ช่อง</string>
+    <string name="x_cloud_channel_edit">แก้ไข</string>
+    <string name="x_cloud_channel_edit_tip">ค้างคาบลากเพื่อเรียงลำดับ</string>
+    <string name="x_cloud_special">หัวข้อ</string>
+    <string name="x_cloud_channel_data_error">โหลดช่องล้มเหลว โปรดตรวจสอบเครือข่าย!</string>
+    <string name="x_cloud_perfect_auth_info">กรอกข้อมูลการรับรอง</string>
+    <string name="x_cloud_perfect_auth_info_current_school">โรงเรียนปัจจุบัน: %1$s</string>
+    <string name="x_cloud_perfect_auth_info_tips">การกรอกข้อมูลการรับรองตัวตนจะช่วยให้ผู้ดูแลโรงเรียนจัดการได้ดียิ่งขึ้น ในเวลาเดียวกันยังช่วยง่ายต่อการตรวจสอบชั่วโมงการฝึกอบรมของครูที่ได้รับการรับรอง</string>
+    <string name="x_cloud_perfect_auth_info_only_choose_school">เลือกเฉพาะโรงเรียน</string>
+    <string name="x_cloud_perfect_auth_info_go_to_auth">ไปยังการรับรอง</string>
+    <string name="x_cloud_select_school_direct_school">โรงเรียนที่ตั้งอยู่โดยตรง</string>
+    <string name="x_cloud_select_school_direct_institution">สถาบัน/โรงเรียนที่ติดต่อ</string>
+    <string name="x_cloud_select_school_all_school">ทั้งหมด</string>
+    <string name="x_cloud_analytics_guest">ผู้เยี่ยมชม</string>
+    <string name="x_cloud_search_area_tips">%1$s</string>
+
+    <string name="x_cloud_join_class_dialog_forbidden_title">การเข้าร่วมล้มเหลว</string>
+    <string name="x_cloud_join_class_dialog_forbidden_content">บทบาทปัจจุบันไม่อนุญาตให้เข้าร่วมชั้นเรียน เฉพาะบทบาทครู ผู้ปกครอง และนักเรียนเท่านั้นที่อนุญาตให้เข้าร่วมชั้นเรียน</string>
+    <string name="x_cloud_join_class_dialog_forbidden_button">กลับ</string>
+
+    <string name="x_cloud_tip_input_real_info">โปรดตรวจสอบข้อมูลที่กรอกว่าเป็นความจริงและถูกต้อง การเก็บข้อมูลของข้อมูลต่อไปนี้จะเป็นไปโดยเคร่งครัดตามข้อกำหนดด้านความปลอดภัยของประเทศ โปรดกรอกข้อมูลด้วยใจสบาย</string>
+    <string name="x_cloud_user_name">ชื่อ</string>
+    <string name="x_cloud_phone_number">หมายเลขโทรศัพท์</string>
+    <string name="x_cloud_institution">สถาบัน/โรงเรียนที่เป็นเจ้าของ</string>
+    <string name="x_cloud_no_input">ยังไม่ได้กรอก</string>
+    <string name="x_cloud_please_input">โปรดใส่</string>
+    <string name="x_cloud_please_input_username">โปรดใส่ชื่อ</string>
+    <string name="x_cloud_no_select">ไม่ได้เลือก</string>
+    <string name="x_cloud_please_select">โปรดเลือก</string>
+    <string name="x_cloud_please_select_institution">กรุณาเลือกสถาบัน/โรงเรียนที่เกี่ยวข้อง</string>
+    <string name="x_cloud_modify">แก้ไข</string>
+    <string name="x_cloud_personal_info">ข้อมูลส่วนตัว</string>
+    <string name="x_cloud_complete_info_success">ทำการเพิ่มข้อมูลส่วนตัวเรียบร้อยแล้ว</string>
+    <string name="x_cloud_error_username_contain_asterisk">ชื่อไม่สามารถมีเครื่องหมาย *</string>
+    <string name="x_cloud_helper_phone">4008980910</string>
+    <string name="x_cloud_load_fail_and_retry">โหลดล้มเหลว กรุณาลองอีกครั้ง</string>
+    <string name="x_cloud_tip_select_school_privacy">เราจะช่วยคุณเลือกโรงเรียนที่ดีที่สุดตามตำแหน่งของคุณ\nเราจะปฏิบัติตามข้อกำหนดความปลอดภัยและมาตรการความปลอดภัย  โปรดกรอกข้อมูลอย่างปลอดภัย</string>
+    <string name="x_cloud_tip_select_school_privacy_student">เราจะช่วยคุณเข้าร่วมชั้นเรียนอย่างสะดวกต่อไปจากการกรอกข้อมูลโรงเรียนของคุณ\nเราจะปฏิบัติตามข้อกำหนดความปลอดภัยและความเป็นไปตามกฎหมายเพื่อรักษาความปลอดภัยของข้อมูลของคุณ โปรดกรุณากรอกข้อมูลโดยมั่นใจ</string>
+    <string name="x_cloud_tip_select_school_privacy_teacher">เราเก็บข้อมูลของคุณเพื่อช่วยให้คุณสามารถเข้าร่วมโรงเรียนได้อย่างสะดวก\nเราจะปฏิบัติตามข้อกำหนดความปลอดภัยและความเหมาะสม โปรดมั่นใจในการกรอกข้อมูลของคุณ</string>
+
+    <string name="x_cloud_create_class_no_teacher">ตอนนี้ยังไม่ได้รับอนุญาตให้สร้างชั้นเรียนเนื่องจากไม่ใช่ตำแหน่งของครู</string>
+    <string name="x_cloud_create_class_disabled">ไม่อนุญาตให้สร้างชั้นเรียนชั่วคราว</string>
+
+    <string name="x_cloud_banned_to_post_forever">ขออภัย คุณถูกห้ามใช้งานบนแพลตฟอร์มถาวร จึงไม่สามารถส่งข้อความได้ชั่วคราว</string>
+    <string name="x_cloud_banned_to_post_to_time">ขอโทษ คุณถูกห้ามพูดจนถึง%1$s โดยแพลตฟอร์ม ไม่สามารถส่งข้อความได้ชั่วครา</string>
+    <string name="x_cloud_appeal">เรียกร้อง＞</string>
+    <string name="x_cloud_class_edit_class_nick_name_tip">ใช้สำหรับชั้นเรียนเท่านั้น จะไม่เปิดเผยภายนอก เพื่อการผูกพันของผู้ปกครองเข้ากับชั้นเรียน</string>
+    <string name="x_cloud_must_input_sign">* </string>
+    <string name="x_cloud_select_platform_title">โปรดเลือกแพลตฟอร์ม</string>
+    <string name="x_cloud_select_platform">สลับแพลตฟอร์ม</string>
+
+    <string name="x_cloud_complete_userinfo_title">กรุณากรอกข้อมูล</string>
+    <string name="x_cloud_complete_userinfo_tip_1">เรียนท่านผู้ใช้:</string>
+    <string name="x_cloud_complete_userinfo_tip_2">เพื่อให้บริการที่ดีและแม่นยำมากขึ้น ขอเชิญคุณกรอกข้อมูลส่วนตัว การรวบรวมข้อมูลต่อไปนี้จะเป็นไปตามกฎระเบียบด้านความปลอดภัยของประเทศ โปรดกรอกข้อมูลด้วยใจสบาย</string>
+    <string name="x_cloud_complete_userinfo_edu_stage">ระยะการศึกษา:</string>
+    <string name="x_cloud_complete_userinfo_edu_stage_hint">โปรดเลือกระดับการศึกษา</string>
+    <string name="x_cloud_complete_userinfo_user_identity">ตัวตนของผู้ใช้:</string>
+    <string name="x_cloud_complete_userinfo_user_identity_hint">โปรดเลือกบทบาทของผู้ใช้</string>
+    <string name="x_cloud_complete_userinfo_nickname">ชื่อเล่น：</string>
+    <string name="x_cloud_complete_userinfo_nickname_hint">โปรดใส่ชื่อเล่น</string>
+    <string name="x_cloud_complete_userinfo_realname">ชื่อจริง:</string>
+    <string name="x_cloud_complete_userinfo_realname_hint">โปรดป้อนชื่อ</string>
+    <string name="x_cloud_complete_userinfo_cert_type">ประเภทเอกสาร :</string>
+    <string name="x_cloud_complete_userinfo_cert_type_hint">โปรดเลือกประเภทของเอกสาร</string>
+    <string name="x_cloud_complete_userinfo_cert_number">หมายเลขบัตรประชาชน:</string>
+    <string name="x_cloud_complete_userinfo_cert_number_hint">โปรดใส่หมายเลขบัตรประชาชน</string>
+    <string name="x_cloud_complete_userinfo_cert_number_illegal_tip">โปรดใส่หมายเลขประจำตัวประชาชนที่ถูกต้อง</string>
+    <string name="x_cloud_complete_userinfo_school">โรงเรียน：</string>
+    <string name="x_cloud_complete_userinfo_institution">องค์กร:</string>
+    <string name="x_cloud_complete_userinfo_institution_hint">โปรดเลือกสถาบัน</string>
+    <string name="x_cloud_complete_userinfo_area">พื้นที่ที่อยู่อาศัย:</string>
+    <string name="x_cloud_complete_userinfo_area_hint">โปรดเลือกพื้นที่</string>
+    <string name="x_cloud_complete_userinfo_sensitive_nickname_tip">ชื่อเล่นมีคำหยาบ กรุณากรอกใหม่</string>
+    <string name="x_cloud_complete_userinfo_sensitive_realname_tip">ชื่อจริงมีคำที่ทำให้ไม่สบายใจ โปรดกรอกใหม่</string>
+    <string name="x_cloud_complete_userinfo_user_get_config_identities_failed">ล้มเหลวในการรับรายการตัวตน</string>
+
+    <string name="x_cloud_edu_stage_basic">การศึกษาพื้นฐาน</string>
+    <string name="x_cloud_edu_stage_vocational">การศึกษาวิชาชีพ</string>
+    <string name="x_cloud_edu_stage_higher">การศึกษาระดับมหาวิทยาลัย</string>
+
+    <string name="x_cloud_cert_type_1">บัตรประจำตัวประชาชนของพลเมือง</string>
+    <string name="x_cloud_cert_type_2">บัตรประจำตัวของทหาร</string>
+    <string name="x_cloud_cert_type_3">บัตรประจำตัวทหาร</string>
+    <string name="x_cloud_cert_type_4">บัตรบริหารสถานที่</string>
+    <string name="x_cloud_cert_type_5">บัตรบำนาญทหาร</string>
+    <string name="x_cloud_cert_type_6">หนังสือเดินทาง/บัตรประจำตัวฮ่องกง</string>
+    <string name="x_cloud_cert_type_7">หนังสือเดินทาง/บัตรประจำตัวพิเศษของมาเก๊า</string>
+    <string name="x_cloud_cert_type_8">บัตรผู้มีสิทธิ์เดินทางเข้า-ออกจากจีนใหญ่ของชาวไต้หวัน</string>
+    <string name="x_cloud_cert_type_9">ใบอนุญาตพำที่ถาวรต่างประเทศ</string>
+    <string name="x_cloud_cert_type_A">หนังสือเดินทาง</string>
+    <string name="x_cloud_cert_type_B">ทะเบียนบ้าน</string>
+    <string name="x_cloud_cert_type_C">บัตรประจำตัวประชาชนฮ่องกง/การ์มะเกา</string>
+    <string name="x_cloud_cert_type_D">บัตรแสดงตัวอยู่ของประชาชนภูมิลำเนา</string>
+
+    <string name="x_cloud_identity_switch_modify_school_tip">โปรดไปที่"ข้อมูลส่วนตัว" เพื่อแก้ไขโรงเรียน</string>
+    <string name="x_cloud_identity_switch_modify_institution_tip">กรุณาไปที่ “ข้อมูลส่วนตัว” เพื่อแก้ไขสถาบัน/โรงเรียน</string>
+    <string name="x_cloud_conversation_up_chat">ปักหมุดการสนทนา</string>
+    <string name="x_cloud_clear_history">ล้างประวัติ</string>
+    <string name="x_cloud_find_history">ดูบันทึกประวัติ</string>
+    <string name="x_cloud_no_disturb">ปิดเสียงข้อความ</string>
+
+    <string name="x_cloud_101ppt_not_supported_identity">การสอนด้วยโทรศัพท์มือถือรองรับเฉพาะผู้ใช้ที่เป็นครูเท่านั้น โปรดสลับบทบาทและสแกนใหม่</string>
+    <string name="x_cloud_101ppt_not_integration">โปรดใช้แอปสมาร์ทสำหรับการศึกษาของโรงเรียนเพื่อสแกนเข้าสู่ระบบ</string>
+    <string name="x_cloud_local_channel">ช่องท้องถิ่น</string>
+</resources>

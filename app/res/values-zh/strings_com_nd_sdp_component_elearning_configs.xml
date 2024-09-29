@@ -1,0 +1,4 @@
+<resources>
+    <string name="ele_frame_default_toast">功能未开放</string>
+    <string name="ele_frame_user_no_access">当前用户无访问权限</string>
+</resources>

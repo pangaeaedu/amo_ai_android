@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ele_fr_career_planning">Career Planning</string>
+    <string name="ele_fr_train_auth">Training Certification</string>
+    <string name="ele_fr_public_course">Public Courses</string>
+    <string name="ele_fr_empty_data">No data.</string>
+    <string name="ele_fr_train_total_hour">%s learning hours</string>
+
+    <string name="ele_fr_train_user_count">%s learners</string>
+    <string name="ele_fr_course_num">%s courses</string>
+    <string name="ele_fr_course_total_hour">Totally: %s learning hours</string>
+
+    <string name="ele_fr_more">More</string>
+    <string name="ele_fr_job_title">Architects</string>
+    <string name="ele_fr_job_description">Company Elites</string>
+
+    <string name="ele_fr_load_fail">Failed to load. Please pull down to try again.</string>
+
+    <string name="ele_fr_no_data">No data.</string>
+    <string name="ele_fr_no_data_desc">No data.</string>
+
+    <string name="ele_fr_loading_wait">Loading...Please wait.</string>
+    <string name="ele_fr_listview_loadfail">Failed to load. Tap to try again.</string>
+</resources>

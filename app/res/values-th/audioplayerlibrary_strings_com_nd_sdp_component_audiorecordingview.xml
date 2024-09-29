@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="audioplayer_using_incall_mode">กำลังใช้โหมดหูฟัง</string>
+    <string name="audioplayer_using_speaker_mode">กำลังใช้โหมดลำโพง</string>
+
+</resources>

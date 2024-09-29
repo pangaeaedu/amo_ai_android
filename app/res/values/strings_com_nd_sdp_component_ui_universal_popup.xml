@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="common_popup_simple_dialog_ok">Confirm</string>
+    <string name="common_popup_simple_dialog_cancel">Cancel</string>
+
+    <string name="common_popup_talkback_head_image">Image</string>
+    <string name="common_popup_talkback_close_dialog">Close</string>
+    <string name="common_popup_talkback_close_sneck_bar">Close</string>
+    <string name="common_popup_talkback_close">Close</string>
+    <string name="common_popup_talkback_enter">Enter</string>
+</resources>

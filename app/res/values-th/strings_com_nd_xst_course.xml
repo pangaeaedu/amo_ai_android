@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--    所有语言包都放在这里，方便上传模板-->
+    <string name="e_course_v5_cancel">ยกเลิก</string>
+    <string name="e_course_v5_course_detail">รายละเอียดคอร์ส</string>
+    <string name="e_course_v5_course_intro">โปรไฟล์</string>
+    <string name="e_course_v5_course_catalog">สารบัญ</string>
+    <string name="e_course_v5_course_exam">สอบ</string>
+    <string name="e_course_v5_course_over">คอร์สเรียนจบแล้ว</string>
+    <string name="e_course_v5_waiting_auditings">รอการตรวจสอบ</string>
+    <string name="e_course_v5_waiting_pay">รอการชำระเงิน</string>
+    <string name="e_course_v5_guest">ยังไม่ได้ลงทะเบียน</string>
+    <string name="e_course_v5_login_first">โปรดเข้าสู่ระบบก่อน</string>
+    <string name="e_course_v5_offline_enroll">ลงทะเบียนแบบออฟไลน์</string>
+    <string name="e_course_v5_will_begin">เร็วๆ นี้เริ่มสอน</string>
+    <string name="e_course_v5_start_study">เริ่มเรียน</string>
+    <string name="e_course_v5_continue_study">เรียนต่อ</string>
+    <string name="e_course_v5_progress_total">เรียนแล้ว%1$s/ทั้งหมด%2$s ชั่วโมง</string>
+    <string name="e_course_v5_pass_way">ผ่านทาง</string>
+    <string name="e_course_v5_suit_user">เหมาะกับกลุ่มเป้าหมาย</string>
+    <string name="e_course_v5_course_intro_detail">คำอธิบายคอร์ส</string>
+    <string name="e_course_v5_no_intro">ยังไม่มีคำอธิบาย</string>
+    <string name="e_course_v5_quit_learning">ออกจากการเรียนรู้</string>
+    <string name="e_course_v5_course_share">แบ่งปัน</string>
+    <string name="e_course_v5_share_course_content">ฉันกำลังเรียน【%s】, แนะนำคอร์สที่ดี, มาเรียนด้วยกัน!</string>
+    <string name="e_course_v5_share_course_content_new">แนะนำคอร์สที่ดี, มาเรียนด้วยกัน!</string>
+    <string name="e_course_v5_quit_study_tip">หลังจากออกจากการเรียน คุณจะไม่สามารถดูคอร์สนี้ในศูนย์การเรียนได้ และสำหรับคอร์สที่คุณได้ลงทะเบียนไว้ หากต้องการทำคอร์สต่อไป คุณต้องลงทะเบียนใหม่ ยืนยันที่จะออกจากการเรียนหรือไม่?</string>
+    <string name="e_course_v5_quit_success">ออกจากระบบสำเร็จ</string>
+    <string name="e_course_v5_course_alert">คำแนะนำ</string>
+    <string name="e_course_v5_confirm_sure">ตกลง</string>
+    <string name="e_course_v5_enroll_first">โปรดลงทะเบียนก่อน</string>
+    <string name="e_course_v5_wait_course_start">ยังไม่ถึงเวลาเปิดคอร์ส</string>
+    <string name="e_course_v5_course_end">คอร์สเรียนจบแล้ว</string>
+    <string name="e_course_v5_no_study_condition">ไม่มีเงื่อนไขในการเรียนรู้</string>
+    <string name="e_course_v5_rs_try">ทดลองเรียน</string>
+    <string name="e_course_v5_rs_lock">เสร็จสิ้นตามลำดับเพื่อปลดล็อกการเรียน</string>
+    <string name="i18n.page">หน้า</string>
+    <string name="e_course_v5_main_free">ฟรี</string>
+    <string name="e_course_v5_main_pass_way_note">หมายเหตุ: อาจมีความล่าช้าในการอัพเดตสถานะ จะอัพเดตใหม่สุดท้ายภายใน 24 ชั่วโมง</string>
+    <string name="e_course_v5_course_available_time">ระยะเวลาเรียนที่ถือได้</string>
+    <string name="e_course_v5_view_video_introduction">ดูคำอธิบายวิดีโอของคอร์สเรียน</string>
+    <string name="e_course_v5_learning_avaliable_time">เวลาเรียนที่ถือได้</string>
+    <string name="e_course_v5_course_time">%1$s - %2$s</string>
+    <string name="e_course_v5_enroll_avaliable_time">เวลาที่ลงทะเบียนสำเร็จ</string>
+    <string name="e_course_v5_main_car">ตะกร้าสินค้า</string>
+    <string name="e_course_v5_listview_loadfail">โหลดไม่สำเร็จ กดลองใหม่</string>
+    <string name="e_course_v5_listview_loading">กำลังโหลด...</string>
+    <string name="e_course_v5_listview_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+    <string name="e_course_v5_cs_course_user">ผู้เรียน</string>
+    <string name="e_course_v5_video_introduction">วิดีโอนำเสนอคอร์ส</string>
+    <string name="e_course_v5_collection">รวบรวม</string>
+    <string name="e_course_v5_cancel_collection">ยกเลิกการบันทึก</string>
+    <string name="e_course_v5_unavailable">อ๊ะ หน้านี้ถูกเอาออกไปแล้ว</string>
+    <string name="e_course_v5_download_file_deleted">ไฟล์ต่อไปได้ถูกลบ กรุณาเก็บข้อมูลใหม่: %s</string>
+    <string name="e_course_v5_next_res">ดำเนินการเรียนถัดไป</string>
+    <string name="e_course_v5_activity_complete">ยินดีด้วยที่เสร็จสิ้นการเรียนรู้ครั้งนี้</string>
+    <string name="e_course_v5_activity_next_countdown">เข้าสู่งานเรียนถัดไปโดยอัตโนมัติหลังจาก %d วินาที</string>
+    <string name="e_course_v5_activity_all_complete">เรียนคอร์สนี้เสร็จสมบูรณ์แล้ว</string>
+    <string name="e_course_v5_activity_replay">เล่นอีกครั้ง</string>
+    <string name="e_course_v5_offline_course">หนังสือเรียนแบบออฟไลน์</string>
+    <string name="e_course_v5_doc_page">%1$d หน้า</string>
+    <string name="e_course_v5_paper_question_count">ทั้งหมด %1$d ข้อ</string>
+
+    <string name="e_course_v5_cha_loading">กำลังโหลดข้อมูล...</string>
+    <string name="e_course_v5_cha_network_fail">อุ๊ย! หลุดออกจากเครือข่าย</string>
+    <string name="e_course_v5_cha_try_refresh">ลองรีเฟรช</string>
+    <string name="e_course_v5_cha_course_book">หนังสือเรียน</string>
+    <string name="e_course_v5_cha_course_book_title">《%s》</string>
+    <string name="e_course_v5_cha_student_num">มี %d คนกำลังเรียน</string>
+    <string name="e_course_v5_cha_resource">รายการเรียน</string>
+    <string name="e_course_v5_cha_lecturer">ผู้สอน</string>
+    <string name="e_course_v5_cha_lecturer_greeting">ขอขอบคุณหน่วยงานและบุคคลทุกท่านที่สนับสนุนในการสร้างข้อมูลทรัพยากร</string>
+    <string name="e_course_v5_cha_load_fail">อ๋อ มีข้อผิดพลาด</string>
+    <string name="e_course_v5_cha_see_other">ดูอย่างอื่น</string>
+    <string name="e_course_v5_cha_course_lost">อ๊ะ! ไม่พบคอร์สเรียน</string>
+
+    <string name="e_course_v5_cha_network_error">ปัญหาในเครือข่าย</string>
+    <string name="e_course_v5_cha_check_network">ตรวจสอบว่ามือถือเปิด\nการเชื่อมต่อข้อมูลเคลื่อนที่หรือ WIFI หรือไม่</string>
+    <string name="e_course_v5_cha_check_setting">ตั้งค่าการตรวจสอบ</string>
+    <string name="e_course_v5_cha_unknown_resource">วิธีเปิดทรัพยากรผิดพลาด</string>
+    <string name="e_course_v5_cha_start_study">เริ่มเรียนรู้</string>
+    <string name="e_course_v5_cha_study_again">เรียนซ้ำอีกครั้ง</string>
+    <string name="e_course_v5_cha_last_study">ดูครั้งล่าสุด</string>
+    <string name="e_course_v5_cha_rd_hang_up_tip">ระบบตั้งค่าให้ไม่อนุญาตให้เรียนพร้อมกันหลายที่</string>
+    <string name="e_course_v5_cha_login_dialog_tip">เข้าสู่ระบบ/ลงทะเบียนเพื่อรับชมคอร์สที่น่าสนใจ</string>
+    <string name="e_course_v5_cha_no_need">ไม่ต้องการในขณะนี้</string>
+    <string name="e_course_v5_cha_login_register">เข้าสู่ระบบ/ลงทะเบียน</string>
+    <string name="e_course_v5_cha_network_check_tip">การเชื่อมต่อเครือข่ายผิดปกติ โปรดตรวจสอบเครือข่าย</string>
+
+    <string name="e_course_v5_cha_vd_play_finished">เล่นวิดีโอเสร็จสมบูรณ์</string>
+    <string name="e_course_v5_cha_vd_audio_playing">กำลังเล่นเสียง</string>
+    <string name="e_course_v5_cha_vd_switch_to_video">เปลี่ยนกลับไปที่วิดีโอ</string>
+    <string name="e_course_v5_cha_vd_back_play_tip">สามารถทำการล็อกหน้าจอและย้ายไปยังพื้นหลังได้ โดยยังคงได้ยินเสียง</string>
+    <string name="e_course_v5_cha_vd_go_back">กลับ</string>
+    <string name="e_course_vd_cha_v5_close">ปิด</string>
+    <string name="e_course_v5_cha_vd_play">เล่น</string>
+    <string name="e_course_v5_cha_vd_fullscreen">เต็มหน้าจอ</string>
+    <string name="e_course_v5_cha_vd_quit_tip">ออกจากการเล่นในอีก %d วินาที</string>
+    <string name="e_course_v5_cha_vd_cancel">ยกเลิก</string>
+    <string name="e_course_v5_cha_vd_audio_only">ฟังเสียงเท่านั้น</string>
+    <string name="e_course_v5_cha_vd_video_mode">โหมดวิดีโอ</string>
+    <string name="e_course_v5_cha_vd_auto_play_next_res">เล่นทรัพยากรถัดไปโดยอัตโนมัติ</string>
+    <string name="e_course_v5_cha_vd_not_open">ปิดไม่เปิด</string>
+    <string name="e_course_v5_cha_vd_finish_current">เล่นจนจบ</string>
+    <string name="e_course_v5_cha_vd_timing_10">10:00</string>
+    <string name="e_course_v5_cha_vd_timing_20">20:00</string>
+    <string name="e_course_v5_cha_vd_timing_30">30:00</string>
+    <string name="e_course_v5_cha_vd_timing_quit">ตั้งเวลาออกจากการเล่น</string>
+    <string name="e_course_v5_cha_vd_break_point_exercise">ฝึกหัดที่จุดพัก %d</string>
+    <string name="e_course_v5_cha_vd_redo">ทำอีกครั้ง</string>
+    <string name="e_course_v5_cha_vd_replay">เล่นอีกครั้ง</string>
+    <string name="e_course_v5_cha_vd_experience_login_tip">สามารถทดลองเรียน %s ดูเนื้อหาเต็มโปรดเข้าสู่ระบบ</string>
+    <string name="e_course_v5_cha_vd_experience_sign_tip">สามารถทดลองเรียน %s, โปรดลงทะเบียนเพื่อดูเนื้อหาทั้งหมด</string>
+    <string name="e_course_v5_cha_vd_experience_finish_login_tip">การทดลองเรียนจบลง กรุณาเข้าสู่ระบบเพื่อดูเนื้อหาเต็ม</string>
+    <string name="e_course_v5_cha_vd_experience_finish_sign_tip">การทดลองเรียนได้สิ้นสุดลง โปรดลงทะเบียนเพื่อดูเนื้อหาทั้งหมด</string>
+    <string name="e_course_v5_cha_vd_remain_time_minute">%d นาที</string>
+    <string name="e_course_v5_cha_vd_remain_time_hour">%d ชั่วโมง</string>
+    <string name="e_course_v5_cha_vd_remain_time_second">%d วินาที</string>
+    <string name="e_course_v5_cha_vd_experience_min_second">%1$d นาที %2$d วินาที</string>
+    <string name="e_course_v5_cha_vd_play_rate_75X">0.75 เท่า</string>
+    <string name="e_course_v5_cha_vd_play_rate_200X">2.0 เท่า</string>
+    <string name="e_course_v5_cha_vd_play_rate_200X_new">2.0 เท่า</string>
+    <string name="e_course_v5_cha_vd_is_pause">หยุดเล่นชั่วคราว</string>
+    <string name="e_course_v5_cha_vd_remain_time_minute_second">%1$d นาที %2$d วินาที</string>
+    <string name="e_course_v5_cha_vd_remain_time_hour_minute">%1$d ชั่วโมง %2$d นาที</string>
+    <string name="e_course_v5_cha_vd_remain_time_day_hour">%1$d วัน %2$d ชั่วโมง</string>
+    <string name="e_course_v5_cha_vd_remain_time_hour_minute_second">%1$d ชั่วโมง %2$d นาที %3$d วินาที</string>
+    <string name="e_course_v5_cha_vd_remain_time_day_hour_minute">%1$d วัน %2$d ชั่วโมง %3$d นาที</string>
+    <string name="e_course_v5_cha_vd_remain_time_day_hour_minute_second">%1$d วัน %2$d ชั่วโมง %3$d นาที %4$d วินาที</string>
+    <string name="e_course_v5_cha_vd_hang_up_tip">ระบบตั้งค่าไม่อนุญาตให้เรียนพร้อมกันที่หลายที่</string>
+
+    <string name="e_course_v5_cha_share">แบ่งปัน</string>
+    <string name="e_course_v5_cha_projection">สตรีม</string>
+    <string name="e_course_v5_cha_offline_course">คอร์สเรียนแบบออฟไลน์</string>
+    <string name="e_course_v5_cha_share_resource_title">%1$s - %2$s</string>
+    <string name="e_course_v5_cha_share_video_title">วิดีโอ - %s</string>
+    <string name="e_course_v5_cha_share_doc_title">เอกสาร - %s</string>
+    <string name="e_course_v5_cha_share_content">《%s》</string>
+    <string name="e_course_v5_cha_has_download">แคชแล้ว</string>
+    <string name="e_course_v5_cha_playing_download_video">กำลังเล่นวิดีโอที่มีการเก็บไว้</string>
+    <string name="e_course_v5_cha_playing_download_document">กำลังเล่นเอกสารที่เก็บไว้</string>
+
+    <string name="cha_consult">ถาม-ตอบ</string>
+    <string name="cha_login_before_consult">ลงชื่อเข้าระบบ/ลงทะเบียนเพื่อสอบถามคำถาม</string>
+
+    <string name="xst_course_teacher">ผู้สอน</string>
+    <string name="xst_course_catalog">รายการเรียน</string>
+    <string name="xst_teacher_course">การอบรมของครู</string>
+    <string name="xst_course_provider">ให้บริการ</string>
+
+    <string name="tcourse_ex_course_intro">บทนำของคอร์ส</string>
+    <string name="tcourse_ex_course_catalog">สารบัญคอร์ส</string>
+    <string name="tcourse_ex_course_recommend">คอร์สเรียนแนะนำ</string>
+    <string name="xst_course_recommend">คำแนะนำที่เกี่ยวข้อง</string>
+
+    <string name="xst_ocourse_info_title">การศึกษาการงาน</string>
+    <string name="xst_course_summary">บทนำของหลักสูตร</string>
+    <string name="tcourse_no_data_tip">ไม่มีข้อมูล</string>
+    <string name="tcourse_course_count">%1$d ทรัพยากร</string>
+    <string name="xst_course_access_check_fail">การตรวจสอบสิทธิ์ล้มเหลว</string>
+
+    <string name="xst_course_access_login_content">คุณยังไม่ได้เข้าสู่ระบบ กรุณาเข้าสู่ระบบก่อนใช้งาน</string>
+    <string name="xst_course_format_praise">%s ถูกใจ</string>
+
+    <string name="e_course_v5_cha_last_study_n">ดูครั้งล่าสุด: %s</string>
+    <string name="e_course_v5_cha_last_listener_n">ฟังครั้งสุดท้าย: %s</string>
+    <string name="e_course_v5_cha_study_finish">ยินดีด้วย คุณเรียนจบคอร์สนี้แล้ว คุณคิดว่าคอร์สนี้ดีอย่างไร?</string>
+    <string name="e_course_v5_cha_study_score">ไปยังการให้คะแนน</string>
+
+    <string name="xst_course_teach_homework">การบ้านคอร์ส</string>
+
+    <string name="xst_course_teacher_role">ผู้นำเสนอ</string>
+    <string name="xst_course_advisor_role">อาจารย์ที่ปรึกษา</string>
+
+    <string name="xst_course_cha_resource_tag_city_excellent">นักเรียนดีเด่นของเมือง</string>
+    <string name="xst_course_cha_resource_tag_province_excellent">คุณภาพดี</string>
+    <string name="xst_course_cha_resource_tag_unit_excellent">คุณภาพ</string>
+
+    <string name="xst_course_lite_lesson_master">ผู้สอน:</string>
+    <string name="xst_course_lite_lesson_lecture_space">    </string>
+    <string name="xst_course_lite_lesson_assistant">ครูที่ปรึกษา:</string>
+
+    <string name="xst_experiment_course_speaker_teacher">ผู้นำเสนอ</string>
+    <string name="xst_experiment_course_speaker_teacher_format">
+        <![CDATA[ผู้พูดหลัก：<font color="#666666">%1$s</font>]]>
+    </string>
+    <string name="xst_experiment_course_publish_time">เวลาเผยแพร่</string>
+    <string name="xst_experiment_course_school_text">สถาบันการศึกษาที่เกี่ยวข้อง</string>
+    <string name="xst_experiment_course_area_text">ภูมิภาคที่สังกัด</string>
+    <string name="xst_experiment_course_catalog_collapse">ยุบ</string>
+    <string name="xst_experiment_course_catalog_expand">ดูเพิ่มเติม</string>
+    <string name="xst_experiment_course_coauthor">ผู้เขียนร่วม</string>
+
+    <string name="xst_course_study_download">ดาวน์โหลดแบบออฟไลน์</string>
+    <string name="xst_course_recent_materials">หนังสือเรียนที่ใช้บ่อย</string>
+
+    <string name="xst_course_more_more_courses">คอร์สเพิ่มเติม</string>
+    <string name="xst_course_more_recommend_courses">คำแนะนำที่เกี่ยวข้อง</string>
+
+    <string name="xst_course_teaching_material">หนังสือเรียนอิเล็กทรอนิกส์</string>
+    <string name="xst_course_basic_homework">การบ้านพื้นฐาน</string>
+    <string name="xst_course_prepare_lesson_resources">แหล่งข้อมูลสำหรับการเตรียมการสอน</string>
+    <string name="xst_course_res_waiting">รอคอยอยู่</string>
+    <string name="xst_course_choose_res">โปรดเลือกทรัพยากร</string>
+    <string name="xst_course_choose_res_count">เลือกทรัพยากร %d รายการแล้ว ทั้งหมด %d รายการ</string>
+
+    <string name="xst_course_hour_res">ทรัพยากรคลาส</string>
+    <string name="xst_course_add_res">บันทึกลงคลังของฉัน</string>
+    <string name="xst_course_add_res_fail">บันทึกไปยังคลังทรัพยากรล้มเหลว</string>
+    <string name="xst_course_add_res_success">บันทึกไปที่【ฉัน-คลังทรัพยากรของฉัน】แล้ว</string>
+    <string name="xst_course_interact_download">ดาวน์โหลด</string>
+    <string name="xst_course_add_to_doc_center">บันทึกไว้ในคลังข้อมูล</string>
+    <string name="xst_course_add_library_not_support">ทรัพยากรนี้ไม่สามารถบันทึกไปยังคลังทรัพยากร</string>
+    <string name="xst_course_print_exam">พิมพ์กระดาษทดลอง</string>
+    <string name="xst_course_print">พิมพ์</string>
+
+    <string name="tcourse_live_watch">%1$d การดู</string>
+    <string name="tcourse_train_kick_tip">คุณได้เข้าสู่การเรียนผ่านอุปกรณ์อื่น อุปกรณ์นี้จะหยุดการเรียนโดยอัตโนมัติ</string>
+    <string name="tcourse_hack_user_tip">บันทึกการเรียนของคุณถูกพิจารณาว่าผิดปกติ โปรดเรียนคอร์สใหม่</string>
+    <string name="tcourse_discussion">การสนทนาของคอร์สเรียน</string>
+
+    <string name="tcourse_sign_in">ลงชื่อเข้าร่วม</string>
+    <string name="tcourse_signed_in">ลงชื่อเข้าร่วมแล้ว</string>
+    <string name="tcourse_not_sign_in">ยังไม่ได้เช็คอิน</string>
+    <string name="tcourse_invalid_sign_in">การเช็คอินไม่ถูกต้อง</string>
+    <string name="tcourse_sign_in_success">ลงชื่อเข้าร่วมสำเร็จ</string>
+    <string name="tcourse_tips_not_in_sign_in_time">ไม่ได้อยู่ในช่วงเวลาที่สามารถลงชื่อเข้าร่วมได้</string>
+    <string name="tcourse_sign_in_time_period">ช่วงเวลาที่สามารถเช็คอิน: %1$s</string>
+    <string name="xst_course_click_view_doc">คลิกเพื่อดู</string>
+    <string name="xst_course_doc_count">ทั้งหมด %d หน้า</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="el_dynamic_net_error_tips">网络连接错误，请重试</string>
+    <string name="el_dynamic_data_error_tips">数据解析错误，请重试</string>
+    <string name="el_dynamic_load_fail_retry">加载失败，请下拉重试</string>
+    <string name="el_dynamic_has_no_dynamic">没有动态哦</string>
+    <string name="el_dynamic_time_format">MM月dd日</string>
+
+    <string name="el_dynamic_album_dynamic_content">上传%s张照片到相册</string>
+    <string name="el_dynamic_publish_notice">发布通知</string>
+    <string name="el_dynamic_publis_acitivity">发布活动</string>
+    <string name="el_dynamic_publish_new_vote">发布投票</string>
+    <string name="el_dynamic_publish_voting">发布评选</string>
+    <string name="el_dynamic_publish_class_schedule">发布课表</string>
+    <string name="el_dynamic_publish_topic">发布</string>
+    <string name="el_dynamic_join_community">加入社区</string>
+    <string name="el_dynamic_pulish_punch_card">发布打卡</string>
+    <string name="el_dynamic_pulish_quetionnaire">发布问卷</string>
+    <string name="el_dynamic_pulish_news">发布新闻</string>
+    <string name="el_dynamic_join">%1$s加入了%2$s</string>
+    <string name="el_dynamic_dynamic_from">来自%s</string>
+    <string name="el_dynamic_punch_card_time">活动时间：%1$s-%2$s</string>
+    <string name="el_dynamic_class_dynamic">动态</string>
+    <string name="el_dynamic_dynamic">动态</string>
+    <string name="el_dynamic_more">更多</string>
+
+    <string name="el_dynamic_ten_loading">载入中...</string>
+
+    <string name="el_dynamic_listview_no_more_data">没有更多数据啦</string>
+    <string name="el_dynamic_listview_loadfail">加载失败，点击重试</string>
+</resources>

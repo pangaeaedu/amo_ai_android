@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 给边框 设置编边距   将边框的左、上、右 设置为负数，会将边框移除屏幕 ，只能看到底部的下划线 -->
+    <item
+        android:left="-5dp"
+        android:right="-5dp"
+        android:top="-5dp"
+        android:bottom="8dp">
+
+        <!-- 绘制一个方形边框，填充色设置为透明 -->
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+
+            <!--设置边框的宽度和颜色 -->
+
+            <stroke
+                android:width="0.5dp"
+                android:color="@color/nduc_edittext_underline_unfocused" />
+            <!-- 如果感觉字体距离底部或者左边太近，可以设置 padding属性 拉开距离 -->
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

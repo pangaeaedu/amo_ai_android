@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@mipmap/image_dlan_float_view_1" android:duration="300" />
+    <item android:drawable="@mipmap/image_dlan_float_view_2" android:duration="300" />
+    <item android:drawable="@mipmap/image_dlan_float_view_3" android:duration="300" />
+    <item android:drawable="@mipmap/image_dlan_float_view_4" android:duration="300" />
+    <item android:drawable="@mipmap/image_dlan_float_view_5" android:duration="300" />
+
+</animation-list>

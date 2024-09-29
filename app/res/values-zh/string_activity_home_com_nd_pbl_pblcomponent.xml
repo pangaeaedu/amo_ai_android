@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--个人主页-->
+    <!--标题-->
+    <string name="starapp_life_home_title">我</string>
+
+    <!--他人主页-->
+    <!--标题-->
+    <string name="starapp_life_other_home_title">%1$s的个人主页</string>
+    <!--右侧按钮文字-->
+    <string name="starapp_life_other_home_more">更多</string>
+    <!--发送消息按钮-->
+    <string name="starapp_life_other_home_send_message">发消息</string>
+    <!--加为好友按钮-->
+    <string name="starapp_life_other_home_add_friend">加为好友</string>
+    <!--删除好友按钮-->
+    <string name="starapp_life_other_home_delete_friend">删除好友</string>
+    <!--暗恋-->
+    <string name="starapp_life_other_home_crush">暗恋TA</string>
+    <!--已暗恋-->
+    <string name="starapp_life_other_home_crushed">已暗恋</string>
+    <!--高校通:和TA建立关系-->
+    <string name="starapp_life_other_home_relationship">和TA建立关系</string>
+    <!--IM:是否屏蔽消息-->
+    <string name="starapp_life_other_home_inblack">你已屏蔽对方的消息</string>
+
+    <!--个人主页他人主页通用:昵称文字格式-->
+    <string name="starapp_life_home_head_fragment_nickname">%1$s</string>
+    <!--个人主页他人主页通用:签名文字格式-->
+    <string name="starapp_life_home_head_fragment_signature">“%1$s”</string>
+    <!--个人主页他人主页通用:未登录的昵称显示值-->
+    <string name="starapp_life_home_head_guest_nick">立即登录</string>
+    <!--个人主页他人主页通用:已认证-->
+    <string name="starapp_life_home_head_certified">已认证</string>
+    <!--个人主页他人主页通用:未认证-->
+    <string name="starapp_life_home_head_not_certified">未认证</string>
+
+    
+    <!--个人主页他人主页通用:聊天限制-->
+    <string name="starapp_life_home_add_friend_first">请先将对方加为好友后才可聊天</string>
+
+    <!--移出黑名单-->
+    <string name="starapp_life_other_home_remove_blacklist">移出黑名单</string>
+    <!--移出黑名单提示-->
+    <string name="starapp_life_other_home_remove_blacklist_check">是否将用户%1$s移出黑名单</string>
+    <!--黑名单限制提示-->
+    <string name="starapp_life_other_home_blacklist_toast_left">对方已将你拉黑，无法</string>
+    <!--黑名单限制提示-->
+    <string name="starapp_life_other_home_blacklist_toast_content">对方已将你拉黑，无法进行此操作</string>
+
+</resources>

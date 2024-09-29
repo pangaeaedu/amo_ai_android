@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <!--动态皮肤-->
+    <!--主要文字颜色-->
+    <color name="ele_fr_common_text_color_primary">@color/common_text_color_primary</color>
+    <!--提示颜色-->
+    <color name="ele_fr_common_text_color_hint_primary">#666</color>
+    <!--次要文字颜色-->
+    <color name="ele_fr_common_text_color_secondary">@color/common_text_color_secondary</color>
+    <!--分割线颜色-->
+    <color name="ele_fr_navigation_title_line_color">@color/navigation_title_line_color</color>
+    <!--背景色-->
+    <color name="ele_fr_navigation_title_bg_color">@color/navigation_title_bg_color</color>
+    <!--异常状态页背景色-->
+    <color name="ele_fr_common_state_background">#e4e4e4</color>
+    <!--主页背景色-->
+    <color name="ele_fr_main_background">@color/white</color>
+    <!--频道item背景色-->
+    <color name="ele_fr_recommend_channel_item_background">@color/white</color>
+</resources>

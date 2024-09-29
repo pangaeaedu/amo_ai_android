@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--日事日清提醒设置页面-->
+    <!--标题-->
+    <string name="starapp_life_alert_setting_title">日事日清提醒设置</string>
+    <string name="starapp_life_alert_setting_ok">确定</string>
+    <!--提示语-->
+    <string name="starapp_life_alert_setting_comment">开启日事日清提醒，帮您完成每天事务</string>
+    <!--设置项:提醒开关-->
+    <string name="starapp_life_alert_setting_setting">日事日清提醒</string>
+    <!--设置项:提醒时间-->
+    <string name="starapp_life_alert_setting_time">提醒时间</string>
+    <!--设置项:周-->
+    <string name="starapp_life_alert_setting_weekday_1">周一</string>
+    <string name="starapp_life_alert_setting_weekday_2">周二</string>
+    <string name="starapp_life_alert_setting_weekday_3">周三</string>
+    <string name="starapp_life_alert_setting_weekday_4">周四</string>
+    <string name="starapp_life_alert_setting_weekday_5">周五</string>
+    <string name="starapp_life_alert_setting_weekday_6">周六</string>
+    <string name="starapp_life_alert_setting_weekday_7">周日</string>
+    <!--对话框:标题-->
+    <string name="starapp_life_alert_dialog_title">日事日清提醒</string>
+    <!--对话框:内容-->
+    <string name="starapp_life_alert_dialog_content">辛苦了O(∩_∩)O~~!\n记得领取日事日清奖励哦yo~~</string>
+    <!--对话框:按钮-->
+    <string name="starapp_life_alert_dialog_close">今日不再提醒</string>
+    <string name="starapp_life_alert_dialog_later">十分钟后再提醒</string>
+    <string name="starapp_life_alert_dialog_goto">前往</string>
+    <!--设置:打开/关闭-->
+    <string name="starapp_life_alert_setting_value_open">已开启</string>
+    <string name="starapp_life_alert_setting_value_close">已关闭</string>
+</resources>

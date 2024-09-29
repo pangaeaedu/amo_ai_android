@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--自定义错误码-->
+    <string name="SETTING_DEFAULT_ERROR">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+    <string name="SETTING_FILE_NOT_EXIST">ยังไม่ได้สร้างไฟล์บันทึก</string>
+</resources>

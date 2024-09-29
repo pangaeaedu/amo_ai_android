@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chat_font_size_set_bg">#ffffff</color>
+    <color name="chat_my_txt_color">#ffffff</color>
+    <color name="font_chat_black">#ff000000</color>
+    <color name="chat_target_txt_color">#333333</color>
+    <color name="chat_font_size_receive_color">#333333</color>
+    <color name="font_chat_white">#ffffff</color>
+</resources>

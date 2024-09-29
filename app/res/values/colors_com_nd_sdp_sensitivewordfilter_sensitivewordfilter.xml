@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 接入敏感词-->
+    <color name="censor_highlight_color">@color/color13</color>
+    <color name="censor_dialog_content_color">#000000</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pad版左右两侧的留白比例。由于GuileLine在rtl下，系统没有进行适配。因为需要建立value-ldrtl/dimen.xml进行适配 -->
+    <!-- 直接用dimen，在SDP打包时会报AAPT: Float types not allowed -->
+    <item name="nduc_pad_land_left_percent" type="dimen" format="float">0.69</item>
+    <item name="nduc_pad_land_right_percent" type="dimen" format="float">0.31</item>
+    <item name="nduc_pad_port_left_percent" type="dimen" format="float">0.82</item>
+    <item name="nduc_pad_port_right_percent" type="dimen" format="float">0.18</item>
+	
+	<!-- 隐私协议组件 -->
+	 <item name="nduc_agree_pad_land_left_percent" type="dimen" format="float">0.69</item>
+    <item name="nduc_agree_pad_land_right_percent" type="dimen" format="float">0.31</item>
+    <item name="nduc_agree_pad_port_left_percent" type="dimen" format="float">0.82</item>
+    <item name="nduc_agree_pad_port_right_percent" type="dimen" format="float">0.18</item>
+
+</resources>

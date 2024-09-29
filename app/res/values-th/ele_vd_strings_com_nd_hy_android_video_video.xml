@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="plt_vd_no_video_for_play">ไม่สามารถเล่นวิดีโอได้ โปรดตรวจสอบสถานะของเครือข่าย</string>
+    <string name="plt_vd_video_error_play">ข้อผิดพลาดในการเล่นวิดีโอ โปรดตรวจสอบสถานะเครือข่าย</string>
+
+    <string name="plt_vd_ask">ถาม</string>
+    <string name="plt_vd_note">บันทึก</string>
+
+    <string name="plt_vd_get_video">กำลังเข้าถึงที่อยู่วิดีโอ.. </string>
+    <string name="plt_vd_buffing_progress">กำลังบัฟเฟอร์ %s..</string>
+    <string name="plt_vd_loading_rate">กำลังโหลดวิดีโอ..%s</string>
+    <string name="plt_vd_loading_rate_original">กำลังโหลดวิดีโอ..</string>
+    <string name="plt_vd_video_error">ข้อผิดพลาดในการเล่นวิดีโอ โปรดตรวจสอบสถานะเครือข่าย</string>
+
+    <string name="plt_vd_settings">ตั้งค่า</string>
+    <string name="plt_vd_settings_size">สัดส่วนของภาพ:</string>
+    <string name="plt_vd_settings_quality">ความละเอียด:</string>
+    <string name="plt_vd_settings_audio">ภาษา:</string>
+    <string name="plt_vd_settings_rate">ความเร็วในการเล่น:</string>
+    <string name="plt_vd_settings_language">เลือกซับไตเติล:</string>
+    <string name="plt_vd_view_original">ต้นฉบับ</string>
+    <string name="plt_vd_view_4_3">4:3</string>
+    <string name="plt_vd_view_16_9">สัดส่วน 16:9</string>
+    <string name="plt_vd_view_fill">เต็มหน้าจอ</string>
+    <string name="plt_vd_quality_auto">อัตโนมัติ</string>
+    <string name="plt_vd_quality_lower">เร็วมาก</string>
+    <string name="plt_vd_quality_smooth">ราบเรียบ</string>
+    <string name="plt_vd_quality_standard">คมชัด</string>
+    <string name="plt_vd_quality_high">ความคมชัดสูง</string>
+    <string name="plt_vd_quality_super_high">คมชัดสูง</string>
+    <string name="plt_vd_play_rate_100X">1X</string>
+    <string name="plt_vd_play_rate_125X">1.25เท่า</string>
+    <string name="plt_vd_play_rate_150X">1.5X</string>
+
+    <string-array name="plt_vd_subtitles"><item>@string/plt_vd_no_option</item></string-array>
+    <string name="plt_vd_no_option">ไม่สามารถเลือก</string>
+
+    <string name="plt_vd_network">เครือข่าย</string>
+    <string name="plt_vd_dlg_not_wifi">เครือข่ายปัจจุบันของคุณไม่ใช่ Wi-Fi การเล่นต่ออาจทำให้เกิดค่าใช้จ่ายในการใช้งานที่มากขึ้น คุณต้องการเล่นต่อหรือไม่?</string>
+    <string name="plt_vd_dlg_continue_play">เล่นต่อ</string>
+    <string name="plt_vd_dlg_cancel">ยกเลิก</string>
+    <string name="plt_vd_dlg_ok">ตกลง</string>
+    <string name="plt_vd_dlg_retry">ลองใหม่</string>
+    <string name="plt_vd_network_network_err">ปัญหาเครือข่าย</string>
+    <string name="plt_vd_network_network_err_msg">ไม่ได้เชื่อมต่อเครือข่าย โปรดตรวจสอบเครือข่ายแล้วลองอีกครั้ง</string>
+
+    <string name="plt_vd_gesture_change_video_position">ลากระบบการเล่นวิดีโอซ้าย-ขวาเพื่อปรับความคืบหน้า</string>
+
+    <string name="plt_vd_changed_quality">กำลังสลับความละเอียด...</string>
+    <string name="plt_vd_changed_cate">กำลังเปลี่ยน..</string>
+    <string name="plt_vd_changed_quality_fail">การสลับความคมชัดล้มเหลว</string>
+    <string name="plt_vd_changed_cate_fail">การสลับล้มเหลว</string>
+    <string name="plt_vd_play_error">ขอโทษ ไม่สามารถเล่นเนื้อหานี้ได้</string>
+
+    <string name="plt_vd_close">ปิด</string>
+
+    <string name="plt_vd_permission_denied">การรับสิทธิ์ล้มเหลว</string>
+
+    <string name="plt_vd_jammed">ค้าง.... ค้างไว้ แนะนำให้ลอง</string>
+    <string name="plt_vd_auto_quality">สลับความชัดอัตโนมัติ</string>
+    <string name="plt_vd_dlg_network_slow">เครือข่ายของคุณไม่ดี คุณต้องการดำเนินการต่อหรือไม่?</string>
+    <string name="plt_vd_dlg_exit">ออก</string>
+    <string name="plt_vd_dlg_switch_cate">กำลังสลับ %s</string>
+    <string name="plt_vd_video_projecting">กำลังฉายทางหน้าจอ...</string>
+    <string name="plt_vd_video_project_connecting">กำลังเชื่อมต่อ...</string>
+    <string name="plt_vd_video_id">รหัส: %s</string>
+    <string name="plt_vd_project">สตรีม</string>
+    <string name="plt_vd_project_quit_connect">ออกจากการเชื่อมต่อ</string>
+    <string name="plt_vd_project_open_manager">เปิดควบคุม</string>
+	
+	<string name="plt_vd_volume">ระดับเสียง</string>
+    <string name="plt_vd_brightness">ความสว่าง</string>
+
+    <string name="plt_vd_video_loading">กำลังบัฟเฟอร์...%s</string>
+    <string name="plt_vd_user_guide_volume">เลื่อนขึ้นลงทางด้านขวาเพื่อปรับระดับเสียง</string>
+    <string name="plt_vd_user_guide_light">เลื่อนขึ้นลงทางด้านซ้ายเพื่อปรับระดับความสว่าง</string>
+    <string name="plt_vd_user_guide_play">ลากซ้าย-ขวาเพื่อปรับความคืบหน้าการเล่น</string>
+    <string name="plt_vd_seek_last">คุณเคยดูถึง %s คำกำกับสำหรับคุณ...</string>
+    <string name="plt_vd_lower_network_alert">ความเร็วเครือข่ายของคุณช้า แตะเพื่อเปลี่ยนไปยังโหมดที่เรียบง่าย</string>
+	
+	<string name="plt_vd_doc_loading">กำลังโหลดเอกสาร..</string>
+    <string name="plt_vd_doc_loading_failed">การโหลดเอกสารล้มเหลว คลิกลองอีกครั้ง</string>
+
+    <string name="plt_vd_video_doc_mode_video">วิดีโอ</string>
+    <string name="plt_vd_video_doc_mode_doc">เอกสาร</string>
+    <string name="plt_vd_video_doc_mode_video_and_doc">หน้าจอคู่</string>
+
+    <string name="plt_vd_page_at">หน้าที่ %d</string>
+    <string name="plt_vd_drag_change_video_position">ลากระบบการเล่นวิดีโอ</string>
+    <string name="plt_vd_sync_document_position">ความคืบหน้าของการซิงโครไนซ์</string>
+	
+	<string name="ele_video_audio_background_tips">กำลังเล่นไฟล์เสียงหรือวิดีโอ คลิกเพื่อย้อนกลับ</string>
+	
+	<string name="plt_vd_video_exercise">ฝึกฝน%d</string>
+    <string name="plt_vd_answer_exercise">โปรดทำข้อฝึกหัดต่อไปนี้ก่อน จึงจะสามารถเล่นต่อ</string>
+    <string name="plt_vd_answered_exercise">คุณทำการฝึกฝนเสร็จแล้ว คุณยังสามารถ</string>
+
+    <string name="plt_vd_start_exercise">เข้าสู่การตอบคำถาม</string>
+    <string name="plt_vd_view_exercise">ดูการวิเคราะห์</string>
+    <string name="plt_vd_restart_exercise">ทำการตอบคำถามอีกครั้ง</string>
+
+    <string name="plt_vd_replay">เริ่มใหม่</string>
+    <string name="plt_vd_continue_play">เล่นต่อ</string>
+
+    <string name="plt_vd_please_do_exercise">โปรดทำการฝึกฝน%s ก่อน</string>
+</resources>

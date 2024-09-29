@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- e-exam-center-data -->
+    <string name="hyeec_network_error">Network error. Please check your network.</string>
+    <string name="hyeec_network_low">Poor network. Please try again later.</string>
+    <string name="hyeec_data_error">Parse error. Please try again.</string>
+    <string name="hyeec_get_data_error">Failed to request data. Try again later.</string>
+    <string name="hyeec_server_time_error">Failed to get server time. Try again later.</string>
+</resources>

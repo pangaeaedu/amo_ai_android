@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--时间选择器标题颜色-->
+    <color name="nd_timepicker_title_color">@color/color1</color>
+    <!--取消按钮颜色-->
+    <color name="nd_timepicker_cancel_color">@color/color1</color>
+
+    <!--时间滚轮未选中的颜色-->
+    <color name="nd_timepicker_time_normal_color">@color/color2</color>
+    <!--时间滚轮选中颜色-->
+    <color name="nd_timepicker_time_select_color">@color/color1</color>
+    <!--禁用时间颜色-->
+    <color name="nd_timepicker_time_enable_color">@color/color5</color>
+
+    <!--画线颜色-->
+    <color name="nd_timepicker_line_color">@color/color4</color>
+
+
+    <!--日期范围 选中日期确定按钮颜色-->
+    <color name="nd_timepicker_date_comfirm_select">@color/color7</color>
+    <!--日期范围 未选中日期确定按钮颜色-->
+    <color name="nd_timepicker_date_comfirm_normal">@color/color5</color>
+
+    <!--日期范围 未选中一个日期确定背景颜色-->
+    <color name="nd_timepicker_date_comfirm_bg1">@color/color5</color>
+    <!--日期范围 未选中两个日期确定背景颜色-->
+    <color name="nd_timepicker_date_comfirm_bg2">@color/color14</color>
+
+    <!--整个选择器背景颜色-->
+    <color name="nd_timepicker_bg_color">@color/color7</color>
+
+    <!--日期范围除外 确定按钮颜色-->
+    <color name="nd_timepicker_comfirm_text_select_color">@color/color14</color>
+    <color name="nd_timepicker_comfirm_text_normal_color">@color/color5</color>
+    <!--时间段选择颜色背景-->
+    <color name="nd_timepicker_step_select_color">@color/color14</color>
+    <color name="nd_timepicker_step_normal_color">@color/color7</color>
+
+    <!--时间段选择文字颜色-->
+    <color name="nd_timepicker_step_text_select_color">@color/color7</color>
+    <!--时间段选择提示文字颜色-->
+    <color name="nd_timepicker_step_text_normal_color">@color/color4</color>
+    <!--时间段选择未选中时间颜色 00:00:00-->
+    <color name="nd_timepicker_step_time_text_normal_color">@color/color1</color>
+    <!--时间段选择未选中时间颜色 00:00:00-->
+    <color name="nd_timepicker_step_dur_time">@color/color2</color>
+    <color name="nd_timepicker_bgcolor_overlay">#66000000</color>
+    <color name="nd_timepicker_btn_press_color">#26000000</color>
+    <color name="nd_timepicker_trance">#00000000</color>
+</resources>

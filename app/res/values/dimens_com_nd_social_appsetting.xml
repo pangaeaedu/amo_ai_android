@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--公用-->
+    <dimen name="setting_general_page_base_paddingH">8.5dp</dimen>
+    <dimen name="setting_general_page_base_marginH">8.5dp</dimen>
+
+    <dimen name="setting_item_height">48dip</dimen>
+    <dimen name="setting_language_item_height">44dip</dimen>
+    <dimen name="setting_logout_btn_padding_left_right">10dip</dimen>
+    <dimen name="setting_activity_language_listview_padding">10dip</dimen>
+    <dimen name="setting_item_view_margin_right">8dip</dimen>
+    <dimen name="setting_newtab_textview_padding_left_right">6dip</dimen>
+    <dimen name="setting_newtab_textview_margin_left">5dip</dimen>
+    <dimen name="setting_item_view_padding_left">16dip</dimen>
+    <dimen name="setting_version_item_view_padding_left">10dip</dimen>
+
+    <!-- 11.0-->
+    <dimen name="setting_item_toggle_width">50dip</dimen>
+    <dimen name="setting_item_toggle_height">30dip</dimen>
+
+    <dimen name="setting_item_divider_height">0.5dp</dimen>
+
+    <!--设置项列表-->
+    <dimen name="setting_item_badge_textSize">@dimen/fontsize5</dimen>
+    <!--语言列表-->
+    <dimen name="setting_language2_item_height">60dip</dimen>
+    <dimen name="setting_language_item_iv_width">37dip</dimen>
+    <dimen name="setting_language_item_iv_height">37dip</dimen>
+    <dimen name="setting_language_item_desc_textSize">@dimen/fontsize2</dimen>
+    <dimen name="setting_language_item_trans_textSize">@dimen/fontsize6</dimen>
+    <!--关于-->
+</resources>

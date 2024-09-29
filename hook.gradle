@@ -1,0 +1,219 @@
+import groovy.json.JsonSlurper
+
+buildscript {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def allowProtocolStr = properties.getProperty('allowInsecureProtocol')
+    def isAllow = allowProtocolStr != null && !allowProtocolStr.trim().isEmpty() && allowProtocolStr.toBoolean()
+
+    repositories {
+        mavenLocal()
+        maven {
+            if(isAllow){
+                allowInsecureProtocol = true
+            }
+            url 'http://nexus.sdp.nd/nexus/content/groups/android-public/'
+        }
+        maven {
+            if(isAllow){
+                allowInsecureProtocol = true
+            }
+            url "http://nexus.sdp.nd/nexus/content/repositories/android_snapshot/"
+        }
+    }
+    dependencies {
+        classpath 'com.nd.sdp.android.apk.verifier:r8:0.0.4'
+    }
+}
+
+import com.android.tools.r8.R8Verifier
+
+import java.nio.file.DirectoryStream
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
+
+task hook {
+    println "hook: " + method
+    //函数名可能有：
+    // ws_init，
+    // app_config，
+    // resource_config，
+    // android_prepare，
+    // react_build，
+    // local_h5，
+    // h5_grain，
+    // android_build_prepare，
+    // android_build，
+    // upload_publish，
+    // dependency_analysis
+    //前缀 pre_表示在函数执行前
+    //前缀 post_表示在函数执行后
+    //示范：post_android_build_prepare 表示在android_build_prepare执行后
+    String path = project.rootProject.projectDir.absolutePath + File.separator + "app" + File.separator;
+    println "hook path =  " + path
+    String rootDir = path + "assets" + File.separator;
+    if (method.equals("post_android_build_prepare")) {
+        //在android_build_prepare执行后,做配置代码化工作
+        config2code();
+        copy {
+            from path + "app-factory-component.gradle"
+            into rootDir
+        }
+        copy {
+            from path + "build.gradle"
+            into rootDir
+        }
+
+        // 根据配置预处理框架界面布局 
+        // 1. app 根据用户选择的语言，运行时选择采用 assets/appfactory/{language}/pages/pages.json 的配置读取 "template": "cmp://com.nd.smartcan.appfactory.main_component/main?pageid=tab"
+        // 2. 然后解析 template，获取pageid=tab, 
+        // 3. 查找 pages.json 中 tab 对应的数组的个数，这个就是我这里需要的 tab 个数
+        // 这里有几个比较蛋疼的问题:
+        // a. 是否要为每个语种都配置一个？如果 zh-CN 和 en 的 tab 数目不一样，那就蛋疼了。
+        // b. pageid 未必是 "tab"
+        // c. 开启自定义页面的话，又跟这个不同，又要维护另一套逻辑
+        // ----- 先考虑最简单的。
+        prepareContainerLayout()
+    } else if (method.equals('post_upload_publish')) {
+        // apkVerify
+        // apkVerify() 已经无人维护，并且也没有什么作用了，屏蔽
+    }
+}
+
+def config2code() {
+    String path = project.rootProject.projectDir.absolutePath;
+    println "config2code path =  " + path
+    javaexec {
+        main = "-jar";
+        args = [
+                path + "/script/cofig2javalib/cofig2javalib-2.6.jar",
+                "--jsonDirPath",
+                path + "/app/assets/app_factory",
+                "--javaDirPath",
+                path + "/app/src/main/java",
+                "--excludeDir",
+                "h5_app",
+                "--excludeDir",
+                "react_app",
+                "--excludeDir",
+                "local_h5"
+        ]
+    }
+}
+
+def prepareContainerLayout() {
+
+    println "[prepareContainerLayout] start ..."
+    // 获取默认语言，确定想要读取 pages.json
+    String path = project.rootProject.projectDir.absolutePath;
+    println "prepareContainerLayout path =  " + path
+
+    // app.json
+    String configJsonPath = path + "/app/assets/app_factory/app/app.json";
+
+    println "[prepareContainerLayout] parse " + configJsonPath + " to get defaultLang ..."
+
+    def inputFile
+    def json
+    def defaultLang
+    try {
+        inputFile = new File(configJsonPath)
+        json = new JsonSlurper().parseText(inputFile.text)
+        defaultLang = json.language_default.default
+    } catch (java.lang.Exception e) {
+        println "[prepareContainerLayout] exception when get default language! " + e.getMessage()
+        return;
+    }
+
+    println "[prepareContainerLayout] defaultLang:" + defaultLang
+
+    // 直接获取 tab 的数目，获取不到的话，就不采用该方法
+    def pagesFile = new File(path + "app/assets/app_factory/" + defaultLang + "/pages/pages.json")
+    println "[prepareContainerLayout] parse pages.json:" + pagesFile
+
+    int nCount = -1;
+
+    try {
+        def pagesJson = new JsonSlurper().parseText(pagesFile.text)
+        nCount = pagesJson.tab.properties.items.size()
+    }
+    catch (java.lang.Exception e1) {
+        println "[prepareContainerLayout] Failed to parse pages.json"
+        return
+    }
+
+
+    println "[prepareContainerLayout] TabCount:" + nCount
+    if (nCount <= 0) {
+        println "[prepareContainerLayout] invalide TabCount number:" + nCount
+        return;
+    }
+
+    // 改写 layout xml
+    String cells = "";
+    for (int i = 0; i < nCount; i++) {
+        cells += "<include layout=\"@layout/maincomponent_tabbar_cell\" android:id=\"@+id/cell_" + i + "\" />\n"
+    }
+    File f = new File(path + "app/res/layout/maincomponent_activity_main_container_generate.xml")
+    String content = f.text
+    String contentNew = content.replace("<!--<include/>-->", cells)
+    println "[prepareContainerLayout] new maincomponent_activity_main_container_generate:"
+    println contentNew
+    f.write(contentNew)
+
+    println "[prepareContainerLayout]  ... ok"
+}
+
+//def apkVerify() {
+//    def isComponentTest = false;
+//    //判断组件是工程测试，集成测试还是应用，如果是应用返回false，否则返回true
+//    try {
+//        def file = new File("./app/assets/app_factory/app/app.json");
+//        if (!file.exists()) {
+//            return;
+//        }
+//        def text = file.getText();
+//        def slurper = new JsonSlurper();
+//        def app = slurper.parseText(text);
+//        assert app instanceof Map;
+//        isComponentTest = (0 == "component_function".compareTo(app.scope) || 0 == "component_integration".compareTo(app.scope));
+//    } catch (ignored) {
+//    }
+////    if (!isComponentTest) {
+////        return
+////    }
+//    println "-----------------------开始APK静态检测----------------------------------"
+//    def apkDirPath = Paths.get(new File(".").absolutePath, "app/build/outputs/apk")
+//    DirectoryStream<Path> stream = Files.newDirectoryStream(apkDirPath, "*.apk")
+//    def check = true
+//    stream.forEach({
+//        def proguardPath = Paths.get(new File(".").absolutePath, "script", "apkVerify", "dontwarn.pro")
+//        def proguardFile = proguardPath.toFile()
+//        proguardFile.deleteOnExit()
+//        new URL('http://git.sdp.nd/503321/ScanWhiteList/raw/master/proguard-rules.pro')
+//                .withInputStream { i -> proguardFile.withOutputStream { it << i } }
+//        check = R8Verifier.apkCheck(it.toAbsolutePath().toString(),
+//                proguardPath.toAbsolutePath().toString(),
+//                27
+//        ) && check
+//    })
+//    if (!check) {
+//        def errorMsg = "打包成功，APK静态校验失败，请通知上述异常代码所在组件。"
+//        if (isComponentTest) {
+//            errorMsg = errorMsg + "\n 如果非本组件异常，清在本页面搜索.apk先行下载安装包进行测试流程等待问题组件修复，如果是本组件异常，清修改后重新打包"
+//        } else {
+//            errorMsg = errorMsg + "\n 如果确认误报，请联系陈志霖（900629）进行白名单添加"
+//        }
+//        throw new VerifyError(errorMsg)
+//    } else {
+//        logger.info("APK静态校验成功，未发现NoClassDef与NoSuchMethod潜在风险")
+//    }
+//}
+
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+defaultTasks 'hook'

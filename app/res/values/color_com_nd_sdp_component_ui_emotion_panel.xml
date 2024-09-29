@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="emotion_view_bg">#F5F5F5</color>
+    <color name="emotion_view_dot_bg_checked">#999999</color>
+    <color name="emotion_view_dot_bg_normal">#B3B3B3</color>
+    <color name="emotion_view_group_bg">#F5F5F5</color>
+    <color name="emotion_view_bg_group_divider">#ff888888</color>
+</resources>

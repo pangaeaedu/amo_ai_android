@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="nd_camera_flash_auto">自动</string>
+    <string name="nd_camera_flash_on">打开</string>
+    <string name="nd_camera_flash_off">关闭</string>
+    <string name="nd_camera_flash_normally_on">常亮</string>
+
+    <string name="nd_camera_space_error">空间内存不足，请清除空间</string>
+    <string name="nd_camera_permiss_error">请开启相机相关权限</string>
+    <string name="nd_camera_permiss_error2">请开启存储权限</string>
+    <string name="nd_camera_permiss_disable">相机相关权限已被产品禁用</string>
+    <string name="nd_camera_permiss_disable2">存储权限已被产品禁用</string>
+    <string name="nd_camera_recoder_shot_time">拍摄时间过短，请重新拍摄。</string>
+    <string name="nd_camera_tap_or_hold">轻触拍照，按住录像</string>
+</resources>

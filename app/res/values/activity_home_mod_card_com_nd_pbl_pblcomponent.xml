@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--个人主页,他人主页头部卡片配置-->
+    <!--1.背景图片-标题(默认,levelbg=1):res\drawable-xhdpi\starapp_life_title_view_background_other_home.png-->
+    <!--1.背景图片-下层(默认,levelbg=1):res\drawable-xhdpi\starapp_life_mine_top_bg_blue.png-->
+    <!--1.背景图片-上层(默认,levelbg=1):res\drawable-xhdpi\starapp_life_mine_top_bg_card.9.png-->
+    <!--1.背景图片-标题(levelbg=2):res\drawable-xhdpi\starapp_life_title_view_background_other_home_2.png-->
+    <!--1.背景图片-下层(levelbg=2):res\drawable-xhdpi\starapp_life_mine_top_bg_2.png-->
+    <!--1.背景图片-上层(levelbg=2):res\drawable-xhdpi\starapp_life_mine_top_bg_card_2.9.png-->
+    <!--1.背景图片-标题(levelbg=3):res\drawable-xhdpi\starapp_life_title_view_background_other_home_3.png-->
+    <!--1.背景图片-下层(levelbg=3):res\drawable-xhdpi\starapp_life_mine_top_bg_3.png-->
+    <!--1.背景图片-上层(levelbg=3):res\drawable-xhdpi\starapp_life_mine_top_bg_card_3.9.png-->
+    <!--1.背景图片-标题(levelbg=4):res\drawable-xhdpi\starapp_life_title_view_background_other_home_4.png-->
+    <!--1.背景图片-下层(levelbg=4):res\drawable-xhdpi\starapp_life_mine_top_bg_4.png-->
+    <!--1.背景图片-上层(levelbg=4):res\drawable-xhdpi\starapp_life_mine_top_bg_card_4.9.png-->
+    <!--1.背景图片-标题(levelbg=5):res\drawable-xhdpi\starapp_life_title_view_background_other_home_5.png-->
+    <!--1.背景图片-下层(levelbg=5):res\drawable-xhdpi\starapp_life_mine_top_bg_5.png-->
+    <!--1.背景图片-上层(levelbg=5):res\drawable-xhdpi\starapp_life_mine_top_bg_card_5.9.png-->
+
+    <!--2.证件名称文字大小-->
+    <dimen name="starapp_life_home_activity_card_title_size">@dimen/starapp_life_text_5</dimen>
+    <!--2.证件名称文字颜色(对应levelbg=1~5)-->
+    <color name="starapp_life_home_activity_card_title_color_1">@color/starapp_life_color_3</color>
+    <color name="starapp_life_home_activity_card_title_color_2">@color/starapp_life_color_3</color>
+    <color name="starapp_life_home_activity_card_title_color_3">@color/starapp_life_color_13</color>
+    <color name="starapp_life_home_activity_card_title_color_4">@color/starapp_life_color_21</color>
+    <color name="starapp_life_home_activity_card_title_color_5">@color/starapp_life_color_19</color>
+    <!--2.证件名称下方横线:res\drawable-xhdpi\starapp_life_mine_top_pic_line_certificate.png-->
+
+    <!--3.头像周围经验进度条底色/进度颜色-->
+    <color name="starapp_life_home_activity_card_exp_roundColor">@color/starapp_life_color_15</color>
+    <color name="starapp_life_home_activity_card_exp_roundProgressColor">@color/starapp_life_color_14</color>
+
+    <!--4.等级文字图片:res\drawable-xhdpi\starapp_life_mine_top_pic_level_blue_bg.9.png-->
+    <!--4.等级文字大小颜色-->
+    <dimen name="starapp_life_home_activity_card_level_size">@dimen/starapp_life_text_6</dimen>
+    <color name="starapp_life_home_activity_card_level_color">@color/starapp_life_color_3</color>
+
+    <!--5.昵称文字大小颜色-->
+    <dimen name="starapp_life_home_activity_card_nick_size">@dimen/starapp_life_text_3</dimen>
+    <color name="starapp_life_home_activity_card_nick_color">@color/starapp_life_color_1</color>
+
+    <!--6.vip:图片由vip组件提供-->
+
+    <!--7.勋章:图片由服务端勋章提供-->
+
+    <!--8.签名文字大小,颜色,背景图,上边距(勋章单独一行时),上边距最大值(勋章和昵称同一行时)-->
+    <dimen name="starapp_life_home_activity_card_sign_size">@dimen/starapp_life_text_6</dimen>
+    <color name="starapp_life_home_activity_card_sign_color">@color/starapp_life_color_2</color>
+    <drawable name="starapp_life_home_activity_card_sign_bg">#0000</drawable>
+    <dimen name="starapp_life_home_activity_card_sign_margin_top">6dp</dimen>
+    <dimen name="starapp_life_home_activity_card_sign_margin_top_max">11dp</dimen>
+
+    <!--9.称号文字图片:res\drawable-xhdpi\starapp_life_mine_top_pic_title_orange_bg.9.png-->
+    <!--9.称号文字大小颜色-->
+    <dimen name="starapp_life_home_activity_card_honor_size">@dimen/starapp_life_text_6</dimen>
+    <color name="starapp_life_home_activity_card_honor_color">@color/starapp_life_color_19</color>
+
+    <!--10.送花等级图片:res\drawable-xhdpi\mine_top_pic_flowerlevel_pink_bg_normal.9.png-->
+    <!--10.送花等级图片:res\drawable-xhdpi\mine_top_pic_flowerlevel_pink_bg_pressed.9.png-->
+    <!--10.送花等级文字颜色-->
+    <color name="starapp_life_home_activity_card_flower_level_color">@color/starapp_life_color_13</color>
+
+    <!--11.已认证图片:res\drawable-xhdpi\mine_top_pic_title_green_bg.9.png-->
+    <!--11.未认证图片:res\drawable-xhdpi\mine_top_pic_title_gray_bg.9.png-->
+    <!--11.已认证/未认证文字颜色-->
+    <color name="starapp_life_home_activity_card_head_certified_color">@color/starapp_life_color_20</color>
+    <color name="starapp_life_home_activity_card_head_not_certified_color">@color/starapp_life_color_4</color>
+
+    <!--12.排行榜鲜花等内容分割线颜色-->
+    <color name="starapp_life_home_activity_card_line_color">@color/starapp_life_color_8</color>
+    <!--12.排行榜鲜花等内容文字大小颜色-->
+    <dimen name="starapp_life_home_activity_card_rank_size">@dimen/starapp_life_text_5</dimen>
+    <color name="starapp_life_home_activity_card_rank_color">@color/starapp_life_color_4</color>
+
+    <!--13.送花按钮:由送花组件提供-->
+
+
+    <color name="starapp_life_home_activity_swipe_color">@color/common_base_color_accent</color>
+</resources>

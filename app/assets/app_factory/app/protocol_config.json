@@ -1,0 +1,32 @@
+[
+  {
+    "key": "cmp",
+    "class": "com.nd.smartcan.appfactory.component.ComponentManager",
+    "constructor": "AppFactoryConfig"
+  },
+  {
+    "key": "http",
+    "class": "com.nd.smartcan.appfactory.script.webkit.H5ManagerImp",
+    "constructor": "ApplicationContext"
+  },
+  {
+    "key": "plugin",
+    "class": "com.nd.smartcan.appfactory.plugin.PluginManager",
+    "constructor": ""
+  },
+  {
+    "key": "react",
+    "class": "com.nd.smartcan.appfactory.script.react.ReactAppManager",
+    "constructor": "AppFactoryConfig"
+  },
+  {
+    "key": "sub_app",
+    "class": "com.nd.smartcan.subapp.outInterface.ProxyInterfaceImp",
+    "constructor": "AppFactoryConfig"
+  },
+  {
+    "key": "flutter",
+    "class": "com.nd.sdp.android.apf.flutter.FlutterProtocolManagerImp",
+    "constructor": "AppFactoryConfig"
+  }
+]

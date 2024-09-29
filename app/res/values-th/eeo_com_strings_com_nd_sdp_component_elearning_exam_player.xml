@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="eeo_com_time_with_day">%1$d วัน %2$d ชั่วโมง %3$d นาที %4$d วินาที</string>
+    <string name="eeo_com_time_no_day">%1$d ชั่วโมง %2$d นาที %3$d วินาที</string>
+    <string name="eeo_com_time_no_hour">%1$d คะแนน %2$d วินาที</string>
+    <string name="eeo_com_no_more_data">ไม่มีข้อมูลเพิ่มเติม</string>
+    <string name="eeo_com_loading">กำลังโหลด โปรดรอสักครู่…</string>
+    <string name="eeo_com_loadfail">โหลดล้มเหลว กรุณาลองอีกครั้ง</string>
+    <string name="eeo_com_time_no_hour_min">%1$d วินาที</string>
+    <string name="eeo_com_no_support">ฟังก์ชั่นยังไม่เปิด</string>
+    <string name="eeo_com_back">กลับ</string>
+    <string name="eeo_com_share">แชร์</string>
+    <string name="eeo_com_prepare_activity">หน้าเตรียม</string>
+    <string name="eeo_com_score_activity">หน้าคะแนน</string>
+    <string name="eeo_com_result_activity">หน้าผลลัพธ์</string>
+    <string name="eeo_com_history_score_activity">รายการคะแนนที่ผ่านมา</string>
+    <string name="eeo_com_retry">ลองอีกครั้ง</string>
+    <string name="eeo_com_analyse">ดูการวิเคราะห์</string>
+    <string name="eeo_com_redo_exercise">ทำแบบฝึกใหม่</string>
+</resources>

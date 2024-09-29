@@ -1,0 +1,13 @@
+# Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
+targets:
+  $default:
+    builders:
+      appfactory_builder|route_builder:
+        enabled: true
+        generate_for:
+          exclude: ['**.internal.dart']
+      appfactory_builder|route_root_builder:
+        enabled: true
+        options: { 'write': true }
+        generate_for:
+          exclude: ['**.internal.dart']

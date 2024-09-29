@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ClearEditText">
+        <attr name="marginRight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="PasswordEditText">
+        <attr name="showPassword" format="boolean" />
+    </declare-styleable>
+	<!--隐私协议内容最大显示高度-->
+	<declare-styleable name="MaxHeightScrollView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="nd_time_picker_confirm">ตกลง</string>
+    <string name="nd_time_picker_cancel">ยกเลิก</string>
+    <string name="nd_time_picker_automate">ไม่จำกัด</string>
+    <string name="nd_time_picker_sonar_calendar">ปีคริสต์</string>
+    <string name="nd_time_picker_lunar_calendar">ปีในปฏิทินจีน</string>
+    <string name="nd_time_picker_year"/>
+    <string name="nd_time_picker_month"/>
+    <string name="nd_time_picker_day"/>
+    <!-- 样式按年区分下的月日单位 -->
+    <string name="nd_time_picker_month_type_year"/>
+    <string name="nd_time_picker_day_type_year"/>
+
+    <string name="nd_time_picker_format_one">yyyy-MM-dd  HH:mm</string>
+    <string name="nd_time_picker_format_two">yyyy-MM-dd</string>
+    <string name="nd_time_picker_format_three">yyyy-MM</string>
+    <string name="nd_time_picker_format_four">HH:mm</string>
+    <string name="nd_time_picker_format_date_time">%1$s  %2$s</string>
+    <string name="nd_time_picker_divider_colon">:</string>
+
+    <string name="nd_time_picker_sunday_one">วันอาทิตย์</string>
+    <string name="nd_time_picker_monday_one">วันจันทร์</string>
+    <string name="nd_time_picker_tuesday_one">วันอังคาร</string>
+    <string name="nd_time_picker_wednesday_one">วันพุธ</string>
+    <string name="nd_time_picker_thursday_one">วันพฤหัสบดี</string>
+    <string name="nd_time_picker_friday_one">วันศุกร์</string>
+    <string name="nd_time_picker_saturday_one">วันเสาร์</string>
+
+    <string name="nd_time_picker_sunday_two">วันอาทิตย์</string>
+    <string name="nd_time_picker_monday_two">วันจันทร์</string>
+    <string name="nd_time_picker_tuesday_two">วันอังคาร</string>
+    <string name="nd_time_picker_wednesday_two">วันพุธ</string>
+    <string name="nd_time_picker_thursday_two">วันพฤหัสบดี</string>
+    <string name="nd_time_picker_friday_two">วันศุกร์</string>
+    <string name="nd_time_picker_saturday_two">วันเสาร์</string>
+</resources>

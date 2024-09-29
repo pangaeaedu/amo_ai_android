@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ele_exp_color1">@color/color1</color>
+    <color name="ele_exp_color2">@color/color2</color>
+    <color name="ele_exp_color3">@color/color3</color>
+    <color name="ele_exp_color4">@color/color4</color>
+    <color name="ele_exp_color5">@color/color5</color>
+    <color name="ele_exp_color6">@color/color6</color>
+    <color name="ele_exp_color7">@color/color7</color>
+    <color name="ele_exp_color8">@color/color8</color>
+    <color name="ele_exp_color9">@color/color9</color>
+    <color name="ele_exp_color10">@color/color10</color>
+    <color name="ele_exp_color11">@color/color11</color>
+    <color name="ele_exp_color12">@color/color12</color>
+    <color name="ele_exp_color13">@color/color13</color>
+    <color name="ele_exp_color14">@color/color14</color>
+    <color name="ele_exp_color15">@color/color15</color>
+    <color name="ele_exp_color16">@color/color16</color>
+    <color name="ele_exp_color17">@color/color17</color>
+    <color name="ele_exp_color18">@color/color18</color>
+    <color name="ele_exp_color19">@color/color19</color>
+    <color name="ele_exp_color20">@color/color20</color>
+    <color name="ele_exp_color21">@color/color21</color>
+    <color name="ele_exp_color22">@color/color22</color>
+    <color name="ele_exp_color23">@color/color23</color>
+    <color name="ele_exp_color24">@color/color24</color>
+    <color name="ele_exp_color25">@color/color25</color>
+    <color name="ele_exp_color26">@color/color26</color>
+    <color name="ele_exp_color27">#8fbfdf</color>
+    <color name="ele_exp_color28">#f1a09f</color>
+    <color name="ele_exp_color7_30">#64ffffff</color>
+    <color name="ele_exp_color7_50">#7fffffff</color>
+    <color name="ele_exp_color7_80">#ccffffff</color>
+	
+	<!-- 在线练习主题颜色 -->
+	<color name="epo_master_blue_color">#1E62EC</color>
+	<!-- 在线练习不可用颜色 -->
+    <color name="epo_forbid_blue_color">#B21E62EC</color>
+	
+	
+	<!-- 离线考试新版本颜色值 -->
+	<!-- 按钮点击颜色 -->
+	<color name="eeo_color1">@color/color1</color>
+    <color name="eeo_color2">@color/color2</color>
+    <color name="eeo_color3">@color/color3</color>
+    <color name="eeo_color4">@color/color4</color>
+    <color name="eeo_color5">@color/color5</color>
+    <color name="eeo_color6">@color/color6</color>
+    <color name="eeo_color7">@color/color7</color>
+    <color name="eeo_color8">@color/color8</color>
+    <color name="eeo_color9">@color/color9</color>
+    <color name="eeo_color10">@color/color10</color>
+    <color name="eeo_color11">@color/color11</color>
+    <color name="eeo_color12">@color/color12</color>
+    <color name="eeo_color13">@color/color13</color>
+    <color name="eeo_color14">@color/color14</color>
+    <color name="eeo_color15">@color/color15</color>
+    <color name="eeo_color16">@color/color16</color>
+    <color name="eeo_color17">@color/color17</color>
+    <color name="eeo_color18">@color/color18</color>
+    <color name="eeo_color19">@color/color19</color>
+    <color name="eeo_color20">@color/color20</color>
+    <color name="eeo_color21">@color/color21</color>
+    <color name="eeo_color22">@color/color22</color>
+    <color name="eeo_color23">@color/color23</color>
+    <color name="eeo_color24">@color/color24</color>
+    <color name="eeo_color25">@color/color25</color>
+    <color name="eeo_color26">@color/color26</color>
+    <color name="eeo_color27">#8fbfdf</color>
+    <color name="eeo_color28">#f1a09f</color>
+    <color name="eeo_color7_30">#64ffffff</color>
+    <color name="eeo_color7_50">#7fffffff</color>
+    <color name="eeo_color7_80">#ccffffff</color>
+
+	<color name="ele_exp_answer_card_item_undo_text_color">#899ca7</color>
+	<color name="ele_exp_answer_card_item_right_text_color">@color/ele_exp_color7</color>
+    <color name="ele_exp_answer_card_item_wrong_text_color">@color/ele_exp_color7</color>
+    <color name="eeo_status_pass_color">@color/eeo_color20</color>
+    <color name="eeo_status_fail_color">@color/eeo_color16</color>
+	<color name="eeo_com_bg_blue">@color/eeo_color14</color>
+    <color name="eeo_com_bg_blue_pressed">#d938adff</color>
+	
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="sdp_flow_control_loading">กำลังโหลด...</string>
+    <string name="sdp_flow_control_component_is_not_exist">ฟังก์ชันยังไม่เปิด</string>
+    <string name="sdp_flow_control_net_error_tips">เครือข่ายเชื่อมต่อผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="sdp_flow_control_data_error_tips">การวิเคราะห์ข้อมูลผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="sdp_flow_control_dialog_app_line_content">แอปนี้มีความนิยมมากเกินไป ทุกคนกำลังใช้ ระบบยุ่งเหยิง... โปรดรออย่างเหมาะสม และลองใหม่ในภายหลัง~</string>
+    <string name="sdp_flow_control_dialog_app_line_ok">ฉันรู้แล้ว</string>
+    <string name="sdp_flow_control_func_not_open">ฟังก์ชันยังไม่เปิด</string>
+    <string name="sdp_flow_control_retry">ลองใหม่</string>
+    <string name="sdp_flow_control_retry_later">โปรดลองอีกครั้ง</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sdp_flow_control_loading">正在加载...</string>
+    <string name="sdp_flow_control_component_is_not_exist">功能未开放</string>
+    <string name="sdp_flow_control_net_error_tips">网络连接错误，请重试</string>
+    <string name="sdp_flow_control_data_error_tips">数据解析错误，请重试</string>
+    <string name="sdp_flow_control_dialog_app_line_content">应用太热门，大家都在用，繁忙拥堵中... 请耐心等待，稍后重试~</string>
+    <string name="sdp_flow_control_dialog_app_line_ok">我知道了</string>
+    <string name="sdp_flow_control_func_not_open">功能未开放</string>
+    <string name="sdp_flow_control_retry">重试</string>
+    <string name="sdp_flow_control_retry_later">请稍后再试</string>
+</resources>

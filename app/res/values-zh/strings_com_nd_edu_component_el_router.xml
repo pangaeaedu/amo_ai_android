@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="el_router_swith_secretkey_failed">秘钥恢复失败，请退出程序重新进入</string>
+    <string name="el_router_loading">正在加载...</string>
+    <string name="el_router_the_school_microblog">本校微博</string>
+    <string name="el_router_component_is_not_exist">功能未开放</string>
+    <string name="el_router_net_error_tips">网络连接错误，请重试</string>
+    <string name="el_router_data_error_tips">数据解析错误，请重试</string>
+    <string name="el_router_dialog_app_line_content">应用太热门，大家都在用，繁忙拥堵中  请耐心等待，稍后重试</string>
+    <string name="el_router_dialog_app_line_ok">我知道了</string>
+</resources>

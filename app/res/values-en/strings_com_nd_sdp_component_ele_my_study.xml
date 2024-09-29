@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ele_mystudy_net_error_tips">Network connection error. Please try again.</string>
+    <string name="ele_mystudy_data_error_tips">Data error. Please try again.</string>
+    <string name="ele_mystudy_load_fail">Failed to load. Please pull down to try again.</string>
+    <string name="ele_mystudy_loading_wait">Loading...Please wait.</string>
+    <string name="ele_mystudy_no_data">No data</string>
+    <string name="ele_mystudy_listview_loadfail">Failed to load. Try again</string>
+    <string name="ele_mystudy_listview_loading">Loading...</string>
+    <string name="ele_mystudy_listview_no_more_data">No more data</string>
+    <string name="ele_mystudy_train_intro_tab_rank_board">Ranking</string>
+    <string name="ele_mystudy_study_mine_answer">Q&amp;A</string>
+    <string name="ele_mystudy_study_mine_download">Download</string>
+    <string name="ele_mystudy_study_mine_voucher">Vouchers</string>
+    <string name="ele_mystudy_study_mine_evaluation">Exam</string>
+    <string name="ele_mystudy_study_mine_message">Message</string>
+    <string name="ele_mystudy_study_mine_myevaluation">My assessment</string>
+    <string name="ele_mystudy_exercise_header_note">Notes</string>
+    <string name="ele_mystudy_mine_learning">Ongoing</string>
+    <string name="ele_mystudy_mine_review">Pending</string>
+    <string name="ele_mystudy_mine_complete">Done</string>
+    <string name="ele_mystudy_mine_status_pass">Passed</string>
+    <string name="ele_mystudy_mine_status_fail">Failed</string>
+    <string name="ele_mystudy_mine_status_study">Learning</string>
+    <string name="ele_mystudy_mine_status_comfirm">Pending</string>
+    <string name="ele_mystudy_mine_status_comfirm_reject">Denied</string>
+    <string name="ele_mystudy_mine_status_pay">Unpaid</string>
+    <string name="ele_mystudy_mine_status_completed">Done</string>
+    <string name="ele_mystudy_registration_cancelled">Cancel application</string>
+    <string name="ele_mystudy_mine_learning_nodata">No ongoing courses</string>
+    <string name="ele_mystudy_mine_complete_nodata">No completed courses yet</string>
+    <string name="ele_mystudy_mine_cancele_dialog_content">Are you sure to cancel sign-up?</string>
+    <string name="ele_mystudy_mine_cancle_signup_success">Cancelled!</string>
+    <string name="ele_mystudy_train_auth">Training Certification</string>
+    <string name="ele_mystudy_open_course">Public Courses</string>
+    <string name="ele_mystudy_mine_total_hour">Totally %1$s hour(s)</string>
+    <string name="ele_mystudy_rank_minutes">%s minutes</string>
+    <string name="ele_mystudy_rank_hour_minutes">%1$s hours  %2$s min</string>
+    <string name="ele_mystudy_mine_rank">My Ranking: %s</string>
+    <string name="ele_mystudy_cumulative_learning">Learned up to now</string>
+    <string name="ele_mystudy_mine_statistics_dec">Total learned %1$s days, %2$s , completed %3$s courses</string>
+    <string name="ele_mystudy_mine_dec_default">- min of - days and finished - courses</string>
+    <string name="ele_mystudy_mine_learning_continue">Continue</string>
+    <string name="ele_mystudy_mine_learning_start">Start</string>
+    <string name="ele_mystudy_train_course_last_learn">@string/ele_mystudy_str_last_learn</string>
+    <string name="ele_mystudy_str_last_learn">Stopped at: </string>
+    <!-- 测评相关-->
+    <string name="ele_mystudy_exam_begin_time_prefix">Start at: %s</string>
+    <string name="ele_mystudy_exam_best_status_disable">Not available.</string>
+    <string name="ele_mystudy_exam_best_status_joining">Retake the exam</string>
+    <string name="ele_mystudy_exam_best_status_marked_has_chance">Continue</string>
+    <string name="ele_mystudy_exam_best_status_marked_no_chance">No chance</string>
+    <string name="ele_mystudy_exam_best_status_prepare">Continue</string>
+    <string name="ele_mystudy_exam_best_status_ready">Start</string>
+    <string name="ele_mystudy_exam_best_status_submit">To be marked</string>
+    <string name="ele_mystudy_exam_best_status_unjoinAndFinished">Ended</string>
+    <string name="ele_mystudy_exam_best_status_waiting">Begin Soon</string>
+    <string name="ele_mystudy_exam_duration">Duration: %s minutes</string>
+    <string name="ele_mystudy_exam_end_time_prefix">End at: %s</string>
+    <string name="ele_mystudy_exam_has_not_passed">Failed: %s scores</string>
+    <string name="ele_mystudy_exam_has_passed">Passed: %s scores</string>
+    <string name="ele_mystudy_exam_list_status_be_about_to_begin">Begin Soon</string>
+    <string name="ele_mystudy_exam_list_status_doing">Ongoing</string>
+    <string name="ele_mystudy_exam_list_status_has_completed">Ended</string>
+    <string name="ele_mystudy_exam_participated_people">Persons</string>
+    <string name="ele_mystudy_period_status">Completed  %1$s/%2$s hours</string>
+    <string name="ele_mystudy_period_status_for_task">Totally %1$s task(s), %2$s on average </string>
+    <string name="ele_mystudy_period_status_for_task_has_completed">%1$s task(s) completed, %2$s on average </string>
+    <string name="ele_mystudy_period_status_for_task_total">Totally: %1$s tasks</string>
+    <string name="ele_mystudy_optional_course">Optional courses</string>
+    <!--2016/7/18新增-->
+    <string name="ele_mystudy_confirm_cancel">Cancel</string>
+    <string name="ele_mystudy_confirm_sure">Confirm</string>
+    <string name="ele_mystudy_search">Search</string>
+    <string name="ele_mystudy_search_more">See more</string>
+    <string name="ele_mystudy_recently_search">Recently Searched</string>
+    <string name="ele_mystudy_search_result_title">Totally %s course(s) </string>
+    <string name="ele_mystudy_clean_search_history">Clear history</string>
+    <string name="ele_mystudy_empty_data">No data</string>
+    <string name="ele_mystudy_total_hour">%s hours</string>
+    <string name="ele_mystudy_user_count">%s learners</string>
+    <string name="ele_mystudy_delet">Delete</string>
+    <string name="ele_mystudy_course_num">%s courses</string>
+    <string name="ele_mystudy_task_num">%s tasks</string>
+    <string name="ele_mystudy_exam_auth">Exams</string>
+
+    <!-- 继续学习提醒对话框-->
+    <string name="ele_mystudy_remind_days_prefix">You have %s days to learn the current language</string>
+    <string name="ele_mystudy_remind_study_status">Have learned %1$s five courses,to obtain %2$s stars</string>
+    <string name="ele_mystudy_remind_study_title">Hi, %s, welcome back!</string>
+    <string name="ele_mystudy_remind_leave_task_count">(With only %s tasks)</string>
+    <string name="ele_mystudy_remind_start_percent">%1$s/%2$s</string>
+    <string name="ele_mystudy_remind_more_then_tip">These courses will soon be finished. Come on!</string>
+    <string name="ele_mystudy_remind_less_then_tip">The courses you have in learning,whether to continue to learn!</string>
+    <string name="ele_mystudy_remind_no_tip">You no study course,are these your vegetables?</string>
+    <string name="ele_mystudy_remind_go_study">go to learn</string>
+    <string name="ele_mystudy_remind_go_look">Go see it</string>
+
+    <!--我的报名 -->
+    <string name="ele_mystudy_my_enroll_hearder_title">My Sign-up</string>
+    <string name="ele_mystudy_my_enroll_underway__tab_title">Ongoing</string>
+    <string name="ele_mystudy_my_enroll_completed_tab_title">Ended</string>
+    <string name="ele_mystudy_my_enroll_status_end">Ended</string>
+    <string name="ele_mystudy_my_enroll_status_has_enrolled">Signed Up</string>
+    <string name="ele_mystudy_my_enroll_status_has_cancel">Cancelled</string>
+    <string name="ele_mystudy_my_enroll_status_pending">Under verification</string>
+    <string name="ele_mystudy_my_enroll_status_go_pay">Pay</string>
+    <string name="ele_mystudy_my_enroll_status_pending_failed">Denied</string>
+    <string name="ele_mystudy_my_enroll_price">￥%s</string>
+    <string name="ele_mystudy_enroll_time_horizon_fmt">%1$s to %2$s </string>
+    <string name="ele_mystudy_enroll_begin_time_prefix">Start: %s</string>
+    <string name="ele_mystudy_enroll_end_time_prefix">End: %s</string>
+    <string name="ele_mystudy_enroll_operation_dialog_check_my_enroll_info">My Sign-up Info</string>
+    <string name="ele_mystudy_enroll_operation_dialog_check_my_enroll_evidence">My enrollment certificate</string>
+    <string name="ele_mystudy_enroll_operation_dialog_cancel_enroll">Cancel application</string>
+    <string name="ele_mystudy_enroll_operation_dialog_cancel">Cancel</string>
+    <string name="ele_mystudy_enroll_cancel_enroll_dialog_confirm">Confirm</string>
+    <string name="ele_mystudy_enroll_cancel_enroll_dialog_cancel">Cancel</string>
+
+    <!--报名中（V5.3.1版本新增特性）-->
+    <string name="ele_mystudy_mine_obligations">Applying</string>
+    <string name="ele_mystudy_enroll_underway_status_wait_pay">Unpaid</string>
+    <string name="ele_mystudy_enroll_underway_status_review">Pending</string>
+    <string name="ele_mystudy_enroll_underway_status_review_refuse">Denied</string>
+    <string name="ele_mystudy_enroll_underway_status_perfect_data">Complete your info</string>
+    <string name="ele_mystudy_enroll_underway_unknow_type">Undefine Type</string>
+    <string name="ele_mystudy_enroll_underway_course_count">%d course(s)</string>
+    <string name="ele_mystudy_enroll_underway_course_hour">%s hours</string>
+    <string name="ele_mystudy_enroll_underway_course_score">%s credit(s)</string>
+    <string name="ele_mystudy_main_title">My Study</string>
+    <string name="ele_mystudy_mine_title">Me</string>
+    <string name="ele_mystudy_mine_collect">Favorite</string>
+    <string name="ele_mystudy_mine_subscrib">Subscribe</string>
+    <string name="ele_mystudy_mine_require">Required</string>
+    <string name="ele_mystudy_mine_task">My task</string>
+
+    <!-- V6.0.1版本(20170526)新增-->
+    <string name="ele_mystudy_wrong_title">Mistakes</string>
+    <string name="ele_mystudy_certificate">Certificate</string>
+
+
+    <string name="ele_mystudy_coure_form">From: %s</string>
+    <string name="ele_mystudy_specialty">Specialty Course</string>
+    <string name="ele_mystudy_course_required">Required</string>
+    <string name="ele_mystudy_offline_course">Offline</string>
+
+    <string name="ele_mystudy_business_type_teaching_course">Teaching Course</string>
+    <string name="ele_mystudy_business_type_exercise_course">Exercise Course</string>
+    <string name="ele_mystudy_business_type_offline_course">Offline Course</string>
+
+    <string name="ele_mystudy_count">(%d)</string>
+    <string name="ele_mystudy_request">Requirement:</string>
+    <string name="ele_mystudy_time_request">Time:</string>
+    <string name="ele_mystudy_accomplish_subtasks">%d subtask(s) completed</string>
+    <string name="ele_mystudy_main_center">Study center</string>
+
+    <string name="el_mystudy_wait_completed">To be completed</string>
+    <string name="el_mystudy_completed">Completed</string>
+    <string name="el_mystudy_has_end">Terminated</string>
+    <string name="el_mystudy_unqualified">Failed</string>
+    <string name="el_mystudy_task_ended_status_tip">The current task has been terminated, unable to view.</string>
+
+    <string name="ele_mystudy_message">Message</string>
+    <string name="ele_mystudy_download">Download</string>
+    <string name="ele_mystudy_offline_course2">Offline Course</string>
+    <string name="ele_mystudy_faq">Instruction</string>
+    <string name="ele_mystudy_collection">Favorite</string>
+    <string name="ele_mystudy_subscribe">Subscribe</string>
+    <string name="ele_mystudy_my_interest">Interest</string>
+    <string name="ele_mystudy_shopping_cart">Shopping Cart</string>
+    <string name="ele_mystudy_my_order">My Orders</string>
+    <string name="ele_mystudy_live">Live</string>
+    <string name="ele_mystudy_report">Report</string>
+
+    <string name="ele_mystudy_no_study_task">No study tasks</string>
+    <string name="ele_mystudy_no_study_courses">No study courses</string>
+    <string name="ele_mystudy_start_study">Start</string>
+
+    <string name="ele_mystudy_filter_completed">Finish</string>
+    <string name="ele_mystudy_filter_reset">Reset</string>
+    <string name="ele_mystudy_filter_type_all">All</string>
+    <string name="ele_mystudy_filter_type_teach_course">Teaching Course</string>
+    <string name="ele_mystudy_filter_type_exercises_course">Exercise Course</string>
+    <string name="ele_mystudy_filter_type_live_course">Live class</string>
+    <string name="ele_mystudy_filter_type_off_line_course">Offline Course</string>
+    <string name="ele_mystudy_filter_type_open_course">Public Courses</string>
+    <string name="ele_mystudy_filter_type_train">Training</string>
+    <string name="ele_mystudy_filter_type_train_plan">Training plan</string>
+    <string name="ele_mystudy_filter_type">Type</string>
+    <string name="ele_mystudy_mine_not_start">Updating</string>
+    <string name="ele_mystudy_mine_not_start_nodata">No upcoming courses</string>
+
+    <string name="ele_mystudy_mine_statistics_dec_new">Learned: %1$s day(s), %2$s hour(s); completed: %3$s course(s)</string>
+	
+	
+	<string name="ele_mystudy_my_integral_tip">My integral：</string>
+
+    <string name="ele_mystudy_ink_loading">Loading......</string>
+
+    <string name="ele_mystudy_discover">Discover</string>
+
+    <string name="ele_mystudy_studies">Study</string>
+
+    <string name="ele_mystudy_title_recent">Recent</string>
+    <string name="ele_mystudy_title_all">All</string>
+    <string name="ele_mystudy_empty_tip1">There is no study arrangement.</string>
+    <string name="ele_mystudy_empty_tip2">Go find some interesting courses!</string>
+    <string name="ele_mystudy_go_courses">Go Courses</string>
+    <string name="ele_mystudy_cancel">Cancel</string>
+    <string name="ele_mystudy_search_hint">Search for courses</string>
+    <string name="ele_mystudy_clean_search_history_vod">Clear</string>
+    <string name="ele_mystudy_search_empty_tip1">Oops! No Result Found. </string>
+    <string name="ele_mystudy_search_empty_tip2">Try rewording your search or entering a new keyword.</string>
+	
+	
+	
+	
+	
+	
+
+    <string name="ele_lc_tag_open_course">Public Courses</string>
+    <string name="ele_lc_tag_auxo_train">Training Certification</string>
+    <string name="ele_lc_tag_exam">Exam</string>
+    <string name="ele_lc_tag_auxo_specialty">Specialty Course</string>
+    <string name="ele_lc_tag_training_plan">Training plan</string>
+
+    <string name="ele_lc_study_period">Total %s credit hour(s)</string>
+    <string name="ele_lc_study_period_2">Total %s task(s)</string>
+    <string name="ele_lc_study_period_3">Total %s credit(s)</string>
+    <string name="ele_lc_study_have_period">Completed  %1$s/%2$s hours</string>
+    <string name="ele_lc_study_have_period_2">Finished %1$s task(s), scored %2$s in average</string>
+    <string name="ele_lc_study_have_period_3">Gained %1$s/%2$s credit(s)</string>
+    <string name="ele_lc_last_study">Learned: %1$s</string>
+    <string name="ele_lc_people">%s visitor</string>
+    <string name="ele_lc_study_unit">%s hours</string>
+    <string name="ele_lc_duration">Time: %d min</string>
+    <string name="ele_lc_begin_time">Start: %s</string>
+    <string name="ele_lc_end_time">End: %s</string>
+
+    <string name="ele_lc_not_pass">Failed</string>
+    <string name="ele_lc_wait_judge">Marking</string>
+    <string name="ele_lc_pass">Passed</string>
+
+    <string name="ele_lc_status_not_pass">Failed</string>
+    <string name="ele_lc_status_pass">Passed</string>
+    <string name="ele_lc_status_finished">Completed</string>
+    <string name="ele_lc_status_pending_audit">Pending</string>
+
+    <string name="ele_lc_continue">Continue</string>
+    <string name="ele_lc_start">Start</string>
+
+    <string-array name="ele_lc_pass_status"><item>@string/ele_lc_not_pass </item><item>@string/ele_lc_wait_judge </item><item>@string/ele_lc_pass</item></string-array>
+
+    <string name="ele_lc_op_peroid_not_enough">Insufficient learning hours</string>
+    <string name="ele_lc_op_exam_disable">Unavailable</string>
+    <string name="ele_lc_op_ready_to_start">Begin Soon</string>
+    <string name="ele_lc_op_learning">Ongoing</string>
+    <string name="ele_lc_op_exam_end">Ended</string>
+    <string name="ele_lc_op_run_out">No chance</string>
+    <string name="ele_lc_op_start_exam">Start</string>
+    <string name="ele_lc_op_exam_again">Retake the exam</string>
+    <string name="ele_lc_op_continue_exam">Continue</string>
+    <string name="ele_lc_op_to_judge">To be marked</string>
+
+    <string name="ele_lc_exam_pass_score">Passed: %s points</string>
+    <string name="ele_lc_exam_not_pass_score">Failed: %s points</string>
+
+    <string name="ele_lc_not_exam_score">No results</string>
+    <string name="ele_lc_mooc_exam_pass_score">Passed: %s</string>
+    <string name="ele_lc_mooc_exam_not_pass_score">Failed: %s points</string>
+    <string name="ele_lc_mooc_exam_score_invisible">Not allowed to view results.</string>
+    <string name="ele_lc_mooc_exam_room">Exam room: %s</string>
+
+    <string name="ele_lc_mooc_exam_type_0">Training Certification Exam</string>
+    <string name="ele_lc_mooc_exam_type_1">Vocational Certification Exam</string>
+    <string name="ele_lc_mooc_exam_type_2">Final Exam</string>
+    <string name="ele_lc_mooc_exam_type_4">Again</string>
+    <string name="ele_lc_mooc_exam_type_5">Retaking Exam</string>
+    <string name="ele_lc_mooc_exam_type_6">Midterm Exam</string>
+    <string name="ele_lc_mooc_exam_type_10">Others</string>
+    <string name="ele_lc_mooc_exam_type_12">Daily Quiz</string>
+
+    <string name="ele_lc_mooc_grade_course_totle_course_score">Credit: %s</string>
+    <string name="ele_lc_mooc_grade_course_optional">Optional</string>
+    <string name="ele_lc_mooc_grade_course_compulsory">Required</string>
+    <string name="ele_lc_mooc_grade_course_specname">Major: %s</string>
+    <string name="ele_lc_mooc_grade_course_grade">Grade: %s</string>
+    <string name="ele_lc_percent_symbol_tip">Learned %d%%</string>
+    <string name="ele_lc_study_have_resource">Learned %1$s/%2$s resource(s)</string>
+    <string name="ele_lc_study_total_resources">%s resources in total</string>
+    <string name="ele_lc_percent_symbol">%d%%</string>
+    <string name="ele_lc_business_type_teaching_course">Teaching Course</string>
+    <string name="ele_lc_business_type_exercise_course">Exercise Course</string>
+    <string name="ele_lc_business_type_offline_course">Offline Course</string>
+    <string name="ele_lc_business_type_live_course">Live class</string>
+    <string name="ele_vt_experience">Free Trial</string>
+    <string name="ele_vt_unknown_type">Undefine Type</string>
+    <string name="ele_vt_period">Periodic</string>
+
+    <string name="ele_mystudy_x_empty_tip1">Start the Journey of Knowledge!</string>
+    <string name="ele_mystudy_x_empty_tip2">Make your life more fulfilling</string>
+    <string name="ele_mystudy_x_user">User</string>
+    <string name="ele_mystudy_x_filter_not_completed">undone</string>
+    <string name="ele_mystudy_x_study_history">Learning record</string>
+	
+	<string name="ele_mystudy_vod_study_nowadays">Today</string>
+    <string name="ele_mystudy_vod_study_withina_week">Last 7 Days</string>
+    <string name="ele_mystudy_vod_study_earlier">Earlier</string>
+	
+	    <string name="ele_mystudy_mine_no_start_nodata">No courses yet to start</string>
+    <string name="ele_mystudy_mine_compulsory_study_nodata">No required courses</string>
+
+    <string name="ele_mystudy_all_course">All courses</string>
+
+    <!--  以下为测试用  -->
+    <string name="test_x_study_plan_title">My learning</string>
+    <string name="ele_mystudy_test_btn_x_embedded">My learning x embedded page</string>
+    <string name="ele_mystudy_test_study_plan">Learning plan</string>
+</resources>

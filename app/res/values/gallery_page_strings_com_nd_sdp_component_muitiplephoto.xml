@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_ui_gallery_show_original">Display the original image</string>
+    <string name="common_ui_gallery_load_error">Image loading failed \n check the network</string>
+</resources>

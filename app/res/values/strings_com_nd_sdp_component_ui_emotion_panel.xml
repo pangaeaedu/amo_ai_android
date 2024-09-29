@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="emotion_view_get_config_error">Failed to read sticker configuration.</string>
+    <string name="emotion_view_no_history">No recently used stickers</string>
+    <string name="emotion_unknown">Sticker</string>
+    <string name="emotion_recent">Recent</string>
+    <string name="emotion_system">Default</string>
+    <string name="emotion_emoji">Emoji</string>
+    <string name="emotion_i_like">Favorites</string>
+    <string name="emotion_group_number">Group %1$d</string>
+    <string name="emotion_setting">Settings</string>
+    <string name="emotion_mall">Sticker Gallery</string>
+</resources>

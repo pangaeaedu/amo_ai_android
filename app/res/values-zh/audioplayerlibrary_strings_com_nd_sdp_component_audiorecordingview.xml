@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="audioplayer_using_incall_mode">正在使用听筒模式</string>
+    <string name="audioplayer_using_speaker_mode">正在使用扬声器模式</string>
+
+</resources>

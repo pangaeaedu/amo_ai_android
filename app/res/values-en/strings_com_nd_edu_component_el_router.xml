@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_router_swith_secretkey_failed">Key recovery failed, please exit the program and re-enter</string>
+    <string name="el_router_loading">Loading...</string>
+    <string name="el_router_the_school_microblog">Campus Posts</string>
+    <string name="el_router_component_is_not_exist">Unavailable</string>
+    <string name="el_router_net_error_tips">Network connection error. Please try again.</string>
+    <string name="el_router_data_error_tips">Parse error. Please try again.</string>
+    <string name="el_router_dialog_app_line_content">An error occurred.   
+Please try again later.</string>
+    <string name="el_router_dialog_app_line_ok">Got it</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--无障碍提示-->
+
+    <!--头像入口-->
+    <string name="starapp_life_accessibility_avatar">รูปภาพโปรไฟล์</string>
+
+    <!--红点提示-->
+    <string name="starapp_life_accessibility_reddot_tip">มีข้อความใหม่</string>
+    <!--数字红点提示-->
+    <string name="starapp_life_accessibility_num_reddot_tip">มีข้อความใหม่ %s ข้อ</string>
+
+    <!--界面返回-->
+    <string name="starapp_life_accessibility_back">ย้อนกลับ</string>
+
+    <!--用户信息卡片-拥有鲜花数-->
+    <string name="starapp_life_accessibility_flower_count">มีดอกไม้ %s ดวง</string>
+    <!--用户信息卡片-积分数量-->
+    <string name="starapp_life_accessibility_gold_count">คะแนน %s</string>
+    <!--用户信息卡片-代币余额-->
+    <string name="starapp_life_accessibility_emoney_count">ยอดเงินคงเหลือ %1$s%2$s</string>
+
+    <!--用户信息卡片-代币名称-->
+    <string name="starapp_life_accessibility_emoney_currency">เหรียญเน็ตดราก้อน</string>
+
+    <!--触发类型-按钮-->
+    <string name="starapp_life_accessibility_button">ปุ่ม</string>
+
+    <!--窗口-关闭时朗读-->
+    <string name="starapp_life_accessibility_dialog_close">ปิดหน้าต่าง</string>
+
+    <!--二维码图片-->
+    <string name="starapp_life_accessibility_qrcode">รูปภาพคิวอาร์โค้ด</string>
+
+</resources>

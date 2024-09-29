@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 水平方向留白距离 -->
+    <dimen name="nduc_layout_padding_horizon">30dp</dimen>
+
+    <dimen name="nd_uc_margin_very_huge">80dp</dimen>
+    <dimen name="nd_uc_margin_very_large">48dp</dimen>
+    <dimen name="nd_uc_margin_larger">40dp</dimen>
+    <dimen name="nd_uc_margin_large">32dp</dimen>
+    <dimen name="nd_uc_margin_middle">24dp</dimen>
+    <dimen name="nd_uc_margin_small">16dp</dimen>
+    <dimen name="nd_uc_margin_unusual_small">12dp</dimen>
+    <dimen name="nd_uc_margin_very_small">8dp</dimen>
+    <dimen name="nd_uc_margin_tiny">4dp</dimen>
+    <dimen name="nd_uc_margin_very_tiny">2dp</dimen>
+
+    <!-- ************* 控件大小 ************* -->
+    <dimen name="nd_uc_view_size_very_huge">80dp</dimen>
+    <dimen name="nd_uc_view_size_large">64dp</dimen>
+
+    <dimen name="nd_uc_avatar_size">50dp</dimen>
+	 <dimen name="nd_uc_avatar_size_small">48dp</dimen>
+    <dimen name="nd_uc_avatar_size_middle">60dp</dimen>
+
+    <dimen name="nduc_size_icon_login_mode_bottom">30dp</dimen>
+
+    <!-- ************* 字体 ************* -->
+
+    <!-- 页面内的标题字体大小 -->
+    <dimen name="nduc_title_text_size">30sp</dimen>
+
+    <!-- text字体大小 -->
+    <dimen name="nduc_text_size_very_large">20sp</dimen>
+    <dimen name="nduc_text_size_large">18sp</dimen>
+    <dimen name="nduc_text_size_middle_large">17sp</dimen>
+    <dimen name="nduc_text_size_middle">16sp</dimen>
+    <dimen name="nduc_text_size_small">14sp</dimen>
+    <dimen name="nduc_text_size_very_small">12sp</dimen>
+
+    <!-- TextView最大宽度 -->
+    <dimen name="nduc_text_max_width_small">150dp</dimen>
+
+    <!-- Pad版左右两侧的留白比例。由于GuileLine在rtl下，系统没有进行适配。因为需要建立value-ldrtl/dimen.xml进行适配 -->
+    <!-- 直接用dimen，在SDP打包时会报AAPT: Float types not allowed -->
+    <item name="nduc_pad_land_left_percent" format="float" type="dimen">0.31</item>
+    <item name="nduc_pad_land_right_percent" format="float" type="dimen">0.69</item>
+    <item name="nduc_pad_land_top_percent" format="float" type="dimen">0.15</item>
+    <item name="nduc_pad_land_bottom_percent" format="float" type="dimen">0.85</item>
+    <item name="nduc_pad_port_left_percent" format="float" type="dimen">0.18</item>
+    <item name="nduc_pad_port_right_percent" format="float" type="dimen">0.82</item>
+    <item name="nduc_pad_port_top_percent" format="float" type="dimen">0.20</item>
+    <item name="nduc_pad_port_bottom_percent" format="float" type="dimen">0.80</item>
+
+    <!--  按钮的圆角大小  -->
+    <dimen name="nduc_button_radius">4dp</dimen>
+    <!--  按钮的阴影大小，默认不设置  -->
+    <dimen name="nduc_button_shadow">0dp</dimen>
+    <!--  次要按钮的圆角大小，跟随主要按钮。支持自定义  -->
+    <dimen name="nduc_button_secondary_radius">@dimen/nduc_button_radius</dimen>
+    <!--  次要按钮的阴影大小，默认不设置，跟随主要按钮，支持自定不过一  -->
+    <dimen name="nduc_button_secondary_shadow">@dimen/nduc_button_shadow</dimen>
+	<!--  协议弹窗内容最大显示高度一  -->
+	<dimen name="nduc_agreement_scroll_max_height">300dp</dimen>
+	
+	 <dimen name="nduc_button_radius_2">8dp</dimen>
+    <dimen name="nduc_button_height">48dp</dimen>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 仅适用中文情况，英文情况是  December 2018 -->
+    <string name="com_nd_calendar2_picker_yearmonth">พ.ศ. yyyy ปี MM เดือน</string>
+
+    <string-array name="com_nd_calendar2_lunar_first_of_month"><item>เทศกาลตรุษจีน</item><item>เดือนกุมภาพันธ์</item><item>เดือนมีนาคม</item><item>เดือนเมษายน</item><item>เดือนพฤษภาคม</item><item>เดือนมิถุนายน</item><item>เดือนกรกฎาคม</item><item>เดือนสิงหาคม</item><item>เดือนกันยายน</item><item>เดือนตุลาคม</item><item>เดือนธันวาคม</item><item>เดือนเดือนหนังสือ</item></string-array>
+
+    <string-array name="com_nd_calendar2_tradition_festival"><item>วันเทศกาลตรุษจีน</item><item>วันตรุษจีน 0101</item><item>วันยาวเฉียง 0115</item><item>วันลอยกระทง 0115</item><item>วันดอกไม้ 0212</item><item>วันสารทจะ 0303</item><item>วันไหว้พระจันทร์ 0505</item><item>วันเทศกาล Qixi 0707</item><item>วันผลไม้ 0715</item><item>เทศกาลไหว้ภรรยา 0815</item><item>วันเฉลิมฉิบหาญ 0815</item><item>เทศกาลชาวจีน 0909</item><item>วันสงกรานต์ 1001</item><item>วันสงกรานต์ 1015</item><item>วันพ่อแม่ 1015</item><item>เทศกาลโรงแรม 1208</item></string-array>
+
+    <string-array name="com_nd_calendar2_lunar_str"><item>วันแรก</item><item>วันที่สอง</item><item>วันที่สาม</item><item>วันที่สี่</item><item>วันที่ห้า</item><item>วันที่หก</item><item>วันที่เจ็ด</item><item>วันที่แปด</item><item>วันที่เก้า</item><item>วันที่สิบ</item><item>สิบเอ็ด</item><item>สิบสอง</item><item>สิบสาม</item><item>สิบสี่</item><item>สิบห้า</item><item>สิบหก</item><item>สิบเจ็ด</item><item>สิบแปด</item><item>สิบเก้า</item><item>ยี่สิบ</item><item>ยี่สิบเอ็ด</item><item>ยี่สิบสอง</item><item>ยี่สิบสาม</item><item>ยี่สิบสี่</item><item>ยี่สิบห้า</item><item>ยี่สิบหก</item><item>ยี่สิบเจ็ด</item><item>ยี่สิบแปด</item><item>ยี่สิบเก้า</item><item>สามสิบ</item></string-array>
+
+    <string-array name="com_nd_calendar2_solar_festival" tools:ignore="InconsistentArrays"><item>0101 วันตรุษจีน</item><item>0214 วันวาเลนไทน์</item><item>0308 วันสตรี</item><item>0312 วันปลูกต้นไม้</item><item>0315 วันสิทธิมนุษยชน</item><item>0401 วันพฤหัสบดี</item><item>0501 วันแรงงาน</item><item>0504 วันคุณหญิง</item><item>0601 วันเด็ก</item><item>0801 วันกองทัพบก</item><item>0910 วันครู</item><item>1001 วันประเทศ</item><item>1225 คริสมาสต์</item></string-array>
+
+    <string-array name="com_nd_calendar2_solar_term"><item>เมษายน</item><item>กันยายน</item><item>ตุลาคม</item><item>ธันวาคม</item></string-array>
+
+    <string-array name="com_nd_calendar2_special_festivals"><item>วันแม่</item><item>วันพ่อ</item><item>วันขอบคุณ</item></string-array>
+
+    <string name="com_nd_calendar2_sun">วันอาทิตย์</string>
+    <string name="com_nd_calendar2_mon">จันทร์</string>
+    <string name="com_nd_calendar2_tue">อังคาร</string>
+    <string name="com_nd_calendar2_wed">พุธ</string>
+    <string name="com_nd_calendar2_thu">วันพฤหัสบดี</string>
+    <string name="com_nd_calendar2_fri">วันศุกร์</string>
+    <string name="com_nd_calendar2_sat">เสาร์</string>
+
+    <string-array name="com_nd_calendar2_week_string_array"><item>อาทิตย์</item><item>จันทร์</item><item>อังคาร</item><item>พุธ</item><item>พฤหัสบดี</item><item>ศุกร์</item><item>เสาร์</item></string-array>
+
+    <string-array name="com_nd_calendar2_month_string_array"><item>เดือน 1</item><item>เดือน 2</item><item>เดือน 3</item><item>เดือน 4</item><item>เดือน 5</item><item>เดือน 6</item><item>เดือน 7</item><item>เดือน 8</item><item>เดือน 9</item><item>เดือน 10</item><item>เดือน 11</item><item>เดือน 12</item></string-array>
+</resources>

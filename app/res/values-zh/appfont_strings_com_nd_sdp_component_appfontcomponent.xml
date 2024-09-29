@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_set_font_size">字体尺寸</string>
+    <string name="font_size_tip1">预览字体大小</string>
+    <string name="font_size_tip2">拖动下面的滑块，可设置字体大小</string>
+    <string name="font_size_tip3">设置后，会改变最近联系人和会话界面的字体大小。如果在使用过程中存在问题或意见，可以反馈给客服团队</string>
+    <string name="font_hint_recent_pic">您可能想要发送的图片：</string>
+
+    <string name="font_size_small">小</string>
+    <string name="font_size_standard">标准</string>
+    <string name="font_size_big">大</string>
+    <string name="font_size_very_big">超大</string>
+    <string name="font_size_huge">特大</string>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="nd_time_picker_confirm">确定</string>
+    <string name="nd_time_picker_cancel">取消</string>
+    <string name="nd_time_picker_automate">不限</string>
+    <string name="nd_time_picker_sonar_calendar">公历</string>
+    <string name="nd_time_picker_lunar_calendar">农历</string>
+    <string name="nd_time_picker_year"></string>
+    <string name="nd_time_picker_month"></string>
+    <string name="nd_time_picker_day"></string>
+    <!-- 样式按年区分下的月日单位 -->
+    <string name="nd_time_picker_month_type_year"></string>
+    <string name="nd_time_picker_day_type_year"></string>
+
+    <string name="nd_time_picker_format_one">yyyy-MM-dd&#160;&#160;HH:mm</string>
+    <string name="nd_time_picker_format_two">yyyy-MM-dd</string>
+    <string name="nd_time_picker_format_three">yyyy-MM</string>
+    <string name="nd_time_picker_format_four">HH:mm</string>
+    <string name="nd_time_picker_format_date_time">%1$s&#160;&#160;%2$s</string>
+    <string name="nd_time_picker_divider_colon">&#058;</string>
+
+    <string name="nd_time_picker_sunday_one">周日</string>
+    <string name="nd_time_picker_monday_one">周一</string>
+    <string name="nd_time_picker_tuesday_one">周二</string>
+    <string name="nd_time_picker_wednesday_one">周三</string>
+    <string name="nd_time_picker_thursday_one">周四</string>
+    <string name="nd_time_picker_friday_one">周五</string>
+    <string name="nd_time_picker_saturday_one">周六</string>
+
+    <string name="nd_time_picker_sunday_two">星期日</string>
+    <string name="nd_time_picker_monday_two">星期一</string>
+    <string name="nd_time_picker_tuesday_two">星期二</string>
+    <string name="nd_time_picker_wednesday_two">星期三</string>
+    <string name="nd_time_picker_thursday_two">星期四</string>
+    <string name="nd_time_picker_friday_two">星期五</string>
+    <string name="nd_time_picker_saturday_two">星期六</string>
+</resources>

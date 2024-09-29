@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="apfpermissioncomponent_permission_item_title">Allow %1$s to access %2$s permission</string>
+    <string name="apfpermissioncomponent_permission_detail_question1">Why accessing %1$s is required?</string>
+    <string name="apfpermissioncomponent_permission_detail_question2">How can I set the permissions? Can I disallow the permissions?</string>
+    <string name="apfpermissioncomponent_permission_detail_question3">How to keep my information secure?</string>
+    <string name="apfpermissioncomponent_permission_detail_go_setting">Setting</string>
+    <string name="apfpermissioncomponent_read_privacy_policy">Privacy Policy</string>
+    <string name="apfpermissioncomponent_info">%1$s information</string>
+    <string name="apfpermissioncomponent_get_privacy_policy_fail">Failed to get the Privacy Policy.</string>
+    <string name="apfpermissioncomponent_system_permission">Permission</string>
+    <string name="apfpermissioncomponent_permission_allowed">Allowed</string>
+    <string name="apfpermissioncomponent_permission_explain">To provide you with a better user experience, %1$s may apply for the following permissions in specific scenarios.  Errors may occur during setting permissions due to device differences. You can also set permissions in the phone settings.</string>
+    <string name="apfpermissioncomponent_permission_dialog_title">Permission Settings</string>
+    <string name="apfpermissioncomponent_permission_name">Permissions</string>
+	
+	<string name="apf_permission_check_dialog_title">%s application requires you the following permissions</string>
+    <string name="apf_permission_check_dialog_allow_tip">• The above permissions will only be used after authorization</string>
+    <string name="apf_permission_check_dialog_setting_tip">• The above permissions will only be used when you go to the application permission settings to open the permissions;\n• You can also choose to open the permissions in the APP settings-&gt;Privacy permission settings</string>
+    <string name="apf_permission_check_dialog_unknow_tip">• All of the above are unknown permissions, please ensure that the application permissions are configured correctly</string>
+    <string name="apf_permission_check_dialog_go_setting_title">Failed to obtain the following permissions</string>
+    <string name="apf_permission_check_dialog_go_setting">You can choose:\n1. Click "Settings"\n2. Open permissions in APP settings -&gt; Privacy permission settings \n3. Application management -&gt; Corresponding applications -&gt; Permission management open permissions</string>
+    <string name="apf_permission_check_dialog_cancel">Cancel</string>
+    <string name="apf_permission_check_dialog_allow">ALLOW</string>
+    <string name="apf_permission_check_dialog_setting">Setting</string>
+    <string name="apf_permission_check_dialog_iknow">Got it</string>
+    <string name="apf_permission_check_dialog_exit">Exit</string>
+    <string name="apf_permission_check_permission_requested">Permission requested</string>
+
+    <string name="apf_permission_unkonw">Unknown permission</string>
+    <string name="apf_permission_unkonw_message">The following permissions are not configured for application packaging:\n%s\nPlease check whether the application permissions are configured correctly!</string>
+    <string name="apf_permission_disable_error">The product packaging has been turned on forbidden permission, please check whether the configuration is correct!</string>
+    <string name="apf_permission_disable_error2">The product packaging has opened the banned part of the permission, please check whether the configuration is correct!</string>
+    <string name="apf_permission_init_error_message">Please check whether the parameters are passed in according to the standard, and check whether there is any incoming initialization data!</string>
+    <string name="apf_permission_pre_condition_error">Preconditions not met, unable to execute permission request</string>
+    <string name="apf_permission_specail_error_message">The currently passed in permissions include one or more special permissions, please check whether the data is wrong!</string>
+    <string name="apf_permission_specail_error_message2">The current incoming permission is not a special permission. Please check if the data is incorrect!</string>
+    <string name="apf_permission_specail_init_error">The current permission requires parameters. Please check if the parameters are empty!</string>
+    <string name="apf_permission_error_message">Permission application failed, you have refused to apply for permission!</string>
+    <string name="apf_permission_error_unknown">Permission application failed, all are unknown permissions, please check whether permissions are configured!</string>
+    <string name="apf_permission_error">Permission application failed!</string>
+    <string name="apf_permission_error_disable">There are permissions that are disabled by the product, please check whether the packaging configuration is correct!</string>
+    <string name="apf_permission_disable">(Disabled)</string>
+
+    <string name="apf_permission_calendar">Calendar Permission</string>
+    <string name="apf_permission_camera">Camera Permission</string>
+    <string name="apf_permission_contacts">Contact Permission</string>
+    <string name="apf_permission_location">Location Permission</string>
+    <string name="apf_permission_location_background">Background Location Permission</string>
+    <string name="apf_permission_microphone">Microphone Permission</string>
+    <string name="apf_permission_phone">Phone Permission</string>
+    <string name="apf_permission_sensors">Sensor Permission</string>
+    <string name="apf_permission_sms">SMS Permission</string>
+    <string name="apf_permission_storage">Storage Permission</string>
+    <string name="apf_permission_call_log">Call log Permission</string>
+    <string name="apf_permission_activity_recognition">Physical Activity Permission</string>
+    <string name="apf_permission_alter_window">Floating Window Permission</string>
+    <string name="apf_permission_accessibility">Accessibility Permission</string>
+    <string name="apf_permission_device">Device manager permission</string>
+    <string name="apf_permission_notify_listener">Monitor Notification Bar Permission</string>
+    <string name="apf_permission_usage">Read App Usage Permission</string>
+    <string name="apf_permission_boot">Startup Permission</string>
+    <string name="apf_permission_wallpaper">Set wallpaper permission</string>
+    <string name="apf_permission_bluetooth">Bluetooth permission</string>
+    <string name="apf_permission_notification">Notification Permission</string>
+    <string name="apf_permission_nearby_devices">Nearby Device Permission</string>
+
+
+</resources>

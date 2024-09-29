@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="epo_confirm_cancel">Cancel</string>
+    <string name="epo_confirm_commit">Confirm</string>
+    <string name="epo_confirm_ensure">Confirm</string>
+    <string name="epo_confirm_revise">Exit learning</string>
+    <string name="epo_confirm_restart">Again</string>
+    <string name="epo_confirm_continue">Continue answering</string>
+    <string name="epo_load_fail">Exercise loading failed.</string>
+    <string name="epo_back_tips">Once leaving, you will not be able to continue learning. Are you sure to exit?</string>
+
+    <string name="epo_pract_not_exist">Practice not found.</string>
+    <string name="epo_pract_not_enable">Practice removed.</string>
+
+    <string name="epo_online_practice">Practice</string>
+    <string name="epo_pass_model_one">Achieve %1$s accuracy to pass the practice.</string>
+    <string name="epo_pass_model_two">Answer %1$d question(s) correctly to pass the practice.</string>
+    <string name="epo_pass_model_three">Answer all questions to pass the practice.</string>
+    <string name="epo_practice_passed">Practice passed.</string>
+    <string name="epo_practice_info_normal"><![CDATA[Total questions: &nbsp;<font color="#1E62EC">%1$d</font>&nbsp; ]]></string>
+    <string name="epo_practice_info_continue"><![CDATA[Total questions: &nbsp;<font color="#1E62EC">%1$d</font>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Answered questions: &nbsp;<font color="#1E62EC">%2$d</font>&nbsp;]]></string>
+    <string name="epo_practice_info_complete"><![CDATA[Total questions: &nbsp;<font color="#1E62EC">%1$d</font>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Correct answers: &nbsp;<font color="#1E62EC">%2$d</font>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Correct answer rate: &nbsp;<font color="#1E62EC">%3$s</font>&nbsp; ]]></string>
+    <string name="epo_practice_info_history_best">Best shot: </string>
+    <string name="epo_practice_result">Completed [%1$d question(s)]</string>
+    <string name="epo_show_analysis">View explanations</string>
+    <string name="epo_answer">Answer</string>
+    <string name="epo_answer_again">Again</string>
+    <string name="epo_continue_answer">Continue answering</string>
+
+    <string name="epo_custom_practice_point">Breakpoint practice</string>
+    <string name="epo_online_practice_point">Online practice</string>
+    <string name="epo_online_practice_first_answer">First try</string>
+    <string name="epo_online_practice_continue_answer">Continue answering</string>
+    <string name="epo_online_practice_answer_again">Again</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_sort_filter_btn_reset">Reset</string>
+    <string name="ele_sort_filter_btn_ok">Finish</string>
+    <string name="ele_sort_filter_btn_back">Back</string>
+    <string name="ele_sort_filter_text_sort">Sort</string>
+    <string name="ele_sort_filter_text_filter">Filter</string>
+    <string name="ele_sort_filter_text_filter_isMulti">Multiple choice</string>
+    <string name="ele_sort_filter_text_filter_notMulti">Single choice</string>
+    <string name="ele_sort_filter_text_min_hint">Minimum</string>
+    <string name="ele_sort_filter_text_max_hint">Maximum</string>
+    <!-- %1$s 是标题，%2$s 是用户输入的值。例：价格区间：不能低于 20 -->
+    <string name="ele_sort_filter_text_min_toast"> %1$s: Not less than %2$s</string>
+    <!-- %1$s 是标题，%2$s 是用户输入的值。例：价格区间：不能高于 20 -->
+    <string name="ele_sort_filter_text_max_toast"> %1$s: No more than %2$s</string>
+    <string name="ele_sort_filter_time_choose">Select a date</string>
+    <string name="ele_sort_filter_time_choose_start">Start</string>
+    <string name="ele_sort_filter_time_choose_end">End</string>
+    <string name="ele_sort_filter_time_choose_total">Total %s hour(s)</string>
+    <string name="ele_sort_filter_panel_act_nodata">No matching content found</string>
+    <string name="ele_sort_filter_choose_date_tip">Select a date</string>
+    <string name="ele_sort_filter_choose_date_range_tip">Select a date range</string>
+    <string name="ele_sort_filter_choose_time_tip">Please choose time</string>
+    <string name="ele_sort_filter_choose_time_range_tip">Please select the time period</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="xst_fav_title" translatable="false">My collection</string>
+    <string name="xst_fav_sedu" translatable="false">德育</string>
+    <string name="xst_fav_school_sevice" translatable="false">课后服务</string>
+    <string name="xst_fav_edu_reform" translatable="false">教改经验</string>
+    <string name="xst_fav_family_edu" translatable="false">家庭教育</string>
+    <string name="xst_x_course" translatable="false">Course teaching</string>
+    <string name="xst_t_course" translatable="false">Teacher training</string>
+    <string name="xst_fav_sport" translatable="false">Sports</string>
+    <string name="xst_fav_art" translatable="false">美育</string>
+    <string name="xst_fav_labor" translatable="false">Labor education</string>
+    <string name="xst_fav_edit" translatable="false">Edit</string>
+    <string name="xst_fav_cancel" translatable="false">Cancel</string>
+    <string name="xst_fav_select_all">Select All</string>
+    <string name="xst_fav_select_all_cancel" tools:ignore="ExtraTranslation">Unselect all</string>
+    <string name="xst_fav_select_del">Delete (%d)</string>
+    <string name="xst_fav_select_del_action">Delete</string>
+    <string name="xst_fav_confirm_delete">Confirm deletion</string>
+    <string name="xst_fav_confirm_delete_fav">确认删除当前选中的收藏？</string>
+    <string name="xst_fav_content_tip">快去收藏感兴趣的内容吧</string>
+    <string name="xst_fav_course_textbook">课本</string>
+    <string name="xst_fav_course_hour">Course</string>
+
+    <string name="xst_fav_sort_by_favorites" translatable="false">按收藏夹</string>
+    <string name="xst_fav_sort_by_content" translatable="false">按内容</string>
+    <string name="xst_collection_count" translatable="false">%d个收藏夹</string>
+    <string name="xst_content_count" translatable="false">%s条内容</string>
+
+
+
+    <string name="xst_my_follow_title" translatable="false">My Follows</string>
+    <string name="xst_my_follow_member_resource_count" translatable="false">成员 %d丨资源 %d</string>
+    <string name="xst_my_follow_member_count" translatable="false">%d人关注</string>
+    <string name="xst_my_follow_resource_num" translatable="false">Number of resources</string>
+    <string name="xst_my_follow_no_content" translatable="false">Empty</string>
+    <string name="xst_my_follow_follow" translatable="false">Follow</string>
+    <string name="xst_my_follow_followed" translatable="false">Followed</string>
+    <string name="xst_my_follow_unfollowed" translatable="false">Cancelled</string>
+    <string name="xst_my_follow_follow_failed" translatable="false">操作失败，请重试...</string>
+    <string name="xst_my_follow_empty_tip" translatable="false">快去关注感兴趣的内容吧</string>
+    <string name="xst_my_follow_studio_no_exist" translatable="false">该工作室已不存在</string>
+    <string name="xst_my_follow_space_no_exist" translatable="false">该空间已不存在</string>
+    <string name="xst_my_follow_resource_number_no_exist" translatable="false">该资源号已不存在</string>
+    <string name="xst_my_follow_fetch_failed" translatable="false">Data Load Faild!</string>
+    <string name="xst_my_follow_studio_tab_title" translatable="false">Master teacher studio</string>
+    <string name="xst_my_follow_resource_number_tab_title" translatable="false">Resource number</string>
+    <string name="xst_my_follow_expert_studio_title" translatable="false">专家团队工作室</string>
+    <string name="xst_my_follow_school_space" translatable="false">School Community</string>
+
+    <string name="xst_my_follow_unfollow_tip" translatable="false">是否确认取消关注？</string>
+    <string name="xst_my_follow_unfollow_confirm" translatable="false">Confirm</string>
+
+    <string name="xst_my_follow_loading_tip" translatable="false">请求中,请稍候...</string>
+    <string name="xst_my_follow_load_more_tip" translatable="false">Loading more data...</string>
+    <string name="xst_my_follow_has_load_all" translatable="false">已加载全部数据</string>
+
+
+    <string name="xst_load_fail">Oops, something went wrong</string>
+    <string name="xst_interact_try_refresh">Try refresh</string>
+
+    <string name="xst_fav_level_department">部优</string>
+    <string name="xst_fav_level_province">省优</string>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="common_popup_simple_dialog_ok">ตกลง</string>
+    <string name="common_popup_simple_dialog_cancel">ยกเลิก</string>
+
+    <string name="common_popup_talkback_head_image">รูปภาพ</string>
+    <string name="common_popup_talkback_close_dialog">ปิดกล่องข้อความ</string>
+    <string name="common_popup_talkback_close_sneck_bar">ปิดกล่องข้อความ</string>
+    <string name="common_popup_talkback_close">ปิด</string>
+    <string name="common_popup_talkback_enter">เข้า</string>
+</resources>

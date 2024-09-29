@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--mainComponent相关的资源-->
+    <string name="maincomponent_common_quit_hint">กดอีกครั้งเพื่อออกจากโปรแกรม</string>
+    <string name="maincomponent_confirm" tools:ignore="UnusedResources">ตกลง</string>
+    <string name="maincomponent_cancel">ยกเลิก</string>
+    <string name="maincomponent_expired_tips">เวอร์ชันปัจจุบันเป็นเวอร์ชันการสาธิต ระยะเวลาการสาธิตได้ผ่านไปแล้ว โปรดถอดออก</string>
+
+    <string name="maincomponent_devtool_name">เครื่องมือนักพัฒนา</string>
+    <string name="maincomponent_devtool_loglevel">สลับระดับการเอาต์พุตของบันทึก</string>
+    <string name="maincomponent_devtool_open_log_console">เปิดการออกบันทึกคอนโซล</string>
+    <string name="maincomponent_devtool_close_log_console">ปิดการแสดงผลบันทึกควบคุม</string>
+    <string name="maincomponent_devtool_zipdata">บีบอัดไดเรกทอรีข้อมูลและส่งให้ตัวเอง</string>
+    <string name="maincomponent_devtool_perform">การทดสอบประสิทธิภาพ</string>
+    <string name="maincomponent_devtool_show_component_version">ดูเวอร์ชันคอมโพเนนท์</string>
+    <string name="maincomponent_devtool_show_lightapp_update">ดูกระบวนการอัปเดตแอปพลิเคชันเบา</string>
+    <string name="maincomponent_devtool_lightapp_update">กระบวนการอัพเดตแอพลิเคชั่นเบา</string>
+    <string name="maincomponent_devtool_component_version">เวอร์ชันของคอมโพเนนต์</string>
+    <string name="maincomponent_devtool_lazy_com_tracker">การติดตามสถานะคอมโพเนนต์โหลดเล็กลง</string>
+    <string name="maincomponent_devtool_lazy_com_tracker_viewer">ติดตามมุมมองคอมโพเนนต์โหลดเกือบเสีย</string>
+    <string name="maincomponent_devtool_generate_scheme_url">สร้างที่อยู่ scheme</string>
+    <string name="maincomponent_devtool_lazy_com_track_select">การติดตามโหลดคอมโพเนนท์เป็นแบบ Lazy</string>
+    <string name="maincomponent_devtool_performance_monitor">การตรวจสอบประสิทธิภาพ</string>
+    <string name="maincomponent_devtool_webview_core">กำหนดสิ่งกำหนดแกนเว็บ</string>
+    <string name="maincomponent_devtool_webview_x5_version">ดูเวอร์ชันของเคอร์เนิล x5</string>
+    <string name="maincomponent_devtool_webview_core_select">โปรดเลือกแกนตัวความสามารถของ webview (รีสตาร์ทไม่สามารถใช้งานได้)</string>
+    <string name="maincomponent_devtool_webview_core_changed">เว็บวิวเคอร์เนลได้ถูกเปลี่ยนเป็น: </string>
+    <string name="maincomponent_devtool_net_monitor">ตรวจสอบการใช้งานและการติดตาม</string>
+    <string name="maincomponent_devtool_UI_monitor">การติดตามเวลาการทำงานของเส้นหลัก</string>
+    <string name="maincomponent_devtool_UI_monitor_config">กำหนดตัวตรวจสอบ</string>
+    <string name="maincomponent_devtool_UI_monitor_open">เปิดตัวติดตาม</string>
+    <string name="maincomponent_devtool_UI_monitor_close">ปิดตัวตรวจสอบ</string>
+    <string name="maincomponent_devtool_UI_monitor_show">แสดงข้อมูลการติดตาม</string>
+    <string name="maincomponent_devtool_UI_monitor_show_list">รายการข้อมูลการตรวจสอบ</string>
+
+    <!--Toast-->
+    <string name="maincomponent_devtool_UI_monitor_open_toast">ตรวจสอบการติดตาม</string>
+    <string name="maincomponent_devtool_UI_monitor_close_toast">ปิดการตรวจสอบแล้ว</string>
+    <string name="maincomponent_devtool_UI_monitor_openfirst_toast">โปรดเปิดตัวควบคุมก่อน</string>
+    <string name="maincomponent_devtool_UI_monitor_loading">กำลังโหลด...</string>
+
+    <string name="maincomponent_devtool_UI_monitor_openMonitorOnStartup">เปิดการตรวจสอบเมื่อเริ่มต้นหรือไม่</string>
+    <string name="maincomponent_devtool_UI_monitor_isSendToSelf">ต้องการส่งข้อมูลการติดตามให้ตัวเองหรือไม่</string>
+    <string name="maincomponent_devtool_UI_monitor_isUploadToServer">อัปโหลดข้อมูลการตรวจสอบผิดปกติ</string>
+    <string name="maincomponent_devtool_UI_monitor_timeCostThreshold">ตั้งค่าค่าเกินเวลาการประมวลผลเหตุการณ์ในหลักสูตรหลัก</string>
+    <string name="maincomponent_devtool_UI_monitor_timeCostThreshold_content">ค่าขีดจำกัดการรายงานปัจจุบันคือ %sms</string>
+
+    <string name="maincomponent_devtool_ShowWebviewLog">ดูบันทึกคอนโซลของ webview</string>
+    <string name="maincomponent_devtool_webviewLog">บันทึกคอนโซล Webview</string>
+    <string name="maincomponent_devtool_webviewLog_send2IM">ส่งบันทึกคอนโซลของ webview ให้ตัวคุณเอง?</string>
+    <string name="maincomponent_devtool_webviewLog_toast">กดค้างที่รายการ เพื่อส่งไฟล์บันทึกไปยังตัวคุณเอง</string>
+    <string name="maincomponent_devtool_enable_upload_exception">ต้องการเปิดใช้งานการรายงานข้อผิดปกติหรือไม่</string>
+    <string name="maincomponent_devtool_enable_upload_exception_toast">การรายงานข้อผิดพลาดสามารถใช้ได้หรือไม่ : </string>
+
+    <string name="maincomponent_start_time_patch_sendself">ส่งไฟล์ json ให้ตนเอง</string>
+    <string name="maincomponent_start_time_patch_sendself_success">ส่งไฟล์ json ให้ตัวคุณเองสำเร็จ</string>
+    <string name="maincomponent_start_time_patch_sendself_fail">ส่งไฟล์ json ให้ตัวคุณเองล้มเหลว</string>
+    <string name="maincomponent_start_time_patch_generate">สร้างไฟล์เป็นกลุ่มและส่งถึงตนเอง (IM)</string>
+    <string name="maincomponent_start_time_patch_upload">ส่งผู้ให้บริการเป็นกลุ่ม</string>
+    <string name="maincomponent_start_time_upload_already">ข้อมูลภายในถูกอัปโหลดไปแล้ว ไม่จำเป็นต้องอัปโหลดซ้ำ</string>
+    <string name="maincomponent_start_time_upload_success">อัปโหลดข้อมูลสำเร็จ!</string>
+    <string name="maincomponent_start_time_upload_success_partially">เฉพาะข้อมูลบางส่วนอัปโหลดสำเร็จ....</string>
+    <string name="maincomponent_start_time_upload_fail">การอัปโหลดข้อมูลล้มเหลว! (ปัญหาจากเซิร์ฟเวอร์ หรือการกรองข้อมูลเริ่มต้นที่ยาวเกินไปซึ่งไม่สามารถรายงานได้โดยอัตโนมัติ)</string>
+    <string name="maincomponent_start_time_init_upload_host_fail">การเริ่มต้นอัปโหลด uploadHost ล้มเหลว!</string>
+    <string name="maincomponent_start_time_generate_fail">การสร้างไฟล์ล้มเหลว!</string>
+    <string name="maincomponent_start_time_generate_fail_no_record">ไม่มีบันทึกการเริ่ม การสร้างไฟล์ล้มเหลว!</string>
+    <string name="maincomponent_start_time_generate_success">สร้างไฟล์สำเร็จ พาธคือ: </string>
+    <string name="maincomponent_start_time_clear">ล้างข้อมูล</string>
+    <string name="maincomponent_start_time_clear_success">ล้างข้อมูลสำเร็จ</string>
+    <string name="maincomponent_start_time_clear_fail">การล้างข้อมูลล้มเหลว</string>
+
+    <string name="maincomponent_gopage_for_QA">ข้าม</string>
+    <string name="maincomponent_gopage_for_QA_hint">โปรดใส่ URL ของหน้าที่นี่</string>
+
+    <string name="maincomponent_devtool_menu_send_to_myself">ส่งให้ตนเอง</string>
+    <string name="maincomponent_devtool_menu_about">เกี่ยวกับ...</string>
+    <string name="maincomponent_devtool_component_caller_name">การจัดการดาวน์โหลด</string>
+    <string name="maincomponent_devtool_component_caller_classname">ชื่อคลาสผู้เรียก</string>
+    <string name="maincomponent_devtool_component_track_result_list">ผลการติดตาม</string>
+    <string name="maincomponent_devtool_pref_category_lazy_track">โหลดคอมโพเนนต์แบบเลื่อนเกิน</string>
+    <string name="maincomponent_devtool_pref_title_lazy_track">ติดตามการโหลดคอมโพเนนท์</string>
+    <string name="maincomponent_devtool_pref_summary_lazy_track">คอมโพเนนต์โหลดเฉพาะเมื่อเริ่มแอปพลิเคชัน. เป็นสวิตช์ที่ใช้ควบคุมการติดตามว่าโมดูลเก็บโหลดเมื่อไหร่ และมีผลตอน debug เท่านั้น. สวิตช์จะทำงานเพียงครั้งเดียว หลังจากนั้นจะถูกรีเซ็ต</string>
+    <string name="maincomponent_devtool_lazy_track_result">lazy-component-track-result</string>
+    <string name="maincomponent_devtool_menu_rm_result">ลบไฟล์รายงาน</string>
+    <string name="maincomponent_devtool_not_debuggable">โมดูลโหลดโล่งสามารถใช้งานได้เฉพาะในเวอร์ชัน debug เท่านั้น</string>
+
+    <string name="maincomponent_devtool_generate_scheme_for_url">ต้องการสร้าง scheme ของหน้าเพจ: </string>
+    <string name="maincomponent_devtool_generate_scheme_transcoding">คุณต้องการทำการเข้ารหัสหรือไม่ </string>
+    <string name="maincomponent_devtool_generate_scheme_generate">สร้าง</string>
+    <string name="maincomponent_devtool_generate_scheme_generate_test_html">สร้างหน้าทดสอบ h5</string>
+
+    <string name="maincomponent_devtool_perform_category">สวิตช์การตรวจสอบประสิทธิภาพ</string>
+    <string name="maincomponent_devtool_perform_title">ต้องการเปิดติดตามประสิทธิภาพหรือไม่</string>
+    <string name="maincomponent_devtool_perform_summary">การติดตามประสิทธิภาพ รวมถึงการติดตามเวลาที่ใช้ในเส้นหลัก UI และการติดตามเวลาที่ใช้ในการเริ่มต้นคอมโพเนนต์ การสลับจะมีผลเฉพาะครั้งที่แอปพลิเคชันเริ่มต้นครั้งต่อไป หลังจากนั้นจะถูกรีเซ็ตเป็นสถานะปิด</string>
+
+    <string name="maincomponent_accessibility_bottom_navigation">"การนำทางด้านล่าง"</string>
+    <string name="maincomponent_accessibility_tag">"ป้าย"</string>
+    <string name="maincomponent_accessibility_unread_msg">"ข้อความที่ยังไม่ได้อ่าน"</string>
+    <string name="maincomponent_accessibility_unit">"รายการ"</string>
+    <string name="maincomponent_accessibility_among">"ถึง"</string>
+    <string name="maincomponent_accessibility_selected">"เลือกแล้ว"</string>
+    <string name="maincomponent_accessibility_wait_update">"มีการอัปเดต"</string>
+    <string name="maincomponent_accessibility_large_number">"มากกว่า 99"</string>
+
+    <string name="maincomponent_resign_confirm_title">คำเตือน</string>
+    <string name="maincomponent_resign_confirm_content">แอปที่คุณกำลังใช้อาจถูกแก้ไขโดยบุคคลที่สาม คำแนะนำให้ดาวน์โหลดไฟล์ติดตั้งจากเว็บไซต์อย่างเป็นทางการและติดตั้งใหม่</string>
+    <string name="maincomponent_resign_confirm_ignore">ดำเนินการต่อ</string>
+    <string name="maincomponent_resign_confirm_exit">ออกจากแอปพลิเคชัน</string>
+
+    <string name="maincomponent_please_contact_the_customer_service_for_processing">โปรดติดต่อฝ่ายบริการลูกค้าเพื่อดำเนินการ</string>
+
+    <string name="maincomponent_permission_dialog_title">การตั้งค่าสิทธิ</string>
+    <string name="maincomponent_permission_dialog_content">โปรดไปที่การตั้งค่า-&gt;แอปพลิเคชัน-&gt;%s เพื่อให้สิทธิ์ที่เกี่ยวข้อง มิฉะนั้นแอปพลิเคชันจะใช้งานไม่ได้</string>
+
+   
+	<string name="maincomponent_dynamictab_dialog_content">การกำหนด tab ผิดพลาด โปรดตรวจสอบ:\n 1. ในการตั้งค่าเริ่มต้น pages.json ให้แน่ใจว่า hidden ไม่เป็นจริง \n 2. hidden ในการกำหนด tab แบบไดนามิก ไม่เป็นจริง \n 3. items มีข้อมูล และกำหนดหน้าอย่างน้อยหน้าหนึ่ง ดูรายละเอียดในบันทึก</string>
+    <string name="maincomponent_maintenance_advance_notice">ประกาศยกเลิกการให้บริการ</string>
+    <string name="maincomponent_do_not_mention_again">ไม่ต้องแสดงอีก</string>
+	<string name="maincomponent_running_on_emulator">ตรวจพบแอปทำงานบนเครื่องจำลอง!</string>
+    <string name="maincomponent_running_on_root_device">ตรวจพบแอปทำงานบนอุปกรณ์ที่เจลเบรค!</string>
+	<string name="maincomponent_in_maintenance">กำลังหยุดระหว่างการให้บริการ</string>
+    <string name="maincomponent_flow_menu">เมนูป๊อปอัพ</string>
+	<string name="maincomponent_maintenance_tip">เวลาบำรุงรักษา：%s ~ %s</string>
+    <string name="maincomponent_maintenance_finish">การหยุดให้บริการได้สิ้นสุดลง โปรดเริ่มต้นใหม่แอปของคุณ</string>
+	
+    <!--appfactory相关的资源-->
+    <string name="appfactory_sure">ตกลง</string>
+    <string name="appfactory_apk_changed">ลายเซ็นต์แอปไม่สอดคล้องกัน</string>
+    <string name="appfactory_log_level_all">บันทึกถูกตั้งค่าเป็นระดับสูงสุดแล้ว</string>
+    <string name="appfactory_log_level_info">การกู้คืนบันทึก การตั้งค่าเริ่มต้น</string>
+    <string name="appfactory_409_title">พบเวอร์ชันที่เข้ากันได้</string>
+    <string name="appfactory_409_cancel">ออกแอปพลิเคชัน</string>
+    <string name="appfactory_409_ok">อัปเดตทันที</string>
+
+    <string name="appfactory_webview_retry">ลองอีกครั้ง</string>
+    <string name="appfactory_webview_more">เพิ่มเติม</string>
+    <string name="appfactory_webview_copy_url">คัดลอกลิงก์</string>
+    <string name="appfactory_webview_open_with_browser">เปิดในเบราว์เซอร์</string>
+    <string name="appfactory_webview_refresh">รีโหลด</string>
+	<string name="appfactory_webview_fontsize">ขนาดตัวอักษร</string>
+	<string name="appfactory_webview_screenshot">รูปถ่ายหน้าจอยาว</string>
+    <string name="appfactory_webview_webpage_not_available">ไม่สามารถเปิดหน้าเว็บ</string>
+    <string name="appfactory_webview_network_is_useless">เครือข่ายไม่เสถียร!</string>
+    <string name="appfactory_webview_load_page_fail">ข้อผิดพลาดในการโหลดหน้า</string>
+    <string name="appfactory_webview_return">กลับ</string>
+    <string name="appfactory_webview_copy_to_clipboard">คัดลอกไปที่คลิปบอร์ดแล้ว</string>
+    <string name="appfactory_webview_is_not_url">ไม่สามารถเปิด url นี้ด้วยเบราว์เซอร์</string>
+    <string name="appfactory_webview_ssl_error">ข้อผิดพลาดใบรับรองความปลอดภัย</string>
+    <string name="appfactory_webview_file_not_exist">ขอโทษ ไฟล์ที่เลือกไม่มีอยู่!</string>
+    <string name="appfactory_webview_not_support_file_type">ไม่สามารถเปิดไฟล์ประเภทนี้</string>
+    <string name="appfactory_webview_downloading">กำลังดาวน์โหลด...</string>
+    <string name="appfactory_webview_security_warning">คำเตือนเกี่ยวกับความปลอดภัย</string>
+    <string name="appfactory_webview_warning_content">มีปัญหาในใบรับรองความปลอดภัยของเว็บไซต์นี้</string>
+    <string name="appfactory_webview_continue">ดำเนินการต่อ</string>
+    <string name="appfactory_webview_ok">ตกลง</string>
+    <string name="appfactory_webview_view_certification">ดูใบรับรอง</string>
+    <string name="appfactory_webview_security_certificate">ใบรับรองความปลอดภัย</string>
+    <string name="certificate_issued_to">ออกให้กับ:</string>
+    <string name="certificate_common_name">ชื่อที่ใช้บ่อย:</string>
+    <string name="certificate_organization">องค์กร：</string>
+    <string name="certificate_organization_unit">หน่วยงาน：</string>
+    <string name="certificate_issued_by">ออกให้กับ:</string>
+    <string name="certificate_serial_number">หมายเลขซีเรียล：</string>
+    <string name="certificate_validity">ระยะเวลาที่ใช้ได้: </string>
+    <string name="certificate_issued_on">วันที่ออก: </string>
+    <string name="certificate_expires_on">วันสิ้นสุด:</string>
+    <string name="certificate_fingerprints">ลายนิ้วมือ:</string>
+    <string name="certificate_sha_256">ลายนิ้วมือ SHA-256:</string>
+    <string name="certificate_sha_1">ลายนิ้วมือ SHA-1:</string>
+    <string name="appfactory_webview_view_page_info">ดูข้อมูลของเว็บไซต์</string>
+    <string name="appfactory_webview_page_info">ข้อมูลหน้าเว็บ</string>
+    <string name="appfactory_webview_address">ที่อยู่เว็บไซต์: </string>
+    <string name="appfactory_activity_covered">"หน้าจอของคุณถูกซ้อนทับ โปรดตรวจสอบว่าสภาพแวดล้อมของแอปพลิเคชันปลอดภัยหรือไม่!"</string>
+    <string name="appfactory_webview_not_allow_full_screen">ไม่สามารถเล่นวิดีโอแบบเต็มหน้าจอในหน้าหลัก</string>
+    <string name="appfactory_oncreate_currentEnv_toast">ระบบเฉพาะ 64 บิต โปรดตรวจสอบไฟล์ .so ว่ารองรับ 64 บิตหรือไม่ และให้แน่ใจว่าแอปพลิเคชันสามารถทำงานได้ปกติ!</string>
+
+    <string name="android_template_boot_page_not_correct">การกำหนดค่าหน้าต่างที่ผิดพลาด โปรดตรวจสอบ</string>
+    <string name="android_template_confirm">ตกลง</string>
+
+    <string name="appfactory_unknown_error">ข้อผิดพลาดที่ไม่ทราบ</string>
+    <string name="appfactory_invalid_url">URL ไม่ถูกต้อง</string>
+    <string name="appfactory_component_not_found">ไม่มีคอมโพเนนต์</string>
+    <string name="appfactory_page_not_found">ไม่ได้กำหนดหน้า</string>
+    <string name="appfactory_invalid_param">พารามิเตอร์ไม่ถูกต้อง</string>
+    <string name="appfactory_empty_url">URL ว่างเปล่า</string>
+    <string name="appfactory_invalid_protocol">โปรโตคอล URL ไม่ถูกต้อง</string>
+
+    <string name="appfactory_light_update_service_notify">แจ้งเตือนอัพเกรด h5</string>
+
+    <!--webviewwrapper相关的资源-->
+    <string name="appfactory_webview_dialog_sure">ตกลง</string>
+    <string name="appfactory_webview_dialog_cancel">ยกเลิก</string>
+    <string name="appfactory_webview_dialog_tips">คำแนะนำจากเว็บ</string>
+	 
+    <!-- apf-stand-alone-update 相关的资源 -->
+    <string name="new_common_update_storage_not_enough">พื้นที่ดิสก์ไม่เพียงพอ ไม่สามารถอัพเดต</string>
+    <string name="new_common_update_check_update_error">เกิดข้อผิดพลาดในการตรวจสอบเวอร์ชัน</string>
+    <string name="new_common_update_check_update_error_latest_version">ปัจจุบันเป็นเวอร์ชันล่าสุดแล้ว</string>
+    <string name="new_common_update_check_update_error_request" tools:ignore="UnusedResources">คำขอผิดพลาด</string>
+    <string name="new_common_update_check_update_error_network">ข้อผิดพลาดของเครือข่าย การอัปเดตล้มเหลว</string>
+    <string name="new_common_update_check_update_error_json">ข้อผิดพลาดในการแปลง json</string>
+    <string name="new_common_update_check_update_error_others">ข้อผิดพลาดอื่น ๆ</string>
+    <string name="new_common_update_check_update_error_downloading">กำลังดาวน์โหลดแอปพลิเคชัน</string>
+    <string name="new_common_update_check_update_error_patching">กำลังผสานแพคเกจเพิ่มเติม</string>
+    <string name="new_common_update_download_patch_failed">การดาวน์โหลดแพ็กเกจเพิ่มเติมล้มเหลว โปรดกดปุ่มลองอีกครั้งเพื่อดาวน์โหลดแพ็กเกจทั้งหมด!</string>
+    <string name="new_common_update_download_apk_failed">การดาวน์โหลดแบบเต็มล้มเหลว โปรดคลิกที่ปุ่มลองอีกครั้ง!</string>
+    <string name="new_common_update_turn_on_download_manager">โปรดเปิดตัวจัดการการดาวน์โหลด</string>
+    <string name="new_common_update_file_error">ดาวน์โหลดไฟล์ผิดพลาด!</string>
+    <string name="new_common_update_apk_exist">มีไฟล์ apk อยู่แล้ว</string>
+    <string name="new_common_update_network_unavailable">ไม่สามารถใช้งานเครือข่าย!</string>
+    <string name="new_common_update_download_content_without_name">พบเวอร์ชันใหม่</string>
+    <string name="new_common_update_download_content">พบเวอร์ชันใหม่: %s</string>
+    <string name="new_common_update_SDCard_unavailable">SD การ์ดไม่สามารถใช้งาน การดาวน์โหลดแพคเกจอัพเกรดล้มเหลว!</string>
+    <string name="new_common_update_update_now">อัปเดตทันที</string>
+    <string name="new_common_update_retry">ลองใหม่</string>
+    <string name="new_common_update_pause">การอัปเดตถูกระงับ โปรดคลิกที่ปุ่มลองใหม่เพื่อดาวน์โหลดต่อ</string>
+    <string name="new_common_update_not_wifi_download_tip">ในปัจจุบันเป็นเครือข่ายที่ไม่ใช่ wifi การอัปเกรดซอฟต์แวร์อาจมีค่าใช้จ่ายของผู้ให้บริการโทรศัพท์\n</string>
+    <string name="new_common_update_not_wifi_download_tip_toast">การอัปเกรดจะใช้%1$sMB%2$s</string>
+    <string name="new_common_update_download_suceess">(ดาวน์โหลดเสร็จสิ้นแล้ว)</string>
+    <string name="new_common_update_exist_app">ออกจากโปรแกรม</string>
+    <string name="new_common_update_cancel">ยกเลิก</string>
+    <string name="new_common_update_detect_version_on_crash">กำลังพยายามตรวจสอบเวอร์ชันใหม่ 。。。 </string>
+    <string name="new_common_update_upgraded_tip">หากคุณได้อัพเดตเวอร์ชันแล้ว โปรดเลือกข้าม</string>
+    <string name="new_common_update_tip_on_cancel">เวอร์ชันที่ต้องการอัปเกรดต้องการการอัปเกรดที่บังคับ</string>
+    <string name="new_common_update_skip">ข้าม</string>
+    <string name="new_common_update_try_to_check_update">พยายามตรวจสอบการอัปเดต</string>
+    <string name="new_common_update_safe_mode_introduction">ตรวจพบว่าแอปพลิเคชั่นอาจมีปัญหาการปิดทันทีขณะเริ่มต้น โปรดเลือกวิธีการซ่อมตามความต้องการของคุณอย่างระมัดระวัง</string>
+
+    <string name="new_common_update_download_notify">การแจ้งเตือนการดาวน์โหลดไฟล์ติดตั้ง</string>
+    <string name="new_common_update_network_change">สภาพแวดล้อมเครือข่ายเปลี่ยนแปลง หากการดาวน์โหลดถูกหยุด โปรดลองตรวจสอบการอัปเกรดใหม่อีกครั้ง</string>
+    <string name="new_common_update_downloading">กำลังอัปเกรด โปรดอย่าออกจากแอปพลิเคชัน</string>
+    <string name="new_common_update_archive_patch_notify">รวมแพคขยาย</string>
+    <string name="new_common_update_merge_patch_failed">การผสมแพคเกจเพิ่มล้มเหลว โปรดคลิกปุ่มลองอีกครั้งเพื่อดาวน์โหลดแพคเกจทั้งหมด!</string>
+    <string name="new_common_update_exit_app_toast">กดปุ่มกลับอีกครั้งเพื่อออกจากแอปพลิเคชัน</string>
+    <string name="new_common_update_disagree_uc_permission">ยังไม่ได้รับความยินยอมจากผู้ใช้ในเรื่องนโยบายความเป็นส่วนตัว ไม่สามารถให้บริการการอัปเกรดแอปได้!</string>
+    <string name="new_common_update_clear_data">ลบข้อมูล</string>
+    <string name="new_common_update_clear_data_dialog_title">คุณต้องการลบข้อมูลแอปหรือไม่?</string>
+    <string name="new_common_update_clear_data_dialog_message">หลังจากลบข้อมูลแอปแล้วจะไม่สามารถกู้คืนได้ รวมถึงไฟล์ทั้งหมด การตั้งค่า บัญชี ฐานข้อมูล ฯลฯ</string>
+    <string name="new_common_update_clear_data_dialog_delete_button">ลบ</string>
+    <string name="new_common_update_clear_data_toast">รีสตาร์ทแอปพลิเคชัน โปรดรอสักครู่...</string>
+
+	
+	<!-- apf-assemble 相关的资源 -->
+	<string name="apfassemble_permission_dialog_title">การตั้งค่าสิทธิ์</string>
+    <string name="apfassemble_permission_dialog_content">โปรดไปที่การตั้งค่า-&gt;แอปพลิเคชัน-&gt;%1$s เพื่อทำการให้ %2$s มีสิทธิ์ มิฉะนั้นแอปพลิเคชันจะใช้งานไม่ได้</string>
+    <string name="apfassemble_confirm">ตกลง</string>
+    <string name="apfassemble_storage_permissiom">สิทธิ์การจัดเก็บ</string>
+	
+	<!--mafgradle 相关的资源 -->
+	<string name="smartcanframe_commondown_service_notify">การแจ้งเตือนการดาวน์โหลดทั่วไป</string>
+	<!--h5-implement 相关的资源 -->
+	<string name="h5_implement_redirecting">กำลังเปลี่ยนเส้นทาง...</string>
+	<string name="h5_implement_redirect_fail">การกระโดดล้มเหลว</string>
+	<string name="h5_implement_ssl_error_url">ที่อยู่เว็บไซต์เดิม:</string>
+    <string name="h5_implement_ssl_error_title">รายละเอียดข้อผิดพลาด SSL:</string>
+	<string name="h5_implement_permission_dialog_title">การตั้งค่าสิทธิ์</string>
+    <string name="h5_implement_permission_dialog_content">โปรดไปที่ การตั้งค่า-&gt;โปรแกรมแอป-&gt;%1$s เพื่อทำการให้สิทธิ์ %2$s มิฉะนั้นแอปจะใช้งานไม่ได้</string>
+    <string name="h5_implement_confirm">ตกลง</string>
+    <string name="h5_implement_storage_permission">สิทธิการเก็บข้อมูล</string>
+	<string name="smartcanframe_network_service_busy">เซิร์ฟเวอร์ยุติธรรมโปรดลองอีกครั้ง</string>
+	<string name="h5_implement_auth_title">ต้องการการยืนยันตัวตน</string>
+    <string name="h5_implement_request_auth">%1$s ต้องเข้าสู่ระบบก่อนที่จะใช้งาน โปรดใส่ชื่อผู้ใช้และรหัสผ่านการรับรองของเว็บไซต์\n โปรดทราบและตรวจสอบข้อมูลของเว็บไซต์อย่างเฉพาะ ๆ  โปรดอย่าป้อนชื่อผู้ใช้และรหัสผ่านของแอปพลิเคชันนี้โดยตรงเพื่อป้องกันการรั่วไหลของข้อมูลบัญชี!</string>
+    <string name="h5_implement_username">ชื่อผู้ใช้</string>
+    <string name="h5_implement_password">รหัสผ่าน</string>
+	<string name="h5_implement_font_standard">มาตรฐาน</string>
+	<string name="h5_implement_font_tip1">เปลี่ยนขนาดตัวอักษรของเว็บหลังตั้งค่านี้ จะมีผลในการเรียกดูครั้งนี้เท่านั้น</string>
+    <string name="h5_implement_font_tip2">การปรับแต่งขนาดตัวอักษรอาจทำให้การจัดรูปแบบบางหน้าเว็บผิดพลาด</string>
+	<string name="webcomponent_feature_ssl_certificate_expire">เวลาของระบบไม่ถูกต้อง กรุณาตรวจสอบและอัปเดตเวลาระบบ</string>
+	<string name="h5_implement_screen_shot_error">เนื้อหายาวเกินไป การสร้างล้มเหลว</string>
+    <string name="h5_implement_screen_shot_ing">กำลังถ่ายภาพหน้าจอ...</string>
+    <string name="h5_implement_screen_shot_cancel">ยกเลิก</string>
+    <string name="h5_implement_screen_shot_error2">การจับภาพหน้าจอล้มเหลว</string>
+    <string name="h5_implement_screen_shot_save_fail">บันทึกรูปภาพล้มเหลว</string>
+    <string name="h5_implement_screen_shot_save_succe">บันทึกไปยังอัลบั้มรูปของระบบแล้ว</string>
+	<string name="webcomponent_feature_download_manager">การดาวน์โหลด</string>
+	<string name="webcomponent_feature_provide_by">โดย %1$s ให้บริการ</string>
+	
+	<!--Webview 页面内查找的资源 begin -->
+    <string name="webcomponent_feature_findindpage_input">ค้นหาในหน้า</string>
+    <string name="webcomponent_feature_findindpage_result">%1$d/%2$d</string>
+    <string name="webcomponent_feature_findindpage_accessibility_result" tools:ignore="PluralsCandidate">รายการที่ %1$d จากทั้งหมด %2$d รายการ</string>
+    <string name="webcomponent_feature_findindpage_next_result">ค้นหาผลลัพธ์ถัดไป</string>
+    <string name="webcomponent_feature_findindpage_previous_result">ค้นหาผลลัพธ์ก่อนหน้า</string>
+    <string name="webcomponent_feature_findindpage_dismiss">ปิดการค้นหาภายในหน้า</string>
+	<string name="webcomponent_feature_add_float">เข้าร่วมลูกบึง</string>
+    <string name="webcomponent_feature_remove_float">นำออกจากหน้าต่างลอย</string>
+	<!--Webview 页面内查找的资源 end -->
+	
+	<!-- 下载管理器 begin -->
+	<string name="ext_downloadmanager_download_tip">คำแนะนำการดาวน์โหลด</string>
+    <string name="ext_downloadmanager_ok">ตกลง</string>
+    <string name="ext_downloadmanager_cancle">ยกเลิก</string>
+    <string name="ext_downloadmanager_check_question">คุณต้องการดาวน์โหลด %1$s หรือไม่?</string>
+    <string name="ext_downloadmanager_task_type_private">ไม่เปิดเผย</string>
+    <string name="ext_downloadmanager_task_type_web">เบราว์เซอร์</string>
+    <string name="ext_downloadmanager_task_type_other">อื่น ๆ</string>
+    <string name="ext_downloadmanager_activity_title">การดาวน์โหลดจัดการ</string>
+    <string name="ext_downloadmanager_empty_task">ไม่มีไฟล์ที่ดาวน์โหลด</string>
+    <string name="ext_downloadmanager_file_no_found">ไม่พบไฟล์!</string>
+    <string name="ext_downloadmanager_not_support_file_type">ไม่สามารถเปิดไฟล์ประเภทนี้ได้!</string>
+    <string name="ext_downloadmanager_has_delete">ลบ %1$s แล้ว!</string>
+    <string name="ext_downloadmanager_fail">การดาวน์โหลดล้มเหลว!</string>
+    <string name="ext_downloadmanager_del_download">ลบการดาวน์โหลด</string>
+    <string name="ext_downloadmanager_open_file">เปิดไฟล์</string>
+    <string name="ext_downloadmanager_pause_download">หยุดการดาวน์โหลดชั่วคราว</string>
+    <string name="ext_downloadmanager_goon_download">ดำเนินการดาวน์โหลดต่อ</string>
+    <string name="ext_downloadmanager_not_finish_download">การดาวน์โหลดไม่สมบูรณ์!</string>
+    <string name="ext_downloadmanager_is_pausing">ระงับชั่วคราว</string>
+    <string name="ext_downloadmanager_is_downloading">กำลังดาวน์โหลด</string>
+    <string name="ext_downloadmanager_is_finished">ดาวน์โหลดเสร็จสิ้นแล้ว!</string>
+	<!-- 下载管理器 end -->
+</resources>

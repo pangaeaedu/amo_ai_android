@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="audio_recorder_cancel">取消</string>
+    <string name="audio_recorder_confirm">确认</string>
+
+    <string name="audio_recorder_abandon">确定放弃这条语音吗？</string>
+    <string name="audio_recorder_too_short">录制时间太短</string>
+    <string name="audio_recorder_permission_denied">录音权限被禁止！</string>
+    <string name="audio_recorder_dountdown">您还能录制%d秒</string>
+    <string name="audio_recorder_re_record">重录</string>
+    <string name="audio_recorder_re_hear">试听</string>
+
+    <string name="audio_recorder_hear">点击试听</string>
+    <string name="audio_recorder_slide_up_cancel">上滑取消</string>
+    <string name="audio_recorder_release_cancel">松手取消</string>
+    <string name="audio_play_audio_err">对不起，音频异常无法正常播放~</string>
+    <string name="audio_net_warn_no_network">网络连接不可用</string>
+    <string name="audio_net_url_is_null">音频网络下载地址为空</string>
+    <string name="audio_play_init_time">00:00</string>
+
+    <string name="audio_recorder_speak">按住录音</string>
+    <string name="audio_recorder_speak_click">点击录音</string>
+    <string name="audio_recorder_speak_pause_click">录音暂停，点击继续录音</string>
+    <string name="audio_recorder_speak_pause">录音暂停，按住继续录音</string>
+    <string name="audio_play_load_fail">载入失败，请点击按钮重新载入</string>
+
+    <string name="audio_access_begin_play">开始播放，按钮</string>
+    <string name="audio_access_stop_play">暂停播放，按钮</string>
+    <string name="audio_access_redownload_play">重新下载播放，按钮</string>
+    <string name="audio_access_re_record">重新录音</string>
+    <string name="audio_access_confirm_record">确认录音</string>
+    <string name="audio_access_try_to_listen_record">试听录音按钮，双击可激活，再次双击可停止试听</string>
+    <string name="audio_access_long_click_to_record">按住录音</string>
+    <string name="audio_access_stop_to_listen_record">停止试听，按钮</string>
+    <string name="audio_access_pause_to_record">暂停录音，按钮</string>
+    <string name="audio_access_long_time_record">该录音时长%1$d秒</string>
+    <string name="audio_access_stop_record_tip">录音结束</string>
+    <string name="audio_access_cancel_record_tip">取消录音</string>
+    <string name="audio_access_close_view_tip">录音界面已关闭</string>
+
+    <string name="audio_module_name">录音</string>
+    <string name="audio_start_record">开启录音</string>
+    <string name="audio_pause_record">停止录音</string>
+    <string name="audio_mic_enable">麦克风已被占用，请稍后再试</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="webview_wrapper_save_to_device">保存到设备</string>
+    <string name="webview_wrapper_save_to_device_toast">图片保存至:</string>
+    <string name="webview_wrapper_save_image">保存图片</string>
+    <string name="webview_wrapper_save_image_permission_disable">存储权限已被产品禁用</string>
+    <string name="webview_wrapper_save_image_to_system">已保存到系统相册</string>
+    <string name="webview_wrapper_tabbar_error">轻应用页面只能配置在一级页面时，才能调用 tabBar 显示隐藏方法</string>
+    <string name="webview_wrapper_permission_disable">位置权限已被产品禁用</string>
+    <string name="webview_wrapper_no_gps_permission">请检查GPS是否已开启</string>
+</resources>

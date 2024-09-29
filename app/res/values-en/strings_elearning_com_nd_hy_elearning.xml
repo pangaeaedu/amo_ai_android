@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_mf_elearning_header_all_study">All Courses</string>
+    <string name="ele_mf_elearning_all_study_recommend">Featured</string>
+    <string name="ele_mf_elearning_all_study_open_class">Public Courses</string>
+    <string name="ele_mf_elearning_all_study_train">Training Certification</string>
+    <string name="ele_mf_elearning_all_study_planning">Career Planning</string>
+</resources>

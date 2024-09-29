@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emotion_view_group_image_padding">8dp</dimen>
+    <dimen name="emotion_view_column_driver_width">1px</dimen>
+
+    <dimen name="emotion_view_delete_icon_height">22dp</dimen>
+</resources>

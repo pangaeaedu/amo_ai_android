@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="el_content_lib_player_not_support_text">The resource does not support play at this time.</string>
+
+    <string name="el_content_lib_player_resource_uploader">Uploaded by:</string>
+
+    <string name="el_content_lib_player_upload_time">Upload Time:</string>
+
+    <string name="el_content_lib_player_intro">Introduction: </string>
+
+    <string name="el_content_lib_player_res_type">File type:</string>
+
+    <string name="el_content_lib_player_lan">Please select a language distribution:</string>
+    <string name="el_content_lib_player_format">File Format: </string>
+    <string name="el_content_lib_player_copyright">Copyright party: </string>
+    <string name="el_content_lib_player_size">File size:</string>
+    <string name="el_content_lib_player_lan_en">English</string>
+    <string name="el_content_lib_player_lan_zh_cn">Chinese</string>
+
+    <string name="el_content_lib_player_non_wifi_play_tip">You are not using Wi-Fi network, continue to play \n?</string>
+
+    <string name="el_content_lib_player_net_error_tips">Network connection error. Please try again.</string>
+    <string name="el_content_lib_player_data_error_tips">Parse error. Please try again.</string>
+
+    <string name="el_content_lib_player_cancel">Cancel</string>
+    <string name="el_content_lib_player_confirm">Confirm</string>
+    <string name="el_content_lib_player_coursewares">coursewares</string>
+    <string name="el_content_lib_player_document">Document</string>
+    <string name="el_content_lib_player_vr">VR</string>
+    <string name="el_content_lib_player_paints">World-famous Paintings</string>
+    <string name="el_content_lib_player_pic">Image</string>
+    <string name="el_content_lib_player_video">Video</string>
+    <string name="el_content_lib_player_audio">Audio</string>
+    <string name="el_content_lib_player_coursewareobjects">coursewareobjects</string>
+    <string name="el_content_lib_player_downloaded">Downloaded</string>
+    <string name="el_content_lib_player_download">Download</string>
+    <string name="el_content_lib_player_network_err_pls_check_net">Network error, please check you network!</string>
+    <string name="el_content_lib_player_open_err">Failed to open</string>
+
+    <string name="el_content_lib_player_no_find_associated_program">Can not find out the related programs</string>
+    <string name="el_content_lib_player__wifi_cue">You are not using Wi-Fi network, continue to download \n?</string>
+    <string name="el_content_lib_player_downing">Downloading</string>
+    <string name="el_content_lib_player_down_err">Failed to download, please try again later.</string>
+    <string name="el_content_lib_player_network_error_tip">Please check your network configuration</string>
+    <string name="el_content_lib_player_pause">Continue</string>
+    <string name="el_content_lib_player_down_sucess">Succeeded</string>
+
+    <string name="el_content_lib_loading">Loading...</string>
+
+    <string name="el_content_zhibo_review">Live program is under review. Please wait.</string>
+    <string name="el_content_intro">Introduction</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="common_popup_simple_dialog_ok">确定</string>
+    <string name="common_popup_simple_dialog_cancel">取消</string>
+
+    <string name="common_popup_talkback_head_image">图片</string>
+    <string name="common_popup_talkback_close_dialog">关闭弹框</string>
+    <string name="common_popup_talkback_close_sneck_bar">关闭弹框</string>
+    <string name="common_popup_talkback_close">关闭</string>
+    <string name="common_popup_talkback_enter">进入</string>
+</resources>

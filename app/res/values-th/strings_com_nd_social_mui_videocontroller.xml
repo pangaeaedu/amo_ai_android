@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="recorder_click_to_record">แตะเพื่อถ่ายภาพ</string>
+    <string name="recorder_click_to_stop">แตะเพื่อหยุด</string>
+    <string name="recorder_click_to_play">แตะเพื่อเล่น</string>
+    <string name="recorder_cancel">ยกเลิก</string>
+    <string name="recorder_redo">ถ่ายใหม่</string>
+    <string name="recorder_ok">ยืนยัน</string>
+    <string name="recorder_picture">รูปถ่าย</string>
+    <string name="recorder_video">วิดีโอ</string>
+    <string name="recorder_camera_preview_err">ขออภัย การเริ่มต้นการแสดงภาพจากกล้องล้มเหลว~</string>
+    <string name="recorder_confirm_give_up_video">คุณแน่ใจหรือว่าต้องการยกเลิกวิดีโอนี้?</string>
+    <string name="recorder_min_time_limit">ขออภัย ระยะเวลาการถ่ายภาพต้องไม่น้อยกว่า %ds</string>
+    <string name="recorder_camera_switch_fail">ขออภัย การสลับกล้องถ่ายภาพล้มเหลว~</string>
+    <string name="recorder_create_video_thumb_error">ขออภัย การสร้างรูปภาพขนาดย่อล้มเหลว~</string>
+    <string name="recorder_other_app_used_camera">ไม่สามารถเปิดกล้อง โปรดตรวจสอบการให้สิทธิ์การใช้กล้องและการอัดเสียง หรือตรวจสอบว่ากล้องถ่ายภาพถูกใช้งานโดยแอปพลิเคชันอื่นอยู่หรือไม่</string>
+    <string name="recorder_camera_unable">ขออภัย ไม่มีกล้องถ่ายภาพที่สามารถใช้งานได้</string>
+
+    <string name="recorder_access_cancel_to_record">ยกเลิกการถ่ายภาพวิดีโอ</string>
+    <string name="recorder_access_switch_to_front">กล้องถ่ายภาพด้านหลังใช้งานอยู่ แตะสองครั้งเพื่อสลับเป็นกล้องถ่ายภาพด้านหน้า</string>
+    <string name="recorder_access_switch_to_back">กล้องถ่ายภาพด้านหน้าใช้งานอยู่ แตะสองครั้งเพื่อสลับเป็นกล้องถ่ายภาพด้านหลัง</string>
+    <string name="recorder_access_begin_to_record">เริ่มถ่ายภาพวิดีโอ</string>
+    <string name="recorder_access_begin_to_play_record">หยุดการบันทึกวิดีโอเรียบร้อย คลิกเพื่อเล่นวิดีโอที่บันทึกไว้</string>
+    <string name="recorder_access_stop_to_record">หยุดการถ่ายภาพวิดีโอ</string>
+    <string name="recorder_access_flash_auto">ไฟแฟลชปัจจุบันเปิดอยู่ แตะสองครั้งเพื่อเปลี่ยนเป็นโหมดอัตโนมัติ</string>
+    <string name="recorder_access_flash_close">ไฟแฟลชปัจจุบันเป็นโหมดอัตโนมัติ แตะสองครั้งเพื่อปิดไฟแฟลช</string>
+    <string name="recorder_access_flash_open">ไฟแฟลชปัจจุบันถูกปิดอยู่ แตะสองครั้งเพื่อเปิดไฟแฟลช</string>
+    <string name="recorder_access_long_time_of_record">วิดีโอถูกบันทึก %1$d วินาที</string>
+    <string name="recorder_access_record_activity">เข้าสู่หน้าจอการถ่ายภาพวิดีโอแล้ว</string>
+    <string name="recorder_access_redo">ถ่ายภาพใหม่</string>
+    <string name="recorder_read_thumb_fail">การอ่านรูปภาพขนาดย่อล้มเหลว</string>
+    <string name="recorder_share_microphone">มีแอปพลิเคชันอื่นที่กำลังอัดเสียง การอัดเสียงอาจมีปัญหา</string>
+
+    <string name="recorder_max_duration_tip">คลิกเพื่อถ่ายวิดีโอ สูงสุด %1$s</string>
+    <string name="recorder_unit_min">นาที</string>
+    <string name="recorder_unit_second">วินาที</string>
+</resources>

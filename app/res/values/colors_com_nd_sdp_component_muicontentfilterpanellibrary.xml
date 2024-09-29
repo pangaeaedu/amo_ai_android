@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 内容过滤 -->
+    <!-- 排序筛选，重置、确定按钮的正常态, 全透明 -->
+    <color name="com_nd_sort_filter_btn_normal">#00000000</color>
+    <!-- 排序筛选，重置、确定按钮的点击态， 叠加15%的透明度 -->
+    <color name="com_nd_sort_filter_btn_pressed">#26000000</color>
+    <!-- 排序筛选，弹窗的空白区域背景遮罩， 叠加50%的透明度 -->
+    <color name="com_nd_sort_filter_popmenu_bg">#80000000</color>
+
+    <!-- 排序筛选按钮的字体颜色, 正常态，黑色 -->
+    <color name="com_nd_sort_filter_common_text_normal">#666666</color>
+    <!-- 排序筛选按钮的字体颜色, 选中态，蓝色 -->
+    <color name="com_nd_sort_filter_common_text_selected">#0090ff</color>
+    <!-- 筛选面板的子单元的副标题的颜色，灰色 -->
+    <color name="com_nd_sort_filter_common_sub_title_text">#999999</color>
+    <!-- 下拉列表背景 20%透明度 -->
+    <color name="com_nd_sort_filter_tree_list_bg">#33000000</color>
+	
+	
+	<!-- nd-button -->
+	<!-- 圆角复选按钮,未选中的字体颜色，黑色 -->
+    <color name="com_nd_btn_check_1_oval_text_unchecked">#333333</color>
+    <!-- 圆角复选按钮,选中的字体颜色，蓝色 -->
+    <color name="com_nd_btn_check_1_oval_text_checked">@color/general_button_text_color_blue</color>
+    <!-- 圆角复选按钮,禁用中的字体颜色，灰色 -->
+    <color name="com_nd_btn_check_1_oval_text_disabled">#999999</color>
+    <!-- 圆角复选按钮,按下背景颜色，灰色 -->
+    <color name="com_nd_btn_check_1_oval_bg_press">#00000000</color>
+    <color name="com_nd_btn_check_1_oval_bg_press_2">#00000000</color>
+
+    <!-- 重置、确定按钮的正常态, 全透明 -->
+    <color name="com_nd_btn_ok_cancel_normal">#00000000</color>
+    <!-- 重置、确定按钮的点击态， 叠加15%的透明度 -->
+    <color name="com_nd_btn_ok_cancel_pressed">#26000000</color>
+    <!-- 弹窗的空白区域背景遮罩， 叠加50%的透明度 -->
+    <color name="com_nd_btn_ok_cancel_popmenu_bg">#80000000</color>
+
+    <!-- 步骤条：已完成状态 -->
+    <color name="com_nd_step_bar_done">#9bd6ff</color>
+
+    <color name="com_nd_seekbar_round_bg">#FF0059FF</color>
+
+    <!-- 徽标圆点，正常状态的，文字颜色，白色 -->
+    <color name="com_nd_badge_text_color">#ffffff</color>
+    <!-- 徽标圆点，正常状态的，背景颜色，红色 -->
+    <color name="com_nd_badge_bg_color_normal">#f43531</color>
+    <!-- 徽标圆点，勿打扰状态，的背景颜色，灰色 -->
+    <color name="com_nd_badge_bg_color_not_disturb">#cccccc</color>
+    <!-- 全透明 -->
+    <color name="com_nd_btn_transparent">#00000000</color>
+
+    <!--吐司文字颜色-->
+    <color name="com_nd_toast_text_color">#ffffff</color>
+    <color name="com_nd_toast_bg_color">#B3000000</color>
+
+    <!--滚轮选中颜色-->
+    <color name="com_nd_wheel_text_select_color">@color/color1</color>
+    <!--标签颜色-->
+    <color name="com_nd_wheel_lable_color">@color/color1</color>
+    <!--时间滚轮未选中的颜色-->
+    <color name="com_nd_wheel_text_normal_color">@color/color2</color>
+    <!--分割线颜色-->
+    <color name="com_nd_wheel_line_color">@color/color5</color>
+    <!--禁用颜色-->
+    <color name="com_nd_wheel_enable_color">@color/color5</color>
+    <color name="com_nd_wheel_trance">#00000000</color>
+
+</resources>

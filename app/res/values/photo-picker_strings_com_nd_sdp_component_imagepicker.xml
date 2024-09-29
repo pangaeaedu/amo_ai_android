@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="picker_done">Send</string>
+    <string name="picker_preview">Preview</string>
+    <string name="picker_done_with_count">%1$s(%2$d/%3$d)</string>
+    <string name="picker_image_index">%1$d/%2$d</string>
+    <string name="picker_yes">OK</string>
+    <string name="picker_video_image">Videos and Images</string>
+    <string name="picker_all_image">Images</string>
+    <string name="picker_all_video">Videos</string>
+    <string name="picker_over_max_count_tips">You can select %1$d file(s) at most.</string>
+    <string name="picker_video_over_max_count_tips">You can select %1$d video(s) at most.</string>
+    <string name="picker_picture_over_max_count_tips">You can select %1$d image(s) at most.</string>
+    <string name="picker_multi_over_max_count_tips">Maximum %1$d images and %2$d videos</string>
+	<string name="picker_video_length_error">Failed to retrieve video duration, please select again</string>
+    <string name="picker_file_too_big">The file is too large.</string>
+    <string name="picker_file_not_exist">The file does not exist.</string>
+    <string name="picker_image_count">%1$d</string>
+    <string name="picker_original_picture">Full Image</string>
+    <string name="picker_error_compress">Compression error</string>
+    <string name="picker_cache_path_error">File path error</string>
+    <string name="picker_error_io">File read error</string>
+
+    <string name="picker_finish_text">Done</string>
+    <string name="picker_getimage_failed">Failed to get image, please try again.</string>
+    <string name="picker_storage_disable">Storage permissions have been disabled by the product.</string>
+    <string name="picker_no_camera_disable">Camera permission has been disabled by the product.</string>
+    <string name="picker_no_camera_permission">No camera permission, you can enable it in App Settings.</string>
+    <string name="picker_sort_image">Sorting</string>
+    <string name="picker_long_click_to_sort">Long press to drag and adjust the order.</string>
+    <string name="picker_video_size">Size: %s</string>
+    <string name="picker_remove">Remove</string>
+    <string name="picker_video">Video</string>
+    <string name="picker_empty"/>
+    <string name="picker_back">Back</string>
+    <string name="picker_directory_cover">Album Cover</string>
+    <string name="picker_video_too_long_exception">The selected video is too long (less than %sS)</string>
+
+    <string name="picker_click_diff_file_image">The operation failed. The image is not in the current album.</string>
+
+    <!--历史遗留，勿删-->
+    <string name="picker_images">Image</string>
+    <string name="picker_delete">Delete</string>
+    <string name="picker_yes_with_count">Yes(%1$d/%2$d)</string>
+    <string name="picker_undo">Undo</string>
+    <string name="picker_deleted_a_photo">Deleted a photo</string>
+    <string name="picker_confirm_to_delete">Confirm to delete?</string>
+    <string name="picker_cancel">Cancel</string>
+    <string name="picker_out_of_memory_error">Failed to load. Insufficient memory.</string>
+    <string name="picker_choose">Select</string>
+    <string name="picker_saving_image">Saving photo...</string>
+    <string name="picker_preparing_card">Preparing storage card...</string>
+    <string name="picker_no_storage_card">You need to insert an SD card.</string>
+    <string name="picker_not_enough_space">Your SD card is full.</string>
+    <string name="picker_cancel_text">Cancel</string>
+    <string name="picker_please_wait">Please wait...</string>
+    <string name="picker_crop">Crop</string>
+    <string name="picker_no_camera_app">No Camera Application</string>
+    <string name="picker_content_description_picture">Image</string>
+</resources>

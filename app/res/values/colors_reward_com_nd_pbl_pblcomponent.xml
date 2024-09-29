@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--重复奖励背景颜色-->
+    <color name="starapp_life_duplicate_reward_bgn_color">@color/starapp_common_color_7</color>
+    <!--重复奖励标题文字颜色-->
+    <color name="starapp_life_duplicate_reward_title_color">@color/starapp_common_color_1</color>
+    <!--重复奖励内容文字颜色-->
+    <color name="starapp_life_duplicate_reward_content_color">@color/starapp_common_color_1</color>
+    <!--重复奖励按钮文字颜色-->
+    <color name="starapp_life_duplicate_reward_btn_text">@color/starapp_common_color_3</color>
+    <!--重复奖励按钮文字颜色-->
+    <color name="starapp_life_duplicate_reward_btn_bgn_clicked">#27000000</color>
+    <!--普通类型奖励背景颜色-->
+    <color name="starapp_life_common_reward_bgn_color">@color/starapp_common_color_7</color>
+    <!--普通类型奖励标题文字颜色-->
+    <color name="starapp_life_common_reward_title_color">@color/starapp_common_color_1</color>
+    <!--普通类型奖励item文字颜色-->
+    <color name="starapp_life_common_reward_item_color">@color/starapp_common_color_1</color>
+    <!--特殊类型奖励标题文字颜色-->
+    <color name="starapp_life_special_reward_title_color">@color/starapp_common_color_7</color>
+    <!--特殊类型奖励item文字颜色-->
+    <color name="starapp_life_special_reward_item_color">@color/starapp_common_color_2</color>
+    <!--特殊类型奖励item文字颜色-->
+    <color name="starapp_life_70_trans">#b2000000</color>
+</resources>

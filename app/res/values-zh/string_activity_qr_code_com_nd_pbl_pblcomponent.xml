@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--我的二维码-->
+
+    <!--重置二维码按钮-->
+    <string name="starapp_life_qr_code_reset_button1">重置二维码</string>
+    <string name="starapp_life_qr_code_reset_button2">重置</string>
+    <!--重置二维码对话框标题-->
+    <string name="starapp_life_qr_code_reset_dialog_title">是否重置二维码</string>
+    <!--重置二维码对话框内容-->
+    <string name="starapp_life_qr_code_reset_dialog_content">重置后你将会获得新的二维码，在此之前的二维码均会失效。</string>
+    <!--重置二维码loading-->
+    <string name="starapp_life_qr_code_loading_dialog_in_progress">处理中&#8230;</string>
+    <!--重置二维码error tip-->
+    <string name="starapp_life_qr_code_reset__error_tip">重置二维码失败，请重试</string>
+    <!--重置二维码转发-->
+    <string name="starapp_life_qr_code_forward">转发</string>
+    <!--重置二维码保存-->
+    <string name="starapp_life_qr_code_download">保存</string>
+
+</resources>

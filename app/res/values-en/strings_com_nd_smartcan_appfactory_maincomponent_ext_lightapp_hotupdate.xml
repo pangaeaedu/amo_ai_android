@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="light_update_service_notify">Updating application components</string>
+    <string name="lite_load_error">Failed to download</string>
+    <string name="lite_load_error_not_exist">Light application does not exist</string>
+</resources>

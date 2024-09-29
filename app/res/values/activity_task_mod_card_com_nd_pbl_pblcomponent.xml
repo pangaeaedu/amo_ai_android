@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--此文件为任务列表,奖励列表头部卡片配置-->
+    <!--标题背景图:res\drawable-xhdpi\starapp_life_title_view_background_reward_title.png-->
+    <!--卡片背景图:res\drawable-xhdpi\starapp_life_mine_top_bg_99ublue_reward.png-->
+    <!--1.vip图:res\drawable-xhdpi\starapp_life_mine_top_pic_vipl_white_bg.png-->
+    <!--1.等级图:res\drawable-xhdpi\starapp_life_mine_top_pic_level_white_bg.png-->
+    <!--1.经验值图:res\drawable-xhdpi\starapp_life_mine_top_pic_experience_white_bg.png-->
+    <!--2.进度光圈-发光点:res\drawable-xhdpi\starapp_life_mine_task_icon_luminous_point.png-->
+    <!--3.进度图-背景:res\drawable-xhdpi\starapp_life_mine_top_pic_incomplete.png-->
+    <!--3.进度图-表层:res\drawable-xhdpi\starapp_life_mine_top_pic_schedule.png-->
+    <!--分割线颜色(横60%白)-->
+    <color name="starapp_life_task_card_fragment_line_horizontal">#99ffffff</color>
+    <!--分割线颜色(竖80%白)-->
+    <color name="starapp_life_task_card_fragment_line_vertical">#ccffffff</color>
+</resources>

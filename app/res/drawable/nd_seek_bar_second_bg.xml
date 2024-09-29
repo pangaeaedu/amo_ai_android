@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/nd_camera_video_color5" />
+    <corners android:topLeftRadius="@dimen/nd_camera_video_seek_bar_radius"
+        android:topRightRadius="@dimen/nd_camera_video_seek_bar_radius"
+        android:bottomRightRadius="@dimen/nd_camera_video_seek_bar_radius"
+        android:bottomLeftRadius="@dimen/nd_camera_video_seek_bar_radius"/>
+</shape>

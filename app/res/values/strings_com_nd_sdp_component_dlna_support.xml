@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="dlan_projection_screen">Screen casting</string>
+    <string name="dlan_projection_screen_help">Screen casting usage help</string>
+    <string name="dlan_choose_device_to_project">Select the device to cast to</string>
+    <string name="dlan_searching_device">Searching for devices...</string>
+    <string name="dlan_cannot_find_device_to_project_please_check">Can\'t find the device you want to cast to? Please check</string>
+    <string name="dlan_device_is_connected_to_the_same_network_as_the_phone">Are the device and phone connected to the same network?</string>
+    <string name="dlan_whether_the_device_supports_screen_projection">Does the device support screen casting?</string>
+    <string name="dlan_view_solutions">View solution</string>
+    <string name="dlan_no_wifi">Not connected to Wi-Fi, please check the network settings</string>
+    <string name="dlan_current_is_mobile_data">Currently using mobile data network</string>
+    <string name="dlan_device_and_mobile_should_on_same_network">The device and phone need to be connected to the same network for successful screen casting</string>
+    <string name="dlan_tv_need_projection">TV to cast to</string>
+    <string name="dlan_matching_device_was_found">No matching devices found.</string>
+    <string name="dlan_refresh">refresh</string>
+    <string name="dlan_current_wifi">Current wifi %1$s</string>
+    <string name="dlan_change_device">Change device &gt;</string>
+    <string name="dlan_error_title">Screen casting</string>
+    <string name="dlan_projection_is_linking">Device connecting...</string>
+    <string name="dlan_connect_failed">Connection failed,</string>
+    <string name="dlan_connect_failed_finish">Playback ended,</string>
+    <string name="dlan_connect_failed_wifi">Not connected to WiFi,</string>
+    <string name="dlan_connect_failed_net">The device and phone need to be connected to the same network for successful screen casting</string>
+    <string name="dlan_wifi_setting">Network unavailable, please check your network setting</string>
+    <string name="dlan_retry">Retry</string>
+    <string name="dlan_retry_2">Reconnect</string>
+    <string name="dlan_check_network">Check network</string>
+    <string name="dlan_device_discover_help">Screen casting usage help</string>
+    <string name="dlan_device_discover_help_chapter_1">How to cast to device?</string>
+    <string name="dlan_device_discover_help_content_1_1">Turn on your smart TV or set-top box and make sure it is connected to the same Wi-Fi network as your phone.</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="dlan_device_discover_help_content_1_2">Tap the upper right corner button of the App video player to cast to the corresponding device.</string>
+    <string name="dlan_device_discover_help_chapter_2">Why can\'t I find the casting device</string>
+    <string name="dlan_device_discover_help_content_2">You can perform the following checks:</string>
+    <string name="dlan_device_discover_help_content_2_1">Make sure the casting device is powered on and connected to the same Wi-Fi as your phone.</string>
+    <string name="dlan_device_discover_help_content_2_2">The device supports screen casting. If you are unsure, we recommend consulting the device manufacturer.</string>
+    <string name="number_3">3</string>
+    <string name="dlan_device_discover_help_content_2_3">The AP isolation or guest mode function of the router has been turned off, and the signal amplifier network is not connected. If necessary, you can restart the router and other network devices.</string>
+    <string name="number_4">4</string>
+    <string name="dlan_device_discover_help_content_2_4">If the above issues are confirmed, please restart the App and try screen casting again.</string>
+    <string name="dlan_device_discover_help_chapter_3">How to solve screen casting failure</string>
+    <string name="dlan_device_discover_help_content_3">Please check if the device can access the network normally. If necessary, you can restart the router and other network devices, or restart the App and try screen casting again.</string>
+    <string name="dlan_weak_network_tip_1">Current network is unstable, data transmission is slow...</string>
+    <string name="dlan_weak_network_tip_2">Current network is unstable.</string>
+</resources>

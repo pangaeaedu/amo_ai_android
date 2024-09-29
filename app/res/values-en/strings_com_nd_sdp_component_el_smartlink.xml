@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ele_sl_qr_code">QR Code</string>
+
+    <string name="ele_sl_analysis_fail">Failed to parse the QR code, please try again</string>
+    <string name="ele_sl_analysis_expired">The QR code has expired</string>
+    <string name="ele_sl_param_empty_tip">%s parameter cannot be empty</string>
+
+    <string name="ele_sl_qr_code_request_fail">Create QR Code Error!</string>
+
+    <string name="ele_sl_click_retry">Please click to retry</string>
+
+    <string name="ele_sl_save_to">Saved to</string>
+
+    <string name="ele_sl_permission_tip">You are not authorized to access storage, please open authorization in settings</string>
+
+    <string name="ele_sl_code_save_fail">Failed to save, please try again: </string>
+
+
+</resources>

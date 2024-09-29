@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="font_set_font_size">ขนาดตัวอักษร</string>
+    <string name="font_size_tip1">ดูตัวอย่างขนาดตัวอักษร</string>
+    <string name="font_size_tip2">ลากรถลากด้านล่างเพื่อตั้งค่าขนาดตัวอักษร</string>
+    <string name="font_size_tip3">เมื่อตั้งค่าแล้ว จะเปลี่ยนขนาดตัวอักษรในรายการติดต่อล่าสุดและหน้าจอสนทนา หากมีปัญหาหรือความคิดเห็นใด ๆ ในการใช้งาน สามารถแจ้งความคิดเห็นให้ทีมบริการลูกค้า</string>
+    <string name="font_hint_recent_pic">รูปภาพที่คุณอาจต้องการส่ง:</string>
+
+    <string name="font_size_small">เล็ก</string>
+    <string name="font_size_standard">มาตรฐาน</string>
+    <string name="font_size_big">ใหญ่</string>
+    <string name="font_size_very_big">ขนาดใหญ่มาก</string>
+    <string name="font_size_huge">ขนาดพิเศษ</string>
+</resources>

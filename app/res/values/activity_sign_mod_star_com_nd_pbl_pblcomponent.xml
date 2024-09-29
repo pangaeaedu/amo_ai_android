@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--对话框背景图:res\drawable-xhdpi\starapp_life_sign_star_dialog_bg.9.png-->
+    <!--1.知道了按钮-背景图(常态), 与他人主页公用:res\drawable-xhdpi\starapp_life_general_button_bluebutton_normal.9.png-->
+    <!--1.知道了按钮-背景图(按下), 与他人主页公用:res\drawable-xhdpi\starapp_life_general_button_bluebutton_pressed.9.png-->
+    <!--2.领取按钮-背景图(常态):res\drawable-xhdpi\starapp_life_general_button_redbutton_normal.9.png-->
+    <!--2.领取按钮-背景图(按下):res\drawable-xhdpi\starapp_life_general_button_redbutton_pressed.9.png-->
+    <!--标题高度(固定高度, 文字居中对齐, 不支持多行)-->
+    <dimen name="starapp_life_sign_star_dialog_title_height">39dp</dimen>
+    <!--3.标题文字大小颜色-->
+    <dimen name="starapp_life_sign_star_dialog_title_size">@dimen/starapp_life_text_9</dimen>
+    <color name="starapp_life_sign_star_dialog_title_color">@color/starapp_life_color_7</color>
+    <!--奖励内容模块间距-->
+    <dimen name="starapp_life_sign_star_dialog_body_margin_top">9dp</dimen>
+    <dimen name="starapp_life_sign_star_dialog_body_margin_left">32dp</dimen>
+    <dimen name="starapp_life_sign_star_dialog_body_margin_right">32dp</dimen>
+    <!--奖励内容每行的内间距-->
+    <dimen name="starapp_life_sign_star_dialog_body_line_margin_left">6dp</dimen>
+    <dimen name="starapp_life_sign_star_dialog_body_line_margin_top">15dp</dimen>
+    <dimen name="starapp_life_sign_star_dialog_body_line_margin_right">6dp</dimen>
+    <dimen name="starapp_life_sign_star_dialog_body_line_margin_bottom">15dp</dimen>
+    <!--4.奖励内容描述文字大小颜色-->
+    <dimen name="starapp_life_sign_star_dialog_body_line_text_size">@dimen/starapp_life_text_4</dimen>
+    <color name="starapp_life_sign_star_dialog_body_line_text_color">@color/starapp_life_color_1</color>
+    <!--5.奖励内容数量文字大小颜色-->
+    <dimen name="starapp_life_sign_star_dialog_body_line_amount_size">@dimen/starapp_life_text_3</dimen>
+    <color name="starapp_life_sign_star_dialog_body_line_amount_color">@color/starapp_life_color_13</color>
+    <!--按钮部分间距-->
+    <dimen name="starapp_life_sign_star_dialog_button_margin_top">16dp</dimen>
+    <dimen name="starapp_life_sign_star_dialog_button_margin_bottom">26dp</dimen>
+    <!--按钮大小-->
+    <dimen name="starapp_life_sign_star_dialog_button_width">125dp</dimen>
+    <dimen name="starapp_life_sign_star_dialog_button_height">34dp</dimen>
+    <!--6.按钮文字大小颜色-->
+    <dimen name="starapp_life_sign_star_dialog_button_size">@dimen/starapp_life_text_3</dimen>
+    <color name="starapp_life_sign_star_dialog_button_color">@color/starapp_life_color_7</color>
+</resources>

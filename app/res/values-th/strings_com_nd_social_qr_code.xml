@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="qrcode_title">สแกน</string>
+    <string name="qrcode_scan_tip">วางกรอบภาพตรงกับคิวอาร์โค้ดเพื่อสแกนโดยอัตโนมัติ</string>
+    <string name="qrcode_scan_result">ผลการสแกน</string>
+    <string name="qrcode_scan_permission_deny">ไม่มีสิทธิ์ใช้กล้อง</string>
+    <string name="qrcode_scan_rbac_check">ตรวจสอบสิทธิ์</string>
+    <string name="qrcode_scan_rbac_error">ไม่มีสิทธิ์</string>
+    <string name="qrcode_scan_album">อัลบั้มภาพ</string>
+    <string name="qrcode_select">เลือก</string>
+
+    <string name="qrcode_permission_toast">คุณไม่ได้ให้สิทธิ์การเข้าถึง โปรดเปิดสิทธิ์ในการตั้งค่า</string>
+    <string name="qrcode_scan_album_faile_tips">ไม่พบคิวอาร์โค้ดในรูปภาพ</string>
+    <string name="qrcode_transform_album_faile_tips">การแยกตัวไม่สำเร็จ</string>
+    <string name="qrcode_please_scan_the_qrcode_through_dedicated_client">โปรดสแกนคิวอาร์โค้ดด้วยแอพพลิเคชันที่เฉพาะเจาะจง</string>
+    <string name="qrcode_qrcode_bitmap_invalidate">คิวอาร์โค้ดนี้ได้หมดอายุแล้ว</string>
+    <string name="qrcode_qrcode_bitmap_err">เกิดข้อผิดพลาดในการรับคิวอาร์โค้ดเคลื่อนไหว</string>
+
+</resources>

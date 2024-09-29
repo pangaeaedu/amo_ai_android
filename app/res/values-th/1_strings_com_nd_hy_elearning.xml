@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_mf_net_error_and_retry">เกิดข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดตรวจสอบและลองอีกครั้ง</string>
+    <string name="ele_mf_my_study">การเรียนของฉัน</string>
+    <string name="ele_mf_find_course">ค้นพบหลักสูตร</string>
+    <string name="ele_mf_no_data">ไม่มีข้อมูล</string>
+    <string name="ele_mf_no_data_desc">ลำดับไม่มีเนื้อหาที่เกี่ยวข้อง!</string>
+    <string name="ele_mf_load_fail">โหลดล้มเหลว โปรดลองลากลงอีกครั้ง</string>
+    <string name="ele_mf_loading_wait">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="ele_mf_confirm_cancel">ยกเลิก</string>
+    <string name="ele_mf_study_all">การเรียนทั้งหมด</string>
+    <string name="ele_mf_login_validate_title">กรุณาเข้าสู่ระบบ</string>
+    <string name="ele_mf_login_use_alert">กรุณาเข้าสู่ระบบก่อนใช้งาน</string>
+    <string name="ele_mf_login_validate_right_text">เข้าสู่ระบบ</string>
+    <string name="ele_mf_confirm_sure">ตกลง</string>
+    <string name="ele_confirm_cancel">ยกเลิก</string>
+    <string name="ele_listview_loadfail">โหลดล้มเหลว คลิกเพื่อลองใหม่</string>
+    <string name="ele_get_ucorganizations_fail">ข้อมูลโปรเจคผิดพลาด โปรดคลิกลองใหม่</string>
+    <!-- 待翻译 -->
+    <string name="ele_mf_my_interest">ความสนใจ</string>
+	<string name="ele_mf_menu_shopping_cart">ตะกร้าสินค้า</string>
+    <string name="ele_mf_menu_my_order">คำสั่งซื้อของฉัน</string>
+    <string name="ele_mf_no_access">ผู้ใช้ปัจจุบันไม่มีสิทธิ์ในการเข้าถึง</string>
+	<!--无障碍支持-->
+    <string name="ele_mf_barrier_help_search">ค้นหา</string>
+    <string name="ele_mf_barrier_help_more">เมนู</string>
+
+
+     <!--社区本校课程-->
+    <string name="ele_mf_community_school_courses">คอร์สของโรงเรียน</string>
+    <string name="ele_mf_community_all_course">คอร์สเรียนสาธารณะ</string>
+    <string name="ele_mf_community_my_study">การเรียนของฉัน</string>
+    <string name="ele_mf_community_error">การรับคอร์สของโรงเรียนล้มเหลว โปรดคลิกที่นี่เพื่อลองใหม่</string>
+
+    <string name="ele_mf_default_tab">การเรียน</string>
+
+</resources>

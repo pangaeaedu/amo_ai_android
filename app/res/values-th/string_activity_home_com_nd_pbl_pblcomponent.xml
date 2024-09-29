@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--个人主页-->
+    <!--标题-->
+    <string name="starapp_life_home_title">ฉัน</string>
+
+    <!--他人主页-->
+    <!--标题-->
+    <string name="starapp_life_other_home_title">โปรไฟล์ส่วนตัวของ%1$s</string>
+    <!--右侧按钮文字-->
+    <string name="starapp_life_other_home_more">เพิ่มเติม</string>
+    <!--发送消息按钮-->
+    <string name="starapp_life_other_home_send_message">ส่งข้อความ</string>
+    <!--加为好友按钮-->
+    <string name="starapp_life_other_home_add_friend">เพิ่มเป็นเพื่อน</string>
+    <!--删除好友按钮-->
+    <string name="starapp_life_other_home_delete_friend">ลบเพื่อน</string>
+    <!--暗恋-->
+    <string name="starapp_life_other_home_crush">สายลับ</string>
+    <!--已暗恋-->
+    <string name="starapp_life_other_home_crushed">มีความรักแซ่บ</string>
+    <!--高校通:和TA建立关系-->
+    <string name="starapp_life_other_home_relationship">สร้างความสัมพันธ์กับเขา</string>
+    <!--IM:是否屏蔽消息-->
+    <string name="starapp_life_other_home_inblack">คุณได้บล็อกข้อความจากอีกฝ่ายแล้ว</string>
+
+    <!--个人主页他人主页通用:昵称文字格式-->
+    <string name="starapp_life_home_head_fragment_nickname">%1$s</string>
+    <!--个人主页他人主页通用:签名文字格式-->
+    <string name="starapp_life_home_head_fragment_signature">"%1$s"</string>
+    <!--个人主页他人主页通用:未登录的昵称显示值-->
+    <string name="starapp_life_home_head_guest_nick">เข้าสู่ระบบทันที</string>
+    <!--个人主页他人主页通用:已认证-->
+    <string name="starapp_life_home_head_certified">ได้รับการรับรองแล้ว</string>
+    <!--个人主页他人主页通用:未认证-->
+    <string name="starapp_life_home_head_not_certified">ยังไม่ได้รับการรับรอง</string>
+
+    
+    <!--个人主页他人主页通用:聊天限制-->
+    <string name="starapp_life_home_add_friend_first">โปรดเพิ่มเพื่อนก่อนที่จะสามารถสนทนา</string>
+
+    <!--移出黑名单-->
+    <string name="starapp_life_other_home_remove_blacklist">เอาออกจากรายการดำ</string>
+    <!--移出黑名单提示-->
+    <string name="starapp_life_other_home_remove_blacklist_check">คุณต้องการย้ายผู้ใช้ %1$s ออกจากรายชื่อดำหรือไม่</string>
+    <!--黑名单限制提示-->
+    <string name="starapp_life_other_home_blacklist_toast_left">อีกฝ่ายได้บล็อกคุณแล้ว ไม่สามารถ</string>
+    <!--黑名单限制提示-->
+    <string name="starapp_life_other_home_blacklist_toast_content">อีกฝ่ายได้บล็อกคุณแล้ว ไม่สามารถดำเนินการนี้ได้</string>
+
+</resources>

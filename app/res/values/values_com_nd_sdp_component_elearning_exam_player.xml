@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eui_tablayout_tabBackground">#ffffff</color>
+    <color name="eui_tablayout_tabIndicatorColor">@color/general_title_tablayout_tabIndicatorColor</color>
+    <color name="eui_tablayout_tabTextColor">@color/general_title_tablayout_tabTextColor</color>
+    <color name="eui_tablayout_tablayout_tabSelectedTextColor">@color/general_title_tablayout_tabSelectedTextColor</color>
+    <style name="EuiAutoTabLayout">
+        <item name="tabIndicatorColor">@color/eui_tablayout_tabIndicatorColor</item>
+        <item name="tabSelectedTextColor">@color/eui_tablayout_tablayout_tabSelectedTextColor</item>
+        <item name="tabTextColor">@color/eui_tablayout_tabTextColor</item>
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="android:background">@color/eui_tablayout_tabBackground</item>
+        <item name="tabTextAppearance">@style/EuiTabLayout.TextAppearance.Design.AutoTab</item>
+    </style>
+	<!-- TAB样式-->
+	<style name="EleExpTabLayout" parent="@style/EuiAutoTabLayout">
+        <item name="tabIndicatorColor">@color/eui_tablayout_tabIndicatorColor</item>
+        <item name="tabSelectedTextColor">@color/eui_tablayout_tablayout_tabSelectedTextColor</item>
+        <item name="tabTextColor">@color/eui_tablayout_tabTextColor</item>
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="android:background">@color/eui_tablayout_tabBackground</item>
+        <item name="tabTextAppearance">@style/EuiTabLayout.TextAppearance.Design.AutoTab</item>
+    </style>
+  
+</resources>

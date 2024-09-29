@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="hy_rd_doc_loading">Loading files...</string>
+    <string name="hy_rd_doc_loading_failed">Loading failed</string>
+    <string name="hy_rd_doc_loading_progress">Loading files: %s%%</string>
+    <string name="hy_rd_note">Note</string>
+    <string name="hy_rd_page_loading">Loading...</string>
+    <string name="hy_rd_page_reload">Loading failed. Please tap to reload it.</string>
+</resources>

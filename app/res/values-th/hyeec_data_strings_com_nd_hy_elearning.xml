@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- e-exam-center-data -->
+    <string name="hyeec_network_error">เกิดข้อผิดพลาดในการเชื่อมต่อ โปรดตรวจสอบการเชื่อมต่อของคุณ!</string>
+    <string name="hyeec_network_low">สถานะการเชื่อมต่ออินเทอร์เน็ตไม่ดี กรุณารอสักครู่แล้วลองใหม่</string>
+    <string name="hyeec_data_error">ข้อผิดพลาดในการวิเคราะห์ข้อมูล โปรดลองอีกครั้ง</string>
+    <string name="hyeec_get_data_error">เกิดข้อผิดพลาดในการเข้าถึงข้อมูล โปรดลองใหม่</string>
+    <string name="hyeec_server_time_error">เกิดข้อผิดพลาดในการเข้าถึงเวลาจากเซิร์ฟเวอร์ โปรดลองใหม่</string>
+</resources>

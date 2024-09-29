@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--佛教通祈福页面配置(非标准页面, 如有需要, 项目自己做国际化)-->
+    <!--标题文字-->
+    <string name="starapp_life_fjt_sign_title_text">สวัสดิภาพ</string>
+    <!--节日左边文字-->
+    <string name="starapp_life_fjt_sign_festival_name_left">ระยะห่าง</string>
+    <!--节日右边文字-->
+    <string name="starapp_life_fjt_sign_festival_name_right">เหลือเวลาอีก</string>
+    <!--节日右边文字-->
+    <string name="starapp_life_fjt_sign_festival_name_right_day">วัน</string>
+    <!--主体部分上方文字1-->
+    <string name="starapp_life_fjt_sign_body_top_1">ประสงค์และคำอวยพร</string>
+    <!--主体部分上方文字2-->
+    <string name="starapp_life_fjt_sign_body_top_2">ปกป้องความสงบสุข</string>
+    <!--已祈福-->
+    <string name="starapp_life_fjt_sign_body_wish">ได้ทำการอธิษฐานแล้ว</string>
+    <!--已祈福天字-->
+    <string name="starapp_life_fjt_sign_body_wish_end">วัน</string>
+</resources>

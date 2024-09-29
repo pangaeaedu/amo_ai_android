@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="epo_confirm_cancel">ยกเลิก</string>
+    <string name="epo_confirm_commit">ยืนยัน</string>
+    <string name="epo_confirm_ensure">ตกลง</string>
+    <string name="epo_confirm_revise">ออกจากการเรียน</string>
+    <string name="epo_confirm_restart">ตอบคำถามใหม่</string>
+    <string name="epo_confirm_continue">ทำข้อสอบต่อ</string>
+    <string name="epo_load_fail">ไม่สามารถโหลดแบบฝึกหัด</string>
+    <string name="epo_back_tips">หากออกจะไม่สามารถทำการเรียนต่อได้ ยืนยันการออกหรือไม่?</string>
+
+    <string name="epo_pract_not_exist">ไม่มีการฝึก</string>
+    <string name="epo_pract_not_enable">การฝึกฝนถูกยกเลิก</string>
+
+    <string name="epo_online_practice">ฝึก</string>
+    <string name="epo_pass_model_one">ความถูกต้องที่ได้รับอยู่ที่%1$s เท่านั้น จึงจะผ่านการฝึก</string>
+    <string name="epo_pass_model_two">ตอบถูก%1$dข้อ สามารถผ่านการฝึกฝน</string>
+    <string name="epo_pass_model_three">ตอบคำถามทุกข้อก็พอ</string>
+    <string name="epo_practice_passed">การฝึกฝนผ่านแล้ว</string>
+    <string name="epo_practice_info_normal"><![CDATA[รวม&nbsp;<font color="#1E62EC">%1$d</font>&nbsp;ข้อ]]></string>
+    <string name="epo_practice_info_continue"><![CDATA[รวม&nbsp;<font color="#1E62EC">%1$d</font>&nbsp;ข้อ&nbsp;&nbsp;|&nbsp;&nbsp;ทำแล้ว&nbsp;<font color="#1E62EC">%2$d</font>&nbsp;ข้อ]]></string>
+    <string name="epo_practice_info_complete"><![CDATA[ทั้งหมด &nbsp;<font color="#1E62EC">%1$d</font>&nbsp; ข้อ&nbsp;&nbsp;|&nbsp;&nbsp;ตอบถูก &nbsp;<font color="#1E62EC">%2$d</font>&nbsp; ข้อ&nbsp;&nbsp;|&nbsp;&nbsp;ความถูกต้อง &nbsp;<font color="#1E62EC">%3$s</font>&nbsp;]]></string>
+    <string name="epo_practice_info_history_best">คะแนนสูงสุดในประวัติ:</string>
+    <string name="epo_practice_result">เสร็จสิ้นแล้ว (%1$d ข้อ)</string>
+    <string name="epo_show_analysis">ดูการวิเคราะห์คำตอบ</string>
+    <string name="epo_answer">ตอบคำถาม</string>
+    <string name="epo_answer_again">ทำคำถามใหม่</string>
+    <string name="epo_continue_answer">เพิ่มเติมคำตอบ</string>
+
+    <string name="epo_custom_practice_point">การฝึกหยุดหยุด</string>
+    <string name="epo_online_practice_point">ฝึกฝนออนไลน์</string>
+    <string name="epo_online_practice_first_answer">ครั้งแรกที่ตอบ</string>
+    <string name="epo_online_practice_continue_answer">ดำเนินการตอบคำถามต่อ</string>
+    <string name="epo_online_practice_answer_again">ตอบอีกครั้ง</string>
+</resources>

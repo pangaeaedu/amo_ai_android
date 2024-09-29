@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="apfpermissioncomponent_permission_item_title">อนุญาตให้%1$s เข้าถึงสิทธิการ%2$s</string>
+    <string name="apfpermissioncomponent_permission_detail_question1">ทำไมต้องขอ%1$s ของฉัน?</string>
+    <string name="apfpermissioncomponent_permission_detail_question2">วิธีการตั้งค่าสิทธิ์? สามารถหยุดการให้สิทธิ์ได้หรือไม่?</string>
+    <string name="apfpermissioncomponent_permission_detail_question3">วิธีการให้ความมั่นใจในความปลอดภัยของข้อมูลของฉัน?</string>
+    <string name="apfpermissioncomponent_permission_detail_go_setting">ไปที่การตั้งค่า</string>
+    <string name="apfpermissioncomponent_read_privacy_policy">อ่านนโยบายความเป็นส่วนตัว</string>
+    <string name="apfpermissioncomponent_info">ข้อมูล %1$s</string>
+    <string name="apfpermissioncomponent_get_privacy_policy_fail">ล้มเหลวในการดึงนโยบายความเป็นส่วนตัว!</string>
+    <string name="apfpermissioncomponent_system_permission">สิทธิ์ระบบ</string>
+    <string name="apfpermissioncomponent_permission_allowed">ได้รับอนุญาตแล้ว</string>
+    <string name="apfpermissioncomponent_permission_explain">เพื่อให้ท่านได้รับประสบการณ์ผู้ใช้ที่ดีขึ้น %1$s อาจจำเป็นต้องขอสิทธิ์การใช้โทรศัพท์ของท่านในสถานการณ์ที่เฉพาะเจา การตั้งค่าสิทธิ์อาจมีความคลาดเคลื่อนเนื่องจากความแตกต่างของอุปกรณ์ ท่านสามารถตั้งค่าสิทธิ์ที่โทรศัพท์ได้ ได้ที่การตั้งค่าของโทรศัพท์</string>
+    <string name="apfpermissioncomponent_permission_dialog_title">การตั้งค่าสิทธิ์</string>
+    <string name="apfpermissioncomponent_permission_name">สิทธิการ</string>
+	
+	<string name="apf_permission_check_dialog_title">%s แอปพลิเคชันต้องการสิทธิ์การตามนี้จากท่าน</string>
+    <string name="apf_permission_check_dialog_allow_tip">• หลังจากได้รับอนุญาตเท่านั้น สิทธิ์ข้างต้นจึงจะถูกใช้งาน</string>
+    <string name="apf_permission_check_dialog_setting_tip">• ไปที่การตั้งค่าสิทธิ์แอปเพื่อเปิดใช้สิทธิ์ข้างต้นหลังจากได้รับอนุญาต;\n• คุณยังสามารถเลือกเปิดใช้สิทธิ์ในการตั้งค่าแอป-&gt;การตั้งค่าความเป็นส่วนตัว</string>
+    <string name="apf_permission_check_dialog_unknow_tip">• ทั้งหมดเป็นสิทธิ์ที่ไม่ทราบ โปรดตรวจสอบการกำหนดสิทธิ์แอปพลิเคชันว่าถูกต้องหรือไม่</string>
+    <string name="apf_permission_check_dialog_go_setting_title">ไม่สามารถรับสิทธิการต่อไปนี้</string>
+    <string name="apf_permission_check_dialog_go_setting">คุณสามารถเลือก:\n1. คลิกที่ "การตั้งค่า"\n2. เปิดสิทธิการในการตั้งค่าแอปพลิเคชัน-&gt;การตั้งค่าสิทธิการส่วนตัว \n3. การจัดการแอปพลิเคชัน-&gt;แอปพลิเคชันที่เกี่ยวข้อง-&gt;การจัดการสิทธิการ</string>
+    <string name="apf_permission_check_dialog_cancel">ยกเลิก</string>
+    <string name="apf_permission_check_dialog_allow">อนุญาต</string>
+    <string name="apf_permission_check_dialog_setting">การตั้งค่า</string>
+    <string name="apf_permission_check_dialog_iknow">ฉันเข้าใจแล้ว</string>
+    <string name="apf_permission_check_dialog_exit">ออก</string>
+    <string name="apf_permission_check_permission_requested">ได้รับอนุญาตสิทธิ์แล้ว</string>
+
+    <string name="apf_permission_unkonw">สิทธิ์ที่ไม่ทราบ</string>
+    <string name="apf_permission_unkonw_message">แอปพลิเคชันไม่ได้กำหนดสิทธิการใช้ต่อไปนี้:\n%s\nโปรดตรวจสอบการกำหนดสิทธิการใช้แอปพลิเคชัน</string>
+    <string name="apf_permission_disable_error">การแพ็กผลิตภัณฑ์ได้เปิดการใช้สิทธิการบางอย่าง โปรดตรวจสอบการกำหนดว่าถูกต้องหรือไม่!</string>
+    <string name="apf_permission_disable_error2">การแพ็กผลิตภัณฑ์ได้เปิดการใช้สิทธิการบางอย่างโปรดตรวจสอบการกำหนดว่าถูกต้องหรือไม่!</string>
+    <string name="apf_permission_init_error_message">โปรดตรวจสอบว่าพารามิเตอร์ถูกส่งตามมาตรฐานหรือไม่ และตรวจสอบว่ามีการส่งข้อมูลเริ่มต้นหรือไม่!</string>
+    <string name="apf_permission_pre_condition_error">เงื่อนไขต้นทางไม่เพียงพอ ไม่สามารถขอสิทธิ์ได้</string>
+    <string name="apf_permission_specail_error_message">สิทธิการที่ถูกส่งเข้ามาประกอบด้วยสิทธิการพิเศษหลายรายการ โปรดตรวจสอบว่าข้อมูลถูกต้องหรือไม่!</string>
+    <string name="apf_permission_specail_error_message2">การอนุญาตที่ถูกส่งเข้ามาไม่ใช่สิทธิพิเศษ โปรดตรวจสอบว่าข้อมูลไม่ถูกต้อง!</string>
+    <string name="apf_permission_specail_init_error">สิทธิ์ปัจจุบันต้องการพารามิเตอร์ โปรดตรวจสอบว่าพารามิเตอร์ว่างเปล่าหรือไม่!</string>
+    <string name="apf_permission_error_message">การขอสิทธิ์ล้มเหลว คุณได้ปฏิเสธการขอสิทธิ์แล้ว!</string>
+    <string name="apf_permission_error_unknown">คำขอสิทธิการล้มเหลว สำหรับสิทธิการที่ไม่ทราบ โปรดตรวจสอบการกำหนดสิทธิการ!</string>
+    <string name="apf_permission_error">การขอสิทธิ์ล้มเหลว!</string>
+    <string name="apf_permission_error_disable">มีสิทธิการที่ถูกผลิตภัณฑ์ปิดใช้งาน โปรดตรวจสอบการกำหนดการแพ็กว่าถูกต้องหรือไม่!</string>
+    <string name="apf_permission_disable">(ถูกปิด)</string>
+
+    <string name="apf_permission_calendar">สิทธิ์การปฏิทิน</string>
+    <string name="apf_permission_camera">สิทธิ์กล้อง</string>
+    <string name="apf_permission_contacts">สิทธิ์ติดต่อ</string>
+    <string name="apf_permission_location">สิทธิการเข้าถึงตำแหน่ง</string>
+    <string name="apf_permission_location_background">สิทธิ์ตำแหน่งหลังบ้าน</string>
+    <string name="apf_permission_microphone">สิทธิ์ไมโครโฟน</string>
+    <string name="apf_permission_phone">สิทธิการโทรศัพท์</string>
+    <string name="apf_permission_sensors">สิทธิ์เซ็นเซอร์</string>
+    <string name="apf_permission_sms">สิทธิการส่งข้อความ</string>
+    <string name="apf_permission_storage">สิทธิ์เก็บข้อมูล</string>
+    <string name="apf_permission_call_log">สิทธิ์บันทึกการโทร</string>
+    <string name="apf_permission_activity_recognition">สิทธิ์กิจกรรมร่างกาย</string>
+    <string name="apf_permission_alter_window">สิทธิ์หน้าต่างลอย</string>
+    <string name="apf_permission_accessibility">สิทธิ์การใช้งานช่วยเหลือ</string>
+    <string name="apf_permission_device">สิทธิการจัดการอุปกรณ์</string>
+    <string name="apf_permission_notify_listener">สิทธิ์การตรวจสอบแถบแจ้งเตือน</string>
+    <string name="apf_permission_usage">สิทธิ์อ่านประวัติการใช้แอปพลิเคชัน</string>
+    <string name="apf_permission_boot">สิทธิการเริ่มต้นเมื่อเปิดเครื่อง</string>
+    <string name="apf_permission_wallpaper">สิทธิการตั้งภาพพื้นหลัง</string>
+    <string name="apf_permission_bluetooth">สิทธิการบลูทูธ</string>
+    <string name="apf_permission_notification">สิทธิการแจ้งเตือน</string>
+    <string name="apf_permission_nearby_devices">สิทธิ์อุปกรณ์ใกล้เคียง</string>
+
+
+</resources>

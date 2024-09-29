@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--1.发消息-背景图(常态):res\drawable-xhdpi\starapp_life_general_button_otherbutton_normal.9.png-->
+    <!--1.发消息-背景图(按下):res\drawable-xhdpi\starapp_life_general_button_otherbutton_pressed.9.png-->
+    <!--2.加为好友-背景图(常态):res\drawable-xhdpi\starapp_life_general_button_bluebutton_normal.9.png-->
+    <!--2.加为好友-背景图(按下):res\drawable-xhdpi\starapp_life_general_button_bluebutton_pressed.9.png-->
+    <!--3.暗恋-背景图(常态):同发消息按钮-->
+    <!--3.暗恋-背景图(按下):同发消息按钮-->
+    <!--4.高校通:和TA建立关系-背景图(常态):同发消息按钮-->
+    <!--4.高校通:和TA建立关系暗恋-背景图(按下):同发消息按钮-->
+    <!--5.索花宣言-背景图:res\drawable-xhdpi\starapp_life_mine_guide_pic_flower.9.png-->
+</resources>

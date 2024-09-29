@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--佛教通祈福页面配置-->
+    <!--背景图-->
+    <drawable name="starapp_life_fjt_sign_bg">#f8f4e9</drawable>
+    <!--祈福部分背景图-->
+    <drawable name="starapp_life_fjt_sign_body_bg">#0000</drawable>
+    <!--天数圆圈-->
+    <drawable name="starapp_life_fjt_sign_festival_countdown_bg">#eae3d3</drawable>
+    <!--节日横线-->
+    <drawable name="starapp_life_fjt_sign_festival_line_horizontal">#b6814c</drawable>
+    <!--节日竖线-->
+    <drawable name="starapp_life_fjt_sign_festival_line_vertical">#a77746</drawable>
+    <!--祈福天数上方横线-->
+    <drawable name="starapp_life_fjt_sign_sign_days_line_horizontal">#99ffffff</drawable>
+    <!--诗标题下方图标-->
+    <drawable name="starapp_life_fjt_sign_desc_point">#b6814c</drawable>
+    <!--签到按钮图标-未点亮-->
+    <drawable name="starapp_life_fjt_sign_button_normal">#55310e</drawable>
+    <!--签到按钮图标-点亮-->
+    <drawable name="starapp_life_fjt_sign_button_disabled">#945f2c</drawable>
+    <!--签到按钮图标-动画-->
+    <drawable name="starapp_life_fjt_sign_button_gif">#74481d</drawable>
+    <!--节日文字颜色-->
+    <color name="starapp_life_fjt_sign_festival_name_color">#333333</color>
+    <!--节日左右边文字颜色-->
+    <color name="starapp_life_fjt_sign_festival_name_round_color">#b6814c</color>
+    <!--倒计时天数文字颜色-->
+    <color name="starapp_life_fjt_sign_festival_countdown_color">#333333</color>
+    <!--主体部分上方文字颜色-->
+    <color name="starapp_life_fjt_sign_body_top_color">#b6814c</color>
+    <!--已祈福文字颜色-->
+    <color name="starapp_life_fjt_sign_body_wish_color">#333333</color>
+    <!--已祈福天数文字颜色-->
+    <color name="starapp_life_fjt_sign_body_wish_days_color">#333333</color>
+    <!--已祈福天字颜色-->
+    <color name="starapp_life_fjt_sign_body_wish_end_color">#333333</color>
+    <!--内容标题颜色-->
+    <color name="starapp_life_fjt_sign_desc_title_color">#333333</color>
+    <!--内容正文颜色-->
+    <color name="starapp_life_fjt_sign_desc_text_color">#766c63</color>
+    <!--标题横线左右边距-->
+    <dimen name="starapp_life_fjt_sign_festival_line_margin">45dp</dimen>
+    <!--动态图片左右边距-->
+    <dimen name="starapp_life_fjt_sign_dynamic_img_margin">45dp</dimen>
+    <!--动态内容左右边距-->
+    <dimen name="starapp_life_fjt_sign_dynamic_text_margin">45dp</dimen>
+</resources>

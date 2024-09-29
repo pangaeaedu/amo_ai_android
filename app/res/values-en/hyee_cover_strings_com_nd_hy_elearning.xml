@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!--problem-extras-->
+	<string name="hy_pbm_loading">Loading…</string>
+    <string name="hy_pbm_confirm">Confirm</string>
+    <string name="hy_pbm_cancel">Cancel</string>
+    <string name="hy_pbm_answer_card_cancel">Cancel</string>
+    <string name="hy_pbm_answer_card_title">Answer Sheet</string>
+    <string name="hy_pbm_answer_card_commit">Submit</string>
+	
+    <!--problem-patterns-->
+    <string name="hy_pbm_patterns_loading">Loading…</string>
+    <string name="hy_pbm_get_quiz_fail">Failed to load questions</string>
+    <string name="hy_pbm_no_support_quiz_type">Question type not supported</string>
+    <string name="hy_pbm_all_quiz_right">You answered all the questions correctly.</string>
+    <string name="hy_pbm_quiz_type_total_count_separate">\"/%d\"</string>
+    <string name="hy_pbm_quiz_type_quiz_index">\"%1$d.%2$d\"</string>
+    <string name="hy_pbm_quiz_type_single">Multiple Choice</string>
+    <string name="hy_pbm_quiz_type_multi">Multiple Choice (more than one answers)</string>
+    <string name="hy_pbm_quiz_type_indeterminate">Multiple Choice (one or many answers)</string>
+    <string name="hy_pbm_quiz_type_judge">True or False</string>
+    <string name="hy_pbm_quiz_type_blank">Fill in the Blank</string>
+    <string name="hy_pbm_quiz_type_brief">Short Answers</string>
+    <string name="hy_pbm_quiz_type_group">Group Questions</string>
+    <string name="hy_pbm_blank_standard_answer_order">(%1$d) </string>
+    <string name="hy_pbm_subject_input_hint">Please enter texts</string>
+    <string name="hy_pbm_quiz_input_confirm">Confirm</string>
+    <string name="hy_pbm_explain_title">Analysis:</string>
+    <string name="hy_pbm_explain_none">None</string>
+    <string name="hy_pbm_explain_standard_answer_format">Correct answers: %1$s      </string>
+    <string name="hy_pbm_explain_user_answer_right">You got it right</string>
+    <string name="hy_pbm_explain_user_answer_error">Your wrong answer: %1$s</string>
+    <string name="hy_pbm_explain_user_answer_undo">You didn\'t answer it</string>
+	
+	<!--e-exam-media-->
+	<string name="ele_exam_media_network_error">Connection error. Please check your network.</string>
+    <string name="ele_exam_media_loading">Loading…</string>
+    <string name="ele_exam_media_loading_fail">Failed to load. Tap and try again.</string>
+	<string name="ele_exam_media_release">Releasing previous resource. Please tap later.</string>
+</resources>

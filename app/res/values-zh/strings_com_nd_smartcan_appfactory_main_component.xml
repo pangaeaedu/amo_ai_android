@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--mainComponent相关的资源-->
+    <string name="maincomponent_common_quit_hint">再按一次退出程序</string>
+    <string name="maincomponent_confirm" tools:ignore="UnusedResources">确定</string>
+    <string name="maincomponent_cancel">取消</string>
+    <string name="maincomponent_expired_tips">当前版本是演示版本，演示期已过，请移除。</string>
+
+    <string name="maincomponent_devtool_name">开发者工具</string>
+    <string name="maincomponent_devtool_loglevel">切换日志输出等级</string>
+    <string name="maincomponent_devtool_open_log_console">打开控制台日志输出</string>
+    <string name="maincomponent_devtool_close_log_console">关闭控制台日志输出</string>
+    <string name="maincomponent_devtool_zipdata">压缩data目录并发送给自己</string>
+    <string name="maincomponent_devtool_perform">性能测试</string>
+    <string name="maincomponent_devtool_show_component_version">查看组件版本</string>
+    <string name="maincomponent_devtool_show_lightapp_update">查看轻应用更新流程</string>
+    <string name="maincomponent_devtool_lightapp_update">轻应用更新流程</string>
+    <string name="maincomponent_devtool_component_version">组件版本</string>
+    <string name="maincomponent_devtool_lazy_com_tracker">懒加载组价追踪开关</string>
+    <string name="maincomponent_devtool_lazy_com_tracker_viewer">懒加载组件追踪视图</string>
+    <string name="maincomponent_devtool_generate_scheme_url">生成scheme地址</string>
+    <string name="maincomponent_devtool_lazy_com_track_select">懒加载组件追踪</string>
+    <string name="maincomponent_devtool_performance_monitor">性能监控</string>
+    <string name="maincomponent_devtool_webview_core">配置webview内核</string>
+    <string name="maincomponent_devtool_webview_x5_version">查看x5内核版本</string>
+    <string name="maincomponent_devtool_webview_core_select">请选择webview内核(重启无效)</string>
+    <string name="maincomponent_devtool_webview_core_changed">webview内核已经切换到: </string>
+    <string name="maincomponent_devtool_net_monitor">流量监控</string>
+    <string name="maincomponent_devtool_UI_monitor">主线程耗时监控</string>
+    <string name="maincomponent_devtool_UI_monitor_config">配置监控器</string>
+    <string name="maincomponent_devtool_UI_monitor_open">开启监控器</string>
+    <string name="maincomponent_devtool_UI_monitor_close">关闭监控器</string>
+    <string name="maincomponent_devtool_UI_monitor_show">显示监控数据</string>
+    <string name="maincomponent_devtool_UI_monitor_show_list">监控数据列表</string>
+
+    <!--Toast-->
+    <string name="maincomponent_devtool_UI_monitor_open_toast">监控器已开启</string>
+    <string name="maincomponent_devtool_UI_monitor_close_toast">监控器已关闭</string>
+    <string name="maincomponent_devtool_UI_monitor_openfirst_toast">请先开启监控器</string>
+    <string name="maincomponent_devtool_UI_monitor_loading">正在加载...</string>
+
+    <string name="maincomponent_devtool_UI_monitor_openMonitorOnStartup">是否启动时开启监控</string>
+    <string name="maincomponent_devtool_UI_monitor_isSendToSelf">是否发送监控数据给自己</string>
+    <string name="maincomponent_devtool_UI_monitor_isUploadToServer">是否上传监控数据到异常上报</string>
+    <string name="maincomponent_devtool_UI_monitor_timeCostThreshold">设置主线程处理事件耗时上报阈值</string>
+    <string name="maincomponent_devtool_UI_monitor_timeCostThreshold_content">当前上报阈值为%sms</string>
+
+    <string name="maincomponent_devtool_ShowWebviewLog">查看 webview 控制台日志</string>
+    <string name="maincomponent_devtool_webviewLog">webview 控制台日志 </string>
+    <string name="maincomponent_devtool_webviewLog_send2IM">将 webview 控制台日志发送给你自己？ </string>
+    <string name="maincomponent_devtool_webviewLog_toast">长按item 将日志文件发送给你自己</string>
+    <string name="maincomponent_devtool_enable_upload_exception">是否启用异常上报</string>
+    <string name="maincomponent_devtool_enable_upload_exception_toast">异常上报是否可用 : </string>
+
+    <string name="maincomponent_start_time_patch_sendself">发送json文件给自己</string>
+    <string name="maincomponent_start_time_patch_sendself_success">发送json文件给自己成功</string>
+    <string name="maincomponent_start_time_patch_sendself_fail">发送json文件给自己失败</string>
+    <string name="maincomponent_start_time_patch_generate">批量生成文件并发送自己(IM)</string>
+    <string name="maincomponent_start_time_patch_upload">批量发送provider</string>
+    <string name="maincomponent_start_time_upload_already">本地数据早已上传,无需重复上传.</string>
+    <string name="maincomponent_start_time_upload_success">数据上传成功!</string>
+    <string name="maincomponent_start_time_upload_success_partially">只有部分数据上传成功....</string>
+    <string name="maincomponent_start_time_upload_fail">数据上传失败!(服务器问题,或者是客户端自动过滤过长的启动数据不予上报)</string>
+    <string name="maincomponent_start_time_init_upload_host_fail">初始化 uploadHost 失败!</string>
+    <string name="maincomponent_start_time_generate_fail">文件生成失败!</string>
+    <string name="maincomponent_start_time_generate_fail_no_record">无启动记录, 文件生成失败!</string>
+    <string name="maincomponent_start_time_generate_success">文件生成成功, 路径为: </string>
+    <string name="maincomponent_start_time_clear">清除数据</string>
+    <string name="maincomponent_start_time_clear_success">清除数据成功.</string>
+    <string name="maincomponent_start_time_clear_fail">清除数据失败.</string>
+
+    <string name="maincomponent_gopage_for_QA">跳转</string>
+    <string name="maincomponent_gopage_for_QA_hint">请在这里输入page url</string>
+
+    <string name="maincomponent_devtool_menu_send_to_myself">发送给自己</string>
+    <string name="maincomponent_devtool_menu_about">关于...</string>
+    <string name="maincomponent_devtool_component_caller_name">调用者组件名</string>
+    <string name="maincomponent_devtool_component_caller_classname">调用者类名</string>
+    <string name="maincomponent_devtool_component_track_result_list">追踪结果</string>
+    <string name="maincomponent_devtool_pref_category_lazy_track">组件懒加载</string>
+    <string name="maincomponent_devtool_pref_title_lazy_track">监控懒组件的加载</string>
+    <string name="maincomponent_devtool_pref_summary_lazy_track">懒加载组件在应用启动时可能被提前加载。这是一个开关，用来控制追踪模块是否开启懒组件加载监控，只在debug版本生效。开关只会生效一次，之后会被重置。</string>
+    <string name="maincomponent_devtool_lazy_track_result">lazy-component-track-result</string>
+    <string name="maincomponent_devtool_menu_rm_result">删除报告文件</string>
+    <string name="maincomponent_devtool_not_debuggable">懒加载模块只在debug版本生效</string>
+
+    <string name="maincomponent_devtool_generate_scheme_for_url">需要生成scheme的页面地址 : </string>
+    <string name="maincomponent_devtool_generate_scheme_transcoding">是否需要转码 </string>
+    <string name="maincomponent_devtool_generate_scheme_generate">生成 </string>
+    <string name="maincomponent_devtool_generate_scheme_generate_test_html">生成h5测试页面</string>
+
+    <string name="maincomponent_devtool_perform_category">性能监控开关</string>
+    <string name="maincomponent_devtool_perform_title">是否开启性能监控</string>
+    <string name="maincomponent_devtool_perform_summary">性能监控，包含UI主线程耗时监控、组件启动耗时监控等；开关只会在下次app启动时生效一次，之后会被重置为关闭状态。</string>
+
+    <string name="maincomponent_accessibility_bottom_navigation">"底部导航"</string>
+    <string name="maincomponent_accessibility_tag">"标签"</string>
+    <string name="maincomponent_accessibility_unread_msg">"未读消息"</string>
+    <string name="maincomponent_accessibility_unit">"条"</string>
+    <string name="maincomponent_accessibility_among">"之"</string>
+    <string name="maincomponent_accessibility_selected">"已选中"</string>
+    <string name="maincomponent_accessibility_wait_update">"有更新"</string>
+    <string name="maincomponent_accessibility_large_number">"大于99"</string>
+
+    <string name="maincomponent_resign_confirm_title">警告</string>
+    <string name="maincomponent_resign_confirm_content">您当前所使用的应用可能经过第三方修改，建议从官网下载安装文件并重新安装。</string>
+    <string name="maincomponent_resign_confirm_ignore">继续使用</string>
+    <string name="maincomponent_resign_confirm_exit">退出应用</string>
+
+    <string name="maincomponent_please_contact_the_customer_service_for_processing">请联系客服进行处理</string>
+
+    <string name="maincomponent_permission_dialog_title">权限设置</string>
+    <string name="maincomponent_permission_dialog_content">请前往 设置->应用程序->%s 进行相关权限的授予，否则应用将不能正常使用</string>
+
+   
+	<string name="maincomponent_dynamictab_dialog_content">tab配置有误,请确保：\n 1、默认配置pages.json中的hidden都不为true \n 2、动态tab配置中hidden都不为true\n3、items有数据，且配置的页面至少存在一个,详情请见log</string>
+    <string name="maincomponent_maintenance_advance_notice">停服预告</string>
+    <string name="maincomponent_do_not_mention_again">以后都不提</string>
+	<string name="maincomponent_running_on_emulator">检测到应用正运行在模拟器上！</string>
+    <string name="maincomponent_running_on_root_device">检测到应用正运行在root过的设备上！</string>
+	<string name="maincomponent_in_maintenance">正在停服中</string>
+    <string name="maincomponent_flow_menu">悬浮窗菜单</string>
+	<string name="maincomponent_maintenance_tip">维护时间：%s ~ %s</string>
+    <string name="maincomponent_maintenance_finish">停服已结束，请您重新启动应用。</string>
+	
+    <!--appfactory相关的资源-->
+    <string name="appfactory_sure">确定</string>
+    <string name="appfactory_apk_changed">应用签名不一致</string>
+    <string name="appfactory_log_level_all">日志已设置  最大级别</string>
+    <string name="appfactory_log_level_info">日志已恢复  默认设置</string>
+    <string name="appfactory_409_title">发现兼容性版本</string>
+    <string name="appfactory_409_cancel">退出应用</string>
+    <string name="appfactory_409_ok">立即更新</string>
+
+    <string name="appfactory_webview_retry">重试</string>
+    <string name="appfactory_webview_more">更多</string>
+    <string name="appfactory_webview_copy_url">复制链接</string>
+    <string name="appfactory_webview_open_with_browser">浏览器中打开</string>
+    <string name="appfactory_webview_refresh">重新载入</string>
+	<string name="appfactory_webview_fontsize">字体大小</string>
+	<string name="appfactory_webview_screenshot">长截图</string>
+    <string name="appfactory_webview_webpage_not_available">网页无法打开</string>
+    <string name="appfactory_webview_network_is_useless">网络不给力啊!</string>
+    <string name="appfactory_webview_load_page_fail">页面加载错误!</string>
+    <string name="appfactory_webview_return">返回</string>
+    <string name="appfactory_webview_copy_to_clipboard">已复制到剪贴板</string>
+    <string name="appfactory_webview_is_not_url">该url无法用浏览器打开</string>
+    <string name="appfactory_webview_ssl_error">安全证书错误</string>
+    <string name="appfactory_webview_file_not_exist">对不起，选择的文件不存在!</string>
+    <string name="appfactory_webview_not_support_file_type">无法打开此类型文件</string>
+    <string name="appfactory_webview_downloading">下载中...</string>
+    <string name="appfactory_webview_security_warning">安全警告</string>
+    <string name="appfactory_webview_warning_content">该网址的安全证书有问题。</string>
+    <string name="appfactory_webview_continue">继续</string>
+    <string name="appfactory_webview_ok">确定</string>
+    <string name="appfactory_webview_view_certification">查看证书</string>
+    <string name="appfactory_webview_security_certificate">安全证书</string>
+    <string name="certificate_issued_to">颁发给：</string>
+    <string name="certificate_common_name">常用名称：</string>
+    <string name="certificate_organization">组织：</string>
+    <string name="certificate_organization_unit">组织单位：</string>
+    <string name="certificate_issued_by">颁发者：</string>
+    <string name="certificate_serial_number">序列号：</string>
+    <string name="certificate_validity">有效期：</string>
+    <string name="certificate_issued_on">颁发时间：</string>
+    <string name="certificate_expires_on">截止时间：</string>
+    <string name="certificate_fingerprints">指纹：</string>
+    <string name="certificate_sha_256">SHA-256指纹：</string>
+    <string name="certificate_sha_1">SHA-1指纹：</string>
+    <string name="appfactory_webview_view_page_info">查看网页信息</string>
+    <string name="appfactory_webview_page_info">网页信息</string>
+    <string name="appfactory_webview_address">网址：</string>
+    <string name="appfactory_activity_covered">"您的界面被覆盖，请确认应用环境是否安全！"</string>
+    <string name="appfactory_webview_not_allow_full_screen">无法在首界面全屏播放视频.</string>
+    <string name="appfactory_oncreate_currentEnv_toast">当前运行环境是 64 位，请检查 .so 文件是否支持 64 位，并确保应用可以正常运行！</string>
+
+    <string name="android_template_boot_page_not_correct">引导页面配置错误，请检查</string>
+    <string name="android_template_confirm">确定</string>
+
+    <string name="appfactory_unknown_error">未知错误</string>
+    <string name="appfactory_invalid_url">URL不合法</string>
+    <string name="appfactory_component_not_found">组件不存在</string>
+    <string name="appfactory_page_not_found">页面没有定义</string>
+    <string name="appfactory_invalid_param">参数不合法</string>
+    <string name="appfactory_empty_url">URL为空</string>
+    <string name="appfactory_invalid_protocol">URL的协议无效</string>
+
+    <string name="appfactory_light_update_service_notify">h5升级通知</string>
+
+    <!--webviewwrapper相关的资源-->
+    <string name="appfactory_webview_dialog_sure">确定</string>
+    <string name="appfactory_webview_dialog_cancel">取消</string>
+    <string name="appfactory_webview_dialog_tips">来自网页的提示</string>
+	 
+    <!-- apf-stand-alone-update 相关的资源 -->
+    <string name="new_common_update_storage_not_enough">磁盘空间不足，无法更新</string>
+    <string name="new_common_update_check_update_error">检查更新错误</string>
+    <string name="new_common_update_check_update_error_latest_version">当前已经是最新版本</string>
+    <string name="new_common_update_check_update_error_request" tools:ignore="UnusedResources">请求错误</string>
+    <string name="new_common_update_check_update_error_network">网络错误，更新失败</string>
+    <string name="new_common_update_check_update_error_json">json解析错误</string>
+    <string name="new_common_update_check_update_error_others">其他错误</string>
+    <string name="new_common_update_check_update_error_downloading">正在下载应用</string>
+    <string name="new_common_update_check_update_error_patching">正在合并增量包</string>
+    <string name="new_common_update_download_patch_failed">增量包下载失败，请点重试按钮下载全量包!</string>
+    <string name="new_common_update_download_apk_failed">全量包下载失败，请点重试按钮重新下载!</string>
+    <string name="new_common_update_turn_on_download_manager">请开启下载管理器。</string>
+    <string name="new_common_update_file_error">下载文件错误！</string>
+    <string name="new_common_update_apk_exist">apk文件已存在</string>
+    <string name="new_common_update_network_unavailable">网络不可用！</string>
+    <string name="new_common_update_download_content_without_name">发现新版本</string>
+    <string name="new_common_update_download_content">发现新版本：%s</string>
+    <string name="new_common_update_SDCard_unavailable">SD卡不可用，下载升级包失败!</string>
+    <string name="new_common_update_update_now">立即更新</string>
+    <string name="new_common_update_retry">重试</string>
+    <string name="new_common_update_pause">暂停更新，请点击重试按钮继续下载！</string>
+    <string name="new_common_update_not_wifi_download_tip">当前为非wifi网络，升级软件可能会被运营商收取流量费用。\n</string>
+    <string name="new_common_update_not_wifi_download_tip_toast">升级将消耗%1$sMB%2$s</string>
+    <string name="new_common_update_download_suceess">（下载已完成）</string>
+    <string name="new_common_update_exist_app">退出程序</string>
+    <string name="new_common_update_cancel">取消</string>
+    <string name="new_common_update_detect_version_on_crash">尝试检查新版本 。。。 </string>
+    <string name="new_common_update_upgraded_tip">如果你已经更新了版本，请选择跳过</string>
+    <string name="new_common_update_tip_on_cancel">强制性升级的版本没法取消。</string>
+    <string name="new_common_update_skip">跳过</string>
+    <string name="new_common_update_try_to_check_update">尝试检查更新</string>
+    <string name="new_common_update_safe_mode_introduction">检测到应用在启动过程中可能发生异常退出的情况，请跟进你的需求慎重选择以下修复方式。</string>
+
+    <string name="new_common_update_download_notify">安装文件下载通知</string>
+    <string name="new_common_update_network_change">网络环境发生变化，如果下载中断，请重新尝试检查更新。</string>
+    <string name="new_common_update_downloading">升级中请勿退出应用</string>
+    <string name="new_common_update_archive_patch_notify">合并增量包中</string>
+    <string name="new_common_update_merge_patch_failed">增量包合并失败，请点重试按钮下载全量包!</string>
+    <string name="new_common_update_exit_app_toast">再按一次返回键退出应用</string>
+    <string name="new_common_update_disagree_uc_permission">隐私政策未征得用户同意，无法提供应用升级服务！</string>
+    <string name="new_common_update_clear_data">删除数据</string>
+    <string name="new_common_update_clear_data_dialog_title">要删除应用数据吗？</string>
+    <string name="new_common_update_clear_data_dialog_message">应用的全部数据删除后不可恢复，包括所有文件、设置、账户、数据库等。</string>
+    <string name="new_common_update_clear_data_dialog_delete_button">删除</string>
+    <string name="new_common_update_clear_data_toast">重启应用中，请稍候&#8230;</string>
+
+	
+	<!-- apf-assemble 相关的资源 -->
+	<string name="apfassemble_permission_dialog_title">权限设置</string>
+    <string name="apfassemble_permission_dialog_content">请前往 设置->应用程序->%1$s 进行 %2$s 的授予，否则应用将不能正常使用</string>
+    <string name="apfassemble_confirm">确定</string>
+    <string name="apfassemble_storage_permissiom">存储权限</string>
+	
+	<!--mafgradle 相关的资源 -->
+	<string name="smartcanframe_commondown_service_notify">通用下载通知</string>
+	<!--h5-implement 相关的资源 -->
+	<string name="h5_implement_redirecting">正在跳转...</string>
+	<string name="h5_implement_redirect_fail">跳转失败</string>
+	<string name="h5_implement_ssl_error_url">原始网页地址：</string>
+    <string name="h5_implement_ssl_error_title">SSL错误详情：</string>
+	<string name="h5_implement_permission_dialog_title">权限设置</string>
+    <string name="h5_implement_permission_dialog_content">请前往 设置->应用程序->%1$s 进行 %2$s 的授予，否则应用将不能正常使用</string>
+    <string name="h5_implement_confirm">确定</string>
+    <string name="h5_implement_storage_permission">存储权限</string>
+	<string name="smartcanframe_network_service_busy">服务器忙，请稍后重试</string>
+	<string name="h5_implement_auth_title">需要验证身份</string>
+    <string name="h5_implement_request_auth">%1$s需要登录后方可使用，请输入站点认证用户名与密码。\n请特别注意辨别网站信息，请勿直接输入本应用的用户名与密码，以防止帐号密码信息泄露！</string>
+    <string name="h5_implement_username">用户名</string>
+    <string name="h5_implement_password">密码</string>
+	<string name="h5_implement_font_standard">标准</string>
+	<string name="h5_implement_font_tip1">设置后改变网页的字体大小，仅对本次浏览生效。</string>
+    <string name="h5_implement_font_tip2">调整字体可能导致部分页面排版错乱。</string>
+	<string name="webcomponent_feature_ssl_certificate_expire">系统时间不正确，请检查并更新系统时间</string>
+	<string name="h5_implement_screen_shot_error">内容过长，生成失败</string>
+    <string name="h5_implement_screen_shot_ing">正在截图...</string>
+    <string name="h5_implement_screen_shot_cancel">取消</string>
+    <string name="h5_implement_screen_shot_error2">截图失败</string>
+    <string name="h5_implement_screen_shot_save_fail">图片保存失败</string>
+    <string name="h5_implement_screen_shot_save_succe">已保存到系统相册</string>
+	<string name="webcomponent_feature_download_manager">下载管理</string>
+	<string name="webcomponent_feature_provide_by">由 %1$s 提供</string>
+	
+	<!--Webview 页面内查找的资源 begin -->
+    <string name="webcomponent_feature_findindpage_input">在页面中查找</string>
+    <string name="webcomponent_feature_findindpage_result">%1$d/%2$d</string>
+    <string name="webcomponent_feature_findindpage_accessibility_result" tools:ignore="PluralsCandidate">第 %1$d 项，共 %2$d 项</string>
+    <string name="webcomponent_feature_findindpage_next_result">查找下一个结果</string>
+    <string name="webcomponent_feature_findindpage_previous_result">查找上一个结果</string>
+    <string name="webcomponent_feature_findindpage_dismiss">关闭页内查找</string>
+	<string name="webcomponent_feature_add_float">加入浮窗</string>
+    <string name="webcomponent_feature_remove_float">移出浮窗</string>
+	<!--Webview 页面内查找的资源 end -->
+	
+	<!-- 下载管理器 begin -->
+	<string name="ext_downloadmanager_download_tip">下载提示</string>
+    <string name="ext_downloadmanager_ok">确定</string>
+    <string name="ext_downloadmanager_cancle">取消</string>
+    <string name="ext_downloadmanager_check_question">是否下载 %1$s ?</string>
+    <string name="ext_downloadmanager_task_type_private">非公开</string>
+    <string name="ext_downloadmanager_task_type_web">浏览器</string>
+    <string name="ext_downloadmanager_task_type_other">其他</string>
+    <string name="ext_downloadmanager_activity_title">下载管理</string>
+    <string name="ext_downloadmanager_empty_task">暂无下载的文件</string>
+    <string name="ext_downloadmanager_file_no_found">找不到文件！</string>
+    <string name="ext_downloadmanager_not_support_file_type">无法打开此类型的文件!</string>
+    <string name="ext_downloadmanager_has_delete">已删除 %1$s !</string>
+    <string name="ext_downloadmanager_fail">下载失败!</string>
+    <string name="ext_downloadmanager_del_download">删除下载</string>
+    <string name="ext_downloadmanager_open_file">打开文件</string>
+    <string name="ext_downloadmanager_pause_download">暂停下载</string>
+    <string name="ext_downloadmanager_goon_download">继续下载</string>
+    <string name="ext_downloadmanager_not_finish_download">下载未完成!</string>
+    <string name="ext_downloadmanager_is_pausing">暂停中</string>
+    <string name="ext_downloadmanager_is_downloading">正在下载</string>
+    <string name="ext_downloadmanager_is_finished">下载已完成!</string>
+	<!-- 下载管理器 end -->
+</resources>

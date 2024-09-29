@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="eeo_com_time_with_day">%1$dd %2$dh %3$dmin %4$ds</string>
+    <string name="eeo_com_time_no_day">%1$dh %2$dmin %3$ds</string>
+    <string name="eeo_com_time_no_hour">%1$dmin %2$ds</string>
+    <string name="eeo_com_no_more_data">No more data.</string>
+    <string name="eeo_com_loading">Loading... Please wait.</string>
+    <string name="eeo_com_loadfail">Loading failed. Click to retry.</string>
+    <string name="eeo_com_time_no_hour_min">%1$ds</string>
+    <string name="eeo_com_no_support">This feature is currently unavailable.</string>
+    <string name="eeo_com_back">Back</string>
+    <string name="eeo_com_share">Share</string>
+    <string name="eeo_com_prepare_activity">Ready page</string>
+    <string name="eeo_com_score_activity">Score page</string>
+    <string name="eeo_com_result_activity">Result page</string>
+    <string name="eeo_com_history_score_activity">Past scores</string>
+    <string name="eeo_com_retry">Retry</string>
+    <string name="eeo_com_analyse">View explanations</string>
+    <string name="eeo_com_redo_exercise">Restart practice</string>
+</resources>

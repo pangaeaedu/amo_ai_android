@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="umeng_socialize_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_comment">评论</string>
+    <string name="umeng_socialize_near_At">最近\@的好友</string>
+    <string name="umeng_socialize_friends">关注的好友</string>
+    <string name="umeng_socialize_tip_blacklist">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧&#8230;</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <!-- 平台名称 -->
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_text_weixin_circle_key">朋友圈</string>
+    <string name="umeng_socialize_text_waitting_share">分享中&#8230;</string>
+    <!-- 11.3 -->
+    <string name="umeng_authorization_failure">授权失效，请重新授权...</string>
+    <string name="umeng_share_content_repeat">分享内容重复...</string>
+    <string name="umeng_share_cancel">取消分享</string>
+    <string name="umeng_send_success">发送成功</string>
+    <string name="umeng_send_failed">发送失败，请重试...</string>
+    <string name="umeng_share_cannot_authorization">不支持授权.</string>
+    <string name="umeng_oauth_error">授权失败,请重试！</string>
+    <string name="umeng_oauth_weibo_title">微博授权</string>
+    <string name="umeng_share_failed">分享失败</string>
+    <string name="umeng_share_success">分享成功</string>
+    <string name="umeng_share_finished">分享结束</string>
+    <string name="umeng_weixin_compressed_image_tip">图片大小超过32KB，正在对图片进行压缩...</string>
+    <string name="umeng_weixin_no_install_WeChat">你还没有安装微信</string>
+    <string name="umeng_weixin_version_too_low">你安装的微信版本不支持当前API</string>
+    <string name="umeng_weixin_content_is_empty">请设置分享内容...</string>
+    <string name="umeng_edit_share_error">出错啦！</string>
+    <string name="umeng_edit_share_weibo">分享到新浪微博</string>
+    <string name="umeng_edit_share_sending">发送中...</string>
+    <string name="umeng_edit_share_content_empty">输入内容为空...</string>
+    <string name="umeng_edit_share_content_more_than_limit">输入内容超过140个字.</string>
+    <string name="umeng_edit_share_more_limit">超出最大字数限制.</string>
+    <string name="umeng_edit_share_location_failed">获取地理位置失败，请稍候重试.</string>
+    <string name="umeng_edit_share_loading">载入中,请稍候...</string>
+    <string name="umeng_edit_share_delete_image">你确定删除图片吗？</string>
+    <string name="umeng_edit_share_delete_location">是否删除位置信息？</string>
+    <string name="umeng_edit_share_confirm">确认</string>
+    <string name="umeng_edit_share_cancel">取消</string>
+    <string name="umeng_share_qzone_titel">分享到QQ空间</string>
+    <string name="umeng_share_qq_title">分享到QQ</string>
+    <string name="umeng_share_weixin_share_prefix">分享到</string>
+</resources>

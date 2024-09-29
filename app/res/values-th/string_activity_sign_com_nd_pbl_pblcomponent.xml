@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--签到页面-->
+    <!--标题-->
+    <string name="starapp_life_sign_title">เช็คอิน</string>
+    <!--签到成功但服务端未返回提示信息时的默认提示语-->
+    <string name="starapp_life_sign_success">เช็คอินสำเร็จ</string>
+    <!--补签提示语-->
+    <string name="starapp_life_resign_message">คุณต้องการทำการเช็คอินเพื่อ %1$d คะแนน หรือไม่?</string>
+    <!--异常提示信息-->
+    <string name="EX_SIGN_REWARD_NOT_ENOUGH">คะแนนคงเหลือไม่เพียงพอ ไม่สามารถเติมวันได้</string>
+    <string name="EX_SIGN_SIGN_DATE_EXPIRED">เกินกำหนดการลา</string>
+    <string name="EX_SIGN_DUPLICATE_SIGN">เช็คอินซ้ำ</string>
+    <string name="EX_SIGN_FORBID_SIGN_ADVANCE">ไม่อนุญาตให้ลงชื่อเข้าร่วมล่วงหน้า</string>
+    <string name="EX_SIGN_AMQP_ENQUEUE_FAILED">ลงชื่อเข้าสู่ทีมล้มเหลว</string>
+    <string name="EX_SIGN_FILL_SIGN_FAILED">ล้มเหลวในการลงชื่อเข้าใช้ในภายหลัง</string>
+    <string name="EX_SIGN_FILL_SIGN_REFUSE">ไม่สามารถเติมวันได้</string>
+    <string name="EX_SIGN_SIGN_IS_INVALID">ลายเซ็นไม่ถูกต้อง</string>
+    <!--公历月份显示值-->
+    <string-array name="starapp_life_sign_calendar_month_solar"><item>มกราคม</item><item>กุมภาพันธ์</item><item>มีนาคม</item><item>เมษายน</item><item>พฤษภาคม</item><item>มิถุนายน</item><item>กรกฎาคม</item><item>สิงหาคม</item><item>กันยายน</item><item>ตุลาคม</item><item>พฤศจิกายน</item><item>ธันวาคม</item></string-array>
+    <!--星期排列-->
+    <string-array name="starapp_life_sign_calendar_week_days"><item>วันจันทร์</item><item>วันอังคาร</item><item>วันพุธ</item><item>วันพฤหัสบดี</item><item>วันศุกร์</item><item>วันเสาร์</item><item>วันอาทิตย์</item></string-array>
+    <!--农历月份显示值(每月初一)-->
+    <string-array name="starapp_life_sign_calendar_month_lunar"><item>เดือนมกร</item><item>เดือนอีกครั้งมกร</item><item>เดือนกุมภา</item><item>เดือนอีกครั้งกุมภา</item><item>เดือนมีนาคม</item><item>เดือนอีกครั้งมีนาคม</item><item>เดือนเมษายน</item><item>เดือนอีกครั้งเมษายน</item><item>เดือนพฤษภา</item><item>เดือนอีกครั้งพฤษภา</item><item>เดือนมิถุนายน</item><item>เดือนอีกครั้งมิถุนายน</item><item>เดือนกรกฎาคม</item><item>เดือนอีกครั้งกรกฎาคม</item><item>เดือนสิงหาคม</item><item>เดือนอีกครั้งสิงหาคม</item><item>เดือนกันยายน</item><item>เดือนอีกครั้งกันยายน</item><item>เดือนตุลาคม</item><item>เดือนอีกครั้งตุลาคม</item><item>เดือนธันวาคม</item><item>เดือนอีกครั้งธันวาคม</item></string-array>
+    <!--农历日期显示值-->
+    <string-array name="starapp_life_sign_calendar_day_lunar"><item>วันที่หนึ่ง</item><item>วันที่สอง</item><item>วันที่สาม</item><item>วันที่สี่</item><item>วันที่ห้า</item><item>วันที่หก</item><item>วันที่เจ็ด</item><item>วันที่แปด</item><item>วันที่เก้า</item><item>วันที่สิบ</item><item>สิบเอ็ด</item><item>สิบสอง</item><item>สิบสาม</item><item>สิบสี่</item><item>สิบห้า</item><item>สิบหก</item><item>สิบเจ็ด</item><item>สิบแปด</item><item>สิบเก้า</item><item>ยี่สิบ</item><item>ยี่สิบเอ็ด</item><item>ยี่สิบสอง</item><item>ยี่สิบสาม</item><item>ยี่สิบสี่</item><item>ยี่สิบห้า</item><item>ยี่สิบหก</item><item>ยี่สิบเจ็ด</item><item>ยี่สิบแปด</item><item>ยี่สิบเก้า</item><item>สามสิบ</item></string-array>
+</resources>

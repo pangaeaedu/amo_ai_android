@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_dynamic_net_error_tips">เกิดข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดลองใหม่</string>
+    <string name="el_dynamic_data_error_tips">การวิเคราะห์ข้อมูลผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="el_dynamic_load_fail_retry">โหลดล้มเหลว โปรดลอยด์เพื่อลองใหม่</string>
+    <string name="el_dynamic_has_no_dynamic">ไม่มีข่าวสารเลย</string>
+    <string name="el_dynamic_time_format">MM เดือน dd วัน</string>
+
+    <string name="el_dynamic_album_dynamic_content">อัปโหลดรูปภาพ %s ไปที่อัลบั้ม</string>
+    <string name="el_dynamic_publish_notice">เผยแพร่ประกาศ</string>
+    <string name="el_dynamic_publis_acitivity">โพสต์กิจกรรม</string>
+    <string name="el_dynamic_publish_new_vote">เผยแพร่โพลล์</string>
+    <string name="el_dynamic_publish_voting">เผยแพร่การโหวต</string>
+    <string name="el_dynamic_publish_class_schedule">เผยแพร่ตารางเรียน</string>
+    <string name="el_dynamic_publish_topic">เผยแพร่</string>
+    <string name="el_dynamic_join_community">เข้าร่วมชุมชน</string>
+    <string name="el_dynamic_pulish_punch_card">โพสต์การปฏิบัติงาน</string>
+    <string name="el_dynamic_pulish_quetionnaire">เผยแพร่แบบสอบถาม</string>
+    <string name="el_dynamic_pulish_news">เผยแพร่ข่าว</string>
+    <string name="el_dynamic_join">%1$s เข้าร่วม %2$s</string>
+    <string name="el_dynamic_dynamic_from">จาก %s</string>
+    <string name="el_dynamic_punch_card_time">เวลากิจกรรม：%1$s-%2$s</string>
+    <string name="el_dynamic_class_dynamic">ไดนามิก</string>
+    <string name="el_dynamic_dynamic">เคลื่อนไหว</string>
+    <string name="el_dynamic_more">เพิ่มเติม</string>
+
+    <string name="el_dynamic_ten_loading">กำลังโหลด...</string>
+
+    <string name="el_dynamic_listview_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+    <string name="el_dynamic_listview_loadfail">โหลดล้มเหลว กรุณาลองใหม่</string>
+</resources>

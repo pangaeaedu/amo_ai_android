@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="webview_wrapper_save_to_device">บันทึกลงอุปกรณ์</string>
+    <string name="webview_wrapper_save_to_device_toast">รูปภาพถูกบันทึกไว้ที่:</string>
+    <string name="webview_wrapper_save_image">บันทึกรูปภาพ</string>
+    <string name="webview_wrapper_save_image_permission_disable">การอนุญาตการจัดเก็บถูกปิดใช้งานโดยผลิตภัณฑ์</string>
+    <string name="webview_wrapper_save_image_to_system">บันทึกลงอัลบั้มระบบแล้ว</string>
+    <string name="webview_wrapper_tabbar_error">หน้าแอปเล็กเฉพาะสามารถกำหนดค่าในหน้าระดับหนึ่งเท่านั้น เพื่อใช้เรียกเมนูแท็บแสดง/ซ่อน</string>
+    <string name="webview_wrapper_permission_disable">การอนุญาตสถานที่ถูกปิดใช้งานโดยผลิตภัณฑ์</string>
+    <string name="webview_wrapper_no_gps_permission">โปรดตรวจสอบว่า GPS ได้เปิดใช้งานแล้วหรือยัง</string>
+</resources>

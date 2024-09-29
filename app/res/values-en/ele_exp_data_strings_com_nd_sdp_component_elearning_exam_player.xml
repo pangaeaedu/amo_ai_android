@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_exp_data_network_error">Connection error. Please check your network connection.</string>
+    <string name="ele_exp_data_json_convert_error">Data parsing error. Please try again later.</string>
+    <string name="ele_exp_data_get_data_error">Data loading error. Please try again later.</string>
+    <string name="ele_exp_data_unknown_error">Loading error. Please try again later.</string>
+    <string name="ele_exp_data_server_time_error">Failed to get server time.</string>
+</resources>

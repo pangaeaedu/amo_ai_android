@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ele_oc_synthesize">综合</string>
+    <string name="ele_oc_hottest">最热</string>
+    <string name="ele_oc_newest">最新</string>
+    <string name="ele_oc_loading">加载中...</string>
+    <string name="ele_oc_no_more_data">没有更多数据啦</string>
+    <string name="ele_oc_study_num"> 人学习</string>
+    <string name="ele_oc_study_hours"> 学时</string>
+    <string name="ele_oc_list_empty">您暂时没有学习课程</string>
+
+    <string name="ele_oc_search">搜索</string>
+    <string name="ele_oc_unit_task">个任务</string>
+    <string name="ele_oc_course_type">课程分类</string>
+    <string name="ele_oc_pr_train_question_discription">共 %1$s 题，已完成 %2$s 题</string>
+    <string name="ele_oc_pr_go_finished">查看已完成</string>
+    <string name="ele_oc_pr_no_problems">%s没有未完成的题目可供练习</string>
+
+    <string name="ele_oc_study_hours_unit"> 学时</string>
+
+    <string-array name="ele_oc_status_type">
+        <item>@string/ele_oc_status_type_all</item>
+        <item>@string/ele_oc_status_type_opening</item>
+        <item>@string/ele_oc_status_type_waiting</item>
+        <item>@string/ele_oc_status_type_finish</item>
+    </string-array>
+
+    <string name="ele_oc_status_type_all">全部</string>
+    <string name="ele_oc_status_type_opening">进行中</string>
+    <string name="ele_oc_status_type_waiting">未开始</string>
+    <string name="ele_oc_status_type_finish">已结束</string>
+
+    <string name="ele_oc_free_experience">免费体验</string>
+    <string name="ele_oc_cancel">取消</string>
+
+</resources>

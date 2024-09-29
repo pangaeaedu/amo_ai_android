@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_exp_cnt_exercise_finish">สิ้นสุดการฝึก</string>
+    <string name="ele_exp_cnt_exercise_exit_review_video">ออกจากการดูครั้งก่อน\nเนื้อหา</string>
+    <string name="ele_exp_cnt_exercise_continue">ทำต่อ</string>
+    <string name="ele_exp_cnt_exercise_restart">ตอบคำถามอีกครั้ง</string>
+    <string name="ele_exp_cnt_exercise_undo_tip">คุณยังมีคำถามที่ยังไม่ได้ตอบ %1$d ข้อ หากออกจากการฝึก คุณจะไม่สามารถดูวิดีโอที่เหลือ</string>
+</resources>

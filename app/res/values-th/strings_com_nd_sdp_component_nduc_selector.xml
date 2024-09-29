@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="nduc_selector_loading_failed">การโหลดข้อมูลล้มเหลว</string>
+    <string name="nduc_selector_selected_item_title">เลือกแล้ว</string>
+    <string name="nduc_selector_selected_max">สามารถเลือกได้มากสุด %d รายการ</string>
+    <string name="nduc_selector_completed">เสร็จสิ้น</string>
+    <string name="nduc_selector_clear_all_data">ล้าง</string>
+    <string name="nduc_selector_clear_all_data_dialog_msg">คุณแน่ใจหรือว่าต้องการล้างผลลัพธ์ที่เลือกไว้?</string>
+    <string name="nduc_selector_count_limit_tip">จำนวนที่เลือกไว้ได้มากเกินไป</string>
+    <string name="nduc_selector_tab_institution">โครงสร้างองค์กร</string>
+    <string name="nduc_selector_tab_my_org">องค์กรปัจจุบัน</string>
+    <string name="nduc_selector_tab_history">บันทึกล่าสุด</string>
+    <string name="nduc_selector_tab_custom_group">กลุ่มที่กำหนดเอง</string>
+    <string name="nduc_selector_not_record_tip">ไม่มีบันทึก</string>
+    <string name="nduc_selector_not_search_result_tip">ไม่มีผลลัพธ์</string>
+    <string name="nduc_selector_not_error_tip">โหลดข้อมูลผิดพลาดแล้ว~</string>
+    <string name="nduc_selector_not_error_button_text_retry">โหลดข้อมูลใหม่</string>
+    <string name="nduc_selector_params_error">พารามิเตอร์ไม่ถูกต้อง</string>
+    <string name="nduc_selector_condition_single_init_text">คัดเลือก</string>
+    <string name="nduc_selector_condition_mul_reset">รีเซ็ต</string>
+    <string name="nduc_selector_condition_mul_ok">ตกลง</string>
+    <string name="nduc_selector_condition_single_all">ทั้งหมด</string>
+    <string name="nduc_selector_select_all">เลือกทั้งหมด</string>
+    <string name="nduc_selector_without_condition">ข้อมูลเงื่อนไขว่างเปล่า!</string>
+    <string name="nduc_selector_title_select_user">เลือกบุคคล</string>
+    <string name="nduc_selector_title_select_org">เลือกองค์กร</string>
+    <string name="nduc_selector_title_select_node">เลือกโหนด</string>
+    <string name="nduc_selector_title_select_org_or_node">เลือกองค์กรหรือโหนด</string>
+    <string name="nduc_selector_item_load_more">ดูบุคคลเพิ่มเติม</string>
+    <string name="nduc_selector_load_more_button_ok">ตกลง</string>
+    <string name="nduc_selector_refresh_dialog_msg">การรีเฟรชจะล้างทิ้งที่เลือกไว้ คุณแน่ใจหรือไม่ที่จะรีเฟรช?</string>
+    <string name="nduc_selector_refresh_dialog_positive">ตกลง</string>
+    <string name="nduc_selector_refresh_dialog_negative">ยกเลิก</string>
+    <string name="nduc_selector_search">ค้นหา</string>
+    <string name="nduc_selector_location_tip">ภูมิภาคที่ตั้งอยู่</string>
+    <string name="nduc_selector_person_join_type_with_check">ต้องการตรวจสอบ</string>
+    <string name="nduc_selector_person_join_type_without_check">ไม่จำเป็นต้องตรวจสอบ</string>
+    <string name="nduc_selector_person_join_type_disallow">ไม่สามารถเข้าร่วม</string>
+</resources>

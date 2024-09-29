@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- ThirdLoginComponent相关的资源 -->
+    <string name="third_login_component_qq">เข้าสู่ระบบด้วย QQ</string>
+    <string name="third_login_component_wechat">เข้าสู่ระบบด้วย WeChat</string>
+    <string name="third_login_component_weibo">เข้าสู่ระบบด้วย Weibo</string>
+    <string name="third_login_component_facebook">เข้าสู่ระบบด้วย Facebook</string>
+    <string name="third_login_component_twitter">เข้าสู่ระบบด้วย Twitter</string>
+	<string name="third_login_component_nd99">เข้าสู่ระบบด้วย 99</string>
+	<string name="third_login_component_google">เข้าสู่ระบบด้วย Google</string>
+	<string name="third_login_component_dropbox">เข้าสู่ระบบด้วย Dropbox</string>
+	<string name="third_login_component_line">เข้าสู่ระบบด้วย Line</string>
+	<string name="third_login_component_unt">เข้าสู่ระบบด้วย Beidé</string>
+	<string name="third_login_component_pearson">เข้าสู่ระบบด้วย Pearson</string>
+	<string name="third_login_component_edmodo">เข้าสู่ระบบด้วย Edmodo</string>
+	<string name="third_login_component_edmodo_logout_title">ออกจากระบบ | Edmodo</string>
+</resources>

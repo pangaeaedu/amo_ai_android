@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_task_net_error_tips">Network connection error, please try again</string>
+    <string name="el_task_data_error_tips">Data parsing error, please try again</string>
+
+    <string name="el_task_loading_wait">Loading…Please wait…</string>
+
+    <string name="el_task_no_more_data">No more data</string>
+    <string name="el_task_more">More</string>
+
+    <string name="el_task_wait_for_loading">Loading…</string>
+    <string name="el_task_retry">Try again</string>
+    <string name="el_task_no_task">No data</string>
+
+    <string name="el_task_net_work_err">Network error!</string>
+    <string name="el_task_net_work_err1">Network error.</string>
+    <string name="el_task_load_fail">Failed to load!</string>
+
+    <string name="el_task_seems_to_be_in_strange_place">Something wrong!</string>
+    <string name="el_task_network_error_2">Network error!</string>
+
+    <string name="el_task_doing">Ongoing Tasks</string>
+    <string name="el_task_end">Completed Tasks</string>
+    <string name="el_task_detail">Details</string>
+    <string name="el_task_require">Requirements:</string>
+    <string name="el_task_content">Name:</string>
+
+    <string name="el_task_new">New Tasks</string>
+    <string name="el_task_timeout">Expired</string>
+    <string name="el_task_time_require">Time Required:</string>
+
+    <string name="el_task_time_description">Descriptions:</string>
+
+    <string name="el_task_learn_tasks">Task</string>
+
+    <string name="el_task_reward">Task Rewards</string>
+    <string name="el_task_reward_condition">(No rewards for expired tasks. Please be on time.)</string>
+
+    <string name="el_task_period_once">One-time</string>
+    <string name="el_task_period_daily">Daily</string>
+    <string name="el_task_period_weekly">Weekly</string>
+    <string name="el_task_period_workday">Per workday</string>
+
+    <string name="el_task_unqualified">Failed</string>
+    <string name="el_task_abort">Closed</string>
+    <string name="el_task_completed">Completed</string>
+    <string name="el_task_wait_completed">To be done</string>
+    <string name="el_task_has_end">Closed</string>
+    <string name="el_task_wait_examine">To be reviewed</string>
+    <string name="el_task_delay">Postponing</string>
+    <string name="el_task_receive_rewards">Claim Rewards</string>
+    <string name="el_task_received_rewards">Claimed</string>
+    <string name="el_task_to_work">Go to finish the task</string>
+    <string name="el_task_view_task">View the task</string>
+
+    <!-- 改版后新增字符资源（20180110）-->
+    <string name="el_task_my_task">My tasks</string>
+    <string name="el_task_tab_underway">Ongoing (%s)</string>
+    <string name="el_task_tab_completed">Completed (%s)</string>
+    <string name="el_task_require_sub_task">Requirement: Complete %s sub-tasks</string>
+    <string name="el_task_detail_require_sub_task">Task requirement: Complete %s sub-tasks</string>
+    <string name="el_task_time_require_format">Deadline: %s</string>
+    <string name="el_task_time_end_time">Deadline: %s</string>
+    <string name="el_task_loading">Loading…</string>
+    <string name="el_task_detail_title">Task Details</string>
+    <string name="el_task_intro">Task Description</string>
+    <string name="el_task_detail_tab_underway">ONGOING</string>
+    <string name="el_task_detail_tab_completed">Ended</string>
+    <string name="el_task_end_time">Deadline:%s</string>
+    <string name="el_task_per_day">Learning cycle: daily learning</string>
+    <string name="el_task_per_week_day">Learning cycle: daily (workday) learning</string>
+    <string name="el_task_per_week">Learning cycle: weekly learning</string>
+    <string name="el_task_per_moth">Learning cycle: monthly learning</string>
+    <string name="el_task_order_sub_tips">The current task needs to learn in order, that is, the next sub-task will be automatically unlocked after the previous task is completed.</string>
+    <string name="el_task_ended_status_tip">The task has been closed.</string>
+    <string name="el_task_sub_ended_tip">The current sub-task has ended, unable to learn.</string>
+    <string name="el_task_sub_locked_tip">The current sub-tasks have not been unlocked yet, unable to learn.</string>
+    <string name="el_task_progress_calculate_rule">Progress Calculation Rules</string>
+    <string name="el_task_has_finish_count">Completed %1$d/%2$d</string>
+    <string name="el_task_ask_content">Task Content:</string>
+    <string name="el_task_progress_way">Learning progress calculation:</string>
+    <string name="el_task_progress_way_detail">1. The proportion of each subtask is equally divided. If there are a total of 5 subtasks, each subtask will account for 20%;\n2. If it is a periodic subtask, its proportion should be further divided by the number of cycles equally.</string>
+    <string name="el_task_example">For example:</string>
+    <string name="el_task_example_detail">There are two subtasks in total, one is to complete course A (one-time task), and the other is Three Questions A Day exam B (periodic task, a total of four cycles). If the user hasn\'t started course A but completed a cycle of exam B, the task completion progress will be (0%+25%)/2.</string>
+</resources>

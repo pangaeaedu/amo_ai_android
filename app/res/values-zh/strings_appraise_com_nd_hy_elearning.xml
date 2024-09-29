@@ -1,0 +1,51 @@
+<resources>
+    <string name="ele_evaluation_write_evaluation">我要写评价...</string>
+    <string name="ele_evaluation_unknown_user">该用户信息不存在</string>
+    <string name="ele_evaluation_loading">加载中...</string>
+    <string name="ele_evaluation_no_more_data">没有更多数据啦</string>
+    <string name="ele_evaluation_evaluation">评价</string>
+    <string name="ele_evaluation_content_cannot_be_empty">内容不能为空</string>
+    <string name="ele_evaluation_content_too_long">内容超过限制</string>
+    <string name="ele_evaluation_submit_success">提交成功</string>
+    <string name="ele_evaluation_cancel">取消</string>
+    <string name="ele_evaluation_submit">提交</string>
+    <string name="ele_evaluation_delete">删除</string>
+    <string name="ele_evaluation_great">非常好</string>
+    <string name="ele_evaluation_very_good">很好</string>
+    <string name="ele_evaluation_good">较好</string>
+    <string name="ele_evaluation_ok">一般</string>
+    <string name="ele_evaluation_no_good">差</string>
+    <string name="ele_evaluation_net_err_hint">请检查您的网络设置</string>
+    <string name="ele_evaluation_data_parse_err_hint">数据解析错误</string>
+    <string name="ele_evaluation_operation_fail">操作失败，请重试</string>
+    <string name="ele_evaluation_no_evaluation_data">暂无评价</string>
+    <string name="ele_evaluation_evaluation_counts_unknown">0条评价</string>
+    <string name="ele_evaluation_evaluation_counts_x">%1$d条评价</string>
+    <string name="ele_evaluation_evaluation_score_x">%1$s分</string>
+    <string name="ele_evaluation_login_please">请登录</string>
+    <string name="ele_evaluation_login_use_please">请登录后使用</string>
+    <string name="ele_evaluation_login">登录</string>
+
+    <string name="ele_evaluation_err_msg_waf_bad_request">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_require_argument">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_invalid_argument">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_unauthorized">请登录</string>
+    <string name="ele_evaluation_err_msg_waf_auth_token_expired">请重新登录</string>
+    <string name="ele_evaluation_err_msg_waf_auth_invalid_token">请重新登录</string>
+    <string name="ele_evaluation_err_msg_waf_auth_invalid_timestamp">请重新登录</string>
+    <string name="ele_evaluation_err_msg_waf_request_denied">禁止访问</string>
+    <string name="ele_evaluation_err_msg_waf_auth_denied">禁止访问</string>
+    <string name="ele_evaluation_err_msg_waf_not_found">找不到资源</string>
+    <string name="ele_evaluation_err_msg_waf_method_not_allowed">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_not_acceptable">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_unsupported_media_type">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_request_rate_limited">请求过于频繁</string>
+    <string name="ele_evaluation_err_msg_waf_internal_server_error">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_bad_gateway">请求失败</string>
+    <string name="ele_evaluation_err_msg_waf_service_unavailable">请求失败</string>
+    <string name="ele_evaluation_err_msg_network_default">操作失败，请重试</string>
+
+    <string name="ele_evaluation_maintenance">更新维护中，请稍后再试...</string>
+    <string name="ele_evaluation_tips">提示</string>
+
+</resources>

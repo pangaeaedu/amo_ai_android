@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emotion_view_get_config_error">表情配置读取错误</string>
+    <string name="emotion_view_no_history">暂无历史表情</string>
+    <string name="emotion_unknown">表情</string>
+    <string name="emotion_recent">最近使用</string>
+    <string name="emotion_system">系统表情</string>
+    <string name="emotion_emoji">Emoji表情</string>
+    <string name="emotion_i_like">我喜欢的</string>
+    <string name="emotion_group_number">表情分组 %1$d</string>
+    <string name="emotion_setting">设置</string>
+    <string name="emotion_mall">表情商城</string>
+</resources>

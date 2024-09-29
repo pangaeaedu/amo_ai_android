@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="xxueui_tools_menu_name">ตัวเลือก</string>
+
+    <!-- 对话框 -->
+    <string name="xxueui_dialog_cancel">ยกเลิก</string>
+    <string name="xxueui_dialog_ok">ยืนยัน</string>
+
+    <string name="xxueui_dialog_title">หัวข้อ</string>
+
+    <string name="xxueui_barrier_description_empty">อ๊ะ ที่นี่ว่างเปล่าเลย</string>
+    <string name="xxueui_barrier_description_network_error">อ๊ะ เครือข่ายหลุด</string>
+    <string name="xxueui_barrier_description_error">อ๊ะ มีข้อผิดพลาด</string>
+
+    <string name="xxueui_barrier_button_empty">ดูอย่างอื่น</string>
+    <string name="xxueui_barrier_button_network_error">ลองรีเฟรช</string>
+    <string name="xxueui_barrier_button_error">ดูอย่างอื่น</string>
+
+    <string name="xxueui_dialog_network_error_title">ข้อผิดพลาดของเครือข่าย</string>
+    <string name="xxueui_dialog_network_error_content">ตรวจสอบว่ามือถือเปิดเครือข่ายเคลื่อนที่หรือไวไฟหรือไม่</string>
+    <string name="xxueui_dialog_network_error_ok">ตรวจสอบการตั้งค่า</string>
+
+    <string name="xxueui_page_not_support_tips">เวอร์ชั่นปัจจุบันไม่รองรับฟังก์ชันนี้ โปรดอัปเกรดก่อนใช้</string>
+    <string name="xxueui_administrative_class">ห้องเรียน</string>
+    <string name="xxueui_common_no_more_data">ถึงจุดสิ้นสุดแล้ว ไม่มีข้อมูลเพิ่มเติม</string>
+    <string name="xxueui_tip_pullup_to_load_more">ลากเพื่อโหลดเพิ่มเติม...</string>
+    <string name="xxueui_load_done">โหลดเสร็จสิ้น</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="uivcs_vision_particle_avatar">รูปภาพโปรไฟล์</string>
+    <string name="uivcs_vision_particle_birthday">รูปวันเกิด</string>
+    <string name="uivcs_vision_particle_icon">รูปภาพ</string>
+</resources>

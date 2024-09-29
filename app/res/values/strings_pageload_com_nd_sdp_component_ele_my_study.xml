@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_baseryview_load_footer">No more data</string>
+    <string name="el_baseryview_more">More</string>
+    <string name="el_baseryview_listview_loading">Loading...</string>
+</resources>

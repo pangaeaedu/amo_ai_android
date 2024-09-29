@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 日历2.0  高亮色 -->
+    <color name="com_nd_calendar2_highlight">@color/color14</color>
+    <!-- 日历2.0  日期的数字，黑色字体 -->
+    <color name="com_nd_calendar2_date_num">@color/color1</color>
+    <!-- 日历2.0  节日、农历的灰色字体 -->
+    <color name="com_nd_calendar2_lunar_gray">@color/color4</color>
+    <!-- 日历2.0  禁用态的字体、空心圆圈颜色 -->
+    <color name="com_nd_calendar2_disable">@color/color5</color>
+    <!-- 日历2.0  第二个选中日期的背景颜色 -->
+    <color name="com_nd_calendar2_select2">@color/color18</color>
+    <!-- 日历2.0  选中区域的背景颜色 -->
+    <color name="com_nd_calendar2_bg_select">@color/color15</color>
+    <!-- 日历2.0  禁用区域的背景颜色 -->
+    <color name="com_nd_calendar2_bg_disable">@color/color11</color>
+
+</resources>

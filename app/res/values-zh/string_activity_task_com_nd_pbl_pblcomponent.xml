@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--任务列表-->
+    <!--标题-->
+    <string name="starapp_life_task_task_title">任务</string>
+    <!--详细内容展开收起-->
+    <string name="starapp_life_task_details_expand">[展开]</string>
+    <string name="starapp_life_task_details_collapse">[收起]</string>
+
+    <!--奖励列表-->
+    <!--标题-->
+    <string name="starapp_life_task_reward_title">领取奖励</string>
+    <!--领取奖励成功但服务端未返回提示信息时的默认提示信息-->
+    <string name="starapp_life_task_receive_success">领取成功!</string>
+
+    <!--重复任务提示框-->
+    <!--标题-->
+    <string name="starapp_life_task_duplicate_title">提示</string>
+    <!--确定-->
+    <string name="starapp_life_task_duplicate_confirm">确定</string>
+    <!--取消-->
+    <string name="starapp_life_task_duplicate_cancel">取消</string>
+    <!--任务进度提示信息-->
+    <string name="starapp_life_task_schedules_message">棒棒哒，你已经完成任务#schedules#啦，再加把劲哦~</string>
+    <!--任务截止日期显示值-->
+    <string name="starapp_life_task_end_date_formatter">\'截止日期\' yyyy-MM-dd HH:mm</string>
+    <!--奖励截止日期显示值-->
+    <string name="starapp_life_reward_end_date_formatter">\'截止日期\' yyyy-MM-dd HH:mm</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="true">
+    <size
+        android:width="@dimen/nd_camera_video_seek_thumb_height"
+        android:height="@dimen/nd_camera_video_seek_thumb_height" />
+    <solid android:color="@color/nd_camera_video_color7" />
+
+</shape>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--任务列表-->
+    <!--标题-->
+    <string name="starapp_life_task_task_title">Task</string>
+    <!--详细内容展开收起-->
+    <string name="starapp_life_task_details_expand">[View Details]</string>
+    <string name="starapp_life_task_details_collapse">[Hide]</string>
+
+    <!--奖励列表-->
+    <!--标题-->
+    <string name="starapp_life_task_reward_title">Claim Rewards</string>
+    <!--领取奖励成功但服务端未返回提示信息时的默认提示信息-->
+    <string name="starapp_life_task_receive_success">Claimed Successfully!</string>
+
+    <!--重复任务提示框-->
+    <!--标题-->
+    <string name="starapp_life_task_duplicate_title">Prompt</string>
+    <!--确定-->
+    <string name="starapp_life_task_duplicate_confirm">Confirm</string>
+    <!--取消-->
+    <string name="starapp_life_task_duplicate_cancel">Cancel</string>
+    <!--任务进度提示信息-->
+    <string name="starapp_life_task_schedules_message">Excellent, my friend! You have completed #schedules# task. Keep going!</string>
+    <!--任务截止日期显示值-->
+    <string name="starapp_life_task_end_date_formatter">\'截止日期\' yyyy-MM-dd HH:mm</string>
+    <!--奖励截止日期显示值-->
+    <string name="starapp_life_reward_end_date_formatter">\'截止日期\' yyyy-MM-dd HH:mm</string>
+</resources>

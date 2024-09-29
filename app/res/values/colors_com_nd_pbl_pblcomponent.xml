@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="starapp_life_pink">#ffdc487f</color>
+
+    <color name="starapp_life_blue_normal">#4881dc</color>
+    <color name="starapp_life_blue_click">#124ca8</color>
+
+    <color name="starapp_life_green_normal">#55cec7</color>
+    <color name="starapp_life_green_click">#20a098</color>
+
+    <color name="starapp_life_real_green_normal">#7fc85c</color>
+    <color name="starapp_life_real_green_click">#5ba637</color>
+
+    <color name="starapp_life_purple_normal">#8968bb</color>
+    <color name="starapp_life_purple_click">#57368a</color>
+
+    <color name="starapp_life_brown_normal">#c39361</color>
+    <color name="starapp_life_brown_click">#8e5b28</color>
+
+    <color name="pbl_red_dot_color">#ff0000</color>
+</resources>

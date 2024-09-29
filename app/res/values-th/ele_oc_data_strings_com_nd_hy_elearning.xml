@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_oc_network_error">การเชื่อมต่อผิดพลาด โปรดตรวจสอบการเชื่อมต่อของคุณ!</string>
+    <string name="ele_oc_network_low">สถานะเครือข่ายไม่ดี โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="ele_oc_data_error">การวิเคราะห์ข้อมูลผิดพลาด โปรดลองอีกครั้ง</string>
+    <string name="ele_oc_service_error">บริการขัดข้อง</string>
+</resources>

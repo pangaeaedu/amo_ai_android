@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="sdp_flow_control_loading">Loading...</string>
+    <string name="sdp_flow_control_component_is_not_exist">Unavailable</string>
+    <string name="sdp_flow_control_net_error_tips">Network connection error. Please try again.</string>
+    <string name="sdp_flow_control_data_error_tips">Parse error. Please try again.</string>
+    <string name="sdp_flow_control_dialog_app_line_content">The app is very popular and busy, please be patient and try again later~</string>
+    <string name="sdp_flow_control_dialog_app_line_ok">Got it</string>
+    <string name="sdp_flow_control_func_not_open">Unavailable</string>
+    <string name="sdp_flow_control_retry">Retry</string>
+    <string name="sdp_flow_control_retry_later">Please try again later</string>
+</resources>

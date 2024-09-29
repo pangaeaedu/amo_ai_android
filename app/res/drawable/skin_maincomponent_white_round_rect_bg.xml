@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#f7f7f7"/>
+    <corners android:topLeftRadius="@dimen/skin_maincomponent_dp10"
+        android:topRightRadius="@dimen/skin_maincomponent_dp10"/>
+</shape>

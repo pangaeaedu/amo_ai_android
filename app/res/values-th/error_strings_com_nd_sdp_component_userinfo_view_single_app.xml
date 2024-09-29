@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="uivs_error_component_can_not_be_empty">component can not be empty !!!</string>
+    <string name="uivs_error_illegal_uid">illegal uid !!!</string>
+    <string name="uivs_error_inflater_can_not_be_null">LayoutInflater can not be null !!!</string>
+    <string name="uivs_error_context_can_not_be_null">context can not be null !!!</string>
+    <string name="uivs_error_group_view_can_not_be_null">group view can not be null !!!</string>
+    <string name="uivs_error_count_can_not_less_than_one">count can not less than one !!!</string>
+    <string name="uivs_error_empty_list">empty list !!!</string>
+    <string name="uivs_error_invalid_color">invalid color !!!</string>
+    <string name="uivs_error_callback_can_not_be_null">request can not be null !!!</string>
+    <string name="uivs_error_insert_view_have_a_illegal_parent">insert view have a illegal parent !!!</string>
+</resources>

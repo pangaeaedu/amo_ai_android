@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--准备按钮-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/eeo_color8" android:state_enabled="false" />
+    <item android:drawable="@color/eeo_com_bg_blue_pressed" android:state_pressed="true" />
+    <item android:drawable="@color/eeo_com_bg_blue" />
+</selector>

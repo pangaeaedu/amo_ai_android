@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="esv_loading_text">Loading... Please wait.</string>
+    <string name="esv_load_fail_text1">Loading Failed</string>
+    <string name="esv_load_fail_text2">Page not found.</string>
+    <string name="esv_load_empty_text1">No Content Found</string>
+    <string name="esv_load_empty_text2">No relevant content added.</string>
+    <string name="esv_load_fail_retry">Retry</string>
+    <string name="esv_business_fail_text1">An error occurred.</string>
+    <string name="esv_business_fail_text2">An error occurred.</string>
+    <string name="esv_network_fail_text1">Network Error</string>
+    <string name="esv_network_fail_text2">An error occurred.</string>
+    <string name="esv_network_fail_text3">No network connection</string>
+    <string name="esv_fail_argument_error">Parameter error</string>
+    <string name="esv_fail_not_login">Not logged in</string>
+    <string name="esv_fail_access_denied">No permission</string>
+    <string name="esv_fail_not_found">The object does not exist.</string>
+    <string name="esv_fail_internal_error">Internal server error</string>
+    <string name="esv_fail_unknown_error">Unknown error</string>
+    <string name="esv_fail_data_error">Data parsing failed</string>
+    <string name="esv_un_login_tip">Not Logged In</string>
+    <string name="esv_un_login_retry_tip">Please try again after login.</string>
+    <string name="esv_params_error">Parameter error</string>
+</resources>

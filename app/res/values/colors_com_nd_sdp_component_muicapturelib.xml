@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nd_camera_head_color_tance">#00000000</color>
+    <color name="nd_camera_color">#000000</color>
+    <color name="nd_camera_video_color7">#ffffff</color>
+    <color name="nd_camera_video_color5">#cccccc</color>
+    <color name="nd_camera_video_color13">#f43531</color>
+    <color name="nd_camera_bg">#eeffffff</color>
+
+    <color name="nd_camera_pinch_color7">#ffffff</color>
+
+
+    <color name="nd_drop_down_view_divider_color8">#dddddd</color>
+    <color name="nd_drop_down_view_content_color1">#333333</color>
+    <color name="nd_drop_down_view_content_color14">#38adff</color>
+
+    <color name="nd_recoder_view_progress_color5">#cccccc</color>
+    <color name="nd_recoder_view_progress_color14">#38adff</color>
+    <color name="nd_recoder_view_progress_color7">#ffffff</color>
+    <color name="nd_recoder_view_progress_color_tance">#00000000</color>
+    <color name="nd_camera_black_tran_bg">#80000000</color>
+</resources>

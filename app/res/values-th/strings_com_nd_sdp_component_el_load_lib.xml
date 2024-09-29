@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="esv_loading_text">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="esv_load_fail_text1">โหลดล้มเหลว!</string>
+    <string name="esv_load_fail_text2">ดูเหมือนว่าไปผิดทางไปแล้ว!</string>
+    <string name="esv_load_empty_text1">ไม่มีเนื้อหา</string>
+    <string name="esv_load_empty_text2">จํานวนข้อมูลที่มีไม่เพียงพอ!</string>
+    <string name="esv_load_fail_retry">ลองอีกครั้ง</string>
+    <string name="esv_business_fail_text1">อ๊ะ เกิดข้อผิดพลาด!</string>
+    <string name="esv_business_fail_text2">ดูเหมือนว่ามีบางอย่างผิดปกติที่นี่!</string>
+    <string name="esv_network_fail_text1">ข้อผิดพลาดในเครือข่าย!</string>
+    <string name="esv_network_fail_text2">ดูเหมือนว่ามันติดอยู่!</string>
+    <string name="esv_network_fail_text3">ข้อผิดพลาดในการเชื่อมต่อเครือข่าย</string>
+    <string name="esv_fail_argument_error">พารามิเตอร์ผิด</string>
+    <string name="esv_fail_not_login">ยังไม่ได้เข้าสู่ระบบ</string>
+    <string name="esv_fail_access_denied">ไม่มีสิทธิ์</string>
+    <string name="esv_fail_not_found">วัตถุที่กำลังค้นหาไม่มีอยู่</string>
+    <string name="esv_fail_internal_error">ข้อผิดพลาดภายในเซิร์ฟเวอร์</string>
+    <string name="esv_fail_unknown_error">ข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="esv_fail_data_error">การแยกวิเคราะห์ข้อมูลล้มเหลว</string>
+    <string name="esv_un_login_tip">บัญชียังไม่ได้เข้าสู่ระบบ</string>
+    <string name="esv_un_login_retry_tip">โปรดล็อกอินแล้วลองใหม่</string>
+    <string name="esv_params_error">พารามิเตอร์ผิด</string>
+</resources>

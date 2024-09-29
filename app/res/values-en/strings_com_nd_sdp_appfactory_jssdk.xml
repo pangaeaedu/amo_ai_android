@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="webview_wrapper_save_to_device">Save to device</string>
+    <string name="webview_wrapper_save_to_device_toast">save image to:</string>
+    <string name="webview_wrapper_save_image">Save images</string>
+    <string name="webview_wrapper_save_image_permission_disable">Storage permissions have been disabled by the product.</string>
+    <string name="webview_wrapper_save_image_to_system">Saved to gallery</string>
+    <string name="webview_wrapper_tabbar_error">When the light application page is configured in the first-level page, the tab bar show/hidden mode can be called.</string>
+    <string name="webview_wrapper_permission_disable">Location permissions have been disabled by the product.</string>
+    <string name="webview_wrapper_no_gps_permission">Please check if GPS is turned on.</string>
+</resources>

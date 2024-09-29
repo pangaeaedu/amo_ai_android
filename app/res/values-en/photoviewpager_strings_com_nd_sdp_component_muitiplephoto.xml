@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="photo_viewpager_download_full_size">Full Image</string>
+    <string name="photo_viewpager_download_failed">Network error. Failed to get image.</string>
+    <string name="photo_viewpager_view_origin">Full Image</string>
+    <string name="photo_viewpager_view_origin_with_size">Full Image(%s)</string>
+    <string name="photo_viewpager_save_completed">Saved</string>
+    <string name="photo_viewpager_save_failed">Failed to save file.</string>
+    <string name="photo_viewpager_image_load_failed">Failed to parse the image.</string>
+</resources>

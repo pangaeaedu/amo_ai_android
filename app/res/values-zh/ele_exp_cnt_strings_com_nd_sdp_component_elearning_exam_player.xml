@@ -1,0 +1,7 @@
+<resources>
+    <string name="ele_exp_cnt_exercise_finish">结束练习</string>
+    <string name="ele_exp_cnt_exercise_exit_review_video">退出看会之前\n的内容</string>
+    <string name="ele_exp_cnt_exercise_continue">继续练习</string>
+    <string name="ele_exp_cnt_exercise_restart">重新作答</string>
+    <string name="ele_exp_cnt_exercise_undo_tip">您还有%1$d题未答，退出练习后将不能继续播放后续视频</string>
+</resources>

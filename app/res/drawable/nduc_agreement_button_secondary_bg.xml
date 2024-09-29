@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/nduc_agreement_ripple_color"
+    tools:ignore="MissingDefaultResource">
+
+    <item>
+        <selector>
+
+            <item
+                android:drawable="@drawable/nduc_agreement_button_secondary_enable"
+                android:state_enabled="false" />
+
+            <item
+                android:drawable="@drawable/nduc_agreement_button_secondary_enable"
+                android:state_enabled="true" />
+
+            <item
+                android:drawable="@drawable/nduc_agreement_button_secondary_pressed"
+                android:state_pressed="true" />
+
+            <item android:drawable="@drawable/nduc_agreement_button_secondary_enable" />
+
+        </selector>
+
+    </item>
+
+</ripple>

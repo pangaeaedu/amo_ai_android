@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--个人主页动态模块(主题类型)配置-->
+    <!--模块背景图-->
+    <drawable name="starapp_life_home_dynamic_fragment_topic_bg">#ffffff</drawable>
+    <!--分割线-顶部-->
+    <drawable name="starapp_life_home_dynamic_fragment_topic_line_top">@color/starapp_life_color_8</drawable>
+    <!--分割线-底部-->
+    <drawable name="starapp_life_home_dynamic_fragment_topic_line_bottom">@color/starapp_life_color_8</drawable>
+    <!--1.图片边距-->
+    <dimen name="starapp_life_home_dynamic_fragment_topic_img_margin_left">10dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_topic_img_margin_top">10dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_topic_img_margin_right">10dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_topic_img_margin_bottom">12dp</dimen>
+    <!--2.文字边距-->
+    <dimen name="starapp_life_home_dynamic_fragment_topic_text_margin_left">10dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_topic_text_margin_top">0dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_topic_text_margin_right">10dp</dimen>
+    <dimen name="starapp_life_home_dynamic_fragment_topic_text_margin_bottom">12dp</dimen>
+    <!--2.文字大小,颜色-->
+    <dimen name="starapp_life_home_dynamic_fragment_topic_text_size">@dimen/starapp_life_text_13</dimen>
+    <color name="starapp_life_home_dynamic_fragment_topic_text_color">@color/starapp_life_color_2</color>
+</resources>

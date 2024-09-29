@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="xst_fav_title" translatable="false">การเก็บรายการโปรดของฉัน</string>
+    <string name="xst_fav_sedu" translatable="false">มoral education</string>
+    <string name="xst_fav_school_sevice" translatable="false">บริการหลังการเรียน</string>
+    <string name="xst_fav_edu_reform" translatable="false">ประสบการณ์การปรับปรุงการเรียนการสอน</string>
+    <string name="xst_fav_family_edu" translatable="false">การศึกษาในครอบครัว</string>
+    <string name="xst_x_course" translatable="false">การสอนคอร์ส</string>
+    <string name="xst_t_course" translatable="false">การฝึกอบรมของครู</string>
+    <string name="xst_fav_sport" translatable="false">กีฬา</string>
+    <string name="xst_fav_art" translatable="false">ศิลปะ</string>
+    <string name="xst_fav_labor" translatable="false">การศึกษาการงาน</string>
+    <string name="xst_fav_edit" translatable="false">แก้ไข</string>
+    <string name="xst_fav_cancel" translatable="false">ยกเลิก</string>
+    <string name="xst_fav_select_all">เลือกทั้งหมด</string>
+    <string name="xst_fav_select_all_cancel" tools:ignore="ExtraTranslation">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="xst_fav_select_del">ลบ (%d)</string>
+    <string name="xst_fav_select_del_action">ลบ</string>
+    <string name="xst_fav_confirm_delete">ยืนยันการลบ</string>
+    <string name="xst_fav_confirm_delete_fav">ยืนยันการลบรายการโปรดที่เลือกในปัจจุบันหรือไม่?</string>
+    <string name="xst_fav_content_tip">ไปเก็บรายการที่คุณสนใจเถอะ</string>
+    <string name="xst_fav_course_textbook">หนังสือเรียน</string>
+    <string name="xst_fav_course_hour">คอร์ส</string>
+
+    <string name="xst_fav_sort_by_favorites" translatable="false">ตามรายการโปรด</string>
+    <string name="xst_fav_sort_by_content" translatable="false">ตามเนื้อหา</string>
+    <string name="xst_collection_count" translatable="false">%d รายการโปรด</string>
+    <string name="xst_content_count" translatable="false">%s รายการ</string>
+
+
+
+    <string name="xst_my_follow_title" translatable="false">การติดตามของฉัน</string>
+    <string name="xst_my_follow_member_resource_count" translatable="false">สมาชิก %d | ทรัพยากร %d</string>
+    <string name="xst_my_follow_member_count" translatable="false">ผู้ติดตาม %d คน</string>
+    <string name="xst_my_follow_resource_num" translatable="false">จำนวนข้อมูล</string>
+    <string name="xst_my_follow_no_content" translatable="false">ไม่มีเนื้อหา</string>
+    <string name="xst_my_follow_follow" translatable="false">ติดตาม</string>
+    <string name="xst_my_follow_followed" translatable="false">ติดตามแล้ว</string>
+    <string name="xst_my_follow_unfollowed" translatable="false">ยกเลิกแล้ว</string>
+    <string name="xst_my_follow_follow_failed" translatable="false">การดำเนินการล้มเหลว โปรดลองอีกครั้ง...</string>
+    <string name="xst_my_follow_empty_tip" translatable="false">ไปติดตามเนื้อหาที่คุณสนใจเถอะ</string>
+    <string name="xst_my_follow_studio_no_exist" translatable="false">สตูดิโอนี้ไม่มีอยู่แล้ว</string>
+    <string name="xst_my_follow_space_no_exist" translatable="false">พื้นที่นี้ไม่มีอยู่แล้ว</string>
+    <string name="xst_my_follow_resource_number_no_exist" translatable="false">ทรัพยากรนี้ไม่มีอยู่แล้ว</string>
+    <string name="xst_my_follow_fetch_failed" translatable="false">การโหลดข้อมูลล้มเหลว</string>
+    <string name="xst_my_follow_studio_tab_title" translatable="false">สตูดิโอครูผู้เชี่ยวชาญ</string>
+    <string name="xst_my_follow_resource_number_tab_title" translatable="false">หมายเลขทรัพยากร</string>
+    <string name="xst_my_follow_expert_studio_title" translatable="false">สตูดิโอทีมผลิต</string>
+    <string name="xst_my_follow_school_space" translatable="false">พื้นที่โรงเรียน</string>
+
+    <string name="xst_my_follow_unfollow_tip" translatable="false">ยืนยันที่จะยกเลิกการติดตามหรือไม่?</string>
+    <string name="xst_my_follow_unfollow_confirm" translatable="false">ตกลง</string>
+
+    <string name="xst_my_follow_loading_tip" translatable="false">กำลังร้องขอ โปรดรอสักครู่...</string>
+    <string name="xst_my_follow_load_more_tip" translatable="false">กำลังโหลดข้อมูลเพิ่มเติม...</string>
+    <string name="xst_my_follow_has_load_all" translatable="false">โหลดข้อมูลทั้งหมดแล้ว</string>
+
+
+    <string name="xst_load_fail">อ๊ะ มีข้อผิดพลาด</string>
+    <string name="xst_interact_try_refresh">ลองรีเฟรช</string>
+
+    <string name="xst_fav_level_department">ดีพอใช้</string>
+    <string name="xst_fav_level_province">ดีมาก</string>
+
+
+</resources>

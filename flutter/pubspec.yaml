@@ -1,0 +1,118 @@
+name: ap1724917908247
+description: A new Flutter module project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+#
+# This version is used _only_ for the Runner app, which is used if you just do
+# a `flutter run` or a `flutter make-host-app-editable`. It has no impact
+# on any other native host app that you embed your Flutter project into.
+version: 1.0.2
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # from com.nd.sdp.component:flutter-runtime:release
+  appfactory_core: 1.2.0
+  appfactory: 1.3.34
+  # from com.nd.xst:study-activity:llpRelease
+  fx_study_activity: 0.1.55
+  # from com.nd.xst:x-combined-page:release
+  fx_combined_page: 0.0.40
+  # from com.nd.sdp.component:x-user:llpRelease
+  fc_faq: 0.0.30
+  # from com.nd.xst:course:llpRelease
+  fx_course: 0.0.32
+  # from com.nd.sdp.component:ele-channel:release
+  e_channel_flutter: 0.0.8-areaSelector8
+  # from com.nd.xst:xs-commons:llpRelease
+  fx_ui_component: 0.0.1
+  appfactory_intl: any
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  # build_runner 2.4.8 未适配 dart_style-2.3.5 版本，暂时固定 dart_style 版本
+  build_runner: ">=2.0.0 <=2.4.8"
+  dart_style: ">=2.0.0 <=2.3.4"
+  path: ^1.8.2
+  args: ^2.4.2
+  mustache_template: ^2.0.0
+  appfactory_builder: 1.0.4
+
+dependency_overrides:
+  appfactory_intl:
+    path: ./built_in_dependencies/appfactory_intl
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+  assets:
+    - assets/com.nd.sdp.component.ele-channel/
+    - assets/com.nd.sdp.component.flutter-runtime/
+    - assets/com.nd.xst.course/
+    - assets/com.nd.xst.study-activity/
+    - assets/com.nd.xst.x-combined-page/
+    - assets/com.nd.xst.xs-commons/
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  generate: true
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add Flutter specific custom fonts to your application, add a fonts
+  # section here, in this "flutter" section. Each entry in this list should
+  # have a "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  # This section identifies your Flutter project as a module meant for
+  # embedding in a native host app.  These identifiers should _not_ ordinarily
+  # be changed after generation - they are used to ensure that the tooling can
+  # maintain consistency when adding or modifying assets and plugins.
+  # They also do not have any bearing on your native host application's
+  # identifiers, which may be completely independent or the same as these.
+  module:
+    androidX: true
+    androidPackage: com.nd.app.factory.ap1718161355671
+    iosBundleIdentifier: com.nd.app.factory.ap1718161355671
+

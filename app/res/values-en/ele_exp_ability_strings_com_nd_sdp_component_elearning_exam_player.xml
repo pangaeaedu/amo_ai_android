@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_exp_ability_date_to_date">%1$s to %2$s</string>
+    <string name="ele_exp_ability_duration">%1$dmin</string>
+    <string name="ele_exp_ability_test_again">Again</string>
+    <string name="ele_exp_ability_continue">Continue answering</string>
+    <string name="ele_exp_ability_start_immediate_chance">Start now [%d chance(s) in total]</string>
+    <string name="ele_exp_ability_start_immediately">Start now</string>
+    <string name="ele_exp_ability_chance_ran_out">No chance left.</string>
+    <string name="ele_exp_ability_test_again_chance">Again [%d chance(s) left]</string>
+    <string name="ele_exp_ability_finished">Ended</string>
+    <string name="ele_exp_ability_upcoming">Start soon</string>
+    <string name="ele_exp_ability_statue_error">Status error.</string>
+    <string name="ele_exp_ability_report">Assessment report</string>
+    <string name="ele_exp_ability_exam_share_info">I\'m taking the "%s" exam. Come and join the challenge.</string>
+    <string name="ele_exp_ability_loading_more">Loading...</string>
+    <string name="ele_exp_ability_history_empty">No record.</string>
+    <string name="ele_exp_ability_history_cost_time">Time spent: %s</string>
+    <string name="ele_exp_ability_un_sore">Grading unfinished</string>
+    <string name="ele_exp_ability_warn1">Please ensure a stable network connection.</string>
+    <string name="ele_exp_ability_warn2">If there is a time limit for the exam, then once the exam starts, there\'s no pausing. The paper will be submitted automatically when the time is up.</string>
+    <string name="ele_exp_ability_warn3">When you finish the paper, click "Submit" to hand in it.</string>
+    <string name="ele_exp_ability_history_report">Past reports</string>
+    <string name="ele_exp_ability_warn_title">Notes</string>
+    <string name="ele_exp_ability_none">None</string>
+    <string name="ele_exp_ability_exam_time">Time limit</string>
+    <string name="ele_exp_ability_ranking">Leaderboard</string>
+    <string name="ele_exp_ability_duration_title">Duration: </string>
+    <string name="ele_exp_ability_description_title">Instructions: </string>
+    <string name="ele_exp_ability_accuracy_title">Correct answer rate</string>
+    <string name="ele_exp_ability_record_overview">Assessment overview</string>
+    <string name="ele_exp_ability_record_overview_des">You\'ve finished %2$d out of %1$d assessment(s) on the platform, showing the following characteristics:</string>
+    <string name="ele_exp_ability_record_list">Assessment list</string>
+    <string name="ele_exp_ability_record_list_empty">No assessment records available.</string>
+    <string name="ele_exp_ability_done_exam">Completion count: %d</string>
+    <string name="ele_exp_ability_latest_time">Last completion time: %s</string>
+    <string name="ele_exp_ability_record_title">Performance evaluation records</string>
+    <string name="ele_exp_ability_history">Past reports</string>
+    <string name="ele_exp_ability_redo">Retry</string>
+    <string name="ele_exp_ability_share">Share</string>
+    <string name="ele_exp_ability_clean_search_history">Clear history</string>
+    <string name="ele_exp_ability_recently_search">Recent searches</string>
+    <string name="ele_exp_ability_confirm_cancel">Cancel</string>
+    <string name="ele_exp_ability_search">Search</string>
+    <string name="ele_exp_ability_no_search_result">No results found.</string>
+    <string name="ele_exp_ability_history_times">Assessment No.%d</string>
+
+    <string name="ele_exp_ability_chance_total">%d chance(s) in total</string>
+    <string name="ele_exp_ability_chance_remain">%d chance(s) left</string>
+</resources>

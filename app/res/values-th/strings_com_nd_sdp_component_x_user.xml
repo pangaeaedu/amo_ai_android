@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="xuser_app_name">แพลตฟอร์มการศึกษาประถมและมัธยมของประเทศ</string>
+    <string name="xuser_test_text">นี่คือข้อความทดสอบ ทดสอบความยาวของข้อความ แต่เขา/เธอต้องเยอะพอ ถ้ายังไม่พอ ขอด่าอีกสองประโยค วันนี้อากาศดีมาก สบาย ๆ ปีนี้เป็นปี 2021 วันที่ 5 กุมภาพันธ์ การล่ะเดี๋ยวเทศกาลตรุษจีนก็จะมาแล้ว ยังไงก็ยังทำงาน</string>
+    <string name="xuser_about_version">เวอร์ชันปัจจุบัน</string>
+    <string name="xuser_about_operation">ผู้จัดการ: กรมศึกษาธิการจีน\nการดูแล: ศูนย์พัฒนาเทคโนโลยีและทรัพยากรการศึกษา (ศูนย์การศึกษาทางอิเล็กทรอนิกส์กลาง)\nเบอร์โทรศัพท์ศูนย์บริการ: 4001910910 (วันทำการ 8:30– 17:00)</string>
+    <string name="xuser_about_title">เกี่ยวกับซอฟต์แวร์</string>
+    <string name="xuser_homepagelogin">เข้าสู่ระบบทันที</string>
+    <string name="xuser_homepage_visitor">ผู้เยี่ยมชม</string>
+    <string name="xuser_nickname_format">ผู้ใช้ %1$s</string>
+
+    <string name="xuser_homepage_notice">ประกาศและข่าวสาร</string>
+    <string name="xuser_notice">แจ้งเตือน</string>
+    <string name="xuser_homepage_work_jobs">กิจกรรมการบ้าน</string>
+    <string name="xuser_homepage_clock_in">บันทึกเวลาเข้า-ออก</string>
+    <string name="xuser_homepage_cls_timetable">ตารางเรียน</string>
+    <string name="xuser_homepage_course_offline">คอร์สออฟไลน์</string>
+    <string name="xuser_homepage_class_live">การถ่ายทอดสดของชั้นเรียน</string>
+    <string name="xuser_homepage_study_report">รายงานการเรียน</string>
+    <string name="xuser_homepage_research_activities">กิจกรรมอบรม</string>
+    <string name="xuser_homepage_offline_teaching">บริการหลังเรียน</string>
+    <string name="xuser_homepage_app_center">ศูนย์แอปพลิเคชัน</string>
+    <string name="xuser_homepage_research_online">การวิจัยออนไลน์</string>
+
+    <string name="xuser_homepage_identity_default">ครู</string>
+    <string name="xuser_tools_homepage_school">โรงเรียนมัธยมที่สามของฟูจ๊ว</string>
+    <string name="xuser_tip_to_login">คลิกเพื่อเข้าสู่ระบบ</string>
+    <string name="xuser_homepage_school_no_selected_label">โปรดเลือกโรงเรียน</string>
+    <string name="xuser_homepage_area_no_selected_label">โปรดเลือกพื้นที่</string>
+
+    <string name="xuser_homepage_class_student_count">นักเรียน %1$d คน</string>
+    <string name="xuser_homepage_class_teacher_count">ครู %1$d คน</string>
+
+    <string name="xuser_homepage_myclass_label_guardian">ชั้นเรียนของเด็ก</string>
+    <string name="xuser_homepage_mychild_label">ลูกของฉัน</string>
+    <string name="xuser_homepage_myclass_label">ชั้นเรียนของฉัน</string>
+    <string name="xuser_homepage_myclass_more_label">ดูเพิ่มเติม</string>
+    <string name="xuser_homepage_myclass_empty_label">คุณยังไม่ได้เข้าร่วมชั้นเรียน</string>
+    <string name="xuser_homepage_myclass_empty_label_1">เร็วๆ ไปสร้าง/เข้าร่วมชั้นเรียนกันเถอะ</string>
+    <string name="xuser_homepage_myclass_empty_label_2">ไปเข้าร่วมชั้นเรียนเถอะ~</string>
+
+    <string name="xuser_homepage_myclass_empty_btn_create">สร้าง</string>
+    <string name="xuser_homepage_myclass_empty_btn_join">เข้าร่วม</string>
+
+    <string name="xuser_other_label_remark">หมายเหตุ</string>
+    <string name="xuser_other_label_user_info">ข้อมูลของเขา/เธอ</string>
+    <string name="xuser_other_label_send_im_message">ส่งข้อความ</string>
+    <string name="xuser_other_label_delete_friend">ลบเพื่อน</string>
+    <string name="xuser_other_label_add_friend">เพิ่มเพื่อน</string>
+    <string name="xuser_other_label_user_qrcode">คิวอาร์โค้ดของเขา</string>
+    <string name="xuser_other_label_user_my_qrcode">รหัสคิวอาร์โค้ดของฉัน</string>
+    <string name="xuser_other_label_user_feedback">รายงานผู้ใช้นี้</string>
+
+    <string name="xuser_homepage_children_empty_tip_1">คุณยังไม่ได้เชื่อมโยงลูก</string>
+    <string name="xuser_homepage_children_empty_tip_2">คลิกเพื่อเพิ่มเลย~</string>
+    <string name="xuser_homepage_items_my_family">ครอบครัวของฉัน</string>
+    <string name="xuser_homepage_new_identity_tip_content">เพิ่มบทบาท%1$s สามารถสลับบทบาทที่เกี่ยวข้องที่นี่! </string>
+    <string name="xuser_homepage_guid_content_homepage">โปรดเข้าไปที่นี่เพื่อเพิ่มลูกน้อย และรับข่าวสารล่าสุดจากครูได้ทุกเมื่อ!</string>
+
+    <string name="xuser_identity_new_ok">ไปดูดู</string>
+    <string name="xuser_identity_new_cancel">เข้าใจแล้ว</string>
+    <string name="xuser_dialog_alert_button">ฉันเข้าใจแล้ว</string>
+
+    <string name="xuser_identity_teacher">ครู</string>
+    <string name="xuser_identity_student">นักเรียน</string>
+    <string name="xuser_identity_guardian">ผู้ปกครอง</string>
+    <string name="xuser_identity_academic_staff">ผู้ควบคุมการศึกษา</string>
+    <string name="xuser_identity_electric_teacher">บุคลากรทางการศึกษา</string>
+    <string name="xuser_identity_edu_admin">บุคลากรดูแล</string>
+    <string name="xuser_identity_social_learner">ผู้เรียนในสังคม</string>
+
+    <string name="xuser_identity_switch_error_set_agent">การเชื่อมต่อล้มเหลว โปรดคลิกที่รีเฟรช</string>
+    <string name="xuser_identity_switch_error_json">ข้อมูล JSON ตอบสนองตัวแทนครอบครัวไม่ถูกต้อง</string>
+
+    <string name="xuser_identity_guardian_waiting">ยังไม่ได้เปิดให้ผู้ปกครองเข้าร่วมชั้นเรียน รออีกสักครู่นะ</string>
+
+    <string name="xuser_network_exception">การเชื่อมต่อเครือข่ายผิดปกติ โปรดตรวจสอบเครือข่าย</string>
+    <string name="xuser_network_error_wrong">อ๋อะ มีข้อผิดพลาด</string>
+    <string name="xuser_network_error_try">ลองลากลงเพื่อรีเฟรช</string>
+    <string name="xst_user_bottom_tips">ควบคุมเวลาการเชื่อมต่ออินเทอร์เน็ต ป้องกันการเจ็บตา และฝึกฝนร่างกาย!</string>
+    <string name="xuser_homepage_items_favorite">การรวบรวมของฉัน</string>
+    <string name="xuser_homepage_items_mst">ประวัติการเรียกดู</string>
+    <string name="xuser_homepage_items_follow">การติดตามของฉัน</string>
+    <string name="xuser_homepage_items_offlinemanager">การจัดการแบบออฟไลน์</string>
+    <string name="xuser_homepage_items_ks_doc">เอกสารคลาวด์ของฉัน</string>
+    <string name="xuser_homepage_items_training">การฝึกอบรมของฉัน</string>
+    <string name="xuser_homepage_items_class_hour">เวลาเรียนของฉัน</string>
+    <string name="xuser_homepage_items_teacher_check_info">ข้อมูลส่วนตัว</string>
+    <string name="xuser_homepage_items_user_guide">สถานการณ์การใช้งาน</string>
+    <string name="xuser_modify_school_tip">โปรดไปที่ \'ข้อมูลส่วนตัว\' เพื่อแก้ไขโรงเรียน</string>
+    <string name="xuser_modify_institution_tip">โปรดไปที่ \'ข้อมูลส่วนตัว\' เพื่อแก้ไขสถาบัน/โรงเรียน</string>
+
+    <!-- 名师工作室 -->
+    <string name="xuser_famous_teacher">การวิจัยของฉัน</string>
+    <string name="xuser_famous_teacher_more">ดูเพิ่มเติม</string>
+    <string name="xuser_famous_teacher_member_count">สมาชิก %1$d</string>
+
+    <!--我->FAQ-->
+    <string name="xuser_menu_faq">ศูนย์ช่วยเหลือ</string>
+
+    <!--积分-->
+    <string name="xuser_score_total">คะแนน: %1$d</string>
+
+    <string name="xuser_my_favor">การรวบรวมของฉัน</string>
+    <string name="xuser_my_follow">ความสนใจของฉัน</string>
+
+    <string name="xuser_homepage_classlist_children_empty_tip_1">คุณยังไม่ได้เชื่อมต่อกับเด็ก</string>
+    <string name="xuser_homepage_classlist_children_empty_tip_2">เร็วๆ ไปคลิกเพื่อเพิ่มกัน~</string>
+
+    <string name="xuser_homepage_classlist_children_state_title_error">ข้อมูลผิดปกติ โปรดลองอีกครั้งในภายหลัง~</string>
+    <string name="xuser_homepage_classlist_children_state_desc_error">ลองรีเฟรชดูสิ~</string>
+    <string name="xuser_homepage_classlist_children_state_button_refresh">รีเฟรช</string>
+
+    <string name="xuser_homepage_classlist_children_state_title_empty">เด็กยังไม่ได้เข้าร่วมห้องเรียน~</string>
+    <string name="xuser_homepage_classlist_children_state_desc_empty">มาเร็วเข้าร่วมชั้นเรียนเถอะ~</string>
+    <string name="xuser_homepage_classlist_children_state_join">ไปเข้าร่วม</string>
+    <string name="xuser_homepage_classlist_children__switch_error">การสลับล้มเหลว</string>
+
+    <string name="xuser_homepage_classlist_class_type_normal">ชั้นปกติ</string>
+    <string name="xuser_homepage_classlist_class_type_admin">ชั้นเรียนทางการบริหาร</string>
+    <string name="xuser_favor_and_follow_count_default">—</string>
+    <string name="xuser_repeat_report_tip_title">เเจ้งเตือน</string>
+    <string name="xuser_repeat_report_tip_content">ขอบคุณที่ควบคุมและคุ้มครองสภาพแวดล้อมการสนทนาที่ดีของแพลตฟอร์ม ผู้ใช้คนนี้ได้รับการปรับปรุงเนื่องจากการละเมิดกฎของแพลตฟอร์ม คุณไม่ต้องรายงานอีกครั้ง</string>
+    <string name="xuser_homepage_add_children">เพิ่มเด็ก</string>
+    <string name="xuser_homepage_exception_tip">ข้อความแสดงความผิดปกติ</string>
+    <string name="xuser_homepage_relate_exception_tip">เด็ก【%1$s】เกิดข้อผิดพลาดในการเชื่อมต่อ คุณต้องการเชื่อมต่อใหม่หรือไม่?</string>
+    <string name="xuser_homepage_retry_relate">เชื่อมโยงใหม่</string>
+
+    <string name="xuser_child_info_list_grade">คะแนน</string>
+    <string name="xuser_child_info_list_evaluate">การประเมิน</string>
+    <string name="xuser_child_info_list_class">ชั้นเรียน</string>
+
+
+    <string name="xuser_child_grade_score_type_level">ดี/ดีมาก/ปานกลาง/แย่</string>
+    <string name="xuser_child_grade_score_type_score_mul">คะแนนเต็ม %1$s</string>
+    <string name="xuser_child_grade_score_type_score_single">%1$s ระบบคะแนน</string>
+    <string name="xuser_child_grade_score_type_level_excellent">ดีมาก</string>
+    <string name="xuser_child_grade_score_type_level_good">ดี</string>
+    <string name="xuser_child_grade_score_type_level_normal">จีน</string>
+    <string name="xuser_child_grade_score_type_level_poor">แย่</string>
+    <string name="xuser_child_grade_exam_missing">ขาดสอบ</string>
+    <string name="xuser_child_grade_score_all">คะแนนรวม</string>
+    <string name="xuser_child_grade_score">คะแนน</string>
+    <string name="xuser_child_info_show_more">ดูเพิ่มเติม</string>
+
+
+    <string name="xuser_child_info_grade_multi">หลากหลายวิชา</string>
+    <string name="xuser_child_info_grade_chinese">ภาษาจีน</string>
+    <string name="xuser_child_info_grade_math">คณิตศาสตร์</string>
+    <string name="xuser_child_info_grade_biology">ชีววิทยา</string>
+    <string name="xuser_child_info_grade_physics">ฟิสิกส์</string>
+    <string name="xuser_child_info_grade_chemistry">เคมี</string>
+    <string name="xuser_child_info_grade_science">วิทยาศาสตร์</string>
+    <string name="xuser_child_info_grade_tech">เทคโนโลยีสารสนเทศ</string>
+    <string name="xuser_child_info_grade_english">ภาษาอังกฤษ</string>
+    <string name="xuser_child_info_grade_ideological">คุณธรรมจริยธรรม</string>
+    <string name="xuser_child_info_grade_physical">กีฬาและสุขภาพ</string>
+    <string name="xuser_child_info_grade_arts">ศิลปะ</string>
+    <string name="xuser_child_info_grade_geography">ภูมิศาสตร์</string>
+    <string name="xuser_child_info_grade_politics">การเมือง</string>
+    <string name="xuser_child_info_grade_history">ประวัติ</string>
+    <string name="xuser_child_info_grade_history_society">ประวัติและสังคม</string>
+    <string name="xuser_child_info_grade_music">ดนตรี</string>
+    <string name="xuser_child_info_grade_labor">แรงงานและเทคโนโลยี</string>
+
+    <string name="xuser_child_info_grade_exam_other">อื่น ๆ</string>
+    <string name="xuser_child_info_grade_exam_common">การสอบปกติ</string>
+    <string name="xuser_child_info_grade_exam_mid_term">สอบกลางภาค</string>
+    <string name="xuser_child_info_grade_exam_final">สอบปลายภาค</string>
+    <string name="xuser_child_info_grade_exam_unit">การสอบหน่วย</string>
+
+    <string name="xuser_child_info_class_state_title_empty">เด็กยังไม่ได้เข้าร่วมชั้นเรียนใด ๆ นะ~</string>
+    <string name="xuser_child_info_class_state_desc_empty">เข้าร่วมชั้นเรียน</string>
+    <string name="xuser_child_info_grade_state_title_empty">ครูยังไม่ได้เผยแพร่คะแนนใด ๆ ค่ะ~</string>
+
+    <string name="xuser_assessment_title_title">ประเมิน</string>
+    <string name="xuser_assessment_empty_text">ครูยังไม่ได้เผยแพร่คำประเมินใด ๆ ~</string>
+
+    <string name="xuser_error_description">โหลดเนื้อหาล้มเหลว โปรดรีเฟรช</string>
+    <string name="xuser_error_button">รีเฟรช</string>
+
+    <string name="xuser_homepage_has_new_version">มีการอัพเดต</string>
+    <string name="xuser_homepage_error_content_load_failed">โหลดเนื้อหาล้มเหลว โปรดรีเฟรช</string>
+    <string name="xuser_homepage_setting">ตั้งค่า</string>
+</resources>

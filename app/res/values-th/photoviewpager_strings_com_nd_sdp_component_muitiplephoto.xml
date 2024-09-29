@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="photo_viewpager_download_full_size">ดูรูปภาพต้นฉบับ</string>
+    <string name="photo_viewpager_download_failed">มีปัญหาในเครือข่าย การเรียกใช้ล้มเหลว</string>
+    <string name="photo_viewpager_view_origin">ดูรูปภาพต้นฉบับ</string>
+    <string name="photo_viewpager_view_origin_with_size">ดูรูปภาพต้นฉบับ (%s)</string>
+    <string name="photo_viewpager_save_completed">บันทึกสำเร็จ!</string>
+    <string name="photo_viewpager_save_failed">การบันทึกไฟล์ล้มเหลว</string>
+    <string name="photo_viewpager_image_load_failed">การแปลความหมายของรูปภาพล้มเหลว!</string>
+</resources>

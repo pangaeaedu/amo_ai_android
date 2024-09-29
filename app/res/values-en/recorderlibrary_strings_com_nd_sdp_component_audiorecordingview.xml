@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="audio_record_oper_cancel">Cancel</string>
+    <string name="audio_record_finger_move_to_cancel">Swipe up to cancel</string>
+    <string name="audio_record_finger_release_to_cancell">Release to cancel</string>
+    <string name="audio_record_too_long">Message too long</string>
+    <string name="audio_record_too_short">Message too short</string>
+    <string name="audio_record_file_null">Recording file error</string>
+    <string name="audio_record_file_not_exist">Recording file does not exist.</string>
+    <string name="audio_record_failed">Failed to record. Please check the microphone permission.</string>
+
+    <string name="audio_record_no_record_permission">No recording permission. Go to App Settings and enable microphone permission.</string>
+</resources>

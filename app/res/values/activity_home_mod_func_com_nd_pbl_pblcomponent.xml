@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--个人主页功能模块配置-->
+    <!--模块背景图-->
+    <drawable name="starapp_life_home_func_fragment_bg">#ffffff</drawable>
+    <!--1.分割线虚线-横向:res\drawable-xhdpi\starapp_life_mine_middle_pic_dotted_cross.png-->
+    <!--2.分割线虚线-竖向:res\drawable-xhdpi\starapp_life_mine_middle_pic_dotted_vertical.png-->
+    <!--3.分页圆点-选中:res\drawable-xhdpi\starapp_life_mine_middle_pic_switch_choose.png-->
+    <!--4.分页圆点-未选中:res\drawable-xhdpi\starapp_life_mine_middle_pic_switch_normal.png-->
+    <!--功能行高-->
+    <dimen name="starapp_life_home_func_fragment_func_height">70dp</dimen>
+    <!--图标高度-有文字-->
+    <dimen name="starapp_life_home_func_fragment_img_size_small">30dp</dimen>
+    <!--图标高度-无文字-->
+    <dimen name="starapp_life_home_func_fragment_img_size_big">60dp</dimen>
+    <!--图标跟文字间距-->
+    <dimen name="starapp_life_home_func_fragment_img_text_margin">2dp</dimen>
+    <!--5.文字大小-->
+    <dimen name="starapp_life_home_func_fragment_text_size">@dimen/starapp_life_text_5</dimen>
+    <!--5.文字颜色-->
+    <color name="starapp_life_home_func_fragment_text_color">@color/starapp_life_color_4</color>
+    <!--6.红点图片-无数字:res\drawable-xhdpi\chat_chatinterface_icon_unread.png-->
+    <!--7.红点图片-有数字:res\drawable-xhdpi\chat_list_icon_number_red_30.9.png-->
+
+    <dimen name="starapp_life_home_func_fragment_func_margin_top">12dp</dimen>
+</resources>

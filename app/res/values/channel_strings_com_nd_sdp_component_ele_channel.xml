@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_channel_net_error_tips">Network connection error. Please try again.</string>
+    <string name="el_channel_data_error_tips">Parse error. Please try again.</string>
+    <string name="el_channel_load_fail_retry">Failed to load. Please pull down to try again.</string>
+    <string name="el_channel_no_data">No data</string>
+    <string name="el_channel_loading_wait">Loading...Please wait.</string>
+    <string name="el_channel_retry">Retry</string>
+
+    <string name="el_channel_share">Share</string>
+    <string name="el_channel_del_article">Delete</string>
+    <string name="el_channel_cancel">Cancel</string>
+    <string name="el_channel_title">Article</string>
+    <string name="el_channel_detail_title">Article Details</string>
+    <string name="el_channel_free">Free</string>
+    <string name="el_channel_see_more">More</string>
+    <string name="el_channel_app_more">More</string>
+    <string name="el_channel_app_main_value">Homepage</string>
+
+    <string name="el_channel_newest">Latest</string>
+    <string name="el_channel_hottest">Hottest</string>
+    <string name="el_channel_recommend">General</string>
+    <string name="el_channel_filter_complex_name">General</string>
+
+    <string name="el_channel_all">All</string>
+    <string name="el_channel_waiting">Coming</string>
+    <string name="el_channel_doing">Ongoing</string>
+    <string name="el_channel_end">Ended</string>
+
+    <string name="el_channel_price">Price</string>
+    <string name="el_channel_pay">Pay</string>
+    <string name="el_channel_payFree">Free</string>
+    <string name="el_channel_time_format">%s hours</string>
+    <string name="el_channel_people_format">%s vistor</string>
+    <string name="el_channel_course_format">%s courses</string>
+    <string name="el_channel_filter_name">Filter</string>
+
+    <string name="el_channel_filter_reset">Reset</string>
+
+    <string name="el_channel_filter_complete">Finish</string>
+    <string name="el_channel_second_back">Back</string>
+    <string name="el_channel_no_courses">No course found</string>
+    <string name="el_channel_title_multiple_choice">%s(多选)</string>
+    <string name="el_channel_tag_no_datatip">No content found</string>
+	
+	<string name="el_channel_learning_plaza">学习广场</string>
+    <string name="el_channel_network_lost">Oops, the network is lost</string>
+    <string name="el_channel_nothing_date">哎呀，啥也没有，一片空白</string>
+
+    <string name="el_channel_net_error">Network error.</string>
+    <string name="el_channel_net_error_msg">Check to see if the phone is turned on\nMobile network or WIFI</string>
+    <string name="el_channel_check_set">Check the settings</string>
+    <string name="el_channel_try_refresh">Try refresh</string>
+    <string name="el_channel_service_lost">Oops, something went wrong</string>
+</resources>

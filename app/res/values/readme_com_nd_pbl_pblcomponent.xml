@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources><![CDATA[
+
+资源替换说明:
+1.图片
+1.1.标准版无对应图片资源
+    --皮肤文件中写为颜色值, 例如
+      <drawable name="starapp_life_home_background">#ffffff</drawable>
+    --如果需要修改为另一种颜色, 修改节点值, 例如
+      <drawable name="starapp_life_home_background">#de33ff</drawable>
+    --如果需要修改为一张图片, 将节点值改为对应图片, 命名规则为原name加两个下划线, 例如
+      <drawable name="starapp_life_home_background">@drawable/__starapp_life_home_background</drawable>
+      同时在图片文件夹中添加对应的图片, 例如
+      src\drawable-xhdpi\__starapp_life_home_background.png 或 src\drawable-xhdpi\__starapp_life_home_background.9.png
+1.2.标准版有对应专用图片资源
+    --皮肤文件中写为对应图片地址, 例如
+      <!--背景图片-下层:res\drawable-xhdpi\starapp_life_mine_top_bg_blue.png-->
+    --如果需要替换图片, 找到皮肤包中对应图片进行替换, 尽量保持图片大小不变, 文件名和类型不能更改
+1.3.标准版有对应公用图片资源
+    --皮肤文件中写为对应引用, 例如
+      <drawable name="starapp_life_fjt_sign_title_bg">@drawable/starapp_life_title_background</drawable>
+    --如果需要修改所有对此资源的引用, 直接修改公用的@drawable/starapp_life_title_background资源
+    --如果只需要修改此处资源, 修改专用的@drawable/starapp_life_fjt_sign_title_bg
+
+注:存在多张图片对应不同状态的资源文件会以xxxx_selector为文件名, 对应皮肤包中的xxxx_normal.png、xxxx__pressed.png等多个文件
+
+注:xxxx.9.png格式图片为Android特定格式文件, 文件上方和左边1像素用于定义文件拉伸或压缩区域, 图片下方和右边1像素用于定义内容填充区域
+   http://blog.csdn.net/king1991wbs/article/details/6843229
+
+2.尺寸和距离
+2.1.文字大小
+    --皮肤文件中写为某一大小, 例如
+      <dimen name="starapp_life_home_activity_card_title_size">@dimen/starapp_life_text_5</dimen>
+    --如需修改, 直接将值改为对应大小, 对于1280*720屏幕的设计图来说, 2px=1sp, 32px的文字对应尺寸为16sp
+      <dimen name="starapp_life_home_activity_card_title_size">16sp</dimen>
+2.2.其他距离大小
+    --皮肤文件中写为某一大小, 例如
+      <dimen name="starapp_life_sign_calendar_body_margin_left">8dp</dimen>
+    --如需修改, 直接将值改为对应大小, 对于1280*720屏幕的设计图来说, 2px=1dp, 32px的文字对应尺寸为16dp
+      <dimen name="starapp_life_sign_calendar_body_margin_left">16dp</dimen>
+
+2.颜色
+  --皮肤文件中写为某一颜色, 例如
+    <color name="starapp_life_home_activity_card_title_color">@color/starapp_life_color_3</color>
+  --如需修改, 将值改为对应颜色, 格式为
+    #xxxxxxxx, 从左到右每两位(00-ff)分别代表透明度(00全透明-ff全不透明), 红色值, 绿色值, 蓝色值
+    #xxxxxx, 从左到右每两位(00-ff)为红色值, 绿色值, 蓝色值
+    #xxxx, 从左到右每一位(0-f)为透明度, 红色值, 绿色值, 蓝色值
+    #xxx, 从左到右每一位(0-f)为红色值, 绿色值, 蓝色值
+    <color name="starapp_life_home_activity_card_title_color">#38adff</color>
+
+]]></resources>

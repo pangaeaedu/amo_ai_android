@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--任务列表-->
+    <!--标题-->
+    <string name="starapp_life_task_task_title">วันจันทร์</string>
+    <!--详细内容展开收起-->
+    <string name="starapp_life_task_details_expand">[ขยาย]</string>
+    <string name="starapp_life_task_details_collapse">[ย่อ]</string>
+
+    <!--奖励列表-->
+    <!--标题-->
+    <string name="starapp_life_task_reward_title">รับรางวัล</string>
+    <!--领取奖励成功但服务端未返回提示信息时的默认提示信息-->
+    <string name="starapp_life_task_receive_success">ได้รับรางวัลเรียบร้อย!</string>
+
+    <!--重复任务提示框-->
+    <!--标题-->
+    <string name="starapp_life_task_duplicate_title">แจ้งเตือน</string>
+    <!--确定-->
+    <string name="starapp_life_task_duplicate_confirm">ยืนยัน</string>
+    <!--取消-->
+    <string name="starapp_life_task_duplicate_cancel">ยกเลิก</string>
+    <!--任务进度提示信息-->
+    <string name="starapp_life_task_schedules_message">เยี่ยมมาก คุณทำงาน#schedules#เสร็จแล้ว กรุณาต่อไปนะ~</string>
+    <!--任务截止日期显示值-->
+    <string name="starapp_life_task_end_date_formatter">\'วันที่สิ้นสุด\' yyyy-MM-dd HH:mm</string>
+    <!--奖励截止日期显示值-->
+    <string name="starapp_life_reward_end_date_formatter">\'วันสุดท้าย\' ปี-เดือน-วัน ชั่วโมง:นาที</string>
+</resources>

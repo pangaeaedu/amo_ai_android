@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <path
+        android:fillColor="@color/nduc_base_main"
+        android:pathData="M512,63C264.58,63 64,263.58 64,511s200.58,448 448,448 448,-200.58 448,-448S759.42,63 512,63zM762.84,373.97L452.42,684.4c-8.41,8.4 -22.03,8.4 -30.44,0L259.16,521.58c-2.1,-2.1 -2.08,-5.53 0.04,-7.65l34.92,-34.92c2.13,-2.13 5.55,-2.14 7.65,-0.04l135.43,135.43 283.03,-283.03c2.1,-2.1 5.53,-2.08 7.65,0.04l34.92,34.92c2.13,2.12 2.14,5.55 0.04,7.65z" />
+</vector>

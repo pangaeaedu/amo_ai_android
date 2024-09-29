@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="rename_dialog_message">กำลังโหลด</string>
+    <string name="rename_error_no_network">การเชื่อมต่อเครือข่ายผิดปกติ โปรดตรวจสอบเครือข่าย</string>
+    <string name="rename_error_unknown">ข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="rename_error_app_not_found">ไม่พบผู้เช่า</string>
+    <string name="rename_error_uri_not_null">ผู้ใช้ปัจจุบันไม่ถูกต้อง</string>
+    <string name="rename_error_remark_invalid">ชื่อเล่นไม่ถูกต้อง</string>
+    <string name="rename_error_target_uri_not_null">ไม่พบผู้ใช้</string>
+    <string name="rename_error_target_uris_not_null">ไม่พบรายชื่อผู้ใช้</string>
+
+    <string name="rename_error_param_empty">พารามิเตอร์ที่จำเป็นว่างเปล่า</string>
+
+    <string name="rename_toolbar_title_remark_name_edit">ชื่อเล่น</string>
+    <string name="rename_toolbar_menu_complete">เสร็จสิ้น</string>
+    <string name="rename_remark_name_edit_tip">ที่นี่คุณสามารถตั้งชื่อเล่นของเพื่อน ชื่อเล่นนี้จะปรากฏทั่วแอป สามารถมองเห็นได้เฉพาะตัวคุณ</string>
+
+    <string name="rename_pbl_remark_name_edit">ชื่อเล่น</string> <!-- PBL他人主页 右上角更多入口title -->
+    <string name="rename_edit_remark_name">แก้ไขชื่อเล่น</string>
+    <string name="rename_edit_remark_name_tip">ตั้งชื่อเล่นของเพื่อน จะแสดงทั่วแอป สามารถมองเห็นได้เฉพาะตัวคุณ</string>
+    <string name="rename_btn_cancel">ยกเลิก</string>
+    <string name="rename_btn_save">บันทึก</string>
+    <string name="rename_edit_success">แก้ไขสำเร็จ</string>
+    <string name="rename_edit_failed">การแก้ไขล้มเหลว โปรดลองอีกครั้ง</string>
+
+</resources>

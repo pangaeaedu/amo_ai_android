@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_ui_gallery_plugin_detect_qr_code">Identify QR Code</string>
+    <string name="common_ui_gallery_plugin_exception_toast_no_browse">Browser not installed</string>
+    <string name="common_ui_gallery_plugin_save">Save</string>
+    <string name="common_ui_gallery_plugin_save_completed">Saved successfully.</string>
+    <string name="common_ui_gallery_plugin_save_failed">Failed to save file</string>
+    <string name="common_ui_gallery_plugin_share">Share</string>
+    <string name="common_ui_gallery_plugin_view_picture_in_browse">Open With Browse</string>
+</resources>

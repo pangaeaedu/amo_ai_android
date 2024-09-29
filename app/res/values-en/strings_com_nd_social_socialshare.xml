@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="share_network_unavailable">Network unavailable</string>
+    <string name="share_share">Share</string>
+    <string name="share_cancel">Cancel</string>
+    <string name="share_dialog_hint">Say something?</string>
+    <string name="share_message">Message</string>
+    <string name="share_copy">Copy link</string>
+    <string name="share_copy_successd">Copied</string>
+    <string name="share_message_hint">Sending messages will cost you money but the product is free to use. The operator will charge 0.1 RMB yuan for each message you sent.</string>
+    <string name="share_text_facebook_key">Facebook</string>
+    <string name="share_text_message_key">Messenger</string>
+    <string name="share_text_twitter_key">Twitter</string>
+    <string name="share_text_line_key">Line</string>
+    <string name="share_text_whatsapp_key">WhatsApp</string>
+    <!--20.6.0-->
+    <string name="share_read_close">Close</string>
+    <string name="share_read_share">Share</string>
+    <string name="share_whatsapp_fail_tip">You haven\'t installed WhatsApp yet. Please install it and try again.</string>
+    <!--26.1.10-->
+    <string name="share_sina_no_support_img_tip">Sina Weibo is not installed. Please install it and try again.</string>
+</resources>

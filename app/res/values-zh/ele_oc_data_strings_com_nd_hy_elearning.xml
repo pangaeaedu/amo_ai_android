@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ele_oc_network_error">连接错误，请检查您的网络！</string>
+    <string name="ele_oc_network_low">网络状态不佳，请稍后重试</string>
+    <string name="ele_oc_data_error">数据解析错误，请重试</string>
+    <string name="ele_oc_service_error">服务故障</string>
+</resources>

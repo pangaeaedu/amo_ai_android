@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="dlan_projection_screen">การส่งภาพ</string>
+    <string name="dlan_projection_screen_help">ความช่วยเหลือการใช้งานการส่งภาพ</string>
+    <string name="dlan_choose_device_to_project">เลือกอุปกรณ์ที่ต้องการส่งภาพ</string>
+    <string name="dlan_searching_device">กำลังค้นหาอุปกรณ์...</string>
+    <string name="dlan_cannot_find_device_to_project_please_check">ไม่พบอุปกรณ์ที่ต้องการส่งภาพ? โปรดตรวจสอบ</string>
+    <string name="dlan_device_is_connected_to_the_same_network_as_the_phone">ว่าอุปกรณ์และโทรศัพท์เชื่อมต่อกับเครือข่ายเดียวกันหรือไม่?</string>
+    <string name="dlan_whether_the_device_supports_screen_projection">ว่าอุปกรณ์รองรับการส่งภาพหรือไม่?</string>
+    <string name="dlan_view_solutions">ดูวิธีแก้ปัญหา</string>
+    <string name="dlan_no_wifi">ไม่ได้เชื่อมต่อกับ WiFi โปรดตรวจสอบอุปกรณ์เครือข่าย</string>
+    <string name="dlan_current_is_mobile_data">ปัจจุบันเป็นเครือข่ายข้อมูลเคลื่อนที่</string>
+    <string name="dlan_device_and_mobile_should_on_same_network">อุปกรณ์และโทรศัพท์ต้องเชื่อมต่อกับเครือข่ายเดียวกันเพื่อส่งภาพได้</string>
+    <string name="dlan_tv_need_projection">ทีวีที่ต้องการส่งภาพ</string>
+    <string name="dlan_matching_device_was_found">ไม่พบอุปกรณ์ที่ตรงกัน</string>
+    <string name="dlan_refresh">รีเฟรช</string>
+    <string name="dlan_current_wifi">WiFi ปัจจุบัน%1$s</string>
+    <string name="dlan_change_device">เปลี่ยนอุปกรณ์ &gt;</string>
+    <string name="dlan_error_title">การส่งภาพ</string>
+    <string name="dlan_projection_is_linking">กำลังเชื่อมต่อกับอุปกรณ์.</string>
+    <string name="dlan_connect_failed">การเชื่อมต่อล้มเหลว,</string>
+    <string name="dlan_connect_failed_finish">เล่นจบแล้ว,</string>
+    <string name="dlan_connect_failed_wifi">ไม่ได้เชื่อมต่อกับ WiFi,</string>
+    <string name="dlan_connect_failed_net">อุปกรณ์และโทรศัพท์ต้องเชื่อมต่อกับเครือข่ายเดียวกันเพื่อส่งภาพได้</string>
+    <string name="dlan_wifi_setting">โปรดตรวจสอบการตั้งค่าเครือข่าย</string>
+    <string name="dlan_retry">ลองอีกครั้ง</string>
+    <string name="dlan_retry_2">ส่งภาพใหม่</string>
+    <string name="dlan_check_network">ตรวจสอบเครือข่าย</string>
+    <string name="dlan_device_discover_help">ความช่วยเหลือการใช้งานการส่งภาพ</string>
+    <string name="dlan_device_discover_help_chapter_1">วิธีการส่งภาพไปยังอุปกรณ์?</string>
+    <string name="dlan_device_discover_help_content_1_1">เปิดทีวีหรือกล่องทีวีอัจฉริยะ ตรวจสอบให้แน่ใจว่าทีวี/กล่องทีวีกับโทรศัพท์เชื่อมต่อกับ Wi-Fi เดียวกัน</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="dlan_device_discover_help_content_1_2">คลิกที่ปุ่มมุมบนขวาของแอปพลิเคชั่นเพื่อสตรีมไปยังอุปกรณ์ที่เกี่ยวข้อง</string>
+    <string name="dlan_device_discover_help_chapter_2">ทำไมหาอุปกรณ์ที่จะส่งภาพไม่เจอ</string>
+    <string name="dlan_device_discover_help_content_2">คุณสามารถทำการตรวจสอบดังนี้:</string>
+    <string name="dlan_device_discover_help_content_2_1">ตรวจสอบให้แน่ใจว่าอุปกรณ์ที่จะส่งภาพเปิดอยู่ และเชื่อมต่อกับ Wi-Fi เดียวกันกับโทรศัพท์</string>
+    <string name="dlan_device_discover_help_content_2_2">อุปกรณ์รองรับการส่งภาพ หากไม่แน่ใจ คำแนะนำคือควรสอบถามผู้ผลิตอุปกรณ์</string>
+    <string name="number_3">3</string>
+    <string name="dlan_device_discover_help_content_2_3">ปิดการใช้งานการแยกอิสระ AP ของเราเตอร์โหมดแขก พร้อมกับไม่ได้เชื่อมต่อกับเครือข่ายขยายสัญญาณ หากจำเป็น สามารถรีสตารทเราเตอร์หรืออุปกรณ์เครือข่ายอื่น ๆ</string>
+    <string name="number_4">4</string>
+    <string name="dlan_device_discover_help_content_2_4">หลังจากตรวจสอบแน่ใจว่าไม่มีปัญหาดังกล่าว โปรดรีสตารทแอปพลิเคชั่น และลองส่งภาพอีกครั้ง</string>
+    <string name="dlan_device_discover_help_chapter_3">วิธีแก้ไขการส่งภาพล้มเหลว</string>
+    <string name="dlan_device_discover_help_content_3">โปรดตรวจสอบให้แน่ใจว่าอุปกรณ์สามารถเข้าถึงเครือข่ายได้อย่างปกติ หากจำเป็น สามารถรีสตารทเราเตอร์หรืออุปกรณ์เครือข่ายอื่น ๆ หรือรีสตารทแอปพลิเคชั่นแล้วลองส่งภาพอีกครั้ง</string>
+    <string name="dlan_weak_network_tip_1">เครือข่ายปัจจุบันไม่เสถียร การส่งข้อมูลช้า...</string>
+    <string name="dlan_weak_network_tip_2">เครือข่ายปัจจุบันไม่เสถียร</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="common_ui_gallery_show_original">แสดงรูปภาพต้นฉบับ</string>
+    <string name="common_ui_gallery_load_error">การโหลดรูปภาพล้มเหลว\n โปรดตรวจสอบเครือข่าย</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="social3_sensitive_error">信息中包含敏感内容，请修改后再发送！</string>
+    <string name="social3_sensitive_error_detail">信息中包含敏感内容【%1$s】，请修改后再发送！</string>
+</resources>

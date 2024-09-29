@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise1"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise2"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise3"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise4"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise5"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise6"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise7"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise8"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise9"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise10"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise11"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise12"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise13"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_rise14"
+        android:duration="40" />
+</animation-list>

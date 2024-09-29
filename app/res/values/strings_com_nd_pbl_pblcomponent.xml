@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="starapp_life_agree">Confirm</string>
+    <string name="starapp_life_cancel">Cancel</string>
+    <string name="starapp_life_input">Please Enter</string>
+    <string name="starapp_life_operation_success">Operation Successfully！</string>
+    <string name="starapp_life_operation_fail">Operation Failed！</string>
+    <string name="starapp_life_setting_logout">Sign Out</string>
+
+    <string name="starapp_life_http_no_network">Error, Please Check the Network.</string>
+    <string name="starapp_life_http_parse_error">JSON Parsing Error</string>
+    <string name="starapp_life_http_timeout">Connection Timeout,Please Try Again Later.</string>
+    <string name="starapp_life_http_error">Unstable Network, Please Try Again Later.</string>
+</resources>

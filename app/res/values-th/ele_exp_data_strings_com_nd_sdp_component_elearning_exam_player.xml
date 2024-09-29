@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_exp_data_network_error">เกิดข้อผิดพลาดในการเชื่อมต่อเครือข่าย โปรดตรวจสอบเครือข่ายของคุณ!</string>
+    <string name="ele_exp_data_json_convert_error">การแปลข้อมูลผิดพลาด โปรดลองใหม่ภายหลัง</string>
+    <string name="ele_exp_data_get_data_error">การเรียกรับข้อมูลผิดพลาด โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="ele_exp_data_unknown_error">โหลดผิดพลาด โปรดลองอีกครั้งในภายหลัง!</string>
+    <string name="ele_exp_data_server_time_error">เวลาจากเซิร์ฟเวอร์ไม่สามารถรับได้</string>
+</resources>

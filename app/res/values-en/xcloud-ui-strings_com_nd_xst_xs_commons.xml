@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="xxueui_tools_menu_name">Options</string>
+
+    <!-- 对话框 -->
+    <string name="xxueui_dialog_cancel">Cancel</string>
+    <string name="xxueui_dialog_ok">Confirm</string>
+
+    <string name="xxueui_dialog_title">Title</string>
+
+    <string name="xxueui_barrier_description_empty">Oh, this place is empty</string>
+    <string name="xxueui_barrier_description_network_error">Oops, the network is lost</string>
+    <string name="xxueui_barrier_description_error">Oops, something went wrong</string>
+
+    <string name="xxueui_barrier_button_empty">看看其他的</string>
+    <string name="xxueui_barrier_button_network_error">Try refresh</string>
+    <string name="xxueui_barrier_button_error">看看其他的</string>
+
+    <string name="xxueui_dialog_network_error_title">Network error.</string>
+    <string name="xxueui_dialog_network_error_content">检查看看手机是否开启移动网络或WIFI</string>
+    <string name="xxueui_dialog_network_error_ok">Check the settings</string>
+
+    <string name="xxueui_page_not_support_tips">当前版本不支持该功能，请升级后再使用</string>
+    <string name="xxueui_administrative_class">Administrative class</string>
+    <string name="xxueui_common_no_more_data">End</string>
+    <string name="xxueui_tip_pullup_to_load_more">Pull up to load more</string>
+    <string name="xxueui_load_done">Loaded</string>
+</resources>

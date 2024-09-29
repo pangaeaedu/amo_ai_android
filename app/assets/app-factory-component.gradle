@@ -1,0 +1,2366 @@
+dependencies{
+repositories { flatDir { dirs './aars', 'libs' } }
+    implementation(name:'url_launcher_release-1.0', ext:'aar')
+    implementation(name:'appfactory_release-1.0', ext:'aar')
+    implementation(name:'spanner_flutter_release-1.0', ext:'aar')
+    implementation(name:'e_medal_flutter_release-1.0', ext:'aar')
+    implementation(name:'fx_window_manager_release-1.0', ext:'aar')
+    implementation(name:'flutter_release-1.0', ext:'aar')
+    implementation(name:'fx_core_release-1.0', ext:'aar')
+    implementation "io.flutter:flutter_embedding_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+    implementation "io.flutter:armeabi_v7a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+    implementation "io.flutter:arm64_v8a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
+    implementation "androidx.activity:activity:1.0.0"
+
+
+          	
+			def ucComponentVersion = "0.8.8.7.uccom.release"
+			def ndUcSdkVersion = "0.2.1.3.nducsdk.release"
+			def ucSdkVersion = "1.3.1.9.ucsdk.release"
+
+			implementation "com.nd.sdp:uc_component:${ucComponentVersion}"
+			implementation "com.nd.sdp.uc:nducsdk_implenment:${ndUcSdkVersion}"
+			implementation "com.nd.sdp.uc:nducsdk:${ndUcSdkVersion}"
+			implementation "com.nd.sdp.uc:nduc_base:${ndUcSdkVersion}"
+			
+            implementation "com.nd.android.smartcan:smartcan-accountclient-aar:${ucSdkVersion}"
+            implementation "com.nd.android.smartcan:virtualorgsdk:0.0.6.8.vorgsdk.release"
+			
+            implementation "com.nd.uc:auth2:1.0.0.2.ucauth2sdk.release"
+            implementation "com.nd.uc:auth2_password_impl:1.0.0.2.ucauth2sdk.release"
+            implementation "com.nd.uc:auth2_device_impl:1.0.0.2.ucauth2sdk.release"
+			implementation "com.nd.uc:uc-sdk-adapter:0.0.0.7.ucsdkadapter.release"
+			implementation "com.nd.sdp.android:ucx-sdk:0.0.0.9.ucxsdk.release"
+            implementation "com.nd.uc:thirdlogin:1.0.1.8.release"
+            implementation "com.nd.sdp.android.common.ui:uc-user-textview:0.0.1.2.release"
+            configurations.all {
+                  resolutionStrategy {
+                      force "com.nd.sdp:uc_component:${ucComponentVersion}"
+					  force "com.nd.sdp.uc:nducsdk_implenment:${ndUcSdkVersion}"
+				      force "com.nd.sdp.uc:nducsdk:${ndUcSdkVersion}"
+				      force "com.nd.sdp.uc:nduc_base:${ndUcSdkVersion}"
+					  force "com.nd.android.smartcan:smartcan-accountclient-aar:${ucSdkVersion}"
+					  force "com.nd.android.smartcan:virtualorgsdk:0.0.6.7.vorgsdk.release"
+                      force "com.nd.uc:auth2:1.0.0.2.ucauth2sdk.release"
+                      force "com.nd.uc:auth2_password_impl:1.0.0.2.ucauth2sdk.release"
+                      force "com.nd.uc:auth2_device_impl:1.0.0.2.ucauth2sdk.release"
+				      force "com.nd.sdp.android:ucx-sdk:0.0.0.9.ucxsdk.release"
+                      force "com.nd.uc:thirdlogin:1.0.1.8.release"
+                      force "com.nd.sdp.android.common.ui:uc-user-textview:0.0.1.2.release"
+                  }
+              }
+            
+        
+
+    ext.maf_version = "3.6.5-release.1"
+	def androidx_version = "1.0.0"
+    configurations.all {
+    resolutionStrategy {     
+      force "com.nd.sdp.android:ext-downloadmanager:3.0.1-release.5"
+      force "com.nd.component.android:maincomponent:3.3.54-release.1"
+      force "com.nd.android.smartcan:smartcan-appfactory:5.5.45-151.2-SNAPSHOT"
+	  force "com.nd.sdp.android:apf-interface:3.1.1-stable"
+      force "com.nd.sdp.android:apf-assemble:3.1.8-release.1"       
+      force "com.nd.sdp.android:h5-implement:3.3.18-release.1"
+      force "com.nd.sdp.android:extend-implement:3.1.1-release.1"
+
+      force "com.nd.sdp.android:maf-assemble:3.1.4-release.1"
+      force "com.nd.sdp.android:maf-implement:3.1.5-release.1"     
+      force "com.nd.sdp.android:maf-interface:3.1.8-release.1"     
+ 	  force "com.nd.android.smartcan:network-base-aar:${maf_version}"
+      force "com.nd.android.smartcan:smartcan-datacollection-aar:${maf_version}"
+      force "com.nd.android.smartcan:datatransfer-aar:${maf_version}"
+      force "com.nd.android.smartcan:smartcan-core-aar:${maf_version}"
+      force "com.nd.android.smartcan:datalayer-aar:${maf_version}"
+      force "com.nd.android.smartcan:framework-aar:${maf_version}"
+      force "com.nd.android.smartcan:network-aar:${maf_version}"
+      force "com.nd.android.smartcan:commons-util-aar:${maf_version}"
+      force "com.nd.android.smartcan:smartcanui-aar:${maf_version}"
+      force "com.nd.android.smartcan:thread-util-aar:${maf_version}"
+
+
+      force "com.nd.sdp.android:webviewwrapper:3.5.28-release.1"
+	  force "com.nd.sdp.android:webviewwrapper-x5:3.5.28-release.1"
+	  force "com.nd.sdp.android:android-sub-app:3.2.4-release.1"
+	  force "com.nd.sdp.android:apf-stand-alone-update:3.2.43-release.1"
+	  force "com.nd.android.smartcan:i-android-apf:3.1.0-stable"
+
+      force "androidx.appcompat:appcompat:${androidx_version}"
+      force "androidx.cardview:cardview:${androidx_version}"
+      force "com.google.android.material:material-rc01:${androidx_version}"
+      force "androidx.palette:palette:${androidx_version}"
+      force "androidx.recyclerview:recyclerview:${androidx_version}"
+      force "androidx.annotation:annotation:${androidx_version}"
+      force "androidx.legacy:legacy-support-v4:${androidx_version}"
+      force "androidx.percentlayout:percentlayout:${androidx_version}"
+      force "androidx.legacy:legacy-support-v13:${androidx_version}"
+      force "androidx.browser:browser:${androidx_version}"
+      force "androidx.legacy:legacy-support-core-utils:${androidx_version}"
+
+      //force "androidx.core:core:${androidx_version}"
+      force "androidx.viewpager:viewpager:${androidx_version}"
+      force "androidx.coordinatorlayout:coordinatorlayout:${androidx_version}"
+      force "androidx.collection:collection:${androidx_version}"
+      force "androidx.vectordrawable:vectordrawable-animated:${androidx_version}"
+      force "androidx.customview:customview:${androidx_version}"
+      force "androidx.swiperefreshlayout:swiperefreshlayout:${androidx_version}"
+      force "androidx.vectordrawable:vectordrawable:${androidx_version}"
+      force "androidx.drawerlayout:drawerlayout:${androidx_version}"
+      force "androidx.versionedparcelable:versionedparcelable:${androidx_version}"
+      force "androidx.slidingpanelayout:slidingpanelayout:${androidx_version}"
+      force "androidx.legacy:legacy-support-core-ui:${androidx_version}"
+      force "androidx.cursoradapter:cursoradapter:${androidx_version}"
+      force "androidx.asynclayoutinflater:asynclayoutinflater:${androidx_version}"
+      force "androidx.interpolator:interpolator:${androidx_version}"
+      force "androidx.gridlayout:gridlayout:${androidx_version}"
+      force "androidx.media:media:${androidx_version}"
+      force "androidx.fragment:fragment:1.1.0"
+	  force "androidx.multidex:multidex:2.0.0"
+
+	  // 和x学习xst-interact-sdk冲突，暂时先降下来
+	  force "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.2.2"
+
+// okhttp3的版本升级至4.10.0后，在gradle 5.6.4上构建会有okio冲突，6.5+正常，这里先强制依赖版本，等gradle5.6.4不用之后可以去掉
+	  force "com.squareup.okio:okio:3.0.0"
+	// 这里先强制版本
+ 	  force "com.squareup.okhttp3:logging-interceptor:4.10.0"
+	  force "com.squareup.okhttp3:okhttp:4.10.0"
+	  force "com.squareup.okhttp3:okhttp-urlconnection:4.10.0"
+    }
+  } 
+
+	implementation 'com.google.android.play:feature-delivery:2.1.0'
+	implementation('com.nd.sdp.android:processcheck:3.1.1-release.1@aar') {
+        transitive = true
+        changing = true 
+    }
+
+    implementation('com.nd.sdp.android:maf-interface:3.1.3-release.1@aar') {
+        transitive = true
+        changing = true 
+    }
+    implementation('com.nd.component.android:maincomponent:3.3.54-release.1@aar') {
+        transitive = true
+        changing = true 
+    }
+
+    implementation('com.nd.android.smartcan:smartcan-appfactory:3.5.47-release.1@aar') {
+        transitive = true
+        changing = true
+        exclude group:'android.support',module:'android-support-v4'
+    }
+	
+	implementation('com.nd.sdp.android:apf-interface:3.1.1-stable@aar') {
+        transitive = true
+        changing = true
+    }
+
+    implementation('com.nd.sdp.android:apf-assemble:3.1.6-release.1@aar') {
+        transitive = true
+        changing = true
+        exclude group:'android.support',module:'android-support-v4'
+    }
+    
+    implementation('com.nd.sdp.android:maf-assemble:3.1.2-release.1@aar') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation('com.nd.sdp.android:maf-implement:3.1.4-release.1@aar') {
+        transitive = true
+        changing = true
+    }
+
+    implementation('com.nd.sdp.android:h5-implement:3.3.17-release.1@aar') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation('com.nd.sdp.android:extend-implement:3.1.1-release.1@aar') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+	implementation("com.nd.android.smartcan:thread-util-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+	implementation("com.nd.android.smartcan:smartcan-datacollection-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation("com.nd.android.smartcan:datatransfer-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation("com.nd.android.smartcan:smartcan-core-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation("com.nd.android.smartcan:datalayer-aar:${maf_version}") {
+        transitive= true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation("com.nd.android.smartcan:framework-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation("com.nd.android.smartcan:network-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation("com.nd.android.smartcan:commons-util-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation("com.nd.android.smartcan:smartcanui-aar:${maf_version}") {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+
+    implementation('com.nd.sdp.android:webviewwrapper:3.5.28-release.1@aar') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+    implementation('com.nd.sdp.android:webviewwrapper-x5:3.5.28-release.1@aar') {
+        transitive = true
+        changing = true
+        exclude group: 'android.support', module: 'android-support-v4'
+    }
+	implementation('com.nd.android.smartcan:cssdkextend:1.1.4.csextend@aar') {
+		transitive = true
+		changing = true
+		exclude group: 'android.support', module: 'android-support-v4'
+	}
+	implementation('com.nd.sdp.android:android-sub-app:3.2.4-release.1@aar') {
+		transitive = true
+		changing = true
+	}
+	implementation('com.nd.sdp.android:apf-stand-alone-update:3.2.43-release.1@aar') {
+        transitive = true
+        changing = true
+    }
+	
+	configurations {
+		all*.exclude group:'android.support', module: 'android-support-v4'
+		all*.exclude group: 'android.support'
+		all*.exclude group: 'com.netflix.rxjava'
+		all*.exclude group: 'com.nd.android.sdp.demo' , module: 'module_orgtree_ui'
+		all*.exclude group: 'com.nd.android.sdp.demo' , module: 'contentServiceSdk'
+		all*.exclude group: 'com.nd.android.sdp.demo' , module: 'module_commonResource'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'smartcan-accountclient'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'commons-util'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'network'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'framework'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'datalayer'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'smartcan-core'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'datatransfer'
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'smartcan-datacollection'         
+		all*.exclude group: 'com.nd.android.smartcan' , module: 'smartcan-func-need-permision'
+		all*.exclude group:'com.squareup.okhttp', module: 'okhttp'
+		all*.exclude group:'com.squareup.okhttp', module: 'okhttp-urlconnection'
+		all*.exclude group:'com.nd.sdp.android', module: 'sdp-common-update'
+        all*.exclude group:'com.google.android.play', module: 'core'
+	}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'META-INF/module_release.kotlin_module'
+		exclude 'META-INF/okio.kotlin_module'
+    }
+    defaultConfig {
+    //apf-ndk-begin
+    ndk{
+      abiFilters "armeabi-v7a"
+      }
+    //apf-ndk-end
+  }
+}
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def charsetCode = "UTF-8"
+            output.processManifest.doLast {
+                def targetPath = "${buildDir}/intermediates"
+                def fileNum = 0
+                def folderNum = 0
+                File targetFile = new File(targetPath)
+                if (targetFile.exists()) {
+                    LinkedList<File> list = new LinkedList<File>()
+                    String[] subFiles = targetFile.listFiles()
+                    for (String sub : subFiles) {
+                        if (new File(sub).isDirectory()) {
+                            list.add(sub)
+                        } else {
+                            if (sub.contains("AndroidManifest.xml")) {
+                                def content = new File(sub).getText(charsetCode).replaceAll("_applicationId_", globalApplicationId)
+                                println "开始-----替换清单文件Activity横竖屏配置，要在白名单中，并且编辑器设备方向配置有修改"
+                                def newData = dealWithdic(content, getScreenOrientation(), getfilterActivity())
+                                println "结束-----替换清单文件Activity横竖屏配置，要在白名单中，并且编辑器设备方向配置有修改"
+                                new File(sub).write(newData, charsetCode)
+                                println "applicationId已修改:"
+								println sub
+                            }
+                        }
+                    }
+                    File tempFile;
+                    while (!list.isEmpty()) {
+                        tempFile = new File(list.removeFirst())
+                        subFiles = tempFile.listFiles()
+                        for (String sub : subFiles) {
+                            if (new File(sub).isDirectory()) {
+                                list.add(sub)
+                            } else {
+                                if (sub.contains("AndroidManifest.xml")) {
+                                    def content = new File(sub).getText(charsetCode).replaceAll("_applicationId_", globalApplicationId)
+                                    println "开始-----替换清单文件Activity横竖屏配置，要在白名单中，并且编辑器设备方向配置有修改"
+                                    def newData = dealWithdic(content, getScreenOrientation(), getfilterActivity())
+                                    println "结束-----替换清单文件Activity横竖屏配置，要在白名单中，并且编辑器设备方向配置有修改"
+                                    new File(sub).write(newData, charsetCode)
+                                    println "applicationId已修改:"
+									println sub
+
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    println "intermediates文件不存在"
+                }
+            }
+        }
+    }
+
+
+            
+
+               compile('com.nd.android.sdp.social:module_setting:25.3.11.56fd84e') 
+               compile('com.nd.android.smartcan:version-history:3.5.1-release.1@aar') {
+        			transitive = true
+        			changing = true
+              		exclude group: 'android.support', module: 'android-support-v4'
+   			   }
+               compile ('com.nd.android.sdp.ucext:module_orgtree_ui:1.0.0.0.release@aar') {
+              		transitive = true
+              		changing = true
+               }
+             
+
+            
+            compile('com.nd.sdp.android.common:res-component:2.6.5') {
+                exclude group: 'com.android.support'
+                transitive = true
+                changing = true
+            }
+            // skin-loader换肤实现(runtime), 这个包只在运行时使用, 编译时依赖核心包skin-loader-lib
+            compile ('com.nd.sdp.android:skin-loader:2.5.1') {
+                transitive = true
+                changing = true
+            }
+            // 打包apk时处理AnnotationServiceLoader
+            annotationProcessor "com.nd.sdp.android.serviceloader:service-loader-compiler-app:1.3.0"
+
+			// svg加载库
+			compile('com.nd.sdp.android:skin-loader-svg:2.5.0')
+
+
+            compile('androidx.appcompat:appcompat:1.0.0')
+            compile('com.google.android.material:material:1.0.0')
+            compile('androidx.recyclerview:recyclerview:1.0.0')
+            compile('androidx.legacy:legacy-support-v4:1.0.0')
+            compile('androidx.cardview:cardview:1.0.0')
+            compile('androidx.palette:palette:1.0.0')
+
+            compile('com.afollestad.material-dialogs:commons:0.9.0.2')
+			compile('com.nostra13.universalimageloader:universal-image-loader:5.0.29')
+            compile('com.nd.android.monet:load-wrapper:0.1.2-rc17')
+            compile('com.nd.android.monet:ext-glide:0.1.2-rc17')  // 需要添加至少一个实现
+
+  			 android {
+                packagingOptions {
+                    exclude 'META-INF/module_release.kotlin_module'
+					exclude 'META-INF/rxjava.properties'
+                }
+            }
+
+          
+        
+
+           
+			compile('com.nd.android.sdp.qrcode:qrcode:1.6.2.317.release') {
+				exclude group: 'com.android.support'
+				transitive = true
+                changing = true
+          }
+             
+		
+
+			
+	            compile('com.nd.sdp.android:elearning-configs:13.1.2-rc.2@aar') {
+			        transitive = true
+			        changing = true
+			    }
+                //密钥组件
+            	compile ("com.nd.sdp.android:e-frame:13.1.7-rc.3")
+				compile 'com.nd.sdp.android:e101-a-rn-common:13.1.2-rc.1'
+				compile 'com.nd.hy.android.hermes:hermes-rx:2.2.6-rc8-adx-beta02'
+    			compile 'com.nd.sdp.android:e-uc-client:1.6'
+				compile 'com.nd.sdp.android:ele-commons-view:0.0.5-rc3'
+				compile 'com.nd.sdp.android:e101-eoms-sdk:0.0.1-rc7'
+                // 修复漏洞问题，升级webview:library版本
+                compile 'com.nd.hy.android.component.webview:library:0.2.0'
+             
+		
+
+            
+                  configurations.all {
+                      resolutionStrategy {
+                          force "com.nd.pbl:pblcomponent-sdk:4.1.22.053931e"
+                      }
+                  }
+                  compile ('com.nd.pbl:pblcomponent:7.5.145-AM-SNAPSHOT') {
+                      transitive = true
+                      changing = true
+                  }
+				  compile ('com.nd.sdp.android:star-module:0.9.13.431b39b') {
+                      transitive = true
+                      changing = true
+                  }
+
+            
+        
+
+            
+                    compile('com.nd.social.pulltorefresh:library:1.6@aar') {
+                        transitive = true
+                        changing = true
+                    }
+                    configurations {
+                       all*.exclude group:'com.handmark.pulltorefresh', module: 'library'
+                    }
+             
+        
+
+         compile('com.nd.android.sdp.social:module_recorder:13.8.12.release') {
+			transitive = true
+  			exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
+		 }
+		 
+
+			  
+				   ext.jssdk_version = "3.3.13-release.1"
+				configurations.all {
+    				resolutionStrategy {      
+      					force "com.nd.sdp.android:appfactory-js-sdk:${jssdk_version}"
+					}
+				}
+			    compile("com.nd.sdp.android:appfactory-js-sdk:${jssdk_version}@aar") {
+			        transitive = true
+			        changing = true
+			    }
+
+             
+		
+
+          
+            def photoViewVersion = "3.0.15"
+    		compile("com.nd.android.sdp.common:photoview:${photoViewVersion}") {
+    		   transitive = true
+    		   exclude group: 'com.android.support'
+               exclude group: 'pl.droidsonroids.gif',module: 'android-gif-drawable'
+    		}
+			compile 'com.android.support:gridlayout-v7:24.2.1'
+    		compile("com.nd.android.sdp.common:photoview-iml:${photoViewVersion}") {
+    		   transitive = true
+    		   exclude group: 'com.android.support'
+    		   exclude group: 'com.nostra13.universalimageloader'
+               exclude group: 'pl.droidsonroids.gif',module: 'android-gif-drawable'
+    		}
+    		compile("com.nd.android.sdp.common:photoview-longclick:${photoViewVersion}") {
+    		   transitive = true
+    		   exclude group: 'com.android.support'
+    		   exclude group: 'com.nostra13.universalimageloader'
+    		}
+   			ext { gallery_version = "3.10.3-release.5" }
+            
+            compile "com.nd.sdp.android.common.ui:gallery:$gallery_version"
+            compile "com.nd.sdp.android.common.ui:gallery-loader:$gallery_version"
+            compile "com.nd.sdp.android.common.ui:gallery-page-image:$gallery_version"
+            compile "com.nd.sdp.android.common.ui:gallery-page-ximage:$gallery_version"
+            compile "com.nd.sdp.android.common.ui:gallery-page-video:$gallery_version"
+			compile "com.nd.sdp.android.common.ui:gallery-page-video-exo:$gallery_version"
+            compile "com.nd.sdp.android.common.ui:gallery-page-image-loader-glide:$gallery_version"
+            compile "com.nd.sdp.android.common.ui:gallery-page-image-loader-monet:$gallery_version"
+			compile "com.nd.sdp.android.common.ui:gallery-page-video-loader-okhttp:$gallery_version"
+			compile "com.nd.sdp.android.common.ui.gallery.plugin:csimage:1.1.0"
+            compile "com.nd.sdp.android.common.ui:gallery-jssdk:$gallery_version"
+            compile "com.nd.sdp.android.common.ui.gallery.plugin:sdplongclick:1.1.27.release"
+          
+		 
+
+          
+            compile 'com.nd.sdp.android:photosbridge:3.0.6-release.1'
+            def photo_pick_version = "3.11.5-release.3"
+
+configurations.all {
+    resolutionStrategy {      
+      force "com.nd.android.sdp.common:photopicker:${photo_pick_version}"
+      force "com.nd.android.sdp.common:photopicker-js:${photo_pick_version}"
+
+}
+}
+    		compile("com.nd.android.sdp.common:photopicker:${photo_pick_version}") {
+        		exclude group: 'com.android.support'
+                exclude group: 'com.nd.android.sdp.common'
+    		}
+    		compile("com.nd.android.sdp.common:photopicker-js:${photo_pick_version}") {
+        		exclude group: 'com.android.support'
+                exclude group: 'com.nd.android.sdp.common'
+    		}
+            def mediacompress_version = "1.3.1"
+			compile "com.nd.sdp.android.common.ui.mediacompress:base:${mediacompress_version}"
+			compile "com.nd.sdp.android.common.ui.mediacompress:image:${mediacompress_version}" // 图片压缩
+			compile "com.nd.sdp.android.common.ui.mediacompress:video:${mediacompress_version}"
+ 			compile("com.nd.hy.component:CropImage:1.9.16") {
+        			transitive = true
+        			exclude group: 'android.support'
+        			exclude group: 'com.afollestad.material-dialogs'
+    		}
+          
+		 
+
+          implementation('com.nd.android.sdp.social:module_audiorecorder:17.2.18.1c8f15b')
+          
+    		compile("com.nd.android.sdp.im.common.widget.recorder:library:0.5.68.release") {
+    		   transitive = true
+    		   exclude group: 'com.android.support'
+    		}
+    		compile("com.nd.android.sdp.common:audioplayer:0.5.77.release") {
+    		   transitive = true
+    		   exclude group: 'com.android.support'
+    		}
+          
+		 
+
+			
+			    compile('com.nd.sdp.android:e-video-player:0.3-rc7@aar') {
+			        transitive = true
+			        changing = true
+			    }
+                //视频版本
+				def videoVersion = "1.5.7-rc8"
+				//视频
+				compile "com.nd.sdp.ele.android.video:video:${videoVersion}"
+				//视频文档
+				compile "com.nd.sdp.ele.android.video.doc:video-doc:${videoVersion}"
+				//视频习题
+				compile "com.nd.sdp.ele.android.video.exercise:video-exercise:${videoVersion}" 			
+				//原生视频引擎
+				compile "com.nd.sdp.ele.android.video.engine.mp:video-engine-original:${videoVersion}" 
+				//错误日志
+				implementation "com.nd.hy.android.error.log:error-log:1.0.1-rc3"
+				//插件
+				implementation "com.nd.hy.android.plugin.frame:frame-plugin:1.4.3-rc1"
+
+				compile 'net.lingala.zip4j:zip4j:1.3.2'
+                compile 'com.nd.hy.android.hermes:hermes-rx:2.2.6-rc8'
+             
+		
+
+			
+                compile('com.nd.sdp:cs_component:0.0.8.0.release'){
+					transitive = true
+					changing = true 
+				}
+                compile ('com.nd.android.smartcan:content:1.4.4.11.cs.release')
+                compile('com.nd.android.smartcan:content-s3:0.0.6.22.s3.release')
+				compile('com.nd.android.smartcan:cs-object-sdk:0.0.8.66.release')
+                compile('com.nd.android.smartcan:cs-base-sdk:0.0.5.36.release')
+                compile('com.nd.android.smartcan:cssdkextend:2.0.0.3.csextend@aar'){
+					transitive = true 
+					changing = true 
+					exclude group: 'android.support', module: 'android-support-v4' 
+				}
+                compile('com.nostra13.universalimageloader:universal-image-loader:2.1.0.3@aar') {
+                    transitive = true
+                    changing = true
+                }
+                configurations {
+                  all*.exclude group:'android.support', module: 'android-support-v4'
+                }
+             
+		
+
+      
+        compile('com.nd.android.sdp.texteffect:module_texteffect:0.3.133.develop'){
+          transitive = true
+          changing = true
+        }
+       
+    
+
+            
+   				 compile ('com.nd.sdp.android:userinfo-view-group-component-android:1.1.1.release'){
+	                    transitive = true
+	                    changing = true
+	             }
+				compile "com.nd.sdp.android:userinfo-view-single-component-android:3.1.358.master"
+				compile "com.nd.sdp.android:avatarext:3.1.358.master"
+				compile "com.nd.sdp.android:userinfo-view-sdk-android:1.2.1"
+				android {
+                    compileOptions {
+                        sourceCompatibility 1.8
+                        targetCompatibility 1.8
+                    }
+                }
+             
+		
+
+			
+				compile('com.nd.android.sdp.qrcode:qr-core:0.3.45.develop') {
+					transitive = true
+                    changing = true
+                }
+                configurations {
+                    all*.exclude group: 'com.google.zxing', module: 'core'
+                }
+			
+		
+
+          
+            compile('com.nd.sdp.android.common.ui:nd-avatar-imageview:2.1.3.4.release') {
+                transitive = true
+                changing = true;
+            }
+            compile('com.nd.sdp.android.common.ui:nd-avatar-loader-iml:2.1.3.4.release') {
+                transitive = true
+                changing = true;
+            }
+          
+		 
+
+              
+                  compile('com.nd.android.sdp.im.common.widget:emotion:3.0.268.release')
+				  annotationProcessor "com.nd.android.sdp.im.emotion_cfg:module_build_res_di_app_processor:20.19.release"
+                  afterEvaluate { project ->
+                  new File("${rootProject.getRootDir().getAbsoluteFile()}/appConfig.tmp")
+                      .write("${project.projectDir}/assets")
+                  }
+              
+          
+
+			
+			    compile('com.nd.hy.android.reader:reader-player:0.2@aar') {
+                    exclude group: 'com.android.support'
+                    exclude(group: "com.nd.sdp.ele.android.reader", module: "reader-pdf")
+			        transitive = true
+			        changing = true
+			    }
+
+                compile "com.nd.sdp.ele.android.reader:reader-image:2.0.7-rc8"
+             
+		
+
+compile('com.nd.android.sdp.social:module_share:26.8.6.560f053') { 
+  	transitive = true
+  	exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
+  }
+
+
+			
+			    compile('com.nd.android.sdp.social:module_rbac:20.0.1.0.release') {
+			        transitive = true
+			        changing = true
+					exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
+			    }
+                compile('com.nd.android.sdp.social:module_rbacsdk:17.3.6.rbacsdk.release')
+             
+		
+
+      		
+                compile('com.nd.sdp.android:censor-sdk:19.0.7.442d96a')
+                compile('com.nd.android.sdp.social:module_commonResource:17.0.0.andriodx') {
+				    exclude group: 'com.android.support'
+                }
+          
+     	
+
+			
+              compile('com.nd.sdp.ele.android.video:video:1.3.7-rc7') 
+             
+		
+
+          
+            compile('com.nd.sdp.android.common.ui:nd-timepicker:1.3.8') {
+                transitive = true
+                changing = true;
+            }
+          
+		 
+
+            
+                compile('com.nd.sdp.android:org.server.adapter:1.0.28.androidx')
+                compile('com.nd.android.im:userinfo_extend:0.1.208.release')
+             
+        
+
+              
+				    compile('com.nd.android.sdp.social:module_pagesdk:13.0.0@aar') {
+                        transitive = true
+                        changing = true
+                    }
+             
+             
+
+        
+			compile 'com.nd.sdp.android:rn-common-native:2.1.0'
+		
+      
+
+			
+                // 状态库
+			    compile 'com.nd.sdp.android:e-state-view:0.3.1-rc7'
+                // 通用组件统一异常处理
+                compile 'com.nd.sdp.android:ele_common_widget:0.3-rc8'
+             
+		
+
+            
+                compile('com.nd.sdp.component:ui-universal-popup:0.2.6.9@aar') {
+        			exclude group: 'android.support', module: 'android-support-v4'
+        			exclude group: 'com.android.support', module: 'support-v4'
+        			transitive = true
+        			changing = true
+				}
+       	
+        
+
+            
+              compile('com.nd.sdp.android:im-app-font:1.2.17.develop') {     
+    				exclude group: 'com.android.support'
+    				transitive = true
+    				changing = true
+			  }
+            
+      
+
+			
+			    compile 'com.nd.android.monet:load-wrapper:0.2.0-rc01'
+				compile 'com.nd.android.monet:ext-glide:0.2.0-rc01'
+             
+		
+
+        configurations.all {
+         resolutionStrategy {
+           force "com.facebook.soloader:soloader:0.6.1-nd"
+           force "com.nd.sdp.android:react-wrapper:0.9.0"
+           force "com.facebook.react:react-native:0.59.9-nd-hermes-androidx.1"
+         }
+        }
+        compile('com.facebook.soloader:soloader:0.6.1-nd@aar') {
+          transitive = true
+          changing = true
+          exclude group: 'android.support', module: 'android-support-v4'
+        }
+        compile('com.nd.sdp.android:react-wrapper:0.9.0@aar') {
+          transitive = true
+          changing = true
+          exclude group: 'android.support', module: 'android-support-v4'
+        }
+        compile('com.nd.sdp.android:rn-implement:1.0.0@aar') {
+          transitive = true
+          changing = true
+          exclude group: 'android.support', module: 'android-support-v4'
+        }
+        compile('com.nd.sdp.android:plugin-implement:2.1.0@aar') {
+          transitive = true
+          changing = true
+          exclude group: 'android.support', module: 'android-support-v4'
+        }
+       
+afterEvaluate {
+    def isAndroidLibrary = plugins.hasPlugin("com.android.library")
+    def variants = isAndroidLibrary ? android.libraryVariants : android.applicationVariants
+    variants.all { def variant ->
+        // Create variant and target names
+        def targetName = variant.name.capitalize()
+        def targetPath = variant.dirName
+        // Delete the VM related libraries that this build doesn't need.
+        def libDir = "$buildDir/intermediates/transforms/"
+        def vmSelectionAction = {
+            fileTree(libDir).matching {
+                // For Hermes, delete all the libjsc* files
+                include "**/libjsc*.so"
+            }.visit { details ->
+                def targetVariant = ".*/transforms/[^/]*/${targetPath}/.*"
+                def path = details.file.getAbsolutePath().replace(File.separatorChar, '/' as char)
+                if (path.matches(targetVariant) && details.file.isFile()) {
+                    details.file.delete()
+                }
+            }
+        }
+
+        def task = tasks.findByName("package${targetName}")
+        task.doFirst(vmSelectionAction)
+    }
+}
+
+      
+
+            
+              compile('com.nd.sdp.android:downloader-jswrapper:0.2.7')
+              compile('com.nd.android.sdp.common:downloadmanager:1.8.235.release')
+              compile('com.nd.android.file:file_provider:1.8.101.release')
+       
+        
+
+			
+			    compile('com.nd.edu.router:el-router-sdk:0.0.12-rc04@aar') {
+                    exclude module: 'active-android'
+			        transitive = true
+			        changing = true
+			    }
+                android {
+
+	              packagingOptions {
+	              exclude 'LICENSE.txt'
+	            }
+	}
+
+             
+		
+
+			
+            compile 'com.nd.sdp.android:nd-sort-filter-view:3.0.3-release.1'
+            compile 'com.nd.sdp.android.common.ui:nd-button:1.3.3'
+             
+		
+
+			
+			  compile('com.nd.sdp.android:im-jssdk:1.1.3.develop')
+			
+		
+
+			
+			    compile('com.nd.sdp.android:el-rescard-android:13.1.8-rc.3@aar') {
+			        transitive = true
+			        changing = true
+			    }
+
+             
+		
+
+			
+            compile 'com.nd.sdp.android.common.ui:nd-calendar2:3.0.4-release.1'
+             
+		
+
+			
+            compile 'com.nd.sdp.android.centralsdk:configuration-central-sdk:3.0.0.13.release'
+             
+		
+
+                        	
+                compile('com.nd.sdp.uc:avataredit:2.1.1.6.release')
+            
+        
+
+            
+              compile('com.nd.sdp.component:tag_sdk:0.1.21.release@aar') {
+                  transitive = true
+                  changing = true
+              }               
+            
+        
+
+			
+            compile 'com.nd.sdp.android.common:nd-timepicker2:3.1.4-release.1'
+            compile 'com.nd.sdp.android:time-picker-jssdk:0.0.4'
+             
+		
+
+             
+			    compile('com.nd.sdp.android:edu-contentlib-android:13.1.2-rc.2@aar') {
+                    exclude module: 'active-android'
+			        transitive = true
+			        changing = true
+			    }
+                android {
+	              packagingOptions {
+	              exclude 'LICENSE.txt'
+	            }
+	}
+
+             
+		
+
+			
+              compile 'com.nd.sdp.android:ele-smart-link:13.0.12-rc.12'
+         
+          
+		
+
+          	
+			def nducComponent = "0.3.5.0.nduc.release"
+            def ucAgree = "3.0.5-release.1"
+
+			implementation "com.nd.sdp.uc:nduc_agreement:${ucAgree}"
+			implementation "com.nd.sdp.uc:nduc_agreement_net:${ucAgree}"
+            implementation "com.nd.sdp.uc:nd_uc_component:${nducComponent}"
+            configurations.all {
+                  resolutionStrategy {
+                      force "com.nd.sdp.uc:nd_uc_component:${nducComponent}"
+                  }
+              }
+            
+        
+
+
+            
+            def nducSelectorComponent = "0.0.1.3.selector.release"
+            compile('com.nd.sdp.uc:nduc_selector_component:${nducSelectorComponent}')
+            configurations.all {
+                  resolutionStrategy {
+                      force "com.nd.sdp.uc:nduc_selector_component:${nducSelectorComponent}"
+                  }
+            }
+            
+        
+
+			
+				compile ('com.nd.sdp.android.social3:sensitive-support:1.2.0-x.155704')
+                compile ('com.nd.sdp.android.social3:blacklist-support:1.2.0-x.155704')
+                android {
+                    compileOptions {
+                        sourceCompatibility 1.8
+                        targetCompatibility 1.8
+                    }
+                }
+             
+		
+
+            
+            compile 'com.nd.mob.stat:x-stat:1.1.1-rc01'
+        
+        
+
+            compile 'com.nd.sdp.android:llp-x-user-android:1-develop-SNAPSHOT'
+            compile 'com.nd.xst:llp-userinfo:2-develop-SNAPSHOT'
+            configurations {
+                all*.exclude group: 'com.nd.xst', module: 'userinfo'
+            }
+        
+
+			
+				compile("com.nd.sdp.android.social3:remark-name:2.0.5")
+				android {
+					compileOptions {
+						sourceCompatibility 1.8
+						targetCompatibility 1.8
+					}
+				}
+                compile("com.nd.sdp.android.social3:remark-name-sdk:2.0.3")
+
+			
+		
+
+          	compile('com.nd.android.sdp.social:audioplayer:17.2.15')
+    		compile('com.nd.android.sdp.social:audioplayer_jssdk:17.2.15')
+    		compile('com.nd.android.sdp.social:module_audiorecorder:17.2.15.f2dc50e') {
+        		transitive = true
+        		exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
+    		}
+		 
+
+              compile ("com.nd.sdp.android:llp-x-cloud-assemble-android:1-tailand-SNAPSHOT")
+          
+              //临时解决设置界面乱码问题
+              compile('com.nd.android.sdp.social:module_pagesdk:13.0.3.267ac54')
+        
+
+			
+            compile 'com.nd.sdp.android.common.ui:nd-abc-index:0.0.8'
+             
+		
+
+			
+            compile 'com.nd.sdp.android:nd-address-chooser:1.1.8'
+             
+		
+
+			
+			    implementation 'com.nd.sdp.common:flow-control:1.1.3-rc01'
+             
+		
+
+         compile('com.nd.sdp.android:light-app-core:3.0.1-release.3@aar') {
+          transitive = true
+          changing = true
+          exclude group: 'android.support', module: 'android-support-v4'
+        }
+
+ compile('com.nd.sdp.android:new-lite-app:3.0.1-release.3@aar') {
+          transitive = true
+          changing = true
+          exclude group: 'android.support', module: 'android-support-v4'
+        }
+        compile('com.nd.sdp.android:light-app-component:1.2.3@aar') {
+          transitive = true
+          changing = true
+          exclude group: 'android.support', module: 'android-support-v4'
+        }
+
+      
+
+					
+
+ def permission_version = "3.1.9-release.2"
+configurations.all {
+    resolutionStrategy {     
+	  force "com.nd.sdp.android.common:com-nd-permission-check:${permission_version}"
+}
+}
+			       compile('com.nd.sdp.android.common:com-nd-apf-permission-check:3.1.7-release.1@aar') {
+			        transitive = true
+			        changing = true
+			    }
+			       compile('com.nd.sdp.android.common:com-nd-permission-check:${permission_version}@aar') {
+			        transitive = true
+			        changing = true
+			    }
+
+             
+		
+
+			
+				implementation("com.nd.sdp.android:edu-ap-parent-child-raship-sdk-android:13.0.3-rc.4")
+        	
+    	
+ 
+      
+              compile('com.nd.module_im:social_dynamic:1.0.6.28.develop'){
+                 exclude group:'com.nd.android.sdp.im',module:'module_im'
+              }
+        
+    
+
+          def xCloudVer = "1.5.1-rc08"
+          implementation("com.nd.sdp.android.xcloud:xcloud-sdk:${xCloudVer}@aar")
+          implementation("com.nd.sdp.android.xcloud:xcloud-sdk-ext:${xCloudVer}@aar")
+          implementation("com.nd.sdp.android.xcloud:xcloud-textview-loader:${xCloudVer}@aar")
+          implementation("com.nd.sdp.android.xcloud:xcloud-ui:${xCloudVer}@aar")
+          implementation("com.nd.sdp.android.xcloud:xcloud-screen-lock:${xCloudVer}")
+          implementation("com.nd.sdp.android.xcloud:xcloud-ui-ext:${xCloudVer}@aar")
+          implementation("com.nd.sdp.android.xcloud:xcloud-providers:${xCloudVer}@aar")
+          
+          implementation "androidx.lifecycle:lifecycle-common:2.4.1"
+          implementation "androidx.lifecycle:lifecycle-common-java8:2.4.1"
+          
+          configurations {
+            all*.exclude group: 'com.nd.sdp.android', module: 'x-cloud-sdk'
+            all*.exclude group: 'com.nd.sdp.android.xcloud.ui', module: 'user-textview'
+            all*.exclude group: 'com.nd.sdp.android', module: 'xxue-ui'
+          }
+          
+          // GlideRequest add sdp-app-id header
+          implementation "com.nd.sdp.ele.android.reader:reader-frame:2.0.8-dev02"
+          implementation "com.nd.sdp.android:xst-config:1.6.2-rc06"
+          
+          implementation "com.nd.hy.android.hermes:commons-util:2.2.7-rc06"
+        
+
+          def downloadVersionNew = "3.5.7-rc07"
+          implementation "com.nd.sdp.ele.android.download:download-core:${downloadVersionNew}"
+          implementation "com.nd.sdp.ele.android.download:download-ui:${downloadVersionNew}"
+          implementation "com.nd.sdp.ele.android.download:download-mini:${downloadVersionNew}"
+       	  implementation ("com.nd.sdp.android:xst-downloader-android:1.1.0-rc16")
+          configurations {
+            all*.exclude group: 'com.nd.sdp.android', module: 'cect-download-manager'
+          }
+		
+
+            
+       		    implementation ("com.nd.xst:x-player-component:0.9.7-rc03")
+                //视频
+                def xstVideoVersion = "2.1.1-rc08" 
+                implementation "com.nd.sdp.ele.android.video:video:${xstVideoVersion}" 
+                implementation "com.nd.sdp.ele.android.video.doc:video-doc:${xstVideoVersion}" 
+                implementation "com.nd.sdp.ele.android.video.exercise:video-exercise:${xstVideoVersion}" 
+				implementation "com.nd.sdp.ele.android.video:video-engine-exo:${xstVideoVersion}" 
+                implementation "com.nd.sdp.ele.android.video.engine.mp:video-engine-original:${xstVideoVersion}" 
+                //文档
+                def xstDocVersion = "2.1.1-rc08"
+                implementation "com.nd.sdp.ele.android.reader:reader-image:${xstDocVersion}"
+                implementation "com.nd.sdp.ele.android.reader:reader-pdf:${xstDocVersion}"
+             
+        
+
+          
+          def stuActVersion = "5.9.4-rc10"
+        	compile "com.nd.xst:study-activity:${stuActVersion}"
+            compile "com.nd.xst:study-content:${stuActVersion}"
+        
+
+        	
+       		    compile ("com.nd.sdp.android:llp-xst-course:1.1")
+                configurations {
+                    all*.exclude group: 'com.nd.sdp.android', module: 'xst-course-sdk'
+                    all*.exclude group: 'com.nd.sdp.android', module: 'xst-course-presenter'
+                    all*.exclude group: 'com.nd.sdp.android', module: 'xst-course-data'
+                    all*.exclude group: 'com.nd.sdp.android', module: 'xst-course-abs'
+                    all*.exclude group: 'com.nd.sdp.android', module: 'xst-coursehour'
+                } 
+             
+		
+
+          implementation "com.nd.sdp.android:x-app-startup-android:1.5.5-rc07"
+        
+
+       		def interactVer = "0.5.8-rc06"
+       		implementation "com.nd.xst:xst-content-interact:${interactVer}"
+            implementation "com.nd.xst:xst-interact-sdk:${interactVer}"
+		
+
+        	implementation 'com.nd.xst:x-uc-ext:1.0.7-rc01'
+        
+
+            def userGuideVersion = "3.2.0-rc08"
+        	compile "com.nd.sdp.android:x-user-guide:${userGuideVersion}"
+        
+
+		
+			compile('com.nd.sdp.android:edu-eval-main:0.0.1-beta.52')
+			compile('com.nd.ele.android.exp:exam-player-main:9.0.0-beta.18')
+		
+		
+
+			
+            compile 'com.nd.sdp.android.common:nd-camera:3.0.5-release.2'
+             
+		
+
+			
+			    compile('com.nd.sdp.courseware:exercise-weaver:1.1.5.16') {
+			        transitive = true
+			        changing = true
+			    }
+             
+		
+
+			
+			    compile('com.nd.sdp.courseware:exercise-master:13.0.1-rc.4') {
+			        transitive = true
+			        changing = true
+			    }
+             
+		
+
+          implementation("com.nd.sdp.android.xst:combined-page:1.0.3-rc02")
+          implementation("com.nd.sdp.android.xst:combined-page-sdk:1.0.3-rc02")
+        
+
+      
+      compile('com.nd.sdp.android:apf-flutter:3.0.2-release.1')
+      
+    	// 此处开始为Flutter插件中的依赖
+	// plugin: appfactory
+	implementation('com.nd.android.smartcan:smartcan-appfactory:3.5.42-release.1@aar') {
+	transitive = true
+	changing = true
+	exclude group:'android.support',module:'android-support-v4'
+	}
+	implementation('com.alibaba:fastjson:1.2.7')
+	// plugin: e_medal_flutter
+	implementation "com.nd.sdp.spanner:spanner-app-proj:0.0.1-beta.192"
+	implementation "com.nd.android.smartcan:smartcan-appfactory:3.5.44-release.2"
+	// plugin: fx_core
+	implementation("com.nd.sdp.android.xcloud:xcloud-sdk:1.3.3-rc08")
+	implementation("com.nd.android.smartcan:smartcan-core-aar:3.5.6-release.1@aar")
+	configurations {
+	all*.exclude group: 'com.nd.android.smartcan', module: 'smartcan-core'
+	}
+	// plugin: fx_window_manager
+	implementation('com.nd.xst:x-window-manager-sdk:0.2.1-rc01')
+	// plugin: spanner_flutter
+	implementation "com.nd.sdp.spanner:spanner-app-proj:0.0.1-beta.208"
+	implementation "com.nd.android.smartcan:smartcan-appfactory:3.5.48-release.2"
+	implementation "com.nd.android.smartcan:smartcan-accountclient-aar:1.3.1.9.ucsdk.release"
+	implementation "com.nd.sdp.uc:nducsdk:0.2.0.5.nducsdk.release"
+	implementation "com.nd.android.sdp.im:im_group_sdk:23.22.191.release"
+	implementation "com.nd.android.smartcan:cs-object-sdk:0.0.8.55.release"
+	implementation "com.nd.sdp.ele.android.download:download-core:3.5.7-rc07"
+	implementation "com.nd.sdp.android.common:com-nd-permission-check:3.1.9-release.1"
+	implementation "com.nd.sdp.android.centralsdk:configuration-central-sdk:3.0.0.13.release"
+	implementation "com.nd.android.sdp.common:photopicker:3.11.5-release.1"
+	implementation("com.nd.android.sdp.social:module_recorder:13.8.11.release") {
+	exclude group: "com.nd.sdp.android.common", module: "com-nd-permission-check"
+	}
+	implementation "com.nd.android.sdp.social:module_audiorecorder:17.2.18.1c8f15b"
+	implementation "com.nd.sdp.android.xcloud:xcloud-ui:1.5.1-rc07"
+	// plugin: url_launcher
+	compileOnly 'androidx.annotation:annotation:1.0.0'
+
+	// Flutter插件依赖到此结束
+
+					
+            compile 'com.nd.sdp.android.common:com-nd-apf-dlna-control:3.0.8-release.1'
+            compile 'com.nd.sdp.android.common:com-nd-apf-dlna-extenral:3.0.8-release.1'
+android {
+   packagingOptions {
+        exclude 'META-INF/beans.xml'
+    }
+compileOptions {
+        sourceCompatibility '1.8'
+        targetCompatibility '1.8'
+    }
+}
+
+             
+		
+
+				
+			       implementation('com.nd.sdp.android:security-transporter-component:3.0.3-release.1@aar') {
+			        transitive = true
+			        changing = true
+			    }
+			       implementation('com.nd.sdp.android:security-transporter-sdk:3.0.3-release.2@aar') {
+			        transitive = true
+			        changing = true
+			    }
+
+             
+		
+
+        	
+       		    implementation "com.nd.sdp.android:xst-res:1.0.3-rc09"
+             
+		
+
+              implementation "com.nd.sdp.android:dynamic-access-control:0.1-rc02"
+        
+
+			
+		 //交互框架
+			 compile('com.nd.sdp.android:mutual-framework:13.1.9-rc.5')
+ 			 //密钥组件
+             compile ("com.nd.sdp.android:e-frame:13.1.7-rc.2")
+			//评价
+			compile('com.nd.sdp.android:ele_appraise:5.5.8')
+
+   
+         
+          
+		
+
+			
+			    compile('com.nd.sdp.android:ele-channel:13.2.0-rc.136@aar') {
+			        transitive = true
+			        changing = true
+			    }
+
+             
+		
+
+			
+				compile('nd.sdp.elearning:elearning-study-tasks:13.1.5-rc.1') {
+			        transitive = true
+			        changing = true
+			    }
+                android {
+                    packagingOptions {
+                    	exclude 'LICENSE.txt'
+	            	}
+          		}
+      		
+		
+
+			
+			    compile('com.nd.sdp.android:el-my-study:13.7.8-rc.4@aar') {
+                    exclude module: 'active-android'
+			        transitive = true
+			        changing = true
+			    }
+                android {
+	              	packagingOptions {
+	              		exclude 'LICENSE.txt'
+	            	}
+				}
+             
+		
+
+        
+    implementation 'com.nd.mob.stat:ext-sc:1.1.1-rc01'
+    implementation 'com.nd.xst.android:sa-sdk:0.2-dev05'
+        
+        
+
+		
+			compile('com.nd.sdp.android:e-user-info:0.0.1-beta.36')
+		
+		
+
+		
+			compile('com.nd.sdp.android:e-teacher-community:0.0.1-beta.47')
+		
+		
+
+			
+			    compile('com.nd.sdp.android:e-enroll:13.8.7.3-rc.1@aar')  {
+			        transitive = true
+			        changing = true
+			    }
+             
+		
+
+        	
+       		    compile ("com.nd.sdp.android:xst-coursehour:1.4.8-rc7")
+             
+		
+
+            
+            	
+                compile('com.nd.sdp:thirdlogincom:1.4.6.thirdlogincom.release@aar') {
+
+            	transitive = true
+            	changing = true 
+
+        		}
+
+         		configurations {
+
+              	 all*.exclude group:'android.support', module: 'android-support-v4'
+
+         		}
+            
+        
+
+                        	
+                compile('com.nd.sdp:thirdlogincomfacebook:1.0.0.7.release') {
+            	transitive = true
+            	changing = true 
+        		}
+                configurations.all {
+                    resolutionStrategy {
+                        force "com.google.zxing:core:3.2.1"
+                    }
+                }
+            
+        
+
+                        	
+                compile('com.nd.sdp:thirdlogincomgoogle:1.0.1.0.release') {
+            	transitive = true
+            	changing = true 
+        		}
+            
+        
+
+            
+                compile('com.nd.sdp:thirdloginline:1.0.0.4.release') {
+            	transitive = true
+            	changing = true
+        		}
+            
+        
+}
+          
+				android {
+                  dataBinding {
+                      enabled true
+                  }
+			}
+          
+	    
+
+
+           
+          
+				configurations {
+					 all*.exclude group: 'android.support'
+					 all*.exclude group: 'com.netflix.rxjava'
+					 all*.exclude group:'com.nd.sdp.android.unclemock', module: 'unclemock'
+                     all*.exclude group: 'com.nd.sdp.android.skin', module: 'skin-setting'
+                     all*.exclude group: 'com.afollestad', module: 'material-dialogs'
+                }
+          
+         
+
+
+          try{
+          	apply from: 'http://git.sdp.nd/mobile/commons/raw/master/ua-ext.gradle'
+          }catch(Exception e){
+          }
+          
+		    android {
+              compileOptions {
+                      sourceCompatibility 1.8
+                      targetCompatibility 1.8
+                  }
+				configurations {
+                   all*.exclude group: 'com.squareup.okhttp', module: 'okhttp'
+                }
+            }
+		
+        
+
+         	
+                android {
+					packagingOptions {
+	    				exclude 'META-INF/ASL2.0'
+                        exclude 'META-INF/DEPENDENCIES.txt'
+                        exclude 'META-INF/LICENSE.txt'
+                        exclude 'META-INF/NOTICE.txt'
+                        exclude 'META-INF/NOTICE'
+                        exclude 'META-INF/LICENSE'
+                        exclude 'META-INF/DEPENDENCIES'
+                        exclude 'META-INF/notice.txt'
+                        exclude 'META-INF/license.txt'
+                        exclude 'META-INF/dependencies.txt'
+                        exclude 'META-INF/LGPL2.1'
+                        exclude 'META-INF/services/javax.annotation.processing.Processor'
+                        exclude 'META-INF/rxjava.properties'
+	  				}
+                }
+             
+		
+
+
+
+
+          
+		    android {
+				configurations {
+					 all*.exclude group: 'android.support'
+					 all*.exclude group: 'com.netflix.rxjava'
+                }
+             }
+          
+         
+
+          
+		    android {
+				configurations {
+					 all*.exclude group: 'android.support'
+					 all*.exclude group: 'com.netflix.rxjava'
+                }
+             }
+          
+         
+
+          
+		    android {
+				configurations {
+					 all*.exclude group: 'android.support'
+					 all*.exclude group: 'com.netflix.rxjava'
+                }
+             }
+          
+         
+
+			
+		    	android {
+					packagingOptions {
+                        exclude 'META-INF/beans.xml'
+	  				}
+            	}
+			
+		
+
+          
+android {
+	compileOptions {
+		sourceCompatibility 1.8
+		targetCompatibility 1.8
+	}
+}
+          
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+				android {
+                  dataBinding {
+                      enabled true
+                  }
+			}
+          
+	   
+
+       
+// StrandHogg漏洞修复配置--开始
+def appFile = new File(new File("${rootDir}/app").absolutePath, "assets/app_factory/app/app.json")
+
+if (appFile.exists()) {
+    def config = new JsonSlurper().parse(appFile)
+    if (!config) {
+        println "文件" + appFile + "解析到的数据为空"
+        return
+    }
+    println "=======开始检测android:taskAffinity属性风险配置（StrandHogg漏洞修复配置）======"
+    if (!config.containsKey("is_open_task_affinity")) {
+        println "app.json 不包含is_open_task_affinity标签，无需配置"
+        return
+    }
+    def taskOpen = config.getAt("is_open_task_affinity")
+    if (taskOpen == null){
+        println "is_open_task_affinity为空，无需配置"
+        return
+    }
+    println "===是否开启修复漏洞： === "+ taskOpen
+
+    if (taskOpen.equals("true") || taskOpen==true){
+        // 目前没有开发自定义的口，这里都是为空
+        def taskValue = config.getAt("task_affinity_value")
+        if (taskValue == null){
+            taskValue = ""
+        }
+        println "===自定义task_affinity值 为：=== "+ taskValue
+        modifyActivityTaskAffinity(taskValue)
+    }else {
+        println "StrandHogg漏洞修复没有开启，无需配置"
+    }
+
+}
+
+def modifyActivityTaskAffinity(taskValue){
+    println "=====StrandHogg安全漏洞修复====="
+    android.applicationVariants.all { variant ->
+
+        variant.outputs.each { output ->
+            output.processResources.doFirst { pm ->
+
+                println "=====StrandHogg安全漏洞修复，android:taskAffinity属性修改=====taskValue=" + taskValue
+                def android = new groovy.xml.Namespace('http://schemas.android.com/apk/res/android', 'android')
+                File manifestFile = output.processResourcesProvider.get().manifestFile
+                def xml = new XmlSlurper(false, true).parse(manifestFile)
+
+                // StrandHogg安全漏洞解决方案
+                // ① application下新增taskAffinity属性，并置空，且activity无须设置taskAffinity属性，若设置，也置空
+                // ② 或者将所有activity的taskAffinity属性置空，若无属性，新增置空属性
+                // 这里选择方案①（这里预留属性值配置，之后规则可能会修改，所以taskValue预留）
+                def applicationTaskModify = false
+                xml.application.each { app ->
+                    def appAttributes = app.attributes()
+                    appAttributes.each { key, value ->
+                        if (String.valueOf(key).endsWith('taskAffinity')) {
+                            if (value != null || !String.valueOf(value).equals("")) {
+                                println "application下已定义属性taskAffinity，值为："+ value
+                                applicationTaskModify = true
+                            }
+                        }
+                    }
+                    if (applicationTaskModify) {
+                        println "application下已定义属性taskAffinity，需修改"
+                        appAttributes.put("${android.taskAffinity}", taskValue)
+                    } else {
+                        println "application下无属性taskAffinity，新增属性"
+                        appAttributes.put("${android.taskAffinity}", taskValue)
+                    }
+
+
+                    app.activity.each { activity ->
+                        def attributes = activity.attributes()
+                        boolean needModify = false
+                        attributes.each { key, value ->
+
+                            if (String.valueOf(key).endsWith('name')) {
+                                println "当前扫描activit类： " + value
+                            } else if (String.valueOf(key).endsWith('taskAffinity')) {
+                                if (value != null || !String.valueOf(value).equals("")) {
+                                    println "当前activit类已定义属性taskAffinity，且值为： " + value + ",需修改"
+                                    needModify = true
+                                }
+                            }
+                        }
+                        if (needModify) {
+                            attributes.put("${android.taskAffinity}", taskValue)
+                        }
+                    }
+                }
+
+
+                // 将结果写入新文件
+                manifestFile.text = new groovy.xml.StreamingMarkupBuilder().bind {
+                    mkp.declareNamespace('android': 'http://schemas.android.com/apk/res/android')
+                    mkp.yield xml
+                }
+                // 这里需要多做一层替换
+                // 原因：如果之前没有taskAffinity属性，而是新增的，无法将{http://schemas.android.com/apk/res/android}转成android:
+                String result = manifestFile.text.replaceAll( "\\{${android.uri}\\}", "${android.prefix}:")
+                manifestFile.text = groovy.xml.XmlUtil.serialize(result)
+
+            }
+        }
+    }
+}
+
+// StrandHogg漏洞修复配置--结束
+
+
+// 已删除组件功能开发--开始
+ import groovy.json.JsonSlurper
+gradle.buildFinished {
+    println "============buildFinished 构建结束============="
+
+    println "----------业务组件构建--已删除移动组件构建警告---------"
+    println "====开始查询组件依赖列表===="
+    try {
+        def aarFile = new File(new File("${rootDir}/app").absolutePath, "build/reports/zen/analysis/library/compile/AarInfo.json")
+//        def aarFile = new File(new File("outputs").absolutePath, "AarInfo.json")
+        if (!aarFile.exists()){
+            println "===已删除组件依赖分析AarInfo.json 不存在============"
+            return
+        }
+        if (aarFile.length() == 0){
+            println "aarinfo.json 文件数据为空"
+            return
+        }
+        def aarjson = new JsonSlurper().parse(aarFile)
+        if (aarjson == null){
+            println "aarinfo.json 数据为空"
+            return
+        }
+        def module = aarjson['module-name']
+        if (module == null){
+            println "aarinfo.json module-name 字段数据为空"
+            return
+        }
+
+        def aarMap = [:]
+        module.each {key, value ->
+            String aar = key
+            String[] str = aar.split(":")
+            if (str != null && str.size() > 1) {
+                String aarName = str[0] + ":" + str[1]
+                String version = ''
+                if (str.size() > 2){
+                    version = str[2]
+                }else {
+                    println aarName+"没有对应的版本号"
+                }
+                aarMap.put(aarName, version)
+            }
+        }
+
+        println "====依赖列表查询结束，解析列表==="
+        println "====依赖列表如下====：\n"+ aarMap
+        // 需要查询的aar列表（查询是否有已删除的aar）
+        List<String> tempRequestList = new ArrayList<>()
+
+        // 第三方或者不在白名单的aar
+        List<String> otherList = new ArrayList<>()
+
+        // aar白名单，如果是以这些字符开头，则为公司的aar，如果不在白名单内，则有可能是第三方aar或者其他，需要继续筛选
+        def whiteList = ['nd.sdp.','com.nd','com.eln.','com.zen.']
+        // 所有依赖的aar
+        List<String> allDependencyList = new ArrayList<>()
+        println "====过滤白名单aar和非白名单aar===="
+        // 筛选过滤
+        aarMap.each {key, value ->
+            String name = key
+            allDependencyList.add(name)
+            // 筛选出公司的aar
+            whiteList.each {white->
+                if (name.startsWith(white) && !tempRequestList.contains(key)){
+                    tempRequestList.add(key)
+                }
+            }
+        }
+
+        // 筛选出剩余的aar
+        def commons = allDependencyList.intersect(tempRequestList)
+        otherList = allDependencyList.plus(tempRequestList)
+        otherList.removeAll(commons)
+
+        println "====非白名单遗漏数据过滤===="
+        def componentUrl = "https://app-factory-dependency-service.sdp.101.com"
+
+        // 筛选出非白名单的依赖需要再和服务端请求的总的aar列表做比较，看是否有遗漏的aar
+        // 存储在服务端中的aar列表
+        def allAarList = getAllAarComponent(componentUrl)
+        // 所有的aar和之前筛选出来的非白名单组件的交集
+        def third = allAarList.intersect(otherList)
+        println "剩余的aar列表遗漏数据如下：\n"+ third
+        // 如果有遗漏，则加入到requestList列表中
+        if (third != null && third.size() > 0){
+            tempRequestList.addAll(third)
+            otherList.removeAll(third)
+        }
+        List<String> requestList = new ArrayList<>()
+        tempRequestList.each {data ->
+            String aar
+            if (data.endsWith(":")){
+                aar = data+aarMap.get(data)
+            }else {
+                aar = data +":"+aarMap.get(data)
+            }
+
+            requestList.add(aar)
+        }
+
+        println "====依赖列表解析结束，获取需要验证的aar列表===="
+        println "====需要验证的aar列表如下====：\n"+ requestList
+        println "====无需验证的aar列表如下（第三方或者是不在白名单内的组件）====：\n"+ otherList
+
+
+        println "====总依赖列表数量====："+ aarMap.size()
+        println "====需要上传的依赖列表数量====："+ requestList.size()
+        println "====其他依赖数量====："+ otherList.size()
+
+        def postJson = JsonOutput.toJson(requestList)
+        String url = componentUrl+"/v0.2/androidMobileAar/invalid_aar_infos"
+        def delStr = postData(url, postJson)
+
+        if (delStr == null || delStr.toString().length() <= 2){
+            println "===无已删除的aar，无需上报，退出==="
+            return
+        }
+        println "[warn] ====存在已删除的aar组件，请及时查看修改，aar信息如下====："+ JsonOutput.toJson(delStr)
+
+
+        def versionFile = new File(new File("${rootDir}/target").absolutePath, "variables.json")
+        if (!versionFile.exists()) {
+            println "variables.json文件不存在"
+            return
+        }
+        println "====上报已删除aar至服务端===="
+        def json = new JsonSlurper().parse(versionFile)
+        if (json != null){
+            def version = json['build_version_code']
+            def name = json['build_app_name']
+            def factoryid = json['factoryId']
+            def versionLable = json['build_version_label']
+            def versionId = version
+            def build_time = System.currentTimeMillis()
+
+            String delUrl = componentUrl + "/v0.2/mobileBuild/product"
+
+            def map = [:]
+            map.put("name",name)
+            map.put("version",versionId)
+            map.put("version_lable",versionLable)
+            map.put("factory_id",factoryid)
+            map.put("app_type","android")
+            map.put("build_time",build_time)
+            println "==上报部分参数==="+JsonOutput.toJson(map)
+            map.put("component_deleted",delStr)
+            String delJson = JsonOutput.toJson(map)
+
+            def result = postData(delUrl,delJson)
+
+            println "==上报结束==="
+        }else {
+            println "==variables.json 不存在==="
+        }
+
+
+    }catch (Exception e) {
+        println "------------失败---------"+e.getMessage()
+    }
+}
+
+// 上传数据
+def postData(String want_up_url,String json_data){
+    try {
+
+        URL url = new URL(want_up_url);
+        HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+
+        // 提交模式
+        httpURLConnection.setRequestMethod("POST");
+        //连接超时 单位毫秒
+        httpURLConnection.setConnectTimeout(10000);
+        //读取超时 单位毫秒
+        httpURLConnection.setReadTimeout(2000);
+        // 发送POST请求必须设置如下两行
+        httpURLConnection.setDoOutput(true);
+        httpURLConnection.setDoInput(true);
+        httpURLConnection.setRequestProperty("Content-Type","application/json")
+        // 获取URLConnection对象对应的输出流
+        PrintWriter printWriter = new PrintWriter(httpURLConnection.getOutputStream());
+        // 发送请求参数
+        //post的参数 xx=xx&yy=yy
+        printWriter.write(json_data);
+        // flush输出流的缓冲
+        printWriter.flush();
+        //开始获取数据
+        BufferedInputStream bis = new BufferedInputStream(httpURLConnection.getInputStream());
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        int len;
+        byte[] arr = new byte[1024];
+        while ((len = bis.read(arr)) != -1) {
+            bos.write(arr, 0, len);
+            bos.flush();
+        }
+        def json = new JsonSlurper().parseText(bos.toString())
+        println "触发上报任务------------成功---------"
+        return json
+
+    } catch (Exception e) {
+        println "[Warn]触发上报任务------------失败---------"
+        e.printStackTrace();
+    }
+    return ""
+}
+
+// 获取所有aar列表数据
+def getAllAarComponent(componentUrl) {
+    List<String> aarList = new ArrayList<>()
+    try {
+        String requestUrl = componentUrl+"/v0.2/androidMobileAar/all_aar"
+        URL url = new URL(requestUrl)
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection()
+        conn.setRequestMethod("GET")
+        conn.setConnectTimeout(5000)
+        conn.setReadTimeout(5000)
+        StringBuilder sb = new StringBuilder()
+        if (conn.getResponseCode() == 200) {
+            InputStream is = conn.getInputStream()
+            //面对获取的输入流进行读取
+            BufferedReader br = new BufferedReader(new InputStreamReader(is))
+            String line;
+            while ((line = br.readLine()) != null) {
+                sb.append(line)
+            }
+        } else {
+            println "[warn] getAllAarComponent =====： " + conn.getResponseCode()
+        }
+
+        def parser = new JsonSlurper()
+        aarList = parser.parseText(sb.toString())
+//        println "[info] getAllAarComponent 获取的值： " + aarList
+        return aarList
+    } catch (Exception e) {
+        println "[Error] getAllAarComponent 获取所有aar列表异常：" + e.getMessage()
+    }
+
+    return aarList
+
+
+}
+
+// 已删除组件功能开发--结束
+      
+      	  
+      
+    
+
+
+
+            
+    gts {
+    	apiAtLeast(7) {
+        	applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/6.7.0/replace_files-scheme_assets_g7.gradle")
+		} orElse {
+        	applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/6.7.0/replace_files-scheme_assets.gradle")
+		}
+        applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/5.1.3/optimize_apf_source.gradle")
+        applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/6.7.0/gen_service_conf_code.gradle")
+    }
+        
+        
+
+
+
+
+        
+    gts {
+		apiAtLeast(7) {
+        	applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/6.7.0/file_replace_g7.gradle")
+		} orElse {
+        	applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/6.7.0/file_replace.gradle")
+		}
+        applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/6.7.0/remove-manifest-test.gradle")
+        applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/modifyNetWorkSecurityConfig.gradle")
+	}
+        
+        
+
+
+
+
+
+          
+println "============应用权限声明组件构建开始============"
+
+// 1、找到config.json文件下的语言配置
+// 2、获取target/app_factory/$lang/components/custom_permission_config_data.json 文件
+// 3、遍历文件解析数据
+// 4、获取禁用的权限列表
+// 5、构造隐私权限列表页面数据，预授权sdk初始化的数据
+// 6、分别保存对应的文件，app_factory/$lang/components/xxx.json
+import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
+import groovy.json.StringEscapeUtils
+
+// 各个子权限代码的依赖版本
+buildscript{
+
+    // 定位权限，版本是和jssdk一样
+    ext.location_version = '3.3.6-release.1'
+    // 电话权限，版本和maf一样
+    ext.phone_version = '3.4.0-release.1'
+    // 自启动权限
+    ext.boot_version = '3.0.1-release.1'
+
+    // 悬浮窗权限
+    ext.window_version = '3.1.4-release.1'
+	// webview悬浮窗功能组件
+    ext.float_version = '3.0.1-release.1'
+    // 设备管理器权限
+    ext.device_version = '3.1.4-release.1'
+    // 辅助功能权限
+    ext.accessibility_version = '3.1.4-release.1'
+    // 读取应用使用情况权限
+    ext.usage_version = '3.1.4-release.1'
+    // 通知栏监听权限
+    ext.notify_version = '3.1.4-release.1'
+   
+}
+
+// 需要移除的权限列表
+ext.delPermissions = []
+ext.addPermissionsGroup = []
+ext.delPermissionsGroup = []
+// 特殊权限列表，目的是过滤数据，android-capabilities无法切分支，为了不影响功能，这里只能做一层过滤
+ext.specialPermissionsGroup = []
+// 定位权限拆分判断，定位权限关闭且后台定位开启，则需要阻断构建
+ext.isLocationError = false
+
+def inputFile = new File(new File("${rootDir}/app").absolutePath, "assets/app_factory/app/config.json")
+def language_list = []
+if (inputFile.exists()) {
+    // 语言列表
+    def config = new JsonSlurper().parse(inputFile)
+    language_list = config.getAt("language_enable")
+    println "配置的语言有：" + language_list
+}
+if (!language_list.isEmpty()) {
+    language_list.forEach { language ->
+        parsePermissionJsonFile(language)
+    }
+} else {
+    parsePermissionJsonFile("zh-CN")
+}
+if (isLocationError){
+    throw new GradleException('error 构建失败： 请检查编辑器配置：定位权限是否已被禁用,且后台定位是开启状态（后台定位可以单独关闭，但不能单独开启，如果需要后台定位权限，请同时开启定位权限，否则无法使用；如果需要关闭定位权限，请同时关闭后台定位权限）')
+}
+println "过滤重复权限前，size= " + delPermissions.size()
+// 根据权限添加对应aar
+addPermissionAar()
+// 移除禁用的权限，对AndroidManifest.xml文件操作
+removeAndroidManifestDisablePermission()
+
+// 解析权限数据，解析不同语言文件下的数据
+def parsePermissionJsonFile(language) {
+    try {
+        def targetFile = new File(new File("${rootDir}/target").absolutePath, "app_factory/${language}/components/custom_permission_config_data.json")
+        println "当前解析的文件对应语言：" + language
+        if (targetFile.exists()) {
+            def permission = new JsonSlurper().parse(targetFile)
+            if (!permission) {
+                println "文件" + targetFile + "解析到的数据为空"
+                return
+            }
+            if (!permission.containsKey("android")) {
+                println "permission_config_data.json 不包含android标签"
+                return
+            }
+            def androidPermission = permission.getAt("android")
+            // 隐私权限列表，预授权sdk数据构造
+            def privacyMap = [:]
+            def sdkMap = [:]
+            if (!androidPermission) {
+                println "permission_config_data.json android标签下数据为空"
+                return
+            }
+
+			boolean loction_enable = true
+			boolean back_location_enable = true
+
+            androidPermission.each { key, values ->
+                // 忽略特殊权限
+                if (specialPermissionsGroup.contains(key)) {
+                    println "权限组：" + key + " 属于特殊权限，忽略"
+                } else {
+                    if (key == "InformationSecurity" || key == "PermissionSettingExplain") {
+                        privacyMap.put(key, values)
+                    } else {
+                        if (values.containsKey("permissions")) {
+                            boolean enable = true
+                            boolean privacy = true
+                            if (values.containsKey("enable")) {
+                                // 是否启用，根据配置数据结果，可能是个字符串，需要转换
+                                def enableStr = values.getAt("enable").toString()
+                                if (enableStr == "false") {
+                                    enable = false;
+                                }
+                            } else {
+                                println "权限组：" + key + " 无enable字段，自动默认为true"
+                            }
+
+							if (key == "LOCATION"){
+                                loction_enable = enable
+                            }
+                            if (key == "LOCATION_BACKGROUND"){
+                               back_location_enable = enable
+                            }
+                            if (loction_enable == false && back_location_enable == true){
+                                isLocationError = true
+                                
+ 							}else{
+								isLocationError = false
+							}
+
+                            if (values.containsKey("privacy")) {
+                                // 是否是高危权限
+                                def privacyStr = values.getAt("privacy").toString()
+                                if (privacyStr == "false") {
+                                    privacy = false;
+                                }
+                            } else {
+                                println "权限组：" + key + " 无privacy字段，自动默认为true"
+                            }
+                            println "权限组：" + key + "，对应enable：" + enable + "，privacy：" + privacy
+                            def pJmap = [:]
+                            def sJmap = [:]
+                            def detail = values.getAt("detail")
+                            def name = values.getAt("name")
+                            if (enable) {
+                                // 隐私列表数据
+                                if (privacy){
+                                    pJmap.put("name", name)
+                                    pJmap.put("intro", values.getAt("intro"))
+                                    pJmap.put("detail", detail)
+                                }else {
+                                    println "权限组：" + key + " 对应的privacy 属性值为false，不需要输出到隐私列表中"
+                                }
+                                addPermissionsGroup.add(key)
+                            }else {
+                                // 被禁用的权限
+                                delPermissions.addAll(values.getAt("permissions"))
+                                delPermissionsGroup.add(key)
+                            }
+                            // 预授权sdk需要的权限数据
+                            sJmap.put("name", name)
+                            sJmap.put("description", detail)
+                            sJmap.put("enable", enable)
+                            if (!pJmap.isEmpty()) {
+                                privacyMap.put(key, pJmap)
+                            }
+                            if (!sJmap.isEmpty()) {
+                                sdkMap.put(key, sJmap)
+                            }
+                        } else {
+                            println "权限组：" + key + " 无子权限，默认无效，请检查是否需要该权限"
+                        }
+
+                    }
+                }
+
+            }
+
+            // 中文编码转换
+            def privacyJson = StringEscapeUtils.unescapeJava(JsonOutput.toJson(privacyMap))
+            def sdkJson = StringEscapeUtils.unescapeJava(JsonOutput.toJson(sdkMap))
+            writePermissionToJsonData(language, "permission.json", privacyJson)
+            writePermissionToJsonData(language, "permission_description.json", sdkJson)
+        } else {
+            println "文件" + targetFile + "不存在"
+        }
+    } catch (Exception e) {
+        println "数据解析异常：" + e.getMessage()
+    }
+
+}
+
+// 将过滤好的权限文件，分别写入，其中隐私列表页面用的数据保存在permission.json
+// 预授权sdk使用到的数据保存在permission_description.json
+def writePermissionToJsonData(language, fileName, jsonData) {
+    def permissionFileFolder = new File(new File("${rootDir}/app").absolutePath, "assets/app_factory/${language}/components")
+    if (!permissionFileFolder.exists()) {
+        println "写入数据： 创建对应文件夹"
+        permissionFileFolder.mkdirs()
+    }
+    def permissionFile = new File(new File("${rootDir}/app").absolutePath, "assets/app_factory/${language}/components/${fileName}")
+    println "文件 ：" + permissionFile
+
+    permissionFile.withWriter('utf-8') {
+        writer ->
+            writer.writeLine jsonData
+            println "writePermissionToJsonData 写入数据成功"
+    }
+}
+
+// 移除禁用的权限，对AndroidManifest.xml文件操作
+def removeAndroidManifestDisablePermission() {
+    // 去除重复的权限
+    delPermissions.unique()
+    delPermissionsGroup.unique()
+    println "过滤重复权限后，size= " + delPermissions.size()
+    if (!delPermissions.isEmpty()) {
+        println "禁用的权限组为：" + delPermissionsGroup
+        // 移除Androidmanifest.xml对应的权限
+        android.applicationVariants.all { variant ->
+
+           variant.outputs.each { output ->
+                output.processManifest.doLast {
+                    File manifestFile = output.processResourcesProvider.get().manifestFile
+                    def xml = new XmlSlurper().parse(manifestFile)
+
+                    delPermissions.forEach { permission ->
+                        // 删除 CAMERA 权限节点
+                        xml.'uses-permission'.findAll { it.@'android:name' == permission }.each {
+                            it.replaceNode {}
+                            println("权限" + permission + "已被禁用，移除Androidmanifest.xml中的权限声明")
+                        }
+                    }
+					// 如果禁用的权限组包含 BOOT，则删除 BOOT_COMPLETED action 节点
+                    if (delPermissionsGroup.contains("BOOT")) {
+                        println("已禁用 BOOT，需要移除BOOT_COMPLETED action 声明")
+                        xml.application.receiver.'intent-filter'.'action'.findAll { it.@'android:name' == 'android.intent.action.BOOT_COMPLETED' }.each {
+                            it.replaceNode {}
+                            println("移除Androidmanifest.xml中的 BOOT_COMPLETED action 声明")
+                        }
+                    }
+
+                    // 将结果写入新文件
+                    manifestFile.text = groovy.xml.XmlUtil.serialize(new groovy.xml.StreamingMarkupBuilder().bind {
+                        mkp.declareNamespace('android': 'http://schemas.android.com/apk/res/android')
+                        mkp.yield xml
+                    })
+
+                }
+            }
+        }
+    } else {
+        println "禁用的权限为：" + delPermissionsGroup
+    }
+
+    println "============应用权限声明组件构建结束============"
+}
+
+// 添加对应权限的aar
+def addPermissionAar() {
+    addPermissionsGroup.unique()
+    println "开启的权限组为：" + addPermissionsGroup
+    if (!addPermissionsGroup.isEmpty()) {
+
+        // 如果权限组里有包含定位和电话的，则要添加对应的aar组件
+        addPermissionAar('com.nd.sdp.android','jssdk-func-need-permission',location_version,addPermissionsGroup.contains("LOCATION"))
+        addPermissionAar('com.nd.android.smartcan','smartcan-func-need-permision-aar',phone_version,addPermissionsGroup.contains("PHONE"))
+        // 悬浮窗权限
+        addPermissionAar('com.nd.sdp.android.common','apf-permission-alterwindow',window_version,addPermissionsGroup.contains("ALERT_WINDOW"))
+        // 读取应用使用情况
+        addPermissionAar('com.nd.sdp.android.common','apf-permission-usage',usage_version,addPermissionsGroup.contains("USAGE"))
+        // 设备管理
+       addPermissionAar('com.nd.sdp.android.common','apf-permission-device',device_version,addPermissionsGroup.contains("DEVICE"))
+        // 监听通知栏
+       addPermissionAar('com.nd.sdp.android.common','apf-permission-notifylistener',notify_version,addPermissionsGroup.contains("NOTIFICATION_LISTENER"))
+        // 辅助功能
+       addPermissionAar('com.nd.sdp.android.common','apf-permission-accessibility',accessibility_version,addPermissionsGroup.contains("ACCESSIBILITY"))
+       // 自启动权限
+       addPermissionAar('com.nd.android.smartcan','apf-boot-permision',boot_version, addPermissionsGroup.contains("BOOT"))
+	   // webview悬浮窗组件
+	   if(!addPermissionsGroup.contains("ALERT_WINDOW")){
+	     addPermissionAar('com.nd.sdp.android','nd-float-view-library',float_version,addPermissionsGroup.contains("ALERT_WINDOW"))
+	   }
+      
+    }
+
+}
+
+// 添加各个权限依赖
+def addPermissionAar(group, module, version, add) {
+
+    println "当前权限组件："+ group+":"+module+":"+version
+
+    if (add){
+        println "添加权限依赖"
+        dependencies {
+            implementation("${group}:${module}:${version}@aar") {
+                transitive = true
+                changing = true
+                exclude group: 'android.support', module: 'android-support-v4'
+            }
+        }
+    }else {
+        println "不需要添加权限依赖，移除"
+        android {
+            configurations {
+                all*.exclude group: group, module: module
+            }
+        }
+    }
+
+}
+		  
+    
+
+
+
+        
+          gts {
+            // 支持自定义app-id
+            applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/5.1.3/mod_app_id.gradle")
+            applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/6.0.0/mod_app_host.gradle")
+
+            //读取打包配置请求拦截地址，写入assets
+            applyFrom("http://git.sdp.nd/android-social-doc/library-doc/raw/master/generateAssertReqConfig")
+            // 自动替换构建后的AndroidManifest.xml中声明的所有Activity屏幕方向为编辑器配置方向
+			applyFrom('http://git.sdp.nd/mobile/res/raw/master/x-study/support_pad.gradle')
+          }
+        
+        
+
+			
+		    	android {
+    				compileOptions {
+        				sourceCompatibility 1.8
+        				targetCompatibility 1.8
+    				}
+				}
+			
+		
+
+             
+                android { 
+                    compileOptions { 
+                        sourceCompatibility 1.8 
+                        targetCompatibility 1.8 
+                    } 
+                } 
+            
+        
+
+
+			
+		    	android {
+    				compileOptions {
+        				sourceCompatibility 1.8
+        				targetCompatibility 1.8
+    				}
+				}
+			
+		
+
+
+			
+		    	android {
+					packagingOptions {
+						exclude 'META-INF/sdk_release.kotlin_module'
+	  				}
+				}
+			
+		
+
+
+			
+		    	android {
+    				packagingOptions {
+        				exclude 'META-INF/sdk_release.kotlin_module'
+    				}
+				}
+			
+		
+
+
+
+
+
+
+
+
+
+
+        
+         gts {
+            applyFrom("http://git.sdp.nd/mobile/res/raw/master/x-study/generateDynamicAccessConfig.groovy")
+          }
+         
+        
+
+		
+		    android {
+				 configurations {
+							  all*.exclude group: 'com.netflix.rxjava'
+                              all*.exclude group: 'net.lingala.zip4j', module: 'zip4j'
+                              all*.exclude group: 'com.nd.vrstore', module: 'signsdk'
+
+                }
+ 
+                defaultConfig {
+                     renderscriptTargetApi 22
+                     renderscriptSupportModeEnabled true
+
+                }
+				packagingOptions {
+	    			exclude 'LICENSE.txt' 
+					exclude 'META-INF/rxjava.properties'
+	  			}
+
+            }
+
+		
+		
+
+
+
+
+
+
+
+
+			
+		    	android {
+    				compileOptions {
+        				sourceCompatibility 1.8
+        				targetCompatibility 1.8
+    				}
+				}
+			
+		
+
+
+
+

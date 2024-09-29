@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="social3_sensitive_error">The information contains sensitive content. Please modify it before sending.</string>
+    <string name="social3_sensitive_error_detail">The information contains sensitive content [%1$s], please modify and resend!</string>
+</resources>

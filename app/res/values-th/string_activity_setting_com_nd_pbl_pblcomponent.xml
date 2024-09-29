@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--设置页面-->
+    <!--标题-->
+    <string name="starapp_life_setting">ข้อมูลนามบัตร</string>
+    <!--性别列表-->
+    <string-array name="starapp_life_setting_sex_select_list"><item>ชาย</item><item>หญิง</item></string-array>
+
+    <!--头像查看/修改页面-->
+    <!--标题-->
+    <string name="starapp_life_setting_setting_photo_title">ดูรูปโปรไฟล์</string>
+    <!--菜单-->
+    <string name="starapp_life_setting_setting_photo_right_title">เมนู</string>
+    <!--点击头像选项列表-->
+    <string name="starapp_life_photo_save">บันทึกรูปภาพต้นฉบับลงในอัลบั้ม</string>
+    <string name="starapp_life_setting_take_photo">ถ่ายภาพ</string>
+    <string name="starapp_life_setting_select_from_album">เลือกรูปภาพจากอัลบั้ม</string>
+    <!--修改头像-->
+    <string name="starapp_life_clip_file_fail">การตัดรูปภาพล้มเหลว</string>
+    <!--保存到相册-->
+    <string name="starapp_life_setting_save_success">บันทึกสำเร็จ เส้นทางไฟล์:%1$s</string>
+    <string name="starapp_life_setting_cannot_mkdirs">ไม่สามารถสร้างไดเรกทอรีเก็บรูปภาพ</string>
+    <string name="starapp_life_setting_photo_loading">กำลังดาวน์โหลดรูปภาพ กรุณารอสักครู่</string>
+    <string name="starapp_life_setting_photo_failed">การดาวน์โหลดรูปภาพล้มเหลว โปรดลองอีกครั้งในภายหลัง</string>
+    <!--图片裁剪页面-->
+    <string name="starapp_life_jay_please_wait">โปรดรอ...</string>
+    <string name="starapp_life_unable_to_load_image">ไม่สามารถโหลดรูปภาพนี้</string>
+    <string name="starapp_life_sd_card_not_found">ไม่พบการ์ด SD</string>
+    <string name="starapp_life_gallery_not_found">อัลบั้มไม่มีอยู่</string>
+    <string name="starapp_life_crop_save_text">แอป</string>
+    <string name="starapp_life_crop_discard_text">ยกเลิก</string>
+    <string name="starapp_life_no_storage_card">ไม่มีการ์ดจดหมาย</string>
+    <string name="starapp_life_not_enough_space">พื้นที่ไม่เพียงพอ</string>
+    <string name="starapp_life_preparing_card">กำลังเตรียมการบันทึกลงบัตรหนีบ...</string>
+    <string name="starapp_life_saving_image">กำลังบันทึกรูปภาพ...</string>
+
+    <!--二维码页面-->
+    <!--标题-->
+    <string name="starapp_life_setting_qr_code_title">คิวอาร์โค้ด</string>
+
+    <!--文本修改页面-->
+    <!--标题栏的保存按钮-->
+    <string name="starapp_life_setting_text_activity_ok">เสร็จสิ้น</string>
+    <!--未输入内容是的提示语-->
+    <string name="starapp_life_setting_text_activity_hint">โปรดกรอกเนื้อหา</string>
+    <!--字数超长提示语-->
+    <string name="starapp_life_setting_text_activity_text_out_hint">เกิน%1$d ตัวอักษร</string>
+    <!--字数超长按保存时的提示语-->
+    <string name="starapp_life_setting_text_activity_text_out_toast">เกินขีดจำกัดจำนวนตัวอักษรแล้ว กรุณาแก้ไขและบันทึกอีกครั้ง</string>
+    <!--未输入内容且字段不允许为空时按保存的提示语-->
+    <string name="starapp_life_setting_text_activity_text_empty_toast">ไม่อนุญาตให้ว่างเปล่า</string>
+
+
+
+    <!--添加其他名字-->
+
+    <string name="starapp_life_edit_name_choose_language">เลือกรูปแบบ</string>
+    <string name="starapp_life_name_open_to_others">เปิดเผยต่อคนอื่น</string>
+    <string name="starapp_life_edit_name_to_delete">ลบ</string>
+    <string name="starapp_life_edit_name_to_confirm">ตกลง</string>
+
+    <string name="starapp_life_select_language_for_name">เลือกรูปแบบชื่อ</string>
+    <string name="starapp_life_select_language_for_list">โปรดเลือกรูปแบบที่เกี่ยวข้องกับชื่อ</string>
+    <string name="starapp_life_nickname_input_hint">โปรดกรอกชื่อเล่น สูงสุด 15 ตัวอักษร</string>
+    <string name="starapp_life_setremark_input_hint">โปรดใส่หมายเหตุ ไม่เกิน 15 ตัวอักษร</string>
+
+    <string name="starapp_life_edit_other_language">แก้ไขชื่อภาษาอื่น</string>
+    <string name="starapp_life_add_language_title">เพิ่ม %1$s</string>
+    <string name="starapp_life_edit_language_title">แก้ไข%1$s</string>
+
+    <string name="starapp_life_network_unavailable">เครือข่ายมีปัญหา</string>
+
+    <string name="starapp_life_remark_input_over">เกินขีดจำกัด%1$d ตัวอักษรแล้ว กรุณาแก้ไขก่อนบันทึก</string>
+    <string name="starapp_life_remark_input_empty">ชื่อเล่นไม่สามารถว่างเปล่า</string>
+
+    <string name="starapp_life_function_name_settings">ตั้งค่า</string>
+    
+
+    <string name="starapp_life_gallery_need_install">โปรดติดตั้งคลังภาพในศูนย์แอปพลิเคชั่น-ร้านค้าแอปพลิเคชั่น</string>
+</resources>

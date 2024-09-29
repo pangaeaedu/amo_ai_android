@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="com_nd_cmn_ui_picker_title">พื้นที่ที่ตั้ง</string>
+    <string name="com_nd_cmn_ui_picker_cancel">ยกเลิก</string>
+    <string name="com_nd_cmn_ui_picker_ok">ตกลง</string>
+    <string name="com_nd_cmn_ui_picker_tab_hint">โปรดเลือก</string>
+</resources>

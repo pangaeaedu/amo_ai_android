@@ -1,0 +1,34 @@
+<resources>
+    <string name="epo_confirm_cancel">取消</string>
+    <string name="epo_confirm_commit">确认</string>
+    <string name="epo_confirm_ensure">确定</string>
+    <string name="epo_confirm_revise">退出学习</string>
+    <string name="epo_confirm_restart">重新答题</string>
+    <string name="epo_confirm_continue">继续答题</string>
+    <string name="epo_load_fail">习题加载失败</string>
+    <string name="epo_back_tips">离开将无法继续学习，确认离开吗？</string>
+
+    <string name="epo_pract_not_exist">练习不存在</string>
+    <string name="epo_pract_not_enable">练习已下线</string>
+
+    <string name="epo_online_practice">练习</string>
+    <string name="epo_pass_model_one">正确率达到%1$s即可通过练习</string>
+    <string name="epo_pass_model_two">答对%1$d题即可通过练习</string>
+    <string name="epo_pass_model_three">参与所有题目作答即可</string>
+    <string name="epo_practice_passed">练习已通过</string>
+    <string name="epo_practice_info_normal"><![CDATA[共&nbsp;<font color="#1E62EC">%1$d</font>&nbsp;题]]></string>
+    <string name="epo_practice_info_continue"><![CDATA[共&nbsp;<font color="#1E62EC">%1$d</font>&nbsp;题&nbsp;&nbsp;|&nbsp;&nbsp;已做&nbsp;<font color="#1E62EC">%2$d</font>&nbsp;题]]></string>
+    <string name="epo_practice_info_complete"><![CDATA[共&nbsp;<font color="#1E62EC">%1$d</font>&nbsp;题&nbsp;&nbsp;|&nbsp;&nbsp;答对&nbsp;<font color="#1E62EC">%2$d</font>&nbsp;题&nbsp;&nbsp;|&nbsp;&nbsp;正确率&nbsp;<font color="#1E62EC">%3$s</font>&nbsp;]]></string>
+    <string name="epo_practice_info_history_best">历史最佳：</string>
+    <string name="epo_practice_result">已完成（%1$d题）</string>
+    <string name="epo_show_analysis">查看作答解析</string>
+    <string name="epo_answer">答题</string>
+    <string name="epo_answer_again">重新答题</string>
+    <string name="epo_continue_answer">继续答题</string>
+
+    <string name="epo_custom_practice_point">断点练习</string>
+    <string name="epo_online_practice_point">在线练习</string>
+    <string name="epo_online_practice_first_answer">首次作答</string>
+    <string name="epo_online_practice_continue_answer">继续作答</string>
+    <string name="epo_online_practice_answer_again">再次作答</string>
+</resources>

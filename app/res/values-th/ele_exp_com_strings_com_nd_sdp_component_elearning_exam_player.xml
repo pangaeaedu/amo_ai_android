@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_exp_com_time_with_day">%1$d วัน %2$d ชั่วโมง %3$d นาที %4$d วินาที</string>
+    <string name="ele_exp_com_time_no_day">%1$d ชั่วโมง %2$d นาที %3$d วินาที</string>
+    <string name="ele_exp_com_time_no_hour">%1$d คะแนน %2$d วินาที</string>
+    <string name="ele_exp_com_no_more_data">ไม่มีข้อมูลเพิ่มเติม</string>
+    <string name="ele_exp_com_loading">กำลังโหลด โปรดรอสักครู่...</string>
+    <string name="ele_exp_com_loadfail">โหลดล้มเหลว คลิกเพื่อลองใหม่</string>
+    <string name="ele_exp_com_time_no_hour_min">%1$dวินาที</string>
+    <string name="ele_exp_com_no_support">ฟังก์ชันยังไม่เปิด</string>
+    <string name="ele_exp_com_back">กลับ</string>
+    <string name="ele_exp_com_share">แชร์</string>
+    <string name="ele_exp_com_prepare_activity">หน้าเตรียมการ</string>
+    <string name="ele_exp_com_score_activity">หน้าคะแนน</string>
+    <string name="ele_exp_com_result_activity">หน้าผลลัพธ์</string>
+    <string name="ele_exp_com_history_score_activity">รายการคะแนนย้อนหลัง</string>
+    <string name="ele_exp_com_retry">ลองใหม่</string>
+    <string name="ele_exp_com_analyse">ดูการแยกวิเคราะห์</string>
+    <string name="ele_exp_com_redo_exercise">ฝึกซ้อมอีกครั้ง</string>
+</resources>

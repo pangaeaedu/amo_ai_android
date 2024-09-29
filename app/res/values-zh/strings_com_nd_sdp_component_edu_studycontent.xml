@@ -1,0 +1,53 @@
+﻿<resources>
+
+    <string name="el_content_lib_player_not_support_text">该资源暂不支持播放</string>
+
+    <string name="el_content_lib_player_resource_uploader">上传者：</string>
+
+    <string name="el_content_lib_player_upload_time">上传时间：</string>
+
+    <string name="el_content_lib_player_intro">资源简介：</string>
+
+    <string name="el_content_lib_player_res_type">文件类型：</string>
+
+    <string name="el_content_lib_player_lan">语言：</string>
+    <string name="el_content_lib_player_format">文件格式：</string>
+    <string name="el_content_lib_player_copyright">版权方：</string>
+    <string name="el_content_lib_player_size">文件大小：</string>
+    <string name="el_content_lib_player_lan_en">英文</string>
+    <string name="el_content_lib_player_lan_zh_cn">中文</string>
+
+    <string name="el_content_lib_player_non_wifi_play_tip">正在使用非WIFI网络，\n是否继续播放？</string>
+
+    <string name="el_content_lib_player_net_error_tips">网络连接错误，请重试</string>
+    <string name="el_content_lib_player_data_error_tips">数据解析错误，请重试</string>
+
+    <string name="el_content_lib_player_cancel">取消</string>
+    <string name="el_content_lib_player_confirm">确定</string>
+    <string name="el_content_lib_player_coursewares">课件</string>
+    <string name="el_content_lib_player_document">文档</string>
+    <string name="el_content_lib_player_vr">VR</string>
+    <string name="el_content_lib_player_paints">世界名画</string>
+    <string name="el_content_lib_player_pic">图片</string>
+    <string name="el_content_lib_player_video">视频</string>
+    <string name="el_content_lib_player_audio">音频</string>
+    <string name="el_content_lib_player_coursewareobjects">虚拟实验室</string>
+    <string name="el_content_lib_player_downloaded">已下载</string>
+    <string name="el_content_lib_player_download">下载</string>
+    <string name="el_content_lib_player_network_err_pls_check_net">网络连接异常，请检查网络！</string>
+    <string name="el_content_lib_player_open_err">打开出错</string>
+
+    <string name="el_content_lib_player_no_find_associated_program">没有发现与此文件关联的程序</string>
+    <string name="el_content_lib_player__wifi_cue">正在使用非WIFI网络，\n是否继续下载？</string>
+    <string name="el_content_lib_player_downing">下载中</string>
+    <string name="el_content_lib_player_down_err">下载失败,请尝试重新开始</string>
+    <string name="el_content_lib_player_network_error_tip">请检查网络配置</string>
+    <string name="el_content_lib_player_pause">继续</string>
+    <string name="el_content_lib_player_down_sucess">资源下载成功！</string>
+
+    <string name="el_content_lib_loading">正在加载...</string>
+
+    <string name="el_content_zhibo_review">直播审核中，请耐心等待~</string>
+    <string name="el_content_intro">简介</string>
+
+</resources>

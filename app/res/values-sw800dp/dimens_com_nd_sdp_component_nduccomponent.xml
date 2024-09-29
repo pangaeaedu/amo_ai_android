@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 直接用dimen，在SDP打包时会报AAPT: Float types not allowed -->
+    <item name="nduc_pad_land_top_percent" type="dimen" format="float">0.15</item>
+    <item name="nduc_pad_land_bottom_percent" type="dimen" format="float">0.85</item>
+</resources>

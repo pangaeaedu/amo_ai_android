@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nd_picker_sure">确定</string>
+    <string name="nd_picker_cancel">取消</string>
+    <string name="nd_picker_title">选择时间</string>
+    <string name="nd_picker_start_time">开始时间</string>
+    <string name="nd_picker_end_time">结束时间</string>
+    <string name="nd_picker_choose_date">选择日期</string>
+    <string name="nd_picker_choose_time">选择时间</string>
+    <string name="nd_picker_choose_yearmonth">选择年月</string>
+    <string name="nd_picker_date_result_enable">%s\n请选择第二个日期</string>
+    <string name="nd_picker_date_result">%s\n确定</string>
+    <string name="nd_picker_date_error">当前时间为禁用时间</string>
+    <string name="nd_picker_today">今天</string>
+
+    <string name="nd_picker_year">年</string>
+    <string name="nd_picker_month">月</string>
+    <string name="nd_picker_day">日</string>
+    <string name="nd_picker_hour">时</string>
+    <string name="nd_picker_minute">分</string>
+    <string name="nd_picker_second">秒</string>
+    <string name="nd_picker_mh">:</string>
+
+    <!--  时间格式 ，请按标准的格式设置-->
+    <!--    日期时间选择器返回的结果 字符串格式，已改成原来的，这里修改无效-->
+    <string name="nd_picker_date_pattern_ymdhms">yyyy/MM/dd HH:mm:ss</string>
+    <!-- 日期时间选择器返回的结果 字符串格式，已改成原来的，这里修改无效   -->
+    <string name="nd_picker_date_pattern_ymdhm">yyyy/MM/dd HH:mm</string>
+    <!-- 日期范围选择器按钮显示 以及日期时间选中日期的显示格式   -->
+    <string name="nd_picker_date_pattern_ymd">yyyy/MM/dd</string>
+    <!--    时间选择器选中显示的时间分隔符：如 2023/11/09, 原来是2023-11-09-->
+    <string name="nd_picker_date_format">/</string>
+    <!--  日期范围按钮显示连接符号，原来是  ~ ，现统一成 -   -->
+    <string name="nd_picker_date_range">-</string>
+
+
+    <string-array name="com_nd_timepicker2_month_string_array">
+        <item>01月</item>
+        <item>02月</item>
+        <item>03月</item>
+        <item>04月</item>
+        <item>05月</item>
+        <item>06月</item>
+        <item>07月</item>
+        <item>08月</item>
+        <item>09月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+</resources>

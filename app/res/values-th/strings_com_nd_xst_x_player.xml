@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="xst_ebook_download_file_deleted">ไฟล์ต่อไปได้ถูกลบ, โปรดดาวน์โหลดใหม่: %s</string>
+    <string name="xst_ebook_downloading">ไปเปิด</string>
+    <string name="xst_ebook_pause">การดาวน์โหลดถูกระงับ โปรดคลิกเพื่อดำเนินการ</string>
+    <string name="xst_ebook_prepare">กำลังเตรียมตัว โปรดรอสักครู่…</string>
+    <string name="xst_elec_ebook">หนังสือเรียนอิเล็กทรอนิกส์</string>
+    <string name="xst_ebook_refresh">ลองใหม่</string>
+
+    <string name="xst_ebook_tip">หลังจากเปิดจะดาวน์โหลดไปยังอุปกรณ์ท้องถิ่นโดยค่าเริ่มต้น สามารถตรวจสอบได้ที่หน้า \'ฉัน-คอร์สที่เก็บออฟไลน์\'</string>
+    <string name="xplayer_url_is_empty">การรับที่อยู่เล่นล้มเหลว</string>
+</resources>

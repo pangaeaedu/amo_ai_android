@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="audio_recorder_cancel">Cancel</string>
+    <string name="audio_recorder_confirm">Confirm</string>
+
+    <string name="audio_recorder_abandon">Are you sure you want to delete?</string>
+    <string name="audio_recorder_too_short">Message too short</string>
+    <string name="audio_recorder_permission_denied">Record denied</string>
+    <string name="audio_recorder_dountdown">You can still record for %d seconds</string>
+    <string name="audio_recorder_re_record">Re-record</string>
+    <string name="audio_recorder_re_hear">Listen</string>
+
+    <string name="audio_recorder_hear">Listen</string>
+    <string name="audio_recorder_slide_up_cancel">Slide up to cancel</string>
+    <string name="audio_recorder_release_cancel">Release to cancel</string>
+    <string name="audio_play_audio_err">There\'s something wrong with the file</string>
+    <string name="audio_net_warn_no_network">Network error</string>
+    <string name="audio_net_url_is_null">Please input URL</string>
+    <string name="audio_play_init_time">00:00</string>
+
+    <string name="audio_recorder_speak">Press to record</string>
+    <string name="audio_recorder_speak_click">Tap to Talk</string>
+    <string name="audio_recorder_speak_pause_click">Pause the recording and tap to continue</string>
+    <string name="audio_recorder_speak_pause">Pause the recording and hold to continue</string>
+    <string name="audio_play_load_fail">Failed to load. Try again.</string>
+
+    <string name="audio_access_begin_play">Playback</string>
+    <string name="audio_access_stop_play">Pause</string>
+    <string name="audio_access_redownload_play">Re-download</string>
+    <string name="audio_access_re_record">Re-record</string>
+    <string name="audio_access_confirm_record">Confirm</string>
+    <string name="audio_access_try_to_listen_record">Listen to the recording, double tap to activate, and double tap again to stop listening</string>
+    <string name="audio_access_long_click_to_record">Press to record</string>
+    <string name="audio_access_stop_to_listen_record">Stop</string>
+    <string name="audio_access_pause_to_record">Pause</string>
+    <string name="audio_access_long_time_record">Recording in %1$d second(s)</string>
+    <string name="audio_access_stop_record_tip">End of recording</string>
+    <string name="audio_access_cancel_record_tip">Cancel recording</string>
+    <string name="audio_access_close_view_tip">Recording interface is closed</string>
+
+    <string name="audio_module_name">Record</string>
+    <string name="audio_start_record">Start</string>
+    <string name="audio_pause_record">Stop</string>
+    <string name="audio_mic_enable">Microphone is in use, please try again later</string>
+</resources>

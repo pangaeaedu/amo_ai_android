@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="audio_recorder_timer">@dimen/fontsize3</dimen>
+    <dimen name="audio_recorder_button_small">65dp</dimen>
+    <dimen name="audio_recorder_margin_25">25dp</dimen>
+    <dimen name="audio_slide_up_cancel">@dimen/fontsize13</dimen>
+    <dimen name="audio_recorder_btn_text">@dimen/fontsize4</dimen>
+    <dimen name="audio_recorder_hint_text">@dimen/fontsize13</dimen>
+    <dimen name="audio_actionbar_compat_height">35dp</dimen>
+    <dimen name="audio_slide_up_cancel_height">25dp</dimen>
+    <dimen name="audio_slide_up_drawable_padding">3dp</dimen>
+    <dimen name="audio_slide_up_left_right_padding">5dp</dimen>
+    <dimen name="audio_play_stop_width_height">64dp</dimen>
+    <dimen name="audio_play_stop_margin">13dp</dimen>
+    <dimen name="audio_cbv_height">38dp</dimen>
+    <dimen name="audio_play_progress_margin_left">18dp</dimen>
+</resources>

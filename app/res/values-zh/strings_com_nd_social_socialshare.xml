@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_network_unavailable">诶，是不是网络有问题～</string>
+    <string name="share_share">分享</string>
+    <string name="share_cancel">取消</string>
+    <string name="share_dialog_hint">说点儿什么？</string>
+    <string name="share_message">短信</string>
+    <string name="share_copy">复制链接</string>
+    <string name="share_copy_successd">复制成功</string>
+    <string name="share_message_hint">短信可能会产生资费，产品不收取任何费用，短信费用一般为0.1元一条，由运营商收取</string>
+    <string name="share_text_facebook_key">Facebook</string>
+    <string name="share_text_message_key">Messenger</string>
+    <string name="share_text_twitter_key">Twitter</string>
+    <string name="share_text_line_key">Line</string>
+    <string name="share_text_whatsapp_key">WhatsApp</string>
+    <!--20.6.0-->
+    <string name="share_read_close">关闭窗口</string>
+    <string name="share_read_share">分享</string>
+    <string name="share_whatsapp_fail_tip">尚未安装WhatsApp，请安装后再试</string>
+    <!--26.1.10-->
+    <string name="share_sina_no_support_img_tip">尚未安装新浪微博，请安装后再试</string>
+</resources>

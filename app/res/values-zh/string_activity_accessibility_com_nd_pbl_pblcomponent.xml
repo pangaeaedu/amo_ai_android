@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--无障碍提示-->
+
+    <!--头像入口-->
+    <string name="starapp_life_accessibility_avatar">头像图片</string>
+
+    <!--红点提示-->
+    <string name="starapp_life_accessibility_reddot_tip">有新消息</string>
+    <!--数字红点提示-->
+    <string name="starapp_life_accessibility_num_reddot_tip">有%s条新消息</string>
+
+    <!--界面返回-->
+    <string name="starapp_life_accessibility_back">返回</string>
+
+    <!--用户信息卡片-拥有鲜花数-->
+    <string name="starapp_life_accessibility_flower_count">拥有鲜花数 %s</string>
+    <!--用户信息卡片-积分数量-->
+    <string name="starapp_life_accessibility_gold_count">积分 %s</string>
+    <!--用户信息卡片-代币余额-->
+    <string name="starapp_life_accessibility_emoney_count">余额 %1$s%2$s</string>
+
+    <!--用户信息卡片-代币名称-->
+    <string name="starapp_life_accessibility_emoney_currency">网龙币</string>
+
+    <!--触发类型-按钮-->
+    <string name="starapp_life_accessibility_button">按钮</string>
+
+    <!--窗口-关闭时朗读-->
+    <string name="starapp_life_accessibility_dialog_close">关闭窗口</string>
+
+    <!--二维码图片-->
+    <string name="starapp_life_accessibility_qrcode">二维码图片</string>
+
+</resources>

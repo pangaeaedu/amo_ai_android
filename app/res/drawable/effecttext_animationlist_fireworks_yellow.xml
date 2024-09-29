@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow1"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow2"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow3"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow4"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow5"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow6"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow7"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow8"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow9"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow10"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow11"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow12"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow13"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow14"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow15"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow16"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow17"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow18"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow19"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow20"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow21"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow22"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow23"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow24"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow25"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow26"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow27"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow28"
+        android:duration="30" />
+    <item
+        android:drawable="@drawable/flashchat_texteffect_icon_fireworks_yellow29"
+        android:duration="30" />
+</animation-list>

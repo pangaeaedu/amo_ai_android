@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_loading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <!--这里不好自定义视图，直接同文件覆盖文档播放器-->
+    <com.nd.sdp.ele.android.reader.core.widget.AnimImageView
+        android:id="@+id/iv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="75dp"
+        android:maxHeight="75dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/xst_common_anim_loading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hy_rd_page_loading"
+        android:textColor="@color/hy_rd_font_loading" />
+</LinearLayout>

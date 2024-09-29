@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--签到页面-->
+    <!--标题-->
+    <string name="starapp_life_sign_title">签到</string>
+    <!--签到成功但服务端未返回提示信息时的默认提示语-->
+    <string name="starapp_life_sign_success">签到成功</string>
+    <!--补签提示语-->
+    <string name="starapp_life_resign_message">亲，补签需要消耗%1$d积分，您确定要补签到吗？</string>
+    <!--异常提示信息-->
+    <string name="EX_SIGN_REWARD_NOT_ENOUGH">剩余积分不足，不能补签</string>
+    <string name="EX_SIGN_SIGN_DATE_EXPIRED">已超过补签日期</string>
+    <string name="EX_SIGN_DUPLICATE_SIGN">重复签到</string>
+    <string name="EX_SIGN_FORBID_SIGN_ADVANCE">不允许提前签到</string>
+    <string name="EX_SIGN_AMQP_ENQUEUE_FAILED">签到入队失败</string>
+    <string name="EX_SIGN_FILL_SIGN_FAILED">补签失败</string>
+    <string name="EX_SIGN_FILL_SIGN_REFUSE">不可补签</string>
+    <string name="EX_SIGN_SIGN_IS_INVALID">签名无效</string>
+    <!--公历月份显示值-->
+    <string-array name="starapp_life_sign_calendar_month_solar">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <!--星期排列-->
+    <string-array name="starapp_life_sign_calendar_week_days">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+    <!--农历月份显示值(每月初一)-->
+    <string-array name="starapp_life_sign_calendar_month_lunar">
+        <item>正月</item><item>闰一月</item>
+        <item>二月</item><item>闰二月</item>
+        <item>三月</item><item>闰三月</item>
+        <item>四月</item><item>闰四月</item>
+        <item>五月</item><item>闰五月</item>
+        <item>六月</item><item>闰六月</item>
+        <item>七月</item><item>闰七月</item>
+        <item>八月</item><item>闰八月</item>
+        <item>九月</item><item>闰九月</item>
+        <item>十月</item><item>闰十月</item>
+        <item>冬月</item><item>闰冬月</item>
+        <item>腊月</item><item>闰腊月</item>
+    </string-array>
+    <!--农历日期显示值-->
+    <string-array name="starapp_life_sign_calendar_day_lunar">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+</resources>

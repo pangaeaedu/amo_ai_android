@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--公用-->
+    <color name="setting_general_bg_color">@color/color10</color>
+    <color name="setting_general_divider_color">@color/color9</color>
+    <color name="setting_general_dialog_bg_color">@color/color10</color>
+    <!--日志Dialog-->
+    <color name="setting_log_dialog_not_finish_textColor">@color/color4</color>
+    <!--设置页面-->
+    <color name="setting_setting_bg_color">@color/color9</color>
+    <color name="setting_category_bg_normal">@color/color9</color>
+    <color name="setting_item_category_textColor">@color/color4</color>
+    <color name="setting_item_bg_normal">@color/color7</color>
+    <color name="setting_item_bg_mask">#26000000</color>
+    <color name="setting_item_title_textColor_normal">@color/color1</color>
+    <color name="setting_item_title_textColor_pressed">@color/color1</color>
+    <color name="setting_item_title_textColor_disable">@color/color8</color>
+    <color name="setting_item_badge_textColor">@color/color7</color>
+    <color name="setting_logout_bg">@color/color16</color>
+    <!--语言选择列表-->
+    <color name="setting_language_bg_color">#FFFFFF</color>
+    <color name="setting_language_desc_textColor">@color/color1</color>
+    <color name="setting_language_trans_textColor">@color/color4</color>
+    <!--快捷方式列表-->
+    <color name="setting_shortcut_bg_color">@color/color10</color>
+    <!--关于-->
+    <color name="setting_about_item_bg">@color/color7</color>
+    <color name="setting_about_item_textColor">#3a3f43</color>
+    <color name="setting_about_appName_textColor">@color/color1</color>
+    <color name="setting_about_version_textColor">@color/color4</color>
+    <color name="setting_about_copyRightCn_textColor">@color/color2</color>
+    <color name="setting_about_copyRightEn_textColor">@color/color4</color>
+
+    <color name="setting_default_bg_color">#ececec</color>
+    <color name="setting_mm_btn_text">@color/setting_color_white</color>
+
+    <color name="setting_color_white">#FFFFFFFF</color>
+    <color name="setting_color_blue">#0000ff</color>
+    <color name="setting_color_red">#ff0000</color>
+    <color name="setting_textColorPrimary">@color/color1</color>
+    <color name="setting_item_divider">@color/color8</color>
+    <color name="setting_item_bg">@color/color7</color>
+    <color name="setting_titlebar_bg_color">@color/color14</color>
+
+    <color name="setting_loading_dialog_bg_color">#b3000000</color>
+    <color name="setting_loading_dialog_text_color">@color/color7</color>
+    <color name="setting_qr_code_color">#38acff</color>
+
+    <color name="setting_autoplay_bg_color">#FFFFFF</color>
+</resources>

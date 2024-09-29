@@ -1,0 +1,148 @@
+<resources>
+    <array name="ele_fnew_task_page_tabs">
+        <item>今日任务</item>
+        <item>本周任务</item>
+        <item>学习中</item>
+        <item>已完结</item>
+    </array>
+
+    <string name="ele_fnew_today">今日任务</string>
+    <string name="ele_fnew_week">本周任务</string>
+    <string name="ele_fnew_studying">学习中</string>
+    <string name="ele_fnew_finished">已完结</string>
+
+    <string-array name="ele_fnew_task_detail_titles">
+        <item>任务介绍</item>
+        <item>课程列表</item>
+        <item>学习报告</item>
+    </string-array>
+    <string-array name="ele_fnew_task_rank_titles">
+        <item>近7天排行</item>
+        <item>近30天排行</item>
+    </string-array>
+    <string name="ele_fnew_no_sdcard_found">sd 卡未找到</string>
+    <string name="ele_fnew_wait_for_loading">正在努力加载...</string>
+    <string name="ele_fnew_confirm">确定</string>
+    <string name="ele_fnew_cancel">取 消</string>
+    <string name="ele_fnew_no_info">暂无数据</string>
+    <string name="ele_fnew_no_info_2">暂无信息</string>
+    <string name="ele_fnew_no_connection">网络连接错误，请重试</string>
+    <string name="ele_fnew_load_fail_and_retry">加载失败，点击重新加载</string>
+    <string name="ele_fnew_network_error_1">网络错误啦！\n</string>
+    <string name="ele_fnew_network_error_2">好像卡住了！</string>
+    <string name="ele_fnew_error_unknown_1">oh,出错了\n</string>
+    <string name="ele_fnew_error_unknown_2">这里似乎发生了故障！</string>
+    <string name="ele_fnew_data_error">数据解析错误，请重试</string>
+    <string name="ele_fnew_more">更多</string>
+    <string name="ele_fnew_loading">加载中...</string>
+    <string name="ele_fnew_no_more_data">没有更多数据啦</string>
+    <string name="ele_fnew_net_work_err">网络错误啦!</string>
+    <string name="ele_fnew_net_work_err1">网络错误</string>
+    <string name="ele_fnew_load_fail">加载失败啦！</string>
+    <string name="ele_fnew_seems_to_be_in_strange_place">好像掉到奇怪的地方!</string>
+    <string name="ele_fnew_retry">重试</string>
+    <string name="ele_fnew_learn_rank">学习排行</string>
+    <string name="ele_fnew_last_month">最近一个月</string>
+    <string name="ele_fnew_last_month_study_stat">累计学习%1$s天，%2$s分钟，学习%3$s门课程</string>
+    <string name="ele_fnew_check_task">查看任务</string>
+    <string name="ele_fnew_into_task">进入学习</string>
+    <string name="ele_fnew_task_last_time">%1$s 到期</string>
+    <string name="ele_fnew_task_over_time">%1$s 已结束</string>
+    <string name="ele_fnew_learn_course_minute">已学 %1$s 分钟</string>
+    <string name="ele_fnew_learn_course_time">已学 %1$s 学时</string>
+    <string name="ele_fnew_task_detail_summary">已完成%1$s%%，用时%2$s分钟</string>
+    <string name="ele_fnew_required_course">必修</string>
+    <string name="ele_fnew_elective_course">选修</string>
+    <string name="ele_fnew_common_tasks">普通任务</string>
+    <string name="ele_fnew_project_tasks">项目任务</string>
+    <string name="ele_fnew_promotion_task">晋升晋级任务</string>
+    <string name="ele_fnew_learn_finish">已完成</string>
+    <string name="ele_fnew_find_course">寻找课程</string>
+    <string name="ele_fnew_no_task">您暂时没有学习任务</string>
+    <string name="ele_fnew_no_today_task">今天的任务全部完成咯！</string>
+    <string name="ele_fnew_no_week_task">本周的任务全部完成咯！</string>
+    <string name="ele_fnew_no_leaning_task">因此刻学习，你将圆梦</string>
+    <string name="ele_fnew_no_finish_task">因此刻学习，你将圆梦</string>
+    <string name="ele_fnew_task_detail_intro">任务概述</string>
+    <string name="ele_fnew_task_detail_frequency">学习频率</string>
+    <string name="ele_fnew_study_frequency">学习频率</string>
+    <string name="ele_fnew_task_type">任务性质</string>
+    <string name="ele_fnew_course_order">课程学习顺序</string>
+    <string name="ele_fnew_task_duration">任务起止时间</string>
+    <string name="ele_fnew_task_daily_frequency_formater">每日学习%1$s分钟</string>
+    <string name="ele_fnew_task_weekly_frequency_formater">每周学习%1$s分钟</string>
+    <string name="ele_fnew_task_no_require_frequency">不限</string>
+    <string name="ele_fnew_task_type_normal">普通任务</string>
+    <string name="ele_fnew_task_type_project">项目任务</string>
+    <string name="ele_fnew_task_type_promotion">晋升晋级任务</string>
+    <string name="ele_fnew_task_study_order_type_no_require">不限制学习顺序</string>
+    <string name="ele_fnew_task_study_order_type_in_turn">按顺序学习</string>
+    <string name="ele_fnew_study_last_continue">继续</string>
+    <string name="ele_fnew_task_resource_study_hours">已学 %1$s/%2$s 学时</string>
+    <string name="ele_fnew_channel_train">培训认证</string>
+    <string name="ele_fnew_channel_job">职业规划</string>
+    <string name="ele_fnew_channel_other">公开课</string>
+    <string name="ele_fnew_channel_default">未知分类</string>
+    <string name="ele_fnew_task_resource_continue">上次学习到：</string>
+    <string name="ele_fnew_task_log_study_course_count">完成课程</string>
+    <string name="ele_fnew_task_log_study_hour_count">学习课时</string>
+    <string name="ele_fnew_task_log_study_exam_count">完成考试</string>
+    <string name="ele_fnew_task_detail_log_title">每日学习情况</string>
+    <string name="ele_fnew_task_detail_log_finish_week">已完成本周任务</string>
+    <string name="ele_fnew_task_detail_log_unfinish_week">未完成本周任务</string>
+    <string name="ele_fnew_minute">分钟</string>
+    <string name="ele_fnew_daily_task_finish">已完成</string>
+    <string name="ele_fnew_week_task_finish">已完成本周任务</string>
+    <string name="ele_fnew_daily_task_unfinish">未完成</string>
+    <string name="ele_fnew_week_task_unfinish">未完成本周任务</string>
+    <string name="ele_fnew_task_rank">学习排行</string>
+    <string name="ele_fnew_task_rank_single_title">学习进度排行</string>
+    <string name="ele_fnew_all_company">全公司</string>
+    <string name="ele_fnew_all_department">部门内</string>
+    <string name="ele_fnew_job_level">同职级</string>
+    <string name="ele_fnew_num_people">%1$s人</string>
+    <string name="ele_fnew_up">上升</string>
+    <string name="ele_fnew_down">下降</string>
+    <string name="ele_fnew_keep">保持</string>
+    <string name="ele_fnew_rank_type_week">近7天</string>
+    <string name="ele_fnew_rank_type_month">近30天</string>
+    <string name="ele_fnew_rank_list_title_formater">%1$s - %2$s排行</string>
+    <string name="ele_fnew_rank_list_minute">%1$s分钟</string>
+    <string name="ele_fnew_rank">排行</string>
+    <string name="ele_fnew_rank_capital">排行</string>
+    <string name="ele_fnew_has_finish">已完成</string>
+    <string name="ele_fnew_has_study">已学习</string>
+    <string name="ele_fnew_start_right_now">马上开始</string>
+    <string name="ele_fnew_no_study_log">您暂时没有学习记录</string>
+    <string name="ele_fnew_volunteered_course_title">自选学习课程</string>
+    <string name="ele_fnew_finish_optional_course">%1$s 门课程已完成</string>
+    <string name="ele_fnew_learning_optional_course">%1$s 门课程</string>
+    <string name="ele_fnew_can_land_see_report">可横屏查看图表</string>
+    <string name="ele_fnew_study_report">学习报表</string>
+    <string name="ele_fnew_report">学习报表</string>
+    <string name="ele_fnew_me">我</string>
+    <string name="ele_fnew_company">公司</string>
+    <string name="ele_fnew_department">部门</string>
+    <string name="ele_fnew_task_time_limit_type_no_required">不限</string>
+    <string name="ele_fnew_see_ranking">查看排名</string>
+    <string name="ele_fnew_close">关闭</string>
+    <string name="ele_fnew_come_back">我会回来的</string>
+    <string name="ele_fnew_my_rank">我的排名</string>
+    <string name="ele_fnew_compare_yesterday">相比昨日</string>
+    <string name="ele_fnew_study_progress">学习进度</string>
+    <string name="ele_fnew_study_use_time">学习用时</string>
+    <string name="ele_fnew_few_days_end">任务还有 -- 天结束了,记得回来学习哦！</string>
+    <string name="ele_fnew_few_days_end1">任务还有 %s 天结束了,记得回来学习哦！</string>
+    <string name="ele_fnew_few_days_end2">记得回来学习哦！</string>
+    <string name="ele_fnew_end_time">排行截至 %s</string>
+    <string name="ele_fnew_finish_task">恭喜您，完成了该学习任务！</string>
+    <string name="ele_fnew_mins">分钟</string>
+    <string name="ele_fnew_no_rank_data">暂无排行信息</string>
+    <string name="ele_fnew_rank_update_time">当前排行榜更新时间：</string>
+    <string name="ele_fnew_task_progress_rank">进度排行</string>
+
+    <string name="ele_fnew_task_has_ended">已结束</string>
+    <string name="ele_fnew_task_daily_frequency">每日学习</string>
+    <string name="ele_fnew_task_weekly_frequency">每周学习</string>
+
+</resources>

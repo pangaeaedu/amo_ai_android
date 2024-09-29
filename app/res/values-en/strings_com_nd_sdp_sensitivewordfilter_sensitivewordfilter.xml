@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="censor_word">The message contains sensitive words and failed to send</string>
+    <string name="censor_word_omit">【The paragraph is omitted here, %s words】</string>
+    <string name="censor_word_stage">【The paragraph is omitted here】</string>
+    <string name="censor_lib_download_fail">Failed to read sensitive words.</string>
+
+    <!--接入敏感词sdk-->
+    <string name="censor_toast">The information contains sensitive content. Please modify it before sending.</string>
+    <string name="censor_dialog_content">The information contains sensitive and probably illegal content.</string>
+    <string name="censor_dialog_tip">Prompt</string>
+    <string name="censor_dialog_continue">Continue</string>
+    <string name="censor_dialog_cancel">Cancel</string>
+    <string name="censor_toast_words">The message contains sensitive content [%s], please modify and send again!</string>
+</resources>

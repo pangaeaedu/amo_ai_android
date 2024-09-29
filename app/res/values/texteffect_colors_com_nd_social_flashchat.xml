@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="texteffect_choose_view_bg">#f5f5f5</color>
+
+    <color name="texteffect_normal_text_color">@color/color1</color>
+    <color name="texteffect_normal_bg">#ffffff</color>
+
+    <color name="texteffect_input_preview_bg">#62c5ff</color>
+</resources>

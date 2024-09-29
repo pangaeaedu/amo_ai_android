@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="texteffect_random">随机文字</string>
+    <string name="texteffect_normal">正常</string>
+    <string name="texteffect_artillery">大炮</string>
+    <string name="texteffect_shy">害羞</string>
+    <string name="texteffect_barrage">弹幕</string>
+    <string name="texteffect_pinyin">拼音</string>
+    <string name="texteffect_flashshake">爆闪</string>
+    <string name="texteffect_lightning">闪电</string>
+    <string name="texteffect_spell">拼字</string>
+    <string name="texteffect_parallet">并行</string>
+    <string name="texteffect_airplane">飞机</string>
+    <string name="texteffect_knockwall">撞墙</string>
+    <string name="texteffect_hacker">骇客</string>
+    <string name="texteffect_wave">波浪</string>
+    <string name="texteffect_fireworks">烟花</string>
+
+</resources>

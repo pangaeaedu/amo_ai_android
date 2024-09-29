@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="recorder_click_to_record">Tap to record</string>
+    <string name="recorder_click_to_stop">Tap to stop</string>
+    <string name="recorder_click_to_play">Tap to play</string>
+    <string name="recorder_cancel">Cancel</string>
+    <string name="recorder_redo">Redo</string>
+    <string name="recorder_ok">Confirm</string>
+    <string name="recorder_picture">Image</string>
+    <string name="recorder_video">Video</string>
+    <string name="recorder_camera_preview_err">Failed to access camera preview </string>
+    <string name="recorder_confirm_give_up_video">Are you sure you want to delete this video?</string>
+    <string name="recorder_min_time_limit">The recording length should be longer than %ds</string>
+    <string name="recorder_camera_switch_fail">Failed to switch camera</string>
+    <string name="recorder_create_video_thumb_error">Failed to generate thumbnail</string>
+    <string name="recorder_other_app_used_camera">Failed to access the camera. Please check camera and recording permissions or whether the camera is being used by other apps.</string>
+    <string name="recorder_camera_unable">Failed to access the camera</string>
+
+    <string name="recorder_access_cancel_to_record">Cancel recording</string>
+    <string name="recorder_access_switch_to_front">Double tap to switch camera</string>
+    <string name="recorder_access_switch_to_back">Double tap to switch camera</string>
+    <string name="recorder_access_begin_to_record">Start recording</string>
+    <string name="recorder_access_begin_to_play_record">Recording finished. Tap to play the video.</string>
+    <string name="recorder_access_stop_to_record">Stop recording</string>
+    <string name="recorder_access_flash_auto">Flashlight enabled. Double tap to switch to auto mode.</string>
+    <string name="recorder_access_flash_close">Auto mode enabled. Double tap to disable flashlight.</string>
+    <string name="recorder_access_flash_open">Flashlight disabled. Double tap to turn on flashlight.</string>
+    <string name="recorder_access_long_time_of_record">%1$d second(s) recorded</string>
+    <string name="recorder_access_record_activity">You have entered the video recording interface</string>
+    <string name="recorder_access_redo">Record again</string>
+    <string name="recorder_read_thumb_fail">读取缩略图失败</string>
+    <string name="recorder_share_microphone">有其他应用正在录音，录音可能存在异常</string>
+
+    <string name="recorder_max_duration_tip">点击拍摄视频，最长%1$s</string>
+    <string name="recorder_unit_min">min</string>
+    <string name="recorder_unit_second">second(s)</string>
+</resources>

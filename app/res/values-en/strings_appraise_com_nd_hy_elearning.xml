@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_evaluation_write_evaluation">Leave a remark…</string>
+    <string name="ele_evaluation_unknown_user">User not exists</string>
+    <string name="ele_evaluation_loading">Loading...</string>
+    <string name="ele_evaluation_no_more_data">No more data</string>
+    <string name="ele_evaluation_evaluation">Comment</string>
+    <string name="ele_evaluation_content_cannot_be_empty">Please enter the content.</string>
+    <string name="ele_evaluation_content_too_long">Exceeded the limit of characters.</string>
+    <string name="ele_evaluation_submit_success">Submitted</string>
+    <string name="ele_evaluation_cancel">Cancel</string>
+    <string name="ele_evaluation_submit">Submit</string>
+    <string name="ele_evaluation_delete">Delete</string>
+    <string name="ele_evaluation_great">Great</string>
+    <string name="ele_evaluation_very_good">Very Good</string>
+    <string name="ele_evaluation_good">Good</string>
+    <string name="ele_evaluation_ok">OK</string>
+    <string name="ele_evaluation_no_good">Poor</string>
+    <string name="ele_evaluation_net_err_hint">please check network</string>
+    <string name="ele_evaluation_data_parse_err_hint">Data parse error</string>
+    <string name="ele_evaluation_operation_fail">Failed, please try again.</string>
+    <string name="ele_evaluation_no_evaluation_data">No data</string>
+    <string name="ele_evaluation_evaluation_counts_unknown">0 Reviews</string>
+    <string name="ele_evaluation_evaluation_counts_x">%1$d remarks</string>
+    <string name="ele_evaluation_evaluation_score_x">Score:%1$s</string>
+    <string name="ele_evaluation_login_please">Please log in</string>
+    <string name="ele_evaluation_login_use_please">Please log in first.</string>
+    <string name="ele_evaluation_login">Login</string>
+
+    <string name="ele_evaluation_err_msg_waf_bad_request">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_require_argument">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_invalid_argument">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_unauthorized">Please log in</string>
+    <string name="ele_evaluation_err_msg_waf_auth_token_expired">Please re-login</string>
+    <string name="ele_evaluation_err_msg_waf_auth_invalid_token">Please re-login</string>
+    <string name="ele_evaluation_err_msg_waf_auth_invalid_timestamp">Please re-login</string>
+    <string name="ele_evaluation_err_msg_waf_request_denied">No Access</string>
+    <string name="ele_evaluation_err_msg_waf_auth_denied">No Access</string>
+    <string name="ele_evaluation_err_msg_waf_not_found">Resource not found</string>
+    <string name="ele_evaluation_err_msg_waf_method_not_allowed">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_not_acceptable">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_unsupported_media_type">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_request_rate_limited">Request too often</string>
+    <string name="ele_evaluation_err_msg_waf_internal_server_error">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_bad_gateway">Request failed</string>
+    <string name="ele_evaluation_err_msg_waf_service_unavailable">Request failed</string>
+    <string name="ele_evaluation_err_msg_network_default">Failed, please try again.</string>
+
+    <string name="ele_evaluation_maintenance">System maintenance,please try it later...</string>
+    <string name="ele_evaluation_tips">Prompt</string>
+
+</resources>

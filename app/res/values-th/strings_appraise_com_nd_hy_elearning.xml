@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_evaluation_write_evaluation">ฉันต้องการเขียนคำวิจารณ์...</string>
+    <string name="ele_evaluation_unknown_user">ข้อมูลผู้ใช้ไม่มีอยู่</string>
+    <string name="ele_evaluation_loading">กำลังโหลด...</string>
+    <string name="ele_evaluation_no_more_data">ไม่มีข้อมูลเพิ่มเติมแล้ว</string>
+    <string name="ele_evaluation_evaluation">ประเมิน</string>
+    <string name="ele_evaluation_content_cannot_be_empty">ไม่สามารถเว้นว่าง</string>
+    <string name="ele_evaluation_content_too_long">เนื้อหาเกินขีดจำกัด</string>
+    <string name="ele_evaluation_submit_success">ส่งข้อมูลสำเร็จ</string>
+    <string name="ele_evaluation_cancel">ยกเลิก</string>
+    <string name="ele_evaluation_submit">ส่ง</string>
+    <string name="ele_evaluation_delete">ลบ</string>
+    <string name="ele_evaluation_great">ดีมาก</string>
+    <string name="ele_evaluation_very_good">ดีมาก</string>
+    <string name="ele_evaluation_good">ดีกว่า</string>
+    <string name="ele_evaluation_ok">ปานกลาง</string>
+    <string name="ele_evaluation_no_good">แย่</string>
+    <string name="ele_evaluation_net_err_hint">โปรดตรวจสอบการตั้งค่าเครือข่ายของคุณ</string>
+    <string name="ele_evaluation_data_parse_err_hint">การวิเคราะห์ข้อมูลผิดพลาด</string>
+    <string name="ele_evaluation_operation_fail">การดำเนินการล้มเหลว โปรดลองอีกครั้ง</string>
+    <string name="ele_evaluation_no_evaluation_data">ยังไม่มีการประเมิน</string>
+    <string name="ele_evaluation_evaluation_counts_unknown">ไม่มีคะแนน</string>
+    <string name="ele_evaluation_evaluation_counts_x">%1$d รายการประเมิน</string>
+    <string name="ele_evaluation_evaluation_score_x">%1$s คะแนน</string>
+    <string name="ele_evaluation_login_please">กรุณาเข้าสู่ระบบ</string>
+    <string name="ele_evaluation_login_use_please">โปรดเข้าสู่ระบบก่อนใช้งาน</string>
+    <string name="ele_evaluation_login">เข้าสู่ระบบ</string>
+
+    <string name="ele_evaluation_err_msg_waf_bad_request">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_require_argument">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_invalid_argument">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_unauthorized">โปรดเข้าสู่ระบบ</string>
+    <string name="ele_evaluation_err_msg_waf_auth_token_expired">โปรดเข้าสู่ระบบใหม่</string>
+    <string name="ele_evaluation_err_msg_waf_auth_invalid_token">โปรดเข้าสู่ระบบใหม่</string>
+    <string name="ele_evaluation_err_msg_waf_auth_invalid_timestamp">กรุณาเข้าสู่ระบบอีกครั้ง</string>
+    <string name="ele_evaluation_err_msg_waf_request_denied">ไม่อนุญาตให้เข้าถึง</string>
+    <string name="ele_evaluation_err_msg_waf_auth_denied">ไม่อนุญาตให้เข้าถึง</string>
+    <string name="ele_evaluation_err_msg_waf_not_found">ไม่พบทรัพยากร</string>
+    <string name="ele_evaluation_err_msg_waf_method_not_allowed">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_not_acceptable">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_unsupported_media_type">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_request_rate_limited">คำขอมากเกินไป</string>
+    <string name="ele_evaluation_err_msg_waf_internal_server_error">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_bad_gateway">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_waf_service_unavailable">คำขอล้มเหลว</string>
+    <string name="ele_evaluation_err_msg_network_default">การดำเนินการล้มเหลว โปรดลองใหม่</string>
+
+    <string name="ele_evaluation_maintenance">กำลังอัปเดต กรุณารอสักครู่...</string>
+    <string name="ele_evaluation_tips">คำแนะนำ</string>
+
+</resources>

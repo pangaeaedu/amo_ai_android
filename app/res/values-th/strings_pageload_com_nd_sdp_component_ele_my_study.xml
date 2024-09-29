@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_baseryview_load_footer">ไม่มีข้อมูลเพิ่มเติม</string>
+    <string name="el_baseryview_more">เพิ่มเติม</string>
+    <string name="el_baseryview_listview_loading">กำลังโหลด...</string>
+</resources>
