@@ -137,10 +137,29 @@ android {
     buildToolsVersion rootProject.buildToolsVersion
 
 
+    
+
     signingConfigs {
+        releaseConfig {
+            storeFile rootProject.file('sign_key.jks')
+            storePassword "aomaisign2024"
+            keyAlias "aomai"
+            keyPassword "aomaisign2024"
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+
+        debugConfig {
+            storeFile rootProject.file('upload_key.jks')
+            storePassword "aomaiupload2024"
+            keyAlias "aomai"
+            keyPassword "aomaiupload2024"
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
     }
 
-    defaultConfig {
+defaultConfig {
         applicationId want_replace_id.toString()
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
@@ -178,7 +197,8 @@ android {
     }
     buildTypes {
         debug {
-            println("-------buildTypes-------debug-------------debuggable =true-------");
+            println("-------buildTypes-------debug-------------debuggable =true-------")
+            signingConfig signingConfigs.debugConfig;
             debuggable true
             //关闭混淆
             minifyEnabled false
@@ -224,7 +244,8 @@ android {
             buildConfigField("String", "GRADLE_PROPERTIES", "\"" + GRADLE_PROPERTIES_JSON + "\"")
         }
         release {
-            println("--------buildTypes------release--------------------isApfDebuggable " + isApfDebuggable);
+            println("--------buildTypes------release--------------------isApfDebuggable " + isApfDebuggable)
+            signingConfig signingConfigs.releaseConfig;
             //if(!isPostprocessing) {
             //关闭混淆
             minifyEnabled false
