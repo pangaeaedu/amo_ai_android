@@ -114,7 +114,7 @@ repositories { flatDir { dirs './aars', 'libs' } }
       force "androidx.interpolator:interpolator:${androidx_version}"
       force "androidx.gridlayout:gridlayout:${androidx_version}"
       force "androidx.media:media:${androidx_version}"
-      force "androidx.fragment:fragment:1.1.0"
+      force "androidx.fragment:fragment:1.4.0"
 	  force "androidx.multidex:multidex:2.0.0"
 
 	  // 和x学习xst-interact-sdk冲突，暂时先降下来
