@@ -83,55 +83,6 @@ android {
     println ' the want reset versionCode value is ' + versionCodeStr
     println ' the want reset versionName value is ' + versionNameStr
 //    println ' ------current versionMinSdk------- is ' + rootProject.minSdkVersion + '-------targetSdkVersion is ' + rootProject.targetSdkVersion + "-------over21sdk is " + over21sdk
-/**scj-native-remove-begin**/
-    def release_store_file_str = properties["RELEASE_STORE_FILE"] ?: RELEASE_NEW_STORE_FILE
-    def release_store_password_str = properties["RELEASE_STORE_PASSWORD"] ?: RELEASE_NEW_STORE_PASSWORD
-    def release_key_alias_str = properties["RELEASE_KEY_ALIAS"] ?: RELEASE_NEW_KEY_ALIAS
-    def release_key_password_str = properties["RELEASE_KEY_PASSWORD"] ?: RELEASE_NEW_KEY_PASSWORD
-    def release_store_public_key_str = properties["RELEASE_STORE_PUBLIC_KEY"] ?: RELEASE_NEW_STORE_PUBLIC_KEY
-
-    def debug_store_file_str = properties["DEBUG_STORE_FILE"] ?: DEBUG_STORE_FILE
-    def debug_store_password_str = properties["DEBUG_STORE_PASSWORD"] ?: DEBUG_STORE_PASSWORD
-    def debug_key_alias_str = properties["DEBUG_KEY_ALIAS"] ?: DEBUG_KEY_ALIAS
-    def debug_key_password_str = properties["DEBUG_KEY_PASSWORD"] ?: DEBUG_KEY_PASSWORD
-    def debug_store_public_key_str = properties["DEBUG_STORE_PUBLIC_KEY"] ?: DEBUG_STORE_PUBLIC_KEY
-
-    println ' the debug key store file is ' + debug_store_file_str
-    println ' the debug key store password is ' + debug_store_password_str
-    println ' the debug key alias is ' + debug_key_alias_str
-    println ' the debug key password is ' + debug_key_password_str
-    println ' the debug key store public key is ' + debug_store_public_key_str
-
-    println ' the release key store file is ' + release_store_file_str
-    println ' the release key store password is ' + release_store_password_str
-    println ' the release key alias is ' + release_key_alias_str
-    println ' the release key password is ' + release_key_password_str
-    println ' the release key store public key is ' + release_store_public_key_str
-
-    // ======================================= Write signature config for apk guard =======================================
-    // ApkGuard.properties format see:
-    //  http://git.sdp.nd/android-security/ApkGuardScript/tree/master#%E8%87%AA%E5%AE%9A%E4%B9%89%E7%AD%BE%E5%90%8D%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F
-    def signConfigFile = new File(project.rootDir.absolutePath + "/ApkGuard.properties")
-    if (!signConfigFile.exists()) {
-        println 'Create signature config:' + signConfigFile.createNewFile()
-    }
-    def signConfig = new Properties()
-    signConfigFile.withReader { signConfig.load(it) }
-    // for debug
-    signConfig.setProperty("DEBUG_STORE_FILE", debug_store_file_str)
-    signConfig.setProperty("DEBUG_STORE_PASSWORD", debug_store_password_str)
-    signConfig.setProperty("DEBUG_KEY_ALIAS", debug_key_alias_str)
-    signConfig.setProperty("DEBUG_KEY_PASSWORD", debug_key_password_str)
-    signConfig.setProperty("DEBUG_STORE_PUBLIC_KEY", debug_store_public_key_str)
-    // for release
-    signConfig.setProperty("RELEASE_STORE_FILE", release_store_file_str)
-    signConfig.setProperty("RELEASE_STORE_PASSWORD", release_store_password_str)
-    signConfig.setProperty("RELEASE_KEY_ALIAS", release_key_alias_str)
-    signConfig.setProperty("RELEASE_KEY_PASSWORD", release_key_password_str)
-    signConfig.setProperty("RELEASE_STORE_PUBLIC_KEY", release_store_public_key_str)
-    signConfigFile.withWriter { signConfig.store(it, "Signature config for apk guard") }
-
-/**scj-native-remove-end**/
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -187,24 +138,6 @@ android {
 
 
     signingConfigs {
-/**scj-native-remove-begin**/
-        debug {
-            storeFile file(debug_store_file_str)
-            storePassword debug_store_password_str
-            keyAlias debug_key_alias_str
-            keyPassword debug_key_password_str
-            v1SigningEnabled true
-            v2SigningEnabled true
-        }
-        release {
-            storeFile file(release_store_file_str)
-            storePassword release_store_password_str
-            keyAlias release_key_alias_str
-            keyPassword release_key_password_str
-            v1SigningEnabled true
-            v2SigningEnabled true
-        }
-/**scj-native-remove-end**/
     }
 
     defaultConfig {
@@ -252,10 +185,6 @@ android {
             // 禁止使用 PNG crunching
             crunchPngs false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules-custom.pro'
-/**scj-native-remove-begin**/
-            signingConfig signingConfigs.debug
-            buildConfigField("String", "signPublicKey", '\"' + debug_store_public_key_str + '\"')
-/**scj-native-remove-end**/
             buildConfigField("Boolean", "ANDROID_APP_BUNDLES", isOpenBundle)
             buildConfigField("Boolean", "StrictMode", strictMode)
             buildConfigField("Boolean", "StrictMode_CleartextNetwork", open_strictmode_CleartextNetwork)
@@ -306,10 +235,6 @@ android {
                 println("--------buildTypes------release-----------isApfDebuggable-- set-------debuggable true");
                 debuggable true
             }
-/**scj-native-remove-begin**/
-            signingConfig signingConfigs.release
-            buildConfigField("String", "signPublicKey", '\"' + release_store_public_key_str + '\"')
-/**scj-native-remove-end**/
             buildConfigField("Boolean", "ANDROID_APP_BUNDLES", isOpenBundle)
             buildConfigField("Boolean", "StrictMode", strictMode)
             buildConfigField("Boolean", "StrictMode_CleartextNetwork", open_strictmode_CleartextNetwork)
@@ -349,70 +274,6 @@ android {
             buildConfigField("String", "GRADLE_PROPERTIES", "\"" + GRADLE_PROPERTIES_JSON + "\"")
         }
     }
-/**scj-native-remove-begin**/
-    applicationVariants.all { variant ->
-        // 这里修改的原因是： 因为 plugin3.0.0 + 生成apk的路径与2.3.3有所变化 ，
-        // 服务端上传apk 是沿用的 plugin2.3.3生成apk的路径 ， 因此这里需要改成原来的路径
-        // 修改name的原因是 ： 服务端上传apk的默认apk名是 app-nd-**.apk , 是默认开启了nd渠道的
-        // 但是在集成测试功能测试中是关闭了多渠道打包， 为了适应服务端的策略， 这里修改apk name
-        try {
-            // 修改apk 名称
-            variant.outputs.all { output ->
-                String flavorname = rootProject.isComponentTest ? "nd" : variant.flavorName
-                String newApkFileName = "app-" + flavorname + "-" + variant.buildType.name + ".apk"
-                output.outputFileName = newApkFileName
-            }
-            // 修改apk 保存路径，复制outputs/apk/debug 文件夹下的文件至 outputs/apk
-            // 原先的方式在高版本gradle上无法兼容，所以修改对应的方法
-            def outputFileDir = "${project.projectDir.absolutePath}/build/outputs/apk"
-
-            variant.assemble.doLast {
-                variant.outputs.all { output ->
-                    // output.outputFile = outputs/apk/nd/debug/xxx.apk
-                    File newOutputDir = new File(outputFileDir)
-                    if (!newOutputDir.exists()) {
-                        newOutputDir.mkdirs()
-                    }
-                    println("=====修改apk路径 newOutputDir======"+ newOutputDir)
-                    // outputs/apk/nd/debug
-                    // outputs/apk/oppo/debug
-                    // outputs/apk/nd/debug
-                    String parent = output.outputFile.getParent()
-                    String delParent = output.outputFile.parentFile.getParent()
-                    File parentFile = new File(parent)
-                    println("=====修改apk路径 parentFile======"+ parentFile)
-                    println("=====修改apk路径 output.outputFile======"+ output.outputFile)
-                    if (parentFile.exists()) {
-                        copy {
-                            from fileTree(parent)
-                            into newOutputDir
-                        }
-                        File deleteFile;
-                        if (delParent.endsWith("apk")){
-                            // outputs/apk/debug
-                            deleteFile = parentFile
-                        }else {
-                            // outputs/apk/nd/debug
-                            deleteFile = new File(delParent)
-                        }
-                        println("=====修改apk路径 deleteFile======"+ deleteFile)
-                        delete deleteFile
-
-                    } else {
-                        copy {
-                            from output.outputFile
-                            into newOutputDir
-                        }
-                        delete output.outputFile
-                    }
-
-                }
-            }
-        } catch (Exception e) {
-            println("修改 生成apk的路径 和 name 时出错" + e.getMessage())
-        }
-    }
-/**scj-native-remove-end**/
 
     // Specifies dynamic feature modules that have a dependency on this base module.
     // dynamicFeatures = [] 占位符声明只允许在同一行，CI会整行替换真实的数据
@@ -481,9 +342,10 @@ dependencies {
 //            all*.exclude group:'com.nd.sdp.android', module: 'react-wrapper'
 //        }
 //    }
-/**scj-native-add-dependencies-begin**/
-    //通过脚本可以在这边加依赖
-/**scj-native-add-dependencies-end**/
+    implementation('com.nd.sdp.apf:utils-new:1.1.0-newmock@aar') {
+        transitive = true
+        changing = true        
+    }
     implementation 'com.google.android.play:core:1.5.0'
 }
 

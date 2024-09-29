@@ -1,8 +1,10 @@
 package com.nd.smartcan.appfactory.demo;
-/**scj-native-modify-Certificate-begin**/
-
+import android.content.Context;
 
 import com.nd.component.ICertificate;
+import com.nd.smartcan.appfactory.delegate.AppCertUtils;
+
+import java.security.interfaces.RSAPublicKey;
 
 /**
  *
@@ -11,13 +13,26 @@ import com.nd.component.ICertificate;
  */
 public class AppFactoryCertificate implements ICertificate {
 
-    private String mPublicKey=BuildConfig.signPublicKey;
+    private String mPublicKey= null;
 
 
     private String mSerialNumber=null;
 
+    private String md5=null;
 
-	/**scj-native-modify-Certificate-end**/
+
+    public AppFactoryCertificate(Context context)
+    {
+         RSAPublicKey mm=(RSAPublicKey)AppCertUtils.getSingInfo(context).getPublicKey();
+         mPublicKey=mm.getModulus().toString(16);
+    }
+
+    public String setMd5(String md5) {
+        return this.md5=md5;
+    }
+    public String getMd5() {
+        return md5;
+    }
 
     /**
      * 获取公钥信息。

@@ -55,12 +55,9 @@ public class ApplicationInitUtils {
       // 在4.4以下，系统需要合并包。需要等待合并完成后才能调用其他方法。
       AppCertUtils.saveProviderTime();
       Log.w("appPerformance", " begin app  onCreate ");
-      /**scj-native-modify-AppFactoryCertificate-begin**/
-      IAppCertificate iCertificate = new IAppCertificate() {
-
-         private AppFactoryCertificate m = new AppFactoryCertificate();
-
-         /**scj-native-modify-AppFactoryCertificate-end**/
+        final AppFactoryCertificate m = new AppFactoryCertificate(application);
+        IAppCertificate iCertificate = new IAppCertificate() {
+            private AppFactoryCertificate m = new AppFactoryCertificate(application);
          @Override
          public String getPublicKey() {
             return m.getPublicKey();
@@ -72,10 +69,8 @@ public class ApplicationInitUtils {
          }
       };
 
-      /**scj-native-add-AppFactoryCertificate-begin**/
-
-
-      /**scj-native-add-AppFactoryCertificate-end**/
+        String md5=com.nd.smartcan.commonUtils.user.CommonUtils.getMd5(application.getPackageName(),iCertificate.getPublicKey(),iCertificate.getSerialNumber());
+        m.setMd5(md5);
 
 
       // 产品可以配置是否启用我们拼装门户&应用工厂提供的应用更新能力（一经设置则永不再变）

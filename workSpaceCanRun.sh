@@ -1,4 +1,5 @@
-# !/bin/sh
+#!/bin/sh
+
 
 chmod 777 ./scripte_tools_testV1.0.3.jar
 chmod 777 ./app
