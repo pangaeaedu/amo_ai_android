@@ -33,7 +33,7 @@ buildscript {
 
         def gradle_plugin_version = properties.getProperty('gradle_plugin_version')
         if(gradle_plugin_version == null || gradle_plugin_version.trim().isEmpty()){
-            gradle_plugin_version = "3.6.4"
+            gradle_plugin_version = "7.1.2"
         }
         println ' -------------------------gradle_plugin_version ------------------------------------ is ' + gradle_plugin_version
         classpath "com.android.tools.build:gradle:${gradle_plugin_version}"
