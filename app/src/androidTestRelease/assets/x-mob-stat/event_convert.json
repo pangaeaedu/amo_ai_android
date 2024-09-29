@@ -1,0 +1,1817 @@
+{
+  "events": [
+    {
+      "id": "Mnavigation_enterNews",
+      "yEventIds": [
+        "IM_home_tab"
+      ],
+      "label": "导航-消息"
+    },
+    {
+      "id": "Mnavigation_learning",
+      "yEventIds": [
+        "ele_tab_home"
+      ],
+      "label": "导航-学习"
+    },
+    {
+      "id": "Mnavigation_enterMe",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_navigation_enterMe_click"
+      ],
+      "label": "导航-我的"
+    },
+    {
+      "id": "Mlearning_square",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_learning_discoveryCourse_click"
+      ],
+      "label": "学习-全部学习"
+    },
+    {
+      "id": "Mlearning_learningCenter",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_learning_learningCenter_click"
+      ],
+      "label": "学习-学习中心"
+    },
+    {
+      "id": "Mlearning_switchcolumn",
+      "yEventIds": [
+        "edu_mobilechannel_homepage_entering_load"
+      ],
+      "label": "学习-进入频道",
+      "params": [
+        {
+          "from": "channel_title",
+          "to": "tabName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_banner",
+      "yEventIds": [
+        "edu_mobilechannel_homepage_newviewbannerresource_clickandload"
+      ],
+      "label": "学习-查看图片轮播",
+      "params": [
+        {
+          "from": "resourcesId",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "name",
+          "to": "name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_alltopic",
+      "yEventIds": [
+        "edu_mobilechannel_homepage_newviewiconresource_clickandload"
+      ],
+      "label": "学习-点击专题图标",
+      "params": [
+        {
+          "from": "name",
+          "to": "topicName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_recommendCourse",
+      "yEventIds": [
+        "edu_mobilechannel_homepage_viewrecommendresource_clickandload"
+      ],
+      "label": "学习-进入推荐课程",
+      "params": [
+        {
+          "from": "resourceId",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "name",
+          "to": "name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_filterState",
+      "yEventIds": [
+        "edu_mobilechannel_resourcelist_changestate_click"
+      ],
+      "label": "学习-筛选-状态",
+      "_p": [
+        {
+          "to": "name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_filterSort",
+      "yEventIds": [
+        "edu_mobilechannel_resourcelist_sortchange_click"
+      ],
+      "label": "学习-筛选-排序",
+      "_p": [
+        {
+          "to": "name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_filterTags",
+      "yEventIds": [
+        "edu_mobilechannel_resourcelist_changetag_click"
+      ],
+      "label": "学习-筛选-标签",
+      "params": [
+        {
+          "from": "tagType",
+          "to": "tag",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_enterCourse",
+      "yEventIds": [
+        "edu_mobilechannel_resourcelist_viewresource_clickandload"
+      ],
+      "label": "学习-进入课程",
+      "params": [
+        {
+          "from": "resourceId",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "name",
+          "to": "name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "MloginPage_signIn",
+      "yEventIds": [
+        "uc_cmp_login_click"
+      ],
+      "label": "登录"
+    },
+    {
+      "id": "MloginPage_other",
+      "yEventIds": [
+        "uc_cmp_login_switch"
+      ],
+      "label": "登录-其他登录方式"
+    },
+    {
+      "id": "MloginPage_enroll",
+      "yEventIds": [
+        "uc_cmp_login_register_click"
+      ],
+      "label": "登录-注册"
+    },
+    {
+      "id": "MloginPage_forgetThePassword",
+      "label": "登录-忘记密码",
+      "yEventIds": [
+        "uc_cmp_login_forget_psw_click"
+      ]
+    },
+    {
+      "id": "MloginPage_switchAccounts",
+      "label": "登录-切换账号",
+      "yEventIds": [
+        "uc_cmp_login_switch_account_click"
+      ]
+    },
+    {
+      "id": "MloginPage_close",
+      "label": "登录-关闭登录页",
+      "yEventIds": [
+        "uc_cmp_login_close_click"
+      ]
+    },
+    {
+      "id": "MloginPage_userAgreement",
+      "label": "登录-查看协议",
+      "yEventIds": [
+        "uc_cmp_login_agreement_click"
+      ],
+      "params": [
+        {
+          "from": "agreement_name",
+          "to": "protocolName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mregistration_code",
+      "label": "注册-获取验证码",
+      "yEventIds": [
+        "uc_cmp_register_get_sms_code_click"
+      ],
+      "params": [
+        {
+          "from": "mobile_region_code",
+          "to": "locationOfPhoneNum",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mregistration_userAgreement",
+      "label": "注册-查看协议",
+      "yEventIds": [
+        "uc_cmp_register_viewAgreemt"
+      ],
+      "params": [
+        {
+          "from": "agreement_name",
+          "to": "protocolName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mregistration_agree",
+      "label": "注册-同意协议",
+      "yEventIds": [
+        "uc_cmp_register_agreement_dialog_click"
+      ],
+      "params": [
+        {
+          "from": "agree_to_agreement",
+          "to": "selectResult",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnews_mailList",
+      "label": "消息-切换类别",
+      "yEventIds": [
+        "IM_home_nav"
+      ],
+      "params": [
+        {
+          "from": "",
+          "to": "tabName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnews_learningAssistance",
+      "label": "消息-进入学习小助手",
+      "yEventIds": [
+        "IM_home_news"
+      ]
+    },
+    {
+      "id": "Mnews_more",
+      "label": "消息-打开更多",
+      "yEventIds": [
+        "IM_home_more"
+      ],
+      "params": [
+        {
+          "from": "",
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_signIn",
+      "label": "我的-登录",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_personalcenter_signIn_click"
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_profile",
+      "label": "我的-个人资料页",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_personalcenter_profile_click"
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_offlineCourse",
+      "label": "我的-离线课程"
+    },
+    {
+      "id": "Mpersonalcenter_ontentValidity",
+      "label": "我的-平台介绍"
+    },
+    {
+      "id": "Mpersonalcenter_setting",
+      "label": "我的-设置"
+    },
+    {
+      "id": "Mpersonalcenter_logOut",
+      "label": "我的-退出登录",
+      "yEventIds": [
+        "social_setting_clickLogout"
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_choice",
+      "label": "我的-设置选项",
+      "yEventIds": [
+        "social_setting_item_click"
+      ],
+      "params": [
+        {
+          "from": "itemName",
+          "to": "selectedItem",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_profile",
+      "label": "课程详情页-切换课程tab",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_profile_click",
+        "edu_mobileclass_homepage_Viewtab_clickandslid"
+      ],
+      "params": [
+        {
+          "from": "name",
+          "to": "tabName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_play",
+      "label": "课程详情页-开始学习",
+      "yEventIds": [
+        "edu_mobileclass_homepage_startele_click",
+        "edu_mobileLearningPlatform_detailspage_play_click"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_close",
+      "label": "课程详情页-退出课程",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_close_click",
+        "edu_mobileclass_homepage_outpage_anyway"
+      ],
+      "_p": [
+        {
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "to": "title",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_fullScreenPlay",
+      "label": "课程详情页-全屏播放",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_fullScreenPlay_click"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_note",
+      "label": "课程详情页-笔记",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_note_click"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_feedback",
+      "label": "课程详情页-反馈",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_feedback_click"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_setting",
+      "label": "课程详情页-设置",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_setting_click"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_switch",
+      "label": "课程详情页-切换章节播放",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_switch_click"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_more",
+      "label": "课程详情页-更多",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_more_click"
+      ],
+      "_p": [
+        {
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "to": "title",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_share",
+      "label": "课程详情页-更多操作",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_menu_click"
+      ],
+      "params": [
+        {
+          "from": "item_name",
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_screenProjection",
+      "label": "课程详情页-投屏",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_screenProjection_load"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mdetailspage_exitTheScreen",
+      "label": "课程详情页-退出投屏",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_detailspage_exitTheScreen_click"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resId",
+          "type": 1
+        },
+        {
+          "from": "resource_name",
+          "to": "resName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_openSearch",
+      "label": "学习-打开搜索",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_learning_openSearch_click"
+      ]
+    },
+    {
+      "id": "Mlearning_searchResult",
+      "label": "学习-搜索结果",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_learning_searchResult_click"
+      ],
+      "params": [
+        {
+          "from": "keyWord",
+          "to": "keyWord",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_intoSearchCourse",
+      "label": "学习-进入搜索结果课程",
+      "yEventIds": [
+        "Mlearning_enterSearchCourse"
+      ],
+      "params": [
+        {
+          "from": "course_id",
+          "to": "course_id",
+          "type": 1
+        },
+        {
+          "from": "title",
+          "to": "title",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_intoSearchLecturer",
+      "label": "学习-进入搜索结果讲师",
+      "yEventIds": [
+        "Mlearning_enterSearchLecturer"
+      ],
+      "params": [
+        {
+          "from": "Lecturer_id",
+          "to": "Lecturer_id",
+          "type": 1
+        },
+        {
+          "from": "name",
+          "to": "name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Minformation_chooserole",
+      "label": "身份选择",
+      "yEventIds": [
+        "Minformationpage_chooseIdentity"
+      ],
+      "params": [
+        {
+          "from": "role",
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Minformation_namenext",
+      "label": "完善信息-编辑姓名-点击下一步",
+      "yEventIds": [
+        "Minformationpage_namenext"
+      ]
+    },
+    {
+      "id": "Minformation_nameskip",
+      "label": "完善信息-编辑姓名-点击跳过",
+      "yEventIds": [
+        "Minformationpage_nameskip"
+      ]
+    },
+    {
+      "id": "Minformation_schoolcomplete",
+      "label": "完善信息-编辑学校-点击下一步",
+      "yEventIds": [
+        "Minformationpage_schoolcomplete"
+      ]
+    },
+    {
+      "id": "Minformation_schoolskip",
+      "label": "完善信息-编辑学校-点击跳过",
+      "yEventIds": [
+        "Minformationpage_schoolskip"
+      ]
+    },
+    {
+      "id": "Mlearning_offlineCourse",
+      "label": "学习中心-离线课程",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_learning_offlineCourse_click"
+      ]
+    },
+    {
+      "id": "Mlearning_cancelLogin",
+      "label": "学习中心-登录选择",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_learning_cancelLogin_click"
+      ],
+      "params": [
+        {
+          "from": "result",
+          "to": "loginSelectResult",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_learningCourse",
+      "label": "学习中心-进入课程",
+      "yEventIds": [
+        "edu_mobileLearningPlatform_learning_learningCourse_click"
+      ],
+      "_p": [
+        {
+          "to": "courseId",
+          "type": 1
+        },
+        {
+          "to": "courseName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_resultswitch",
+      "label": "学习-搜索结果-切换tab",
+      "yEventIds": [
+        "Mlearning_resultswitch"
+      ],
+      "_p": [
+        {
+          "to": "tab_name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Minformation_namecomplete",
+      "label": "完善信息-编辑姓名-点击完成",
+      "yEventIds": [
+        "Minformationpage_namecomplete"
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_switchrole",
+      "label": "我的-切换身份",
+      "yEventIds": [
+        "Mpersonalcenter_switchidentity"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_switchchild",
+      "label": "我的-切换孩子tab",
+      "yEventIds": [
+        "Mpersonalcenter_switchchildren"
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_addrole",
+      "label": "我的-切换角色-添加身份",
+      "yEventIds": [
+        "Mpersonalcenter_addidentity"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_deleterole",
+      "label": "我的-切换角色-删除身份",
+      "yEventIds": [
+        "Mpersonalcenter_deleteidentity"
+      ]
+    },
+    {
+      "id": "Mpersonalcenter_myfamily",
+      "label": "我的-我的家庭",
+      "yEventIds": [
+        "Mpersonalcenter_myfamily"
+      ]
+    },
+    {
+      "id": "Mmyfamily_creating",
+      "label": "我的家庭-创建家庭",
+      "yEventIds": [
+        "Mmyfamily_creating"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_add",
+      "label": "我的家庭-添加成员",
+      "yEventIds": [
+        "Mmyfamily_add"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_addoption",
+      "label": "我的家庭-添加成员-更多操作",
+      "yEventIds": [
+        "Mmyfamily_addoption"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_phoneadd",
+      "label": "我的家庭-手机号添加",
+      "yEventIds": [
+        "Mmyfamily_phoneadd"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_invite",
+      "label": "我的家庭-手机号添加-邀请",
+      "yEventIds": [
+        "Mmyfamily_invite"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_inviteoption",
+      "label": "我的家庭-手机号添加-邀请弹窗",
+      "yEventIds": [
+        "Mmyfamily_inviteoption"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_more",
+      "label": "我的家庭-手机号添加-更多",
+      "yEventIds": [
+        "Mmyfamily_more"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_moreoption",
+      "label": "我的家庭-手机号添加-更多操作",
+      "yEventIds": [
+        "Mmyfamily_moreoption"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_qrcodeadd",
+      "label": "我的家庭-扫码添加",
+      "yEventIds": [
+        "Mmyfamily_qrcodeadd"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mmyfamily_wechatadd",
+      "label": "我的家庭-微信添加",
+      "yEventIds": [
+        "Mmyfamily_wechatadd"
+      ]
+    },
+    {
+      "id": "Mmyfamily_qqadd",
+      "label": "我的家庭-QQ添加",
+      "yEventIds": [
+        "Mmyfamily_qqadd"
+      ]
+    },
+    {
+      "id": "Mmyfamily_check",
+      "label": "加入家庭检测弹窗",
+      "yEventIds": [
+        "Mmyfamily_check"
+      ],
+      "_p": [
+        {
+          "to": "pageSource",
+          "type": 1
+        },
+        {
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnews_Invitedtojoin",
+      "label": "消息-受邀加入家庭",
+      "yEventIds": [
+        "Mnews_Invitedtojoin"
+      ],
+      "_p": [
+        {
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_open",
+      "label": "打开通知",
+      "yEventIds": [
+        "Mnotice_classgroup_open",
+        "Mpersonalcenter_notice"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "from": "type",
+          "to": "type",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_open",
+      "label": "打开打卡",
+      "yEventIds": [
+        "Mclockin_classgroup_open",
+        "Mpersonalcenter_clockin"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "from": "type",
+          "to": "type",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_list_switch",
+      "label": "通知-切换tab",
+      "yEventIds": [
+        "Mnotice_list_switch"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "from": "tabName",
+          "to": "tabName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_list_openSearch",
+      "label": "通知-打开搜索",
+      "yEventIds": [
+        "Mnotice_list_openSearch"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_list_screen",
+      "label": "通知-打开筛选",
+      "yEventIds": [
+        "Mnotice_list_screen"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_list_more",
+      "label": "通知-我发布的-更多",
+      "yEventIds": [
+        "Mnotice_list_more"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_list_option",
+      "label": "通知-通知列表-更多操作-点击选项",
+      "yEventIds": [
+        "Mnotice_list_option"
+      ],
+      "params": [
+        {
+          "from": "optionName",
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_list_share",
+      "label": "通知-通知列表-分享",
+      "yEventIds": [
+        "Mnotice_list_share"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "from": "pageName",
+          "to": "pageName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_list_shareType",
+      "label": "通知-分享方式",
+      "yEventIds": [
+        "Mnotice_list_shareType"
+      ],
+      "params": [
+        {
+          "from": "sharechannel_id",
+          "to": "sharechannel_id",
+          "type": 1
+        },
+        {
+          "from": "sharechannel_name",
+          "to": "sharechannel_name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_list_remind",
+      "label": "通知-我发布的-提醒",
+      "yEventIds": [
+        "Mnotice_list_remind"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_list_see",
+      "label": "通知-我收到的-去查看",
+      "yEventIds": [
+        "Mnotice_list_see"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_list_confirm",
+      "label": "通知-我收到的-去确认",
+      "yEventIds": [
+        "Mnotice_list_confirm"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_list_refresh",
+      "label": "通知-通知列表-刷新页面",
+      "yEventIds": [
+        "Mnotice_list_refresh"
+      ],
+      "params": [
+        {
+          "from": "pageName",
+          "to": "pageName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_homepage_open",
+      "label": "通知-打开发布通知",
+      "yEventIds": [
+        "Mnotice_homepage_open"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_publish_new",
+      "label": "通知-发布通知-新建通知",
+      "yEventIds": [
+        "Mnotice_publish_new"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_publish_preserve",
+      "label": "通知-新建通知-存为模板",
+      "yEventIds": [
+        "Mnotice_publish_preserve"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_publish_confirm",
+      "label": "通知-新建通知-发布",
+      "yEventIds": [
+        "Mnotice_publish_confirm"
+      ],
+      "params": [
+        {
+          "from": "imgCount",
+          "to": "imgCount",
+          "type": 1
+        },
+        {
+          "from": "audioCount",
+          "to": "audioCount",
+          "type": 1
+        },
+        {
+          "from": "videoCount",
+          "to": "videoCount",
+          "type": 1
+        },
+        {
+          "from": "fileCount",
+          "to": "fileCount",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_publish_addto",
+      "label": "通知-新建通知-添加附件",
+      "yEventIds": [
+        "Mnotice_publish_addto"
+      ],
+      "params": [
+        {
+          "from": "mediaTypeName",
+          "to": "mediaTypeName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_details_remind",
+      "label": "通知-通知详情-一键提醒",
+      "yEventIds": [
+        "Mnotice_details_remind"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_details_share",
+      "label": "通知-通知详情-分享",
+      "yEventIds": [
+        "Mnotice_details_share"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        },
+        {
+          "from": "source",
+          "to": "source",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_details_sharetype",
+      "label": "通知-通知详情-分享方式",
+      "yEventIds": [
+        "Mnotice_details_sharetype"
+      ],
+      "params": [
+        {
+          "from": "sharechannel_id",
+          "to": "sharechannel_id",
+          "type": 1
+        },
+        {
+          "from": "sharechannel_name",
+          "to": "sharechannel_name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_details_more",
+      "label": "通知-通知详情-更多",
+      "yEventIds": [
+        "Mnotice_details_more"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_details_option",
+      "label": "通知-通知详情-更多操作-点击选项",
+      "yEventIds": [
+        "Mnotice_details_option"
+      ],
+      "params": [
+        {
+          "from": "optionName",
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mnotice_details_confirm",
+      "label": "通知-通知详情-需回执-确认",
+      "yEventIds": [
+        "Mnotice_details_confirm"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_details_editing",
+      "label": "通知-通知详情-定时发布-编辑",
+      "yEventIds": [
+        "Mnotice_details_editing"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnotice_details_recall",
+      "label": "通知-通知详情-定时发布-撤回",
+      "yEventIds": [
+        "Mnotice_details_recall"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnews_notice",
+      "label": "消息-进入通知公告",
+      "yEventIds": [
+        "Mnews_notice"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_list_switch",
+      "label": "打卡-切换tab",
+      "yEventIds": [
+        "Mclockin_list_switch"
+      ],
+      "params": [
+        {
+          "from": "tabName",
+          "to": "tabName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_list_openSearch",
+      "label": "打卡-打开搜索",
+      "yEventIds": [
+        "Mclockin_list_openSearch"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_list_screen",
+      "label": "打卡-打开筛选",
+      "yEventIds": [
+        "Mclockin_list_screen"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_list_more",
+      "label": "打卡-我发布的-更多",
+      "yEventIds": [
+        "Mclockin_list_more"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_list_option",
+      "label": "打卡-我发布的-更多操作-点击选项",
+      "yEventIds": [
+        "Mclockin_list_option"
+      ],
+      "params": [
+        {
+          "from": "optionName",
+          "to": "optionName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_list_shareType",
+      "label": "打卡-分享方式",
+      "yEventIds": [
+        "social_share_menu_itemClick"
+      ],
+      "params": [
+        {
+          "from": "shareType",
+          "to": "shareType",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_details_more",
+      "label": "打卡-打卡详情-更多",
+      "yEventIds": [
+        "Mclockin_details_more"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_details_share",
+      "label": "打卡-打卡详情-分享",
+      "yEventIds": [
+        "Mclockin_details_share"
+      ],
+      "params": [
+        {
+          "from": "tabName",
+          "to": "tabName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_publish_share",
+      "label": "打卡-打卡成果-分享",
+      "yEventIds": [
+        "Mclockin_publish_share"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_homepage_add",
+      "label": "打卡-新建打卡活动",
+      "yEventIds": [
+        "Mclockin_homepage_add"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_publish_template",
+      "label": "打卡-发布打卡活动-模板",
+      "yEventIds": [
+        "Mclockin_publish_template"
+      ],
+      "params": [
+        {
+          "from": "tempName",
+          "to": "tempName",
+          "type": 1
+        },
+        {
+          "from": "tempId",
+          "to": "tempId",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_publish_custom",
+      "label": "打卡-发布打卡活动-自定义打卡",
+      "yEventIds": [
+        "Mclockin_publish_custom"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_publish_confirm",
+      "label": "打卡-发布打卡活动-发布",
+      "yEventIds": [
+        "Mclockin_publish_confirm"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_list_clockin",
+      "label": "打卡-我参与的-去打卡",
+      "yEventIds": [
+        "Mclockin_list_clockin"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_myclockin_clockin",
+      "label": "打卡-我的打卡-去打卡",
+      "yEventIds": [
+        "Mclockin_myclockin_clockin"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_list_continueclockin",
+      "label": "打卡-我参与的-继续打卡",
+      "yEventIds": [
+        "Mclockin_list_continueclockin"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_list_partake",
+      "label": "打卡-我参与的-去参与",
+      "yEventIds": [
+        "Mclockin_list_partake"
+      ],
+      "params": [
+        {
+          "from": "identity",
+          "to": "identity",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_list_refresh",
+      "label": "打卡-打卡列表-刷新页面",
+      "yEventIds": [
+        "Mclockin_list_refresh"
+      ],
+      "params": [
+        {
+          "from": "pageName",
+          "to": "pageName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_list_open",
+      "label": "打卡-查看打卡详情",
+      "yEventIds": [
+        "Mclockin_list_open"
+      ],
+      "params": [
+        {
+          "from": "pageName",
+          "to": "pageName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mclockin_details_clockin",
+      "label": "打卡-打卡详情-去打卡",
+      "yEventIds": [
+        "Mclockin_details_clockin"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_details_partake",
+      "label": "打卡-打卡详情-立即参与",
+      "yEventIds": [
+        "Mclockin_details_partake"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_details_remind",
+      "label": "打卡-打卡详情-一键提醒",
+      "yEventIds": [
+        "Mclockin_details_remind"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_publish_submit",
+      "label": "打卡-提交打卡成果-提交",
+      "yEventIds": [
+        "Mclockin_publish_submit"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mclockin_publish_preserve",
+      "label": "打卡-提交打卡成果-保存",
+      "yEventIds": [
+        "Mclockin_publish_preserve"
+      ],
+      "params": []
+    },
+    {
+      "id": "Mnews_clockinAssistance",
+      "label": "消息-进入打卡小助手",
+      "yEventIds": [
+        "Mnews_clockinAssistance"
+      ],
+      "params": []
+    },
+    {
+      "id": "MloginPage_code",
+      "label": "登录-第三方登录-绑定手机号-获取验证码",
+      "yEventIds": [
+        "uc_cmp_login_thirdParty_bind_person_account_get_sms_code_click"
+      ],
+      "params": [
+        {
+          "from": "mobile_region_code",
+          "to": "locationOfPhoneNum",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "MloginPage_bindingphone",
+      "label": "登录-第三方登录-绑定",
+      "yEventIds": [
+        "uc_cmp_bind_mobile_entering"
+      ],
+      "params": [
+        {
+          "from": "type",
+          "to": "channelName",
+          "type": 1
+        },
+        {
+          "from": "mode",
+          "to": "type",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "MloginPage_logonbindphone",
+      "label": "登录-第三方登录-注册+绑定",
+      "yEventIds": [
+        "uc_cmp_login_thirdParty_click_bind_person_account_dialog"
+      ],
+      "params": [
+        {
+          "from": "type",
+          "to": "channelName",
+          "type": 1
+        },
+        {
+          "from": "mode",
+          "to": "type",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "MloginPage_WeChat",
+      "label": "登录-微信",
+      "yEventIds": [
+        "uc_cmp_login_thirdSuccess",
+        "uc_cmp_login_thirdFail"
+      ],
+      "params": [
+        {
+          "from": "type",
+          "to": "channelName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "MloginPage_social",
+      "label": "登录-第三方登录方式",
+      "yEventIds": [
+        "uc_cmp_login_thirdParty"
+      ],
+      "params": [
+        {
+          "from": "type",
+          "to": "channelName",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_studyTopics_see",
+      "label": "学习-专题教育-查看专题",
+      "yEventIds": [
+        "Mlearning_studyTopics_see"
+      ],
+      "params": [
+        {
+          "from": "name",
+          "to": "name",
+          "type": 1
+        },
+        {
+          "from": "resourcesId",
+          "to": "resId",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mplaypage_asking",
+      "label": "资源播放页-进行提问",
+      "yEventIds": [
+        "act_hours_doc_asking",
+        "act_hours_video_asking"
+      ],
+      "params": [
+        {
+          "from": "activity_id",
+          "to": "book_title",
+          "type": 1
+        },
+        {
+          "from": "course_id",
+          "to": "course_title",
+          "type": 1
+        },
+        {
+          "from": "resource_id",
+          "to": "resource_title",
+          "type": 1
+        }
+      ]
+    },
+    {
+        "id": "Mpersonalcenter_joinclass_join",
+        "label": "我的-我的班级列表-加入",
+        "yEventIds": [
+          "Mpersonalcenter_jointheclass_join"
+        ],
+        "params": [
+          {
+            "from": "identity",
+            "to": "identity",
+            "type": 1
+          }
+        ]
+    },
+    {
+      "id": "Mlearning_search_resultswitch_click",
+      "label": "搜索结果-切换tab",
+      "yEventIds": [
+        "Mlearning_resultswitch"
+      ],
+      "_p": [
+        {
+          "from": "tab_name",
+          "to": "tab_name",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "Mlearning_navigationChange_click",
+      "label": "学习-首页-导航切换",
+      "yEventIds": [
+        "edu_mobilechannel_homepage_entering_load"
+      ],
+      "_p": [
+        {
+          "from": "tabName",
+          "to": "channel_name",
+          "type": 1
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -86,7 +86,7 @@ public class G_app_app implements IJsonMapCreator
 			map1.put("label", "aom-android");
 			map1.put("rn_debug_mode", "false");
 			map1.put("sdp-migrated", "");
-			map1.put("appid", "9f45cb97-6499-45a5-8149-0bfc905b8ac0");
+			map1.put("appid", "52dee6da-4350-4ff9-a9e5-309ce2880721");
 			map1.put("launcher", "cmp://com.nd.sdp.component.nduccomponent/login");
 			map1.put("env", "5");
 			map1.put("factory_id", "e7a107ec-849d-4e4d-b691-d50c2e0af8a4");
@@ -469,7 +469,7 @@ public class G_app_app implements IJsonMapCreator
 			map1.put("lite_app_host", "https://lite-app-server.beta.101.com/v1");
 			map1.put("sub_app_manage", "https://sub-app-manage.beta.101.com/");
 			map1.put("domain_service", "https://portal-app-server.beta.101.com/");
-			map1.put("pkgid", "9f45cb97-6499-45a5-8149-0bfc905b8ac0");
+			map1.put("pkgid", "52dee6da-4350-4ff9-a9e5-309ce2880721");
 			map1.put("LOCATION", "允许后，您就可以进行学校定位、好友实时位置共享的关于定位的相关操作。");
 			map1.put("android_scan_privacy_enabled", "false");
 			stack.push(new ArrayList<>(2));

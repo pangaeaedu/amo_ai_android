@@ -6736,7 +6736,7 @@ public class G_th_components_build implements IJsonListCreator
 				map1.put("topic_config_src", "https://api.ykt.cbern.com.cn/zxx/api_static/edu_thai/conf_pre/app_topic_240620.json");
 				map1.put("key_school_name", "x_school_name");
 				map1.put("video_led_src", "https://grey-config.ykt.cbern.com.cn/led-config/led-app-smart-zxx_231220.json");
-				map1.put("modAppId", "9f45cb97-6499-45a5-8149-0bfc905b8ac0");
+				map1.put("modAppId", "52dee6da-4350-4ff9-a9e5-309ce2880721");
 				map1.put("app_funs_src", "https://grey-config.ykt.cbern.com.cn/app_func.json");
 				map1.put("modifyHost", "true");
 				map1.put("app_conf_src", "https://api.ykt.cbern.com.cn/zxx/api_static/edu_thai/conf_pre/v0.1.json");
@@ -11309,7 +11309,7 @@ public class G_th_components_build implements IJsonListCreator
 			{
 				map1 = (Map<String, Object>) stack.peek();
 				map1.put("thirdlogingoogle_login_url_schema", "com.googleusercontent.apps.874191428938-n9gh1a4d1snfioa3ufein7j617n69o2d");
-				map1.put("google_app_key_android", "874191428938-m8df7lnbl12dnnav0s4dakpl1ms7vue7.apps.googleusercontent.com");
+				map1.put("google_app_key_android", "422535343086-ovcktm43nkh0m24jjhq8kk7hfjnp9ekg.apps.googleusercontent.com");
 				map1.put("google_client_key", "874191428938-n9gh1a4d1snfioa3ufein7j617n69o2d.apps.googleusercontent.com");
 				map1.put("lazy_init_android", "false");
 				map1.put("lazy_init_ios", "false");
@@ -11373,7 +11373,7 @@ public class G_th_components_build implements IJsonListCreator
 			map1.put("properties", stack.peek());
 			{
 				map1 = (Map<String, Object>) stack.peek();
-				map1.put("channel_id_android", "");
+				map1.put("channel_id_android", "2006309534");
 				map1.put("thirdloginline_login_url_schema", "line3rdp.$(PRODUCT_BUNDLE_IDENTIFIER)");
 				map1.put("lazy_init_android", "true");
 				map1.put("lazy_init_ios", "true");

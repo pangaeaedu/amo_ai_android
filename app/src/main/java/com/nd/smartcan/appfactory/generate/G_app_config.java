@@ -143,7 +143,7 @@ public class G_app_config implements IJsonMapCreator
 			map1.put("filename", "LLL");
 			map1.put("v_org_name", "");
 			map1.put("sdp-migrated", "");
-			map1.put("appid", "9f45cb97-6499-45a5-8149-0bfc905b8ac0");
+			map1.put("appid", "52dee6da-4350-4ff9-a9e5-309ce2880721");
 			map1.put("node_id", "");
 			map1.put("launcher", "cmp://com.nd.sdp.component.nduccomponent/login");
 			map1.put("env", "5");

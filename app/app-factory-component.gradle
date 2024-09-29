@@ -1,5 +1,22 @@
 dependencies{
 repositories { flatDir { dirs './aars', 'libs' } }
+    implementation project(":userinfo_module")
+    implementation project(":user_module")
+    implementation project(":cloud_assemble_module")
+    api project(":sdk")
+    api project(":presenter")
+    implementation project(":tcourse")
+    implementation project(":teach-course")
+    implementation project(":ocourse")
+    implementation project(":coursehour")
+    implementation project(":experiment")
+    implementation project(":standard")
+    implementation project(":course_module")
+    implementation project(":thai-nduccomponent")
+    implementation project(":llp-ui")
+    configurations {
+        all*.exclude group: 'com.nd.sdp.uc', module: 'nd_uc_component'
+    }
     implementation(name:'url_launcher_release-1.0', ext:'aar')
     implementation(name:'appfactory_release-1.0', ext:'aar')
     implementation(name:'spanner_flutter_release-1.0', ext:'aar')
@@ -15,7 +32,7 @@ repositories { flatDir { dirs './aars', 'libs' } }
 
           	
 			def ucComponentVersion = "0.8.8.7.uccom.release"
-			def ndUcSdkVersion = "0.2.1.3.nducsdk.release"
+			def ndUcSdkVersion = "0.2.1.0.nducsdk.release"
 			def ucSdkVersion = "1.3.1.9.ucsdk.release"
 
 			implementation "com.nd.sdp:uc_component:${ucComponentVersion}"
@@ -916,10 +933,10 @@ afterEvaluate {
 
 			implementation "com.nd.sdp.uc:nduc_agreement:${ucAgree}"
 			implementation "com.nd.sdp.uc:nduc_agreement_net:${ucAgree}"
-            implementation "com.nd.sdp.uc:nd_uc_component:${nducComponent}"
+//            implementation "com.nd.sdp.uc:nd_uc_component:${nducComponent}"
             configurations.all {
                   resolutionStrategy {
-                      force "com.nd.sdp.uc:nd_uc_component:${nducComponent}"
+//                      force "com.nd.sdp.uc:nd_uc_component:${nducComponent}"
                   }
               }
             
@@ -954,8 +971,8 @@ afterEvaluate {
         
         
 
-            implementation 'com.nd.sdp.android:llp-x-user-android:1-develop-SNAPSHOT'
-            implementation 'com.nd.xst:llp-userinfo:2-develop-SNAPSHOT'
+//            implementation 'com.nd.sdp.android:llp-x-user-android:1-develop-SNAPSHOT'
+//            implementation 'com.nd.xst:llp-userinfo:2-develop-SNAPSHOT'
             configurations {
                 all*.exclude group: 'com.nd.xst', module: 'userinfo'
             }
@@ -982,7 +999,7 @@ afterEvaluate {
     		}
 		 
 
-              implementation ("com.nd.sdp.android:llp-x-cloud-assemble-android:1-tailand-SNAPSHOT")
+//              implementation ("com.nd.sdp.android:llp-x-cloud-assemble-android:1-tailand-SNAPSHOT")
           
               //临时解决设置界面乱码问题
               implementation('com.nd.android.sdp.social:module_pagesdk:13.0.3.267ac54')
@@ -1112,7 +1129,7 @@ configurations.all {
         
 
         	
-       		    implementation ("com.nd.sdp.android:llp-xst-course:1.1")
+//       		    implementation ("com.nd.sdp.android:llp-xst-course:1.1")
                 configurations {
                     all*.exclude group: 'com.nd.sdp.android', module: 'xst-course-sdk'
                     all*.exclude group: 'com.nd.sdp.android', module: 'xst-course-presenter'
@@ -1323,7 +1340,7 @@ compileOptions {
 		
 
         	
-       		    implementation ("com.nd.sdp.android:xst-coursehour:1.4.8-rc7")
+//       		    implementation ("com.nd.sdp.android:xst-coursehour:1.4.8-rc7")
              
 		
 

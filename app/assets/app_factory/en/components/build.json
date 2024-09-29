@@ -4369,7 +4369,7 @@
         "version": "release",
         "properties": {
             "thirdlogingoogle_login_url_schema": "com.googleusercontent.apps.874191428938-n9gh1a4d1snfioa3ufein7j617n69o2d",
-            "google_app_key_android": "874191428938-m8df7lnbl12dnnav0s4dakpl1ms7vue7.apps.googleusercontent.com",
+            "google_app_key_android": "422535343086-ovcktm43nkh0m24jjhq8kk7hfjnp9ekg.apps.googleusercontent.com",
             "google_client_key": "874191428938-n9gh1a4d1snfioa3ufein7j617n69o2d.apps.googleusercontent.com",
             "lazy_init_android": "false",
             "lazy_init_ios": "false"
@@ -4395,7 +4395,7 @@
         },
         "version": "release",
         "properties": {
-            "channel_id_android": "",
+            "channel_id_android": "2006309534",
             "thirdloginline_login_url_schema": "line3rdp.$(PRODUCT_BUNDLE_IDENTIFIER)",
             "lazy_init_android": "true",
             "lazy_init_ios": "true"
