@@ -619,8 +619,8 @@ configurations.all {
 				implementation "com.nd.sdp.android:userinfo-view-sdk-android:1.2.1"
 				android {
                     compileOptions {
-                        sourceCompatibility 1.8
-                        targetCompatibility 1.8
+                        sourceCompatibility JavaVersion.VERSION_11
+                        targetCompatibility JavaVersion.VERSION_11
                     }
                 }
              
@@ -942,8 +942,8 @@ afterEvaluate {
                 implementation ('com.nd.sdp.android.social3:blacklist-support:1.2.0-x.155704')
                 android {
                     compileOptions {
-                        sourceCompatibility 1.8
-                        targetCompatibility 1.8
+                        sourceCompatibility JavaVersion.VERSION_11
+                        targetCompatibility JavaVersion.VERSION_11
                     }
                 }
              
@@ -965,8 +965,8 @@ afterEvaluate {
 				implementation("com.nd.sdp.android.social3:remark-name:2.0.5")
 				android {
 					compileOptions {
-						sourceCompatibility 1.8
-						targetCompatibility 1.8
+						sourceCompatibility JavaVersion.VERSION_11
+						targetCompatibility JavaVersion.VERSION_11
 					}
 				}
                 implementation("com.nd.sdp.android.social3:remark-name-sdk:2.0.3")
@@ -1220,8 +1220,8 @@ android {
         exclude 'META-INF/beans.xml'
     }
 compileOptions {
-        sourceCompatibility '1.8'
-        targetCompatibility '1.8'
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
@@ -1403,8 +1403,8 @@ compileOptions {
           
 		    android {
               compileOptions {
-                      sourceCompatibility 1.8
-                      targetCompatibility 1.8
+                      sourceCompatibility JavaVersion.VERSION_11
+                      targetCompatibility JavaVersion.VERSION_11
                   }
 				configurations {
                    all*.exclude group: 'com.squareup.okhttp', module: 'okhttp'
@@ -1479,8 +1479,8 @@ compileOptions {
           
 android {
 	compileOptions {
-		sourceCompatibility 1.8
-		targetCompatibility 1.8
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
 	}
 }
           
@@ -2256,8 +2256,8 @@ def addPermissionAar(group, module, version, add) {
 			
 		    	android {
     				compileOptions {
-        				sourceCompatibility 1.8
-        				targetCompatibility 1.8
+        				sourceCompatibility JavaVersion.VERSION_11
+        				targetCompatibility JavaVersion.VERSION_11
     				}
 				}
 			
@@ -2266,8 +2266,8 @@ def addPermissionAar(group, module, version, add) {
              
                 android { 
                     compileOptions { 
-                        sourceCompatibility 1.8 
-                        targetCompatibility 1.8 
+                        sourceCompatibility JavaVersion.VERSION_11 
+                        targetCompatibility JavaVersion.VERSION_11 
                     } 
                 } 
             
@@ -2277,8 +2277,8 @@ def addPermissionAar(group, module, version, add) {
 			
 		    	android {
     				compileOptions {
-        				sourceCompatibility 1.8
-        				targetCompatibility 1.8
+        				sourceCompatibility JavaVersion.VERSION_11
+        				targetCompatibility JavaVersion.VERSION_11
     				}
 				}
 			
@@ -2354,8 +2354,8 @@ def addPermissionAar(group, module, version, add) {
 			
 		    	android {
     				compileOptions {
-        				sourceCompatibility 1.8
-        				targetCompatibility 1.8
+        				sourceCompatibility JavaVersion.VERSION_11
+        				targetCompatibility JavaVersion.VERSION_11
     				}
 				}
 			
