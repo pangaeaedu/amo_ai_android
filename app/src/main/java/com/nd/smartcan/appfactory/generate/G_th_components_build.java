@@ -11268,9 +11268,9 @@ public class G_th_components_build implements IJsonListCreator
 			map1.put("properties", stack.peek());
 			{
 				map1 = (Map<String, Object>) stack.peek();
-				map1.put("facebook_app_key_android", "fb881556652223099");
-				map1.put("thirdloginfacebook_login_url_schema", "fb881556652223099");
-				map1.put("facebook_app_key", "fb881556652223099");
+				map1.put("facebook_app_key_android", "480700621612786");
+				map1.put("thirdloginfacebook_login_url_schema", "480700621612786");
+				map1.put("facebook_app_key", "480700621612786");
 				map1.put("lazy_init_android", "false");
 				map1.put("lazy_init_ios", "false");
 			}

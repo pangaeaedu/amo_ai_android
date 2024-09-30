@@ -4352,9 +4352,9 @@
         "event": {},
         "version": "release",
         "properties": {
-            "facebook_app_key_android": "fb881556652223099",
-            "thirdloginfacebook_login_url_schema": "fb881556652223099",
-            "facebook_app_key": "fb881556652223099",
+            "facebook_app_key_android": "480700621612786",
+            "thirdloginfacebook_login_url_schema": "480700621612786",
+            "facebook_app_key": "480700621612786",
             "lazy_init_android": "false",
             "lazy_init_ios": "false"
         }
