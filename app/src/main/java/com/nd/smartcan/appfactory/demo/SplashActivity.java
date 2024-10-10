@@ -20,6 +20,7 @@ import com.nd.smartcan.appfactory.delegate.CustomSchemeURIUtil;
 import com.nd.smartcan.appfactory.delegate.SplashActivityDelegate;
 
 import androidx.annotation.Nullable;
+import androidx.core.splashscreen.SplashScreen;
 import androidx.fragment.app.FragmentActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
@@ -65,7 +66,9 @@ public class SplashActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) { /*inject*/
 		AppStatUtils.onFirstPageCreate(this);
+        SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
+        splashScreen.setKeepOnScreenCondition(() -> true);
 
         // 这里需要置空协议名称点击等
         NdUcPreferencesConfig.getInstance().resetAgreementDataState();
