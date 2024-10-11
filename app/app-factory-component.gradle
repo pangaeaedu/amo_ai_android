@@ -16,6 +16,7 @@ repositories { flatDir { dirs './aars', 'libs' } }
     implementation project(":llp-ui")
     configurations {
         all*.exclude group: 'com.nd.sdp.uc', module: 'nd_uc_component'
+        all*.exclude group: 'com.nd.sdp', module: 'thirdlogincomfacebook'
     }
     implementation(name:'url_launcher_release-1.0', ext:'aar')
     implementation(name:'appfactory_release-1.0', ext:'aar')
@@ -1362,7 +1363,7 @@ compileOptions {
         
 
                         	
-                implementation('com.nd.sdp:thirdlogincomfacebook:1.0.0.7.release') {
+                implementation('com.nd.sdp:llpthirdlogincomfacebook:1.0.0.7.llp-SNAPSHOT') {
             	transitive = true
             	changing = true 
         		}
